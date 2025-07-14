@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Station Avenue",
+    "lat": 53.959349,
+    "lon": -1.089692,
+    "sequence": 1
+  },
+  {
+    "name": "York, Rougier Street, CG",
+    "lat": 53.958558283,
+    "lon": -1.087347274,
+    "sequence": 2
+  },
+  {
+    "name": "York, Micklegate, CJ",
+    "lat": 53.9573167,
+    "lon": -1.086002766,
+    "sequence": 3
+  },
+  {
+    "name": "Ryedale Building",
+    "lat": 53.955945,
+    "lon": -1.077087,
+    "sequence": 4
+  },
+  {
+    "name": "York, Stonebow",
+    "lat": 53.959127832,
+    "lon": -1.078357972,
+    "sequence": 5
+  },
+  {
+    "name": "York, Peasholme Green, adj Quilt Museum",
+    "lat": 53.960552661,
+    "lon": -1.075461172,
+    "sequence": 6
+  },
+  {
+    "name": "York, Trinity Methodist Church",
+    "lat": 53.964204946,
+    "lon": -1.075868136,
+    "sequence": 7
+  },
+  {
+    "name": "Heworth, Monk Bridge",
+    "lat": 53.965331392,
+    "lon": -1.072748868,
+    "sequence": 8
+  },
+  {
+    "name": "Heworth Inn Ph, opp",
+    "lat": 53.966911117,
+    "lon": -1.066662057,
+    "sequence": 9
+  },
+  {
+    "name": "Heworth Golf Course, adj",
+    "lat": 53.969399231,
+    "lon": -1.062993498,
+    "sequence": 10
+  },
+  {
+    "name": "Heworth, Monk Stray, opp",
+    "lat": 53.97199181,
+    "lon": -1.062356017,
+    "sequence": 11
+  },
+  {
+    "name": "Heworth, Laburnum Garth, adj",
+    "lat": 53.9759312,
+    "lon": -1.056946378,
+    "sequence": 12
+  },
+  {
+    "name": "Huntington, Malton Road Garage",
+    "lat": 53.977981892,
+    "lon": -1.052554459,
+    "sequence": 13
+  },
+  {
+    "name": "Monks Cross, Vangarde",
+    "lat": 53.982003227,
+    "lon": -1.048467923,
+    "sequence": 14
+  },
+  {
+    "name": "Monks Cross, Sainsbury's, adj",
+    "lat": 53.98701319,
+    "lon": -1.04778946,
+    "sequence": 15
+  },
+  {
+    "name": "Monks Cross Drive, o/s Aviva",
+    "lat": 53.989099847,
+    "lon": -1.043440846,
+    "sequence": 16
+  },
+  {
+    "name": "Monks Cross Shopping Park",
+    "lat": 53.987321507,
+    "lon": -1.043603599,
+    "sequence": 17
+  },
+  {
+    "name": "Monks Cross, ASDA",
+    "lat": 53.986772932,
+    "lon": -1.04582756,
+    "sequence": 18
+  },
+  {
+    "name": "Hopgrove, Toby Carvery",
+    "lat": 53.987907921,
+    "lon": -1.030412933,
+    "sequence": 19
+  },
+  {
+    "name": "Hazelbush, The Four Alls, o/s",
+    "lat": 54.016933958,
+    "lon": -0.980853791,
+    "sequence": 20
+  },
+  {
+    "name": "Hazelbush, FERA, opp",
+    "lat": 54.020507143,
+    "lon": -0.971928934,
+    "sequence": 21
+  },
+  {
+    "name": "Sand Hutton",
+    "lat": 54.018129227,
+    "lon": -0.939264544,
+    "sequence": 22
+  },
+  {
+    "name": "Sand Hutton, Stamford Bridge Road, adj",
+    "lat": 54.020126503,
+    "lon": -0.935413163,
+    "sequence": 23
+  },
+  {
+    "name": "Claxton",
+    "lat": 54.032557035,
+    "lon": -0.941523481,
+    "sequence": 24
+  },
+  {
+    "name": "Claxton, Foxhill Park, opp",
+    "lat": 54.038707942,
+    "lon": -0.943917365,
+    "sequence": 25
+  },
+  {
+    "name": "York Lane",
+    "lat": 54.052589383,
+    "lon": -0.964003674,
+    "sequence": 26
+  },
+  {
+    "name": "Flaxton, Thompsons Arms, opp",
+    "lat": 54.062095559,
+    "lon": -0.973071879,
+    "sequence": 27
+  },
+  {
+    "name": "Goose Track Lane",
+    "lat": 54.078475906,
+    "lon": -1.013324906,
+    "sequence": 28
+  },
+  {
+    "name": "Sheriff Hutton, Village Hall, opp",
+    "lat": 54.087672323,
+    "lon": -1.00916247,
+    "sequence": 29
+  },
+  {
+    "name": "Sheriff Hutton, Main Street",
+    "lat": 54.089185391,
+    "lon": -1.006267461,
+    "sequence": 30
+  }
+]

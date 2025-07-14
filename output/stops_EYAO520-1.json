@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Bridlington Park & Ride Site",
+    "lat": 54.068091,
+    "lon": -0.208172,
+    "sequence": 1
+  },
+  {
+    "name": "Harbour Top",
+    "lat": 54.080809,
+    "lon": -0.193682,
+    "sequence": 2
+  },
+  {
+    "name": "East Riding Leisure",
+    "lat": 54.084609,
+    "lon": -0.186943,
+    "sequence": 3
+  },
+  {
+    "name": "Bridlington South Cliff Road",
+    "lat": 54.080594,
+    "lon": -0.193706,
+    "sequence": 4
+  },
+  {
+    "name": "Bridlington Park & Ride Site",
+    "lat": 54.068091,
+    "lon": -0.208172,
+    "sequence": 5
+  }
+]

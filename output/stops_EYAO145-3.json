@@ -1,0 +1,230 @@
+[
+  {
+    "name": "Market Weighton (Griffin)",
+    "lat": 53.865028,
+    "lon": -0.668213,
+    "sequence": 1
+  },
+  {
+    "name": "Goodmanham Road",
+    "lat": 53.868643,
+    "lon": -0.668372,
+    "sequence": 2
+  },
+  {
+    "name": "Middleton Front Street",
+    "lat": 53.933064,
+    "lon": -0.561509,
+    "sequence": 3
+  },
+  {
+    "name": "Middleton on the Wolds",
+    "lat": 53.933659,
+    "lon": -0.56091,
+    "sequence": 4
+  },
+  {
+    "name": "North Dalton Station Lane",
+    "lat": 53.95539,
+    "lon": -0.576469,
+    "sequence": 5
+  },
+  {
+    "name": "North Dalton",
+    "lat": 53.957046,
+    "lon": -0.576672,
+    "sequence": 6
+  },
+  {
+    "name": "North Dalton Main Street",
+    "lat": 53.957657,
+    "lon": -0.57438,
+    "sequence": 7
+  },
+  {
+    "name": "Wolds Village",
+    "lat": 53.965887,
+    "lon": -0.533748,
+    "sequence": 8
+  },
+  {
+    "name": "Bainton Church",
+    "lat": 53.958377,
+    "lon": -0.531146,
+    "sequence": 9
+  },
+  {
+    "name": "Bainton Church Street",
+    "lat": 53.956114,
+    "lon": -0.532094,
+    "sequence": 10
+  },
+  {
+    "name": "Bainton Main Street",
+    "lat": 53.957728,
+    "lon": -0.533257,
+    "sequence": 11
+  },
+  {
+    "name": "Kirkburn (Main Street)",
+    "lat": 53.98353,
+    "lon": -0.503694,
+    "sequence": 12
+  },
+  {
+    "name": "Eastburn A614",
+    "lat": 53.986829,
+    "lon": -0.497262,
+    "sequence": 13
+  },
+  {
+    "name": "Driffield A614",
+    "lat": 53.992711,
+    "lon": -0.46764,
+    "sequence": 14
+  },
+  {
+    "name": "Driffield Beverley Road",
+    "lat": 53.99592,
+    "lon": -0.445966,
+    "sequence": 15
+  },
+  {
+    "name": "Driffield Beverley Road",
+    "lat": 53.999899,
+    "lon": -0.438083,
+    "sequence": 16
+  },
+  {
+    "name": "Driffield (Middle Street South)",
+    "lat": 54.002171,
+    "lon": -0.435831,
+    "sequence": 17
+  },
+  {
+    "name": "Driffield Wansford Road",
+    "lat": 54.006642,
+    "lon": -0.434061,
+    "sequence": 18
+  },
+  {
+    "name": "Driffield Bridlington Road",
+    "lat": 54.007955,
+    "lon": -0.43479,
+    "sequence": 19
+  },
+  {
+    "name": "Driffield Bridlington Road",
+    "lat": 54.01025,
+    "lon": -0.428828,
+    "sequence": 20
+  },
+  {
+    "name": "Driffield Bridlington Road",
+    "lat": 54.011655,
+    "lon": -0.423495,
+    "sequence": 21
+  },
+  {
+    "name": "Nafferton Driffield Road",
+    "lat": 54.020182,
+    "lon": -0.395437,
+    "sequence": 22
+  },
+  {
+    "name": "Nafferton (Cross Keys)",
+    "lat": 54.021078,
+    "lon": -0.391831,
+    "sequence": 23
+  },
+  {
+    "name": "Nafferton North Street",
+    "lat": 54.023592,
+    "lon": -0.393001,
+    "sequence": 24
+  },
+  {
+    "name": "Nafferton North Street",
+    "lat": 54.023842,
+    "lon": -0.393495,
+    "sequence": 25
+  },
+  {
+    "name": "A614 Near Harpham",
+    "lat": 54.037745,
+    "lon": -0.368663,
+    "sequence": 26
+  },
+  {
+    "name": "Harpham Nr Bracey Bridge",
+    "lat": 54.04567,
+    "lon": -0.350635,
+    "sequence": 27
+  },
+  {
+    "name": "Burton Agnes (Blue Bell)",
+    "lat": 54.050398,
+    "lon": -0.317544,
+    "sequence": 28
+  },
+  {
+    "name": "Burton Agnes Main Street",
+    "lat": 54.052573,
+    "lon": -0.311727,
+    "sequence": 29
+  },
+  {
+    "name": "Thornholme A614",
+    "lat": 54.058495,
+    "lon": -0.296331,
+    "sequence": 30
+  },
+  {
+    "name": "Haisthorpe Main Road",
+    "lat": 54.065238,
+    "lon": -0.278084,
+    "sequence": 31
+  },
+  {
+    "name": "Carnaby (Post Office)",
+    "lat": 54.072587,
+    "lon": -0.249184,
+    "sequence": 32
+  },
+  {
+    "name": "Bridlington Carnaby Road",
+    "lat": 54.083455,
+    "lon": -0.221651,
+    "sequence": 33
+  },
+  {
+    "name": "Bridlington Bessingby Rd",
+    "lat": 54.085501,
+    "lon": -0.21716,
+    "sequence": 34
+  },
+  {
+    "name": "Morrisons",
+    "lat": 54.083878,
+    "lon": -0.209586,
+    "sequence": 35
+  },
+  {
+    "name": "Bridlington Bessingby Rd",
+    "lat": 54.082875,
+    "lon": -0.202581,
+    "sequence": 36
+  },
+  {
+    "name": "Bridlington Hilderthorpe Rd",
+    "lat": 54.083205,
+    "lon": -0.198822,
+    "sequence": 37
+  },
+  {
+    "name": "Bridlington (Bus Station)",
+    "lat": 54.0838,
+    "lon": -0.189317,
+    "sequence": 38
+  }
+]

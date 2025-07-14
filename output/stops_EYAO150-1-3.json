@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Ferriby (Crossroads)",
+    "lat": 53.721887,
+    "lon": -0.501828,
+    "sequence": 1
+  },
+  {
+    "name": "North Ferriby Library",
+    "lat": 53.721076,
+    "lon": -0.502402,
+    "sequence": 2
+  },
+  {
+    "name": "North Ferriby New Walk",
+    "lat": 53.71787,
+    "lon": -0.506972,
+    "sequence": 3
+  },
+  {
+    "name": "North Ferriby Nunburnholme Ave",
+    "lat": 53.718216,
+    "lon": -0.51093,
+    "sequence": 4
+  },
+  {
+    "name": "North Ferriby Corby Park",
+    "lat": 53.720349,
+    "lon": -0.511824,
+    "sequence": 5
+  },
+  {
+    "name": "North Ferriby Corby Park",
+    "lat": 53.72174,
+    "lon": -0.514579,
+    "sequence": 6
+  },
+  {
+    "name": "Ferriby Corby Park",
+    "lat": 53.723465,
+    "lon": -0.515928,
+    "sequence": 7
+  },
+  {
+    "name": "Melton Monks Way West",
+    "lat": 53.722122,
+    "lon": -0.529494,
+    "sequence": 8
+  },
+  {
+    "name": "Melton Monks Way",
+    "lat": 53.72201,
+    "lon": -0.524027,
+    "sequence": 9
+  },
+  {
+    "name": "North Ferriby Melton Road",
+    "lat": 53.72384,
+    "lon": -0.514263,
+    "sequence": 10
+  },
+  {
+    "name": "Ferriby (Crossroads)",
+    "lat": 53.722672,
+    "lon": -0.504225,
+    "sequence": 11
+  },
+  {
+    "name": "Ferriby Road",
+    "lat": 53.728291,
+    "lon": -0.499948,
+    "sequence": 12
+  },
+  {
+    "name": "Swanland West Leys Road",
+    "lat": 53.730483,
+    "lon": -0.498445,
+    "sequence": 13
+  },
+  {
+    "name": "Swanland West Leys Road",
+    "lat": 53.732782,
+    "lon": -0.497514,
+    "sequence": 14
+  },
+  {
+    "name": "Swanland West Leys Road",
+    "lat": 53.737178,
+    "lon": -0.497524,
+    "sequence": 15
+  },
+  {
+    "name": "Swanland (Pond)",
+    "lat": 53.739162,
+    "lon": -0.490888,
+    "sequence": 16
+  }
+]

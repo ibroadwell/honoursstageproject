@@ -1,0 +1,116 @@
+[
+  {
+    "name": "Carnaby Industrial Estate",
+    "lat": 54.060553,
+    "lon": -0.257376,
+    "sequence": 1
+  },
+  {
+    "name": "Carnaby Industrial Estate",
+    "lat": 54.06162,
+    "lon": -0.252854,
+    "sequence": 2
+  },
+  {
+    "name": "Carnaby Industrial Estate",
+    "lat": 54.062298,
+    "lon": -0.249999,
+    "sequence": 3
+  },
+  {
+    "name": "Bridlington Carnaby Ind Est",
+    "lat": 54.063365,
+    "lon": -0.245507,
+    "sequence": 4
+  },
+  {
+    "name": "Carnaby Industrial Estate",
+    "lat": 54.064263,
+    "lon": -0.242382,
+    "sequence": 5
+  },
+  {
+    "name": "South Shore Holiday Village",
+    "lat": 54.067034,
+    "lon": -0.222353,
+    "sequence": 6
+  },
+  {
+    "name": "Bridlington Bessingby Rd",
+    "lat": 54.082875,
+    "lon": -0.202581,
+    "sequence": 7
+  },
+  {
+    "name": "Bridlington Hilderthorpe Rd",
+    "lat": 54.083205,
+    "lon": -0.198822,
+    "sequence": 8
+  },
+  {
+    "name": "Bridlington Promenade",
+    "lat": 54.08381,
+    "lon": -0.188185,
+    "sequence": 9
+  },
+  {
+    "name": "Bridlington Promenade",
+    "lat": 54.085165905,
+    "lon": -0.186918394,
+    "sequence": 10
+  },
+  {
+    "name": "Bridlington Flamborough Rd",
+    "lat": 54.087112914,
+    "lon": -0.185488027,
+    "sequence": 11
+  },
+  {
+    "name": "Bridlington Flamborough Rd",
+    "lat": 54.089735266,
+    "lon": -0.185924047,
+    "sequence": 12
+  },
+  {
+    "name": "Bridlington Fortyfoot",
+    "lat": 54.093465513,
+    "lon": -0.187703343,
+    "sequence": 13
+  },
+  {
+    "name": "Bridlington Fortyfoot",
+    "lat": 54.096095227,
+    "lon": -0.18803219,
+    "sequence": 14
+  },
+  {
+    "name": "Bridlington Marton Road",
+    "lat": 54.098295284,
+    "lon": -0.191469109,
+    "sequence": 15
+  },
+  {
+    "name": "Bridlington Marton Road",
+    "lat": 54.097186313,
+    "lon": -0.199638039,
+    "sequence": 16
+  },
+  {
+    "name": "Bridlington Marton Road",
+    "lat": 54.096793517,
+    "lon": -0.20222428,
+    "sequence": 17
+  },
+  {
+    "name": "Bridlington Marton Road",
+    "lat": 54.095721992,
+    "lon": -0.206919577,
+    "sequence": 18
+  },
+  {
+    "name": "Bessingby Hill/Bessingby Road",
+    "lat": 54.093125,
+    "lon": -0.2185,
+    "sequence": 19
+  }
+]

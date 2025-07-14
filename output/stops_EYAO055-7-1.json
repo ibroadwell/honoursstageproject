@@ -1,0 +1,488 @@
+[
+  {
+    "name": "Hull Interchange",
+    "lat": 53.74466,
+    "lon": -0.346873,
+    "sequence": 1
+  },
+  {
+    "name": "Albion Street B",
+    "lat": 53.746652,
+    "lon": -0.342079,
+    "sequence": 2
+  },
+  {
+    "name": "Monument Bridge",
+    "lat": 53.743704,
+    "lon": -0.338252,
+    "sequence": 3
+  },
+  {
+    "name": "Carr Lane E",
+    "lat": 53.743343465,
+    "lon": -0.342693981,
+    "sequence": 4
+  },
+  {
+    "name": "Pease Street",
+    "lat": 53.743005,
+    "lon": -0.347469,
+    "sequence": 5
+  },
+  {
+    "name": "Fountain Street",
+    "lat": 53.742885,
+    "lon": -0.35316,
+    "sequence": 6
+  },
+  {
+    "name": "Hull Royal Infirmary",
+    "lat": 53.743036,
+    "lon": -0.356899,
+    "sequence": 7
+  },
+  {
+    "name": "Coltman Street",
+    "lat": 53.743187894,
+    "lon": -0.362109891,
+    "sequence": 8
+  },
+  {
+    "name": "Saner Street",
+    "lat": 53.743272549,
+    "lon": -0.365018068,
+    "sequence": 9
+  },
+  {
+    "name": "Anlaby Road Stadium",
+    "lat": 53.743723817,
+    "lon": -0.372415771,
+    "sequence": 10
+  },
+  {
+    "name": "Sandringham Street",
+    "lat": 53.743719553,
+    "lon": -0.374751197,
+    "sequence": 11
+  },
+  {
+    "name": "Plane Street",
+    "lat": 53.743606,
+    "lon": -0.378941,
+    "sequence": 12
+  },
+  {
+    "name": "Stirling Street",
+    "lat": 53.743619,
+    "lon": -0.381913,
+    "sequence": 13
+  },
+  {
+    "name": "Wheeler Street",
+    "lat": 53.743398,
+    "lon": -0.385515,
+    "sequence": 14
+  },
+  {
+    "name": "Kempton Road",
+    "lat": 53.742787,
+    "lon": -0.388253,
+    "sequence": 15
+  },
+  {
+    "name": "North Road",
+    "lat": 53.741087,
+    "lon": -0.392154,
+    "sequence": 16
+  },
+  {
+    "name": "Wistow Grove",
+    "lat": 53.738997,
+    "lon": -0.395873,
+    "sequence": 17
+  },
+  {
+    "name": "Fiveways",
+    "lat": 53.737768,
+    "lon": -0.398072,
+    "sequence": 18
+  },
+  {
+    "name": "Pickering Road Fiveways",
+    "lat": 53.736676,
+    "lon": -0.401753,
+    "sequence": 19
+  },
+  {
+    "name": "Anlaby Park Road South",
+    "lat": 53.735183,
+    "lon": -0.412574,
+    "sequence": 20
+  },
+  {
+    "name": "Hessle Boothferry Road",
+    "lat": 53.733878,
+    "lon": -0.421931,
+    "sequence": 21
+  },
+  {
+    "name": "Hessle Boothferry Road",
+    "lat": 53.732868,
+    "lon": -0.429231,
+    "sequence": 22
+  },
+  {
+    "name": "Hessle Boothferry Road",
+    "lat": 53.732185,
+    "lon": -0.434047,
+    "sequence": 23
+  },
+  {
+    "name": "Hessle Boothferry Road",
+    "lat": 53.731723,
+    "lon": -0.437202,
+    "sequence": 24
+  },
+  {
+    "name": "Hessle Boothferry Road",
+    "lat": 53.73051,
+    "lon": -0.441385,
+    "sequence": 25
+  },
+  {
+    "name": "Hessle Boothferry Road",
+    "lat": 53.729153,
+    "lon": -0.445604,
+    "sequence": 26
+  },
+  {
+    "name": "Hessle Boothferry Road",
+    "lat": 53.726945,
+    "lon": -0.452052,
+    "sequence": 27
+  },
+  {
+    "name": "Hessle Boothferry Road",
+    "lat": 53.726088,
+    "lon": -0.454615,
+    "sequence": 28
+  },
+  {
+    "name": "Bridgehead Business Park",
+    "lat": 53.723168,
+    "lon": -0.459602,
+    "sequence": 29
+  },
+  {
+    "name": "North Ferriby High Rd",
+    "lat": 53.721136,
+    "lon": -0.474362,
+    "sequence": 30
+  },
+  {
+    "name": "North Ferriby High Road",
+    "lat": 53.721187,
+    "lon": -0.479089,
+    "sequence": 31
+  },
+  {
+    "name": "North Ferriby High Rd",
+    "lat": 53.721527,
+    "lon": -0.483896,
+    "sequence": 32
+  },
+  {
+    "name": "North Ferriby High Rd",
+    "lat": 53.722007,
+    "lon": -0.486334,
+    "sequence": 33
+  },
+  {
+    "name": "Ferriby (Crossroads)",
+    "lat": 53.721887,
+    "lon": -0.501828,
+    "sequence": 34
+  },
+  {
+    "name": "North Ferriby High Street",
+    "lat": 53.722699,
+    "lon": -0.506346,
+    "sequence": 35
+  },
+  {
+    "name": "North Ferriby Melton Road",
+    "lat": 53.723971,
+    "lon": -0.515395,
+    "sequence": 36
+  },
+  {
+    "name": "Melton Monks Way West",
+    "lat": 53.722122,
+    "lon": -0.529494,
+    "sequence": 37
+  },
+  {
+    "name": "Melton Monks Way",
+    "lat": 53.72201,
+    "lon": -0.524027,
+    "sequence": 38
+  },
+  {
+    "name": "Melton Bottom",
+    "lat": 53.727772,
+    "lon": -0.532056,
+    "sequence": 39
+  },
+  {
+    "name": "Melton South Hunsley School",
+    "lat": 53.728514,
+    "lon": -0.535441,
+    "sequence": 40
+  },
+  {
+    "name": "Welton Holly Hill",
+    "lat": 53.732332,
+    "lon": -0.54263,
+    "sequence": 41
+  },
+  {
+    "name": "Welton (Church)",
+    "lat": 53.733012,
+    "lon": -0.547518,
+    "sequence": 42
+  },
+  {
+    "name": "Welton Cowgate",
+    "lat": 53.732204,
+    "lon": -0.550608,
+    "sequence": 43
+  },
+  {
+    "name": "Brough Welton Road",
+    "lat": 53.728392,
+    "lon": -0.559486,
+    "sequence": 44
+  },
+  {
+    "name": "Brough Welton Road",
+    "lat": 53.729767,
+    "lon": -0.563911,
+    "sequence": 45
+  },
+  {
+    "name": "Brough (Morrisons)",
+    "lat": 53.729822,
+    "lon": -0.570033,
+    "sequence": 46
+  },
+  {
+    "name": "Brough Elloughton Road",
+    "lat": 53.730584,
+    "lon": -0.572933,
+    "sequence": 47
+  },
+  {
+    "name": "Brough Elloughton Road",
+    "lat": 53.732435,
+    "lon": -0.572082,
+    "sequence": 48
+  },
+  {
+    "name": "Elloughton Road",
+    "lat": 53.734608,
+    "lon": -0.571129,
+    "sequence": 49
+  },
+  {
+    "name": "Elloughton Main Street",
+    "lat": 53.73782,
+    "lon": -0.569883,
+    "sequence": 50
+  },
+  {
+    "name": "Elloughton (EY Depot)",
+    "lat": 53.740189,
+    "lon": -0.569575,
+    "sequence": 51
+  },
+  {
+    "name": "Elloughton Stockbridge Road",
+    "lat": 53.740868,
+    "lon": -0.576708,
+    "sequence": 52
+  },
+  {
+    "name": "Nr Ellerker South Cave Rd",
+    "lat": 53.755945,
+    "lon": -0.591382,
+    "sequence": 53
+  },
+  {
+    "name": "South Cave (Market Place)",
+    "lat": 53.768761,
+    "lon": -0.600451,
+    "sequence": 54
+  },
+  {
+    "name": "South Cave Church Street",
+    "lat": 53.767452,
+    "lon": -0.605365,
+    "sequence": 55
+  },
+  {
+    "name": "South Cave West End",
+    "lat": 53.765995,
+    "lon": -0.613818,
+    "sequence": 56
+  },
+  {
+    "name": "South Cave (West End)",
+    "lat": 53.76504,
+    "lon": -0.617491,
+    "sequence": 57
+  },
+  {
+    "name": "South Cave Ferry Road",
+    "lat": 53.765422,
+    "lon": -0.622591,
+    "sequence": 58
+  },
+  {
+    "name": "South Cave Ferry Road",
+    "lat": 53.765764,
+    "lon": -0.625022,
+    "sequence": 59
+  },
+  {
+    "name": "Everthorpe HMP Entrance",
+    "lat": 53.768653,
+    "lon": -0.632362,
+    "sequence": 60
+  },
+  {
+    "name": "Wolds HMP Entrance",
+    "lat": 53.7704,
+    "lon": -0.635006,
+    "sequence": 61
+  },
+  {
+    "name": "Everthorpe Lane End",
+    "lat": 53.77275,
+    "lon": -0.638542,
+    "sequence": 62
+  },
+  {
+    "name": "North Cave Station Road",
+    "lat": 53.776355,
+    "lon": -0.641763,
+    "sequence": 63
+  },
+  {
+    "name": "North Cave (Memorial)",
+    "lat": 53.779966,
+    "lon": -0.644667,
+    "sequence": 64
+  },
+  {
+    "name": "North Cave Westgate",
+    "lat": 53.779402,
+    "lon": -0.649693,
+    "sequence": 65
+  },
+  {
+    "name": "North Cave Westgate",
+    "lat": 53.779101,
+    "lon": -0.652495,
+    "sequence": 66
+  },
+  {
+    "name": "North Cave Newport Road",
+    "lat": 53.777468,
+    "lon": -0.657616,
+    "sequence": 67
+  },
+  {
+    "name": "North Cave Newport Road",
+    "lat": 53.773495,
+    "lon": -0.668866,
+    "sequence": 68
+  },
+  {
+    "name": "Newport Road B1230",
+    "lat": 53.769297,
+    "lon": -0.679437,
+    "sequence": 69
+  },
+  {
+    "name": "Newport B1230",
+    "lat": 53.768616,
+    "lon": -0.681264,
+    "sequence": 70
+  },
+  {
+    "name": "Newport Main Road",
+    "lat": 53.767799,
+    "lon": -0.684567,
+    "sequence": 71
+  },
+  {
+    "name": "Newport Main Road",
+    "lat": 53.765785,
+    "lon": -0.691108,
+    "sequence": 72
+  },
+  {
+    "name": "Newport B1230",
+    "lat": 53.76299,
+    "lon": -0.697809,
+    "sequence": 73
+  },
+  {
+    "name": "Newport (Bridge)",
+    "lat": 53.762189,
+    "lon": -0.700125,
+    "sequence": 74
+  },
+  {
+    "name": "Newport B1230",
+    "lat": 53.759823,
+    "lon": -0.707479,
+    "sequence": 75
+  },
+  {
+    "name": "Newport B1230",
+    "lat": 53.757758,
+    "lon": -0.713564,
+    "sequence": 76
+  },
+  {
+    "name": "Scalby Main Road",
+    "lat": 53.75729,
+    "lon": -0.718554,
+    "sequence": 77
+  },
+  {
+    "name": "Gilberdyke Cheapsides Lane",
+    "lat": 53.75588,
+    "lon": -0.727925,
+    "sequence": 78
+  },
+  {
+    "name": "Gilberdyke Laxton Grange",
+    "lat": 53.754538,
+    "lon": -0.731879,
+    "sequence": 79
+  },
+  {
+    "name": "Gilberdyke Scalby Lane",
+    "lat": 53.753035,
+    "lon": -0.732531,
+    "sequence": 80
+  },
+  {
+    "name": "Gilberdyke Village",
+    "lat": 53.752402,
+    "lon": -0.738207,
+    "sequence": 81
+  }
+]

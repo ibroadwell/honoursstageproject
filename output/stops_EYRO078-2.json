@@ -1,0 +1,236 @@
+[
+  {
+    "name": "Hull Interchange",
+    "lat": 53.744462,
+    "lon": -0.348215,
+    "sequence": 1
+  },
+  {
+    "name": "Prospect Street B",
+    "lat": 53.747179,
+    "lon": -0.344454,
+    "sequence": 2
+  },
+  {
+    "name": "Bond Street B",
+    "lat": 53.746552,
+    "lon": -0.339398,
+    "sequence": 3
+  },
+  {
+    "name": "Guildhall Road",
+    "lat": 53.744012,
+    "lon": -0.33642,
+    "sequence": 4
+  },
+  {
+    "name": "Alfred Gelder Street D",
+    "lat": 53.744263,
+    "lon": -0.333832,
+    "sequence": 5
+  },
+  {
+    "name": "St Mary's Church",
+    "lat": 53.743625,
+    "lon": -0.332553,
+    "sequence": 6
+  },
+  {
+    "name": "King William House",
+    "lat": 53.741667,
+    "lon": -0.333313,
+    "sequence": 7
+  },
+  {
+    "name": "Victoria Park",
+    "lat": 53.742851,
+    "lon": -0.318982,
+    "sequence": 8
+  },
+  {
+    "name": "Chandlers Court",
+    "lat": 53.74344,
+    "lon": -0.315456,
+    "sequence": 9
+  },
+  {
+    "name": "Bridgegate Drive",
+    "lat": 53.743721,
+    "lon": -0.312427,
+    "sequence": 10
+  },
+  {
+    "name": "Victoria Dock",
+    "lat": 53.744472,
+    "lon": -0.311517,
+    "sequence": 11
+  },
+  {
+    "name": "Siemens Factory",
+    "lat": 53.746184,
+    "lon": -0.306687,
+    "sequence": 12
+  },
+  {
+    "name": "Earles Road",
+    "lat": 53.746611,
+    "lon": -0.310794,
+    "sequence": 13
+  },
+  {
+    "name": "Woodhouse Street",
+    "lat": 53.747565,
+    "lon": -0.30833,
+    "sequence": 14
+  },
+  {
+    "name": "Ferries Street",
+    "lat": 53.747655,
+    "lon": -0.303898,
+    "sequence": 15
+  },
+  {
+    "name": "Lee Smith Street",
+    "lat": 53.747747,
+    "lon": -0.299602,
+    "sequence": 16
+  },
+  {
+    "name": "Hedon Road Cemetery",
+    "lat": 53.747874,
+    "lon": -0.294001,
+    "sequence": 17
+  },
+  {
+    "name": "Littlefair Road",
+    "lat": 53.74827,
+    "lon": -0.286478,
+    "sequence": 18
+  },
+  {
+    "name": "Marfleet Avenue",
+    "lat": 53.748095,
+    "lon": -0.276779,
+    "sequence": 19
+  },
+  {
+    "name": "Marfleet Avenue",
+    "lat": 53.747948,
+    "lon": -0.273433,
+    "sequence": 20
+  },
+  {
+    "name": "Elba Street",
+    "lat": 53.747327,
+    "lon": -0.266558,
+    "sequence": 21
+  },
+  {
+    "name": "Valletta Street",
+    "lat": 53.746343,
+    "lon": -0.258834,
+    "sequence": 22
+  },
+  {
+    "name": "Somerden Road",
+    "lat": 53.745286,
+    "lon": -0.249779,
+    "sequence": 23
+  },
+  {
+    "name": "Saltend Lane End",
+    "lat": 53.743467,
+    "lon": -0.236722,
+    "sequence": 24
+  },
+  {
+    "name": "Staithes Road",
+    "lat": 53.74785,
+    "lon": -0.228501,
+    "sequence": 25
+  },
+  {
+    "name": "Westfield Lane",
+    "lat": 53.754319,
+    "lon": -0.218627,
+    "sequence": 26
+  },
+  {
+    "name": "Cranswick Country Foods",
+    "lat": 53.755737,
+    "lon": -0.207585,
+    "sequence": 27
+  },
+  {
+    "name": "Village Farm Road",
+    "lat": 53.756335,
+    "lon": -0.2031,
+    "sequence": 28
+  },
+  {
+    "name": "Preston (Crossroads)",
+    "lat": 53.754743,
+    "lon": -0.198268,
+    "sequence": 29
+  },
+  {
+    "name": "Preston Station Road",
+    "lat": 53.752988,
+    "lon": -0.198131,
+    "sequence": 30
+  },
+  {
+    "name": "Preston Station Road",
+    "lat": 53.750167,
+    "lon": -0.197645,
+    "sequence": 31
+  },
+  {
+    "name": "Mattocks Lane",
+    "lat": 53.748209,
+    "lon": -0.197137,
+    "sequence": 32
+  },
+  {
+    "name": "Rosedale Community Unit",
+    "lat": 53.745411,
+    "lon": -0.197015,
+    "sequence": 33
+  },
+  {
+    "name": "Hedon Station Lane",
+    "lat": 53.74403,
+    "lon": -0.19718,
+    "sequence": 34
+  },
+  {
+    "name": "Hedon Baxtergate",
+    "lat": 53.741178,
+    "lon": -0.195877,
+    "sequence": 35
+  },
+  {
+    "name": "Hedon Thorn Road Corner",
+    "lat": 53.738642,
+    "lon": -0.195773,
+    "sequence": 36
+  },
+  {
+    "name": "Hedon Adeliza Garth",
+    "lat": 53.736953,
+    "lon": -0.194071,
+    "sequence": 37
+  },
+  {
+    "name": "Hedon Stockholm Park",
+    "lat": 53.737125,
+    "lon": -0.191153,
+    "sequence": 38
+  },
+  {
+    "name": "Hedon (Inmans Estate)",
+    "lat": 53.739179,
+    "lon": -0.187865,
+    "sequence": 39
+  }
+]

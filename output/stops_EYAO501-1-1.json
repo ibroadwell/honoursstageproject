@@ -1,0 +1,212 @@
+[
+  {
+    "name": "Bridlington Bus Station",
+    "lat": 54.083897,
+    "lon": -0.189236,
+    "sequence": 1
+  },
+  {
+    "name": "Bridlington Promenade",
+    "lat": 54.082512,
+    "lon": -0.189129,
+    "sequence": 2
+  },
+  {
+    "name": "Bridlington Queen Street",
+    "lat": 54.081742,
+    "lon": -0.19118,
+    "sequence": 3
+  },
+  {
+    "name": "Bridlington Hilderthorpe Road",
+    "lat": 54.081874,
+    "lon": -0.193376,
+    "sequence": 4
+  },
+  {
+    "name": "Bridlington Prospect Street",
+    "lat": 54.083281,
+    "lon": -0.192458,
+    "sequence": 5
+  },
+  {
+    "name": "Bridlington Quay Road",
+    "lat": 54.085151,
+    "lon": -0.196062,
+    "sequence": 6
+  },
+  {
+    "name": "Quay Road",
+    "lat": 54.085625,
+    "lon": -0.199542,
+    "sequence": 7
+  },
+  {
+    "name": "Bridlington Quay Road",
+    "lat": 54.08743,
+    "lon": -0.202446,
+    "sequence": 8
+  },
+  {
+    "name": "Bridlington Quay Road",
+    "lat": 54.088676,
+    "lon": -0.203401,
+    "sequence": 9
+  },
+  {
+    "name": "Bridlington Brett Street",
+    "lat": 54.089149,
+    "lon": -0.207968,
+    "sequence": 10
+  },
+  {
+    "name": "Westgate",
+    "lat": 54.093563,
+    "lon": -0.214674,
+    "sequence": 11
+  },
+  {
+    "name": "Bridlington Westgate",
+    "lat": 54.093526,
+    "lon": -0.210363,
+    "sequence": 12
+  },
+  {
+    "name": "Bridlington (New Pasture Lane)",
+    "lat": 54.097810979,
+    "lon": -0.211386893,
+    "sequence": 13
+  },
+  {
+    "name": "Bridlington Northorpe Rise",
+    "lat": 54.098174,
+    "lon": -0.212809,
+    "sequence": 14
+  },
+  {
+    "name": "Bridlington Northorpe Rise",
+    "lat": 54.097259,
+    "lon": -0.212328,
+    "sequence": 15
+  },
+  {
+    "name": "New Pasture Lane",
+    "lat": 54.096373,
+    "lon": -0.215624,
+    "sequence": 16
+  },
+  {
+    "name": "Bridlington Burstall Hill",
+    "lat": 54.098722,
+    "lon": -0.215263,
+    "sequence": 17
+  },
+  {
+    "name": "Bridlington Burstall Hill",
+    "lat": 54.099247,
+    "lon": -0.213023,
+    "sequence": 18
+  },
+  {
+    "name": "Bridlington (New Pasture Lane)",
+    "lat": 54.09714794,
+    "lon": -0.210926042,
+    "sequence": 19
+  },
+  {
+    "name": "Bridlington Marton Road",
+    "lat": 54.09593622,
+    "lon": -0.20681858,
+    "sequence": 20
+  },
+  {
+    "name": "Bridlington Marton Road",
+    "lat": 54.096891417,
+    "lon": -0.202158874,
+    "sequence": 21
+  },
+  {
+    "name": "Bridlington Trentham Drive",
+    "lat": 54.102311097,
+    "lon": -0.20091496,
+    "sequence": 22
+  },
+  {
+    "name": "Bridlington Trentham Drive",
+    "lat": 54.103534532,
+    "lon": -0.19906141,
+    "sequence": 23
+  },
+  {
+    "name": "Bridlington Bempton Lane",
+    "lat": 54.103998496,
+    "lon": -0.196543824,
+    "sequence": 24
+  },
+  {
+    "name": "Bempton Lane",
+    "lat": 54.100669547,
+    "lon": -0.195740017,
+    "sequence": 25
+  },
+  {
+    "name": "Bridlington Bempton Lane",
+    "lat": 54.098331249,
+    "lon": -0.195061543,
+    "sequence": 26
+  },
+  {
+    "name": "Bridlington Sewerby Road",
+    "lat": 54.095421,
+    "lon": -0.198828,
+    "sequence": 27
+  },
+  {
+    "name": "Kirkgate",
+    "lat": 54.094073,
+    "lon": -0.203061,
+    "sequence": 28
+  },
+  {
+    "name": "Bridlington St John's Street",
+    "lat": 54.092646,
+    "lon": -0.204376,
+    "sequence": 29
+  },
+  {
+    "name": "Bridlington St John's Street",
+    "lat": 54.089929,
+    "lon": -0.203653,
+    "sequence": 30
+  },
+  {
+    "name": "Bridlington Quay Road",
+    "lat": 54.087089,
+    "lon": -0.201864,
+    "sequence": 31
+  },
+  {
+    "name": "Bridlington Quay Road",
+    "lat": 54.085609,
+    "lon": -0.199039,
+    "sequence": 32
+  },
+  {
+    "name": "Bridlington Quay Road",
+    "lat": 54.085104,
+    "lon": -0.195376,
+    "sequence": 33
+  },
+  {
+    "name": "Bridlington Prospect Street",
+    "lat": 54.084284244,
+    "lon": -0.192842886,
+    "sequence": 34
+  },
+  {
+    "name": "Bridlington Bus Station",
+    "lat": 54.083897,
+    "lon": -0.189236,
+    "sequence": 35
+  }
+]

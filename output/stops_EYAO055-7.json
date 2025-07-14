@@ -1,0 +1,176 @@
+[
+  {
+    "name": "Gilberdyke Village",
+    "lat": 53.752402,
+    "lon": -0.738207,
+    "sequence": 1
+  },
+  {
+    "name": "Gilberdyke Clementhorpe Road",
+    "lat": 53.753416,
+    "lon": -0.741437,
+    "sequence": 2
+  },
+  {
+    "name": "Gilberdyke B1230",
+    "lat": 53.754057,
+    "lon": -0.742571,
+    "sequence": 3
+  },
+  {
+    "name": "B1230 Gilberdyke",
+    "lat": 53.750394,
+    "lon": -0.758543,
+    "sequence": 4
+  },
+  {
+    "name": "Eastrington Station Road",
+    "lat": 53.748308,
+    "lon": -0.782095,
+    "sequence": 5
+  },
+  {
+    "name": "Eastrington Station",
+    "lat": 53.754627,
+    "lon": -0.787403,
+    "sequence": 6
+  },
+  {
+    "name": "Eastrington Station Road",
+    "lat": 53.759063,
+    "lon": -0.791386,
+    "sequence": 7
+  },
+  {
+    "name": "Eastrington (Church)",
+    "lat": 53.759399,
+    "lon": -0.793545,
+    "sequence": 8
+  },
+  {
+    "name": "Eastington High Steet",
+    "lat": 53.758588,
+    "lon": -0.797786,
+    "sequence": 9
+  },
+  {
+    "name": "Eastrington Howden Road",
+    "lat": 53.758536,
+    "lon": -0.802474,
+    "sequence": 10
+  },
+  {
+    "name": "Eastrington Long Lane",
+    "lat": 53.751822,
+    "lon": -0.825323,
+    "sequence": 11
+  },
+  {
+    "name": "B1230 Howden",
+    "lat": 53.750093,
+    "lon": -0.836943,
+    "sequence": 12
+  },
+  {
+    "name": "Howden Longs Corner",
+    "lat": 53.748777,
+    "lon": -0.853357,
+    "sequence": 13
+  },
+  {
+    "name": "Howden Flatgate",
+    "lat": 53.747569,
+    "lon": -0.858607,
+    "sequence": 14
+  },
+  {
+    "name": "Howden (Memorial)",
+    "lat": 53.746209,
+    "lon": -0.866817,
+    "sequence": 15
+  },
+  {
+    "name": "Howden Pinfold Street",
+    "lat": 53.74323,
+    "lon": -0.870309,
+    "sequence": 16
+  },
+  {
+    "name": "Howden Knedlington Road",
+    "lat": 53.743046,
+    "lon": -0.871724,
+    "sequence": 17
+  },
+  {
+    "name": "Howden Knedlington Road",
+    "lat": 53.743575,
+    "lon": -0.874424,
+    "sequence": 18
+  },
+  {
+    "name": "Knedlington B1228",
+    "lat": 53.742737,
+    "lon": -0.884863,
+    "sequence": 19
+  },
+  {
+    "name": "Howden Ferryboat Inn",
+    "lat": 53.729432,
+    "lon": -0.887489,
+    "sequence": 20
+  },
+  {
+    "name": "Goole Western Road",
+    "lat": 53.713788,
+    "lon": -0.887114,
+    "sequence": 21
+  },
+  {
+    "name": "Goole Gatebys Road",
+    "lat": 53.713823,
+    "lon": -0.87737,
+    "sequence": 22
+  },
+  {
+    "name": "Goole Hospital",
+    "lat": 53.715057,
+    "lon": -0.873837,
+    "sequence": 23
+  },
+  {
+    "name": "Goole Westfield Ave",
+    "lat": 53.711076,
+    "lon": -0.871079,
+    "sequence": 24
+  },
+  {
+    "name": "Goole Pasture Road",
+    "lat": 53.70761,
+    "lon": -0.874278,
+    "sequence": 25
+  },
+  {
+    "name": "Goole Pasture Road",
+    "lat": 53.70565,
+    "lon": -0.875178,
+    "sequence": 26
+  },
+  {
+    "name": "Goole Interchange",
+    "lat": 53.704976,
+    "lon": -0.873273,
+    "sequence": 27
+  },
+  {
+    "name": "Goole Edinburgh Street",
+    "lat": 53.705463,
+    "lon": -0.870548,
+    "sequence": 28
+  },
+  {
+    "name": "Goole North Street",
+    "lat": 53.702898,
+    "lon": -0.870223,
+    "sequence": 29
+  }
+]

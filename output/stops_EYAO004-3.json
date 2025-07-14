@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Queen Street",
+    "lat": 54.283602801,
+    "lon": -0.398351163,
+    "sequence": 1
+  },
+  {
+    "name": "St Thomas Street",
+    "lat": 54.283553757,
+    "lon": -0.400073572,
+    "sequence": 2
+  },
+  {
+    "name": "Scarborough, Castle Road Stop G",
+    "lat": 54.285078182,
+    "lon": -0.402060129,
+    "sequence": 3
+  },
+  {
+    "name": "Columbus Ravine",
+    "lat": 54.285552,
+    "lon": -0.409106,
+    "sequence": 4
+  },
+  {
+    "name": "Cemetery",
+    "lat": 54.285542,
+    "lon": -0.414514,
+    "sequence": 5
+  },
+  {
+    "name": "Northstead Manor Drive",
+    "lat": 54.287658,
+    "lon": -0.416875,
+    "sequence": 6
+  },
+  {
+    "name": "Shops",
+    "lat": 54.288789,
+    "lon": -0.417401,
+    "sequence": 7
+  },
+  {
+    "name": "Northstead School",
+    "lat": 54.291738,
+    "lon": -0.419531,
+    "sequence": 8
+  },
+  {
+    "name": "Givendale Road",
+    "lat": 54.292372,
+    "lon": -0.420597,
+    "sequence": 9
+  },
+  {
+    "name": "Newlands Park Drive",
+    "lat": 54.293981,
+    "lon": -0.422672,
+    "sequence": 10
+  },
+  {
+    "name": "Coldyhill Lane",
+    "lat": 54.294323,
+    "lon": -0.428851,
+    "sequence": 11
+  },
+  {
+    "name": "Coldyhill Lane",
+    "lat": 54.294874,
+    "lon": -0.439509,
+    "sequence": 12
+  },
+  {
+    "name": "Proudfoot Foodstore",
+    "lat": 54.294272,
+    "lon": -0.439516,
+    "sequence": 13
+  },
+  {
+    "name": "Greenstead Road",
+    "lat": 54.292665,
+    "lon": -0.437564,
+    "sequence": 14
+  },
+  {
+    "name": "Fieldstead Crescent",
+    "lat": 54.291319,
+    "lon": -0.436371,
+    "sequence": 15
+  },
+  {
+    "name": "Throxenby Grove",
+    "lat": 54.288827,
+    "lon": -0.438908,
+    "sequence": 16
+  },
+  {
+    "name": "Roman Close",
+    "lat": 54.288086,
+    "lon": -0.442823,
+    "sequence": 17
+  },
+  {
+    "name": "High Moor Edge",
+    "lat": 54.289878,
+    "lon": -0.445121,
+    "sequence": 18
+  },
+  {
+    "name": "Four Lane Ends",
+    "lat": 54.293761,
+    "lon": -0.447295,
+    "sequence": 19
+  },
+  {
+    "name": "Newby Hackness Road",
+    "lat": 54.295329,
+    "lon": -0.444117,
+    "sequence": 20
+  }
+]

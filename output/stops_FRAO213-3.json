@@ -1,0 +1,188 @@
+[
+  {
+    "name": "Bruntcliffe Academy",
+    "lat": 53.746049943,
+    "lon": -1.618823498,
+    "sequence": 1
+  },
+  {
+    "name": "M62 Motorway Bridge",
+    "lat": 53.742580025,
+    "lon": -1.627239408,
+    "sequence": 2
+  },
+  {
+    "name": "Hill Top Farm",
+    "lat": 53.74153343,
+    "lon": -1.628855784,
+    "sequence": 3
+  },
+  {
+    "name": "Leeds Rd Nab Lane",
+    "lat": 53.736687891,
+    "lon": -1.640344068,
+    "sequence": 4
+  },
+  {
+    "name": "Windsor Road Leeds Road",
+    "lat": 53.735948876,
+    "lon": -1.642684935,
+    "sequence": 5
+  },
+  {
+    "name": "Windsor Road Arundel Close",
+    "lat": 53.734543769,
+    "lon": -1.644712989,
+    "sequence": 6
+  },
+  {
+    "name": "High School Windsor Road",
+    "lat": 53.733308011,
+    "lon": -1.646269573,
+    "sequence": 7
+  },
+  {
+    "name": "Windmill Lane Upper Batley Lane",
+    "lat": 53.731023806,
+    "lon": -1.648911021,
+    "sequence": 8
+  },
+  {
+    "name": "Upper Batley Lane Lark Hill",
+    "lat": 53.729832523,
+    "lon": -1.644820889,
+    "sequence": 9
+  },
+  {
+    "name": "Upper Batley Lane Woodlands Road",
+    "lat": 53.728350304,
+    "lon": -1.642585624,
+    "sequence": 10
+  },
+  {
+    "name": "Upper Batley Lane Upper Batley Low Road",
+    "lat": 53.726633795,
+    "lon": -1.637597579,
+    "sequence": 11
+  },
+  {
+    "name": "Low Lane Old Hall Road",
+    "lat": 53.724884792,
+    "lon": -1.634869911,
+    "sequence": 12
+  },
+  {
+    "name": "Carlinghow Hill Holly Bank Avenue",
+    "lat": 53.723093625,
+    "lon": -1.635958988,
+    "sequence": 13
+  },
+  {
+    "name": "Carlinghow Hill Transvaal Terrace",
+    "lat": 53.720763859,
+    "lon": -1.641313316,
+    "sequence": 14
+  },
+  {
+    "name": "Chinewood Avenue Carlinghow Hill",
+    "lat": 53.720015323,
+    "lon": -1.640471069,
+    "sequence": 15
+  },
+  {
+    "name": "Chinewood Ave Wyvern Close",
+    "lat": 53.719325726,
+    "lon": -1.638309992,
+    "sequence": 16
+  },
+  {
+    "name": "Chinewood Avenue County Close",
+    "lat": 53.718721409,
+    "lon": -1.634648072,
+    "sequence": 17
+  },
+  {
+    "name": "Batley Bus Station",
+    "lat": 53.715688604,
+    "lon": -1.633401548,
+    "sequence": 18
+  },
+  {
+    "name": "Mayman Lane Mayman Close",
+    "lat": 53.71447354,
+    "lon": -1.638775835,
+    "sequence": 19
+  },
+  {
+    "name": "Dark Lane Gladwin St",
+    "lat": 53.709503148,
+    "lon": -1.641787778,
+    "sequence": 20
+  },
+  {
+    "name": "Manor Way Holly Grove",
+    "lat": 53.707859535,
+    "lon": -1.642195612,
+    "sequence": 21
+  },
+  {
+    "name": "Manor Way Lime Tree Avenue",
+    "lat": 53.707752099,
+    "lon": -1.64536274,
+    "sequence": 22
+  },
+  {
+    "name": "Manor Way Maythorne Avenue",
+    "lat": 53.707660688,
+    "lon": -1.647893446,
+    "sequence": 23
+  },
+  {
+    "name": "Chestnut Avenue Lime Tree Avenue",
+    "lat": 53.709040589,
+    "lon": -1.649502965,
+    "sequence": 24
+  },
+  {
+    "name": "Woodfield Avenue Woodside Crescent",
+    "lat": 53.70982603,
+    "lon": -1.6506933,
+    "sequence": 25
+  },
+  {
+    "name": "Staincliffe Hall Road Bunkers Lane",
+    "lat": 53.709128673,
+    "lon": -1.651971659,
+    "sequence": 26
+  },
+  {
+    "name": "Staincliffe Hall Road Beaumont Place",
+    "lat": 53.707028237,
+    "lon": -1.653368759,
+    "sequence": 27
+  },
+  {
+    "name": "Butchers Arms Junction",
+    "lat": 53.70649061,
+    "lon": -1.653508302,
+    "sequence": 28
+  },
+  {
+    "name": "Chapel Fold",
+    "lat": 53.705422124,
+    "lon": -1.650790339,
+    "sequence": 29
+  },
+  {
+    "name": "Cullingworth Street",
+    "lat": 53.704549589,
+    "lon": -1.650555186,
+    "sequence": 30
+  },
+  {
+    "name": "Dewsbury & District Hospital B",
+    "lat": 53.702704986,
+    "lon": -1.649858521,
+    "sequence": 31
+  }
+]

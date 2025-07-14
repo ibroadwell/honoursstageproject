@@ -1,0 +1,416 @@
+[
+  {
+    "name": "Beverley Bus Station",
+    "lat": 53.844236,
+    "lon": -0.43157,
+    "sequence": 1
+  },
+  {
+    "name": "Beverley New Walkergate",
+    "lat": 53.84214,
+    "lon": -0.426618,
+    "sequence": 2
+  },
+  {
+    "name": "Beverley Railway Stn",
+    "lat": 53.841955,
+    "lon": -0.423524,
+    "sequence": 3
+  },
+  {
+    "name": "Beverley Armstrong Way",
+    "lat": 53.840277,
+    "lon": -0.42231,
+    "sequence": 4
+  },
+  {
+    "name": "Beverley Flemingate",
+    "lat": 53.838838,
+    "lon": -0.420921,
+    "sequence": 5
+  },
+  {
+    "name": "Beverley Lord Roberts Rd",
+    "lat": 53.840698571,
+    "lon": -0.427066917,
+    "sequence": 6
+  },
+  {
+    "name": "Beverley Lairgate",
+    "lat": 53.839714485,
+    "lon": -0.430857853,
+    "sequence": 7
+  },
+  {
+    "name": "Beverley Admiral Walker Rd",
+    "lat": 53.837408485,
+    "lon": -0.433238927,
+    "sequence": 8
+  },
+  {
+    "name": "Beverley Victoria Road",
+    "lat": 53.830255765,
+    "lon": -0.437562979,
+    "sequence": 9
+  },
+  {
+    "name": "Beverley Victoria Road",
+    "lat": 53.82703359,
+    "lon": -0.440007564,
+    "sequence": 10
+  },
+  {
+    "name": "Beverley (Victoria Road opp Morrisons)",
+    "lat": 53.822251021,
+    "lon": -0.44135503,
+    "sequence": 11
+  },
+  {
+    "name": "Bentley Lane End",
+    "lat": 53.810583879,
+    "lon": -0.446936638,
+    "sequence": 12
+  },
+  {
+    "name": "New Skidy Stop",
+    "lat": 53.790087907,
+    "lon": -0.450320065,
+    "sequence": 13
+  },
+  {
+    "name": "Woodhill Way",
+    "lat": 53.790426812,
+    "lon": -0.445252392,
+    "sequence": 14
+  },
+  {
+    "name": "Cottingham Harland Way",
+    "lat": 53.788525067,
+    "lon": -0.440707978,
+    "sequence": 15
+  },
+  {
+    "name": "Cottingham Harland Way",
+    "lat": 53.786164016,
+    "lon": -0.431293343,
+    "sequence": 16
+  },
+  {
+    "name": "Cottingham Harland Way",
+    "lat": 53.784165133,
+    "lon": -0.426237573,
+    "sequence": 17
+  },
+  {
+    "name": "Cottingham The Lawns",
+    "lat": 53.784364263,
+    "lon": -0.422921189,
+    "sequence": 18
+  },
+  {
+    "name": "Cottingham Northgate",
+    "lat": 53.784803046,
+    "lon": -0.418017175,
+    "sequence": 19
+  },
+  {
+    "name": "Cottingham King Street",
+    "lat": 53.783011908,
+    "lon": -0.41375879,
+    "sequence": 20
+  },
+  {
+    "name": "Cottingham Green Sainsburys",
+    "lat": 53.780748408,
+    "lon": -0.41388969,
+    "sequence": 21
+  },
+  {
+    "name": "Cottingham South Street",
+    "lat": 53.779792421,
+    "lon": -0.417052194,
+    "sequence": 22
+  },
+  {
+    "name": "Cottingham Southwood Road",
+    "lat": 53.779083335,
+    "lon": -0.422588018,
+    "sequence": 23
+  },
+  {
+    "name": "Cottingham The Parkway",
+    "lat": 53.776228434,
+    "lon": -0.422862007,
+    "sequence": 24
+  },
+  {
+    "name": "Cottingham Burton Road",
+    "lat": 53.775233853,
+    "lon": -0.426526189,
+    "sequence": 25
+  },
+  {
+    "name": "Cottingham Burton Road",
+    "lat": 53.777432118,
+    "lon": -0.429646112,
+    "sequence": 26
+  },
+  {
+    "name": "Cottingham Castle Road",
+    "lat": 53.777394186,
+    "lon": -0.432242634,
+    "sequence": 27
+  },
+  {
+    "name": "Castle Hill Hospital Gate 3",
+    "lat": 53.776696936,
+    "lon": -0.438050598,
+    "sequence": 28
+  },
+  {
+    "name": "Cottingham Castle Road",
+    "lat": 53.776385031,
+    "lon": -0.441021435,
+    "sequence": 29
+  },
+  {
+    "name": "Castle Hill Hospital Gate 2",
+    "lat": 53.776691071,
+    "lon": -0.442436616,
+    "sequence": 30
+  },
+  {
+    "name": "Castle Hill Hospital",
+    "lat": 53.778394493,
+    "lon": -0.442783303,
+    "sequence": 31
+  },
+  {
+    "name": "Castle Hill Hospital",
+    "lat": 53.779039047,
+    "lon": -0.444656518,
+    "sequence": 32
+  },
+  {
+    "name": "Castle Hill Hospital",
+    "lat": 53.777909462,
+    "lon": -0.446276612,
+    "sequence": 33
+  },
+  {
+    "name": "Castle Hill Hospital",
+    "lat": 53.777123863,
+    "lon": -0.44600211,
+    "sequence": 34
+  },
+  {
+    "name": "Willerby Business Park",
+    "lat": 53.771396061,
+    "lon": -0.447943494,
+    "sequence": 35
+  },
+  {
+    "name": "Willerby Shopping Park",
+    "lat": 53.762989159,
+    "lon": -0.455429331,
+    "sequence": 36
+  },
+  {
+    "name": "Willerby Great Gutter Lane",
+    "lat": 53.761931869,
+    "lon": -0.453602169,
+    "sequence": 37
+  },
+  {
+    "name": "Willerby Great Gutter Lane",
+    "lat": 53.762023591,
+    "lon": -0.450959138,
+    "sequence": 38
+  },
+  {
+    "name": "Willerby Main Street",
+    "lat": 53.761675593,
+    "lon": -0.448377817,
+    "sequence": 39
+  },
+  {
+    "name": "Willerby Well Lane",
+    "lat": 53.761523937,
+    "lon": -0.447078763,
+    "sequence": 40
+  },
+  {
+    "name": "Willerby Well Lane",
+    "lat": 53.761397128,
+    "lon": -0.444231434,
+    "sequence": 41
+  },
+  {
+    "name": "Willerby Well Lane",
+    "lat": 53.761307287,
+    "lon": -0.440775943,
+    "sequence": 42
+  },
+  {
+    "name": "Willerby Well Lane",
+    "lat": 53.761961861,
+    "lon": -0.43582129,
+    "sequence": 43
+  },
+  {
+    "name": "Willerby Well Lane",
+    "lat": 53.762091096,
+    "lon": -0.431265329,
+    "sequence": 44
+  },
+  {
+    "name": "Willerby The Parkway",
+    "lat": 53.761735678,
+    "lon": -0.42883614,
+    "sequence": 45
+  },
+  {
+    "name": "Parkway Willerby",
+    "lat": 53.758753032,
+    "lon": -0.431025671,
+    "sequence": 46
+  },
+  {
+    "name": "Willerby The Parkway",
+    "lat": 53.756683012,
+    "lon": -0.432892717,
+    "sequence": 47
+  },
+  {
+    "name": "Willerby Kingston Road",
+    "lat": 53.754608079,
+    "lon": -0.437141107,
+    "sequence": 48
+  },
+  {
+    "name": "Willerby Kingston Road",
+    "lat": 53.755566862,
+    "lon": -0.441049236,
+    "sequence": 49
+  },
+  {
+    "name": "Willerby Kingston Road",
+    "lat": 53.756983798,
+    "lon": -0.445638375,
+    "sequence": 50
+  },
+  {
+    "name": "Willerby Square Sainsburys",
+    "lat": 53.756924696,
+    "lon": -0.446626519,
+    "sequence": 51
+  },
+  {
+    "name": "Kirk Ella Beverley Road",
+    "lat": 53.754940645,
+    "lon": -0.44682107,
+    "sequence": 52
+  },
+  {
+    "name": "Kirk Ella Beverley Road",
+    "lat": 53.751688926,
+    "lon": -0.444226176,
+    "sequence": 53
+  },
+  {
+    "name": "Kirk Ella Beverley Road",
+    "lat": 53.750363541,
+    "lon": -0.441150894,
+    "sequence": 54
+  },
+  {
+    "name": "Anlaby Beverley Road",
+    "lat": 53.747992399,
+    "lon": -0.438539224,
+    "sequence": 55
+  },
+  {
+    "name": "Anlaby Beverley Road",
+    "lat": 53.746363207,
+    "lon": -0.43837216,
+    "sequence": 56
+  },
+  {
+    "name": "Anlaby Wilson Street",
+    "lat": 53.745885677,
+    "lon": -0.434841332,
+    "sequence": 57
+  },
+  {
+    "name": "Anlaby Red Lion",
+    "lat": 53.745476725,
+    "lon": -0.43236894,
+    "sequence": 58
+  },
+  {
+    "name": "Anlaby Hull Road",
+    "lat": 53.745018438,
+    "lon": -0.425988448,
+    "sequence": 59
+  },
+  {
+    "name": "Anlaby First Lane",
+    "lat": 53.742061573,
+    "lon": -0.423580625,
+    "sequence": 60
+  },
+  {
+    "name": "Anlaby First Lane",
+    "lat": 53.737358644,
+    "lon": -0.421406566,
+    "sequence": 61
+  },
+  {
+    "name": "Hessle First Lane",
+    "lat": 53.733627026,
+    "lon": -0.421318982,
+    "sequence": 62
+  },
+  {
+    "name": "First Lane Barnetby Road",
+    "lat": 53.7322889,
+    "lon": -0.422778982,
+    "sequence": 63
+  },
+  {
+    "name": "Hessle First Lane",
+    "lat": 53.728863144,
+    "lon": -0.423392282,
+    "sequence": 64
+  },
+  {
+    "name": "Hessle Cottesmore Road",
+    "lat": 53.727758214,
+    "lon": -0.424130897,
+    "sequence": 65
+  },
+  {
+    "name": "Hessle Cottesmore Road",
+    "lat": 53.727879158,
+    "lon": -0.429234694,
+    "sequence": 66
+  },
+  {
+    "name": "Hessle Sunningdale Road",
+    "lat": 53.728058742,
+    "lon": -0.434715295,
+    "sequence": 67
+  },
+  {
+    "name": "Hessle Beverley Road",
+    "lat": 53.726665551,
+    "lon": -0.436100925,
+    "sequence": 68
+  },
+  {
+    "name": "Hessle Square",
+    "lat": 53.723201576,
+    "lon": -0.435168501,
+    "sequence": 69
+  }
+]

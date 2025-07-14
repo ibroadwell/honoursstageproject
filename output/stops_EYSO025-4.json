@@ -1,0 +1,272 @@
+[
+  {
+    "name": "Beverley Flemingate",
+    "lat": 53.838838,
+    "lon": -0.420921,
+    "sequence": 1
+  },
+  {
+    "name": "Beverley Armstrong Way",
+    "lat": 53.839954,
+    "lon": -0.422414,
+    "sequence": 2
+  },
+  {
+    "name": "Beverley Rail Station",
+    "lat": 53.841878,
+    "lon": -0.423755,
+    "sequence": 3
+  },
+  {
+    "name": "Beverley New Walkergate",
+    "lat": 53.842081,
+    "lon": -0.426954,
+    "sequence": 4
+  },
+  {
+    "name": "Beverley Bus Station",
+    "lat": 53.844192,
+    "lon": -0.431648,
+    "sequence": 5
+  },
+  {
+    "name": "Beverley Norwood",
+    "lat": 53.84767,
+    "lon": -0.427459,
+    "sequence": 6
+  },
+  {
+    "name": "Beverley Norwood",
+    "lat": 53.849541,
+    "lon": -0.42482,
+    "sequence": 7
+  },
+  {
+    "name": "Beverley Hull Bridge Road",
+    "lat": 53.851991,
+    "lon": -0.421079,
+    "sequence": 8
+  },
+  {
+    "name": "Beverley Hull Bridge Road",
+    "lat": 53.853209,
+    "lon": -0.418692,
+    "sequence": 9
+  },
+  {
+    "name": "Hull Bridge",
+    "lat": 53.85825,
+    "lon": -0.406307,
+    "sequence": 10
+  },
+  {
+    "name": "Tickton Main Street",
+    "lat": 53.86219,
+    "lon": -0.389734,
+    "sequence": 11
+  },
+  {
+    "name": "Tickton Main Street",
+    "lat": 53.86226,
+    "lon": -0.384196,
+    "sequence": 12
+  },
+  {
+    "name": "Tickton Village Hall",
+    "lat": 53.863032,
+    "lon": -0.380137,
+    "sequence": 13
+  },
+  {
+    "name": "Tickton Main Street",
+    "lat": 53.86358,
+    "lon": -0.377424,
+    "sequence": 14
+  },
+  {
+    "name": "Tickton Hull Bridge Road",
+    "lat": 53.864782,
+    "lon": -0.371324,
+    "sequence": 15
+  },
+  {
+    "name": "Routh Meaux Lane",
+    "lat": 53.869737,
+    "lon": -0.343891,
+    "sequence": 16
+  },
+  {
+    "name": "Leven Beverley Road",
+    "lat": 53.884499,
+    "lon": -0.314278,
+    "sequence": 17
+  },
+  {
+    "name": "Leven South Street",
+    "lat": 53.889858,
+    "lon": -0.316329,
+    "sequence": 18
+  },
+  {
+    "name": "Leven Church",
+    "lat": 53.891959,
+    "lon": -0.317447,
+    "sequence": 19
+  },
+  {
+    "name": "Brandesburton Starcarr Lane",
+    "lat": 53.902943,
+    "lon": -0.312257,
+    "sequence": 20
+  },
+  {
+    "name": "Brandesburton New Rd",
+    "lat": 53.908935,
+    "lon": -0.30247,
+    "sequence": 21
+  },
+  {
+    "name": "Brandesburton New Road",
+    "lat": 53.910509,
+    "lon": -0.298721,
+    "sequence": 22
+  },
+  {
+    "name": "Brandesburton New Rd",
+    "lat": 53.911371,
+    "lon": -0.296722,
+    "sequence": 23
+  },
+  {
+    "name": "Catwick B1244",
+    "lat": 53.893237,
+    "lon": -0.29084,
+    "sequence": 24
+  },
+  {
+    "name": "Catwick Main Street",
+    "lat": 53.893077,
+    "lon": -0.284013,
+    "sequence": 25
+  },
+  {
+    "name": "Catwick Rise Lane",
+    "lat": 53.893839,
+    "lon": -0.278245,
+    "sequence": 26
+  },
+  {
+    "name": "Catwick Main Street",
+    "lat": 53.89675,
+    "lon": -0.269983,
+    "sequence": 27
+  },
+  {
+    "name": "Catfoss Lane End",
+    "lat": 53.897544,
+    "lon": -0.258413,
+    "sequence": 28
+  },
+  {
+    "name": "Sigglesthorne Lane End",
+    "lat": 53.898352,
+    "lon": -0.244118,
+    "sequence": 29
+  },
+  {
+    "name": "Seaton Leas Lane",
+    "lat": 53.900828,
+    "lon": -0.237667,
+    "sequence": 30
+  },
+  {
+    "name": "Seaton Leas Lane",
+    "lat": 53.902213,
+    "lon": -0.233423,
+    "sequence": 31
+  },
+  {
+    "name": "Seaton Swan Inn",
+    "lat": 53.903575,
+    "lon": -0.22822,
+    "sequence": 32
+  },
+  {
+    "name": "Seaton Hornsea Road",
+    "lat": 53.903939,
+    "lon": -0.219437,
+    "sequence": 33
+  },
+  {
+    "name": "Seaton Seaton Road",
+    "lat": 53.903762,
+    "lon": -0.209352,
+    "sequence": 34
+  },
+  {
+    "name": "Hornsea Seaton Road",
+    "lat": 53.904998,
+    "lon": -0.20184,
+    "sequence": 35
+  },
+  {
+    "name": "Hornsea Seaton Road",
+    "lat": 53.910174,
+    "lon": -0.183226,
+    "sequence": 36
+  },
+  {
+    "name": "Hornsea Westgate",
+    "lat": 53.910555,
+    "lon": -0.179875,
+    "sequence": 37
+  },
+  {
+    "name": "Hornsea (Market Place)",
+    "lat": 53.910959,
+    "lon": -0.174529,
+    "sequence": 38
+  },
+  {
+    "name": "Hornsea Newbegin",
+    "lat": 53.910806,
+    "lon": -0.172708,
+    "sequence": 39
+  },
+  {
+    "name": "Hornsea New Road",
+    "lat": 53.912401,
+    "lon": -0.166472,
+    "sequence": 40
+  },
+  {
+    "name": "Hornsea Marine Drive",
+    "lat": 53.91312,
+    "lon": -0.162924,
+    "sequence": 41
+  },
+  {
+    "name": "Hornsea Marine Drive",
+    "lat": 53.915367,
+    "lon": -0.161789,
+    "sequence": 42
+  },
+  {
+    "name": "Hornsea Hartley Street",
+    "lat": 53.917114,
+    "lon": -0.164317,
+    "sequence": 43
+  },
+  {
+    "name": "Hornsea Cliff Road",
+    "lat": 53.918385,
+    "lon": -0.166317,
+    "sequence": 44
+  },
+  {
+    "name": "Hornsea Cliff Road",
+    "lat": 53.920439,
+    "lon": -0.167749,
+    "sequence": 45
+  }
+]

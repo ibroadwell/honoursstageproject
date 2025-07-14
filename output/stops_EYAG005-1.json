@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Cottingham Street",
+    "lat": 53.695158,
+    "lon": -0.873989,
+    "sequence": 1
+  },
+  {
+    "name": "Old Goole Swinefleet Road",
+    "lat": 53.695965,
+    "lon": -0.871847,
+    "sequence": 2
+  },
+  {
+    "name": "Goole Stanhope Street",
+    "lat": 53.703437,
+    "lon": -0.874965,
+    "sequence": 3
+  },
+  {
+    "name": "Goole North Street",
+    "lat": 53.702766,
+    "lon": -0.86965,
+    "sequence": 4
+  },
+  {
+    "name": "Goole Boothferry Road",
+    "lat": 53.70511,
+    "lon": -0.877026,
+    "sequence": 5
+  },
+  {
+    "name": "Goole Boothferry Road",
+    "lat": 53.705834,
+    "lon": -0.879491,
+    "sequence": 6
+  },
+  {
+    "name": "Dunhill Road",
+    "lat": 53.701966,
+    "lon": -0.884926,
+    "sequence": 7
+  },
+  {
+    "name": "Larsen Road",
+    "lat": 53.702154,
+    "lon": -0.89354,
+    "sequence": 8
+  },
+  {
+    "name": "Junction 36",
+    "lat": 53.700824,
+    "lon": -0.907329,
+    "sequence": 9
+  },
+  {
+    "name": "Goole Rawcliffe Road",
+    "lat": 53.705617,
+    "lon": -0.895843,
+    "sequence": 10
+  },
+  {
+    "name": "Goole Rawcliffe Road",
+    "lat": 53.705743,
+    "lon": -0.887992,
+    "sequence": 11
+  },
+  {
+    "name": "Goole College",
+    "lat": 53.707232,
+    "lon": -0.883893,
+    "sequence": 12
+  },
+  {
+    "name": "Goole Clifton Gardens",
+    "lat": 53.708074,
+    "lon": -0.880674,
+    "sequence": 13
+  },
+  {
+    "name": "Goole Oxford Road",
+    "lat": 53.711332,
+    "lon": -0.879163,
+    "sequence": 14
+  },
+  {
+    "name": "Ilkeston Avenue",
+    "lat": 53.711845,
+    "lon": -0.883104,
+    "sequence": 15
+  },
+  {
+    "name": "Western Road",
+    "lat": 53.713842,
+    "lon": -0.882233,
+    "sequence": 16
+  },
+  {
+    "name": "Goole Hospital",
+    "lat": 53.716214,
+    "lon": -0.873578,
+    "sequence": 17
+  },
+  {
+    "name": "Goole Colonel's Walk",
+    "lat": 53.709593,
+    "lon": -0.870998,
+    "sequence": 18
+  },
+  {
+    "name": "Goole Pasture Road",
+    "lat": 53.70761,
+    "lon": -0.874278,
+    "sequence": 19
+  },
+  {
+    "name": "Goole Pasture Road",
+    "lat": 53.70565,
+    "lon": -0.875178,
+    "sequence": 20
+  },
+  {
+    "name": "Goole Mariners Street",
+    "lat": 53.703805,
+    "lon": -0.874985,
+    "sequence": 21
+  },
+  {
+    "name": "Goole Stanhope Street",
+    "lat": 53.703437,
+    "lon": -0.874965,
+    "sequence": 22
+  },
+  {
+    "name": "North Street",
+    "lat": 53.702929,
+    "lon": -0.869782,
+    "sequence": 23
+  },
+  {
+    "name": "Lime Tree Avenue",
+    "lat": 53.706988,
+    "lon": -0.867386,
+    "sequence": 24
+  },
+  {
+    "name": "Goole Hook Road",
+    "lat": 53.710588,
+    "lon": -0.851835,
+    "sequence": 25
+  },
+  {
+    "name": "Fairfield Estate",
+    "lat": 53.712122,
+    "lon": -0.853445,
+    "sequence": 26
+  },
+  {
+    "name": "Goole Hook Road",
+    "lat": 53.710559,
+    "lon": -0.851578,
+    "sequence": 27
+  },
+  {
+    "name": "Goole North Street",
+    "lat": 53.702766,
+    "lon": -0.86965,
+    "sequence": 28
+  },
+  {
+    "name": "Goole Stanhope Street",
+    "lat": 53.703335,
+    "lon": -0.874619,
+    "sequence": 29
+  },
+  {
+    "name": "Cottingham Street",
+    "lat": 53.695158,
+    "lon": -0.873989,
+    "sequence": 30
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Hull Interchange",
+    "lat": 53.744742,
+    "lon": -0.346339,
+    "sequence": 1
+  },
+  {
+    "name": "Bond Street A",
+    "lat": 53.746706,
+    "lon": -0.339453,
+    "sequence": 2
+  },
+  {
+    "name": "St Mary's Church",
+    "lat": 53.743625,
+    "lon": -0.332553,
+    "sequence": 3
+  },
+  {
+    "name": "King William House",
+    "lat": 53.741667,
+    "lon": -0.333313,
+    "sequence": 4
+  },
+  {
+    "name": "The Deep",
+    "lat": 53.740605,
+    "lon": -0.329337,
+    "sequence": 5
+  },
+  {
+    "name": "Drypool Bridge",
+    "lat": 53.745187,
+    "lon": -0.329155,
+    "sequence": 6
+  },
+  {
+    "name": "Alfred Gelder Street F",
+    "lat": 53.744082,
+    "lon": -0.33434,
+    "sequence": 7
+  },
+  {
+    "name": "Monument Bridge",
+    "lat": 53.743704,
+    "lon": -0.338252,
+    "sequence": 8
+  },
+  {
+    "name": "Carr Lane D",
+    "lat": 53.743383,
+    "lon": -0.342298,
+    "sequence": 9
+  },
+  {
+    "name": "Pease Street",
+    "lat": 53.743005,
+    "lon": -0.347469,
+    "sequence": 10
+  },
+  {
+    "name": "Fountain Street",
+    "lat": 53.742885,
+    "lon": -0.35316,
+    "sequence": 11
+  },
+  {
+    "name": "Hull Royal Infirmary",
+    "lat": 53.743036,
+    "lon": -0.356899,
+    "sequence": 12
+  },
+  {
+    "name": "Harthill Drive",
+    "lat": 53.740931,
+    "lon": -0.359423,
+    "sequence": 13
+  },
+  {
+    "name": "Winship Close",
+    "lat": 53.739096,
+    "lon": -0.358721,
+    "sequence": 14
+  },
+  {
+    "name": "Priory Park & Ride",
+    "lat": 53.721832,
+    "lon": -0.417138,
+    "sequence": 15
+  }
+]

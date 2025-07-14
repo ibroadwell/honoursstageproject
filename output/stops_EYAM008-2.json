@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Castle Howard",
+    "lat": 54.120336056,
+    "lon": -0.911518535,
+    "sequence": 1
+  },
+  {
+    "name": "Terrington (Post Office)",
+    "lat": 54.127543,
+    "lon": -0.974898,
+    "sequence": 2
+  },
+  {
+    "name": "Lavender Farm",
+    "lat": 54.128682,
+    "lon": -0.981924,
+    "sequence": 3
+  },
+  {
+    "name": "Hovingham (Worsley Arms)",
+    "lat": 54.17134,
+    "lon": -0.979024,
+    "sequence": 4
+  },
+  {
+    "name": "Stonegrave",
+    "lat": 54.191218,
+    "lon": -0.991377,
+    "sequence": 5
+  },
+  {
+    "name": "Nunnington Hall",
+    "lat": 54.206328,
+    "lon": -0.975555,
+    "sequence": 6
+  },
+  {
+    "name": "Harome (Main Street)",
+    "lat": 54.230559,
+    "lon": -1.006711,
+    "sequence": 7
+  },
+  {
+    "name": "Carlton Road",
+    "lat": 54.247261,
+    "lon": -1.053977,
+    "sequence": 8
+  },
+  {
+    "name": "Helmsley Market Place",
+    "lat": 54.246273,
+    "lon": -1.06086,
+    "sequence": 9
+  }
+]

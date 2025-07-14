@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b3e8b0a713c62fe9d010952f4cc638d2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+        <div style="position: fixed; top: 20px; left: 50%; transform: translateX(-50%);
+                background-color: white; padding: 8px 16px; border: 1px solid #666;
+                border-radius: 6px; font-size: 14px; font-weight: bold; z-index:9999;
+                display: inline-block; white-space: nowrap;">
+        Route 213 - Dewsbury Bus Station
+        </div>
+        
+    
+            <div class="folium-map" id="map_b3e8b0a713c62fe9d010952f4cc638d2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b3e8b0a713c62fe9d010952f4cc638d2 = L.map(
+                "map_b3e8b0a713c62fe9d010952f4cc638d2",
+                {
+                    center: [53.715710579, -1.633439018],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4dea1dc6363098cc968e867ee94a66ab = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_4dea1dc6363098cc968e867ee94a66ab.addTo(map_b3e8b0a713c62fe9d010952f4cc638d2);
+        
+    
+            var poly_line_193ee4fba399155b67770f2e8ac74723 = L.polyline(
+                [[53.715710579, -1.633439018], [53.715679998, -1.633489987], [53.715549998, -1.633459987], [53.715519998, -1.633469987], [53.715499998, -1.633489987], [53.715399998, -1.633639987], [53.715289998, -1.633829987], [53.715269998, -1.633869987], [53.715259998, -1.633889987], [53.715239998, -1.633949987], [53.715229998, -1.633999987], [53.715219998, -1.634079987], [53.714619998, -1.633829987], [53.714569998, -1.633879987], [53.714559998, -1.633979987], [53.714639998, -1.634299987], [53.714699998, -1.634789987], [53.714739998, -1.634999987], [53.714739998, -1.635549987], [53.714739998, -1.635879987], [53.714769998, -1.636129987], [53.714799998, -1.636339987], [53.714919998, -1.636699987], [53.715209998, -1.637489987], [53.715099998, -1.637729987], [53.715009998, -1.637939987], [53.714859998, -1.638269987], [53.714679998, -1.638579987], [53.714649998, -1.638629987], [53.714530014, -1.638859671], [53.714530014, -1.638859671], [53.714299998, -1.639299987], [53.714159998, -1.639539987], [53.713949998, -1.639909987], [53.713839998, -1.640079987], [53.713739998, -1.640219987], [53.713619998, -1.640349987], [53.713479998, -1.640479987], [53.713339998, -1.640579987], [53.713159998, -1.640689987], [53.713119998, -1.640709987], [53.712799998, -1.640859987], [53.712699998, -1.640889987], [53.712589998, -1.640919987], [53.712469998, -1.640939987], [53.711769998, -1.641149987], [53.710999998, -1.641379987], [53.710479998, -1.641549987], [53.710399998, -1.641579987], [53.710099998, -1.641699987], [53.709909998, -1.641769987], [53.709669998, -1.641849987], [53.709512918, -1.641891875], [53.709512918, -1.641891875], [53.709369998, -1.641929987], [53.709049998, -1.641989987], [53.708879998, -1.642009987], [53.708739998, -1.641999987], [53.708609998, -1.641969987], [53.708469998, -1.641909987], [53.708299998, -1.641819987], [53.708149998, -1.641709987], [53.708099998, -1.641679987], [53.708039998, -1.641639987], [53.708009998, -1.641889987], [53.707979998, -1.642209987], [53.707977206, -1.642234183], [53.707977206, -1.642234183], [53.707919998, -1.642729987], [53.707859998, -1.645019987], [53.707855438, -1.645366603], [53.707855438, -1.645366603], [53.707849998, -1.645779987], [53.707779998, -1.645779987], [53.707629998, -1.645909987], [53.707559998, -1.646079987], [53.707509998, -1.646399987], [53.707489998, -1.647369987], [53.707569998, -1.647489987], [53.707799998, -1.647519987], [53.707796108, -1.647897412], [53.707796108, -1.647897412], [53.707789998, -1.648489987], [53.707779998, -1.649339987], [53.708259998, -1.649449987], [53.708539998, -1.649479987], [53.708689998, -1.649499987], [53.708719998, -1.649499987], [53.709039148, -1.649465297], [53.709039148, -1.649465297], [53.709179998, -1.649449987], [53.709309998, -1.649409987], [53.709479998, -1.649359987], [53.709719998, -1.649289987], [53.709769998, -1.649619987], [53.709809998, -1.649909987], [53.709859998, -1.650209987], [53.709907304, -1.65066953], [53.709907304, -1.65066953], [53.709929998, -1.650889987], [53.709959998, -1.651129987], [53.709979998, -1.651289987], [53.709979998, -1.651819987], [53.709899998, -1.651819987], [53.709559998, -1.651839987], [53.709479998, -1.651869987], [53.709219998, -1.651989987], [53.709150632, -1.652047242], [53.709150632, -1.652047242], [53.708589998, -1.652509987], [53.708109998, -1.652939987], [53.708039998, -1.652999987], [53.707109998, -1.653659987], [53.707109998, -1.653659987], [53.706689998, -1.654109987], [53.706467097, -1.653534158], [53.706467097, -1.653534158], [53.706449998, -1.653489987], [53.705859998, -1.652019987], [53.705449998, -1.650959987], [53.705395473, -1.650819779], [53.705395473, -1.650819779], [53.705309998, -1.650599987], [53.705249998, -1.650459987], [53.705159998, -1.650239987], [53.705099998, -1.650079987], [53.704729998, -1.650399987], [53.704559048, -1.650580615], [53.704559048, -1.650580615], [53.704199998, -1.650959987], [53.704039998, -1.651079987], [53.703879998, -1.651129987], [53.703749998, -1.651269987], [53.703719998, -1.651329987], [53.703679998, -1.651289987], [53.703609998, -1.651319987], [53.703069998, -1.651809987], [53.702659998, -1.651549987], [53.702639998, -1.651519987], [53.702609998, -1.651459987], [53.702589998, -1.651399987], [53.702569998, -1.651299987], [53.702549998, -1.651169987], [53.702529998, -1.650949987], [53.702529998, -1.650749987], [53.702539998, -1.650609987], [53.702549998, -1.650519987], [53.702569998, -1.650399987], [53.702619998, -1.650169987], [53.702659998, -1.649989987], [53.702693999, -1.649850893], [53.702693999, -1.649850893], [53.702769998, -1.649539987], [53.702819998, -1.649379987], [53.702879998, -1.649239987], [53.702949998, -1.649129987], [53.703029998, -1.649049987], [53.703149998, -1.648969987], [53.703319998, -1.648899987], [53.704009998, -1.648789987], [53.704469998, -1.648569987], [53.704539998, -1.648729987], [53.704789998, -1.649319987], [53.704999998, -1.649859987], [53.705099998, -1.650079987], [53.705159998, -1.650239987], [53.705249998, -1.650459987], [53.705309998, -1.650599987], [53.705449998, -1.650959987], [53.705859998, -1.652019987], [53.706449998, -1.653489987], [53.706689998, -1.654109987], [53.706289998, -1.654459987], [53.706199998, -1.654519987], [53.706109998, -1.654569987], [53.705759998, -1.654729987], [53.705719957, -1.654747504], [53.705719957, -1.654747504], [53.705279998, -1.654939987], [53.705059998, -1.655029987], [53.704719998, -1.655169987], [53.704399998, -1.655309987], [53.704289998, -1.655349987], [53.704209998, -1.655369987], [53.704109998, -1.655369987], [53.704009998, -1.655349987], [53.703839998, -1.655269987], [53.703659998, -1.655209987], [53.703389998, -1.655159987], [53.703099998, -1.655129987], [53.702669998, -1.655069987], [53.70241581, -1.655027622], [53.70241581, -1.655027622], [53.702189998, -1.654989987], [53.701649998, -1.654929987], [53.701509998, -1.654909987], [53.701399998, -1.654889987], [53.701289998, -1.654859987], [53.701169998, -1.654809987], [53.701059998, -1.654749987], [53.700959998, -1.654679987], [53.700849998, -1.654599987], [53.700429998, -1.654259987], [53.700189998, -1.654059987], [53.700139998, -1.654019987], [53.699699998, -1.653659987], [53.699589998, -1.653569987], [53.699459998, -1.653469987], [53.699390508, -1.653411704], [53.699390508, -1.653411704], [53.699149998, -1.653209987], [53.698669998, -1.652829987], [53.698339998, -1.652559987], [53.698229998, -1.652489987], [53.698089998, -1.652399987], [53.697929998, -1.652329987], [53.697779036, -1.652282314], [53.697779036, -1.652282314], [53.697739998, -1.652269987], [53.697479998, -1.652199987], [53.697399998, -1.652179987], [53.697209998, -1.652139987], [53.696479998, -1.651969987], [53.696139998, -1.651889987], [53.695689998, -1.651789987], [53.695279998, -1.651699987], [53.695049998, -1.651649987], [53.694819998, -1.651609987], [53.694590949, -1.651586292], [53.694590949, -1.651586292], [53.694529998, -1.651579987], [53.694339998, -1.651579987], [53.694229998, -1.651599987], [53.694079998, -1.651639987], [53.693949998, -1.651689987], [53.693809998, -1.651759987], [53.693669998, -1.651839987], [53.693489998, -1.651969987], [53.693259998, -1.652139987], [53.692999998, -1.652349987], [53.692579998, -1.652639987], [53.692339998, -1.652819987], [53.691899998, -1.653129987], [53.691159998, -1.653659987], [53.690659998, -1.653999987], [53.690529998, -1.654079987], [53.690459998, -1.654089987], [53.690409998, -1.654099987], [53.690273645, -1.654158423], [53.690273645, -1.654158423], [53.690269998, -1.654159987], [53.690139998, -1.654209987], [53.689999998, -1.654229987], [53.689869998, -1.654129987], [53.689689998, -1.653999987], [53.689529998, -1.653879987], [53.689369998, -1.653719987], [53.689219998, -1.653529987], [53.689079998, -1.653299987], [53.688929998, -1.653039987], [53.688669998, -1.652639987], [53.688539998, -1.652429987], [53.688459998, -1.652309987], [53.688399998, -1.652199987], [53.688339998, -1.652059987], [53.688289998, -1.651909987], [53.688199998, -1.651589987], [53.688139998, -1.651359987], [53.688049998, -1.651049987], [53.687899998, -1.650589987], [53.687873659, -1.650496603], [53.687873659, -1.650496603], [53.687679998, -1.649809987], [53.687549998, -1.649339987], [53.687389998, -1.648819987], [53.687349998, -1.648709987], [53.687319998, -1.648639987], [53.687269998, -1.648539987], [53.687139998, -1.648319987], [53.687029998, -1.648139987], [53.686959998, -1.648029987], [53.686859998, -1.647869987], [53.686779998, -1.647729987], [53.686749998, -1.647659987], [53.686719998, -1.647579987], [53.686699998, -1.647509987], [53.686689998, -1.647439987], [53.686689998, -1.647359987], [53.686709998, -1.647269987], [53.686749998, -1.647099987], [53.686809998, -1.646839987], [53.686901179, -1.646457028], [53.686901179, -1.646457028], [53.686959998, -1.646209987], [53.687209998, -1.645199987], [53.687289998, -1.644859987], [53.687309998, -1.644759987], [53.687319998, -1.644659987], [53.687589998, -1.644229987], [53.687919998, -1.643659987], [53.687999998, -1.643519987], [53.688029998, -1.643469987], [53.688109998, -1.643309987], [53.688239998, -1.643079987], [53.688405163, -1.642804712], [53.688405163, -1.642804712], [53.688479998, -1.642679987], [53.688689998, -1.642249987], [53.688769998, -1.642069987], [53.688819998, -1.641969987], [53.689019998, -1.641299987], [53.689109998, -1.640989987], [53.689229998, -1.640589987], [53.689328087, -1.640218282], [53.689328087, -1.640218282], [53.689419998, -1.639869987], [53.689519998, -1.639549987], [53.689949998, -1.638499987], [53.690129998, -1.638099987], [53.690259998, -1.637789987], [53.690369998, -1.637539987], [53.690619998, -1.636919987], [53.690679998, -1.636819987], [53.690979998, -1.636299987], [53.691126207, -1.636004172], [53.691126207, -1.636004172], [53.691409998, -1.635429987], [53.691579998, -1.634749987], [53.691399998, -1.634649987], [53.691209998, -1.634489987], [53.690949998, -1.634239987], [53.690799998, -1.633979987], [53.690719998, -1.633789987], [53.690709998, -1.633599987], [53.690729998, -1.633359987], [53.690869998, -1.633019987], [53.691059998, -1.632679987], [53.691209998, -1.632499987], [53.691369998, -1.632439987], [53.691529998, -1.632439987], [53.691629998, -1.632479987], [53.691669998, -1.632499987], [53.691699998, -1.632579987], [53.691509998, -1.632889987], [53.691249998, -1.633319987], [53.691019998, -1.633649987], [53.690930553, -1.633784154], [53.690930553, -1.633784154], [53.690799998, -1.633979987], [53.690129998, -1.634929987], [53.690079998, -1.635009987], [53.689889998, -1.635309987], [53.689729998, -1.635579987], [53.689609998, -1.635769987], [53.689569998, -1.635479987], [53.689539998, -1.635309987], [53.689439998, -1.634619987], [53.689379998, -1.634299987], [53.689269998, -1.633599987], [53.689239998, -1.633259987], [53.689239998, -1.632999987], [53.689249998, -1.632829987], [53.689299998, -1.632079987], [53.689339998, -1.631699987], [53.689379998, -1.631419987], [53.689473882, -1.63097873]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_b3e8b0a713c62fe9d010952f4cc638d2);
+        
+    
+            var circle_marker_2e3676b049a3b9c1320b6366bec462dd = L.circleMarker(
+                [53.715688604, -1.633401548],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_b3e8b0a713c62fe9d010952f4cc638d2);
+        
+    
+        var popup_19552f625f896e4dfeed9125515a7a16 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4db5100427d4bc19d36ef32f44d57555 = $(`<div id="html_4db5100427d4bc19d36ef32f44d57555" style="width: 100.0%; height: 100.0%;">First Stop: Batley Bus Station</div>`)[0];
+                popup_19552f625f896e4dfeed9125515a7a16.setContent(html_4db5100427d4bc19d36ef32f44d57555);
+            
+        
+
+        circle_marker_2e3676b049a3b9c1320b6366bec462dd.bindPopup(popup_19552f625f896e4dfeed9125515a7a16)
+        ;
+
+        
+    
+    
+            circle_marker_2e3676b049a3b9c1320b6366bec462dd.bindTooltip(
+                `<div>
+                     First Stop: Batley Bus Station
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3fbb82d5eeae934e0af70c2916b2beb1 = L.circleMarker(
+                [53.71447354, -1.638775835],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b3e8b0a713c62fe9d010952f4cc638d2);
+        
+    
+        var popup_16b22190e76b22aae9d2670491580002 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5de9c1c217c1265eb8e2040fb5056efd = $(`<div id="html_5de9c1c217c1265eb8e2040fb5056efd" style="width: 100.0%; height: 100.0%;">Mayman Lane Mayman Close</div>`)[0];
+                popup_16b22190e76b22aae9d2670491580002.setContent(html_5de9c1c217c1265eb8e2040fb5056efd);
+            
+        
+
+        circle_marker_3fbb82d5eeae934e0af70c2916b2beb1.bindPopup(popup_16b22190e76b22aae9d2670491580002)
+        ;
+
+        
+    
+    
+            circle_marker_3fbb82d5eeae934e0af70c2916b2beb1.bindTooltip(
+                `<div>
+                     Mayman Lane Mayman Close
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_85f74c69e1ce8f3471139b7ba53d414c = L.circleMarker(
+                [53.709503148, -1.641787778],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b3e8b0a713c62fe9d010952f4cc638d2);
+        
+    
+        var popup_62f24bb45b69aea91d1347aca9d85fc2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c125f10c297ffb84f7b0620b320c4fb6 = $(`<div id="html_c125f10c297ffb84f7b0620b320c4fb6" style="width: 100.0%; height: 100.0%;">Dark Lane Gladwin St</div>`)[0];
+                popup_62f24bb45b69aea91d1347aca9d85fc2.setContent(html_c125f10c297ffb84f7b0620b320c4fb6);
+            
+        
+
+        circle_marker_85f74c69e1ce8f3471139b7ba53d414c.bindPopup(popup_62f24bb45b69aea91d1347aca9d85fc2)
+        ;
+
+        
+    
+    
+            circle_marker_85f74c69e1ce8f3471139b7ba53d414c.bindTooltip(
+                `<div>
+                     Dark Lane Gladwin St
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bafa40dd32f39cd1be5e8fbd0009687c = L.circleMarker(
+                [53.707859535, -1.642195612],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b3e8b0a713c62fe9d010952f4cc638d2);
+        
+    
+        var popup_5e4231a94b437fbb8209a8a34bb40a2c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c9c999c17f7ea59d6cd30c566b7c756 = $(`<div id="html_1c9c999c17f7ea59d6cd30c566b7c756" style="width: 100.0%; height: 100.0%;">Manor Way Holly Grove</div>`)[0];
+                popup_5e4231a94b437fbb8209a8a34bb40a2c.setContent(html_1c9c999c17f7ea59d6cd30c566b7c756);
+            
+        
+
+        circle_marker_bafa40dd32f39cd1be5e8fbd0009687c.bindPopup(popup_5e4231a94b437fbb8209a8a34bb40a2c)
+        ;
+
+        
+    
+    
+            circle_marker_bafa40dd32f39cd1be5e8fbd0009687c.bindTooltip(
+                `<div>
+                     Manor Way Holly Grove
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7e3f9b9a23f96708142c79d4c21411dd = L.circleMarker(
+                [53.707752099, -1.64536274],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b3e8b0a713c62fe9d010952f4cc638d2);
+        
+    
+        var popup_4b03a5ea7af8de1736656c984de069a2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_973bd842ea7918c32c5608626d97d91d = $(`<div id="html_973bd842ea7918c32c5608626d97d91d" style="width: 100.0%; height: 100.0%;">Manor Way Lime Tree Avenue</div>`)[0];
+                popup_4b03a5ea7af8de1736656c984de069a2.setContent(html_973bd842ea7918c32c5608626d97d91d);
+            
+        
+
+        circle_marker_7e3f9b9a23f96708142c79d4c21411dd.bindPopup(popup_4b03a5ea7af8de1736656c984de069a2)
+        ;
+
+        
+    
+    
+            circle_marker_7e3f9b9a23f96708142c79d4c21411dd.bindTooltip(
+                `<div>
+                     Manor Way Lime Tree Avenue
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_39a3adca49468e379ee2bb460ac1437a = L.circleMarker(
+                [53.707660688, -1.647893446],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b3e8b0a713c62fe9d010952f4cc638d2);
+        
+    
+        var popup_b1de0157999aa4e2b8c27b02e4d1b74d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8e9d6336c21353dc57d2d40dfb2ee59e = $(`<div id="html_8e9d6336c21353dc57d2d40dfb2ee59e" style="width: 100.0%; height: 100.0%;">Manor Way Maythorne Avenue</div>`)[0];
+                popup_b1de0157999aa4e2b8c27b02e4d1b74d.setContent(html_8e9d6336c21353dc57d2d40dfb2ee59e);
+            
+        
+
+        circle_marker_39a3adca49468e379ee2bb460ac1437a.bindPopup(popup_b1de0157999aa4e2b8c27b02e4d1b74d)
+        ;
+
+        
+    
+    
+            circle_marker_39a3adca49468e379ee2bb460ac1437a.bindTooltip(
+                `<div>
+                     Manor Way Maythorne Avenue
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_448180db33d6077479fb8b8dad1c2b6b = L.circleMarker(
+                [53.709040589, -1.649502965],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b3e8b0a713c62fe9d010952f4cc638d2);
+        
+    
+        var popup_2ec57ea9e884ebc1883fdb8a5f79d242 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3a31c621cc36ff03c23e7dc233fe6e06 = $(`<div id="html_3a31c621cc36ff03c23e7dc233fe6e06" style="width: 100.0%; height: 100.0%;">Chestnut Avenue Lime Tree Avenue</div>`)[0];
+                popup_2ec57ea9e884ebc1883fdb8a5f79d242.setContent(html_3a31c621cc36ff03c23e7dc233fe6e06);
+            
+        
+
+        circle_marker_448180db33d6077479fb8b8dad1c2b6b.bindPopup(popup_2ec57ea9e884ebc1883fdb8a5f79d242)
+        ;
+
+        
+    
+    
+            circle_marker_448180db33d6077479fb8b8dad1c2b6b.bindTooltip(
+                `<div>
+                     Chestnut Avenue Lime Tree Avenue
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6cc17b54cb6bb5644870bdd40f1b8566 = L.circleMarker(
+                [53.70982603, -1.6506933],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b3e8b0a713c62fe9d010952f4cc638d2);
+        
+    
+        var popup_54b7b1a2e18513a309eb8bb65e65e044 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4803a56acb65e410ae6928aae7e512b4 = $(`<div id="html_4803a56acb65e410ae6928aae7e512b4" style="width: 100.0%; height: 100.0%;">Woodfield Avenue Woodside Crescent</div>`)[0];
+                popup_54b7b1a2e18513a309eb8bb65e65e044.setContent(html_4803a56acb65e410ae6928aae7e512b4);
+            
+        
+
+        circle_marker_6cc17b54cb6bb5644870bdd40f1b8566.bindPopup(popup_54b7b1a2e18513a309eb8bb65e65e044)
+        ;
+
+        
+    
+    
+            circle_marker_6cc17b54cb6bb5644870bdd40f1b8566.bindTooltip(
+                `<div>
+                     Woodfield Avenue Woodside Crescent
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ec262ee15450d52771a6567d30b11be8 = L.circleMarker(
+                [53.709128673, -1.651971659],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b3e8b0a713c62fe9d010952f4cc638d2);
+        
+    
+        var popup_e7a9352ab5bc19def00273604eecbae6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6e86fbec946fc6c9018e1954600c5af4 = $(`<div id="html_6e86fbec946fc6c9018e1954600c5af4" style="width: 100.0%; height: 100.0%;">Staincliffe Hall Road Bunkers Lane</div>`)[0];
+                popup_e7a9352ab5bc19def00273604eecbae6.setContent(html_6e86fbec946fc6c9018e1954600c5af4);
+            
+        
+
+        circle_marker_ec262ee15450d52771a6567d30b11be8.bindPopup(popup_e7a9352ab5bc19def00273604eecbae6)
+        ;
+
+        
+    
+    
+            circle_marker_ec262ee15450d52771a6567d30b11be8.bindTooltip(
+                `<div>
+                     Staincliffe Hall Road Bunkers Lane
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fb456f83b2e3d0af3ac93b70f8a5f750 = L.circleMarker(
+                [53.707028237, -1.653368759],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b3e8b0a713c62fe9d010952f4cc638d2);
+        
+    
+        var popup_e06e5c5f5b0c9e6f6265901430844e6a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab77f6eb5164a8278635f5626552e1b8 = $(`<div id="html_ab77f6eb5164a8278635f5626552e1b8" style="width: 100.0%; height: 100.0%;">Staincliffe Hall Road Beaumont Place</div>`)[0];
+                popup_e06e5c5f5b0c9e6f6265901430844e6a.setContent(html_ab77f6eb5164a8278635f5626552e1b8);
+            
+        
+
+        circle_marker_fb456f83b2e3d0af3ac93b70f8a5f750.bindPopup(popup_e06e5c5f5b0c9e6f6265901430844e6a)
+        ;
+
+        
+    
+    
+            circle_marker_fb456f83b2e3d0af3ac93b70f8a5f750.bindTooltip(
+                `<div>
+                     Staincliffe Hall Road Beaumont Place
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_adc4eec7a333a96ef8afdc0e17e26b0e = L.circleMarker(
+                [53.70649061, -1.653508302],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b3e8b0a713c62fe9d010952f4cc638d2);
+        
+    
+        var popup_6e94721f52bea61585c40244622d0314 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_26a40bfcf5c6c96754089a8c25551a5d = $(`<div id="html_26a40bfcf5c6c96754089a8c25551a5d" style="width: 100.0%; height: 100.0%;">Butchers Arms Junction</div>`)[0];
+                popup_6e94721f52bea61585c40244622d0314.setContent(html_26a40bfcf5c6c96754089a8c25551a5d);
+            
+        
+
+        circle_marker_adc4eec7a333a96ef8afdc0e17e26b0e.bindPopup(popup_6e94721f52bea61585c40244622d0314)
+        ;
+
+        
+    
+    
+            circle_marker_adc4eec7a333a96ef8afdc0e17e26b0e.bindTooltip(
+                `<div>
+                     Butchers Arms Junction
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5ca6e9742f8dc8e24a5b3849b26730f5 = L.circleMarker(
+                [53.705422124, -1.650790339],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b3e8b0a713c62fe9d010952f4cc638d2);
+        
+    
+        var popup_0310c8070ccc73a9c9b27e85e0e69594 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6e6e28ed5afd43a9684d7abfba8d1619 = $(`<div id="html_6e6e28ed5afd43a9684d7abfba8d1619" style="width: 100.0%; height: 100.0%;">Chapel Fold</div>`)[0];
+                popup_0310c8070ccc73a9c9b27e85e0e69594.setContent(html_6e6e28ed5afd43a9684d7abfba8d1619);
+            
+        
+
+        circle_marker_5ca6e9742f8dc8e24a5b3849b26730f5.bindPopup(popup_0310c8070ccc73a9c9b27e85e0e69594)
+        ;
+
+        
+    
+    
+            circle_marker_5ca6e9742f8dc8e24a5b3849b26730f5.bindTooltip(
+                `<div>
+                     Chapel Fold
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_01c43177b134a16a9509956edff0abfe = L.circleMarker(
+                [53.704549589, -1.650555186],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b3e8b0a713c62fe9d010952f4cc638d2);
+        
+    
+        var popup_c1f17158ddc700fcd3efacd3b4dc705a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_111d82a84e7bfd529a48b1894dcd843c = $(`<div id="html_111d82a84e7bfd529a48b1894dcd843c" style="width: 100.0%; height: 100.0%;">Cullingworth Street</div>`)[0];
+                popup_c1f17158ddc700fcd3efacd3b4dc705a.setContent(html_111d82a84e7bfd529a48b1894dcd843c);
+            
+        
+
+        circle_marker_01c43177b134a16a9509956edff0abfe.bindPopup(popup_c1f17158ddc700fcd3efacd3b4dc705a)
+        ;
+
+        
+    
+    
+            circle_marker_01c43177b134a16a9509956edff0abfe.bindTooltip(
+                `<div>
+                     Cullingworth Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_232b2feb164dc3100ab768f9df5b8231 = L.circleMarker(
+                [53.702704986, -1.649858521],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b3e8b0a713c62fe9d010952f4cc638d2);
+        
+    
+        var popup_a5e458bdd1f00fb2cd8ccdf4f4953c11 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b5e1d2743d4a29662f1beb33ab9c1fc5 = $(`<div id="html_b5e1d2743d4a29662f1beb33ab9c1fc5" style="width: 100.0%; height: 100.0%;">Dewsbury &amp; District Hospital B</div>`)[0];
+                popup_a5e458bdd1f00fb2cd8ccdf4f4953c11.setContent(html_b5e1d2743d4a29662f1beb33ab9c1fc5);
+            
+        
+
+        circle_marker_232b2feb164dc3100ab768f9df5b8231.bindPopup(popup_a5e458bdd1f00fb2cd8ccdf4f4953c11)
+        ;
+
+        
+    
+    
+            circle_marker_232b2feb164dc3100ab768f9df5b8231.bindTooltip(
+                `<div>
+                     Dewsbury & District Hospital B
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_15e925838039d818efdc2f71bc9877ae = L.circleMarker(
+                [53.705712069, -1.654696286],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b3e8b0a713c62fe9d010952f4cc638d2);
+        
+    
+        var popup_fac549caded580970d907d5ba92d0f72 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7c2635da91bfa46405ff181792890623 = $(`<div id="html_7c2635da91bfa46405ff181792890623" style="width: 100.0%; height: 100.0%;">Dewsbury Gate Road Hilary Street</div>`)[0];
+                popup_fac549caded580970d907d5ba92d0f72.setContent(html_7c2635da91bfa46405ff181792890623);
+            
+        
+
+        circle_marker_15e925838039d818efdc2f71bc9877ae.bindPopup(popup_fac549caded580970d907d5ba92d0f72)
+        ;
+
+        
+    
+    
+            circle_marker_15e925838039d818efdc2f71bc9877ae.bindTooltip(
+                `<div>
+                     Dewsbury Gate Road Hilary Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c7373394f7753141c0c6c94460955e69 = L.circleMarker(
+                [53.702423008, -1.654904959],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b3e8b0a713c62fe9d010952f4cc638d2);
+        
+    
+        var popup_3ec9ba1856a03a0d2c40022a795062bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a6b1b9f88347ab7fb5f6ad52b5498913 = $(`<div id="html_a6b1b9f88347ab7fb5f6ad52b5498913" style="width: 100.0%; height: 100.0%;">Staincliffe Road Brewton Lane</div>`)[0];
+                popup_3ec9ba1856a03a0d2c40022a795062bb.setContent(html_a6b1b9f88347ab7fb5f6ad52b5498913);
+            
+        
+
+        circle_marker_c7373394f7753141c0c6c94460955e69.bindPopup(popup_3ec9ba1856a03a0d2c40022a795062bb)
+        ;
+
+        
+    
+    
+            circle_marker_c7373394f7753141c0c6c94460955e69.bindTooltip(
+                `<div>
+                     Staincliffe Road Brewton Lane
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1dc84e6fc4502532a5d4bea9cf39d48c = L.circleMarker(
+                [53.699416405, -1.65332402],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b3e8b0a713c62fe9d010952f4cc638d2);
+        
+    
+        var popup_fb7c1c6a51a384298526743e482160c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e3e3a10cabb4c98eb84205668070ec23 = $(`<div id="html_e3e3a10cabb4c98eb84205668070ec23" style="width: 100.0%; height: 100.0%;">Staincliffe Road Healds Road</div>`)[0];
+                popup_fb7c1c6a51a384298526743e482160c5.setContent(html_e3e3a10cabb4c98eb84205668070ec23);
+            
+        
+
+        circle_marker_1dc84e6fc4502532a5d4bea9cf39d48c.bindPopup(popup_fb7c1c6a51a384298526743e482160c5)
+        ;
+
+        
+    
+    
+            circle_marker_1dc84e6fc4502532a5d4bea9cf39d48c.bindTooltip(
+                `<div>
+                     Staincliffe Road Healds Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f207f6d8d73e92cf68338407b9196a66 = L.circleMarker(
+                [53.697786342, -1.652216616],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b3e8b0a713c62fe9d010952f4cc638d2);
+        
+    
+        var popup_c455391cabce14876d5ee01b7cdb72ab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_659c7e42241d9fa111141bc6fb6f7d90 = $(`<div id="html_659c7e42241d9fa111141bc6fb6f7d90" style="width: 100.0%; height: 100.0%;">Staincliffe Road Russell Street</div>`)[0];
+                popup_c455391cabce14876d5ee01b7cdb72ab.setContent(html_659c7e42241d9fa111141bc6fb6f7d90);
+            
+        
+
+        circle_marker_f207f6d8d73e92cf68338407b9196a66.bindPopup(popup_c455391cabce14876d5ee01b7cdb72ab)
+        ;
+
+        
+    
+    
+            circle_marker_f207f6d8d73e92cf68338407b9196a66.bindTooltip(
+                `<div>
+                     Staincliffe Road Russell Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6133b46051b79fa58b96b010638a532a = L.circleMarker(
+                [53.694593511, -1.65151597],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b3e8b0a713c62fe9d010952f4cc638d2);
+        
+    
+        var popup_02d78c51431bdab6eca03200a86467f8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5215a671eb65d3505e7aba4f8bddaa1e = $(`<div id="html_5215a671eb65d3505e7aba4f8bddaa1e" style="width: 100.0%; height: 100.0%;">Staincliffe Road Moor Croft</div>`)[0];
+                popup_02d78c51431bdab6eca03200a86467f8.setContent(html_5215a671eb65d3505e7aba4f8bddaa1e);
+            
+        
+
+        circle_marker_6133b46051b79fa58b96b010638a532a.bindPopup(popup_02d78c51431bdab6eca03200a86467f8)
+        ;
+
+        
+    
+    
+            circle_marker_6133b46051b79fa58b96b010638a532a.bindTooltip(
+                `<div>
+                     Staincliffe Road Moor Croft
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4d38954334c71d23feb0b76299167deb = L.circleMarker(
+                [53.690259613, -1.654065483],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b3e8b0a713c62fe9d010952f4cc638d2);
+        
+    
+        var popup_4cf86fedd63f0e2d0cb4526163d05944 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_859483d549a62312aa1992556451213b = $(`<div id="html_859483d549a62312aa1992556451213b" style="width: 100.0%; height: 100.0%;">Staincliffe Road Heckmondwike Road</div>`)[0];
+                popup_4cf86fedd63f0e2d0cb4526163d05944.setContent(html_859483d549a62312aa1992556451213b);
+            
+        
+
+        circle_marker_4d38954334c71d23feb0b76299167deb.bindPopup(popup_4cf86fedd63f0e2d0cb4526163d05944)
+        ;
+
+        
+    
+    
+            circle_marker_4d38954334c71d23feb0b76299167deb.bindTooltip(
+                `<div>
+                     Staincliffe Road Heckmondwike Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_08e79199dcd426c56cd7ea6c9a20536c = L.circleMarker(
+                [53.687912247, -1.650465714],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b3e8b0a713c62fe9d010952f4cc638d2);
+        
+    
+        var popup_561e13393304886adf6583bc556c1d68 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2aee69df064dfff48c0437c12fc6410e = $(`<div id="html_2aee69df064dfff48c0437c12fc6410e" style="width: 100.0%; height: 100.0%;">Heckmondwike Road Burgh Mill Lane</div>`)[0];
+                popup_561e13393304886adf6583bc556c1d68.setContent(html_2aee69df064dfff48c0437c12fc6410e);
+            
+        
+
+        circle_marker_08e79199dcd426c56cd7ea6c9a20536c.bindPopup(popup_561e13393304886adf6583bc556c1d68)
+        ;
+
+        
+    
+    
+            circle_marker_08e79199dcd426c56cd7ea6c9a20536c.bindTooltip(
+                `<div>
+                     Heckmondwike Road Burgh Mill Lane
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b8113e2f5f67f40274d2f6b4c408be6e = L.circleMarker(
+                [53.686929826, -1.646476386],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b3e8b0a713c62fe9d010952f4cc638d2);
+        
+    
+        var popup_8c9b52d2debd235bef1be65dff4bd596 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_47a9f72642cc6cb81843d6b1a98026d9 = $(`<div id="html_47a9f72642cc6cb81843d6b1a98026d9" style="width: 100.0%; height: 100.0%;">Cemetery Road Crow Nest Park</div>`)[0];
+                popup_8c9b52d2debd235bef1be65dff4bd596.setContent(html_47a9f72642cc6cb81843d6b1a98026d9);
+            
+        
+
+        circle_marker_b8113e2f5f67f40274d2f6b4c408be6e.bindPopup(popup_8c9b52d2debd235bef1be65dff4bd596)
+        ;
+
+        
+    
+    
+            circle_marker_b8113e2f5f67f40274d2f6b4c408be6e.bindTooltip(
+                `<div>
+                     Cemetery Road Crow Nest Park
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5e085747887aa9926b7c4aa11496c1dc = L.circleMarker(
+                [53.688411008, -1.642814665],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b3e8b0a713c62fe9d010952f4cc638d2);
+        
+    
+        var popup_318880991f9b6f29c0eb63fe226e029c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_59764bc2baa6d88f1a20af5262bf2f36 = $(`<div id="html_59764bc2baa6d88f1a20af5262bf2f36" style="width: 100.0%; height: 100.0%;">High Street Park Avenue</div>`)[0];
+                popup_318880991f9b6f29c0eb63fe226e029c.setContent(html_59764bc2baa6d88f1a20af5262bf2f36);
+            
+        
+
+        circle_marker_5e085747887aa9926b7c4aa11496c1dc.bindPopup(popup_318880991f9b6f29c0eb63fe226e029c)
+        ;
+
+        
+    
+    
+            circle_marker_5e085747887aa9926b7c4aa11496c1dc.bindTooltip(
+                `<div>
+                     High Street Park Avenue
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_298d5aad0762b41295d95346b1d4f940 = L.circleMarker(
+                [53.689347044, -1.64023248],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b3e8b0a713c62fe9d010952f4cc638d2);
+        
+    
+        var popup_976b6e8ad5c5d5c86ac78660a0c87bbf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9a477255f718523d48429eb9cb3ed72c = $(`<div id="html_9a477255f718523d48429eb9cb3ed72c" style="width: 100.0%; height: 100.0%;">High Street St Matthew Road</div>`)[0];
+                popup_976b6e8ad5c5d5c86ac78660a0c87bbf.setContent(html_9a477255f718523d48429eb9cb3ed72c);
+            
+        
+
+        circle_marker_298d5aad0762b41295d95346b1d4f940.bindPopup(popup_976b6e8ad5c5d5c86ac78660a0c87bbf)
+        ;
+
+        
+    
+    
+            circle_marker_298d5aad0762b41295d95346b1d4f940.bindTooltip(
+                `<div>
+                     High Street St Matthew Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7766198d727bb38ac83541c9a3f30b0e = L.circleMarker(
+                [53.691149991, -1.636037542],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b3e8b0a713c62fe9d010952f4cc638d2);
+        
+    
+        var popup_35dd974ba8160e3067f0d9aac5c5b28b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c6e887db42f168800665d80445fb8c5 = $(`<div id="html_9c6e887db42f168800665d80445fb8c5" style="width: 100.0%; height: 100.0%;">Wormald Street Ashworth Road</div>`)[0];
+                popup_35dd974ba8160e3067f0d9aac5c5b28b.setContent(html_9c6e887db42f168800665d80445fb8c5);
+            
+        
+
+        circle_marker_7766198d727bb38ac83541c9a3f30b0e.bindPopup(popup_35dd974ba8160e3067f0d9aac5c5b28b)
+        ;
+
+        
+    
+    
+            circle_marker_7766198d727bb38ac83541c9a3f30b0e.bindTooltip(
+                `<div>
+                     Wormald Street Ashworth Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_472987e5146e5e00ec30d27863983543 = L.circleMarker(
+                [53.690882192, -1.633692636],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b3e8b0a713c62fe9d010952f4cc638d2);
+        
+    
+        var popup_63bd02c5ddea0370b0e115e7e32bce1c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_29a95f557b6081994b036721fd0a0733 = $(`<div id="html_29a95f557b6081994b036721fd0a0733" style="width: 100.0%; height: 100.0%;">Dewsbury Ring Road Ashworth Road</div>`)[0];
+                popup_63bd02c5ddea0370b0e115e7e32bce1c.setContent(html_29a95f557b6081994b036721fd0a0733);
+            
+        
+
+        circle_marker_472987e5146e5e00ec30d27863983543.bindPopup(popup_63bd02c5ddea0370b0e115e7e32bce1c)
+        ;
+
+        
+    
+    
+            circle_marker_472987e5146e5e00ec30d27863983543.bindTooltip(
+                `<div>
+                     Dewsbury Ring Road Ashworth Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_baa51551ab4cba5d7df32b6c17f7e27f = L.circleMarker(
+                [53.689795886, -1.631173191],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b3e8b0a713c62fe9d010952f4cc638d2);
+        
+    
+        var popup_6b2d02948baa74e587425f1ba2d058bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a17255eb053b815daac2fa73bf9540d = $(`<div id="html_7a17255eb053b815daac2fa73bf9540d" style="width: 100.0%; height: 100.0%;">Dewsbury Bus Station</div>`)[0];
+                popup_6b2d02948baa74e587425f1ba2d058bc.setContent(html_7a17255eb053b815daac2fa73bf9540d);
+            
+        
+
+        circle_marker_baa51551ab4cba5d7df32b6c17f7e27f.bindPopup(popup_6b2d02948baa74e587425f1ba2d058bc)
+        ;
+
+        
+    
+    
+            circle_marker_baa51551ab4cba5d7df32b6c17f7e27f.bindTooltip(
+                `<div>
+                     Dewsbury Bus Station
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

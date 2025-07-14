@@ -1,0 +1,368 @@
+[
+  {
+    "name": "Hessle Square",
+    "lat": 53.723213,
+    "lon": -0.435365,
+    "sequence": 1
+  },
+  {
+    "name": "Hessle Hull Road",
+    "lat": 53.723002,
+    "lon": -0.430902,
+    "sequence": 2
+  },
+  {
+    "name": "Hessle Hull Road",
+    "lat": 53.723599,
+    "lon": -0.42847,
+    "sequence": 3
+  },
+  {
+    "name": "Hessle Hull Road",
+    "lat": 53.724379,
+    "lon": -0.423484,
+    "sequence": 4
+  },
+  {
+    "name": "First Lane",
+    "lat": 53.725054,
+    "lon": -0.420155,
+    "sequence": 5
+  },
+  {
+    "name": "Swallowfield Drive",
+    "lat": 53.725104,
+    "lon": -0.412332,
+    "sequence": 6
+  },
+  {
+    "name": "Santolina Way",
+    "lat": 53.725881,
+    "lon": -0.408604,
+    "sequence": 7
+  },
+  {
+    "name": "Summergroves Way/Sable Close",
+    "lat": 53.726355,
+    "lon": -0.402993,
+    "sequence": 8
+  },
+  {
+    "name": "Impala Way",
+    "lat": 53.726709,
+    "lon": -0.399902,
+    "sequence": 9
+  },
+  {
+    "name": "Gemsbok Way",
+    "lat": 53.728157,
+    "lon": -0.398605,
+    "sequence": 10
+  },
+  {
+    "name": "Pickering View",
+    "lat": 53.729934,
+    "lon": -0.399098,
+    "sequence": 11
+  },
+  {
+    "name": "Council Avenue",
+    "lat": 53.730485,
+    "lon": -0.396545,
+    "sequence": 12
+  },
+  {
+    "name": "Priory Grove",
+    "lat": 53.730995,
+    "lon": -0.394373,
+    "sequence": 13
+  },
+  {
+    "name": "Lakeside Grove",
+    "lat": 53.731827,
+    "lon": -0.390749,
+    "sequence": 14
+  },
+  {
+    "name": "Sunningdale Road",
+    "lat": 53.732677,
+    "lon": -0.387078,
+    "sequence": 15
+  },
+  {
+    "name": "Galliard Close",
+    "lat": 53.734034,
+    "lon": -0.374458,
+    "sequence": 16
+  },
+  {
+    "name": "Hessle Road ASDA",
+    "lat": 53.734128,
+    "lon": -0.372756,
+    "sequence": 17
+  },
+  {
+    "name": "Dee Street",
+    "lat": 53.734524,
+    "lon": -0.368784,
+    "sequence": 18
+  },
+  {
+    "name": "Rosamond Street",
+    "lat": 53.734846,
+    "lon": -0.366058,
+    "sequence": 19
+  },
+  {
+    "name": "Marmaduke Street",
+    "lat": 53.735897,
+    "lon": -0.361423,
+    "sequence": 20
+  },
+  {
+    "name": "Hamshaw Court",
+    "lat": 53.736515,
+    "lon": -0.35864,
+    "sequence": 21
+  },
+  {
+    "name": "The Mews",
+    "lat": 53.740014,
+    "lon": -0.359428,
+    "sequence": 22
+  },
+  {
+    "name": "Hull Royal Infirmary",
+    "lat": 53.743258,
+    "lon": -0.358058,
+    "sequence": 23
+  },
+  {
+    "name": "Eye Clinic",
+    "lat": 53.74305,
+    "lon": -0.353351,
+    "sequence": 24
+  },
+  {
+    "name": "Park Street",
+    "lat": 53.743017,
+    "lon": -0.350319,
+    "sequence": 25
+  },
+  {
+    "name": "Midland Street",
+    "lat": 53.74319,
+    "lon": -0.346521,
+    "sequence": 26
+  },
+  {
+    "name": "Hull Interchange",
+    "lat": 53.744512159,
+    "lon": -0.347910033,
+    "sequence": 27
+  },
+  {
+    "name": "Bond Street C",
+    "lat": 53.74602,
+    "lon": -0.339298,
+    "sequence": 28
+  },
+  {
+    "name": "Alfred Gelder Street C",
+    "lat": 53.744145,
+    "lon": -0.335641,
+    "sequence": 29
+  },
+  {
+    "name": "Alfred Gelder Street E",
+    "lat": 53.7443,
+    "lon": -0.333224,
+    "sequence": 30
+  },
+  {
+    "name": "Salthouse Lane",
+    "lat": 53.74497,
+    "lon": -0.330347,
+    "sequence": 31
+  },
+  {
+    "name": "Alma Street",
+    "lat": 53.746344,
+    "lon": -0.325075,
+    "sequence": 32
+  },
+  {
+    "name": "Blythe Street",
+    "lat": 53.747957,
+    "lon": -0.322782,
+    "sequence": 33
+  },
+  {
+    "name": "Wilton Street",
+    "lat": 53.749189,
+    "lon": -0.320913,
+    "sequence": 34
+  },
+  {
+    "name": "Studley Street",
+    "lat": 53.750843,
+    "lon": -0.318329,
+    "sequence": 35
+  },
+  {
+    "name": "Nornabell Street",
+    "lat": 53.753729,
+    "lon": -0.313906,
+    "sequence": 36
+  },
+  {
+    "name": "Buckingham Street",
+    "lat": 53.755161,
+    "lon": -0.311528,
+    "sequence": 37
+  },
+  {
+    "name": "Jalland Street",
+    "lat": 53.756603,
+    "lon": -0.309241,
+    "sequence": 38
+  },
+  {
+    "name": "Southcoates Lane",
+    "lat": 53.758426,
+    "lon": -0.306558,
+    "sequence": 39
+  },
+  {
+    "name": "Lee Street",
+    "lat": 53.759931,
+    "lon": -0.304283,
+    "sequence": 40
+  },
+  {
+    "name": "Mile House",
+    "lat": 53.760719,
+    "lon": -0.302825,
+    "sequence": 41
+  },
+  {
+    "name": "Telford Street",
+    "lat": 53.761527,
+    "lon": -0.30082,
+    "sequence": 42
+  },
+  {
+    "name": "Woodford Leisure Centre",
+    "lat": 53.762299,
+    "lon": -0.298878,
+    "sequence": 43
+  },
+  {
+    "name": "Westminster Avenue",
+    "lat": 53.763532,
+    "lon": -0.295809,
+    "sequence": 44
+  },
+  {
+    "name": "Astoria Bingo Hall",
+    "lat": 53.764661,
+    "lon": -0.293002,
+    "sequence": 45
+  },
+  {
+    "name": "Tower Grange",
+    "lat": 53.765589,
+    "lon": -0.290628,
+    "sequence": 46
+  },
+  {
+    "name": "The Crooked Billet PH",
+    "lat": 53.766666,
+    "lon": -0.288035,
+    "sequence": 47
+  },
+  {
+    "name": "Waldegrave Avenue",
+    "lat": 53.76757,
+    "lon": -0.285237,
+    "sequence": 48
+  },
+  {
+    "name": "Grasby Road",
+    "lat": 53.768858,
+    "lon": -0.281664,
+    "sequence": 49
+  },
+  {
+    "name": "The Four In Hand PH",
+    "lat": 53.770021,
+    "lon": -0.278142,
+    "sequence": 50
+  },
+  {
+    "name": "Eastmount Avenue",
+    "lat": 53.771501,
+    "lon": -0.273544,
+    "sequence": 51
+  },
+  {
+    "name": "Saltshouse Road",
+    "lat": 53.772619,
+    "lon": -0.270023,
+    "sequence": 52
+  },
+  {
+    "name": "Hebden Avenue",
+    "lat": 53.775339,
+    "lon": -0.2685,
+    "sequence": 53
+  },
+  {
+    "name": "Chelmer Road",
+    "lat": 53.777282,
+    "lon": -0.269194,
+    "sequence": 54
+  },
+  {
+    "name": "Frome Road",
+    "lat": 53.780492,
+    "lon": -0.268622,
+    "sequence": 55
+  },
+  {
+    "name": "The Viking",
+    "lat": 53.780927,
+    "lon": -0.266403,
+    "sequence": 56
+  },
+  {
+    "name": "Nith Grove",
+    "lat": 53.780486,
+    "lon": -0.264494,
+    "sequence": 57
+  },
+  {
+    "name": "Wansbeck Road",
+    "lat": 53.779189,
+    "lon": -0.262498,
+    "sequence": 58
+  },
+  {
+    "name": "Ganstead Roundabout",
+    "lat": 53.778767,
+    "lon": -0.259404,
+    "sequence": 59
+  },
+  {
+    "name": "ASDA Bilton",
+    "lat": 53.779048,
+    "lon": -0.253352,
+    "sequence": 60
+  },
+  {
+    "name": "ASDA (Bus Terminal)",
+    "lat": 53.778939,
+    "lon": -0.253949,
+    "sequence": 61
+  }
+]

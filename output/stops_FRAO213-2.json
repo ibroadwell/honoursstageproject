@@ -1,0 +1,176 @@
+[
+  {
+    "name": "Batley Bus Station",
+    "lat": 53.715894306,
+    "lon": -1.63306641,
+    "sequence": 1
+  },
+  {
+    "name": "Batley Field Hill Chinewood Avenue",
+    "lat": 53.718276839,
+    "lon": -1.633288139,
+    "sequence": 2
+  },
+  {
+    "name": "Chinewood Avenue County Close",
+    "lat": 53.718522751,
+    "lon": -1.634346728,
+    "sequence": 3
+  },
+  {
+    "name": "Chinewood Avenue Wyvern Close",
+    "lat": 53.719226951,
+    "lon": -1.638341146,
+    "sequence": 4
+  },
+  {
+    "name": "Chinewood Avenue Carlinghow Hill",
+    "lat": 53.719753856,
+    "lon": -1.640200531,
+    "sequence": 5
+  },
+  {
+    "name": "Carlinghow Hill Transvaal Terrace",
+    "lat": 53.721050429,
+    "lon": -1.640962334,
+    "sequence": 6
+  },
+  {
+    "name": "Carlinghow Hill Holly Bank Avenue",
+    "lat": 53.723176216,
+    "lon": -1.636519007,
+    "sequence": 7
+  },
+  {
+    "name": "Low Lane Old Hall Rd",
+    "lat": 53.725042016,
+    "lon": -1.635290482,
+    "sequence": 8
+  },
+  {
+    "name": "Upper Batley Lane Upper Batley Low Road",
+    "lat": 53.726306341,
+    "lon": -1.63726499,
+    "sequence": 9
+  },
+  {
+    "name": "Upper Batley Lane Woodlands Road",
+    "lat": 53.728481166,
+    "lon": -1.643157442,
+    "sequence": 10
+  },
+  {
+    "name": "Upper Batley Lane Lark Hill",
+    "lat": 53.729925926,
+    "lon": -1.64540366,
+    "sequence": 11
+  },
+  {
+    "name": "Windmill Lane Upper Batley Lane",
+    "lat": 53.731060378,
+    "lon": -1.649122924,
+    "sequence": 12
+  },
+  {
+    "name": "High School Windsor Road",
+    "lat": 53.733047229,
+    "lon": -1.646226286,
+    "sequence": 13
+  },
+  {
+    "name": "Windsor Road Arundel Close",
+    "lat": 53.734714224,
+    "lon": -1.644605439,
+    "sequence": 14
+  },
+  {
+    "name": "Windsor Road Leeds Road",
+    "lat": 53.736111425,
+    "lon": -1.64294127,
+    "sequence": 15
+  },
+  {
+    "name": "Leeds Rd Nab Lane",
+    "lat": 53.736778543,
+    "lon": -1.640601012,
+    "sequence": 16
+  },
+  {
+    "name": "Hill Top Farm",
+    "lat": 53.741588014,
+    "lon": -1.629067565,
+    "sequence": 17
+  },
+  {
+    "name": "M62 Motorway Bridge",
+    "lat": 53.742563273,
+    "lon": -1.627633765,
+    "sequence": 18
+  },
+  {
+    "name": "Bruntcliffe Cross Roads",
+    "lat": 53.743752246,
+    "lon": -1.622695508,
+    "sequence": 19
+  },
+  {
+    "name": "Bruntcliffe Road Parkland Avenue",
+    "lat": 53.740927501,
+    "lon": -1.619066918,
+    "sequence": 20
+  },
+  {
+    "name": "Bruntcliffe Road St Andrews Avenue",
+    "lat": 53.739084168,
+    "lon": -1.616005965,
+    "sequence": 21
+  },
+  {
+    "name": "Bruntcliffe Road",
+    "lat": 53.737953092,
+    "lon": -1.613651271,
+    "sequence": 22
+  },
+  {
+    "name": "Morley ASDA",
+    "lat": 53.736825667,
+    "lon": -1.606915477,
+    "sequence": 23
+  },
+  {
+    "name": "High Street",
+    "lat": 53.737151092,
+    "lon": -1.60474457,
+    "sequence": 24
+  },
+  {
+    "name": "Harlington Road Elvaston Road",
+    "lat": 53.738384672,
+    "lon": -1.605415221,
+    "sequence": 25
+  },
+  {
+    "name": "Elvaston Road Flexbury Avenue",
+    "lat": 53.739652887,
+    "lon": -1.604621657,
+    "sequence": 26
+  },
+  {
+    "name": "Chartists Way",
+    "lat": 53.742055396,
+    "lon": -1.603773717,
+    "sequence": 27
+  },
+  {
+    "name": "Queensway",
+    "lat": 53.745654875,
+    "lon": -1.605059058,
+    "sequence": 28
+  },
+  {
+    "name": "Morley Town Hall",
+    "lat": 53.745930951,
+    "lon": -1.601568955,
+    "sequence": 29
+  }
+]

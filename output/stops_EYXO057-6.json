@@ -1,0 +1,206 @@
+[
+  {
+    "name": "ASDA (Bus Terminal)",
+    "lat": 53.778939,
+    "lon": -0.253949,
+    "sequence": 1
+  },
+  {
+    "name": "ASDA Bilton",
+    "lat": 53.778456,
+    "lon": -0.254712,
+    "sequence": 2
+  },
+  {
+    "name": "Moseley Hill",
+    "lat": 53.776742,
+    "lon": -0.254313,
+    "sequence": 3
+  },
+  {
+    "name": "Fleet Estate Ark Royal",
+    "lat": 53.77576,
+    "lon": -0.25663,
+    "sequence": 4
+  },
+  {
+    "name": "Daisyfield Drive",
+    "lat": 53.778234,
+    "lon": -0.259244,
+    "sequence": 5
+  },
+  {
+    "name": "Kennet Road",
+    "lat": 53.779739,
+    "lon": -0.263826,
+    "sequence": 6
+  },
+  {
+    "name": "Kyle Close",
+    "lat": 53.779914,
+    "lon": -0.26907,
+    "sequence": 7
+  },
+  {
+    "name": "Shannon Road Shops",
+    "lat": 53.777668,
+    "lon": -0.269148,
+    "sequence": 8
+  },
+  {
+    "name": "Athlone Green",
+    "lat": 53.775705,
+    "lon": -0.268348,
+    "sequence": 9
+  },
+  {
+    "name": "Saltshouse Road",
+    "lat": 53.772261,
+    "lon": -0.270144,
+    "sequence": 10
+  },
+  {
+    "name": "Ardmore Close",
+    "lat": 53.770945,
+    "lon": -0.27425,
+    "sequence": 11
+  },
+  {
+    "name": "Bellfield Avenue",
+    "lat": 53.769749,
+    "lon": -0.277986,
+    "sequence": 12
+  },
+  {
+    "name": "Charnock Avenue",
+    "lat": 53.768416,
+    "lon": -0.282167,
+    "sequence": 13
+  },
+  {
+    "name": "Ellesmere Avenue",
+    "lat": 53.767594,
+    "lon": -0.284371,
+    "sequence": 14
+  },
+  {
+    "name": "Maybury Road",
+    "lat": 53.766057,
+    "lon": -0.288788,
+    "sequence": 15
+  },
+  {
+    "name": "Holderness Road",
+    "lat": 53.764016,
+    "lon": -0.293832,
+    "sequence": 16
+  },
+  {
+    "name": "Stanhope Street",
+    "lat": 53.762878,
+    "lon": -0.296609,
+    "sequence": 17
+  },
+  {
+    "name": "Kelvin Street",
+    "lat": 53.761707,
+    "lon": -0.299584,
+    "sequence": 18
+  },
+  {
+    "name": "The Crown Inn PH",
+    "lat": 53.760674,
+    "lon": -0.30219,
+    "sequence": 19
+  },
+  {
+    "name": "Beechwood Court",
+    "lat": 53.758896,
+    "lon": -0.305493,
+    "sequence": 20
+  },
+  {
+    "name": "Southcoates Lane",
+    "lat": 53.757647,
+    "lon": -0.307409,
+    "sequence": 21
+  },
+  {
+    "name": "Jesmond Gardens",
+    "lat": 53.756211,
+    "lon": -0.309514,
+    "sequence": 22
+  },
+  {
+    "name": "Victor Street",
+    "lat": 53.75411,
+    "lon": -0.31286,
+    "sequence": 23
+  },
+  {
+    "name": "ASDA Holderness Road",
+    "lat": 53.75257,
+    "lon": -0.315242,
+    "sequence": 24
+  },
+  {
+    "name": "Brazil Street",
+    "lat": 53.750653,
+    "lon": -0.318291,
+    "sequence": 25
+  },
+  {
+    "name": "The Green Man PH",
+    "lat": 53.749501,
+    "lon": -0.320097,
+    "sequence": 26
+  },
+  {
+    "name": "Naylors Row",
+    "lat": 53.747846,
+    "lon": -0.322604,
+    "sequence": 27
+  },
+  {
+    "name": "Great Union Street",
+    "lat": 53.746033,
+    "lon": -0.32533,
+    "sequence": 28
+  },
+  {
+    "name": "Drypool Bridge",
+    "lat": 53.745187,
+    "lon": -0.329155,
+    "sequence": 29
+  },
+  {
+    "name": "Alfred Gelder Street F",
+    "lat": 53.744082,
+    "lon": -0.33434,
+    "sequence": 30
+  },
+  {
+    "name": "Alfred Gelder Street G",
+    "lat": 53.743791,
+    "lon": -0.337369,
+    "sequence": 31
+  },
+  {
+    "name": "Hull Carr Lane",
+    "lat": 53.74348,
+    "lon": -0.340899,
+    "sequence": 32
+  },
+  {
+    "name": "Carr Lane E",
+    "lat": 53.743343465,
+    "lon": -0.342693981,
+    "sequence": 33
+  },
+  {
+    "name": "Hull Interchange",
+    "lat": 53.74466,
+    "lon": -0.346873,
+    "sequence": 34
+  }
+]

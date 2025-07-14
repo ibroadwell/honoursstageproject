@@ -1,0 +1,326 @@
+[
+  {
+    "name": "Ferriby (Crossroads)",
+    "lat": 53.721887,
+    "lon": -0.501828,
+    "sequence": 1
+  },
+  {
+    "name": "North Ferriby Library",
+    "lat": 53.721076,
+    "lon": -0.502402,
+    "sequence": 2
+  },
+  {
+    "name": "North Ferriby New Walk",
+    "lat": 53.71787,
+    "lon": -0.506972,
+    "sequence": 3
+  },
+  {
+    "name": "North Ferriby Nunburnholme Ave",
+    "lat": 53.718216,
+    "lon": -0.51093,
+    "sequence": 4
+  },
+  {
+    "name": "North Ferriby Corby Park",
+    "lat": 53.720349,
+    "lon": -0.511824,
+    "sequence": 5
+  },
+  {
+    "name": "North Ferriby Corby Park",
+    "lat": 53.72174,
+    "lon": -0.514579,
+    "sequence": 6
+  },
+  {
+    "name": "Ferriby Corby Park",
+    "lat": 53.723465,
+    "lon": -0.515928,
+    "sequence": 7
+  },
+  {
+    "name": "Melton Monks Way West",
+    "lat": 53.722122,
+    "lon": -0.529494,
+    "sequence": 8
+  },
+  {
+    "name": "Melton Monks Way",
+    "lat": 53.72201,
+    "lon": -0.524027,
+    "sequence": 9
+  },
+  {
+    "name": "North Ferriby Melton Road",
+    "lat": 53.72384,
+    "lon": -0.514263,
+    "sequence": 10
+  },
+  {
+    "name": "Ferriby (Crossroads)",
+    "lat": 53.722672,
+    "lon": -0.504225,
+    "sequence": 11
+  },
+  {
+    "name": "Ferriby Road",
+    "lat": 53.728291,
+    "lon": -0.499948,
+    "sequence": 12
+  },
+  {
+    "name": "Swanland West Leys Road",
+    "lat": 53.730483,
+    "lon": -0.498445,
+    "sequence": 13
+  },
+  {
+    "name": "Swanland West Leys Road",
+    "lat": 53.732782,
+    "lon": -0.497514,
+    "sequence": 14
+  },
+  {
+    "name": "Swanland West Leys Road",
+    "lat": 53.737178,
+    "lon": -0.497524,
+    "sequence": 15
+  },
+  {
+    "name": "Swanland (Pond)",
+    "lat": 53.739162,
+    "lon": -0.490888,
+    "sequence": 16
+  },
+  {
+    "name": "Swanland Main Street",
+    "lat": 53.741036,
+    "lon": -0.486242,
+    "sequence": 17
+  },
+  {
+    "name": "Swanland Main Street",
+    "lat": 53.741794,
+    "lon": -0.482272,
+    "sequence": 18
+  },
+  {
+    "name": "Swanland Greenstiles Lane",
+    "lat": 53.740979,
+    "lon": -0.481058,
+    "sequence": 19
+  },
+  {
+    "name": "Swanland Greenstiles Ln",
+    "lat": 53.73754,
+    "lon": -0.479211,
+    "sequence": 20
+  },
+  {
+    "name": "Anlaby Tranby Lane",
+    "lat": 53.742085,
+    "lon": -0.451602,
+    "sequence": 21
+  },
+  {
+    "name": "Anlaby Tranby Lane",
+    "lat": 53.743474,
+    "lon": -0.446349,
+    "sequence": 22
+  },
+  {
+    "name": "Anlaby Tranby Lane",
+    "lat": 53.744006,
+    "lon": -0.442326,
+    "sequence": 23
+  },
+  {
+    "name": "Anlaby Beverley Road",
+    "lat": 53.745135,
+    "lon": -0.43866,
+    "sequence": 24
+  },
+  {
+    "name": "Anlaby Wilson Street",
+    "lat": 53.745885677,
+    "lon": -0.434841332,
+    "sequence": 25
+  },
+  {
+    "name": "Anlaby Red Lion",
+    "lat": 53.745476725,
+    "lon": -0.43236894,
+    "sequence": 26
+  },
+  {
+    "name": "Anlaby Lowfield Road",
+    "lat": 53.744899,
+    "lon": -0.43227,
+    "sequence": 27
+  },
+  {
+    "name": "Anlaby Lowfield Road",
+    "lat": 53.741908,
+    "lon": -0.432442,
+    "sequence": 28
+  },
+  {
+    "name": "Anlaby Spire Hospital",
+    "lat": 53.73945,
+    "lon": -0.434201,
+    "sequence": 29
+  },
+  {
+    "name": "Hessle Square",
+    "lat": 53.723213,
+    "lon": -0.435365,
+    "sequence": 30
+  },
+  {
+    "name": "Hessle Hull Road",
+    "lat": 53.723002,
+    "lon": -0.430902,
+    "sequence": 31
+  },
+  {
+    "name": "Hessle Hull Road",
+    "lat": 53.723599,
+    "lon": -0.42847,
+    "sequence": 32
+  },
+  {
+    "name": "Hessle Hull Road",
+    "lat": 53.724379,
+    "lon": -0.423484,
+    "sequence": 33
+  },
+  {
+    "name": "First Lane",
+    "lat": 53.725054,
+    "lon": -0.420155,
+    "sequence": 34
+  },
+  {
+    "name": "Hessle Sainsbury's",
+    "lat": 53.723669841,
+    "lon": -0.420039921,
+    "sequence": 35
+  },
+  {
+    "name": "Hessle Hull Road",
+    "lat": 53.724554,
+    "lon": -0.421795,
+    "sequence": 36
+  },
+  {
+    "name": "Hessle Hull Road",
+    "lat": 53.72342,
+    "lon": -0.428537,
+    "sequence": 37
+  },
+  {
+    "name": "Hessle Hull Road",
+    "lat": 53.722847,
+    "lon": -0.432105,
+    "sequence": 38
+  },
+  {
+    "name": "Hessle Square",
+    "lat": 53.723213,
+    "lon": -0.435365,
+    "sequence": 39
+  },
+  {
+    "name": "Hessle Beverley Road",
+    "lat": 53.726686288,
+    "lon": -0.436312364,
+    "sequence": 40
+  },
+  {
+    "name": "Hessle (Cemetery Corner)",
+    "lat": 53.727507,
+    "lon": -0.437904,
+    "sequence": 41
+  },
+  {
+    "name": "Hessle Swanland Road",
+    "lat": 53.72792,
+    "lon": -0.441299,
+    "sequence": 42
+  },
+  {
+    "name": "Hessle Barrow Lane",
+    "lat": 53.725757,
+    "lon": -0.441576,
+    "sequence": 43
+  },
+  {
+    "name": "Hessle Barrow Lane",
+    "lat": 53.722875,
+    "lon": -0.440485,
+    "sequence": 44
+  },
+  {
+    "name": "Hessle Ferriby Road",
+    "lat": 53.722376,
+    "lon": -0.442899,
+    "sequence": 45
+  },
+  {
+    "name": "Hessle Ferriby Road",
+    "lat": 53.721691,
+    "lon": -0.448289,
+    "sequence": 46
+  },
+  {
+    "name": "Hessle Ferriby Road",
+    "lat": 53.721635,
+    "lon": -0.45161,
+    "sequence": 47
+  },
+  {
+    "name": "Hesslewood",
+    "lat": 53.721699,
+    "lon": -0.460019,
+    "sequence": 48
+  },
+  {
+    "name": "Hessle Ferriby Road",
+    "lat": 53.721819,
+    "lon": -0.46097,
+    "sequence": 49
+  },
+  {
+    "name": "North Ferriby High Rd",
+    "lat": 53.721136,
+    "lon": -0.474362,
+    "sequence": 50
+  },
+  {
+    "name": "North Ferriby High Road",
+    "lat": 53.721187,
+    "lon": -0.479089,
+    "sequence": 51
+  },
+  {
+    "name": "North Ferriby High Rd",
+    "lat": 53.721527,
+    "lon": -0.483896,
+    "sequence": 52
+  },
+  {
+    "name": "North Ferriby High Rd",
+    "lat": 53.722007,
+    "lon": -0.486334,
+    "sequence": 53
+  },
+  {
+    "name": "Ferriby (Crossroads)",
+    "lat": 53.721887,
+    "lon": -0.501828,
+    "sequence": 54
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "name": "Hull Interchange",
+    "lat": 53.744677,
+    "lon": -0.346812,
+    "sequence": 1
+  },
+  {
+    "name": "Albion Steet A",
+    "lat": 53.746628565,
+    "lon": -0.342337217,
+    "sequence": 2
+  },
+  {
+    "name": "Monument Bridge",
+    "lat": 53.743704,
+    "lon": -0.338252,
+    "sequence": 3
+  },
+  {
+    "name": "Carr Lane D",
+    "lat": 53.743383,
+    "lon": -0.342298,
+    "sequence": 4
+  },
+  {
+    "name": "Pease Street",
+    "lat": 53.743005,
+    "lon": -0.347469,
+    "sequence": 5
+  },
+  {
+    "name": "Fountain Street",
+    "lat": 53.742885,
+    "lon": -0.35316,
+    "sequence": 6
+  },
+  {
+    "name": "Hull Royal Infirmary",
+    "lat": 53.743036,
+    "lon": -0.356899,
+    "sequence": 7
+  },
+  {
+    "name": "Coltman Street",
+    "lat": 53.743187894,
+    "lon": -0.362109891,
+    "sequence": 8
+  },
+  {
+    "name": "Saner Street",
+    "lat": 53.743272549,
+    "lon": -0.365018068,
+    "sequence": 9
+  },
+  {
+    "name": "Anlaby Road Stadium",
+    "lat": 53.743723817,
+    "lon": -0.372415771,
+    "sequence": 10
+  },
+  {
+    "name": "Sandringham Street",
+    "lat": 53.743719553,
+    "lon": -0.374751197,
+    "sequence": 11
+  },
+  {
+    "name": "Plane Street",
+    "lat": 53.743606,
+    "lon": -0.378941,
+    "sequence": 12
+  },
+  {
+    "name": "Stirling Street",
+    "lat": 53.743619,
+    "lon": -0.381913,
+    "sequence": 13
+  },
+  {
+    "name": "Wheeler Street",
+    "lat": 53.743398,
+    "lon": -0.385515,
+    "sequence": 14
+  },
+  {
+    "name": "Meadowbank Road",
+    "lat": 53.743546,
+    "lon": -0.388542,
+    "sequence": 15
+  },
+  {
+    "name": "St Martin`s Court",
+    "lat": 53.744662,
+    "lon": -0.393989,
+    "sequence": 16
+  },
+  {
+    "name": "Belgrave Drive",
+    "lat": 53.744476,
+    "lon": -0.397514,
+    "sequence": 17
+  },
+  {
+    "name": "East Ella Drive",
+    "lat": 53.744409,
+    "lon": -0.401262,
+    "sequence": 18
+  },
+  {
+    "name": "Plantation Drive",
+    "lat": 53.744215,
+    "lon": -0.405637,
+    "sequence": 19
+  },
+  {
+    "name": "Trenton Avenue",
+    "lat": 53.744015,
+    "lon": -0.410209,
+    "sequence": 20
+  },
+  {
+    "name": "Anlaby Hull Road",
+    "lat": 53.744516,
+    "lon": -0.414072,
+    "sequence": 21
+  },
+  {
+    "name": "Anlaby Hull Road",
+    "lat": 53.74457,
+    "lon": -0.418164,
+    "sequence": 22
+  },
+  {
+    "name": "Anlaby Hull Road",
+    "lat": 53.744373,
+    "lon": -0.422342,
+    "sequence": 23
+  },
+  {
+    "name": "Anlaby Hull Road",
+    "lat": 53.744939558,
+    "lon": -0.42642995,
+    "sequence": 24
+  },
+  {
+    "name": "Anlaby Red Lion",
+    "lat": 53.745459723,
+    "lon": -0.432526071,
+    "sequence": 25
+  },
+  {
+    "name": "Anlaby Wilson Street",
+    "lat": 53.745767412,
+    "lon": -0.435421984,
+    "sequence": 26
+  },
+  {
+    "name": "Anlaby Beverley Road",
+    "lat": 53.74463,
+    "lon": -0.438497,
+    "sequence": 27
+  },
+  {
+    "name": "Anlaby Tranby Lane",
+    "lat": 53.743834,
+    "lon": -0.442985,
+    "sequence": 28
+  },
+  {
+    "name": "Anlaby Tranby Lane",
+    "lat": 53.743113,
+    "lon": -0.448364,
+    "sequence": 29
+  },
+  {
+    "name": "Anlaby Woodland Drive",
+    "lat": 53.742097,
+    "lon": -0.452526,
+    "sequence": 30
+  },
+  {
+    "name": "Anlaby Woodland Drive",
+    "lat": 53.743468,
+    "lon": -0.450777,
+    "sequence": 31
+  },
+  {
+    "name": "Kirk Ella Mill Lane",
+    "lat": 53.744732,
+    "lon": -0.450519,
+    "sequence": 32
+  },
+  {
+    "name": "Kirk Ella Mill Lane",
+    "lat": 53.74807,
+    "lon": -0.452853,
+    "sequence": 33
+  },
+  {
+    "name": "Kirkella (School)",
+    "lat": 53.750344,
+    "lon": -0.453542,
+    "sequence": 34
+  },
+  {
+    "name": "Kirkella West Ella Road",
+    "lat": 53.750965,
+    "lon": -0.457766,
+    "sequence": 35
+  },
+  {
+    "name": "Kirk Ella West Ella Road",
+    "lat": 53.750824,
+    "lon": -0.463611,
+    "sequence": 36
+  },
+  {
+    "name": "Kirk Ella West Ella Road",
+    "lat": 53.749829,
+    "lon": -0.469455,
+    "sequence": 37
+  },
+  {
+    "name": "West Ella Manor Court",
+    "lat": 53.749516,
+    "lon": -0.470953,
+    "sequence": 38
+  },
+  {
+    "name": "Swanland Rise",
+    "lat": 53.748452,
+    "lon": -0.475663,
+    "sequence": 39
+  },
+  {
+    "name": "Swanland Beech Hill Rd",
+    "lat": 53.744716,
+    "lon": -0.483016,
+    "sequence": 40
+  },
+  {
+    "name": "Swanland Greenstiles Lane",
+    "lat": 53.740979,
+    "lon": -0.481058,
+    "sequence": 41
+  },
+  {
+    "name": "Swanland Greenstiles Ln",
+    "lat": 53.73754,
+    "lon": -0.479211,
+    "sequence": 42
+  },
+  {
+    "name": "Swanland Tranby Lane",
+    "lat": 53.737,
+    "lon": -0.486296,
+    "sequence": 43
+  },
+  {
+    "name": "Swanland Kemp Road",
+    "lat": 53.737856,
+    "lon": -0.492102,
+    "sequence": 44
+  },
+  {
+    "name": "Swanland (Pond)",
+    "lat": 53.739162,
+    "lon": -0.490888,
+    "sequence": 45
+  }
+]

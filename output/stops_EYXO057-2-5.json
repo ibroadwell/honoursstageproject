@@ -1,0 +1,164 @@
+[
+  {
+    "name": "Hessle Square",
+    "lat": 53.723213,
+    "lon": -0.435365,
+    "sequence": 1
+  },
+  {
+    "name": "Hessle Hull Road",
+    "lat": 53.723002,
+    "lon": -0.430902,
+    "sequence": 2
+  },
+  {
+    "name": "Hessle Hull Road",
+    "lat": 53.723599,
+    "lon": -0.42847,
+    "sequence": 3
+  },
+  {
+    "name": "Hessle Hull Road",
+    "lat": 53.724379,
+    "lon": -0.423484,
+    "sequence": 4
+  },
+  {
+    "name": "First Lane",
+    "lat": 53.725054,
+    "lon": -0.420155,
+    "sequence": 5
+  },
+  {
+    "name": "Swallowfield Drive",
+    "lat": 53.725104,
+    "lon": -0.412332,
+    "sequence": 6
+  },
+  {
+    "name": "Santolina Way",
+    "lat": 53.725881,
+    "lon": -0.408604,
+    "sequence": 7
+  },
+  {
+    "name": "Summergroves Way/Sable Close",
+    "lat": 53.726355,
+    "lon": -0.402993,
+    "sequence": 8
+  },
+  {
+    "name": "Impala Way",
+    "lat": 53.726709,
+    "lon": -0.399902,
+    "sequence": 9
+  },
+  {
+    "name": "Gemsbok Way",
+    "lat": 53.728157,
+    "lon": -0.398605,
+    "sequence": 10
+  },
+  {
+    "name": "Pickering View",
+    "lat": 53.729934,
+    "lon": -0.399098,
+    "sequence": 11
+  },
+  {
+    "name": "Council Avenue",
+    "lat": 53.730485,
+    "lon": -0.396545,
+    "sequence": 12
+  },
+  {
+    "name": "Priory Grove",
+    "lat": 53.730995,
+    "lon": -0.394373,
+    "sequence": 13
+  },
+  {
+    "name": "Lakeside Grove",
+    "lat": 53.731827,
+    "lon": -0.390749,
+    "sequence": 14
+  },
+  {
+    "name": "Sunningdale Road",
+    "lat": 53.732677,
+    "lon": -0.387078,
+    "sequence": 15
+  },
+  {
+    "name": "Galliard Close",
+    "lat": 53.734034,
+    "lon": -0.374458,
+    "sequence": 16
+  },
+  {
+    "name": "Hessle Road ASDA",
+    "lat": 53.734128,
+    "lon": -0.372756,
+    "sequence": 17
+  },
+  {
+    "name": "Dee Street",
+    "lat": 53.734524,
+    "lon": -0.368784,
+    "sequence": 18
+  },
+  {
+    "name": "Rosamond Street",
+    "lat": 53.734846,
+    "lon": -0.366058,
+    "sequence": 19
+  },
+  {
+    "name": "Marmaduke Street",
+    "lat": 53.735897,
+    "lon": -0.361423,
+    "sequence": 20
+  },
+  {
+    "name": "Hamshaw Court",
+    "lat": 53.736515,
+    "lon": -0.35864,
+    "sequence": 21
+  },
+  {
+    "name": "The Mews",
+    "lat": 53.740014,
+    "lon": -0.359428,
+    "sequence": 22
+  },
+  {
+    "name": "Hull Royal Infirmary",
+    "lat": 53.743258,
+    "lon": -0.358058,
+    "sequence": 23
+  },
+  {
+    "name": "Eye Clinic",
+    "lat": 53.74305,
+    "lon": -0.353351,
+    "sequence": 24
+  },
+  {
+    "name": "Park Street",
+    "lat": 53.743017,
+    "lon": -0.350319,
+    "sequence": 25
+  },
+  {
+    "name": "Midland Street",
+    "lat": 53.74319,
+    "lon": -0.346521,
+    "sequence": 26
+  },
+  {
+    "name": "Hull Interchange",
+    "lat": 53.744512159,
+    "lon": -0.347910033,
+    "sequence": 27
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Thixendale",
+    "lat": 54.038976,
+    "lon": -0.714747,
+    "sequence": 1
+  },
+  {
+    "name": "Fridaythorpe",
+    "lat": 54.020467,
+    "lon": -0.665893,
+    "sequence": 2
+  },
+  {
+    "name": "Huggate",
+    "lat": 53.985544,
+    "lon": -0.65673,
+    "sequence": 3
+  },
+  {
+    "name": "Millington Heights Farm",
+    "lat": 53.979144,
+    "lon": -0.729459,
+    "sequence": 4
+  },
+  {
+    "name": "Millington Martin Lane",
+    "lat": 53.95548,
+    "lon": -0.734812,
+    "sequence": 5
+  },
+  {
+    "name": "Millington",
+    "lat": 53.954749,
+    "lon": -0.735337,
+    "sequence": 6
+  },
+  {
+    "name": "Pocklington Chapmangate",
+    "lat": 53.932094,
+    "lon": -0.77835,
+    "sequence": 7
+  },
+  {
+    "name": "Pocklington EY Depot",
+    "lat": 53.929514,
+    "lon": -0.780086,
+    "sequence": 8
+  }
+]

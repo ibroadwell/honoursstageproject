@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Scarborough Hospital",
+    "lat": 54.281299506,
+    "lon": -0.437226471,
+    "sequence": 1
+  },
+  {
+    "name": "Woodland Ravine",
+    "lat": 54.280870145,
+    "lon": -0.428395026,
+    "sequence": 2
+  },
+  {
+    "name": "Malvern Crescent",
+    "lat": 54.280396374,
+    "lon": -0.423774211,
+    "sequence": 3
+  },
+  {
+    "name": "Harley Close",
+    "lat": 54.278775587,
+    "lon": -0.420118999,
+    "sequence": 4
+  },
+  {
+    "name": "Falsgrave Road",
+    "lat": 54.276964234,
+    "lon": -0.413599213,
+    "sequence": 5
+  },
+  {
+    "name": "West Square",
+    "lat": 54.279863,
+    "lon": -0.406438,
+    "sequence": 6
+  },
+  {
+    "name": "Scarborough, Victoria Street",
+    "lat": 54.283305019,
+    "lon": -0.405044995,
+    "sequence": 7
+  },
+  {
+    "name": "Scarborough, Castle Road",
+    "lat": 54.285048027,
+    "lon": -0.402273909,
+    "sequence": 8
+  },
+  {
+    "name": "Scarborough, Castle Street Stop X",
+    "lat": 54.285704328,
+    "lon": -0.40025139,
+    "sequence": 9
+  },
+  {
+    "name": "Queen Street",
+    "lat": 54.283602801,
+    "lon": -0.398351163,
+    "sequence": 10
+  }
+]

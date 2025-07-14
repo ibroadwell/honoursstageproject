@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Pocklington EY Depot",
+    "lat": 53.929036,
+    "lon": -0.779947,
+    "sequence": 1
+  },
+  {
+    "name": "Pocklington Chapmangate",
+    "lat": 53.932176,
+    "lon": -0.778439,
+    "sequence": 2
+  },
+  {
+    "name": "Pocklington London Street",
+    "lat": 53.933262,
+    "lon": -0.773914,
+    "sequence": 3
+  },
+  {
+    "name": "Pocklington Kilnwick Road",
+    "lat": 53.932923,
+    "lon": -0.76972,
+    "sequence": 4
+  },
+  {
+    "name": "Kilnwick House",
+    "lat": 53.932364,
+    "lon": -0.766096,
+    "sequence": 5
+  },
+  {
+    "name": "Warter Pond",
+    "lat": 53.942390554,
+    "lon": -0.672758101,
+    "sequence": 6
+  },
+  {
+    "name": "North Dalton",
+    "lat": 53.957046,
+    "lon": -0.576672,
+    "sequence": 7
+  },
+  {
+    "name": "North Dalton Main Street",
+    "lat": 53.957657,
+    "lon": -0.57438,
+    "sequence": 8
+  },
+  {
+    "name": "Wolds Village",
+    "lat": 53.965887,
+    "lon": -0.533748,
+    "sequence": 9
+  },
+  {
+    "name": "Tibthorpe",
+    "lat": 53.986417,
+    "lon": -0.536733,
+    "sequence": 10
+  },
+  {
+    "name": "Kirkburn (Main Street)",
+    "lat": 53.98353,
+    "lon": -0.503694,
+    "sequence": 11
+  },
+  {
+    "name": "Eastburn A614",
+    "lat": 53.986829,
+    "lon": -0.497262,
+    "sequence": 12
+  },
+  {
+    "name": "Driffield A614",
+    "lat": 53.992711,
+    "lon": -0.46764,
+    "sequence": 13
+  },
+  {
+    "name": "Driffield Beverley Road",
+    "lat": 53.99592,
+    "lon": -0.445966,
+    "sequence": 14
+  },
+  {
+    "name": "Driffield Beverley Road",
+    "lat": 53.999899,
+    "lon": -0.438083,
+    "sequence": 15
+  },
+  {
+    "name": "Driffield (Middle Street South)",
+    "lat": 54.002171,
+    "lon": -0.435831,
+    "sequence": 16
+  }
+]

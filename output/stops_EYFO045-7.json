@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Cottingham High School",
+    "lat": 53.787547889,
+    "lon": -0.433123546,
+    "sequence": 1
+  },
+  {
+    "name": "Cottingham Harland Way",
+    "lat": 53.786164016,
+    "lon": -0.431293343,
+    "sequence": 2
+  },
+  {
+    "name": "Cottingham Harland Way",
+    "lat": 53.784165133,
+    "lon": -0.426237573,
+    "sequence": 3
+  },
+  {
+    "name": "Cottingham The Lawns",
+    "lat": 53.784364263,
+    "lon": -0.422921189,
+    "sequence": 4
+  },
+  {
+    "name": "Cottingham Northgate",
+    "lat": 53.784803046,
+    "lon": -0.418017175,
+    "sequence": 5
+  },
+  {
+    "name": "Cottingham King Street",
+    "lat": 53.783011908,
+    "lon": -0.41375879,
+    "sequence": 6
+  },
+  {
+    "name": "Cottingham Green Sainsburys",
+    "lat": 53.780748408,
+    "lon": -0.41388969,
+    "sequence": 7
+  },
+  {
+    "name": "Cottingham Newgate Street",
+    "lat": 53.779614595,
+    "lon": -0.411762151,
+    "sequence": 8
+  },
+  {
+    "name": "Cottingham Thwaite Street",
+    "lat": 53.779306691,
+    "lon": -0.407524275,
+    "sequence": 9
+  },
+  {
+    "name": "Cottingham Thwaite Street",
+    "lat": 53.77878069,
+    "lon": -0.403795567,
+    "sequence": 10
+  },
+  {
+    "name": "Cottingham Thwaite Street",
+    "lat": 53.778850055,
+    "lon": -0.399558651,
+    "sequence": 11
+  },
+  {
+    "name": "Cottingham Hull Road",
+    "lat": 53.7772361,
+    "lon": -0.397844459,
+    "sequence": 12
+  },
+  {
+    "name": "Cottingham Hull Road",
+    "lat": 53.77509198,
+    "lon": -0.396818323,
+    "sequence": 13
+  },
+  {
+    "name": "Cottingham Hull Road",
+    "lat": 53.773083483,
+    "lon": -0.395180135,
+    "sequence": 14
+  },
+  {
+    "name": "Cottingham Hull Road",
+    "lat": 53.771103755,
+    "lon": -0.388988841,
+    "sequence": 15
+  }
+]

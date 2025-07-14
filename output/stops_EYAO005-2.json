@@ -1,0 +1,164 @@
+[
+  {
+    "name": "West Square",
+    "lat": 54.279942353,
+    "lon": -0.406326905,
+    "sequence": 1
+  },
+  {
+    "name": "Harcourt Place Stop X",
+    "lat": 54.281101388,
+    "lon": -0.399051564,
+    "sequence": 2
+  },
+  {
+    "name": "St Thomas Street Stop F",
+    "lat": 54.284407391,
+    "lon": -0.40073178,
+    "sequence": 3
+  },
+  {
+    "name": "North Marine Road",
+    "lat": 54.285681222,
+    "lon": -0.40122012,
+    "sequence": 4
+  },
+  {
+    "name": "Woodall Avenue",
+    "lat": 54.289691391,
+    "lon": -0.40539743,
+    "sequence": 5
+  },
+  {
+    "name": "Peasholm Park",
+    "lat": 54.29027409,
+    "lon": -0.408002188,
+    "sequence": 6
+  },
+  {
+    "name": "Peasholm Park",
+    "lat": 54.291482302,
+    "lon": -0.40896965,
+    "sequence": 7
+  },
+  {
+    "name": "Alpamare",
+    "lat": 54.295258723,
+    "lon": -0.416583886,
+    "sequence": 8
+  },
+  {
+    "name": "Green Howard's Drive",
+    "lat": 54.297065439,
+    "lon": -0.417959027,
+    "sequence": 9
+  },
+  {
+    "name": "The Ivanhoe",
+    "lat": 54.300314374,
+    "lon": -0.419647867,
+    "sequence": 10
+  },
+  {
+    "name": "Scholes Park Avenue",
+    "lat": 54.301121098,
+    "lon": -0.414683789,
+    "sequence": 11
+  },
+  {
+    "name": "Scalby Mills, Sealife",
+    "lat": 54.302496084,
+    "lon": -0.410050474,
+    "sequence": 12
+  },
+  {
+    "name": "Scalby Mills Road",
+    "lat": 54.300224134,
+    "lon": -0.419620588,
+    "sequence": 13
+  },
+  {
+    "name": "Field Lane",
+    "lat": 54.30529602,
+    "lon": -0.424621258,
+    "sequence": 14
+  },
+  {
+    "name": "Three Jolly Sailors PH",
+    "lat": 54.322005958,
+    "lon": -0.444771053,
+    "sequence": 15
+  },
+  {
+    "name": "Burniston (Methodist Church)",
+    "lat": 54.323257654,
+    "lon": -0.447045663,
+    "sequence": 16
+  },
+  {
+    "name": "Tidds Corner",
+    "lat": 54.326068254,
+    "lon": -0.451030169,
+    "sequence": 17
+  },
+  {
+    "name": "Station Lane",
+    "lat": 54.331983986,
+    "lon": -0.449746651,
+    "sequence": 18
+  },
+  {
+    "name": "Cloughton (Playing Fields)",
+    "lat": 54.334905517,
+    "lon": -0.449775175,
+    "sequence": 19
+  },
+  {
+    "name": "The Red Lion",
+    "lat": 54.337207545,
+    "lon": -0.448458047,
+    "sequence": 20
+  },
+  {
+    "name": "Bryherstones Inn",
+    "lat": 54.348993037,
+    "lon": -0.447214054,
+    "sequence": 21
+  },
+  {
+    "name": "Hayburn Beck Farm",
+    "lat": 54.36080071,
+    "lon": -0.465975897,
+    "sequence": 22
+  },
+  {
+    "name": "Wyke Lodge",
+    "lat": 54.364205002,
+    "lon": -0.470050944,
+    "sequence": 23
+  },
+  {
+    "name": "Downdale Road",
+    "lat": 54.365395391,
+    "lon": -0.468236616,
+    "sequence": 24
+  },
+  {
+    "name": "Staintondale (Trekking Centre)",
+    "lat": 54.369661185,
+    "lon": -0.474343063,
+    "sequence": 25
+  },
+  {
+    "name": "Post Office",
+    "lat": 54.397575247,
+    "lon": -0.492716534,
+    "sequence": 26
+  },
+  {
+    "name": "Ravenscar (Station Square)",
+    "lat": 54.397637148,
+    "lon": -0.484734959,
+    "sequence": 27
+  }
+]

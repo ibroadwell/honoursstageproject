@@ -1,0 +1,212 @@
+[
+  {
+    "name": "Station Road",
+    "lat": 53.958816,
+    "lon": -1.089323,
+    "sequence": 1
+  },
+  {
+    "name": "Rougier Street Stop C",
+    "lat": 53.958441,
+    "lon": -1.087304,
+    "sequence": 2
+  },
+  {
+    "name": "York, Micklegate, CJ",
+    "lat": 53.9573167,
+    "lon": -1.086002766,
+    "sequence": 3
+  },
+  {
+    "name": "York, Clifford Street, TG",
+    "lat": 53.956374,
+    "lon": -1.081436,
+    "sequence": 4
+  },
+  {
+    "name": "York Merchantgate",
+    "lat": 53.957426,
+    "lon": -1.077893,
+    "sequence": 5
+  },
+  {
+    "name": "Melrose's Yard",
+    "lat": 53.95674,
+    "lon": -1.075226,
+    "sequence": 6
+  },
+  {
+    "name": "Huby Court",
+    "lat": 53.955563,
+    "lon": -1.071731,
+    "sequence": 7
+  },
+  {
+    "name": "Lawerence Street",
+    "lat": 53.954841,
+    "lon": -1.06908,
+    "sequence": 8
+  },
+  {
+    "name": "Nicholas Street",
+    "lat": 53.954521,
+    "lon": -1.064912,
+    "sequence": 9
+  },
+  {
+    "name": "The Boulevard",
+    "lat": 53.954474,
+    "lon": -1.061256,
+    "sequence": 10
+  },
+  {
+    "name": "Matmer House",
+    "lat": 53.954071,
+    "lon": -1.057988,
+    "sequence": 11
+  },
+  {
+    "name": "Milson Grove",
+    "lat": 53.953926,
+    "lon": -1.052064,
+    "sequence": 12
+  },
+  {
+    "name": "Windmill Lane",
+    "lat": 53.953869,
+    "lon": -1.044826,
+    "sequence": 13
+  },
+  {
+    "name": "Archbishop Holgate's School",
+    "lat": 53.953854,
+    "lon": -1.040682,
+    "sequence": 14
+  },
+  {
+    "name": "Osbaldwick Pinelands Way",
+    "lat": 53.954077,
+    "lon": -1.034886,
+    "sequence": 15
+  },
+  {
+    "name": "Canham Grove",
+    "lat": 53.95371,
+    "lon": -1.031724,
+    "sequence": 16
+  },
+  {
+    "name": "B&Q",
+    "lat": 53.953943,
+    "lon": -1.027254,
+    "sequence": 17
+  },
+  {
+    "name": "Grimston Lodge",
+    "lat": 53.955505,
+    "lon": -1.020345,
+    "sequence": 18
+  },
+  {
+    "name": "York Maze",
+    "lat": 53.939129,
+    "lon": -0.984655,
+    "sequence": 19
+  },
+  {
+    "name": "Elvington Primary School",
+    "lat": 53.927884,
+    "lon": -0.962464,
+    "sequence": 20
+  },
+  {
+    "name": "Elvington Park",
+    "lat": 53.925245,
+    "lon": -0.952555,
+    "sequence": 21
+  },
+  {
+    "name": "Elvington Primary School",
+    "lat": 53.923687,
+    "lon": -0.940853,
+    "sequence": 22
+  },
+  {
+    "name": "Mallard Court",
+    "lat": 53.922864,
+    "lon": -0.93926,
+    "sequence": 23
+  },
+  {
+    "name": "Village Hall",
+    "lat": 53.920259,
+    "lon": -0.934407,
+    "sequence": 24
+  },
+  {
+    "name": "Newton on Derwent",
+    "lat": 53.935773,
+    "lon": -0.904446,
+    "sequence": 25
+  },
+  {
+    "name": "Sutton on Derwent",
+    "lat": 53.912412,
+    "lon": -0.924285,
+    "sequence": 26
+  },
+  {
+    "name": "Sutton On Derwent Main Street",
+    "lat": 53.905988,
+    "lon": -0.927631,
+    "sequence": 27
+  },
+  {
+    "name": "Hagg Bridge",
+    "lat": 53.897315,
+    "lon": -0.909759,
+    "sequence": 28
+  },
+  {
+    "name": "Storwood",
+    "lat": 53.890051,
+    "lon": -0.918469,
+    "sequence": 29
+  },
+  {
+    "name": "East Cottingwith",
+    "lat": 53.872272,
+    "lon": -0.930532,
+    "sequence": 30
+  },
+  {
+    "name": "Ellerton",
+    "lat": 53.850604,
+    "lon": -0.924837,
+    "sequence": 31
+  },
+  {
+    "name": "Aughton",
+    "lat": 53.839334,
+    "lon": -0.929988,
+    "sequence": 32
+  },
+  {
+    "name": "Melbourne",
+    "lat": 53.887435,
+    "lon": -0.858239,
+    "sequence": 33
+  },
+  {
+    "name": "Melbourne Main Street",
+    "lat": 53.886911,
+    "lon": -0.853263,
+    "sequence": 34
+  },
+  {
+    "name": "Low Farm",
+    "lat": 53.90763,
+    "lon": -0.807256,
+    "sequence": 35
+  }
+]

@@ -1,0 +1,158 @@
+[
+  {
+    "name": "Allerthorpe",
+    "lat": 53.916563,
+    "lon": -0.807063,
+    "sequence": 1
+  },
+  {
+    "name": "Thornton",
+    "lat": 53.897669,
+    "lon": -0.84475,
+    "sequence": 2
+  },
+  {
+    "name": "Bielby",
+    "lat": 53.883278,
+    "lon": -0.800632,
+    "sequence": 3
+  },
+  {
+    "name": "Everingham",
+    "lat": 53.87375,
+    "lon": -0.780157,
+    "sequence": 4
+  },
+  {
+    "name": "Everingham Carr Lane",
+    "lat": 53.873786,
+    "lon": -0.78008,
+    "sequence": 5
+  },
+  {
+    "name": "Seaton Ross Mill Lane",
+    "lat": 53.866416,
+    "lon": -0.821507,
+    "sequence": 6
+  },
+  {
+    "name": "Seaton Ross North End",
+    "lat": 53.86565,
+    "lon": -0.821331,
+    "sequence": 7
+  },
+  {
+    "name": "Seaton Ross",
+    "lat": 53.863418,
+    "lon": -0.8156,
+    "sequence": 8
+  },
+  {
+    "name": "Melbourne Main Street",
+    "lat": 53.886911,
+    "lon": -0.853263,
+    "sequence": 9
+  },
+  {
+    "name": "Melbourne",
+    "lat": 53.887435,
+    "lon": -0.858239,
+    "sequence": 10
+  },
+  {
+    "name": "Melbourne Main Street",
+    "lat": 53.889323,
+    "lon": -0.86683,
+    "sequence": 11
+  },
+  {
+    "name": "Brocklesbank Corner",
+    "lat": 53.894618,
+    "lon": -0.894961,
+    "sequence": 12
+  },
+  {
+    "name": "Hagg Bridge",
+    "lat": 53.897244,
+    "lon": -0.909806,
+    "sequence": 13
+  },
+  {
+    "name": "Sutton on Derwent Main Street",
+    "lat": 53.912116,
+    "lon": -0.924338,
+    "sequence": 14
+  },
+  {
+    "name": "Sutton on Derwent",
+    "lat": 53.916638,
+    "lon": -0.92442,
+    "sequence": 15
+  },
+  {
+    "name": "Newton on Derwent",
+    "lat": 53.935773,
+    "lon": -0.904446,
+    "sequence": 16
+  },
+  {
+    "name": "Wilberfoss A1079",
+    "lat": 53.946554,
+    "lon": -0.885316,
+    "sequence": 17
+  },
+  {
+    "name": "A1079 Wilberfoss",
+    "lat": 53.942941,
+    "lon": -0.86716,
+    "sequence": 18
+  },
+  {
+    "name": "A1079 Near Wilberfoss",
+    "lat": 53.936737,
+    "lon": -0.855583,
+    "sequence": 19
+  },
+  {
+    "name": "A1079 Barmby Moor",
+    "lat": 53.932987,
+    "lon": -0.838444,
+    "sequence": 20
+  },
+  {
+    "name": "Barmby Moor A1079",
+    "lat": 53.928857,
+    "lon": -0.819582,
+    "sequence": 21
+  },
+  {
+    "name": "Pocklington A1079",
+    "lat": 53.927123,
+    "lon": -0.814163,
+    "sequence": 22
+  },
+  {
+    "name": "Allerthorpe Hodsow Ln",
+    "lat": 53.921204,
+    "lon": -0.795662,
+    "sequence": 23
+  },
+  {
+    "name": "Pocklington West Green",
+    "lat": 53.926175,
+    "lon": -0.784066,
+    "sequence": 24
+  },
+  {
+    "name": "Pocklington West Green",
+    "lat": 53.92843,
+    "lon": -0.782204,
+    "sequence": 25
+  },
+  {
+    "name": "Pocklington EY Depot",
+    "lat": 53.929514,
+    "lon": -0.780086,
+    "sequence": 26
+  }
+]

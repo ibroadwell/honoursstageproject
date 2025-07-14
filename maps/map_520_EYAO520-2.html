@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7ad13e17949d9127dc1a89489dd7877e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+        <div style="position: fixed; top: 20px; left: 50%; transform: translateX(-50%);
+                background-color: white; padding: 8px 16px; border: 1px solid #666;
+                border-radius: 6px; font-size: 14px; font-weight: bold; z-index:9999;
+                display: inline-block; white-space: nowrap;">
+        Route 520 - Bridlington P&R
+        </div>
+        
+    
+            <div class="folium-map" id="map_7ad13e17949d9127dc1a89489dd7877e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7ad13e17949d9127dc1a89489dd7877e = L.map(
+                "map_7ad13e17949d9127dc1a89489dd7877e",
+                {
+                    center: [54.068049158, -0.208111667],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_88fb8d8918d9a687bc46319030a3aab5 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_88fb8d8918d9a687bc46319030a3aab5.addTo(map_7ad13e17949d9127dc1a89489dd7877e);
+        
+    
+            var poly_line_88874a5a9f3c09742988709dbeb1827d = L.polyline(
+                [[54.068049158, -0.208111667], [54.068139998, -0.207929986], [54.068179998, -0.207849986], [54.068329998, -0.207489986], [54.068549998, -0.207119986], [54.069429998, -0.206189986], [54.069719998, -0.205959986], [54.070089998, -0.205629986], [54.070949998, -0.204929986], [54.071859998, -0.204169986], [54.072349998, -0.203759986], [54.072539998, -0.203609986], [54.073379998, -0.203239986], [54.073899998, -0.203259986], [54.073809998, -0.202329986], [54.073789998, -0.202149986], [54.074859998, -0.201369986], [54.076069998, -0.200429986], [54.076559998, -0.200039986], [54.077099998, -0.199719986], [54.077599998, -0.199369986], [54.078109998, -0.198969986], [54.078159998, -0.198929986], [54.078219998, -0.198869986], [54.078399998, -0.198699986], [54.079099998, -0.197309986], [54.079519998, -0.196919986], [54.079619998, -0.196489986], [54.079739998, -0.195239986], [54.079979998, -0.194529986], [54.080109998, -0.194309986], [54.080609998, -0.193779986], [54.080779907, -0.193601365], [54.080779907, -0.193601365], [54.080999998, -0.193369986], [54.081159998, -0.193209986], [54.081319998, -0.193109986], [54.081569998, -0.193129986], [54.081769998, -0.193219986], [54.082059998, -0.193349986], [54.082219998, -0.193429986], [54.082349998, -0.193509986], [54.082429998, -0.193569986], [54.082489998, -0.193629986], [54.082539998, -0.193709986], [54.082589998, -0.193809986], [54.082649998, -0.193949986], [54.083019998, -0.193639986], [54.083079998, -0.193549986], [54.083109998, -0.193469986], [54.083139998, -0.193379986], [54.083149998, -0.193289986], [54.083129998, -0.193129986], [54.083099998, -0.192849986], [54.083069998, -0.192549986], [54.083069998, -0.192449986], [54.083079998, -0.192359986], [54.083109998, -0.192259986], [54.083069998, -0.192229986], [54.083029998, -0.192179986], [54.082829998, -0.192099986], [54.082749998, -0.192049986], [54.082689998, -0.192009986], [54.082499998, -0.191919986], [54.082429998, -0.191889986], [54.082369998, -0.191869986], [54.082269998, -0.191849986], [54.082119998, -0.191819986], [54.082049998, -0.191799986], [54.081999998, -0.191779986], [54.081959998, -0.191749986], [54.081949998, -0.191859986], [54.081939998, -0.191999986], [54.081929998, -0.192139986], [54.081909998, -0.192329986], [54.081889998, -0.192479986], [54.081859998, -0.192669986], [54.081819998, -0.192899986], [54.081769998, -0.193219986], [54.081569998, -0.193129986], [54.081319998, -0.193109986], [54.081159998, -0.193209986], [54.080999998, -0.193369986], [54.080617605, -0.193771989], [54.080617605, -0.193771989], [54.080609998, -0.193779986], [54.080109998, -0.194309986], [54.079979998, -0.194529986], [54.079739998, -0.195239986], [54.079619998, -0.196489986], [54.079519998, -0.196919986], [54.079099998, -0.197309986], [54.078399998, -0.198699986], [54.078219998, -0.198869986], [54.078159998, -0.198929986], [54.078109998, -0.198969986], [54.077599998, -0.199369986], [54.077099998, -0.199719986], [54.076559998, -0.200039986], [54.076069998, -0.200429986], [54.074859998, -0.201369986], [54.073789998, -0.202149986], [54.073809998, -0.202329986], [54.073899998, -0.203259986], [54.073379998, -0.203239986], [54.072539998, -0.203609986], [54.072349998, -0.203759986], [54.071859998, -0.204169986], [54.070949998, -0.204929986], [54.070089998, -0.205629986], [54.069719998, -0.205959986], [54.069429998, -0.206189986], [54.068549998, -0.207119986], [54.068329998, -0.207489986], [54.068179998, -0.207849986], [54.068139998, -0.207929986], [54.067939998, -0.208329986], [54.067899998, -0.208409986], [54.067809998, -0.208579986], [54.067709998, -0.208749986], [54.067669998, -0.208819986], [54.067609998, -0.208779986], [54.067559998, -0.208799986], [54.067549998, -0.208829986], [54.067529998, -0.208859986], [54.067519998, -0.208939986], [54.067529998, -0.209019986], [54.067559998, -0.209079986], [54.067609998, -0.209099986], [54.067659998, -0.209079986], [54.067689998, -0.209019986], [54.067699998, -0.208939986], [54.067689998, -0.208859986], [54.067669998, -0.208819986], [54.067709998, -0.208749986], [54.067809998, -0.208579986], [54.067899998, -0.208409986], [54.067939998, -0.208329986], [54.068049158, -0.208111667]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_7ad13e17949d9127dc1a89489dd7877e);
+        
+    
+            var circle_marker_0db4656e05269df118f9a3527c439d36 = L.circleMarker(
+                [54.068091, -0.208172],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_7ad13e17949d9127dc1a89489dd7877e);
+        
+    
+        var popup_d749eb1a41f518048c1d65f9351061b5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3369656a04dd7b9af5cebc3197fc2174 = $(`<div id="html_3369656a04dd7b9af5cebc3197fc2174" style="width: 100.0%; height: 100.0%;">First Stop: Bridlington Park &amp; Ride Site</div>`)[0];
+                popup_d749eb1a41f518048c1d65f9351061b5.setContent(html_3369656a04dd7b9af5cebc3197fc2174);
+            
+        
+
+        circle_marker_0db4656e05269df118f9a3527c439d36.bindPopup(popup_d749eb1a41f518048c1d65f9351061b5)
+        ;
+
+        
+    
+    
+            circle_marker_0db4656e05269df118f9a3527c439d36.bindTooltip(
+                `<div>
+                     First Stop: Bridlington Park & Ride Site
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dac6aa639fa2a07039471ac37e54d7a1 = L.circleMarker(
+                [54.080809, -0.193682],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7ad13e17949d9127dc1a89489dd7877e);
+        
+    
+        var popup_a448617c148bfb8c317b39dcf113cdb9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a74a96915526ed34803bf0a155ab775c = $(`<div id="html_a74a96915526ed34803bf0a155ab775c" style="width: 100.0%; height: 100.0%;">Harbour Top</div>`)[0];
+                popup_a448617c148bfb8c317b39dcf113cdb9.setContent(html_a74a96915526ed34803bf0a155ab775c);
+            
+        
+
+        circle_marker_dac6aa639fa2a07039471ac37e54d7a1.bindPopup(popup_a448617c148bfb8c317b39dcf113cdb9)
+        ;
+
+        
+    
+    
+            circle_marker_dac6aa639fa2a07039471ac37e54d7a1.bindTooltip(
+                `<div>
+                     Harbour Top
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8d29b2e17fccda2c68d5133eea80e7cb = L.circleMarker(
+                [54.080594, -0.193706],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7ad13e17949d9127dc1a89489dd7877e);
+        
+    
+        var popup_bb381784e1d2a175493ddab1e07d1430 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f72660721d53605afee62dba4f25b48b = $(`<div id="html_f72660721d53605afee62dba4f25b48b" style="width: 100.0%; height: 100.0%;">Bridlington South Cliff Road</div>`)[0];
+                popup_bb381784e1d2a175493ddab1e07d1430.setContent(html_f72660721d53605afee62dba4f25b48b);
+            
+        
+
+        circle_marker_8d29b2e17fccda2c68d5133eea80e7cb.bindPopup(popup_bb381784e1d2a175493ddab1e07d1430)
+        ;
+
+        
+    
+    
+            circle_marker_8d29b2e17fccda2c68d5133eea80e7cb.bindTooltip(
+                `<div>
+                     Bridlington South Cliff Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_67712db12dc707f0c56163569ef3c5e3 = L.circleMarker(
+                [54.068091, -0.208172],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7ad13e17949d9127dc1a89489dd7877e);
+        
+    
+        var popup_24c23261997aaab473f34802e4dac3b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d71b9a20a71f06f2e908462e84e246ca = $(`<div id="html_d71b9a20a71f06f2e908462e84e246ca" style="width: 100.0%; height: 100.0%;">Bridlington Park &amp; Ride Site</div>`)[0];
+                popup_24c23261997aaab473f34802e4dac3b2.setContent(html_d71b9a20a71f06f2e908462e84e246ca);
+            
+        
+
+        circle_marker_67712db12dc707f0c56163569ef3c5e3.bindPopup(popup_24c23261997aaab473f34802e4dac3b2)
+        ;
+
+        
+    
+    
+            circle_marker_67712db12dc707f0c56163569ef3c5e3.bindTooltip(
+                `<div>
+                     Bridlington Park & Ride Site
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

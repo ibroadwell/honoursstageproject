@@ -1,0 +1,278 @@
+[
+  {
+    "name": "Woodthorpe Shops",
+    "lat": 53.936414,
+    "lon": -1.122713,
+    "sequence": 1
+  },
+  {
+    "name": "Carrfield",
+    "lat": 53.938894,
+    "lon": -1.125007,
+    "sequence": 2
+  },
+  {
+    "name": "Ashbourne Way",
+    "lat": 53.937697,
+    "lon": -1.12852,
+    "sequence": 3
+  },
+  {
+    "name": "Grassholme",
+    "lat": 53.934808,
+    "lon": -1.12922,
+    "sequence": 4
+  },
+  {
+    "name": "Moorcroft Road",
+    "lat": 53.933582,
+    "lon": -1.123823,
+    "sequence": 5
+  },
+  {
+    "name": "Chaloner's Road",
+    "lat": 53.933805,
+    "lon": -1.118579,
+    "sequence": 6
+  },
+  {
+    "name": "Askham Bar Tesco",
+    "lat": 53.932693,
+    "lon": -1.115328,
+    "sequence": 7
+  },
+  {
+    "name": "Old Moor Lane",
+    "lat": 53.9338758,
+    "lon": -1.112378283,
+    "sequence": 8
+  },
+  {
+    "name": "The Horseshoe",
+    "lat": 53.935840478,
+    "lon": -1.11066104,
+    "sequence": 9
+  },
+  {
+    "name": "Slingsby Grove",
+    "lat": 53.938385309,
+    "lon": -1.108398111,
+    "sequence": 10
+  },
+  {
+    "name": "Cross Keys",
+    "lat": 53.940518522,
+    "lon": -1.106387446,
+    "sequence": 11
+  },
+  {
+    "name": "Nelson's Lane",
+    "lat": 53.942921866,
+    "lon": -1.104446964,
+    "sequence": 12
+  },
+  {
+    "name": "Pulleyn Drive",
+    "lat": 53.945808407,
+    "lon": -1.102221638,
+    "sequence": 13
+  },
+  {
+    "name": "Mount Vale",
+    "lat": 53.949901133,
+    "lon": -1.099040553,
+    "sequence": 14
+  },
+  {
+    "name": "The Mount",
+    "lat": 53.952627462,
+    "lon": -1.095842675,
+    "sequence": 15
+  },
+  {
+    "name": "Blossom Street",
+    "lat": 53.954521746,
+    "lon": -1.09316533,
+    "sequence": 16
+  },
+  {
+    "name": "York, Rail Station",
+    "lat": 53.958002,
+    "lon": -1.092175,
+    "sequence": 17
+  },
+  {
+    "name": "York, Rougier Street, CG",
+    "lat": 53.958558283,
+    "lon": -1.087347274,
+    "sequence": 18
+  },
+  {
+    "name": "York, Micklegate, CJ",
+    "lat": 53.9573167,
+    "lon": -1.086002766,
+    "sequence": 19
+  },
+  {
+    "name": "York, Clifford Street, TG",
+    "lat": 53.956374,
+    "lon": -1.081436,
+    "sequence": 20
+  },
+  {
+    "name": "Ryedale Building",
+    "lat": 53.955945,
+    "lon": -1.077087,
+    "sequence": 21
+  },
+  {
+    "name": "York Stonebow",
+    "lat": 53.959089548,
+    "lon": -1.078054,
+    "sequence": 22
+  },
+  {
+    "name": "York, Peasholme Green, adj Quilt Museum",
+    "lat": 53.960552661,
+    "lon": -1.075461172,
+    "sequence": 23
+  },
+  {
+    "name": "Monk Bar",
+    "lat": 53.963364,
+    "lon": -1.077594,
+    "sequence": 24
+  },
+  {
+    "name": "York, Trinity Methodist Church",
+    "lat": 53.964204946,
+    "lon": -1.075868136,
+    "sequence": 25
+  },
+  {
+    "name": "Heworth, Monk Bridge",
+    "lat": 53.965331392,
+    "lon": -1.072748868,
+    "sequence": 26
+  },
+  {
+    "name": "Langley House",
+    "lat": 53.967591,
+    "lon": -1.068552,
+    "sequence": 27
+  },
+  {
+    "name": "Saxon Place",
+    "lat": 53.970695,
+    "lon": -1.071334,
+    "sequence": 28
+  },
+  {
+    "name": "Fossway",
+    "lat": 53.973361,
+    "lon": -1.071946,
+    "sequence": 29
+  },
+  {
+    "name": "Yearsley Bridge",
+    "lat": 53.976136,
+    "lon": -1.07289,
+    "sequence": 30
+  },
+  {
+    "name": "Byland Avenue",
+    "lat": 53.977186,
+    "lon": -1.070351,
+    "sequence": 31
+  },
+  {
+    "name": "Bell View Court",
+    "lat": 53.975661,
+    "lon": -1.068388,
+    "sequence": 32
+  },
+  {
+    "name": "St Paulinus Church",
+    "lat": 53.976154,
+    "lon": -1.065937,
+    "sequence": 33
+  },
+  {
+    "name": "Monkton Road Shops",
+    "lat": 53.977329,
+    "lon": -1.063273,
+    "sequence": 34
+  },
+  {
+    "name": "Elmfield Avenue, Thorn Nook",
+    "lat": 53.976999,
+    "lon": -1.061298,
+    "sequence": 35
+  },
+  {
+    "name": "Elmfield Avenue",
+    "lat": 53.975373,
+    "lon": -1.059109,
+    "sequence": 36
+  },
+  {
+    "name": "Heworth, Laburnum Garth, adj",
+    "lat": 53.9759312,
+    "lon": -1.056946378,
+    "sequence": 37
+  },
+  {
+    "name": "Geldof Road",
+    "lat": 53.97996,
+    "lon": -1.057267,
+    "sequence": 38
+  },
+  {
+    "name": "Anthea Drive",
+    "lat": 53.982564,
+    "lon": -1.059221,
+    "sequence": 39
+  },
+  {
+    "name": "Brockfield Park Drive",
+    "lat": 53.98474,
+    "lon": -1.059294,
+    "sequence": 40
+  },
+  {
+    "name": "Portakabin Factory",
+    "lat": 53.986451,
+    "lon": -1.05738,
+    "sequence": 41
+  },
+  {
+    "name": "Huntington House",
+    "lat": 53.986119,
+    "lon": -1.050662,
+    "sequence": 42
+  },
+  {
+    "name": "Monks Cross, Sainsbury's, adj",
+    "lat": 53.98701319,
+    "lon": -1.04778946,
+    "sequence": 43
+  },
+  {
+    "name": "Monks Cross Drive, o/s Aviva",
+    "lat": 53.989099847,
+    "lon": -1.043440846,
+    "sequence": 44
+  },
+  {
+    "name": "Monks Cross Shopping Park",
+    "lat": 53.987321507,
+    "lon": -1.043603599,
+    "sequence": 45
+  },
+  {
+    "name": "Monks Cross, ASDA",
+    "lat": 53.986772932,
+    "lon": -1.04582756,
+    "sequence": 46
+  }
+]

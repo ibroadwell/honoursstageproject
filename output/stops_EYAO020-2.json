@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Priory Park & Ride",
+    "lat": 53.721832,
+    "lon": -0.417138,
+    "sequence": 1
+  },
+  {
+    "name": "The Mews",
+    "lat": 53.740014,
+    "lon": -0.359428,
+    "sequence": 2
+  },
+  {
+    "name": "Hull Royal Infirmary",
+    "lat": 53.743258,
+    "lon": -0.358058,
+    "sequence": 3
+  },
+  {
+    "name": "Eye Clinic",
+    "lat": 53.74305,
+    "lon": -0.353351,
+    "sequence": 4
+  },
+  {
+    "name": "Park Street",
+    "lat": 53.743017,
+    "lon": -0.350319,
+    "sequence": 5
+  },
+  {
+    "name": "Midland Street",
+    "lat": 53.74319,
+    "lon": -0.346521,
+    "sequence": 6
+  },
+  {
+    "name": "Hull Interchange",
+    "lat": 53.744742,
+    "lon": -0.346339,
+    "sequence": 7
+  }
+]

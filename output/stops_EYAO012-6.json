@@ -1,0 +1,350 @@
+[
+  {
+    "name": "West Square",
+    "lat": 54.279863,
+    "lon": -0.406438,
+    "sequence": 1
+  },
+  {
+    "name": "Valley Bridge Stop W",
+    "lat": 54.278467,
+    "lon": -0.403481,
+    "sequence": 2
+  },
+  {
+    "name": "St Andrews Church",
+    "lat": 54.274355,
+    "lon": -0.402473,
+    "sequence": 3
+  },
+  {
+    "name": "Avenue Victoria",
+    "lat": 54.270542,
+    "lon": -0.401653,
+    "sequence": 4
+  },
+  {
+    "name": "Holbeck Road",
+    "lat": 54.267136,
+    "lon": -0.398375,
+    "sequence": 5
+  },
+  {
+    "name": "Sea Cliff Road",
+    "lat": 54.265377,
+    "lon": -0.396524,
+    "sequence": 6
+  },
+  {
+    "name": "Wheatcroft Avenue",
+    "lat": 54.263885,
+    "lon": -0.393818,
+    "sequence": 7
+  },
+  {
+    "name": "Cayton Bay (Holiday Village)",
+    "lat": 54.2406478,
+    "lon": -0.366899219,
+    "sequence": 8
+  },
+  {
+    "name": "Cayton Bay",
+    "lat": 54.239171149,
+    "lon": -0.369366735,
+    "sequence": 9
+  },
+  {
+    "name": "Cayton Village Caravan Park",
+    "lat": 54.235371289,
+    "lon": -0.376191109,
+    "sequence": 10
+  },
+  {
+    "name": "Cayton School",
+    "lat": 54.234070925,
+    "lon": -0.377745806,
+    "sequence": 11
+  },
+  {
+    "name": "Cayton (Station Road)",
+    "lat": 54.23288508,
+    "lon": -0.376457483,
+    "sequence": 12
+  },
+  {
+    "name": "Killerby Lane",
+    "lat": 54.229458058,
+    "lon": -0.365638061,
+    "sequence": 13
+  },
+  {
+    "name": "Lebberston (Ox Inn)",
+    "lat": 54.226685055,
+    "lon": -0.347507596,
+    "sequence": 14
+  },
+  {
+    "name": "Lebberston Touring Park",
+    "lat": 54.225245384,
+    "lon": -0.343469283,
+    "sequence": 15
+  },
+  {
+    "name": "Gristhorpe (Filey Road)",
+    "lat": 54.223251937,
+    "lon": -0.330587294,
+    "sequence": 16
+  },
+  {
+    "name": "Muston Crossing",
+    "lat": 54.219125245,
+    "lon": -0.316305458,
+    "sequence": 17
+  },
+  {
+    "name": "Filey Bird Centre",
+    "lat": 54.218499203,
+    "lon": -0.311392189,
+    "sequence": 18
+  },
+  {
+    "name": "Hazel Road",
+    "lat": 54.215089554,
+    "lon": -0.300949144,
+    "sequence": 19
+  },
+  {
+    "name": "Grove Road",
+    "lat": 54.213701878,
+    "lon": -0.294979074,
+    "sequence": 20
+  },
+  {
+    "name": "The Croft",
+    "lat": 54.212977106,
+    "lon": -0.291405038,
+    "sequence": 21
+  },
+  {
+    "name": "Filey Bus Station",
+    "lat": 54.209839531,
+    "lon": -0.291365857,
+    "sequence": 22
+  },
+  {
+    "name": "Clarence Drive",
+    "lat": 54.209897707,
+    "lon": -0.295473119,
+    "sequence": 23
+  },
+  {
+    "name": "Wharfedale",
+    "lat": 54.208876009,
+    "lon": -0.296956598,
+    "sequence": 24
+  },
+  {
+    "name": "Grange Avenue",
+    "lat": 54.206605907,
+    "lon": -0.30042331,
+    "sequence": 25
+  },
+  {
+    "name": "Secondary School",
+    "lat": 54.204478324,
+    "lon": -0.30189057,
+    "sequence": 26
+  },
+  {
+    "name": "Mill Farm",
+    "lat": 54.200558719,
+    "lon": -0.305040859,
+    "sequence": 27
+  },
+  {
+    "name": "Pond Farm",
+    "lat": 54.201532043,
+    "lon": -0.311624196,
+    "sequence": 28
+  },
+  {
+    "name": "Schoolhouse",
+    "lat": 54.201145506,
+    "lon": -0.317404512,
+    "sequence": 29
+  },
+  {
+    "name": "Muston (Ship Inn)",
+    "lat": 54.200670201,
+    "lon": -0.32134858,
+    "sequence": 30
+  },
+  {
+    "name": "Wold View",
+    "lat": 54.197552786,
+    "lon": -0.322426155,
+    "sequence": 31
+  },
+  {
+    "name": "Muston Road End",
+    "lat": 54.182435485,
+    "lon": -0.324799724,
+    "sequence": 32
+  },
+  {
+    "name": "Hunmanby (Church)",
+    "lat": 54.180690669,
+    "lon": -0.32214264,
+    "sequence": 33
+  },
+  {
+    "name": "Hungate Court",
+    "lat": 54.180313426,
+    "lon": -0.319583559,
+    "sequence": 34
+  },
+  {
+    "name": "Horseshoe Inn",
+    "lat": 54.181954627,
+    "lon": -0.316099722,
+    "sequence": 35
+  },
+  {
+    "name": "Outgaits Lane",
+    "lat": 54.182679594,
+    "lon": -0.312024613,
+    "sequence": 36
+  },
+  {
+    "name": "Primrose Valley Garage",
+    "lat": 54.185971625,
+    "lon": -0.296856017,
+    "sequence": 37
+  },
+  {
+    "name": "Primrose Valley Holiday Village (outside)",
+    "lat": 54.183284938,
+    "lon": -0.292476305,
+    "sequence": 38
+  },
+  {
+    "name": "The Bay Holiday Vill",
+    "lat": 54.178324154,
+    "lon": -0.288742712,
+    "sequence": 39
+  },
+  {
+    "name": "Reighton (Watson`s Lane)",
+    "lat": 54.163012674,
+    "lon": -0.271484075,
+    "sequence": 40
+  },
+  {
+    "name": "The Dotterel",
+    "lat": 54.155371632,
+    "lon": -0.268310804,
+    "sequence": 41
+  },
+  {
+    "name": "Huntow Cottages",
+    "lat": 54.130848144,
+    "lon": -0.227295416,
+    "sequence": 42
+  },
+  {
+    "name": "Bridlington (New Pasture Lane)",
+    "lat": 54.09714794,
+    "lon": -0.210926042,
+    "sequence": 43
+  },
+  {
+    "name": "Bridlington Marton Road",
+    "lat": 54.09593622,
+    "lon": -0.20681858,
+    "sequence": 44
+  },
+  {
+    "name": "Bridlington Marton Road",
+    "lat": 54.096891417,
+    "lon": -0.202158874,
+    "sequence": 45
+  },
+  {
+    "name": "Bridlington Trentham Drive",
+    "lat": 54.102311097,
+    "lon": -0.20091496,
+    "sequence": 46
+  },
+  {
+    "name": "Bridlington Trentham Drive",
+    "lat": 54.103534532,
+    "lon": -0.19906141,
+    "sequence": 47
+  },
+  {
+    "name": "Bridlington Bempton Lane",
+    "lat": 54.103998496,
+    "lon": -0.196543824,
+    "sequence": 48
+  },
+  {
+    "name": "Bempton Lane",
+    "lat": 54.100669547,
+    "lon": -0.195740017,
+    "sequence": 49
+  },
+  {
+    "name": "Bridlington Bempton Lane",
+    "lat": 54.098331249,
+    "lon": -0.195061543,
+    "sequence": 50
+  },
+  {
+    "name": "Bridlington Marton Road",
+    "lat": 54.098421276,
+    "lon": -0.191478921,
+    "sequence": 51
+  },
+  {
+    "name": "Bridlington Fortyfoot",
+    "lat": 54.096127016,
+    "lon": -0.187755534,
+    "sequence": 52
+  },
+  {
+    "name": "Bridlington Fortyfoot",
+    "lat": 54.09393885,
+    "lon": -0.187499205,
+    "sequence": 53
+  },
+  {
+    "name": "Bridlington Fortyfoot",
+    "lat": 54.092150774,
+    "lon": -0.186950212,
+    "sequence": 54
+  },
+  {
+    "name": "Bridlington Flamborough Rd",
+    "lat": 54.089272293,
+    "lon": -0.185623149,
+    "sequence": 55
+  },
+  {
+    "name": "Trinity Rd/Flamborough Rd",
+    "lat": 54.086940167,
+    "lon": -0.185954248,
+    "sequence": 56
+  },
+  {
+    "name": "Bridlington Prospect Street",
+    "lat": 54.084284244,
+    "lon": -0.192842886,
+    "sequence": 57
+  },
+  {
+    "name": "Bridlington Bus Station",
+    "lat": 54.08386793,
+    "lon": -0.189665722,
+    "sequence": 58
+  }
+]

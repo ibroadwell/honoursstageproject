@@ -1,0 +1,140 @@
+[
+  {
+    "name": "Withernsea (Memorial Avenue)",
+    "lat": 53.730161,
+    "lon": 0.034537,
+    "sequence": 1
+  },
+  {
+    "name": "Withernsea Arthur Street",
+    "lat": 53.731487,
+    "lon": 0.028445,
+    "sequence": 2
+  },
+  {
+    "name": "Withernsea North Road",
+    "lat": 53.735469,
+    "lon": 0.026848,
+    "sequence": 3
+  },
+  {
+    "name": "Withernsea North Road",
+    "lat": 53.736595,
+    "lon": 0.025644,
+    "sequence": 4
+  },
+  {
+    "name": "Withernsea Waxholme Rd",
+    "lat": 53.738255,
+    "lon": 0.022661,
+    "sequence": 5
+  },
+  {
+    "name": "Roos Thirtle Bridge",
+    "lat": 53.751095,
+    "lon": -0.015157,
+    "sequence": 6
+  },
+  {
+    "name": "Sand Le Mere Caravan Park",
+    "lat": 53.76071,
+    "lon": -0.014886,
+    "sequence": 7
+  },
+  {
+    "name": "Roos Pilmar Lane",
+    "lat": 53.754258,
+    "lon": -0.042403,
+    "sequence": 8
+  },
+  {
+    "name": "Roos (Post Office)",
+    "lat": 53.75535,
+    "lon": -0.044278,
+    "sequence": 9
+  },
+  {
+    "name": "Garton",
+    "lat": 53.799881,
+    "lon": -0.080777,
+    "sequence": 10
+  },
+  {
+    "name": "Aldbrough Hornsea Road",
+    "lat": 53.827882,
+    "lon": -0.115919,
+    "sequence": 11
+  },
+  {
+    "name": "Aldbrough High Street",
+    "lat": 53.828681,
+    "lon": -0.113528,
+    "sequence": 12
+  },
+  {
+    "name": "Aldbrough (Headlands Road)",
+    "lat": 53.828653,
+    "lon": -0.110597,
+    "sequence": 13
+  },
+  {
+    "name": "Aldbrough (Church)",
+    "lat": 53.829614,
+    "lon": -0.111116,
+    "sequence": 14
+  },
+  {
+    "name": "Bewick Corner",
+    "lat": 53.836487,
+    "lon": -0.122889,
+    "sequence": 15
+  },
+  {
+    "name": "Cowden Lane End",
+    "lat": 53.865638,
+    "lon": -0.134892,
+    "sequence": 16
+  },
+  {
+    "name": "Mappleton Main Street",
+    "lat": 53.876283,
+    "lon": -0.136746,
+    "sequence": 17
+  },
+  {
+    "name": "Mappleton (Garage)",
+    "lat": 53.87724,
+    "lon": -0.137022,
+    "sequence": 18
+  },
+  {
+    "name": "Rolston Main Road",
+    "lat": 53.888887,
+    "lon": -0.149591,
+    "sequence": 19
+  },
+  {
+    "name": "Rolston",
+    "lat": 53.890884,
+    "lon": -0.15206,
+    "sequence": 20
+  },
+  {
+    "name": "Rolston Main Road",
+    "lat": 53.891952,
+    "lon": -0.155452,
+    "sequence": 21
+  },
+  {
+    "name": "Hornsea Rolston Road",
+    "lat": 53.89678,
+    "lon": -0.164858,
+    "sequence": 22
+  },
+  {
+    "name": "Hornsea Freeport",
+    "lat": 53.898356,
+    "lon": -0.170969,
+    "sequence": 23
+  }
+]

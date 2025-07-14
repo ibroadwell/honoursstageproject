@@ -1,0 +1,284 @@
+[
+  {
+    "name": "Station Avenue",
+    "lat": 53.959349,
+    "lon": -1.089692,
+    "sequence": 1
+  },
+  {
+    "name": "Exhibition Square",
+    "lat": 53.962437,
+    "lon": -1.085616,
+    "sequence": 2
+  },
+  {
+    "name": "Ingram House",
+    "lat": 53.96522,
+    "lon": -1.089915,
+    "sequence": 3
+  },
+  {
+    "name": "Clifton Methodist Church",
+    "lat": 53.967523,
+    "lon": -1.093752,
+    "sequence": 4
+  },
+  {
+    "name": "Clifton Green",
+    "lat": 53.969476,
+    "lon": -1.096484,
+    "sequence": 5
+  },
+  {
+    "name": "Ouse Lea",
+    "lat": 53.971459,
+    "lon": -1.100893,
+    "sequence": 6
+  },
+  {
+    "name": "Clifton Park",
+    "lat": 53.974907,
+    "lon": -1.106445,
+    "sequence": 7
+  },
+  {
+    "name": "East Cottages",
+    "lat": 53.977876,
+    "lon": -1.110422,
+    "sequence": 8
+  },
+  {
+    "name": "Alwyne Drive",
+    "lat": 53.979544,
+    "lon": -1.113543,
+    "sequence": 9
+  },
+  {
+    "name": "Howard Drive",
+    "lat": 53.983881,
+    "lon": -1.119063,
+    "sequence": 10
+  },
+  {
+    "name": "Manor Lane",
+    "lat": 53.985696,
+    "lon": -1.121556,
+    "sequence": 11
+  },
+  {
+    "name": "Riverside Farm",
+    "lat": 53.988659,
+    "lon": -1.125993,
+    "sequence": 12
+  },
+  {
+    "name": "Fairfield Manor",
+    "lat": 53.994406,
+    "lon": -1.131425,
+    "sequence": 13
+  },
+  {
+    "name": "Fairfield Cottages",
+    "lat": 53.996382,
+    "lon": -1.133733,
+    "sequence": 14
+  },
+  {
+    "name": "Blacksmith's Arms",
+    "lat": 53.999387,
+    "lon": -1.136676,
+    "sequence": 15
+  },
+  {
+    "name": "South Garth",
+    "lat": 54.018137,
+    "lon": -1.157121,
+    "sequence": 16
+  },
+  {
+    "name": "Shipton Dawnay Arms",
+    "lat": 54.0217,
+    "lon": -1.157705,
+    "sequence": 17
+  },
+  {
+    "name": "Shipton Church",
+    "lat": 54.022877,
+    "lon": -1.157666,
+    "sequence": 18
+  },
+  {
+    "name": "The Lodge",
+    "lat": 54.100662,
+    "lon": -1.195057,
+    "sequence": 19
+  },
+  {
+    "name": "Jaipur Spice Restaurant",
+    "lat": 54.10617,
+    "lon": -1.194828,
+    "sequence": 20
+  },
+  {
+    "name": "Secondary School",
+    "lat": 54.115812,
+    "lon": -1.189195,
+    "sequence": 21
+  },
+  {
+    "name": "The Horse Shoe",
+    "lat": 54.118547,
+    "lon": -1.190931,
+    "sequence": 22
+  },
+  {
+    "name": "Easingwold Market Place",
+    "lat": 54.121621,
+    "lon": -1.192004,
+    "sequence": 23
+  },
+  {
+    "name": "opp Primary School",
+    "lat": 54.124349,
+    "lon": -1.200963,
+    "sequence": 24
+  },
+  {
+    "name": "opp Westfield",
+    "lat": 54.125879,
+    "lon": -1.202678,
+    "sequence": 25
+  },
+  {
+    "name": "Village Hall",
+    "lat": 54.165964,
+    "lon": -1.205431,
+    "sequence": 26
+  },
+  {
+    "name": "Village Green",
+    "lat": 54.168411,
+    "lon": -1.207115,
+    "sequence": 27
+  },
+  {
+    "name": "Husthwaite",
+    "lat": 54.169353,
+    "lon": -1.202808,
+    "sequence": 28
+  },
+  {
+    "name": "Coxwold Garage",
+    "lat": 54.188967,
+    "lon": -1.180378,
+    "sequence": 29
+  },
+  {
+    "name": "The Abbey Inn",
+    "lat": 54.203398,
+    "lon": -1.160377,
+    "sequence": 30
+  },
+  {
+    "name": "Wass Stapylton Arms",
+    "lat": 54.205913,
+    "lon": -1.151219,
+    "sequence": 31
+  },
+  {
+    "name": "The White Horse",
+    "lat": 54.200957,
+    "lon": -1.110728,
+    "sequence": 32
+  },
+  {
+    "name": "St Hilda's Primary School",
+    "lat": 54.198092,
+    "lon": -1.106221,
+    "sequence": 33
+  },
+  {
+    "name": "Ampleforth Fairfax Close",
+    "lat": 54.196443,
+    "lon": -1.106824,
+    "sequence": 34
+  },
+  {
+    "name": "St Hildas Primary School",
+    "lat": 54.198075,
+    "lon": -1.106314,
+    "sequence": 35
+  },
+  {
+    "name": "The White Swan",
+    "lat": 54.201077,
+    "lon": -1.107506,
+    "sequence": 36
+  },
+  {
+    "name": "Main Street",
+    "lat": 54.201422,
+    "lon": -1.103206,
+    "sequence": 37
+  },
+  {
+    "name": "Ampleforth College",
+    "lat": 54.202666,
+    "lon": -1.083357,
+    "sequence": 38
+  },
+  {
+    "name": "Oswaldkirk Manor View",
+    "lat": 54.203555,
+    "lon": -1.046252,
+    "sequence": 39
+  },
+  {
+    "name": "Sproxton War Memorial",
+    "lat": 54.226225,
+    "lon": -1.060348,
+    "sequence": 40
+  },
+  {
+    "name": "Helmsley Market Place",
+    "lat": 54.246409,
+    "lon": -1.061117,
+    "sequence": 41
+  },
+  {
+    "name": "Carlton Road",
+    "lat": 54.247562,
+    "lon": -1.05572,
+    "sequence": 42
+  },
+  {
+    "name": "The Croft",
+    "lat": 54.252496,
+    "lon": -1.002101,
+    "sequence": 43
+  },
+  {
+    "name": "Nawton Howdale Lane",
+    "lat": 54.253411,
+    "lon": -0.995494,
+    "sequence": 44
+  },
+  {
+    "name": "Nawton Garage",
+    "lat": 54.254385,
+    "lon": -0.992569,
+    "sequence": 45
+  },
+  {
+    "name": "West Lund",
+    "lat": 54.268362,
+    "lon": -0.936214,
+    "sequence": 46
+  },
+  {
+    "name": "Kirkbymoorside Market Place",
+    "lat": 54.269375,
+    "lon": -0.930859,
+    "sequence": 47
+  }
+]

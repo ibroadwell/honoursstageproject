@@ -1,0 +1,74 @@
+[
+  {
+    "name": "West Square",
+    "lat": 54.279942353,
+    "lon": -0.406326905,
+    "sequence": 1
+  },
+  {
+    "name": "Harcourt Place Stop X",
+    "lat": 54.281101388,
+    "lon": -0.399051564,
+    "sequence": 2
+  },
+  {
+    "name": "St Thomas Street Stop F",
+    "lat": 54.284407391,
+    "lon": -0.40073178,
+    "sequence": 3
+  },
+  {
+    "name": "North Marine Road",
+    "lat": 54.285681222,
+    "lon": -0.40122012,
+    "sequence": 4
+  },
+  {
+    "name": "Woodall Avenue",
+    "lat": 54.289691391,
+    "lon": -0.40539743,
+    "sequence": 5
+  },
+  {
+    "name": "Peasholm Park",
+    "lat": 54.29027409,
+    "lon": -0.408002188,
+    "sequence": 6
+  },
+  {
+    "name": "Peasholm Park",
+    "lat": 54.291482302,
+    "lon": -0.40896965,
+    "sequence": 7
+  },
+  {
+    "name": "Alpamare",
+    "lat": 54.295258723,
+    "lon": -0.416583886,
+    "sequence": 8
+  },
+  {
+    "name": "Green Howard's Drive",
+    "lat": 54.297065439,
+    "lon": -0.417959027,
+    "sequence": 9
+  },
+  {
+    "name": "The Ivanhoe",
+    "lat": 54.300314374,
+    "lon": -0.419647867,
+    "sequence": 10
+  },
+  {
+    "name": "Scholes Park Avenue",
+    "lat": 54.301121098,
+    "lon": -0.414683789,
+    "sequence": 11
+  },
+  {
+    "name": "Scalby Mills, Sealife",
+    "lat": 54.302496084,
+    "lon": -0.410050474,
+    "sequence": 12
+  }
+]

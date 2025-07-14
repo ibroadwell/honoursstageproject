@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Withernsea Pier Road",
+    "lat": 53.729995,
+    "lon": 0.034756,
+    "sequence": 1
+  },
+  {
+    "name": "Withernsea Queen Street",
+    "lat": 53.728399,
+    "lon": 0.035619,
+    "sequence": 2
+  },
+  {
+    "name": "Withernsea Queen Street",
+    "lat": 53.725129,
+    "lon": 0.035976,
+    "sequence": 3
+  },
+  {
+    "name": "Withernsea Queen Street",
+    "lat": 53.723255,
+    "lon": 0.037841,
+    "sequence": 4
+  },
+  {
+    "name": "Withernsea Queen Street",
+    "lat": 53.721735,
+    "lon": 0.03945,
+    "sequence": 5
+  },
+  {
+    "name": "Withernsea Hollym Road",
+    "lat": 53.719279,
+    "lon": 0.040074,
+    "sequence": 6
+  },
+  {
+    "name": "Withernsea Hollym Road",
+    "lat": 53.716702,
+    "lon": 0.040404,
+    "sequence": 7
+  },
+  {
+    "name": "Withernsea A1033",
+    "lat": 53.71081,
+    "lon": 0.040119,
+    "sequence": 8
+  },
+  {
+    "name": "Hollym (Cross Roads)",
+    "lat": 53.705416,
+    "lon": 0.039039,
+    "sequence": 9
+  },
+  {
+    "name": "Hollym Long Farm",
+    "lat": 53.697688,
+    "lon": 0.023517,
+    "sequence": 10
+  },
+  {
+    "name": "Hollym Greenland Farm",
+    "lat": 53.69584,
+    "lon": 0.016855,
+    "sequence": 11
+  },
+  {
+    "name": "Patrington Fairview Lodges",
+    "lat": 53.693802,
+    "lon": 0.010289,
+    "sequence": 12
+  },
+  {
+    "name": "Patrington (Pump Street)",
+    "lat": 53.684758,
+    "lon": -0.009571,
+    "sequence": 13
+  },
+  {
+    "name": "Patrington",
+    "lat": 53.684221,
+    "lon": -0.011928,
+    "sequence": 14
+  },
+  {
+    "name": "Patrington Northside",
+    "lat": 53.684238,
+    "lon": -0.012397,
+    "sequence": 15
+  },
+  {
+    "name": "Welwick",
+    "lat": 53.668304,
+    "lon": 0.031782,
+    "sequence": 16
+  },
+  {
+    "name": "Weeton",
+    "lat": 53.661016,
+    "lon": 0.049019,
+    "sequence": 17
+  },
+  {
+    "name": "Skeffling",
+    "lat": 53.653504,
+    "lon": 0.07441,
+    "sequence": 18
+  },
+  {
+    "name": "Easington Dimlington Road",
+    "lat": 53.651853,
+    "lon": 0.114293,
+    "sequence": 19
+  },
+  {
+    "name": "Easington Square",
+    "lat": 53.650282,
+    "lon": 0.115713,
+    "sequence": 20
+  },
+  {
+    "name": "Easington Caravan Park",
+    "lat": 53.648286,
+    "lon": 0.123299,
+    "sequence": 21
+  },
+  {
+    "name": "Discovery Centre",
+    "lat": 53.610195,
+    "lon": 0.144986,
+    "sequence": 22
+  }
+]

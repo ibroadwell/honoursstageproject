@@ -1,0 +1,296 @@
+[
+  {
+    "name": "Hull Interchange",
+    "lat": 53.744504,
+    "lon": -0.347971,
+    "sequence": 1
+  },
+  {
+    "name": "Prospect Street B",
+    "lat": 53.747179,
+    "lon": -0.344454,
+    "sequence": 2
+  },
+  {
+    "name": "Bond Street C",
+    "lat": 53.74602,
+    "lon": -0.339298,
+    "sequence": 3
+  },
+  {
+    "name": "Kenworthy House",
+    "lat": 53.74615,
+    "lon": -0.336973,
+    "sequence": 4
+  },
+  {
+    "name": "Hull Trinity House Academy",
+    "lat": 53.74671,
+    "lon": -0.335252,
+    "sequence": 5
+  },
+  {
+    "name": "New Cleveland Street",
+    "lat": 53.748205,
+    "lon": -0.327079,
+    "sequence": 6
+  },
+  {
+    "name": "Holborn Street",
+    "lat": 53.748415,
+    "lon": -0.324068,
+    "sequence": 7
+  },
+  {
+    "name": "Dansom Lane",
+    "lat": 53.749013,
+    "lon": -0.321178,
+    "sequence": 8
+  },
+  {
+    "name": "Franklin Street",
+    "lat": 53.750464,
+    "lon": -0.31889,
+    "sequence": 9
+  },
+  {
+    "name": "Courtney Street",
+    "lat": 53.752628,
+    "lon": -0.315498,
+    "sequence": 10
+  },
+  {
+    "name": "Barnsley Street",
+    "lat": 53.754642,
+    "lon": -0.312383,
+    "sequence": 11
+  },
+  {
+    "name": "Durham Street",
+    "lat": 53.756418,
+    "lon": -0.309521,
+    "sequence": 12
+  },
+  {
+    "name": "Southcoates Lane",
+    "lat": 53.758426,
+    "lon": -0.306558,
+    "sequence": 13
+  },
+  {
+    "name": "Westcott Street",
+    "lat": 53.759605,
+    "lon": -0.304766,
+    "sequence": 14
+  },
+  {
+    "name": "Mile House",
+    "lat": 53.760719,
+    "lon": -0.302825,
+    "sequence": 15
+  },
+  {
+    "name": "Telford Street",
+    "lat": 53.761527,
+    "lon": -0.30082,
+    "sequence": 16
+  },
+  {
+    "name": "Woodford Leisure Centre",
+    "lat": 53.762299,
+    "lon": -0.298878,
+    "sequence": 17
+  },
+  {
+    "name": "Westminster Avenue",
+    "lat": 53.763532,
+    "lon": -0.295809,
+    "sequence": 18
+  },
+  {
+    "name": "Astoria Bingo Hall",
+    "lat": 53.764661,
+    "lon": -0.293002,
+    "sequence": 19
+  },
+  {
+    "name": "Tower Grange",
+    "lat": 53.765589,
+    "lon": -0.290628,
+    "sequence": 20
+  },
+  {
+    "name": "The Crooked Billet PH",
+    "lat": 53.766666,
+    "lon": -0.288035,
+    "sequence": 21
+  },
+  {
+    "name": "Waldegrave Avenue",
+    "lat": 53.76757,
+    "lon": -0.285237,
+    "sequence": 22
+  },
+  {
+    "name": "Grasby Road",
+    "lat": 53.768858,
+    "lon": -0.281664,
+    "sequence": 23
+  },
+  {
+    "name": "The Four In Hand PH",
+    "lat": 53.770021,
+    "lon": -0.278142,
+    "sequence": 24
+  },
+  {
+    "name": "Eastmount Avenue",
+    "lat": 53.771501,
+    "lon": -0.273544,
+    "sequence": 25
+  },
+  {
+    "name": "Saltshouse Road",
+    "lat": 53.772619,
+    "lon": -0.270023,
+    "sequence": 26
+  },
+  {
+    "name": "Parkhurst Close",
+    "lat": 53.776737,
+    "lon": -0.263859,
+    "sequence": 27
+  },
+  {
+    "name": "Ganstead Roundabout",
+    "lat": 53.778767,
+    "lon": -0.259404,
+    "sequence": 28
+  },
+  {
+    "name": "ASDA Bilton",
+    "lat": 53.779048,
+    "lon": -0.253352,
+    "sequence": 29
+  },
+  {
+    "name": "Bilton Church",
+    "lat": 53.778695,
+    "lon": -0.248267,
+    "sequence": 30
+  },
+  {
+    "name": "Bilton Main Road",
+    "lat": 53.77825,
+    "lon": -0.241805,
+    "sequence": 31
+  },
+  {
+    "name": "Bilton Main Road",
+    "lat": 53.779085,
+    "lon": -0.237491,
+    "sequence": 32
+  },
+  {
+    "name": "Bilton Main Road",
+    "lat": 53.779906,
+    "lon": -0.234041,
+    "sequence": 33
+  },
+  {
+    "name": "Bilton Main Road",
+    "lat": 53.780243,
+    "lon": -0.230658,
+    "sequence": 34
+  },
+  {
+    "name": "Wyton B1238",
+    "lat": 53.780712,
+    "lon": -0.224703,
+    "sequence": 35
+  },
+  {
+    "name": "Wyton Hastings",
+    "lat": 53.781693,
+    "lon": -0.218075,
+    "sequence": 36
+  },
+  {
+    "name": "Parklands",
+    "lat": 53.78653,
+    "lon": -0.204906,
+    "sequence": 37
+  },
+  {
+    "name": "Sproatley Memorial",
+    "lat": 53.791768,
+    "lon": -0.190351,
+    "sequence": 38
+  },
+  {
+    "name": "Spring Valley Campsite",
+    "lat": 53.778213,
+    "lon": -0.190448,
+    "sequence": 39
+  },
+  {
+    "name": "Preston Sproatley Road",
+    "lat": 53.760129,
+    "lon": -0.20136,
+    "sequence": 40
+  },
+  {
+    "name": "Preston (Cock and Bell)",
+    "lat": 53.757654,
+    "lon": -0.20054,
+    "sequence": 41
+  },
+  {
+    "name": "Preston (Crossroads)",
+    "lat": 53.754743,
+    "lon": -0.198268,
+    "sequence": 42
+  },
+  {
+    "name": "Preston Station Road",
+    "lat": 53.752988,
+    "lon": -0.198131,
+    "sequence": 43
+  },
+  {
+    "name": "Preston Station Road",
+    "lat": 53.750167,
+    "lon": -0.197645,
+    "sequence": 44
+  },
+  {
+    "name": "Mattocks Lane",
+    "lat": 53.748209,
+    "lon": -0.197137,
+    "sequence": 45
+  },
+  {
+    "name": "Rosedale Community Unit",
+    "lat": 53.745411,
+    "lon": -0.197015,
+    "sequence": 46
+  },
+  {
+    "name": "Hedon Station Lane",
+    "lat": 53.74403,
+    "lon": -0.19718,
+    "sequence": 47
+  },
+  {
+    "name": "Hedon Baxtergate",
+    "lat": 53.741178,
+    "lon": -0.195877,
+    "sequence": 48
+  },
+  {
+    "name": "Hedon St Augustines Gate",
+    "lat": 53.740514,
+    "lon": -0.198938,
+    "sequence": 49
+  }
+]

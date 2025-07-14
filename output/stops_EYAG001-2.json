@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Goole North Street",
+    "lat": 53.702766,
+    "lon": -0.86965,
+    "sequence": 1
+  },
+  {
+    "name": "Goole Stanhope Street",
+    "lat": 53.703335,
+    "lon": -0.874619,
+    "sequence": 2
+  },
+  {
+    "name": "Cottingham Street",
+    "lat": 53.695158,
+    "lon": -0.873989,
+    "sequence": 3
+  },
+  {
+    "name": "Old Goole Swinefleet Road",
+    "lat": 53.695965,
+    "lon": -0.871847,
+    "sequence": 4
+  },
+  {
+    "name": "Goole Stanhope Street",
+    "lat": 53.703437,
+    "lon": -0.874965,
+    "sequence": 5
+  },
+  {
+    "name": "North Street",
+    "lat": 53.702929,
+    "lon": -0.869782,
+    "sequence": 6
+  }
+]

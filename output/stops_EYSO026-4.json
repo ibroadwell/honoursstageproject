@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Hessle Square",
+    "lat": 53.723201576,
+    "lon": -0.435168501,
+    "sequence": 1
+  },
+  {
+    "name": "Hessle Beverley Road",
+    "lat": 53.726686288,
+    "lon": -0.436312364,
+    "sequence": 2
+  },
+  {
+    "name": "Hessle Sunningdale Road",
+    "lat": 53.728149062,
+    "lon": -0.434060133,
+    "sequence": 3
+  },
+  {
+    "name": "Hessle Cottesmore Road",
+    "lat": 53.727951433,
+    "lon": -0.429262316,
+    "sequence": 4
+  },
+  {
+    "name": "Hessle Cottesmore Road",
+    "lat": 53.727869434,
+    "lon": -0.423702307,
+    "sequence": 5
+  },
+  {
+    "name": "Hessle First Lane",
+    "lat": 53.728765907,
+    "lon": -0.423517188,
+    "sequence": 6
+  },
+  {
+    "name": "First Lane Barnetby Road",
+    "lat": 53.732310658,
+    "lon": -0.423066204,
+    "sequence": 7
+  },
+  {
+    "name": "Hessle First Lane",
+    "lat": 53.733436149,
+    "lon": -0.421841582,
+    "sequence": 8
+  },
+  {
+    "name": "Anlaby First Lane",
+    "lat": 53.737308329,
+    "lon": -0.421681361,
+    "sequence": 9
+  },
+  {
+    "name": "Anlaby First Lane",
+    "lat": 53.742571689,
+    "lon": -0.424092255,
+    "sequence": 10
+  },
+  {
+    "name": "Anlaby Hull Road",
+    "lat": 53.744939558,
+    "lon": -0.42642995,
+    "sequence": 11
+  },
+  {
+    "name": "Anlaby Red Lion",
+    "lat": 53.745459723,
+    "lon": -0.432526071,
+    "sequence": 12
+  },
+  {
+    "name": "Anlaby Wilson Street",
+    "lat": 53.745767412,
+    "lon": -0.435421984,
+    "sequence": 13
+  },
+  {
+    "name": "Anlaby Beverley Road",
+    "lat": 53.746276322,
+    "lon": -0.438602854,
+    "sequence": 14
+  },
+  {
+    "name": "Kirk Ella Beverley Road",
+    "lat": 53.749326861,
+    "lon": -0.44023382,
+    "sequence": 15
+  },
+  {
+    "name": "Kirkella Beverley Road",
+    "lat": 53.751008433,
+    "lon": -0.442355506,
+    "sequence": 16
+  },
+  {
+    "name": "Kirk Ella Beverley Road",
+    "lat": 53.752209828,
+    "lon": -0.446269632,
+    "sequence": 17
+  },
+  {
+    "name": "Willerby Square Sainsburys",
+    "lat": 53.755801999,
+    "lon": -0.446698282,
+    "sequence": 18
+  },
+  {
+    "name": "Willerby Main Street",
+    "lat": 53.759385969,
+    "lon": -0.447187979,
+    "sequence": 19
+  },
+  {
+    "name": "Willerby Main Street",
+    "lat": 53.7620823,
+    "lon": -0.449242712,
+    "sequence": 20
+  },
+  {
+    "name": "Willerby Great Gutter Lane",
+    "lat": 53.761897413,
+    "lon": -0.450933441,
+    "sequence": 21
+  },
+  {
+    "name": "Willerby Great Gutter Lane",
+    "lat": 53.761851006,
+    "lon": -0.45360514,
+    "sequence": 22
+  },
+  {
+    "name": "Willerby Shopping Park",
+    "lat": 53.762989159,
+    "lon": -0.455429331,
+    "sequence": 23
+  },
+  {
+    "name": "Willerby Business Park",
+    "lat": 53.771396061,
+    "lon": -0.447943494,
+    "sequence": 24
+  },
+  {
+    "name": "Castle Hill Hospital Gate 2",
+    "lat": 53.776691071,
+    "lon": -0.442436616,
+    "sequence": 25
+  },
+  {
+    "name": "Castle Hill Hospital",
+    "lat": 53.778394493,
+    "lon": -0.442783303,
+    "sequence": 26
+  },
+  {
+    "name": "Castle Hill Hospital",
+    "lat": 53.779039047,
+    "lon": -0.444656518,
+    "sequence": 27
+  },
+  {
+    "name": "Castle Hill Hospital",
+    "lat": 53.777909462,
+    "lon": -0.446276612,
+    "sequence": 28
+  },
+  {
+    "name": "Castle Hill Hospital",
+    "lat": 53.777123863,
+    "lon": -0.44600211,
+    "sequence": 29
+  },
+  {
+    "name": "Cottingham Castle Road",
+    "lat": 53.776080728,
+    "lon": -0.444583793,
+    "sequence": 30
+  },
+  {
+    "name": "Castle Hill Hospital Gate 3",
+    "lat": 53.776592772,
+    "lon": -0.440406706,
+    "sequence": 31
+  },
+  {
+    "name": "Cottingham Castle Road",
+    "lat": 53.777121729,
+    "lon": -0.43547009,
+    "sequence": 32
+  },
+  {
+    "name": "Cottingham Burton Road",
+    "lat": 53.777493024,
+    "lon": -0.429492078,
+    "sequence": 33
+  },
+  {
+    "name": "Cottingham Burton Road",
+    "lat": 53.775390399,
+    "lon": -0.426125774,
+    "sequence": 34
+  },
+  {
+    "name": "Cottingham The Parkway",
+    "lat": 53.776617364,
+    "lon": -0.42304471,
+    "sequence": 35
+  },
+  {
+    "name": "Cottingham Southwood Rd",
+    "lat": 53.778950562,
+    "lon": -0.422744764,
+    "sequence": 36
+  },
+  {
+    "name": "Cottingham South Street",
+    "lat": 53.779892992,
+    "lon": -0.415819073,
+    "sequence": 37
+  },
+  {
+    "name": "Cottingham Green Bus Shelter",
+    "lat": 53.781271116,
+    "lon": -0.413991398,
+    "sequence": 38
+  },
+  {
+    "name": "Cottingham Northgate",
+    "lat": 53.784581079,
+    "lon": -0.414822824,
+    "sequence": 39
+  },
+  {
+    "name": "Cottingham Northgate",
+    "lat": 53.784694252,
+    "lon": -0.418628417,
+    "sequence": 40
+  },
+  {
+    "name": "Cottingham Northgate",
+    "lat": 53.784352487,
+    "lon": -0.422026094,
+    "sequence": 41
+  },
+  {
+    "name": "Cottingham Harland Way",
+    "lat": 53.784104603,
+    "lon": -0.427105012,
+    "sequence": 42
+  },
+  {
+    "name": "Cottingham Harland Way",
+    "lat": 53.785801654,
+    "lon": -0.431079175,
+    "sequence": 43
+  },
+  {
+    "name": "Cottingham Harland Way",
+    "lat": 53.788023484,
+    "lon": -0.436703911,
+    "sequence": 44
+  },
+  {
+    "name": "Cottingham Harland Way",
+    "lat": 53.788327405,
+    "lon": -0.440715308,
+    "sequence": 45
+  },
+  {
+    "name": "Woodhill Way",
+    "lat": 53.79024948,
+    "lon": -0.445441118,
+    "sequence": 46
+  },
+  {
+    "name": "New Skidy Stop",
+    "lat": 53.790087907,
+    "lon": -0.450320065,
+    "sequence": 47
+  },
+  {
+    "name": "Bentley Lane End",
+    "lat": 53.811345017,
+    "lon": -0.446711054,
+    "sequence": 48
+  },
+  {
+    "name": "Beverley Victoria Road (Morrisons)",
+    "lat": 53.822316281,
+    "lon": -0.441534915,
+    "sequence": 49
+  },
+  {
+    "name": "Beverley Victoria Road",
+    "lat": 53.827849212,
+    "lon": -0.439825317,
+    "sequence": 50
+  },
+  {
+    "name": "Beverley Victoria Road",
+    "lat": 53.830995351,
+    "lon": -0.437064396,
+    "sequence": 51
+  },
+  {
+    "name": "Beverley Flemingate",
+    "lat": 53.838838,
+    "lon": -0.420921,
+    "sequence": 52
+  },
+  {
+    "name": "Beverley Armstrong Way",
+    "lat": 53.839954,
+    "lon": -0.422414,
+    "sequence": 53
+  },
+  {
+    "name": "Beverley Rail Station",
+    "lat": 53.841878,
+    "lon": -0.423755,
+    "sequence": 54
+  },
+  {
+    "name": "Beverley New Walkergate",
+    "lat": 53.842081,
+    "lon": -0.426954,
+    "sequence": 55
+  },
+  {
+    "name": "Beverley Bus Station",
+    "lat": 53.844192,
+    "lon": -0.431648,
+    "sequence": 56
+  }
+]

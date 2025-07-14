@@ -1,0 +1,476 @@
+[
+  {
+    "name": "Pocklington EY Depot",
+    "lat": 53.929036,
+    "lon": -0.779947,
+    "sequence": 1
+  },
+  {
+    "name": "Pocklington West Green",
+    "lat": 53.925781,
+    "lon": -0.784245,
+    "sequence": 2
+  },
+  {
+    "name": "Allerthorpe Hodsow Ln",
+    "lat": 53.921124,
+    "lon": -0.795786,
+    "sequence": 3
+  },
+  {
+    "name": "Pocklington A1079",
+    "lat": 53.927242,
+    "lon": -0.815363,
+    "sequence": 4
+  },
+  {
+    "name": "Barmby Moor A1079",
+    "lat": 53.929077,
+    "lon": -0.820992,
+    "sequence": 5
+  },
+  {
+    "name": "Barmby Moor A1079",
+    "lat": 53.932956,
+    "lon": -0.838978,
+    "sequence": 6
+  },
+  {
+    "name": "Barmby Moor A1079",
+    "lat": 53.936682,
+    "lon": -0.856316,
+    "sequence": 7
+  },
+  {
+    "name": "A1079 Wilberfoss",
+    "lat": 53.942615,
+    "lon": -0.866834,
+    "sequence": 8
+  },
+  {
+    "name": "Wilberfoss A1079",
+    "lat": 53.946593,
+    "lon": -0.886625,
+    "sequence": 9
+  },
+  {
+    "name": "Catton Lane End",
+    "lat": 53.952651,
+    "lon": -0.91717,
+    "sequence": 10
+  },
+  {
+    "name": "Kexby Bridge",
+    "lat": 53.949982,
+    "lon": -0.93429,
+    "sequence": 11
+  },
+  {
+    "name": "Four Lane Ends",
+    "lat": 53.954925,
+    "lon": -0.974457,
+    "sequence": 12
+  },
+  {
+    "name": "Grimston Court",
+    "lat": 53.957136,
+    "lon": -1.004411,
+    "sequence": 13
+  },
+  {
+    "name": "Bingley House",
+    "lat": 53.95603,
+    "lon": -1.01416,
+    "sequence": 14
+  },
+  {
+    "name": "Canham Grove",
+    "lat": 53.953591,
+    "lon": -1.032642,
+    "sequence": 15
+  },
+  {
+    "name": "Osbaldwick Pinelands Way",
+    "lat": 53.953844,
+    "lon": -1.037223,
+    "sequence": 16
+  },
+  {
+    "name": "Archbishop Holgate's School",
+    "lat": 53.953621,
+    "lon": -1.04087,
+    "sequence": 17
+  },
+  {
+    "name": "Windmill Lane",
+    "lat": 53.953723,
+    "lon": -1.046872,
+    "sequence": 18
+  },
+  {
+    "name": "Milson Grove",
+    "lat": 53.953776,
+    "lon": -1.051305,
+    "sequence": 19
+  },
+  {
+    "name": "Garrow Hill Avenue",
+    "lat": 53.953752,
+    "lon": -1.056273,
+    "sequence": 20
+  },
+  {
+    "name": "Abbotsford Road",
+    "lat": 53.954252,
+    "lon": -1.060377,
+    "sequence": 21
+  },
+  {
+    "name": "St Joseph's Convent",
+    "lat": 53.954427,
+    "lon": -1.0656,
+    "sequence": 22
+  },
+  {
+    "name": "St Lawrence Church",
+    "lat": 53.954641,
+    "lon": -1.068841,
+    "sequence": 23
+  },
+  {
+    "name": "The Barbican Coach Stop",
+    "lat": 53.95345,
+    "lon": -1.075192,
+    "sequence": 24
+  },
+  {
+    "name": "Fewster Way",
+    "lat": 53.953037,
+    "lon": -1.07642,
+    "sequence": 25
+  },
+  {
+    "name": "Rougier Street Stop E",
+    "lat": 53.958706,
+    "lon": -1.087847,
+    "sequence": 26
+  },
+  {
+    "name": "York, Rail Station",
+    "lat": 53.957936,
+    "lon": -1.091796,
+    "sequence": 27
+  },
+  {
+    "name": "York, Blossom Street, BC",
+    "lat": 53.955106,
+    "lon": -1.091934,
+    "sequence": 28
+  },
+  {
+    "name": "York, Cambridge Street, opp Mount Ephraim",
+    "lat": 53.954031,
+    "lon": -1.094852,
+    "sequence": 29
+  },
+  {
+    "name": "Holgate Hill, adj Holgate Bridge Gardens",
+    "lat": 53.953762,
+    "lon": -1.100954,
+    "sequence": 30
+  },
+  {
+    "name": "Holgate, Fox Inn, opp",
+    "lat": 53.954857,
+    "lon": -1.105471,
+    "sequence": 31
+  },
+  {
+    "name": "Holgate Park, opp",
+    "lat": 53.95762,
+    "lon": -1.109588,
+    "sequence": 32
+  },
+  {
+    "name": "Holgate, Grantham Drive, adj",
+    "lat": 53.959171,
+    "lon": -1.111491,
+    "sequence": 33
+  },
+  {
+    "name": "Holgate, Seldon Road, opp",
+    "lat": 53.961841,
+    "lon": -1.115244,
+    "sequence": 34
+  },
+  {
+    "name": "Holgate, Malvern Avenue",
+    "lat": 53.963625,
+    "lon": -1.118286,
+    "sequence": 35
+  },
+  {
+    "name": "Acomb, Ouse Acres, opp",
+    "lat": 53.964615,
+    "lon": -1.122182,
+    "sequence": 36
+  },
+  {
+    "name": "Acomb, Plantation Drive, opp",
+    "lat": 53.966445,
+    "lon": -1.126656,
+    "sequence": 37
+  },
+  {
+    "name": "Acomb, Wheatlands Grove, adj",
+    "lat": 53.96807,
+    "lon": -1.130128,
+    "sequence": 38
+  },
+  {
+    "name": "Beckfield Lane, Low Poppleton Lane",
+    "lat": 53.969154,
+    "lon": -1.132087,
+    "sequence": 39
+  },
+  {
+    "name": "Upper Poppleton, Wheatlands, adj",
+    "lat": 53.972136,
+    "lon": -1.141859,
+    "sequence": 40
+  },
+  {
+    "name": "Upper Poppleton, Garden Centre, adj",
+    "lat": 53.972713,
+    "lon": -1.145872,
+    "sequence": 41
+  },
+  {
+    "name": "Upper Poppleton, Red Lion A59, opp",
+    "lat": 53.975047,
+    "lon": -1.163327,
+    "sequence": 42
+  },
+  {
+    "name": "Hessay A59, adj New Road",
+    "lat": 53.980612,
+    "lon": -1.199126,
+    "sequence": 43
+  },
+  {
+    "name": "Moor Monkton Crossroads, NW-bound",
+    "lat": 53.986846,
+    "lon": -1.220525,
+    "sequence": 44
+  },
+  {
+    "name": "Wilstrop, Nun Monkten Lane End, W-bound",
+    "lat": 53.998646,
+    "lon": -1.273469,
+    "sequence": 45
+  },
+  {
+    "name": "Kirk Hammerton, Station Road",
+    "lat": 53.999254,
+    "lon": -1.281864,
+    "sequence": 46
+  },
+  {
+    "name": "Green Hammerton",
+    "lat": 54.00481,
+    "lon": -1.300489,
+    "sequence": 47
+  },
+  {
+    "name": "Green Hammerton, Rosedale Cottage, NW-bound",
+    "lat": 54.006652,
+    "lon": -1.303479,
+    "sequence": 48
+  },
+  {
+    "name": "Little Ouseburn, Lane End, NW-bound",
+    "lat": 54.038238,
+    "lon": -1.326024,
+    "sequence": 49
+  },
+  {
+    "name": "Aldborough, Hill Top, NE-bound",
+    "lat": 54.089296,
+    "lon": -1.382681,
+    "sequence": 50
+  },
+  {
+    "name": "Aldborough, The Square",
+    "lat": 54.090917,
+    "lon": -1.381571,
+    "sequence": 51
+  },
+  {
+    "name": "Boroughbridge, St James Square",
+    "lat": 54.094297,
+    "lon": -1.395603,
+    "sequence": 52
+  },
+  {
+    "name": "Boroughbridge, Crown Hotel, opp",
+    "lat": 54.095825,
+    "lon": -1.39581,
+    "sequence": 53
+  },
+  {
+    "name": "Boroughbridge, Anchor Inn, adj",
+    "lat": 54.098956,
+    "lon": -1.398288,
+    "sequence": 54
+  },
+  {
+    "name": "Langthorpe Corner, NW-bound",
+    "lat": 54.100145,
+    "lon": -1.400778,
+    "sequence": 55
+  },
+  {
+    "name": "Langthorpe Corner, W-bound",
+    "lat": 54.100033,
+    "lon": -1.401667,
+    "sequence": 56
+  },
+  {
+    "name": "Langthorpe, Fox And Hounds, W-bound",
+    "lat": 54.099449,
+    "lon": -1.407073,
+    "sequence": 57
+  },
+  {
+    "name": "Broom Close Farm",
+    "lat": 54.101955,
+    "lon": -1.42542,
+    "sequence": 58
+  },
+  {
+    "name": "Skelton on Ure, Reading Room, N-bound",
+    "lat": 54.108097,
+    "lon": -1.449119,
+    "sequence": 59
+  },
+  {
+    "name": "Skelton on Ure, Post Office",
+    "lat": 54.110201,
+    "lon": -1.449335,
+    "sequence": 60
+  },
+  {
+    "name": "Skelton on Ure, Skelton Grange, N-bound",
+    "lat": 54.111809,
+    "lon": -1.449284,
+    "sequence": 61
+  },
+  {
+    "name": "Bridge Hewick, Racecourse, adj",
+    "lat": 54.12783,
+    "lon": -1.499783,
+    "sequence": 62
+  },
+  {
+    "name": "Ripon, Skelldale Caravan Park, W-bound",
+    "lat": 54.129425,
+    "lon": -1.509649,
+    "sequence": 63
+  },
+  {
+    "name": "Ripon, Firs Avenue, NW-bound",
+    "lat": 54.131312,
+    "lon": -1.513958,
+    "sequence": 64
+  },
+  {
+    "name": "Ripon, Bowling Club, W-bound",
+    "lat": 54.132914,
+    "lon": -1.518959,
+    "sequence": 65
+  },
+  {
+    "name": "Ripon, Bus Station",
+    "lat": 54.136871,
+    "lon": -1.521745,
+    "sequence": 66
+  },
+  {
+    "name": "Studley Royal",
+    "lat": 54.128237,
+    "lon": -1.575326,
+    "sequence": 67
+  },
+  {
+    "name": "Fountains Abbey Visitors Centre",
+    "lat": 54.113672,
+    "lon": -1.584286,
+    "sequence": 68
+  },
+  {
+    "name": "Fellbeck opp. Half Moon Inn",
+    "lat": 54.09087,
+    "lon": -1.695234,
+    "sequence": 69
+  },
+  {
+    "name": "Lupton Bank Top",
+    "lat": 54.079253,
+    "lon": -1.738864,
+    "sequence": 70
+  },
+  {
+    "name": "Panorama Way",
+    "lat": 54.082473,
+    "lon": -1.752692,
+    "sequence": 71
+  },
+  {
+    "name": "Panorama Walk",
+    "lat": 54.085573,
+    "lon": -1.756939,
+    "sequence": 72
+  },
+  {
+    "name": "Pateley Bridge King Street",
+    "lat": 54.086302,
+    "lon": -1.761001,
+    "sequence": 73
+  },
+  {
+    "name": "Coldstones Cut",
+    "lat": 54.075485,
+    "lon": -1.80439,
+    "sequence": 74
+  },
+  {
+    "name": "Greenhow Hill",
+    "lat": 54.073465,
+    "lon": -1.828942,
+    "sequence": 75
+  },
+  {
+    "name": "Stump Cross Caverns",
+    "lat": 54.067517,
+    "lon": -1.866173,
+    "sequence": 76
+  },
+  {
+    "name": "Grimwith Reservoir",
+    "lat": 54.062828,
+    "lon": -1.918776,
+    "sequence": 77
+  },
+  {
+    "name": "Hebden Clarendon",
+    "lat": 54.064449,
+    "lon": -1.962409,
+    "sequence": 78
+  },
+  {
+    "name": "Grassington National Park Centre",
+    "lat": 54.069479,
+    "lon": -1.997015,
+    "sequence": 79
+  }
+]

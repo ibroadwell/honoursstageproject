@@ -1,0 +1,80 @@
+[
+  {
+    "name": "The Sands",
+    "lat": 54.29256493,
+    "lon": -0.406796484,
+    "sequence": 1
+  },
+  {
+    "name": "Marine Drive",
+    "lat": 54.288907623,
+    "lon": -0.400511341,
+    "sequence": 2
+  },
+  {
+    "name": "West Pier",
+    "lat": 54.283928168,
+    "lon": -0.387692804,
+    "sequence": 3
+  },
+  {
+    "name": "Newcastle Packet",
+    "lat": 54.283876126,
+    "lon": -0.391873247,
+    "sequence": 4
+  },
+  {
+    "name": "Foreshore Road",
+    "lat": 54.283519889,
+    "lon": -0.393469374,
+    "sequence": 5
+  },
+  {
+    "name": "St Nicholas Gardens",
+    "lat": 54.281643553,
+    "lon": -0.396412422,
+    "sequence": 6
+  },
+  {
+    "name": "The Spa",
+    "lat": 54.276877399,
+    "lon": -0.397305405,
+    "sequence": 7
+  },
+  {
+    "name": "Grand Hotel",
+    "lat": 54.28037215,
+    "lon": -0.397385885,
+    "sequence": 8
+  },
+  {
+    "name": "Bland's Cliff",
+    "lat": 54.282153174,
+    "lon": -0.396133948,
+    "sequence": 9
+  },
+  {
+    "name": "Newcastle Packet",
+    "lat": 54.284105606,
+    "lon": -0.391557071,
+    "sequence": 10
+  },
+  {
+    "name": "Sandside",
+    "lat": 54.284053323,
+    "lon": -0.387641831,
+    "sequence": 11
+  },
+  {
+    "name": "Marine Drive",
+    "lat": 54.288856775,
+    "lon": -0.400743766,
+    "sequence": 12
+  },
+  {
+    "name": "The Sands",
+    "lat": 54.29256493,
+    "lon": -0.406796484,
+    "sequence": 13
+  }
+]

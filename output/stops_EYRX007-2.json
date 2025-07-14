@@ -1,0 +1,158 @@
+[
+  {
+    "name": "Hull Interchange",
+    "lat": 53.744462,
+    "lon": -0.348215,
+    "sequence": 1
+  },
+  {
+    "name": "Prospect Street B",
+    "lat": 53.747179,
+    "lon": -0.344454,
+    "sequence": 2
+  },
+  {
+    "name": "Bond Street B",
+    "lat": 53.746552,
+    "lon": -0.339398,
+    "sequence": 3
+  },
+  {
+    "name": "Guildhall Road",
+    "lat": 53.744012,
+    "lon": -0.33642,
+    "sequence": 4
+  },
+  {
+    "name": "Alfred Gelder Street E",
+    "lat": 53.7443,
+    "lon": -0.333224,
+    "sequence": 5
+  },
+  {
+    "name": "Salthouse Lane",
+    "lat": 53.74497,
+    "lon": -0.330347,
+    "sequence": 6
+  },
+  {
+    "name": "Popple Street",
+    "lat": 53.745258,
+    "lon": -0.323936,
+    "sequence": 7
+  },
+  {
+    "name": "Thomas Street",
+    "lat": 53.745409,
+    "lon": -0.319957,
+    "sequence": 8
+  },
+  {
+    "name": "Williamson Street",
+    "lat": 53.746091,
+    "lon": -0.316699,
+    "sequence": 9
+  },
+  {
+    "name": "Woodhouse Street",
+    "lat": 53.747565,
+    "lon": -0.30833,
+    "sequence": 10
+  },
+  {
+    "name": "Ferries Street",
+    "lat": 53.747655,
+    "lon": -0.303898,
+    "sequence": 11
+  },
+  {
+    "name": "Lee Smith Street",
+    "lat": 53.747747,
+    "lon": -0.299602,
+    "sequence": 12
+  },
+  {
+    "name": "Hedon Road Cemetery",
+    "lat": 53.747874,
+    "lon": -0.294001,
+    "sequence": 13
+  },
+  {
+    "name": "Littlefair Road",
+    "lat": 53.74827,
+    "lon": -0.286478,
+    "sequence": 14
+  },
+  {
+    "name": "Marfleet Avenue",
+    "lat": 53.748095,
+    "lon": -0.276779,
+    "sequence": 15
+  },
+  {
+    "name": "Marfleet Avenue",
+    "lat": 53.747948,
+    "lon": -0.273433,
+    "sequence": 16
+  },
+  {
+    "name": "Elba Street",
+    "lat": 53.747327,
+    "lon": -0.266558,
+    "sequence": 17
+  },
+  {
+    "name": "Valletta Street",
+    "lat": 53.746343,
+    "lon": -0.258834,
+    "sequence": 18
+  },
+  {
+    "name": "Somerden Road",
+    "lat": 53.745286,
+    "lon": -0.249779,
+    "sequence": 19
+  },
+  {
+    "name": "Saltend Lane End",
+    "lat": 53.743467,
+    "lon": -0.236722,
+    "sequence": 20
+  },
+  {
+    "name": "Hedon Hull Road",
+    "lat": 53.742287,
+    "lon": -0.227431,
+    "sequence": 21
+  },
+  {
+    "name": "Hedon Hull Road",
+    "lat": 53.740825,
+    "lon": -0.216089,
+    "sequence": 22
+  },
+  {
+    "name": "Hedon Hull Road",
+    "lat": 53.74046,
+    "lon": -0.212739,
+    "sequence": 23
+  },
+  {
+    "name": "Hedon Hull Road",
+    "lat": 53.74009,
+    "lon": -0.209039,
+    "sequence": 24
+  },
+  {
+    "name": "Hedon New Road",
+    "lat": 53.739554,
+    "lon": -0.20142,
+    "sequence": 25
+  },
+  {
+    "name": "Hedon Thorn Road Corner",
+    "lat": 53.738642,
+    "lon": -0.195773,
+    "sequence": 26
+  }
+]

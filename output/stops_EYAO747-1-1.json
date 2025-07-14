@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Pocklington EY Depot",
+    "lat": 53.929036,
+    "lon": -0.779947,
+    "sequence": 1
+  },
+  {
+    "name": "Pocklington George Street",
+    "lat": 53.93183,
+    "lon": -0.781587,
+    "sequence": 2
+  },
+  {
+    "name": "Pocklington Yapham Road",
+    "lat": 53.933357662,
+    "lon": -0.783309269,
+    "sequence": 3
+  },
+  {
+    "name": "Meltonby",
+    "lat": 53.962688726,
+    "lon": -0.78881794,
+    "sequence": 4
+  },
+  {
+    "name": "Bishop Wilton",
+    "lat": 53.985256754,
+    "lon": -0.78530929,
+    "sequence": 5
+  },
+  {
+    "name": "Yapham",
+    "lat": 53.958449058,
+    "lon": -0.799650851,
+    "sequence": 6
+  },
+  {
+    "name": "Bolton",
+    "lat": 53.961048653,
+    "lon": -0.826476262,
+    "sequence": 7
+  },
+  {
+    "name": "Fangfoss",
+    "lat": 53.968750054,
+    "lon": -0.834629301,
+    "sequence": 8
+  },
+  {
+    "name": "Full Sutton",
+    "lat": 53.988822795,
+    "lon": -0.864398174,
+    "sequence": 9
+  },
+  {
+    "name": "Full Sutton Prison",
+    "lat": 53.986402045,
+    "lon": -0.869351549,
+    "sequence": 10
+  }
+]

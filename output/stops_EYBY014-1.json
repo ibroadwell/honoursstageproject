@@ -1,0 +1,380 @@
+[
+  {
+    "name": "Haxby West Nooks",
+    "lat": 54.016788,
+    "lon": -1.060052,
+    "sequence": 1
+  },
+  {
+    "name": "Folks Close",
+    "lat": 54.016144,
+    "lon": -1.063836,
+    "sequence": 2
+  },
+  {
+    "name": "Allotment Gardens",
+    "lat": 54.01605,
+    "lon": -1.066845,
+    "sequence": 3
+  },
+  {
+    "name": "Hall Rise",
+    "lat": 54.016212,
+    "lon": -1.070306,
+    "sequence": 4
+  },
+  {
+    "name": "Memorial Hall",
+    "lat": 54.016197,
+    "lon": -1.073084,
+    "sequence": 5
+  },
+  {
+    "name": "Red Lion",
+    "lat": 54.016592,
+    "lon": -1.077608,
+    "sequence": 6
+  },
+  {
+    "name": "Westfield Road",
+    "lat": 54.017071,
+    "lon": -1.08158,
+    "sequence": 7
+  },
+  {
+    "name": "Sandyland",
+    "lat": 54.015208,
+    "lon": -1.079973,
+    "sequence": 8
+  },
+  {
+    "name": "Ruddings Close",
+    "lat": 54.014203,
+    "lon": -1.077859,
+    "sequence": 9
+  },
+  {
+    "name": "Meadow Lane",
+    "lat": 54.012621,
+    "lon": -1.07678,
+    "sequence": 10
+  },
+  {
+    "name": "Wheatfield Lane",
+    "lat": 54.011531,
+    "lon": -1.081107,
+    "sequence": 11
+  },
+  {
+    "name": "Old Dike Lands",
+    "lat": 54.009442,
+    "lon": -1.082969,
+    "sequence": 12
+  },
+  {
+    "name": "Eastfield Avenue",
+    "lat": 54.005692,
+    "lon": -1.078016,
+    "sequence": 13
+  },
+  {
+    "name": "Haxby Crossing",
+    "lat": 54.00466,
+    "lon": -1.073523,
+    "sequence": 14
+  },
+  {
+    "name": "Crompton Terrace",
+    "lat": 54.002517,
+    "lon": -1.073052,
+    "sequence": 15
+  },
+  {
+    "name": "Joseph Rowntree School",
+    "lat": 53.997412,
+    "lon": -1.07193,
+    "sequence": 16
+  },
+  {
+    "name": "Rowan Avenue",
+    "lat": 53.994023,
+    "lon": -1.071761,
+    "sequence": 17
+  },
+  {
+    "name": "New Easrwick Shops",
+    "lat": 53.990962,
+    "lon": -1.072302,
+    "sequence": 18
+  },
+  {
+    "name": "Folk Hall",
+    "lat": 53.988548,
+    "lon": -1.072798,
+    "sequence": 19
+  },
+  {
+    "name": "Alexander Avenue",
+    "lat": 53.986506,
+    "lon": -1.069091,
+    "sequence": 20
+  },
+  {
+    "name": "Meadowfields Drive",
+    "lat": 53.983383,
+    "lon": -1.068566,
+    "sequence": 21
+  },
+  {
+    "name": "Yearsley Grove",
+    "lat": 53.981694,
+    "lon": -1.067445,
+    "sequence": 22
+  },
+  {
+    "name": "Bell Farm",
+    "lat": 53.978443,
+    "lon": -1.070171,
+    "sequence": 23
+  },
+  {
+    "name": "Yearsley Bridge",
+    "lat": 53.976216,
+    "lon": -1.072706,
+    "sequence": 24
+  },
+  {
+    "name": "Kitchener Street",
+    "lat": 53.972942,
+    "lon": -1.073601,
+    "sequence": 25
+  },
+  {
+    "name": "Ramsay Close",
+    "lat": 53.970135,
+    "lon": -1.073283,
+    "sequence": 26
+  },
+  {
+    "name": "Grove Terrace Lane",
+    "lat": 53.968413,
+    "lon": -1.072635,
+    "sequence": 27
+  },
+  {
+    "name": "Lowther Street",
+    "lat": 53.965787,
+    "lon": -1.073531,
+    "sequence": 28
+  },
+  {
+    "name": "York, Foss Bank",
+    "lat": 53.96279737,
+    "lon": -1.073993987,
+    "sequence": 29
+  },
+  {
+    "name": "Foss Bank Coach Stop",
+    "lat": 53.962691,
+    "lon": -1.074149,
+    "sequence": 30
+  },
+  {
+    "name": "York, Peasholme Green, opp Church",
+    "lat": 53.960630374,
+    "lon": -1.075047934,
+    "sequence": 31
+  },
+  {
+    "name": "York, Stonebow",
+    "lat": 53.95899093,
+    "lon": -1.078086656,
+    "sequence": 32
+  },
+  {
+    "name": "Low Ousegate",
+    "lat": 53.957544,
+    "lon": -1.082752,
+    "sequence": 33
+  },
+  {
+    "name": "York, Rougier Street, CB",
+    "lat": 53.958623966,
+    "lon": -1.087711616,
+    "sequence": 34
+  },
+  {
+    "name": "York Rail Station",
+    "lat": 53.958123,
+    "lon": -1.091639,
+    "sequence": 35
+  },
+  {
+    "name": "Blossom Street",
+    "lat": 53.954829029,
+    "lon": -1.092198589,
+    "sequence": 36
+  },
+  {
+    "name": "The Mount",
+    "lat": 53.951672999,
+    "lon": -1.096808081,
+    "sequence": 37
+  },
+  {
+    "name": "Mount Vale",
+    "lat": 53.949729245,
+    "lon": -1.098891883,
+    "sequence": 38
+  },
+  {
+    "name": "Pulleyn Drive",
+    "lat": 53.945824445,
+    "lon": -1.101962282,
+    "sequence": 39
+  },
+  {
+    "name": "Nelson's Lane",
+    "lat": 53.944188879,
+    "lon": -1.103201,
+    "sequence": 40
+  },
+  {
+    "name": "The Marriott Hotel",
+    "lat": 53.941329392,
+    "lon": -1.105440826,
+    "sequence": 41
+  },
+  {
+    "name": "St Edward's Church",
+    "lat": 53.939936089,
+    "lon": -1.106628397,
+    "sequence": 42
+  },
+  {
+    "name": "Slingsby Grove",
+    "lat": 53.938017647,
+    "lon": -1.10851258,
+    "sequence": 43
+  },
+  {
+    "name": "The Horseshoe",
+    "lat": 53.935713087,
+    "lon": -1.110450496,
+    "sequence": 44
+  },
+  {
+    "name": "Old Moor Lane",
+    "lat": 53.934212791,
+    "lon": -1.111761864,
+    "sequence": 45
+  },
+  {
+    "name": "Askham Bar Tesco",
+    "lat": 53.932693,
+    "lon": -1.115328,
+    "sequence": 46
+  },
+  {
+    "name": "Chaloner's Road",
+    "lat": 53.933741,
+    "lon": -1.118535,
+    "sequence": 47
+  },
+  {
+    "name": "Moorcroft Road",
+    "lat": 53.933492,
+    "lon": -1.123825,
+    "sequence": 48
+  },
+  {
+    "name": "Eden Close",
+    "lat": 53.933157,
+    "lon": -1.12831,
+    "sequence": 49
+  },
+  {
+    "name": "Acomb Park",
+    "lat": 53.932177,
+    "lon": -1.131986,
+    "sequence": 50
+  },
+  {
+    "name": "Alness Drive",
+    "lat": 53.932769,
+    "lon": -1.135629,
+    "sequence": 51
+  },
+  {
+    "name": "Girvan Close",
+    "lat": 53.935544,
+    "lon": -1.136547,
+    "sequence": 52
+  },
+  {
+    "name": "Quaker Wood",
+    "lat": 53.93803,
+    "lon": -1.134759,
+    "sequence": 53
+  },
+  {
+    "name": "Bellwood Drive",
+    "lat": 53.940493,
+    "lon": -1.131159,
+    "sequence": 54
+  },
+  {
+    "name": "Bellhouse Way",
+    "lat": 53.942734,
+    "lon": -1.127836,
+    "sequence": 55
+  },
+  {
+    "name": "Foxwood Lane Shops",
+    "lat": 53.942894,
+    "lon": -1.133775,
+    "sequence": 56
+  },
+  {
+    "name": "The Gallops",
+    "lat": 53.941355,
+    "lon": -1.134675,
+    "sequence": 57
+  },
+  {
+    "name": "Quaker Wood",
+    "lat": 53.937717,
+    "lon": -1.134979,
+    "sequence": 58
+  },
+  {
+    "name": "Girvan Close",
+    "lat": 53.935363,
+    "lon": -1.136322,
+    "sequence": 59
+  },
+  {
+    "name": "Alness Drive",
+    "lat": 53.932867,
+    "lon": -1.135566,
+    "sequence": 60
+  },
+  {
+    "name": "Acomb Park",
+    "lat": 53.932303,
+    "lon": -1.132136,
+    "sequence": 61
+  },
+  {
+    "name": "Eden Close",
+    "lat": 53.933256,
+    "lon": -1.128369,
+    "sequence": 62
+  },
+  {
+    "name": "Woodthorpe Shops",
+    "lat": 53.936414,
+    "lon": -1.122713,
+    "sequence": 63
+  }
+]

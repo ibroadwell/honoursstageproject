@@ -1,0 +1,104 @@
+[
+  {
+    "name": "Market Weighton (Griffin)",
+    "lat": 53.865028,
+    "lon": -0.668213,
+    "sequence": 1
+  },
+  {
+    "name": "Goodmanham Road",
+    "lat": 53.868643,
+    "lon": -0.668372,
+    "sequence": 2
+  },
+  {
+    "name": "Middleton Front Street",
+    "lat": 53.933064,
+    "lon": -0.561509,
+    "sequence": 3
+  },
+  {
+    "name": "Middleton on the Wolds",
+    "lat": 53.933659,
+    "lon": -0.56091,
+    "sequence": 4
+  },
+  {
+    "name": "North Dalton Station Lane",
+    "lat": 53.95539,
+    "lon": -0.576469,
+    "sequence": 5
+  },
+  {
+    "name": "North Dalton",
+    "lat": 53.957046,
+    "lon": -0.576672,
+    "sequence": 6
+  },
+  {
+    "name": "North Dalton Main Street",
+    "lat": 53.957657,
+    "lon": -0.57438,
+    "sequence": 7
+  },
+  {
+    "name": "Wolds Village",
+    "lat": 53.965887,
+    "lon": -0.533748,
+    "sequence": 8
+  },
+  {
+    "name": "Bainton Church",
+    "lat": 53.958377,
+    "lon": -0.531146,
+    "sequence": 9
+  },
+  {
+    "name": "Bainton Church Street",
+    "lat": 53.956114,
+    "lon": -0.532094,
+    "sequence": 10
+  },
+  {
+    "name": "Bainton Main Street",
+    "lat": 53.957728,
+    "lon": -0.533257,
+    "sequence": 11
+  },
+  {
+    "name": "Kirkburn (Main Street)",
+    "lat": 53.98353,
+    "lon": -0.503694,
+    "sequence": 12
+  },
+  {
+    "name": "Eastburn A614",
+    "lat": 53.986829,
+    "lon": -0.497262,
+    "sequence": 13
+  },
+  {
+    "name": "Driffield A614",
+    "lat": 53.992711,
+    "lon": -0.46764,
+    "sequence": 14
+  },
+  {
+    "name": "Driffield Beverley Road",
+    "lat": 53.99592,
+    "lon": -0.445966,
+    "sequence": 15
+  },
+  {
+    "name": "Driffield Beverley Road",
+    "lat": 53.999899,
+    "lon": -0.438083,
+    "sequence": 16
+  },
+  {
+    "name": "Driffield (Middle Street South)",
+    "lat": 54.002171,
+    "lon": -0.435831,
+    "sequence": 17
+  }
+]

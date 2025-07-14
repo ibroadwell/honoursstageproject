@@ -1,0 +1,116 @@
+[
+  {
+    "name": "Hovingham, Worsley Arms",
+    "lat": 54.171339,
+    "lon": -0.97884,
+    "sequence": 1
+  },
+  {
+    "name": "Hovingham, Mowbray Crescent, E-bound",
+    "lat": 54.170096,
+    "lon": -0.976435,
+    "sequence": 2
+  },
+  {
+    "name": "Fryton, Lane End",
+    "lat": 54.164111,
+    "lon": -0.949381,
+    "sequence": 3
+  },
+  {
+    "name": "Slingsby, High Street, N-bound",
+    "lat": 54.162647,
+    "lon": -0.935128,
+    "sequence": 4
+  },
+  {
+    "name": "Slingsby, The Green",
+    "lat": 54.164533,
+    "lon": -0.933027,
+    "sequence": 5
+  },
+  {
+    "name": "Slingsby, The Balk, S-bound",
+    "lat": 54.163365,
+    "lon": -0.93099,
+    "sequence": 6
+  },
+  {
+    "name": "Barton-le-Street, High Street",
+    "lat": 54.15747,
+    "lon": -0.896195,
+    "sequence": 7
+  },
+  {
+    "name": "Appleton-le-Street, Cresswell Arms PH, Opp",
+    "lat": 54.152487,
+    "lon": -0.874524,
+    "sequence": 8
+  },
+  {
+    "name": "Appleton-le-Street, Quarry Hill",
+    "lat": 54.151432,
+    "lon": -0.86927,
+    "sequence": 9
+  },
+  {
+    "name": "Amotherby, BATA",
+    "lat": 54.153492,
+    "lon": -0.853334,
+    "sequence": 10
+  },
+  {
+    "name": "Amotherby, Manor Farm, Adj",
+    "lat": 54.149738,
+    "lon": -0.851739,
+    "sequence": 11
+  },
+  {
+    "name": "Amotherby, Eastfield",
+    "lat": 54.149253,
+    "lon": -0.848077,
+    "sequence": 12
+  },
+  {
+    "name": "Swinton, West Grove, NE-bound",
+    "lat": 54.150971,
+    "lon": -0.839792,
+    "sequence": 13
+  },
+  {
+    "name": "Swinton, East Street, S-bound",
+    "lat": 54.150935,
+    "lon": -0.837879,
+    "sequence": 14
+  },
+  {
+    "name": "Swinton, High Street, E-bound",
+    "lat": 54.148454,
+    "lon": -0.83507,
+    "sequence": 15
+  },
+  {
+    "name": "Broughton, Moor Lane",
+    "lat": 54.147667,
+    "lon": -0.826212,
+    "sequence": 16
+  },
+  {
+    "name": "Newgate",
+    "lat": 54.136244,
+    "lon": -0.798969,
+    "sequence": 17
+  },
+  {
+    "name": "Malton, Wells Lane, S-bound",
+    "lat": 54.134176876,
+    "lon": -0.796908449,
+    "sequence": 18
+  },
+  {
+    "name": "Malton Bus Station",
+    "lat": 54.132418915,
+    "lon": -0.796937038,
+    "sequence": 19
+  }
+]

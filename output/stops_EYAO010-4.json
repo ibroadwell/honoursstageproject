@@ -1,0 +1,116 @@
+[
+  {
+    "name": "St Thomas Street",
+    "lat": 54.283672,
+    "lon": -0.400161,
+    "sequence": 1
+  },
+  {
+    "name": "Aberdeen Walk Stop J",
+    "lat": 54.282813076,
+    "lon": -0.403189911,
+    "sequence": 2
+  },
+  {
+    "name": "Westborough",
+    "lat": 54.280706327,
+    "lon": -0.404285183,
+    "sequence": 3
+  },
+  {
+    "name": "Valley Bridge Stop W",
+    "lat": 54.278467,
+    "lon": -0.403481,
+    "sequence": 4
+  },
+  {
+    "name": "Adelaide House",
+    "lat": 54.274130789,
+    "lon": -0.401866928,
+    "sequence": 5
+  },
+  {
+    "name": "Avenue Victoria",
+    "lat": 54.271821661,
+    "lon": -0.399222675,
+    "sequence": 6
+  },
+  {
+    "name": "Belvedere Road",
+    "lat": 54.270206008,
+    "lon": -0.397686808,
+    "sequence": 7
+  },
+  {
+    "name": "Normanton Rise",
+    "lat": 54.268793984,
+    "lon": -0.395946288,
+    "sequence": 8
+  },
+  {
+    "name": "Esplanade Crescent",
+    "lat": 54.267700209,
+    "lon": -0.394806364,
+    "sequence": 9
+  },
+  {
+    "name": "Sea Cliffe Road",
+    "lat": 54.266275853,
+    "lon": -0.39314192,
+    "sequence": 10
+  },
+  {
+    "name": "Wheatcroft Avenue",
+    "lat": 54.263758303,
+    "lon": -0.391059519,
+    "sequence": 11
+  },
+  {
+    "name": "University",
+    "lat": 54.262393008,
+    "lon": -0.391803604,
+    "sequence": 12
+  },
+  {
+    "name": "Middle Deepdale",
+    "lat": 54.247962051,
+    "lon": -0.38742283,
+    "sequence": 13
+  },
+  {
+    "name": "Harvest Way",
+    "lat": 54.243231401,
+    "lon": -0.389234081,
+    "sequence": 14
+  },
+  {
+    "name": "Eastfield (Eastway/Overdale)",
+    "lat": 54.240312046,
+    "lon": -0.395440001,
+    "sequence": 15
+  },
+  {
+    "name": "Moor Lane",
+    "lat": 54.238385437,
+    "lon": -0.395207855,
+    "sequence": 16
+  },
+  {
+    "name": "Havers Hill",
+    "lat": 54.236291164,
+    "lon": -0.392511834,
+    "sequence": 17
+  },
+  {
+    "name": "Carr House Lane End",
+    "lat": 54.235631569,
+    "lon": -0.38956076,
+    "sequence": 18
+  },
+  {
+    "name": "Cayton West Garth",
+    "lat": 54.233729732,
+    "lon": -0.391184467,
+    "sequence": 19
+  }
+]
