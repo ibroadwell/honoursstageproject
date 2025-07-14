@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Barton Hill",
+    "lat": 54.072258705,
+    "lon": -0.916444115,
+    "sequence": 1
+  },
+  {
+    "name": "Jinnah Restaurant",
+    "lat": 54.055712376,
+    "lon": -0.935649402,
+    "sequence": 2
+  },
+  {
+    "name": "Harton Lane End",
+    "lat": 54.044918516,
+    "lon": -0.942874138,
+    "sequence": 3
+  },
+  {
+    "name": "York Lane",
+    "lat": 54.052589383,
+    "lon": -0.964003674,
+    "sequence": 4
+  },
+  {
+    "name": "Flaxton, Thompsons Arms, opp",
+    "lat": 54.062095559,
+    "lon": -0.973071879,
+    "sequence": 5
+  },
+  {
+    "name": "Goose Track Lane",
+    "lat": 54.078475906,
+    "lon": -1.013324906,
+    "sequence": 6
+  },
+  {
+    "name": "Sheriff Hutton, Village Hall, opp",
+    "lat": 54.087672323,
+    "lon": -1.00916247,
+    "sequence": 7
+  },
+  {
+    "name": "Sheriff Hutton, Church End",
+    "lat": 54.089164272,
+    "lon": -1.001543791,
+    "sequence": 8
+  }
+]

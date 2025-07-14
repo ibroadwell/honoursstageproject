@@ -1,0 +1,422 @@
+[
+  {
+    "name": "Hull Interchange",
+    "lat": 53.744504,
+    "lon": -0.347971,
+    "sequence": 1
+  },
+  {
+    "name": "Bond Street C",
+    "lat": 53.74602,
+    "lon": -0.339298,
+    "sequence": 2
+  },
+  {
+    "name": "Kenworthy House",
+    "lat": 53.74615,
+    "lon": -0.336973,
+    "sequence": 3
+  },
+  {
+    "name": "Hull Trinity House Academy",
+    "lat": 53.74671,
+    "lon": -0.335252,
+    "sequence": 4
+  },
+  {
+    "name": "New Cleveland Street",
+    "lat": 53.748205,
+    "lon": -0.327079,
+    "sequence": 5
+  },
+  {
+    "name": "Holborn Street",
+    "lat": 53.748415,
+    "lon": -0.324068,
+    "sequence": 6
+  },
+  {
+    "name": "Dansom Lane",
+    "lat": 53.749013,
+    "lon": -0.321178,
+    "sequence": 7
+  },
+  {
+    "name": "Franklin Street",
+    "lat": 53.750464,
+    "lon": -0.31889,
+    "sequence": 8
+  },
+  {
+    "name": "Courtney Street",
+    "lat": 53.752628,
+    "lon": -0.315498,
+    "sequence": 9
+  },
+  {
+    "name": "Barnsley Street",
+    "lat": 53.754642,
+    "lon": -0.312383,
+    "sequence": 10
+  },
+  {
+    "name": "Durham Street",
+    "lat": 53.756418,
+    "lon": -0.309521,
+    "sequence": 11
+  },
+  {
+    "name": "Southcoates Lane",
+    "lat": 53.758426,
+    "lon": -0.306558,
+    "sequence": 12
+  },
+  {
+    "name": "Westcott Street",
+    "lat": 53.759605,
+    "lon": -0.304766,
+    "sequence": 13
+  },
+  {
+    "name": "Mile House",
+    "lat": 53.760719,
+    "lon": -0.302825,
+    "sequence": 14
+  },
+  {
+    "name": "Telford Street",
+    "lat": 53.761527,
+    "lon": -0.30082,
+    "sequence": 15
+  },
+  {
+    "name": "Woodford Leisure Centre",
+    "lat": 53.762299,
+    "lon": -0.298878,
+    "sequence": 16
+  },
+  {
+    "name": "Westminster Avenue",
+    "lat": 53.763532,
+    "lon": -0.295809,
+    "sequence": 17
+  },
+  {
+    "name": "Astoria Bingo Hall",
+    "lat": 53.764661,
+    "lon": -0.293002,
+    "sequence": 18
+  },
+  {
+    "name": "Tower Grange",
+    "lat": 53.765589,
+    "lon": -0.290628,
+    "sequence": 19
+  },
+  {
+    "name": "The Crooked Billet PH",
+    "lat": 53.766666,
+    "lon": -0.288035,
+    "sequence": 20
+  },
+  {
+    "name": "Waldegrave Avenue",
+    "lat": 53.76757,
+    "lon": -0.285237,
+    "sequence": 21
+  },
+  {
+    "name": "Grasby Road",
+    "lat": 53.768858,
+    "lon": -0.281664,
+    "sequence": 22
+  },
+  {
+    "name": "The Four In Hand PH",
+    "lat": 53.770021,
+    "lon": -0.278142,
+    "sequence": 23
+  },
+  {
+    "name": "Eastmount Avenue",
+    "lat": 53.771501,
+    "lon": -0.273544,
+    "sequence": 24
+  },
+  {
+    "name": "Saltshouse Road",
+    "lat": 53.772619,
+    "lon": -0.270023,
+    "sequence": 25
+  },
+  {
+    "name": "Parkhurst Close",
+    "lat": 53.776737,
+    "lon": -0.263859,
+    "sequence": 26
+  },
+  {
+    "name": "Shannon Road",
+    "lat": 53.778113,
+    "lon": -0.262011,
+    "sequence": 27
+  },
+  {
+    "name": "Belvedere Drive",
+    "lat": 53.780411,
+    "lon": -0.259959,
+    "sequence": 28
+  },
+  {
+    "name": "Ganstead Lane",
+    "lat": 53.782643,
+    "lon": -0.25888,
+    "sequence": 29
+  },
+  {
+    "name": "Ganstead A165",
+    "lat": 53.794032,
+    "lon": -0.255144,
+    "sequence": 30
+  },
+  {
+    "name": "Coniston Hull Road",
+    "lat": 53.795747,
+    "lon": -0.251322,
+    "sequence": 31
+  },
+  {
+    "name": "Coniston Village",
+    "lat": 53.799792,
+    "lon": -0.245763,
+    "sequence": 32
+  },
+  {
+    "name": "Skirlaugh A165",
+    "lat": 53.830287,
+    "lon": -0.255871,
+    "sequence": 33
+  },
+  {
+    "name": "Skirlaugh Hull Road",
+    "lat": 53.838035,
+    "lon": -0.263878,
+    "sequence": 34
+  },
+  {
+    "name": "Skirlaugh (Duke of York)",
+    "lat": 53.83968,
+    "lon": -0.266986,
+    "sequence": 35
+  },
+  {
+    "name": "Skirlaugh Main Road",
+    "lat": 53.840794,
+    "lon": -0.268855,
+    "sequence": 36
+  },
+  {
+    "name": "Skirlaugh Main Road",
+    "lat": 53.842394,
+    "lon": -0.271328,
+    "sequence": 37
+  },
+  {
+    "name": "Arnold A165",
+    "lat": 53.855285,
+    "lon": -0.282002,
+    "sequence": 38
+  },
+  {
+    "name": "Long Riston Main Street",
+    "lat": 53.863067,
+    "lon": -0.287508,
+    "sequence": 39
+  },
+  {
+    "name": "Long Riston School",
+    "lat": 53.863994,
+    "lon": -0.288185,
+    "sequence": 40
+  },
+  {
+    "name": "Long Riston Main Street",
+    "lat": 53.865958,
+    "lon": -0.289777,
+    "sequence": 41
+  },
+  {
+    "name": "Leven Beverley Road",
+    "lat": 53.884499,
+    "lon": -0.314278,
+    "sequence": 42
+  },
+  {
+    "name": "Leven South Street",
+    "lat": 53.889858,
+    "lon": -0.316329,
+    "sequence": 43
+  },
+  {
+    "name": "Leven Church",
+    "lat": 53.891959,
+    "lon": -0.317447,
+    "sequence": 44
+  },
+  {
+    "name": "Brandesburton Starcarr Lane",
+    "lat": 53.902943,
+    "lon": -0.312257,
+    "sequence": 45
+  },
+  {
+    "name": "Brandesburton New Rd",
+    "lat": 53.908935,
+    "lon": -0.30247,
+    "sequence": 46
+  },
+  {
+    "name": "Brandesburton New Road",
+    "lat": 53.910509,
+    "lon": -0.298721,
+    "sequence": 47
+  },
+  {
+    "name": "Brandesburton New Rd",
+    "lat": 53.911371,
+    "lon": -0.296722,
+    "sequence": 48
+  },
+  {
+    "name": "Catwick B1244",
+    "lat": 53.893237,
+    "lon": -0.29084,
+    "sequence": 49
+  },
+  {
+    "name": "Catwick Main Street",
+    "lat": 53.893077,
+    "lon": -0.284013,
+    "sequence": 50
+  },
+  {
+    "name": "Catwick Rise Lane",
+    "lat": 53.893839,
+    "lon": -0.278245,
+    "sequence": 51
+  },
+  {
+    "name": "Catwick Main Street",
+    "lat": 53.89675,
+    "lon": -0.269983,
+    "sequence": 52
+  },
+  {
+    "name": "Catfoss Lane End",
+    "lat": 53.897544,
+    "lon": -0.258413,
+    "sequence": 53
+  },
+  {
+    "name": "Sigglesthorne Lane End",
+    "lat": 53.898352,
+    "lon": -0.244118,
+    "sequence": 54
+  },
+  {
+    "name": "Seaton Leas Lane",
+    "lat": 53.900828,
+    "lon": -0.237667,
+    "sequence": 55
+  },
+  {
+    "name": "Seaton Leas Lane",
+    "lat": 53.902213,
+    "lon": -0.233423,
+    "sequence": 56
+  },
+  {
+    "name": "Seaton Swan Inn",
+    "lat": 53.903575,
+    "lon": -0.22822,
+    "sequence": 57
+  },
+  {
+    "name": "Seaton Hornsea Road",
+    "lat": 53.903939,
+    "lon": -0.219437,
+    "sequence": 58
+  },
+  {
+    "name": "Seaton Seaton Road",
+    "lat": 53.903762,
+    "lon": -0.209352,
+    "sequence": 59
+  },
+  {
+    "name": "Hornsea Seaton Road",
+    "lat": 53.904998,
+    "lon": -0.20184,
+    "sequence": 60
+  },
+  {
+    "name": "Hornsea Seaton Road",
+    "lat": 53.910174,
+    "lon": -0.183226,
+    "sequence": 61
+  },
+  {
+    "name": "Hornsea Westgate",
+    "lat": 53.910555,
+    "lon": -0.179875,
+    "sequence": 62
+  },
+  {
+    "name": "Hornsea (Market Place)",
+    "lat": 53.910959,
+    "lon": -0.174529,
+    "sequence": 63
+  },
+  {
+    "name": "Hornsea Newbegin",
+    "lat": 53.910806,
+    "lon": -0.172708,
+    "sequence": 64
+  },
+  {
+    "name": "Hornsea New Road",
+    "lat": 53.912401,
+    "lon": -0.166472,
+    "sequence": 65
+  },
+  {
+    "name": "Hornsea Marine Drive",
+    "lat": 53.91312,
+    "lon": -0.162924,
+    "sequence": 66
+  },
+  {
+    "name": "Hornsea Marine Drive",
+    "lat": 53.915367,
+    "lon": -0.161789,
+    "sequence": 67
+  },
+  {
+    "name": "Hornsea Hartley Street",
+    "lat": 53.917114,
+    "lon": -0.164317,
+    "sequence": 68
+  },
+  {
+    "name": "Hornsea Cliff Road",
+    "lat": 53.918385,
+    "lon": -0.166317,
+    "sequence": 69
+  },
+  {
+    "name": "Hornsea Cliff Road",
+    "lat": 53.920439,
+    "lon": -0.167749,
+    "sequence": 70
+  }
+]

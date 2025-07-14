@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_996eafbd512005f2aaadd527d79b9bb5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+        <div style="position: fixed; top: 20px; left: 50%; transform: translateX(-50%);
+                background-color: white; padding: 8px 16px; border: 1px solid #666;
+                border-radius: 6px; font-size: 14px; font-weight: bold; z-index:9999;
+                display: inline-block; white-space: nowrap;">
+        Route 14 - Flamborough
+        </div>
+        
+    
+            <div class="folium-map" id="map_996eafbd512005f2aaadd527d79b9bb5" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_996eafbd512005f2aaadd527d79b9bb5 = L.map(
+                "map_996eafbd512005f2aaadd527d79b9bb5",
+                {
+                    center: [54.083939792, -0.189185669],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_975833cc7a7dbb732717c4aca0660ad6 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_975833cc7a7dbb732717c4aca0660ad6.addTo(map_996eafbd512005f2aaadd527d79b9bb5);
+        
+    
+            var poly_line_1d0e319c2584cfa152f22f6bd9722865 = L.polyline(
+                [[54.083939792, -0.189185669], [54.083916235, -0.189079075], [54.083916608, -0.189080378], [54.083833274, -0.189149344], [54.083759998, -0.189209986], [54.083539998, -0.188499986], [54.083519998, -0.188349986], [54.083829998, -0.188069986], [54.084139998, -0.187779986], [54.084539998, -0.187409986], [54.084639998, -0.187319986], [54.084929998, -0.187049986], [54.085059998, -0.186929986], [54.085144785, -0.186851982], [54.085144785, -0.186851982], [54.085559998, -0.186469986], [54.085899998, -0.186159986], [54.086049998, -0.186019986], [54.086159998, -0.185919986], [54.086249998, -0.185839986], [54.086399998, -0.185699986], [54.086509998, -0.185599986], [54.086619998, -0.185509986], [54.086709998, -0.185449986], [54.086819998, -0.185389986], [54.086889998, -0.185359986], [54.086979998, -0.185339986], [54.087029998, -0.185339986], [54.087120573, -0.185355082], [54.087120573, -0.185355082], [54.087149998, -0.185359986], [54.087989998, -0.185509986], [54.088339998, -0.185559986], [54.088689998, -0.185619986], [54.089019998, -0.185679986], [54.089299998, -0.185739986], [54.089479998, -0.185779986], [54.089649998, -0.185819986], [54.089741968, -0.185841626], [54.089741968, -0.185841626], [54.089819998, -0.185859986], [54.089979998, -0.185909986], [54.090139998, -0.185969986], [54.090299998, -0.186039986], [54.090369998, -0.185969986], [54.090449998, -0.185879986], [54.090479998, -0.185789986], [54.090519998, -0.185779986], [54.090679998, -0.185529986], [54.091019998, -0.184949986], [54.091149998, -0.184559986], [54.091399998, -0.184079986], [54.092080428, -0.182797642], [54.092080428, -0.182797642], [54.092179998, -0.182609986], [54.092709998, -0.181649986], [54.092739998, -0.181569986], [54.092899998, -0.181289986], [54.093639184, -0.179919039], [54.093639184, -0.179919039], [54.094069998, -0.179119986], [54.094949998, -0.177469986], [54.094989998, -0.177269986], [54.095379998, -0.177239986], [54.095739998, -0.177149986], [54.096109998, -0.177149986], [54.096549998, -0.177139986], [54.096740302, -0.177136705], [54.096740302, -0.177136705], [54.097129998, -0.177129986], [54.098099998, -0.177129986], [54.098219998, -0.177249986], [54.09835308, -0.177511989], [54.09835308, -0.177511989], [54.098539998, -0.177879986], [54.098729998, -0.177069986], [54.098889998, -0.176399986], [54.098939998, -0.176209986], [54.099042177, -0.175887102], [54.099042177, -0.175887102], [54.099189998, -0.175419986], [54.099609998, -0.173769986], [54.100489998, -0.170189986], [54.100529998, -0.170039986], [54.100789998, -0.168989986], [54.100959998, -0.168309986], [54.101069998, -0.167829986], [54.101279998, -0.167319986], [54.101299998, -0.167279986], [54.101549998, -0.166419986], [54.101599998, -0.166249986], [54.101999998, -0.164919986], [54.102119998, -0.164609986], [54.102159998, -0.164519986], [54.102219998, -0.164479986], [54.102269998, -0.164459986], [54.102420256, -0.16449755], [54.102420256, -0.16449755], [54.102429998, -0.164499986], [54.102699998, -0.164619986], [54.103129998, -0.164719986], [54.103669998, -0.164959986], [54.104459998, -0.165309986], [54.104919998, -0.165509986], [54.106169998, -0.166069986], [54.106829998, -0.166379986], [54.107449998, -0.166659986], [54.108329998, -0.167139986], [54.108839998, -0.167689986], [54.108899998, -0.167639986], [54.108949998, -0.167619986], [54.109009998, -0.167609986], [54.109119998, -0.167619986], [54.109219998, -0.167629986], [54.109349998, -0.167639986], [54.109479998, -0.167639986], [54.109579998, -0.167629986], [54.109689998, -0.167609986], [54.109839998, -0.167569986], [54.110009998, -0.167519986], [54.110129998, -0.167479986], [54.110199998, -0.167449986], [54.110259998, -0.167419986], [54.110309998, -0.167379986], [54.110349998, -0.167319986], [54.110379998, -0.167239986], [54.110389998, -0.167129986], [54.110389998, -0.166999986], [54.110379998, -0.166819986], [54.110309998, -0.166029986], [54.110279998, -0.165599986], [54.110249998, -0.164989986], [54.110234976, -0.164784687], [54.110234976, -0.164784687], [54.110219998, -0.164579986], [54.110179998, -0.164179986], [54.110129998, -0.163679986], [54.110069998, -0.163039986], [54.110049998, -0.162779986], [54.110029998, -0.162469986], [54.110019998, -0.162149986], [54.110029998, -0.161879986], [54.110049998, -0.161639986], [54.110079998, -0.161399986], [54.110119998, -0.161179986], [54.110169998, -0.160999986], [54.110239998, -0.160789986], [54.110309998, -0.160609986], [54.110379998, -0.160449986], [54.110459998, -0.160299986], [54.110559998, -0.160139986], [54.110679998, -0.159959986], [54.110799998, -0.159769986], [54.110909998, -0.159579986], [54.110999998, -0.159409986], [54.111079998, -0.159239986], [54.111149998, -0.159069986], [54.111219998, -0.158889986], [54.111289998, -0.158689986], [54.111329998, -0.158569986], [54.111369998, -0.158439986], [54.111429998, -0.158209986], [54.111479998, -0.157999986], [54.111551226, -0.157643847], [54.111551226, -0.157643847], [54.111569998, -0.157549986], [54.111639998, -0.157209986], [54.111739998, -0.156749986], [54.111809998, -0.156419986], [54.111879998, -0.156099986], [54.111949998, -0.155799986], [54.112029998, -0.155499986], [54.112109998, -0.155239986], [54.112199998, -0.154969986], [54.112269998, -0.154739986], [54.112319998, -0.154549986], [54.112359998, -0.154369986], [54.112399998, -0.154139986], [54.112429998, -0.153909986], [54.112449998, -0.153689986], [54.112459998, -0.153449986], [54.112459998, -0.153159986], [54.112459998, -0.152819986], [54.112449998, -0.152419986], [54.112429998, -0.152049986], [54.112399998, -0.151759986], [54.112359998, -0.151489986], [54.112319998, -0.151199986], [54.112289998, -0.150909986], [54.112269998, -0.150649986], [54.112259998, -0.150389986], [54.112269998, -0.150029986], [54.112289998, -0.149609986], [54.112299998, -0.149289986], [54.112299998, -0.149039986], [54.112289998, -0.148799986], [54.112279998, -0.148629986], [54.112259998, -0.148389986], [54.112229998, -0.148029986], [54.112209998, -0.147699986], [54.112209998, -0.147439986], [54.112219998, -0.147259986], [54.112239998, -0.147049986], [54.112269998, -0.146849986], [54.112309998, -0.146659986], [54.112359998, -0.146449986], [54.112429998, -0.146169986], [54.112499998, -0.145879986], [54.112569998, -0.145579986], [54.112629998, -0.145309986], [54.112679998, -0.145059986], [54.112719998, -0.144819986], [54.112749998, -0.144599986], [54.112749998, -0.144599986], [54.112769998, -0.144419986], [54.112789998, -0.144189986], [54.112809998, -0.143889986], [54.112859998, -0.142939986], [54.112879998, -0.142549986], [54.112889998, -0.142289986], [54.112889998, -0.142069986], [54.112879998, -0.141819986], [54.112859998, -0.141519986], [54.112829998, -0.141109986], [54.112799998, -0.140729986], [54.112779998, -0.140429986], [54.112769998, -0.140159986], [54.112769998, -0.139929986], [54.112779998, -0.139669986], [54.112799998, -0.139389986], [54.112949998, -0.137579986], [54.112979998, -0.137199986], [54.112999998, -0.136889986], [54.113009998, -0.136589986], [54.112999998, -0.136269986], [54.112989998, -0.135929986], [54.112999998, -0.135639986], [54.113019998, -0.135379986], [54.113049998, -0.135089986], [54.113089998, -0.134799986], [54.113149998, -0.134489986], [54.113209998, -0.134229986], [54.113259998, -0.133989986], [54.113299998, -0.133729986], [54.113329998, -0.133469986], [54.113399998, -0.132729986], [54.113429998, -0.132459986], [54.113459998, -0.132219986], [54.113489998, -0.132019986], [54.113519998, -0.131839986], [54.113549998, -0.131639986], [54.113569998, -0.131469986], [54.113579998, -0.131329986], [54.113589998, -0.131129986], [54.113589998, -0.130929986], [54.113579998, -0.130759986], [54.113559998, -0.130569986], [54.113519998, -0.130319986], [54.113469998, -0.130059986], [54.113419998, -0.129769986], [54.113389998, -0.129559986], [54.113359998, -0.129319986], [54.113309998, -0.128939986], [54.113269998, -0.128599986], [54.113249998, -0.128419986], [54.113199998, -0.127839986], [54.113179998, -0.127619986], [54.113159998, -0.127469986], [54.113129998, -0.127309986], [54.113089998, -0.127169986], [54.113049998, -0.127069986], [54.112999998, -0.126979986], [54.112969998, -0.126919986], [54.112949998, -0.126859986], [54.112929998, -0.126769986], [54.112919998, -0.126669986], [54.112919998, -0.126549986], [54.112929998, -0.126389986], [54.112949998, -0.126189986], [54.112979998, -0.125979986], [54.113019998, -0.125749986], [54.113069998, -0.125499986], [54.113129998, -0.125219986], [54.113169998, -0.125079986], [54.113209998, -0.124969986], [54.113259998, -0.124889986], [54.113309998, -0.124829986], [54.113349998, -0.124789986], [54.113399998, -0.124749986], [54.113549998, -0.123859986], [54.113669998, -0.123079986], [54.114179998, -0.123229986], [54.114449998, -0.123259986], [54.114594165, -0.123272522], [54.114594165, -0.123272522], [54.114679998, -0.123279986], [54.115419998, -0.123069986], [54.115759998, -0.122909986], [54.116099998, -0.122549986], [54.116279998, -0.122119986], [54.116483529, -0.121966207], [54.116483529, -0.121966207], [54.116729998, -0.121779986], [54.117039998, -0.121629986], [54.117189998, -0.121669986], [54.117579998, -0.122049986], [54.117979998, -0.122139986], [54.118059998, -0.122079986], [54.118089998, -0.122299986], [54.118175586, -0.122585278], [54.118175586, -0.122585278], [54.118239998, -0.122799986], [54.118449998, -0.122629986], [54.118769998, -0.122269986], [54.119209998, -0.121639986], [54.119539998, -0.121209986], [54.121109998, -0.118399986], [54.121899998, -0.116979986], [54.122389998, -0.116079986], [54.122659998, -0.116249986], [54.122809998, -0.116239986], [54.123409998, -0.115779986], [54.123689998, -0.115759986], [54.123819998, -0.115749986], [54.124389998, -0.115789986], [54.124949998, -0.115809986], [54.125419998, -0.115839986], [54.125489998, -0.115869986], [54.125509998, -0.115969986], [54.125459998, -0.117699986], [54.125449998, -0.118759986], [54.125509998, -0.119049986], [54.125479998, -0.119149986], [54.125509998, -0.119249986], [54.125539998, -0.119289986], [54.125589998, -0.119299986], [54.125639998, -0.119259986], [54.125669998, -0.119179986], [54.125649998, -0.119069986], [54.125609998, -0.119009986], [54.125559998, -0.119009986], [54.125509998, -0.119049986], [54.125459722, -0.118806986], [54.125459722, -0.118806986], [54.125449998, -0.118759986], [54.125459998, -0.117699986], [54.125509998, -0.115969986], [54.125489998, -0.115869986], [54.125419998, -0.115839986], [54.124949998, -0.115809986], [54.124389998, -0.115789986], [54.123819998, -0.115749986], [54.123689998, -0.115759986], [54.123409998, -0.115779986], [54.122809998, -0.116239986], [54.122659998, -0.116249986], [54.122389998, -0.116079986], [54.123189998, -0.114609986], [54.124359998, -0.112459986], [54.124529998, -0.112159986], [54.125509998, -0.110399986], [54.126579998, -0.108439986], [54.128119998, -0.105549986], [54.128175475, -0.105448279], [54.128175475, -0.105448279], [54.128119998, -0.105549986], [54.127697747, -0.106342426]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_996eafbd512005f2aaadd527d79b9bb5);
+        
+    
+            var circle_marker_c0741f832078ea57962c317e56b998cb = L.circleMarker(
+                [54.083986, -0.189156],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_996eafbd512005f2aaadd527d79b9bb5);
+        
+    
+        var popup_a563973a7528c1324063187fe2ae7704 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_92bb945d1c5d147c611af91864017cef = $(`<div id="html_92bb945d1c5d147c611af91864017cef" style="width: 100.0%; height: 100.0%;">First Stop: Bridlington Bus Station</div>`)[0];
+                popup_a563973a7528c1324063187fe2ae7704.setContent(html_92bb945d1c5d147c611af91864017cef);
+            
+        
+
+        circle_marker_c0741f832078ea57962c317e56b998cb.bindPopup(popup_a563973a7528c1324063187fe2ae7704)
+        ;
+
+        
+    
+    
+            circle_marker_c0741f832078ea57962c317e56b998cb.bindTooltip(
+                `<div>
+                     First Stop: Bridlington Bus Station
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f98e3c0eda885976fa328302a4c17a2a = L.circleMarker(
+                [54.085165905, -0.186918394],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_996eafbd512005f2aaadd527d79b9bb5);
+        
+    
+        var popup_e816502f04c8a9eb892a2ab7748e4684 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4b222bb7246b7fff84227d46461adece = $(`<div id="html_4b222bb7246b7fff84227d46461adece" style="width: 100.0%; height: 100.0%;">Bridlington Promenade</div>`)[0];
+                popup_e816502f04c8a9eb892a2ab7748e4684.setContent(html_4b222bb7246b7fff84227d46461adece);
+            
+        
+
+        circle_marker_f98e3c0eda885976fa328302a4c17a2a.bindPopup(popup_e816502f04c8a9eb892a2ab7748e4684)
+        ;
+
+        
+    
+    
+            circle_marker_f98e3c0eda885976fa328302a4c17a2a.bindTooltip(
+                `<div>
+                     Bridlington Promenade
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_369eacf07838fa153019c5f7d71a8819 = L.circleMarker(
+                [54.087112914, -0.185488027],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_996eafbd512005f2aaadd527d79b9bb5);
+        
+    
+        var popup_cd1fbb800143ab6e61b0c47a847a28ef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e3532a52af6db050e59393b1e03237c5 = $(`<div id="html_e3532a52af6db050e59393b1e03237c5" style="width: 100.0%; height: 100.0%;">Bridlington Flamborough Rd</div>`)[0];
+                popup_cd1fbb800143ab6e61b0c47a847a28ef.setContent(html_e3532a52af6db050e59393b1e03237c5);
+            
+        
+
+        circle_marker_369eacf07838fa153019c5f7d71a8819.bindPopup(popup_cd1fbb800143ab6e61b0c47a847a28ef)
+        ;
+
+        
+    
+    
+            circle_marker_369eacf07838fa153019c5f7d71a8819.bindTooltip(
+                `<div>
+                     Bridlington Flamborough Rd
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_349d83e7a18166a5cdcd3ca5c1146893 = L.circleMarker(
+                [54.089735266, -0.185924047],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_996eafbd512005f2aaadd527d79b9bb5);
+        
+    
+        var popup_85bb0408299f9544d1b825f2543bf738 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_11eb07084b2bd0e947307815a74a5eba = $(`<div id="html_11eb07084b2bd0e947307815a74a5eba" style="width: 100.0%; height: 100.0%;">Bridlington Flamborough Rd</div>`)[0];
+                popup_85bb0408299f9544d1b825f2543bf738.setContent(html_11eb07084b2bd0e947307815a74a5eba);
+            
+        
+
+        circle_marker_349d83e7a18166a5cdcd3ca5c1146893.bindPopup(popup_85bb0408299f9544d1b825f2543bf738)
+        ;
+
+        
+    
+    
+            circle_marker_349d83e7a18166a5cdcd3ca5c1146893.bindTooltip(
+                `<div>
+                     Bridlington Flamborough Rd
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8dcf505f7bf4e89ee0889466f62ff443 = L.circleMarker(
+                [54.092098, -0.182824],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_996eafbd512005f2aaadd527d79b9bb5);
+        
+    
+        var popup_0c5bfb039f31457ef21766689f1cd668 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4d95e7fe43392061711c49cfcf78fb9d = $(`<div id="html_4d95e7fe43392061711c49cfcf78fb9d" style="width: 100.0%; height: 100.0%;">Bridlington Eighth Avenue</div>`)[0];
+                popup_0c5bfb039f31457ef21766689f1cd668.setContent(html_4d95e7fe43392061711c49cfcf78fb9d);
+            
+        
+
+        circle_marker_8dcf505f7bf4e89ee0889466f62ff443.bindPopup(popup_0c5bfb039f31457ef21766689f1cd668)
+        ;
+
+        
+    
+    
+            circle_marker_8dcf505f7bf4e89ee0889466f62ff443.bindTooltip(
+                `<div>
+                     Bridlington Eighth Avenue
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_989e731ba0983be2ef61c7803ac633e3 = L.circleMarker(
+                [54.093654, -0.179942],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_996eafbd512005f2aaadd527d79b9bb5);
+        
+    
+        var popup_6a503a78696f052f685ad7e799e36d35 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_30cbcb387779f336f8db7956d2124e8b = $(`<div id="html_30cbcb387779f336f8db7956d2124e8b" style="width: 100.0%; height: 100.0%;">Bridlington Eighth Avenue</div>`)[0];
+                popup_6a503a78696f052f685ad7e799e36d35.setContent(html_30cbcb387779f336f8db7956d2124e8b);
+            
+        
+
+        circle_marker_989e731ba0983be2ef61c7803ac633e3.bindPopup(popup_6a503a78696f052f685ad7e799e36d35)
+        ;
+
+        
+    
+    
+            circle_marker_989e731ba0983be2ef61c7803ac633e3.bindTooltip(
+                `<div>
+                     Bridlington Eighth Avenue
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1a280f179acf1963e25d96160050a309 = L.circleMarker(
+                [54.096741, -0.177207],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_996eafbd512005f2aaadd527d79b9bb5);
+        
+    
+        var popup_f4c66213b3533127696f62815a50903a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cdf57c587f1356ad2bf09eb0ff7a088f = $(`<div id="html_cdf57c587f1356ad2bf09eb0ff7a088f" style="width: 100.0%; height: 100.0%;">Bridlington Limekiln Lane</div>`)[0];
+                popup_f4c66213b3533127696f62815a50903a.setContent(html_cdf57c587f1356ad2bf09eb0ff7a088f);
+            
+        
+
+        circle_marker_1a280f179acf1963e25d96160050a309.bindPopup(popup_f4c66213b3533127696f62815a50903a)
+        ;
+
+        
+    
+    
+            circle_marker_1a280f179acf1963e25d96160050a309.bindTooltip(
+                `<div>
+                     Bridlington Limekiln Lane
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b10e6c3dbd34da5a04b30a34e8cc6bfe = L.circleMarker(
+                [54.098284, -0.177614],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_996eafbd512005f2aaadd527d79b9bb5);
+        
+    
+        var popup_38e04bc746fa7f807d8f50c5393dd3c7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6829a8f236f0db73204bf6881194f140 = $(`<div id="html_6829a8f236f0db73204bf6881194f140" style="width: 100.0%; height: 100.0%;">Bridlington Limekiln Lane</div>`)[0];
+                popup_38e04bc746fa7f807d8f50c5393dd3c7.setContent(html_6829a8f236f0db73204bf6881194f140);
+            
+        
+
+        circle_marker_b10e6c3dbd34da5a04b30a34e8cc6bfe.bindPopup(popup_38e04bc746fa7f807d8f50c5393dd3c7)
+        ;
+
+        
+    
+    
+            circle_marker_b10e6c3dbd34da5a04b30a34e8cc6bfe.bindTooltip(
+                `<div>
+                     Bridlington Limekiln Lane
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bf9e533fd2bcd0a9a12fbc2c3a4b55bf = L.circleMarker(
+                [54.099085, -0.175927],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_996eafbd512005f2aaadd527d79b9bb5);
+        
+    
+        var popup_1baace23c625e72429d84d73736169c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2ec1b7e2e1a6878e3d68b85c8ddcac88 = $(`<div id="html_2ec1b7e2e1a6878e3d68b85c8ddcac88" style="width: 100.0%; height: 100.0%;">Bridlington Sewerby Road</div>`)[0];
+                popup_1baace23c625e72429d84d73736169c0.setContent(html_2ec1b7e2e1a6878e3d68b85c8ddcac88);
+            
+        
+
+        circle_marker_bf9e533fd2bcd0a9a12fbc2c3a4b55bf.bindPopup(popup_1baace23c625e72429d84d73736169c0)
+        ;
+
+        
+    
+    
+            circle_marker_bf9e533fd2bcd0a9a12fbc2c3a4b55bf.bindTooltip(
+                `<div>
+                     Bridlington Sewerby Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2e8a2ed1e3b6c83f503f459048c615e3 = L.circleMarker(
+                [54.10241, -0.164615],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_996eafbd512005f2aaadd527d79b9bb5);
+        
+    
+        var popup_bb530264590f60b2a0055101e4c1d190 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e62e882d96b7cf8ab482d21928ed2d5a = $(`<div id="html_e62e882d96b7cf8ab482d21928ed2d5a" style="width: 100.0%; height: 100.0%;">Sewerby Park Gates</div>`)[0];
+                popup_bb530264590f60b2a0055101e4c1d190.setContent(html_e62e882d96b7cf8ab482d21928ed2d5a);
+            
+        
+
+        circle_marker_2e8a2ed1e3b6c83f503f459048c615e3.bindPopup(popup_bb530264590f60b2a0055101e4c1d190)
+        ;
+
+        
+    
+    
+            circle_marker_2e8a2ed1e3b6c83f503f459048c615e3.bindTooltip(
+                `<div>
+                     Sewerby Park Gates
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9aa9b60523e12e5fc8f5629676bef6c1 = L.circleMarker(
+                [54.110296, -0.164772],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_996eafbd512005f2aaadd527d79b9bb5);
+        
+    
+        var popup_e737e4d47682ce5d5de71860efb005cb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ecebfd561c13d55b3d1af5660784069b = $(`<div id="html_ecebfd561c13d55b3d1af5660784069b" style="width: 100.0%; height: 100.0%;">Marton Flamborough Road</div>`)[0];
+                popup_e737e4d47682ce5d5de71860efb005cb.setContent(html_ecebfd561c13d55b3d1af5660784069b);
+            
+        
+
+        circle_marker_9aa9b60523e12e5fc8f5629676bef6c1.bindPopup(popup_e737e4d47682ce5d5de71860efb005cb)
+        ;
+
+        
+    
+    
+            circle_marker_9aa9b60523e12e5fc8f5629676bef6c1.bindTooltip(
+                `<div>
+                     Marton Flamborough Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5d929c9a773786d8e854c06dfc62519f = L.circleMarker(
+                [54.111608, -0.157677],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_996eafbd512005f2aaadd527d79b9bb5);
+        
+    
+        var popup_a19315fd87fe4d332a521528cc90b284 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2ee8e2d8a54d1a59e5cf647885fdc79b = $(`<div id="html_2ee8e2d8a54d1a59e5cf647885fdc79b" style="width: 100.0%; height: 100.0%;">Bridlington Flamborough Rd</div>`)[0];
+                popup_a19315fd87fe4d332a521528cc90b284.setContent(html_2ee8e2d8a54d1a59e5cf647885fdc79b);
+            
+        
+
+        circle_marker_5d929c9a773786d8e854c06dfc62519f.bindPopup(popup_a19315fd87fe4d332a521528cc90b284)
+        ;
+
+        
+    
+    
+            circle_marker_5d929c9a773786d8e854c06dfc62519f.bindTooltip(
+                `<div>
+                     Bridlington Flamborough Rd
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a2b8d799479918cbd7bc4aac3aa9a84f = L.circleMarker(
+                [54.1128, -0.144619],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_996eafbd512005f2aaadd527d79b9bb5);
+        
+    
+        var popup_95023cc49e742eefd65c848c7da697bf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4145487606d797be2ec2292567ad0dc7 = $(`<div id="html_4145487606d797be2ec2292567ad0dc7" style="width: 100.0%; height: 100.0%;">Flamborough B1255</div>`)[0];
+                popup_95023cc49e742eefd65c848c7da697bf.setContent(html_4145487606d797be2ec2292567ad0dc7);
+            
+        
+
+        circle_marker_a2b8d799479918cbd7bc4aac3aa9a84f.bindPopup(popup_95023cc49e742eefd65c848c7da697bf)
+        ;
+
+        
+    
+    
+            circle_marker_a2b8d799479918cbd7bc4aac3aa9a84f.bindTooltip(
+                `<div>
+                     Flamborough B1255
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4fc25c8e33b2d6c913c02420adec29f8 = L.circleMarker(
+                [54.114771, -0.123295],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_996eafbd512005f2aaadd527d79b9bb5);
+        
+    
+        var popup_cf5c35979a2196b4294776e30c51b05f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_42400211adffcadb0ca174bc2bfd549d = $(`<div id="html_42400211adffcadb0ca174bc2bfd549d" style="width: 100.0%; height: 100.0%;">Flamborough South Sea Rd</div>`)[0];
+                popup_cf5c35979a2196b4294776e30c51b05f.setContent(html_42400211adffcadb0ca174bc2bfd549d);
+            
+        
+
+        circle_marker_4fc25c8e33b2d6c913c02420adec29f8.bindPopup(popup_cf5c35979a2196b4294776e30c51b05f)
+        ;
+
+        
+    
+    
+            circle_marker_4fc25c8e33b2d6c913c02420adec29f8.bindTooltip(
+                `<div>
+                     Flamborough South Sea Rd
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_597c1c3c0576fe84691f31facde75de2 = L.circleMarker(
+                [54.116495, -0.122009],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_996eafbd512005f2aaadd527d79b9bb5);
+        
+    
+        var popup_7e4fdc77c75e1ca518f394ca2dee186c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_413e7e09b16da3dc46444cb9b4b733d8 = $(`<div id="html_413e7e09b16da3dc46444cb9b4b733d8" style="width: 100.0%; height: 100.0%;">Flamborough South Sea Road</div>`)[0];
+                popup_7e4fdc77c75e1ca518f394ca2dee186c.setContent(html_413e7e09b16da3dc46444cb9b4b733d8);
+            
+        
+
+        circle_marker_597c1c3c0576fe84691f31facde75de2.bindPopup(popup_7e4fdc77c75e1ca518f394ca2dee186c)
+        ;
+
+        
+    
+    
+            circle_marker_597c1c3c0576fe84691f31facde75de2.bindTooltip(
+                `<div>
+                     Flamborough South Sea Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_78591a8eb3db6d973a72fc7ee94d5405 = L.circleMarker(
+                [54.118113, -0.122639],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_996eafbd512005f2aaadd527d79b9bb5);
+        
+    
+        var popup_aef8862c65d6ec308463dec6f812cce8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ffb95c30f969d64433b843fa92e945a = $(`<div id="html_8ffb95c30f969d64433b843fa92e945a" style="width: 100.0%; height: 100.0%;">Flamborough Mereside</div>`)[0];
+                popup_aef8862c65d6ec308463dec6f812cce8.setContent(html_8ffb95c30f969d64433b843fa92e945a);
+            
+        
+
+        circle_marker_78591a8eb3db6d973a72fc7ee94d5405.bindPopup(popup_aef8862c65d6ec308463dec6f812cce8)
+        ;
+
+        
+    
+    
+            circle_marker_78591a8eb3db6d973a72fc7ee94d5405.bindTooltip(
+                `<div>
+                     Flamborough Mereside
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1fdd3971da57321f5b668b7099c0f26f = L.circleMarker(
+                [54.125523, -0.118769],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_996eafbd512005f2aaadd527d79b9bb5);
+        
+    
+        var popup_5ed4c7a7ae25768a523d0cf3639203e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7e2bd46073e9154d7e4c6c963ea1fb5a = $(`<div id="html_7e2bd46073e9154d7e4c6c963ea1fb5a" style="width: 100.0%; height: 100.0%;">Thornwick Holiday Centre</div>`)[0];
+                popup_5ed4c7a7ae25768a523d0cf3639203e8.setContent(html_7e2bd46073e9154d7e4c6c963ea1fb5a);
+            
+        
+
+        circle_marker_1fdd3971da57321f5b668b7099c0f26f.bindPopup(popup_5ed4c7a7ae25768a523d0cf3639203e8)
+        ;
+
+        
+    
+    
+            circle_marker_1fdd3971da57321f5b668b7099c0f26f.bindTooltip(
+                `<div>
+                     Thornwick Holiday Centre
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0d2b0c58a5ed50f8d763d334aa865748 = L.circleMarker(
+                [54.127743, -0.106134],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_996eafbd512005f2aaadd527d79b9bb5);
+        
+    
+        var popup_e38e10f7cd27ad43b1dcd596cf8c91dd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4755489b1e3adf5b56f132007b64264e = $(`<div id="html_4755489b1e3adf5b56f132007b64264e" style="width: 100.0%; height: 100.0%;">Flamborough North Landing</div>`)[0];
+                popup_e38e10f7cd27ad43b1dcd596cf8c91dd.setContent(html_4755489b1e3adf5b56f132007b64264e);
+            
+        
+
+        circle_marker_0d2b0c58a5ed50f8d763d334aa865748.bindPopup(popup_e38e10f7cd27ad43b1dcd596cf8c91dd)
+        ;
+
+        
+    
+    
+            circle_marker_0d2b0c58a5ed50f8d763d334aa865748.bindTooltip(
+                `<div>
+                     Flamborough North Landing
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

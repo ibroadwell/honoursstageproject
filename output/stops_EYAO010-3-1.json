@@ -1,0 +1,158 @@
+[
+  {
+    "name": "Cayton West Garth",
+    "lat": 54.233729732,
+    "lon": -0.391184467,
+    "sequence": 1
+  },
+  {
+    "name": "Beverley Road",
+    "lat": 54.234155086,
+    "lon": -0.388037885,
+    "sequence": 2
+  },
+  {
+    "name": "Green Park Road",
+    "lat": 54.233447938,
+    "lon": -0.384229676,
+    "sequence": 3
+  },
+  {
+    "name": "Nesfield Close",
+    "lat": 54.233035307,
+    "lon": -0.382281901,
+    "sequence": 4
+  },
+  {
+    "name": "Nesfield Close",
+    "lat": 54.232598659,
+    "lon": -0.381224984,
+    "sequence": 5
+  },
+  {
+    "name": "Penton Road",
+    "lat": 54.232904596,
+    "lon": -0.377239205,
+    "sequence": 6
+  },
+  {
+    "name": "Beck Hole",
+    "lat": 54.233836596,
+    "lon": -0.379703586,
+    "sequence": 7
+  },
+  {
+    "name": "Cayton Main Street",
+    "lat": 54.235334375,
+    "lon": -0.384815764,
+    "sequence": 8
+  },
+  {
+    "name": "Carr House Lane",
+    "lat": 54.235587435,
+    "lon": -0.388948724,
+    "sequence": 9
+  },
+  {
+    "name": "Havers Hill",
+    "lat": 54.236170898,
+    "lon": -0.392255659,
+    "sequence": 10
+  },
+  {
+    "name": "Pindar School",
+    "lat": 54.238387479,
+    "lon": -0.395361224,
+    "sequence": 11
+  },
+  {
+    "name": "Eastfield (Eastway/Overdale)",
+    "lat": 54.240447415,
+    "lon": -0.395480785,
+    "sequence": 12
+  },
+  {
+    "name": "Harvest Way",
+    "lat": 54.243130974,
+    "lon": -0.389790473,
+    "sequence": 13
+  },
+  {
+    "name": "Eastway Overdale",
+    "lat": 54.244686798,
+    "lon": -0.386491615,
+    "sequence": 14
+  },
+  {
+    "name": "Middle Deepdale",
+    "lat": 54.247962051,
+    "lon": -0.38742283,
+    "sequence": 15
+  },
+  {
+    "name": "Wheatcroft Avenue",
+    "lat": 54.263452903,
+    "lon": -0.392422581,
+    "sequence": 16
+  },
+  {
+    "name": "Sea Cliffe Road",
+    "lat": 54.266163769,
+    "lon": -0.393499449,
+    "sequence": 17
+  },
+  {
+    "name": "Esplanade Crescent",
+    "lat": 54.267577911,
+    "lon": -0.395072164,
+    "sequence": 18
+  },
+  {
+    "name": "Holbeck Road",
+    "lat": 54.268644935,
+    "lon": -0.396228486,
+    "sequence": 19
+  },
+  {
+    "name": "Belvedere Road",
+    "lat": 54.270113761,
+    "lon": -0.397860692,
+    "sequence": 20
+  },
+  {
+    "name": "Avenue Victoria",
+    "lat": 54.271719358,
+    "lon": -0.399641285,
+    "sequence": 21
+  },
+  {
+    "name": "Prince Of Wales Terrace",
+    "lat": 54.272971145,
+    "lon": -0.401794773,
+    "sequence": 22
+  },
+  {
+    "name": "St Andrews Church",
+    "lat": 54.274232,
+    "lon": -0.402754,
+    "sequence": 23
+  },
+  {
+    "name": "Valley Bridge",
+    "lat": 54.27847,
+    "lon": -0.403742,
+    "sequence": 24
+  },
+  {
+    "name": "Harcourt Place Stop X",
+    "lat": 54.281101388,
+    "lon": -0.399051564,
+    "sequence": 25
+  },
+  {
+    "name": "St Thomas Street",
+    "lat": 54.283553757,
+    "lon": -0.400073572,
+    "sequence": 26
+  }
+]

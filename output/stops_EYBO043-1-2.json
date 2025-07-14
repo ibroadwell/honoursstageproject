@@ -1,0 +1,326 @@
+[
+  {
+    "name": "Butterfly Meadows",
+    "lat": 53.857026,
+    "lon": -0.436992,
+    "sequence": 1
+  },
+  {
+    "name": "Beverley Lockwood Road",
+    "lat": 53.856623,
+    "lon": -0.434346,
+    "sequence": 2
+  },
+  {
+    "name": "Beverley Lockwood Road",
+    "lat": 53.856351,
+    "lon": -0.431376,
+    "sequence": 3
+  },
+  {
+    "name": "Beverley Lockwood Road",
+    "lat": 53.858195,
+    "lon": -0.429406,
+    "sequence": 4
+  },
+  {
+    "name": "Beverley Woodhall Way",
+    "lat": 53.855195,
+    "lon": -0.447566,
+    "sequence": 5
+  },
+  {
+    "name": "Beverley Woodhall Way",
+    "lat": 53.856248,
+    "lon": -0.439347,
+    "sequence": 6
+  },
+  {
+    "name": "Beverley Woodhall Way",
+    "lat": 53.854719,
+    "lon": -0.438583,
+    "sequence": 7
+  },
+  {
+    "name": "Beverley Woodhall Way",
+    "lat": 53.852302,
+    "lon": -0.437289,
+    "sequence": 8
+  },
+  {
+    "name": "Beverley Woodhall Way",
+    "lat": 53.849034,
+    "lon": -0.435541,
+    "sequence": 9
+  },
+  {
+    "name": "Beverley Manor Road",
+    "lat": 53.847357,
+    "lon": -0.434479,
+    "sequence": 10
+  },
+  {
+    "name": "Beverley Bus Station",
+    "lat": 53.84405,
+    "lon": -0.431745,
+    "sequence": 11
+  },
+  {
+    "name": "Beverley New Walkergate",
+    "lat": 53.84214,
+    "lon": -0.426618,
+    "sequence": 12
+  },
+  {
+    "name": "Beverley Railway Stn",
+    "lat": 53.841955,
+    "lon": -0.423524,
+    "sequence": 13
+  },
+  {
+    "name": "Beverley Armstrong Way",
+    "lat": 53.840277,
+    "lon": -0.42231,
+    "sequence": 14
+  },
+  {
+    "name": "Beverley Flemingate",
+    "lat": 53.838838,
+    "lon": -0.420921,
+    "sequence": 15
+  },
+  {
+    "name": "Beverley Flemingate",
+    "lat": 53.838833,
+    "lon": -0.417121,
+    "sequence": 16
+  },
+  {
+    "name": "Beverley Hull Road",
+    "lat": 53.838713,
+    "lon": -0.411411,
+    "sequence": 17
+  },
+  {
+    "name": "Beverley Hull Road",
+    "lat": 53.836919,
+    "lon": -0.407634,
+    "sequence": 18
+  },
+  {
+    "name": "Beverley Hull Road",
+    "lat": 53.835192,
+    "lon": -0.405587,
+    "sequence": 19
+  },
+  {
+    "name": "Beverley Tokenspire",
+    "lat": 53.832298,
+    "lon": -0.402172,
+    "sequence": 20
+  },
+  {
+    "name": "Woodmansey Beverley Rd",
+    "lat": 53.827179,
+    "lon": -0.399206,
+    "sequence": 21
+  },
+  {
+    "name": "Woodmansey (Shopeth Way)",
+    "lat": 53.824573,
+    "lon": -0.394565,
+    "sequence": 22
+  },
+  {
+    "name": "Woodmansey Hull Road",
+    "lat": 53.822665,
+    "lon": -0.388971,
+    "sequence": 23
+  },
+  {
+    "name": "Woodmansey Hull Road",
+    "lat": 53.819166,
+    "lon": -0.386128,
+    "sequence": 24
+  },
+  {
+    "name": "Woodmansey Hull Road",
+    "lat": 53.816745,
+    "lon": -0.384581,
+    "sequence": 25
+  },
+  {
+    "name": "Woodmansey Hull Road",
+    "lat": 53.814677,
+    "lon": -0.381911,
+    "sequence": 26
+  },
+  {
+    "name": "Woodmansey Hull Road",
+    "lat": 53.811251,
+    "lon": -0.377167,
+    "sequence": 27
+  },
+  {
+    "name": "Dunswell Beverley Road",
+    "lat": 53.808157,
+    "lon": -0.375054,
+    "sequence": 28
+  },
+  {
+    "name": "Dunswell (Coach and Horses)",
+    "lat": 53.804556,
+    "lon": -0.372673,
+    "sequence": 29
+  },
+  {
+    "name": "Dunswell Beverley Road",
+    "lat": 53.79961,
+    "lon": -0.371194,
+    "sequence": 30
+  },
+  {
+    "name": "Dunswell Beverley Road",
+    "lat": 53.796673,
+    "lon": -0.370047,
+    "sequence": 31
+  },
+  {
+    "name": "Evergreen Drive",
+    "lat": 53.790538,
+    "lon": -0.363773,
+    "sequence": 32
+  },
+  {
+    "name": "Beverley Road (Tesco)",
+    "lat": 53.787379,
+    "lon": -0.362165,
+    "sequence": 33
+  },
+  {
+    "name": "Emmott Road",
+    "lat": 53.784413,
+    "lon": -0.360231,
+    "sequence": 34
+  },
+  {
+    "name": "Sutton Road",
+    "lat": 53.781172,
+    "lon": -0.357869,
+    "sequence": 35
+  },
+  {
+    "name": "Riversdale Road",
+    "lat": 53.778517,
+    "lon": -0.356971,
+    "sequence": 36
+  },
+  {
+    "name": "Etherington Road",
+    "lat": 53.776653,
+    "lon": -0.356725,
+    "sequence": 37
+  },
+  {
+    "name": "Endsleigh College",
+    "lat": 53.774454,
+    "lon": -0.355673,
+    "sequence": 38
+  },
+  {
+    "name": "Wellesley Avenue",
+    "lat": 53.771701,
+    "lon": -0.354824,
+    "sequence": 39
+  },
+  {
+    "name": "Beresford Avenue",
+    "lat": 53.770101,
+    "lon": -0.354189,
+    "sequence": 40
+  },
+  {
+    "name": "Beverley Road (Haworth Arms)",
+    "lat": 53.767892,
+    "lon": -0.353699,
+    "sequence": 41
+  },
+  {
+    "name": "Washington Street",
+    "lat": 53.765647,
+    "lon": -0.352573,
+    "sequence": 42
+  },
+  {
+    "name": "Ryde Street",
+    "lat": 53.763788,
+    "lon": -0.351401,
+    "sequence": 43
+  },
+  {
+    "name": "Melwood Grove",
+    "lat": 53.761042,
+    "lon": -0.349749,
+    "sequence": 44
+  },
+  {
+    "name": "Epworth Street",
+    "lat": 53.759649,
+    "lon": -0.349182,
+    "sequence": 45
+  },
+  {
+    "name": "Temple Street",
+    "lat": 53.757389,
+    "lon": -0.348861,
+    "sequence": 46
+  },
+  {
+    "name": "St Hilda Street",
+    "lat": 53.755766,
+    "lon": -0.348515,
+    "sequence": 47
+  },
+  {
+    "name": "Somerscales Street",
+    "lat": 53.753684,
+    "lon": -0.348096,
+    "sequence": 48
+  },
+  {
+    "name": "Harley Street",
+    "lat": 53.751827,
+    "lon": -0.347714,
+    "sequence": 49
+  },
+  {
+    "name": "College Street",
+    "lat": 53.750556,
+    "lon": -0.347476,
+    "sequence": 50
+  },
+  {
+    "name": "Prospect Street A",
+    "lat": 53.747308113,
+    "lon": -0.344676269,
+    "sequence": 51
+  },
+  {
+    "name": "Bond Street A",
+    "lat": 53.746706,
+    "lon": -0.339453,
+    "sequence": 52
+  },
+  {
+    "name": "Carr Lane (Primark)",
+    "lat": 53.743470155,
+    "lon": -0.340156604,
+    "sequence": 53
+  },
+  {
+    "name": "Hull Interchange",
+    "lat": 53.744578,
+    "lon": -0.347453,
+    "sequence": 54
+  }
+]

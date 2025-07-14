@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Holme on Spalding Moor Back Lane",
+    "lat": 53.828767,
+    "lon": -0.76738,
+    "sequence": 1
+  },
+  {
+    "name": "Springfield",
+    "lat": 53.832229,
+    "lon": -0.778021,
+    "sequence": 2
+  },
+  {
+    "name": "Runner End",
+    "lat": 53.83453,
+    "lon": -0.778912,
+    "sequence": 3
+  },
+  {
+    "name": "Holme on Spalding Moor",
+    "lat": 53.836456,
+    "lon": -0.771242,
+    "sequence": 4
+  },
+  {
+    "name": "Holme on Spalding Moor Village Hall",
+    "lat": 53.836614,
+    "lon": -0.767362,
+    "sequence": 5
+  },
+  {
+    "name": "Stray Farm",
+    "lat": 53.848829,
+    "lon": -0.715866,
+    "sequence": 6
+  },
+  {
+    "name": "Market Weighton Sancton Road",
+    "lat": 53.860548,
+    "lon": -0.660554,
+    "sequence": 7
+  },
+  {
+    "name": "Market Weighton Southgate",
+    "lat": 53.862104,
+    "lon": -0.663896,
+    "sequence": 8
+  },
+  {
+    "name": "Market Weighton High St",
+    "lat": 53.863735,
+    "lon": -0.66506,
+    "sequence": 9
+  },
+  {
+    "name": "Market Weighton (Griffin)",
+    "lat": 53.865245,
+    "lon": -0.669088,
+    "sequence": 10
+  }
+]

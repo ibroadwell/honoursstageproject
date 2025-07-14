@@ -1,0 +1,128 @@
+[
+  {
+    "name": "Malton Bus Station",
+    "lat": 54.132418915,
+    "lon": -0.796937038,
+    "sequence": 1
+  },
+  {
+    "name": "Newgate",
+    "lat": 54.134012,
+    "lon": -0.79686,
+    "sequence": 2
+  },
+  {
+    "name": "Newgate",
+    "lat": 54.13621,
+    "lon": -0.799123,
+    "sequence": 3
+  },
+  {
+    "name": "Malton School, W-bound",
+    "lat": 54.140431,
+    "lon": -0.806884,
+    "sequence": 4
+  },
+  {
+    "name": "Broughton, Lane End",
+    "lat": 54.147557,
+    "lon": -0.827838,
+    "sequence": 5
+  },
+  {
+    "name": "Swinton, High Street",
+    "lat": 54.148366,
+    "lon": -0.837155,
+    "sequence": 6
+  },
+  {
+    "name": "Swinton, East Street, NW-bound",
+    "lat": 54.150857,
+    "lon": -0.838188,
+    "sequence": 7
+  },
+  {
+    "name": "Swinton, West Close, SW-bound",
+    "lat": 54.151082,
+    "lon": -0.839115,
+    "sequence": 8
+  },
+  {
+    "name": "Amotherby, Eastfield",
+    "lat": 54.149017,
+    "lon": -0.848696,
+    "sequence": 9
+  },
+  {
+    "name": "Amotherby, Manor Farm, Opp",
+    "lat": 54.14959,
+    "lon": -0.852279,
+    "sequence": 10
+  },
+  {
+    "name": "Amotherby, BATA",
+    "lat": 54.153492,
+    "lon": -0.853334,
+    "sequence": 11
+  },
+  {
+    "name": "Appleton-le-Street, Quarry Hill",
+    "lat": 54.151051,
+    "lon": -0.868989,
+    "sequence": 12
+  },
+  {
+    "name": "Appleton-le-Street, Cresswell Arms PH, Adj",
+    "lat": 54.1524,
+    "lon": -0.874802,
+    "sequence": 13
+  },
+  {
+    "name": "Barton-le-Street, High Street",
+    "lat": 54.157197,
+    "lon": -0.89585,
+    "sequence": 14
+  },
+  {
+    "name": "Slingsby, The Balk",
+    "lat": 54.163573,
+    "lon": -0.931092,
+    "sequence": 15
+  },
+  {
+    "name": "Slingsby, The Green",
+    "lat": 54.16461,
+    "lon": -0.932535,
+    "sequence": 16
+  },
+  {
+    "name": "Slingsby, High Street, S-bound",
+    "lat": 54.162627,
+    "lon": -0.93493,
+    "sequence": 17
+  },
+  {
+    "name": "Fryton, Lane End",
+    "lat": 54.163989,
+    "lon": -0.949843,
+    "sequence": 18
+  },
+  {
+    "name": "Hovingham, Mowbray Crsecent, W-bound",
+    "lat": 54.16992,
+    "lon": -0.976914,
+    "sequence": 19
+  },
+  {
+    "name": "Hovingham Green",
+    "lat": 54.173404,
+    "lon": -0.978575,
+    "sequence": 20
+  },
+  {
+    "name": "Hovingham, Worsley Arms",
+    "lat": 54.171339,
+    "lon": -0.97884,
+    "sequence": 21
+  }
+]

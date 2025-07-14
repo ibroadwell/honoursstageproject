@@ -1,0 +1,194 @@
+[
+  {
+    "name": "Ossett Bus Station",
+    "lat": 53.680623961,
+    "lon": -1.578188808,
+    "sequence": 1
+  },
+  {
+    "name": "Kingsway Dale Street",
+    "lat": 53.680507849,
+    "lon": -1.580960517,
+    "sequence": 2
+  },
+  {
+    "name": "Kingsway Crownlands Lane",
+    "lat": 53.682268027,
+    "lon": -1.585697094,
+    "sequence": 3
+  },
+  {
+    "name": "Kingsway Wilman Drive",
+    "lat": 53.683685236,
+    "lon": -1.587454661,
+    "sequence": 4
+  },
+  {
+    "name": "Kingsway Holme Field",
+    "lat": 53.685901044,
+    "lon": -1.588826041,
+    "sequence": 5
+  },
+  {
+    "name": "Kingsway Deneside",
+    "lat": 53.687905967,
+    "lon": -1.588988228,
+    "sequence": 6
+  },
+  {
+    "name": "Kingsway Leeds Road",
+    "lat": 53.690819185,
+    "lon": -1.589293027,
+    "sequence": 7
+  },
+  {
+    "name": "Dewsbury Road Ashleigh Gdns",
+    "lat": 53.690867706,
+    "lon": -1.587717649,
+    "sequence": 8
+  },
+  {
+    "name": "Bridle Place Swithenbank Avenue",
+    "lat": 53.690041034,
+    "lon": -1.584689238,
+    "sequence": 9
+  },
+  {
+    "name": "Swithenbank Ave / Lodge Hill",
+    "lat": 53.692858372,
+    "lon": -1.586350392,
+    "sequence": 10
+  },
+  {
+    "name": "Swithenbank St / High St",
+    "lat": 53.694478697,
+    "lon": -1.58706146,
+    "sequence": 11
+  },
+  {
+    "name": "High Street Zion Street",
+    "lat": 53.694180861,
+    "lon": -1.589320906,
+    "sequence": 12
+  },
+  {
+    "name": "Pickering Lane",
+    "lat": 53.694218523,
+    "lon": -1.592455458,
+    "sequence": 13
+  },
+  {
+    "name": "Owl Lane / Leeds Road",
+    "lat": 53.695305283,
+    "lon": -1.594868155,
+    "sequence": 14
+  },
+  {
+    "name": "Owl Lane",
+    "lat": 53.697652434,
+    "lon": -1.597905075,
+    "sequence": 15
+  },
+  {
+    "name": "Rugby Ground",
+    "lat": 53.699980825,
+    "lon": -1.600730457,
+    "sequence": 16
+  },
+  {
+    "name": "Windsor Road Owl Lane",
+    "lat": 53.701434208,
+    "lon": -1.601107203,
+    "sequence": 17
+  },
+  {
+    "name": "Windsor Road Windsor Close",
+    "lat": 53.702169474,
+    "lon": -1.599473124,
+    "sequence": 18
+  },
+  {
+    "name": "Chidswell Lane Windsor Road",
+    "lat": 53.702999766,
+    "lon": -1.597717809,
+    "sequence": 19
+  },
+  {
+    "name": "Chidswell Lane Chidswell Gardens",
+    "lat": 53.704437334,
+    "lon": -1.598147041,
+    "sequence": 20
+  },
+  {
+    "name": "Chidswell Lane Leeds Road",
+    "lat": 53.70566525,
+    "lon": -1.599207267,
+    "sequence": 21
+  },
+  {
+    "name": "Owl Lane Leeds Road",
+    "lat": 53.702880956,
+    "lon": -1.603169515,
+    "sequence": 22
+  },
+  {
+    "name": "John Ormsby Way Leeds Road",
+    "lat": 53.702583736,
+    "lon": -1.605053177,
+    "sequence": 23
+  },
+  {
+    "name": "High Street Rathlin Road",
+    "lat": 53.703641988,
+    "lon": -1.607073095,
+    "sequence": 24
+  },
+  {
+    "name": "High Street Kirkgate",
+    "lat": 53.704956107,
+    "lon": -1.610393504,
+    "sequence": 25
+  },
+  {
+    "name": "High Street Highgate Street",
+    "lat": 53.704627399,
+    "lon": -1.614365382,
+    "sequence": 26
+  },
+  {
+    "name": "High Street Mill Lane",
+    "lat": 53.704868023,
+    "lon": -1.619346987,
+    "sequence": 27
+  },
+  {
+    "name": "Mill Lane New Street",
+    "lat": 53.705634065,
+    "lon": -1.622839408,
+    "sequence": 28
+  },
+  {
+    "name": "Rouse Mill Lane Spurr Street",
+    "lat": 53.708893342,
+    "lon": -1.624613105,
+    "sequence": 29
+  },
+  {
+    "name": "Bradford Road Eyre Street",
+    "lat": 53.710860598,
+    "lon": -1.627125737,
+    "sequence": 30
+  },
+  {
+    "name": "Bradford Road Bridge Street",
+    "lat": 53.714336128,
+    "lon": -1.629095054,
+    "sequence": 31
+  },
+  {
+    "name": "Batley Bus Station",
+    "lat": 53.71584061,
+    "lon": -1.633142638,
+    "sequence": 32
+  }
+]

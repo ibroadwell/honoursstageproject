@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Anlaby Spire Hospital",
+    "lat": 53.73945,
+    "lon": -0.434201,
+    "sequence": 1
+  },
+  {
+    "name": "Anlaby Beverley Rd",
+    "lat": 53.739547,
+    "lon": -0.436775,
+    "sequence": 2
+  },
+  {
+    "name": "Anlaby Beverley Road",
+    "lat": 53.745135,
+    "lon": -0.43866,
+    "sequence": 3
+  },
+  {
+    "name": "Anlaby Wilson Street",
+    "lat": 53.745885677,
+    "lon": -0.434841332,
+    "sequence": 4
+  },
+  {
+    "name": "Anlaby Red Lion",
+    "lat": 53.745476725,
+    "lon": -0.43236894,
+    "sequence": 5
+  },
+  {
+    "name": "Anlaby Hull Road",
+    "lat": 53.745018438,
+    "lon": -0.425988448,
+    "sequence": 6
+  },
+  {
+    "name": "Anlaby Hull Road",
+    "lat": 53.744467,
+    "lon": -0.421959,
+    "sequence": 7
+  },
+  {
+    "name": "Anlaby Hull Road",
+    "lat": 53.745024,
+    "lon": -0.416434,
+    "sequence": 8
+  },
+  {
+    "name": "Anlaby Hull Road",
+    "lat": 53.744468,
+    "lon": -0.413133,
+    "sequence": 9
+  },
+  {
+    "name": "Trenton Avenue",
+    "lat": 53.744324,
+    "lon": -0.40906,
+    "sequence": 10
+  },
+  {
+    "name": "Malham Avenue",
+    "lat": 53.74452,
+    "lon": -0.405549,
+    "sequence": 11
+  },
+  {
+    "name": "Trinity House",
+    "lat": 53.744758,
+    "lon": -0.400506,
+    "sequence": 12
+  },
+  {
+    "name": "Arcon Drive",
+    "lat": 53.744794,
+    "lon": -0.39782,
+    "sequence": 13
+  },
+  {
+    "name": "Calvert Lane",
+    "lat": 53.744914,
+    "lon": -0.39266,
+    "sequence": 14
+  },
+  {
+    "name": "Cardigan Road",
+    "lat": 53.743853,
+    "lon": -0.388591,
+    "sequence": 15
+  },
+  {
+    "name": "Silver Cod",
+    "lat": 53.743737,
+    "lon": -0.383364,
+    "sequence": 16
+  },
+  {
+    "name": "De La Pole Avenue",
+    "lat": 53.743739,
+    "lon": -0.380164,
+    "sequence": 17
+  },
+  {
+    "name": "Wenlock Barracks",
+    "lat": 53.743816438,
+    "lon": -0.375930256,
+    "sequence": 18
+  },
+  {
+    "name": "Anlaby Road Stadium",
+    "lat": 53.743995334,
+    "lon": -0.371889697,
+    "sequence": 19
+  },
+  {
+    "name": "Arnold Street",
+    "lat": 53.743433119,
+    "lon": -0.3642688,
+    "sequence": 20
+  },
+  {
+    "name": "Gladstone Street",
+    "lat": 53.743276407,
+    "lon": -0.360983258,
+    "sequence": 21
+  },
+  {
+    "name": "Hull Royal Infirmary",
+    "lat": 53.743258,
+    "lon": -0.358058,
+    "sequence": 22
+  },
+  {
+    "name": "Eye Clinic",
+    "lat": 53.74305,
+    "lon": -0.353351,
+    "sequence": 23
+  },
+  {
+    "name": "Park Street",
+    "lat": 53.743017,
+    "lon": -0.350319,
+    "sequence": 24
+  },
+  {
+    "name": "Midland Street",
+    "lat": 53.74319,
+    "lon": -0.346521,
+    "sequence": 25
+  },
+  {
+    "name": "Carr Lane (opp Primark)",
+    "lat": 53.743612,
+    "lon": -0.340045,
+    "sequence": 26
+  },
+  {
+    "name": "Queens Gardens",
+    "lat": 53.744246443,
+    "lon": -0.33844277,
+    "sequence": 27
+  },
+  {
+    "name": "Bond Street E",
+    "lat": 53.745981,
+    "lon": -0.339709,
+    "sequence": 28
+  },
+  {
+    "name": "Albion Street D",
+    "lat": 53.746537,
+    "lon": -0.341583,
+    "sequence": 29
+  },
+  {
+    "name": "Hull Interchange",
+    "lat": 53.744677,
+    "lon": -0.346812,
+    "sequence": 30
+  }
+]

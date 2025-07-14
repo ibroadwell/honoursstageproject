@@ -1,0 +1,524 @@
+[
+  {
+    "name": "Hull Interchange",
+    "lat": 53.744462,
+    "lon": -0.348215,
+    "sequence": 1
+  },
+  {
+    "name": "Prospect Street B",
+    "lat": 53.747179,
+    "lon": -0.344454,
+    "sequence": 2
+  },
+  {
+    "name": "Bond Street B",
+    "lat": 53.746552,
+    "lon": -0.339398,
+    "sequence": 3
+  },
+  {
+    "name": "Kenworthy House",
+    "lat": 53.74615,
+    "lon": -0.336973,
+    "sequence": 4
+  },
+  {
+    "name": "Hull Trinity House Academy",
+    "lat": 53.74671,
+    "lon": -0.335252,
+    "sequence": 5
+  },
+  {
+    "name": "New Cleveland Street",
+    "lat": 53.748205,
+    "lon": -0.327079,
+    "sequence": 6
+  },
+  {
+    "name": "Holborn Street",
+    "lat": 53.748415,
+    "lon": -0.324068,
+    "sequence": 7
+  },
+  {
+    "name": "Dansom Lane",
+    "lat": 53.749013,
+    "lon": -0.321178,
+    "sequence": 8
+  },
+  {
+    "name": "Franklin Street",
+    "lat": 53.750464,
+    "lon": -0.31889,
+    "sequence": 9
+  },
+  {
+    "name": "Courtney Street",
+    "lat": 53.752628,
+    "lon": -0.315498,
+    "sequence": 10
+  },
+  {
+    "name": "Barnsley Street",
+    "lat": 53.754642,
+    "lon": -0.312383,
+    "sequence": 11
+  },
+  {
+    "name": "Durham Street",
+    "lat": 53.756418,
+    "lon": -0.309521,
+    "sequence": 12
+  },
+  {
+    "name": "Southcoates Lane/Holderness Road",
+    "lat": 53.757488,
+    "lon": -0.305109,
+    "sequence": 13
+  },
+  {
+    "name": "Watt Street",
+    "lat": 53.757333,
+    "lon": -0.3024,
+    "sequence": 14
+  },
+  {
+    "name": "Brindley Street",
+    "lat": 53.757571,
+    "lon": -0.297643,
+    "sequence": 15
+  },
+  {
+    "name": "Eleanor Scott's Cottages",
+    "lat": 53.75678,
+    "lon": -0.293822,
+    "sequence": 16
+  },
+  {
+    "name": "Kedrum Road",
+    "lat": 53.754956,
+    "lon": -0.294518,
+    "sequence": 17
+  },
+  {
+    "name": "Westerdale Grove",
+    "lat": 53.75338,
+    "lon": -0.295567,
+    "sequence": 18
+  },
+  {
+    "name": "HMP Hull",
+    "lat": 53.748535,
+    "lon": -0.29816,
+    "sequence": 19
+  },
+  {
+    "name": "Hedon Road Cemetery",
+    "lat": 53.747874,
+    "lon": -0.294001,
+    "sequence": 20
+  },
+  {
+    "name": "Littlefair Road",
+    "lat": 53.74827,
+    "lon": -0.286478,
+    "sequence": 21
+  },
+  {
+    "name": "Marfleet Avenue",
+    "lat": 53.748095,
+    "lon": -0.276779,
+    "sequence": 22
+  },
+  {
+    "name": "Marfleet Avenue",
+    "lat": 53.747948,
+    "lon": -0.273433,
+    "sequence": 23
+  },
+  {
+    "name": "Elba Street",
+    "lat": 53.747327,
+    "lon": -0.266558,
+    "sequence": 24
+  },
+  {
+    "name": "Valletta Street",
+    "lat": 53.746343,
+    "lon": -0.258834,
+    "sequence": 25
+  },
+  {
+    "name": "Somerden Road",
+    "lat": 53.745286,
+    "lon": -0.249779,
+    "sequence": 26
+  },
+  {
+    "name": "Saltend Lane End",
+    "lat": 53.743467,
+    "lon": -0.236722,
+    "sequence": 27
+  },
+  {
+    "name": "Hedon Hull Road",
+    "lat": 53.742287,
+    "lon": -0.227431,
+    "sequence": 28
+  },
+  {
+    "name": "Hedon Hull Road",
+    "lat": 53.740825,
+    "lon": -0.216089,
+    "sequence": 29
+  },
+  {
+    "name": "Hedon Hull Road",
+    "lat": 53.74046,
+    "lon": -0.212739,
+    "sequence": 30
+  },
+  {
+    "name": "Hedon Hull Road",
+    "lat": 53.74009,
+    "lon": -0.209039,
+    "sequence": 31
+  },
+  {
+    "name": "Hedon New Road",
+    "lat": 53.739554,
+    "lon": -0.20142,
+    "sequence": 32
+  },
+  {
+    "name": "Hedon Thorn Road Corner",
+    "lat": 53.738642,
+    "lon": -0.195773,
+    "sequence": 33
+  },
+  {
+    "name": "Hedon Thorn Road",
+    "lat": 53.734963,
+    "lon": -0.195066,
+    "sequence": 34
+  },
+  {
+    "name": "Hedon Thorn Road",
+    "lat": 53.734039,
+    "lon": -0.191588,
+    "sequence": 35
+  },
+  {
+    "name": "Hedon Thorn Road",
+    "lat": 53.727631,
+    "lon": -0.188134,
+    "sequence": 36
+  },
+  {
+    "name": "Thorngumbald Main Road",
+    "lat": 53.724598,
+    "lon": -0.185506,
+    "sequence": 37
+  },
+  {
+    "name": "Thorngumbald Main Road",
+    "lat": 53.722721,
+    "lon": -0.180282,
+    "sequence": 38
+  },
+  {
+    "name": "Thorngumbald Main Road",
+    "lat": 53.721823,
+    "lon": -0.17682,
+    "sequence": 39
+  },
+  {
+    "name": "Thorngumbald",
+    "lat": 53.721199,
+    "lon": -0.173012,
+    "sequence": 40
+  },
+  {
+    "name": "Thorngumbald Main Road",
+    "lat": 53.720262,
+    "lon": -0.167597,
+    "sequence": 41
+  },
+  {
+    "name": "Thorngumbald Main Street",
+    "lat": 53.719021,
+    "lon": -0.164059,
+    "sequence": 42
+  },
+  {
+    "name": "Camerton Main Road",
+    "lat": 53.718424,
+    "lon": -0.157325,
+    "sequence": 43
+  },
+  {
+    "name": "Camerton Main Road",
+    "lat": 53.719444,
+    "lon": -0.152355,
+    "sequence": 44
+  },
+  {
+    "name": "Camerton Red Stacks",
+    "lat": 53.71999,
+    "lon": -0.150482,
+    "sequence": 45
+  },
+  {
+    "name": "Camerton Southfield",
+    "lat": 53.723326,
+    "lon": -0.147638,
+    "sequence": 46
+  },
+  {
+    "name": "Burstwick Station Road",
+    "lat": 53.725916,
+    "lon": -0.145947,
+    "sequence": 47
+  },
+  {
+    "name": "Burstwick Station Road",
+    "lat": 53.729725,
+    "lon": -0.142278,
+    "sequence": 48
+  },
+  {
+    "name": "Burstwick",
+    "lat": 53.730999,
+    "lon": -0.13922,
+    "sequence": 49
+  },
+  {
+    "name": "Burstwick Hariff Lane Farm",
+    "lat": 53.725726,
+    "lon": -0.135451,
+    "sequence": 50
+  },
+  {
+    "name": "Ryehill Bridge Bungalows",
+    "lat": 53.713403,
+    "lon": -0.137284,
+    "sequence": 51
+  },
+  {
+    "name": "Keyingham Hull Road",
+    "lat": 53.708285,
+    "lon": -0.126722,
+    "sequence": 52
+  },
+  {
+    "name": "Keyingham Hull Road",
+    "lat": 53.708718,
+    "lon": -0.121051,
+    "sequence": 53
+  },
+  {
+    "name": "Keyingham Hull Road",
+    "lat": 53.70956,
+    "lon": -0.113983,
+    "sequence": 54
+  },
+  {
+    "name": "Keyingham",
+    "lat": 53.709607,
+    "lon": -0.110132,
+    "sequence": 55
+  },
+  {
+    "name": "Keyingham Osbourne Drive",
+    "lat": 53.709064,
+    "lon": -0.10652,
+    "sequence": 56
+  },
+  {
+    "name": "Keyingham A1033",
+    "lat": 53.708047,
+    "lon": -0.104157,
+    "sequence": 57
+  },
+  {
+    "name": "Keyingham A1033",
+    "lat": 53.706103,
+    "lon": -0.09835,
+    "sequence": 58
+  },
+  {
+    "name": "Ottringham Keyingham Road",
+    "lat": 53.704154,
+    "lon": -0.087727,
+    "sequence": 59
+  },
+  {
+    "name": "Ottringham",
+    "lat": 53.702001,
+    "lon": -0.080704,
+    "sequence": 60
+  },
+  {
+    "name": "Winstead A1033",
+    "lat": 53.697285,
+    "lon": -0.05806,
+    "sequence": 61
+  },
+  {
+    "name": "Winestead Ings Lane",
+    "lat": 53.696601,
+    "lon": -0.048609,
+    "sequence": 62
+  },
+  {
+    "name": "Winestead A1033",
+    "lat": 53.696777,
+    "lon": -0.035725,
+    "sequence": 63
+  },
+  {
+    "name": "Patrington Winestead Lane",
+    "lat": 53.689878,
+    "lon": -0.032199,
+    "sequence": 64
+  },
+  {
+    "name": "Patrington Station Road",
+    "lat": 53.688918,
+    "lon": -0.026322,
+    "sequence": 65
+  },
+  {
+    "name": "Patrington Station Road",
+    "lat": 53.687805,
+    "lon": -0.022028,
+    "sequence": 66
+  },
+  {
+    "name": "Patrington Station Road",
+    "lat": 53.685829,
+    "lon": -0.018334,
+    "sequence": 67
+  },
+  {
+    "name": "Patrington Westgate",
+    "lat": 53.683873,
+    "lon": -0.014792,
+    "sequence": 68
+  },
+  {
+    "name": "Patrington Northside",
+    "lat": 53.684238,
+    "lon": -0.012397,
+    "sequence": 69
+  },
+  {
+    "name": "Patrington (Pump Street)",
+    "lat": 53.684912,
+    "lon": -0.009094,
+    "sequence": 70
+  },
+  {
+    "name": "Patrington Fairview Lodges",
+    "lat": 53.693977,
+    "lon": 0.010055,
+    "sequence": 71
+  },
+  {
+    "name": "Hollym Toffling Farm",
+    "lat": 53.696605,
+    "lon": 0.018451,
+    "sequence": 72
+  },
+  {
+    "name": "Hollym Toffling Farm",
+    "lat": 53.697728,
+    "lon": 0.023292,
+    "sequence": 73
+  },
+  {
+    "name": "Hollym (Cross Roads)",
+    "lat": 53.705314,
+    "lon": 0.038701,
+    "sequence": 74
+  },
+  {
+    "name": "Withernsea A1033",
+    "lat": 53.711296,
+    "lon": 0.040097,
+    "sequence": 75
+  },
+  {
+    "name": "Withernsea Hollym Road",
+    "lat": 53.717216,
+    "lon": 0.040307,
+    "sequence": 76
+  },
+  {
+    "name": "Withernsea Hollym Road",
+    "lat": 53.719435,
+    "lon": 0.039884,
+    "sequence": 77
+  },
+  {
+    "name": "Hollym Road Withernsea",
+    "lat": 53.720934,
+    "lon": 0.039502,
+    "sequence": 78
+  },
+  {
+    "name": "Withernsea Queen Street",
+    "lat": 53.722819,
+    "lon": 0.038108,
+    "sequence": 79
+  },
+  {
+    "name": "Withernsea Queen Street",
+    "lat": 53.725872,
+    "lon": 0.035618,
+    "sequence": 80
+  },
+  {
+    "name": "Withernsea Queen Street",
+    "lat": 53.727862,
+    "lon": 0.035472,
+    "sequence": 81
+  },
+  {
+    "name": "Withernsea (Pier Rd/Mem.Ave)",
+    "lat": 53.729877,
+    "lon": 0.034341,
+    "sequence": 82
+  },
+  {
+    "name": "Withernsea Arthur Street",
+    "lat": 53.731487,
+    "lon": 0.028445,
+    "sequence": 83
+  },
+  {
+    "name": "Withernsea North Road",
+    "lat": 53.73458,
+    "lon": 0.027351,
+    "sequence": 84
+  },
+  {
+    "name": "Withernsea North Road",
+    "lat": 53.735469,
+    "lon": 0.026848,
+    "sequence": 85
+  },
+  {
+    "name": "Withernsea North Road",
+    "lat": 53.736595,
+    "lon": 0.025644,
+    "sequence": 86
+  },
+  {
+    "name": "Withernsea (Waxholme Road)",
+    "lat": 53.738026,
+    "lon": 0.024484,
+    "sequence": 87
+  }
+]

@@ -1,0 +1,338 @@
+[
+  {
+    "name": "York, Piccadilly",
+    "lat": 53.957706,
+    "lon": -1.079304,
+    "sequence": 1
+  },
+  {
+    "name": "York, Low Ousegate, TF",
+    "lat": 53.957483015,
+    "lon": -1.08305776,
+    "sequence": 2
+  },
+  {
+    "name": "Station Road",
+    "lat": 53.958816,
+    "lon": -1.089323,
+    "sequence": 3
+  },
+  {
+    "name": "York, Rail Station",
+    "lat": 53.957936,
+    "lon": -1.091796,
+    "sequence": 4
+  },
+  {
+    "name": "York, Blossom Street, BC",
+    "lat": 53.955106,
+    "lon": -1.091934,
+    "sequence": 5
+  },
+  {
+    "name": "York, Cambridge Street, opp Mount Ephraim",
+    "lat": 53.954031,
+    "lon": -1.094852,
+    "sequence": 6
+  },
+  {
+    "name": "Holgate Hill, adj Holgate Bridge Gardens",
+    "lat": 53.953762,
+    "lon": -1.100954,
+    "sequence": 7
+  },
+  {
+    "name": "Holgate, Fox Inn, opp",
+    "lat": 53.954857,
+    "lon": -1.105471,
+    "sequence": 8
+  },
+  {
+    "name": "Holgate Park, opp",
+    "lat": 53.95762,
+    "lon": -1.109588,
+    "sequence": 9
+  },
+  {
+    "name": "Holgate, Grantham Drive, adj",
+    "lat": 53.959171,
+    "lon": -1.111491,
+    "sequence": 10
+  },
+  {
+    "name": "Holgate, Seldon Road, opp",
+    "lat": 53.961841,
+    "lon": -1.115244,
+    "sequence": 11
+  },
+  {
+    "name": "Holgate, Malvern Avenue",
+    "lat": 53.963625,
+    "lon": -1.118286,
+    "sequence": 12
+  },
+  {
+    "name": "Acomb, Ouse Acres, opp",
+    "lat": 53.964615,
+    "lon": -1.122182,
+    "sequence": 13
+  },
+  {
+    "name": "Acomb, Plantation Drive, opp",
+    "lat": 53.966445,
+    "lon": -1.126656,
+    "sequence": 14
+  },
+  {
+    "name": "Acomb, Wheatlands Grove, adj",
+    "lat": 53.96807,
+    "lon": -1.130128,
+    "sequence": 15
+  },
+  {
+    "name": "Beckfield Lane, Low Poppleton Lane",
+    "lat": 53.969154,
+    "lon": -1.132087,
+    "sequence": 16
+  },
+  {
+    "name": "Upper Poppleton, Wheatlands, adj",
+    "lat": 53.972136,
+    "lon": -1.141859,
+    "sequence": 17
+  },
+  {
+    "name": "Upper Poppleton, Garden Centre, adj",
+    "lat": 53.972713,
+    "lon": -1.145872,
+    "sequence": 18
+  },
+  {
+    "name": "Upper Poppleton, Red Lion A59, opp",
+    "lat": 53.975047,
+    "lon": -1.163327,
+    "sequence": 19
+  },
+  {
+    "name": "Hessay A59, adj New Road",
+    "lat": 53.980612,
+    "lon": -1.199126,
+    "sequence": 20
+  },
+  {
+    "name": "Hessay, Main Street, o/s Doon Court House",
+    "lat": 53.973473,
+    "lon": -1.204157,
+    "sequence": 21
+  },
+  {
+    "name": "Hessay Chapel",
+    "lat": 53.973139,
+    "lon": -1.208112,
+    "sequence": 22
+  },
+  {
+    "name": "Moor Monkton Crossroads, NW-bound",
+    "lat": 53.986846,
+    "lon": -1.220525,
+    "sequence": 23
+  },
+  {
+    "name": "Wilstrop, Nun Monkten Lane End, W-bound",
+    "lat": 53.998646,
+    "lon": -1.273469,
+    "sequence": 24
+  },
+  {
+    "name": "Kirk Hammerton, Station Road",
+    "lat": 53.999254,
+    "lon": -1.281864,
+    "sequence": 25
+  },
+  {
+    "name": "Green Hammerton, Springbank Surgery, NW-bound",
+    "lat": 54.00372,
+    "lon": -1.298417,
+    "sequence": 26
+  },
+  {
+    "name": "Green Hammerton",
+    "lat": 54.00481,
+    "lon": -1.300489,
+    "sequence": 27
+  },
+  {
+    "name": "Green Hammerton, Rosedale Cottage, NW-bound",
+    "lat": 54.006652,
+    "lon": -1.303479,
+    "sequence": 28
+  },
+  {
+    "name": "Whixley, Vine Farm Close, Opp",
+    "lat": 54.013052,
+    "lon": -1.320754,
+    "sequence": 29
+  },
+  {
+    "name": "Whixley, Stone Gate",
+    "lat": 54.015517,
+    "lon": -1.324453,
+    "sequence": 30
+  },
+  {
+    "name": "Little Ouseburn, Lane End, NW-bound",
+    "lat": 54.038238,
+    "lon": -1.326024,
+    "sequence": 31
+  },
+  {
+    "name": "Little Ouseburn, Village Green, NE-bound",
+    "lat": 54.039506,
+    "lon": -1.322888,
+    "sequence": 32
+  },
+  {
+    "name": "Little Ouseburn, Village Hall",
+    "lat": 54.040812,
+    "lon": -1.313964,
+    "sequence": 33
+  },
+  {
+    "name": "Great Ouseburn, Boat Lane, adj",
+    "lat": 54.045574,
+    "lon": -1.308907,
+    "sequence": 34
+  },
+  {
+    "name": "Great Ouseburn, Churchfield Lane",
+    "lat": 54.050146,
+    "lon": -1.316331,
+    "sequence": 35
+  },
+  {
+    "name": "Great Ouseburn, Green Hill, NW-bound",
+    "lat": 54.05203,
+    "lon": -1.320378,
+    "sequence": 36
+  },
+  {
+    "name": "Great Ouseburn, Branton Court, adj",
+    "lat": 54.052952,
+    "lon": -1.322929,
+    "sequence": 37
+  },
+  {
+    "name": "Upper Dunsforth, Keld Lane, opp",
+    "lat": 54.054871,
+    "lon": -1.328535,
+    "sequence": 38
+  },
+  {
+    "name": "Marton, Village Hall",
+    "lat": 54.060065,
+    "lon": -1.363207,
+    "sequence": 39
+  },
+  {
+    "name": "Marton, Stockfield Lane",
+    "lat": 54.063942,
+    "lon": -1.363881,
+    "sequence": 40
+  },
+  {
+    "name": "Aldborough, Hill Top, NE-bound",
+    "lat": 54.089296,
+    "lon": -1.382681,
+    "sequence": 41
+  },
+  {
+    "name": "Aldborough, The Square",
+    "lat": 54.090917,
+    "lon": -1.381571,
+    "sequence": 42
+  },
+  {
+    "name": "Boroughbridge, St James Square",
+    "lat": 54.094297,
+    "lon": -1.395603,
+    "sequence": 43
+  },
+  {
+    "name": "Boroughbridge, Crown Hotel, opp",
+    "lat": 54.095825,
+    "lon": -1.39581,
+    "sequence": 44
+  },
+  {
+    "name": "Boroughbridge, Anchor Inn, adj",
+    "lat": 54.098956,
+    "lon": -1.398288,
+    "sequence": 45
+  },
+  {
+    "name": "Langthorpe Corner, NW-bound",
+    "lat": 54.100145,
+    "lon": -1.400778,
+    "sequence": 46
+  },
+  {
+    "name": "Langthorpe Corner, W-bound",
+    "lat": 54.100033,
+    "lon": -1.401667,
+    "sequence": 47
+  },
+  {
+    "name": "Langthorpe, Fox And Hounds, W-bound",
+    "lat": 54.099449,
+    "lon": -1.407073,
+    "sequence": 48
+  },
+  {
+    "name": "Skelton on Ure, Reading Room, N-bound",
+    "lat": 54.108097,
+    "lon": -1.449119,
+    "sequence": 49
+  },
+  {
+    "name": "Skelton on Ure, Post Office",
+    "lat": 54.110201,
+    "lon": -1.449335,
+    "sequence": 50
+  },
+  {
+    "name": "Skelton on Ure, Skelton Grange, N-bound",
+    "lat": 54.111809,
+    "lon": -1.449284,
+    "sequence": 51
+  },
+  {
+    "name": "Bridge Hewick, Racecourse, adj",
+    "lat": 54.12783,
+    "lon": -1.499783,
+    "sequence": 52
+  },
+  {
+    "name": "Ripon, Skelldale Caravan Park, W-bound",
+    "lat": 54.129425,
+    "lon": -1.509649,
+    "sequence": 53
+  },
+  {
+    "name": "Ripon, Firs Avenue, NW-bound",
+    "lat": 54.131312,
+    "lon": -1.513958,
+    "sequence": 54
+  },
+  {
+    "name": "Ripon, Bowling Club, W-bound",
+    "lat": 54.132914,
+    "lon": -1.518959,
+    "sequence": 55
+  },
+  {
+    "name": "Ripon, Bus Station",
+    "lat": 54.136871,
+    "lon": -1.521745,
+    "sequence": 56
+  }
+]

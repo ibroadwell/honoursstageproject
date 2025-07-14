@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Filey Road Park and Ride Site",
+    "lat": 54.251385,
+    "lon": -0.381932,
+    "sequence": 1
+  },
+  {
+    "name": "Wheatcroft Avenue",
+    "lat": 54.263176,
+    "lon": -0.393201,
+    "sequence": 2
+  },
+  {
+    "name": "Aquarium Top Stop Y",
+    "lat": 54.278893077,
+    "lon": -0.39904072,
+    "sequence": 3
+  },
+  {
+    "name": "Harcourt Place Stop X",
+    "lat": 54.281101388,
+    "lon": -0.399051564,
+    "sequence": 4
+  },
+  {
+    "name": "St Thomas Street Stop C",
+    "lat": 54.283471478,
+    "lon": -0.399969229,
+    "sequence": 5
+  },
+  {
+    "name": "York Place",
+    "lat": 54.28049,
+    "lon": -0.402865,
+    "sequence": 6
+  },
+  {
+    "name": "Wheatcroft Avenue",
+    "lat": 54.263885,
+    "lon": -0.393818,
+    "sequence": 7
+  },
+  {
+    "name": "Filey Road Park and Ride Site",
+    "lat": 54.251385,
+    "lon": -0.381932,
+    "sequence": 8
+  }
+]

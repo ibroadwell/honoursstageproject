@@ -1,0 +1,446 @@
+[
+  {
+    "name": "Halifax Bus Station",
+    "lat": 53.724569878,
+    "lon": -1.85906355,
+    "sequence": 1
+  },
+  {
+    "name": "Northgate",
+    "lat": 53.726889891,
+    "lon": -1.859995489,
+    "sequence": 2
+  },
+  {
+    "name": "Beacon Hill Road Godley Rd",
+    "lat": 53.727844646,
+    "lon": -1.85414191,
+    "sequence": 3
+  },
+  {
+    "name": "Beacon Hill Road Godley Branch Rd",
+    "lat": 53.726383448,
+    "lon": -1.849979061,
+    "sequence": 4
+  },
+  {
+    "name": "Beacon Hill Rd Southowram Bank",
+    "lat": 53.719656455,
+    "lon": -1.846881324,
+    "sequence": 5
+  },
+  {
+    "name": "Beacon Hill Rd Green Lane",
+    "lat": 53.718873915,
+    "lon": -1.846429563,
+    "sequence": 6
+  },
+  {
+    "name": "Bank Top Marsh Lane",
+    "lat": 53.717451091,
+    "lon": -1.8443285,
+    "sequence": 7
+  },
+  {
+    "name": "Bank Top Common Lane",
+    "lat": 53.715911006,
+    "lon": -1.841940126,
+    "sequence": 8
+  },
+  {
+    "name": "Law Lane Pinnar Ln",
+    "lat": 53.714720759,
+    "lon": -1.839065739,
+    "sequence": 9
+  },
+  {
+    "name": "Law Lane",
+    "lat": 53.713897728,
+    "lon": -1.835296151,
+    "sequence": 10
+  },
+  {
+    "name": "Law Lane Whitley Ln",
+    "lat": 53.713750737,
+    "lon": -1.832993704,
+    "sequence": 11
+  },
+  {
+    "name": "Law Lane Rustic Ave",
+    "lat": 53.711591977,
+    "lon": -1.831835638,
+    "sequence": 12
+  },
+  {
+    "name": "Law Lane Post Office",
+    "lat": 53.710073018,
+    "lon": -1.831856836,
+    "sequence": 13
+  },
+  {
+    "name": "Southowram Towngate",
+    "lat": 53.707815548,
+    "lon": -1.830820519,
+    "sequence": 14
+  },
+  {
+    "name": "Cain Lane",
+    "lat": 53.709667684,
+    "lon": -1.8312373,
+    "sequence": 15
+  },
+  {
+    "name": "Cain Lane Cromwell Rd",
+    "lat": 53.710220752,
+    "lon": -1.828280805,
+    "sequence": 16
+  },
+  {
+    "name": "Church Lane Chapel Ln",
+    "lat": 53.709199157,
+    "lon": -1.824179358,
+    "sequence": 17
+  },
+  {
+    "name": "Church Lane St Anne's Church",
+    "lat": 53.708912229,
+    "lon": -1.818605458,
+    "sequence": 18
+  },
+  {
+    "name": "Church Lane Stoney Ln",
+    "lat": 53.708728315,
+    "lon": -1.815879311,
+    "sequence": 19
+  },
+  {
+    "name": "Church Lane Birks Royd",
+    "lat": 53.707471893,
+    "lon": -1.811324879,
+    "sequence": 20
+  },
+  {
+    "name": "Brier Lane",
+    "lat": 53.707045425,
+    "lon": -1.808781744,
+    "sequence": 21
+  },
+  {
+    "name": "St Annes In The Grove",
+    "lat": 53.707005096,
+    "lon": -1.806055101,
+    "sequence": 22
+  },
+  {
+    "name": "Marshalls Works",
+    "lat": 53.70662988,
+    "lon": -1.801951472,
+    "sequence": 23
+  },
+  {
+    "name": "Elland Road Wilton St",
+    "lat": 53.705609801,
+    "lon": -1.793988127,
+    "sequence": 24
+  },
+  {
+    "name": "Brighouse Wood Road",
+    "lat": 53.703419754,
+    "lon": -1.79056027,
+    "sequence": 25
+  },
+  {
+    "name": "Elland Rd Halifax Road",
+    "lat": 53.702434059,
+    "lon": -1.787156994,
+    "sequence": 26
+  },
+  {
+    "name": "Brighouse Bus Station",
+    "lat": 53.702602473,
+    "lon": -1.780854802,
+    "sequence": 27
+  },
+  {
+    "name": "Rydings Park",
+    "lat": 53.703458103,
+    "lon": -1.786818582,
+    "sequence": 28
+  },
+  {
+    "name": "Waterloo Rd Lightcliffe Road",
+    "lat": 53.705856073,
+    "lon": -1.785776371,
+    "sequence": 29
+  },
+  {
+    "name": "Waring Green Centre",
+    "lat": 53.706816877,
+    "lon": -1.784457778,
+    "sequence": 30
+  },
+  {
+    "name": "St Andrew's Infants",
+    "lat": 53.708591049,
+    "lon": -1.787232008,
+    "sequence": 31
+  },
+  {
+    "name": "Brighouse Cemetery",
+    "lat": 53.71164644,
+    "lon": -1.786913597,
+    "sequence": 32
+  },
+  {
+    "name": "Slead Avenue",
+    "lat": 53.713707138,
+    "lon": -1.788281978,
+    "sequence": 33
+  },
+  {
+    "name": "Smith House Lane",
+    "lat": 53.715907783,
+    "lon": -1.787467872,
+    "sequence": 34
+  },
+  {
+    "name": "Whinney Hill Park",
+    "lat": 53.716012567,
+    "lon": -1.785739986,
+    "sequence": 35
+  },
+  {
+    "name": "Whinney Hill Park Cemetery",
+    "lat": 53.715011663,
+    "lon": -1.783941988,
+    "sequence": 36
+  },
+  {
+    "name": "Whinney Hill Park Bracken Ave",
+    "lat": 53.714371105,
+    "lon": -1.782611918,
+    "sequence": 37
+  },
+  {
+    "name": "Whinney Hill Park",
+    "lat": 53.714898062,
+    "lon": -1.780775827,
+    "sequence": 38
+  },
+  {
+    "name": "Whinney Hill Park Hoyle House Beck",
+    "lat": 53.716050324,
+    "lon": -1.781754742,
+    "sequence": 39
+  },
+  {
+    "name": "Whinney Hill Park Smith House Lane",
+    "lat": 53.716497757,
+    "lon": -1.785646608,
+    "sequence": 40
+  },
+  {
+    "name": "Catherine Slack",
+    "lat": 53.717335883,
+    "lon": -1.786900031,
+    "sequence": 41
+  },
+  {
+    "name": "Stoney Lane",
+    "lat": 53.718620442,
+    "lon": -1.786484409,
+    "sequence": 42
+  },
+  {
+    "name": "Fairless Avenue",
+    "lat": 53.719671985,
+    "lon": -1.786448782,
+    "sequence": 43
+  },
+  {
+    "name": "Bentley Avenue",
+    "lat": 53.719855519,
+    "lon": -1.783538352,
+    "sequence": 44
+  },
+  {
+    "name": "Bentley Avenue Aysgarth Ave",
+    "lat": 53.720052654,
+    "lon": -1.783203959,
+    "sequence": 45
+  },
+  {
+    "name": "Bentley Ave Shirley Grove",
+    "lat": 53.721833318,
+    "lon": -1.783770678,
+    "sequence": 46
+  },
+  {
+    "name": "Greenfield Ave West Avenue",
+    "lat": 53.72330141,
+    "lon": -1.785460504,
+    "sequence": 47
+  },
+  {
+    "name": "Wakefield Rd Ripley Street",
+    "lat": 53.72399438,
+    "lon": -1.785957101,
+    "sequence": 48
+  },
+  {
+    "name": "Wakefield Rd Stoney Lane",
+    "lat": 53.724189667,
+    "lon": -1.789653983,
+    "sequence": 49
+  },
+  {
+    "name": "Wakefield Rd St Matthew's Church",
+    "lat": 53.725420933,
+    "lon": -1.794785613,
+    "sequence": 50
+  },
+  {
+    "name": "Wakefield Road J & I School",
+    "lat": 53.725543764,
+    "lon": -1.798316293,
+    "sequence": 51
+  },
+  {
+    "name": "Wakefield Rd St Giles Road",
+    "lat": 53.724607031,
+    "lon": -1.80253396,
+    "sequence": 52
+  },
+  {
+    "name": "Wakefield Rd Victoria Road",
+    "lat": 53.725080998,
+    "lon": -1.806578269,
+    "sequence": 53
+  },
+  {
+    "name": "Wakefield Rd Roydlands Terrace",
+    "lat": 53.72540069,
+    "lon": -1.809774645,
+    "sequence": 54
+  },
+  {
+    "name": "Crossroads Wakefield Road",
+    "lat": 53.725303976,
+    "lon": -1.811139085,
+    "sequence": 55
+  },
+  {
+    "name": "Hipperholme, Denholme Gate Rd",
+    "lat": 53.72610638,
+    "lon": -1.812711708,
+    "sequence": 56
+  },
+  {
+    "name": "Denholme Gate Road Towngate",
+    "lat": 53.728535312,
+    "lon": -1.814095352,
+    "sequence": 57
+  },
+  {
+    "name": "Denholme Gate Road Northedge Ln",
+    "lat": 53.730434027,
+    "lon": -1.815542103,
+    "sequence": 58
+  },
+  {
+    "name": "Denholme Gate Rd Southfield Terrace",
+    "lat": 53.731963105,
+    "lon": -1.816263003,
+    "sequence": 59
+  },
+  {
+    "name": "Coley Road Denholme Gate Rd",
+    "lat": 53.735680472,
+    "lon": -1.813866799,
+    "sequence": 60
+  },
+  {
+    "name": "St Johns Church",
+    "lat": 53.738761942,
+    "lon": -1.812943576,
+    "sequence": 61
+  },
+  {
+    "name": "Coley Road Lower Shelf",
+    "lat": 53.741317705,
+    "lon": -1.814979028,
+    "sequence": 62
+  },
+  {
+    "name": "Stocks Farm",
+    "lat": 53.743558621,
+    "lon": -1.81686447,
+    "sequence": 63
+  },
+  {
+    "name": "Stone Leigh Farm",
+    "lat": 53.7452071,
+    "lon": -1.819283355,
+    "sequence": 64
+  },
+  {
+    "name": "Ing Head Gardens",
+    "lat": 53.746036314,
+    "lon": -1.820826435,
+    "sequence": 65
+  },
+  {
+    "name": "Halifax Rd Sun Wood Avenue",
+    "lat": 53.747007356,
+    "lon": -1.821049761,
+    "sequence": 66
+  },
+  {
+    "name": "Halifax Road Highfields",
+    "lat": 53.748613844,
+    "lon": -1.819465889,
+    "sequence": 67
+  },
+  {
+    "name": "Halifax Road Bridle Stile",
+    "lat": 53.750651366,
+    "lon": -1.817637399,
+    "sequence": 68
+  },
+  {
+    "name": "Village Hall",
+    "lat": 53.75220497,
+    "lon": -1.816766259,
+    "sequence": 69
+  },
+  {
+    "name": "Wade House Rd Wade House Ave",
+    "lat": 53.753470487,
+    "lon": -1.815592998,
+    "sequence": 70
+  },
+  {
+    "name": "Wade House Rd Brow Lane",
+    "lat": 53.754868622,
+    "lon": -1.81300862,
+    "sequence": 71
+  },
+  {
+    "name": "Carr House Rd Carr House Lane",
+    "lat": 53.756785261,
+    "lon": -1.808692709,
+    "sequence": 72
+  },
+  {
+    "name": "Carr House Ln Cooper Lane",
+    "lat": 53.757508905,
+    "lon": -1.805959329,
+    "sequence": 73
+  },
+  {
+    "name": "Shelf Carr House Road",
+    "lat": 53.757085636,
+    "lon": -1.805445597,
+    "sequence": 74
+  }
+]

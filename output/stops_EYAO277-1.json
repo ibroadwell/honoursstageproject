@@ -1,0 +1,116 @@
+[
+  {
+    "name": "Hedon St Augustines Gate",
+    "lat": 53.740514,
+    "lon": -0.198938,
+    "sequence": 1
+  },
+  {
+    "name": "Hedon Soutter Gate",
+    "lat": 53.743599,
+    "lon": -0.199048,
+    "sequence": 2
+  },
+  {
+    "name": "Rosedale Community Unit",
+    "lat": 53.74539,
+    "lon": -0.197364,
+    "sequence": 3
+  },
+  {
+    "name": "Hedon Preston Road",
+    "lat": 53.748196,
+    "lon": -0.197441,
+    "sequence": 4
+  },
+  {
+    "name": "Preston Station Road",
+    "lat": 53.750892,
+    "lon": -0.197993,
+    "sequence": 5
+  },
+  {
+    "name": "Preston (Crossroads)",
+    "lat": 53.753197,
+    "lon": -0.198274,
+    "sequence": 6
+  },
+  {
+    "name": "Preston (Cock and Bell)",
+    "lat": 53.756914,
+    "lon": -0.20036,
+    "sequence": 7
+  },
+  {
+    "name": "Preston Sproatley Road",
+    "lat": 53.760405,
+    "lon": -0.201181,
+    "sequence": 8
+  },
+  {
+    "name": "Spring Valley Campsite",
+    "lat": 53.77719,
+    "lon": -0.191707,
+    "sequence": 9
+  },
+  {
+    "name": "Sproatley Memorial",
+    "lat": 53.791898,
+    "lon": -0.190664,
+    "sequence": 10
+  },
+  {
+    "name": "Parklands",
+    "lat": 53.785548,
+    "lon": -0.205358,
+    "sequence": 11
+  },
+  {
+    "name": "Wyton B1238",
+    "lat": 53.781582,
+    "lon": -0.217882,
+    "sequence": 12
+  },
+  {
+    "name": "Wyton Main Road",
+    "lat": 53.780627,
+    "lon": -0.225011,
+    "sequence": 13
+  },
+  {
+    "name": "Bilton Main Road",
+    "lat": 53.780008,
+    "lon": -0.231806,
+    "sequence": 14
+  },
+  {
+    "name": "Bilton Main Road",
+    "lat": 53.779335,
+    "lon": -0.236129,
+    "sequence": 15
+  },
+  {
+    "name": "Bilton Main Road",
+    "lat": 53.778432,
+    "lon": -0.240174,
+    "sequence": 16
+  },
+  {
+    "name": "Bilton Main Road",
+    "lat": 53.778142,
+    "lon": -0.244284,
+    "sequence": 17
+  },
+  {
+    "name": "Bilton Church",
+    "lat": 53.778447,
+    "lon": -0.246669,
+    "sequence": 18
+  },
+  {
+    "name": "ASDA (Bus Terminal)",
+    "lat": 53.778939,
+    "lon": -0.253949,
+    "sequence": 19
+  }
+]

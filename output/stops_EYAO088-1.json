@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Goole North Street",
+    "lat": 53.702766,
+    "lon": -0.86965,
+    "sequence": 1
+  },
+  {
+    "name": "Goole Interchange",
+    "lat": 53.704823,
+    "lon": -0.873246,
+    "sequence": 2
+  },
+  {
+    "name": "Goole Boothferry Road",
+    "lat": 53.70511,
+    "lon": -0.877026,
+    "sequence": 3
+  },
+  {
+    "name": "Goole Boothferry Road",
+    "lat": 53.705834,
+    "lon": -0.879491,
+    "sequence": 4
+  },
+  {
+    "name": "Goole College",
+    "lat": 53.70719,
+    "lon": -0.884197,
+    "sequence": 5
+  },
+  {
+    "name": "Goole Airmyn Road",
+    "lat": 53.708765,
+    "lon": -0.886261,
+    "sequence": 6
+  },
+  {
+    "name": "Airmyn Ferry Lane",
+    "lat": 53.722987,
+    "lon": -0.893266,
+    "sequence": 7
+  },
+  {
+    "name": "Airmyn",
+    "lat": 53.719701,
+    "lon": -0.902582,
+    "sequence": 8
+  },
+  {
+    "name": "Airmyn High Street",
+    "lat": 53.716338,
+    "lon": -0.905351,
+    "sequence": 9
+  },
+  {
+    "name": "Airmyn Airmyn Road",
+    "lat": 53.706901,
+    "lon": -0.915368,
+    "sequence": 10
+  },
+  {
+    "name": "A614 Rawcliffe Road",
+    "lat": 53.706774,
+    "lon": -0.929173,
+    "sequence": 11
+  },
+  {
+    "name": "Rawcliffe Grange A614",
+    "lat": 53.705494,
+    "lon": -0.9419,
+    "sequence": 12
+  },
+  {
+    "name": "Rawcliffe Cuckoo Park",
+    "lat": 53.706933,
+    "lon": -0.952317,
+    "sequence": 13
+  },
+  {
+    "name": "Rawcliffe Hall Gardens",
+    "lat": 53.700646,
+    "lon": -0.961077,
+    "sequence": 14
+  },
+  {
+    "name": "Rawcliffe Green",
+    "lat": 53.698824,
+    "lon": -0.96353,
+    "sequence": 15
+  },
+  {
+    "name": "Rawcliffe Station Road",
+    "lat": 53.69751,
+    "lon": -0.9602,
+    "sequence": 16
+  },
+  {
+    "name": "Rawcliffe Station Road",
+    "lat": 53.696133,
+    "lon": -0.958886,
+    "sequence": 17
+  },
+  {
+    "name": "Rawcliffe Station Road",
+    "lat": 53.693391,
+    "lon": -0.959908,
+    "sequence": 18
+  },
+  {
+    "name": "Rawcliffe Station Road",
+    "lat": 53.689857,
+    "lon": -0.960798,
+    "sequence": 19
+  },
+  {
+    "name": "Rawcliffe Bridge Lane",
+    "lat": 53.687213,
+    "lon": -0.958606,
+    "sequence": 20
+  },
+  {
+    "name": "Rawcliffe Bridge Lane",
+    "lat": 53.684637,
+    "lon": -0.949676,
+    "sequence": 21
+  },
+  {
+    "name": "Rawcliffe Bridge",
+    "lat": 53.682784,
+    "lon": -0.943438,
+    "sequence": 22
+  }
+]

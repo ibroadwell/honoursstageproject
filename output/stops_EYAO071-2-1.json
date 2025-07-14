@@ -1,0 +1,104 @@
+[
+  {
+    "name": "Easington Square",
+    "lat": 53.650282,
+    "lon": 0.115713,
+    "sequence": 1
+  },
+  {
+    "name": "Easington Dimlington Road",
+    "lat": 53.651853,
+    "lon": 0.114293,
+    "sequence": 2
+  },
+  {
+    "name": "Skeffling",
+    "lat": 53.653532,
+    "lon": 0.073837,
+    "sequence": 3
+  },
+  {
+    "name": "Weeton",
+    "lat": 53.660463,
+    "lon": 0.049839,
+    "sequence": 4
+  },
+  {
+    "name": "Welwick",
+    "lat": 53.668304,
+    "lon": 0.031782,
+    "sequence": 5
+  },
+  {
+    "name": "Patrington (Pump Street)",
+    "lat": 53.684912,
+    "lon": -0.009094,
+    "sequence": 6
+  },
+  {
+    "name": "Hollym Toffling Farm",
+    "lat": 53.696605,
+    "lon": 0.018451,
+    "sequence": 7
+  },
+  {
+    "name": "Hollym Toffling Farm",
+    "lat": 53.697728,
+    "lon": 0.023292,
+    "sequence": 8
+  },
+  {
+    "name": "Hollym (Cross Roads)",
+    "lat": 53.705314,
+    "lon": 0.038701,
+    "sequence": 9
+  },
+  {
+    "name": "Withernsea A1033",
+    "lat": 53.711296,
+    "lon": 0.040097,
+    "sequence": 10
+  },
+  {
+    "name": "Withernsea Hollym Road",
+    "lat": 53.717216,
+    "lon": 0.040307,
+    "sequence": 11
+  },
+  {
+    "name": "Withernsea Hollym Road",
+    "lat": 53.719435,
+    "lon": 0.039884,
+    "sequence": 12
+  },
+  {
+    "name": "Hollym Road Withernsea",
+    "lat": 53.720934,
+    "lon": 0.039502,
+    "sequence": 13
+  },
+  {
+    "name": "Withernsea Queen Street",
+    "lat": 53.722819,
+    "lon": 0.038108,
+    "sequence": 14
+  },
+  {
+    "name": "Withernsea Queen Street",
+    "lat": 53.725872,
+    "lon": 0.035618,
+    "sequence": 15
+  },
+  {
+    "name": "Withernsea Queen Street",
+    "lat": 53.727862,
+    "lon": 0.035472,
+    "sequence": 16
+  },
+  {
+    "name": "Withernsea (Memorial Avenue)",
+    "lat": 53.730161,
+    "lon": 0.034537,
+    "sequence": 17
+  }
+]

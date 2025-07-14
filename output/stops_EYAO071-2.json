@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Easington Square",
+    "lat": 53.650282,
+    "lon": 0.115713,
+    "sequence": 1
+  },
+  {
+    "name": "Easington Dimlington Road",
+    "lat": 53.651853,
+    "lon": 0.114293,
+    "sequence": 2
+  },
+  {
+    "name": "Skeffling",
+    "lat": 53.653532,
+    "lon": 0.073837,
+    "sequence": 3
+  },
+  {
+    "name": "Weeton",
+    "lat": 53.660463,
+    "lon": 0.049839,
+    "sequence": 4
+  },
+  {
+    "name": "Welwick",
+    "lat": 53.668304,
+    "lon": 0.031782,
+    "sequence": 5
+  },
+  {
+    "name": "Patrington (Pump Street)",
+    "lat": 53.684912,
+    "lon": -0.009094,
+    "sequence": 6
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Driffield (George Street)",
+    "lat": 54.004509,
+    "lon": -0.438673,
+    "sequence": 1
+  },
+  {
+    "name": "Driffield Middle St South",
+    "lat": 54.004465,
+    "lon": -0.438018,
+    "sequence": 2
+  },
+  {
+    "name": "Driffield (Middle Street South)",
+    "lat": 54.001932,
+    "lon": -0.435428,
+    "sequence": 3
+  },
+  {
+    "name": "Wansford",
+    "lat": 53.98925,
+    "lon": -0.37724,
+    "sequence": 4
+  },
+  {
+    "name": "Brigham Cross Roads",
+    "lat": 53.974159,
+    "lon": -0.350259,
+    "sequence": 5
+  },
+  {
+    "name": "North Frodingham Post Office",
+    "lat": 53.962909,
+    "lon": -0.32581,
+    "sequence": 6
+  },
+  {
+    "name": "North Frodingham Main St",
+    "lat": 53.962965,
+    "lon": -0.322089,
+    "sequence": 7
+  },
+  {
+    "name": "Beeford Main Street",
+    "lat": 53.970411,
+    "lon": -0.29552,
+    "sequence": 8
+  },
+  {
+    "name": "Beeford Main Street",
+    "lat": 53.969988,
+    "lon": -0.289134,
+    "sequence": 9
+  },
+  {
+    "name": "Main Street Beeford",
+    "lat": 53.970856,
+    "lon": -0.281963,
+    "sequence": 10
+  },
+  {
+    "name": "Beeford Post Office",
+    "lat": 53.972452,
+    "lon": -0.276042,
+    "sequence": 11
+  },
+  {
+    "name": "Skipsea Village",
+    "lat": 53.97886,
+    "lon": -0.219262,
+    "sequence": 12
+  },
+  {
+    "name": "Skipsea Sands Holiday Park",
+    "lat": 53.98886,
+    "lon": -0.206816,
+    "sequence": 13
+  },
+  {
+    "name": "Skipsea Village",
+    "lat": 53.97886,
+    "lon": -0.219262,
+    "sequence": 14
+  },
+  {
+    "name": "Ulrome Church",
+    "lat": 53.992978,
+    "lon": -0.228103,
+    "sequence": 15
+  },
+  {
+    "name": "Ulrome Main Street",
+    "lat": 53.994501,
+    "lon": -0.221676,
+    "sequence": 16
+  },
+  {
+    "name": "Ulrome (Coastguard Cottages)",
+    "lat": 53.995911,
+    "lon": -0.210068,
+    "sequence": 17
+  },
+  {
+    "name": "Ulrome Main Street",
+    "lat": 53.994402,
+    "lon": -0.221696,
+    "sequence": 18
+  },
+  {
+    "name": "Ulrome Church",
+    "lat": 53.992814,
+    "lon": -0.228552,
+    "sequence": 19
+  },
+  {
+    "name": "Lissett A165",
+    "lat": 54.007601,
+    "lon": -0.248815,
+    "sequence": 20
+  },
+  {
+    "name": "Lissett Village",
+    "lat": 54.006532,
+    "lon": -0.255056,
+    "sequence": 21
+  },
+  {
+    "name": "Barmston Lane End",
+    "lat": 54.01345,
+    "lon": -0.238802,
+    "sequence": 22
+  },
+  {
+    "name": "Barmston Sands Lane",
+    "lat": 54.014828,
+    "lon": -0.226732,
+    "sequence": 23
+  },
+  {
+    "name": "Barmston Lane End",
+    "lat": 54.013421,
+    "lon": -0.238024,
+    "sequence": 24
+  },
+  {
+    "name": "Fraisthorpe Lane End",
+    "lat": 54.041721,
+    "lon": -0.241944,
+    "sequence": 25
+  },
+  {
+    "name": "South Shore Holiday Village",
+    "lat": 54.064884,
+    "lon": -0.217387,
+    "sequence": 26
+  },
+  {
+    "name": "Avocet Way",
+    "lat": 54.07506,
+    "lon": -0.212579,
+    "sequence": 27
+  },
+  {
+    "name": "Bridlington Bessingby Rd",
+    "lat": 54.082875,
+    "lon": -0.202581,
+    "sequence": 28
+  },
+  {
+    "name": "Bridlington Hilderthorpe Rd",
+    "lat": 54.083205,
+    "lon": -0.198822,
+    "sequence": 29
+  },
+  {
+    "name": "Bridlington (Bus Station)",
+    "lat": 54.0838,
+    "lon": -0.189317,
+    "sequence": 30
+  }
+]

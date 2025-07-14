@@ -1,0 +1,116 @@
+[
+  {
+    "name": "Grassington National Park Centre",
+    "lat": 54.069479,
+    "lon": -1.997015,
+    "sequence": 1
+  },
+  {
+    "name": "Elbolton",
+    "lat": 54.068499,
+    "lon": -1.994586,
+    "sequence": 2
+  },
+  {
+    "name": "Hebden Clarendon",
+    "lat": 54.064449,
+    "lon": -1.962409,
+    "sequence": 3
+  },
+  {
+    "name": "Grimwith Reservoir",
+    "lat": 54.063106,
+    "lon": -1.918837,
+    "sequence": 4
+  },
+  {
+    "name": "Stump Cross Caverns",
+    "lat": 54.068218,
+    "lon": -1.866049,
+    "sequence": 5
+  },
+  {
+    "name": "Lily Green",
+    "lat": 54.071219,
+    "lon": -1.843377,
+    "sequence": 6
+  },
+  {
+    "name": "Greenhow Hill",
+    "lat": 54.073501,
+    "lon": -1.829324,
+    "sequence": 7
+  },
+  {
+    "name": "Coldstones Cut",
+    "lat": 54.075593,
+    "lon": -1.804405,
+    "sequence": 8
+  },
+  {
+    "name": "Pateley Bridge King Street",
+    "lat": 54.086302,
+    "lon": -1.761001,
+    "sequence": 9
+  },
+  {
+    "name": "Panorama Walk",
+    "lat": 54.085465,
+    "lon": -1.756756,
+    "sequence": 10
+  },
+  {
+    "name": "Panorama Way",
+    "lat": 54.082535,
+    "lon": -1.75234,
+    "sequence": 11
+  },
+  {
+    "name": "Lupton Bank Top",
+    "lat": 54.079324,
+    "lon": -1.738374,
+    "sequence": 12
+  },
+  {
+    "name": "Blazefield House Farm",
+    "lat": 54.082442,
+    "lon": -1.730238,
+    "sequence": 13
+  },
+  {
+    "name": "Fellbeck Half Moon Inn",
+    "lat": 54.090898,
+    "lon": -1.695432,
+    "sequence": 14
+  },
+  {
+    "name": "Grantley Lane End",
+    "lat": 54.113963,
+    "lon": -1.629318,
+    "sequence": 15
+  },
+  {
+    "name": "Fountains Abbey Visitors Centre",
+    "lat": 54.113672,
+    "lon": -1.584286,
+    "sequence": 16
+  },
+  {
+    "name": "Studley Royal",
+    "lat": 54.128282,
+    "lon": -1.575463,
+    "sequence": 17
+  },
+  {
+    "name": "River Laver Caravan Park",
+    "lat": 54.132419,
+    "lon": -1.544109,
+    "sequence": 18
+  },
+  {
+    "name": "Ripon, Bus Station",
+    "lat": 54.136871,
+    "lon": -1.521745,
+    "sequence": 19
+  }
+]

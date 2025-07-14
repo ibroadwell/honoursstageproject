@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Hutton Buscel Bus Shelter",
+    "lat": 54.244560585,
+    "lon": -0.506418414,
+    "sequence": 1
+  },
+  {
+    "name": "Middle Lane",
+    "lat": 54.245501358,
+    "lon": -0.504726926,
+    "sequence": 2
+  },
+  {
+    "name": "Dale Farm Touring Park",
+    "lat": 54.246953149,
+    "lon": -0.50003938,
+    "sequence": 3
+  },
+  {
+    "name": "Surgery",
+    "lat": 54.246312744,
+    "lon": -0.494092402,
+    "sequence": 4
+  },
+  {
+    "name": "Yedmandale Road",
+    "lat": 54.248862128,
+    "lon": -0.487368966,
+    "sequence": 5
+  },
+  {
+    "name": "Castlegate",
+    "lat": 54.250119834,
+    "lon": -0.483025218,
+    "sequence": 6
+  },
+  {
+    "name": "Moor Lane",
+    "lat": 54.251278749,
+    "lon": -0.478700187,
+    "sequence": 7
+  },
+  {
+    "name": "East Ayton Racecourse Road",
+    "lat": 54.253326787,
+    "lon": -0.473620632,
+    "sequence": 8
+  },
+  {
+    "name": "Betton Rise",
+    "lat": 54.25415312,
+    "lon": -0.470028788,
+    "sequence": 9
+  },
+  {
+    "name": "Falsgrave, Raincliffe Avenue",
+    "lat": 54.277015199,
+    "lon": -0.42640681,
+    "sequence": 10
+  },
+  {
+    "name": "Stepney Avenue",
+    "lat": 54.276695742,
+    "lon": -0.422594579,
+    "sequence": 11
+  },
+  {
+    "name": "Falsgrave, Park Road Junction",
+    "lat": 54.276604655,
+    "lon": -0.419756639,
+    "sequence": 12
+  },
+  {
+    "name": "Falsgrave Road",
+    "lat": 54.276964234,
+    "lon": -0.413599213,
+    "sequence": 13
+  },
+  {
+    "name": "West Square",
+    "lat": 54.279942353,
+    "lon": -0.406326905,
+    "sequence": 14
+  },
+  {
+    "name": "Scarborough, Victoria Street",
+    "lat": 54.283305019,
+    "lon": -0.405044995,
+    "sequence": 15
+  },
+  {
+    "name": "Scarborough, Castle Road",
+    "lat": 54.285048027,
+    "lon": -0.402273909,
+    "sequence": 16
+  },
+  {
+    "name": "Scarborough, Castle Street Stop X",
+    "lat": 54.285704328,
+    "lon": -0.40025139,
+    "sequence": 17
+  },
+  {
+    "name": "Queen Street",
+    "lat": 54.283602801,
+    "lon": -0.398351163,
+    "sequence": 18
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Scarborough Hospital",
+    "lat": 54.281299506,
+    "lon": -0.437226471,
+    "sequence": 1
+  },
+  {
+    "name": "Woodland Ravine",
+    "lat": 54.280870145,
+    "lon": -0.428395026,
+    "sequence": 2
+  },
+  {
+    "name": "Malvern Crescent",
+    "lat": 54.280396374,
+    "lon": -0.423774211,
+    "sequence": 3
+  },
+  {
+    "name": "Harley Close",
+    "lat": 54.278775587,
+    "lon": -0.420118999,
+    "sequence": 4
+  },
+  {
+    "name": "Falsgrave Road",
+    "lat": 54.276964234,
+    "lon": -0.413599213,
+    "sequence": 5
+  },
+  {
+    "name": "West Square",
+    "lat": 54.279863,
+    "lon": -0.406438,
+    "sequence": 6
+  },
+  {
+    "name": "Aberdeen Walk Stop J",
+    "lat": 54.282813076,
+    "lon": -0.403189911,
+    "sequence": 7
+  }
+]

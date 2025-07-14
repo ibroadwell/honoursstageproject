@@ -1,0 +1,302 @@
+[
+  {
+    "name": "Castle Hill Hospital",
+    "lat": 53.778394493,
+    "lon": -0.442783303,
+    "sequence": 1
+  },
+  {
+    "name": "Castle Hill Hospital",
+    "lat": 53.779039047,
+    "lon": -0.444656518,
+    "sequence": 2
+  },
+  {
+    "name": "Castle Hill Hospital",
+    "lat": 53.777909462,
+    "lon": -0.446276612,
+    "sequence": 3
+  },
+  {
+    "name": "Castle Hill Hospital",
+    "lat": 53.777123863,
+    "lon": -0.44600211,
+    "sequence": 4
+  },
+  {
+    "name": "Cottingham Castle Road",
+    "lat": 53.776080728,
+    "lon": -0.444583793,
+    "sequence": 5
+  },
+  {
+    "name": "Castle Hill Hospital Gate 3",
+    "lat": 53.776592772,
+    "lon": -0.440406706,
+    "sequence": 6
+  },
+  {
+    "name": "Cottingham Castle Road",
+    "lat": 53.777121729,
+    "lon": -0.43547009,
+    "sequence": 7
+  },
+  {
+    "name": "Cottingham Burton Road",
+    "lat": 53.777493024,
+    "lon": -0.429492078,
+    "sequence": 8
+  },
+  {
+    "name": "Cottingham Burton Road",
+    "lat": 53.775390399,
+    "lon": -0.426125774,
+    "sequence": 9
+  },
+  {
+    "name": "Cottingham The Parkway",
+    "lat": 53.776617364,
+    "lon": -0.42304471,
+    "sequence": 10
+  },
+  {
+    "name": "Cottingham Southwood Rd",
+    "lat": 53.778950562,
+    "lon": -0.422744764,
+    "sequence": 11
+  },
+  {
+    "name": "Cottingham Baynard Avenue",
+    "lat": 53.780158,
+    "lon": -0.422275,
+    "sequence": 12
+  },
+  {
+    "name": "Cottingham West End Road",
+    "lat": 53.783253958,
+    "lon": -0.42393423,
+    "sequence": 13
+  },
+  {
+    "name": "Cottingham The Lawns",
+    "lat": 53.784364263,
+    "lon": -0.422921189,
+    "sequence": 14
+  },
+  {
+    "name": "Cottingham Northgate",
+    "lat": 53.784803046,
+    "lon": -0.418017175,
+    "sequence": 15
+  },
+  {
+    "name": "Cottingham King Street",
+    "lat": 53.783011908,
+    "lon": -0.41375879,
+    "sequence": 16
+  },
+  {
+    "name": "Cottingham Green Sainsburys",
+    "lat": 53.780748408,
+    "lon": -0.41388969,
+    "sequence": 17
+  },
+  {
+    "name": "Cottingham Newgate Street",
+    "lat": 53.779614595,
+    "lon": -0.411762151,
+    "sequence": 18
+  },
+  {
+    "name": "Cottingham Thwaite Street",
+    "lat": 53.779306691,
+    "lon": -0.407524275,
+    "sequence": 19
+  },
+  {
+    "name": "Cottingham Thwaite Street",
+    "lat": 53.77878069,
+    "lon": -0.403795567,
+    "sequence": 20
+  },
+  {
+    "name": "Cottingham Thwaite Street",
+    "lat": 53.778850055,
+    "lon": -0.399558651,
+    "sequence": 21
+  },
+  {
+    "name": "Cottingham New Village Rd",
+    "lat": 53.779395,
+    "lon": -0.398658,
+    "sequence": 22
+  },
+  {
+    "name": "Cottingham Endyke Lane",
+    "lat": 53.780084,
+    "lon": -0.393031,
+    "sequence": 23
+  },
+  {
+    "name": "Ancourt",
+    "lat": 53.779429,
+    "lon": -0.38911,
+    "sequence": 24
+  },
+  {
+    "name": "Endike Lane/Hall Road",
+    "lat": 53.778805,
+    "lon": -0.384824,
+    "sequence": 25
+  },
+  {
+    "name": "Oldstead Avenue",
+    "lat": 53.778533,
+    "lon": -0.381981,
+    "sequence": 26
+  },
+  {
+    "name": "31st Avenue",
+    "lat": 53.778444,
+    "lon": -0.379344,
+    "sequence": 27
+  },
+  {
+    "name": "Ellerburn Avenue",
+    "lat": 53.77848,
+    "lon": -0.375412,
+    "sequence": 28
+  },
+  {
+    "name": "23rd Avenue",
+    "lat": 53.778553,
+    "lon": -0.371524,
+    "sequence": 29
+  },
+  {
+    "name": "7th Avenue",
+    "lat": 53.778609,
+    "lon": -0.368334,
+    "sequence": 30
+  },
+  {
+    "name": "Lawson Close",
+    "lat": 53.777764,
+    "lon": -0.364998,
+    "sequence": 31
+  },
+  {
+    "name": "St Mary's College",
+    "lat": 53.775018,
+    "lon": -0.364073,
+    "sequence": 32
+  },
+  {
+    "name": "Inglemire Lane",
+    "lat": 53.773238,
+    "lon": -0.363399,
+    "sequence": 33
+  },
+  {
+    "name": "Salmon Grove",
+    "lat": 53.770943,
+    "lon": -0.362547,
+    "sequence": 34
+  },
+  {
+    "name": "Falmouth Street",
+    "lat": 53.76887164,
+    "lon": -0.360928195,
+    "sequence": 35
+  },
+  {
+    "name": "Hull Community Church",
+    "lat": 53.768225,
+    "lon": -0.358313,
+    "sequence": 36
+  },
+  {
+    "name": "Walters Terrace",
+    "lat": 53.766222,
+    "lon": -0.358452,
+    "sequence": 37
+  },
+  {
+    "name": "Alexandra Road",
+    "lat": 53.764633,
+    "lon": -0.358575,
+    "sequence": 38
+  },
+  {
+    "name": "De Grey Street",
+    "lat": 53.762136,
+    "lon": -0.358718,
+    "sequence": 39
+  },
+  {
+    "name": "Melrose Villas",
+    "lat": 53.760789,
+    "lon": -0.358846,
+    "sequence": 40
+  },
+  {
+    "name": "Pearson Park",
+    "lat": 53.758795,
+    "lon": -0.357013,
+    "sequence": 41
+  },
+  {
+    "name": "Princes Avenue (opp Park Avenue)",
+    "lat": 53.757922,
+    "lon": -0.357547,
+    "sequence": 42
+  },
+  {
+    "name": "Park Grove",
+    "lat": 53.755452,
+    "lon": -0.359009,
+    "sequence": 43
+  },
+  {
+    "name": "Welbeck Street",
+    "lat": 53.75282,
+    "lon": -0.360507,
+    "sequence": 44
+  },
+  {
+    "name": "Middleton Street",
+    "lat": 53.751316,
+    "lon": -0.358988,
+    "sequence": 45
+  },
+  {
+    "name": "Albany Street",
+    "lat": 53.750589,
+    "lon": -0.355801,
+    "sequence": 46
+  },
+  {
+    "name": "Morpeth Street",
+    "lat": 53.749824506,
+    "lon": -0.352463816,
+    "sequence": 47
+  },
+  {
+    "name": "Vane Street",
+    "lat": 53.749164549,
+    "lon": -0.349577756,
+    "sequence": 48
+  },
+  {
+    "name": "Prospect Street A",
+    "lat": 53.747308113,
+    "lon": -0.344676269,
+    "sequence": 49
+  },
+  {
+    "name": "Hull Interchange",
+    "lat": 53.744619,
+    "lon": -0.347163,
+    "sequence": 50
+  }
+]

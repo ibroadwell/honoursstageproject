@@ -1,0 +1,242 @@
+[
+  {
+    "name": "Hull Interchange",
+    "lat": 53.744569616,
+    "lon": -0.347513504,
+    "sequence": 1
+  },
+  {
+    "name": "Trafalgar Street",
+    "lat": 53.750298,
+    "lon": -0.347653,
+    "sequence": 2
+  },
+  {
+    "name": "Leonard Street",
+    "lat": 53.752705,
+    "lon": -0.34815,
+    "sequence": 3
+  },
+  {
+    "name": "Wellington Lane",
+    "lat": 53.753624,
+    "lon": -0.348341,
+    "sequence": 4
+  },
+  {
+    "name": "Endeavour School",
+    "lat": 53.755959,
+    "lon": -0.348826,
+    "sequence": 5
+  },
+  {
+    "name": "Cave Street",
+    "lat": 53.758086,
+    "lon": -0.349243,
+    "sequence": 6
+  },
+  {
+    "name": "Grove Street",
+    "lat": 53.759446,
+    "lon": -0.349433,
+    "sequence": 7
+  },
+  {
+    "name": "Pearson Avenue",
+    "lat": 53.760557,
+    "lon": -0.349799,
+    "sequence": 8
+  },
+  {
+    "name": "Lambert Street",
+    "lat": 53.763619,
+    "lon": -0.35156,
+    "sequence": 9
+  },
+  {
+    "name": "Washington Street",
+    "lat": 53.765777,
+    "lon": -0.352917,
+    "sequence": 10
+  },
+  {
+    "name": "Ash Grove",
+    "lat": 53.766992,
+    "lon": -0.353612,
+    "sequence": 11
+  },
+  {
+    "name": "Cottingham Road/Haworth Arms",
+    "lat": 53.768393032,
+    "lon": -0.354862478,
+    "sequence": 12
+  },
+  {
+    "name": "Newland Avenue",
+    "lat": 53.768615643,
+    "lon": -0.359299479,
+    "sequence": 13
+  },
+  {
+    "name": "Waddington Court",
+    "lat": 53.768796436,
+    "lon": -0.362660859,
+    "sequence": 14
+  },
+  {
+    "name": "Ferens Avenue",
+    "lat": 53.768923324,
+    "lon": -0.365371915,
+    "sequence": 15
+  },
+  {
+    "name": "Hull University",
+    "lat": 53.769015351,
+    "lon": -0.367507758,
+    "sequence": 16
+  },
+  {
+    "name": "Barrington Avenue",
+    "lat": 53.769404366,
+    "lon": -0.374305478,
+    "sequence": 17
+  },
+  {
+    "name": "Townend Court",
+    "lat": 53.769571806,
+    "lon": -0.376711572,
+    "sequence": 18
+  },
+  {
+    "name": "Cottingham Grove",
+    "lat": 53.769749003,
+    "lon": -0.379178003,
+    "sequence": 19
+  },
+  {
+    "name": "The Goodfellowship",
+    "lat": 53.769966405,
+    "lon": -0.382629182,
+    "sequence": 20
+  },
+  {
+    "name": "Wensley Avenue",
+    "lat": 53.77052797,
+    "lon": -0.386947268,
+    "sequence": 21
+  },
+  {
+    "name": "Cottingham Hull Road",
+    "lat": 53.773087746,
+    "lon": -0.395498638,
+    "sequence": 22
+  },
+  {
+    "name": "Cottingham Hull Road",
+    "lat": 53.775276131,
+    "lon": -0.397145163,
+    "sequence": 23
+  },
+  {
+    "name": "Cottingham Hull Road",
+    "lat": 53.777655061,
+    "lon": -0.398253435,
+    "sequence": 24
+  },
+  {
+    "name": "Cottingham Thwaite Street",
+    "lat": 53.778604483,
+    "lon": -0.40069106,
+    "sequence": 25
+  },
+  {
+    "name": "Cottingham Thwaite Street",
+    "lat": 53.778568593,
+    "lon": -0.403393849,
+    "sequence": 26
+  },
+  {
+    "name": "Cottingham Thwaite Street",
+    "lat": 53.779161931,
+    "lon": -0.407453872,
+    "sequence": 27
+  },
+  {
+    "name": "Cottingham Newgate Street",
+    "lat": 53.779488812,
+    "lon": -0.4117669,
+    "sequence": 28
+  },
+  {
+    "name": "Cottingham Green Bus Shelter",
+    "lat": 53.781271116,
+    "lon": -0.413991398,
+    "sequence": 29
+  },
+  {
+    "name": "Cottingham Northgate",
+    "lat": 53.784581079,
+    "lon": -0.414822824,
+    "sequence": 30
+  },
+  {
+    "name": "Cottingham Northgate",
+    "lat": 53.784694252,
+    "lon": -0.418628417,
+    "sequence": 31
+  },
+  {
+    "name": "Cottingham Northgate",
+    "lat": 53.784352487,
+    "lon": -0.422026094,
+    "sequence": 32
+  },
+  {
+    "name": "Cottingham West End Rd",
+    "lat": 53.783269933,
+    "lon": -0.42378185,
+    "sequence": 33
+  },
+  {
+    "name": "Cottingham Eppleworth Road",
+    "lat": 53.782762398,
+    "lon": -0.424149966,
+    "sequence": 34
+  },
+  {
+    "name": "Cottingham Eppleworth Road",
+    "lat": 53.782825577,
+    "lon": -0.427593011,
+    "sequence": 35
+  },
+  {
+    "name": "Cottingham Eppleworth Road",
+    "lat": 53.782881907,
+    "lon": -0.430520266,
+    "sequence": 36
+  },
+  {
+    "name": "Cottingham St Margarets Ave",
+    "lat": 53.779802768,
+    "lon": -0.430832466,
+    "sequence": 37
+  },
+  {
+    "name": "Cottingham St Margarets Av",
+    "lat": 53.777950548,
+    "lon": -0.43079533,
+    "sequence": 38
+  },
+  {
+    "name": "Cottingham Castle Road",
+    "lat": 53.777394186,
+    "lon": -0.432242634,
+    "sequence": 39
+  },
+  {
+    "name": "Castle Hill Hospital Gate 3",
+    "lat": 53.776696936,
+    "lon": -0.438050598,
+    "sequence": 40
+  }
+]

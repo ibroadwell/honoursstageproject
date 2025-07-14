@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Elloughton (EY Depot)",
+    "lat": 53.740189,
+    "lon": -0.569575,
+    "sequence": 1
+  },
+  {
+    "name": "Beech Road/Hunter Road",
+    "lat": 53.735727,
+    "lon": -0.564753,
+    "sequence": 2
+  },
+  {
+    "name": "Brough Elloughton Road",
+    "lat": 53.732103,
+    "lon": -0.572093,
+    "sequence": 3
+  },
+  {
+    "name": "Brough Elloughton Road",
+    "lat": 53.730823,
+    "lon": -0.572621,
+    "sequence": 4
+  },
+  {
+    "name": "Brough (Morrisons)",
+    "lat": 53.729912,
+    "lon": -0.570045,
+    "sequence": 5
+  },
+  {
+    "name": "Elloughton Welton Road",
+    "lat": 53.729901,
+    "lon": -0.563891,
+    "sequence": 6
+  },
+  {
+    "name": "Loxley Way",
+    "lat": 53.72703,
+    "lon": -0.558305,
+    "sequence": 7
+  },
+  {
+    "name": "Myrtle Way",
+    "lat": 53.727189,
+    "lon": -0.564893,
+    "sequence": 8
+  },
+  {
+    "name": "Brough Moor Road",
+    "lat": 53.726777,
+    "lon": -0.561239,
+    "sequence": 9
+  },
+  {
+    "name": "Moor Road (Aldi)",
+    "lat": 53.7235,
+    "lon": -0.565337,
+    "sequence": 10
+  },
+  {
+    "name": "Skillings Lane",
+    "lat": 53.727601,
+    "lon": -0.573791,
+    "sequence": 11
+  },
+  {
+    "name": "Brough Elloughton Road",
+    "lat": 53.730584,
+    "lon": -0.572933,
+    "sequence": 12
+  },
+  {
+    "name": "Brough Elloughton Road",
+    "lat": 53.732435,
+    "lon": -0.572082,
+    "sequence": 13
+  },
+  {
+    "name": "Beech Road/Hunter Road",
+    "lat": 53.735727,
+    "lon": -0.564753,
+    "sequence": 14
+  },
+  {
+    "name": "Elloughton (EY Depot)",
+    "lat": 53.740189,
+    "lon": -0.569575,
+    "sequence": 15
+  },
+  {
+    "name": "Elloughton Stockbridge Road",
+    "lat": 53.740868,
+    "lon": -0.576708,
+    "sequence": 16
+  },
+  {
+    "name": "Nr Ellerker South Cave Rd",
+    "lat": 53.755945,
+    "lon": -0.591382,
+    "sequence": 17
+  },
+  {
+    "name": "South Cave (West End)",
+    "lat": 53.765856,
+    "lon": -0.613428,
+    "sequence": 18
+  },
+  {
+    "name": "South Cave Main Street",
+    "lat": 53.76619,
+    "lon": -0.613614,
+    "sequence": 19
+  },
+  {
+    "name": "South Cave Church Street",
+    "lat": 53.767534,
+    "lon": -0.605468,
+    "sequence": 20
+  },
+  {
+    "name": "South Cave Church Street",
+    "lat": 53.76846,
+    "lon": -0.602433,
+    "sequence": 21
+  },
+  {
+    "name": "South Cave (Market Place)",
+    "lat": 53.769093,
+    "lon": -0.600364,
+    "sequence": 22
+  },
+  {
+    "name": "Nr Ellerker Brantingham Rd",
+    "lat": 53.755163,
+    "lon": -0.590695,
+    "sequence": 23
+  },
+  {
+    "name": "Elloughton Stockbridge Rd",
+    "lat": 53.741488,
+    "lon": -0.57975,
+    "sequence": 24
+  },
+  {
+    "name": "Elloughton (EY Depot)",
+    "lat": 53.740189,
+    "lon": -0.569575,
+    "sequence": 25
+  }
+]

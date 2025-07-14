@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Ripon, Bus Station",
+    "lat": 54.136871,
+    "lon": -1.521745,
+    "sequence": 1
+  },
+  {
+    "name": "Studley Royal",
+    "lat": 54.128237,
+    "lon": -1.575326,
+    "sequence": 2
+  },
+  {
+    "name": "Fountains Abbey Visitors Centre",
+    "lat": 54.113672,
+    "lon": -1.584286,
+    "sequence": 3
+  }
+]

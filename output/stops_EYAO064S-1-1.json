@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Seamer Road Park and Ride Site",
+    "lat": 54.255773,
+    "lon": -0.417237,
+    "sequence": 1
+  },
+  {
+    "name": "Edgehill (B&Q)",
+    "lat": 54.260296,
+    "lon": -0.416711,
+    "sequence": 2
+  },
+  {
+    "name": "Edgehill Road",
+    "lat": 54.26428,
+    "lon": -0.416236,
+    "sequence": 3
+  },
+  {
+    "name": "Seamer Road LiDL",
+    "lat": 54.266209,
+    "lon": -0.416653,
+    "sequence": 4
+  },
+  {
+    "name": "Rosebery Avenue",
+    "lat": 54.270378,
+    "lon": -0.415803,
+    "sequence": 5
+  },
+  {
+    "name": "Seamer Street",
+    "lat": 54.272139,
+    "lon": -0.415735,
+    "sequence": 6
+  },
+  {
+    "name": "Opp Coventry Uni",
+    "lat": 54.274660499,
+    "lon": -0.410662115,
+    "sequence": 7
+  },
+  {
+    "name": "Valley Road/Coventry University Campus",
+    "lat": 54.274759,
+    "lon": -0.408554,
+    "sequence": 8
+  },
+  {
+    "name": "Aquarium Top Stop Y",
+    "lat": 54.278893077,
+    "lon": -0.39904072,
+    "sequence": 9
+  },
+  {
+    "name": "Harcourt Place Stop X",
+    "lat": 54.281101388,
+    "lon": -0.399051564,
+    "sequence": 10
+  },
+  {
+    "name": "St Thomas Street Stop C",
+    "lat": 54.283471478,
+    "lon": -0.399969229,
+    "sequence": 11
+  },
+  {
+    "name": "York Place",
+    "lat": 54.28049,
+    "lon": -0.402865,
+    "sequence": 12
+  },
+  {
+    "name": "Valley Road/Coventry University Campus",
+    "lat": 54.274762,
+    "lon": -0.40817,
+    "sequence": 13
+  },
+  {
+    "name": "Seamer Street",
+    "lat": 54.271318,
+    "lon": -0.415567,
+    "sequence": 14
+  },
+  {
+    "name": "Rosebery Avenue",
+    "lat": 54.269675,
+    "lon": -0.415691,
+    "sequence": 15
+  },
+  {
+    "name": "Seamer Road LiDL",
+    "lat": 54.266431,
+    "lon": -0.416399,
+    "sequence": 16
+  },
+  {
+    "name": "Edgehill (B&Q)",
+    "lat": 54.262061,
+    "lon": -0.41626,
+    "sequence": 17
+  },
+  {
+    "name": "Seamer Road Park and Ride Site",
+    "lat": 54.255773,
+    "lon": -0.417237,
+    "sequence": 18
+  }
+]

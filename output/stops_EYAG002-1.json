@@ -1,0 +1,50 @@
+[
+  {
+    "name": "North Street",
+    "lat": 53.702929,
+    "lon": -0.869782,
+    "sequence": 1
+  },
+  {
+    "name": "Goole Hook Road",
+    "lat": 53.705789,
+    "lon": -0.860434,
+    "sequence": 2
+  },
+  {
+    "name": "Wentworth Drive",
+    "lat": 53.709602,
+    "lon": -0.856816,
+    "sequence": 3
+  },
+  {
+    "name": "Goole Hook Road",
+    "lat": 53.710588,
+    "lon": -0.851835,
+    "sequence": 4
+  },
+  {
+    "name": "Fairfield Estate",
+    "lat": 53.712122,
+    "lon": -0.853445,
+    "sequence": 5
+  },
+  {
+    "name": "Goole Hook Road",
+    "lat": 53.710559,
+    "lon": -0.851578,
+    "sequence": 6
+  },
+  {
+    "name": "Lime Tree Avenue",
+    "lat": 53.706988,
+    "lon": -0.867386,
+    "sequence": 7
+  },
+  {
+    "name": "Goole North Street",
+    "lat": 53.702766,
+    "lon": -0.86965,
+    "sequence": 8
+  }
+]

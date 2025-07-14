@@ -1,0 +1,248 @@
+[
+  {
+    "name": "Railway Station",
+    "lat": 54.279795773,
+    "lon": -0.406117519,
+    "sequence": 1
+  },
+  {
+    "name": "Falsgrave Road",
+    "lat": 54.276791321,
+    "lon": -0.413436906,
+    "sequence": 2
+  },
+  {
+    "name": "Westbourne Park",
+    "lat": 54.274518,
+    "lon": -0.416197,
+    "sequence": 3
+  },
+  {
+    "name": "Seamer Street",
+    "lat": 54.271318,
+    "lon": -0.415567,
+    "sequence": 4
+  },
+  {
+    "name": "Rosebery Avenue",
+    "lat": 54.269675,
+    "lon": -0.415691,
+    "sequence": 5
+  },
+  {
+    "name": "Seamer Road LiDL",
+    "lat": 54.266431,
+    "lon": -0.416399,
+    "sequence": 6
+  },
+  {
+    "name": "Edgehill (B&Q)",
+    "lat": 54.262061,
+    "lon": -0.41626,
+    "sequence": 7
+  },
+  {
+    "name": "Stoney Haggs Road",
+    "lat": 54.254397,
+    "lon": -0.419255,
+    "sequence": 8
+  },
+  {
+    "name": "Mere Valley",
+    "lat": 54.243476,
+    "lon": -0.419933,
+    "sequence": 9
+  },
+  {
+    "name": "Crossgates (Crab Lane)",
+    "lat": 54.241519008,
+    "lon": -0.424934231,
+    "sequence": 10
+  },
+  {
+    "name": "Seamer Crossroads",
+    "lat": 54.240979291,
+    "lon": -0.438719932,
+    "sequence": 11
+  },
+  {
+    "name": "Seamer Roundabout",
+    "lat": 54.240916396,
+    "lon": -0.443586897,
+    "sequence": 12
+  },
+  {
+    "name": "Irton Main Street",
+    "lat": 54.242272264,
+    "lon": -0.446267488,
+    "sequence": 13
+  },
+  {
+    "name": "Porrit Lane",
+    "lat": 54.24493271,
+    "lon": -0.45044938,
+    "sequence": 14
+  },
+  {
+    "name": "East Ayton Seamer Road",
+    "lat": 54.250730282,
+    "lon": -0.475128641,
+    "sequence": 15
+  },
+  {
+    "name": "East Ayton (Main Street)",
+    "lat": 54.250764019,
+    "lon": -0.477798173,
+    "sequence": 16
+  },
+  {
+    "name": "Castlegate",
+    "lat": 54.250015795,
+    "lon": -0.482614613,
+    "sequence": 17
+  },
+  {
+    "name": "Methodist Church",
+    "lat": 54.248888753,
+    "lon": -0.485909878,
+    "sequence": 18
+  },
+  {
+    "name": "Surgery",
+    "lat": 54.246203018,
+    "lon": -0.493942923,
+    "sequence": 19
+  },
+  {
+    "name": "St Helen's Holiday Park",
+    "lat": 54.237931052,
+    "lon": -0.516186738,
+    "sequence": 20
+  },
+  {
+    "name": "Wykeham (Cross Roads)",
+    "lat": 54.236701771,
+    "lon": -0.521478478,
+    "sequence": 21
+  },
+  {
+    "name": "Brompton Sawdon Lane",
+    "lat": 54.22764582,
+    "lon": -0.549936728,
+    "sequence": 22
+  },
+  {
+    "name": "Brompton (Cayley Arms)",
+    "lat": 54.227069394,
+    "lon": -0.552275927,
+    "sequence": 23
+  },
+  {
+    "name": "West Brow",
+    "lat": 54.227400269,
+    "lon": -0.558689387,
+    "sequence": 24
+  },
+  {
+    "name": "Wydale Lane End",
+    "lat": 54.226848243,
+    "lon": -0.567421862,
+    "sequence": 25
+  },
+  {
+    "name": "Barkers Lane",
+    "lat": 54.226780818,
+    "lon": -0.582242802,
+    "sequence": 26
+  },
+  {
+    "name": "Snainton High Street",
+    "lat": 54.227432664,
+    "lon": -0.585702736,
+    "sequence": 27
+  },
+  {
+    "name": "Snainton (Station Rd)",
+    "lat": 54.228318341,
+    "lon": -0.590719556,
+    "sequence": 28
+  },
+  {
+    "name": "Ebberston (A170)",
+    "lat": 54.23525211,
+    "lon": -0.622429201,
+    "sequence": 29
+  },
+  {
+    "name": "Allerston (Cayley Arms)",
+    "lat": 54.235131018,
+    "lon": -0.656815974,
+    "sequence": 30
+  },
+  {
+    "name": "Wilton (Village Hall)",
+    "lat": 54.235061218,
+    "lon": -0.681428494,
+    "sequence": 31
+  },
+  {
+    "name": "Hilltop",
+    "lat": 54.237856788,
+    "lon": -0.707178738,
+    "sequence": 32
+  },
+  {
+    "name": "Rectory Lane",
+    "lat": 54.236984081,
+    "lon": -0.713819143,
+    "sequence": 33
+  },
+  {
+    "name": "Thornton Le Dale",
+    "lat": 54.236282476,
+    "lon": -0.721677146,
+    "sequence": 34
+  },
+  {
+    "name": "Thornton Road Industrial Est",
+    "lat": 54.238546695,
+    "lon": -0.759143398,
+    "sequence": 35
+  },
+  {
+    "name": "Thornton Road",
+    "lat": 54.239924115,
+    "lon": -0.76286152,
+    "sequence": 36
+  },
+  {
+    "name": "Eastfield Road",
+    "lat": 54.240626432,
+    "lon": -0.766492607,
+    "sequence": 37
+  },
+  {
+    "name": "Eastcroft",
+    "lat": 54.241628658,
+    "lon": -0.769577811,
+    "sequence": 38
+  },
+  {
+    "name": "The Royal Oak",
+    "lat": 54.243474772,
+    "lon": -0.774341522,
+    "sequence": 39
+  },
+  {
+    "name": "Potter Hill",
+    "lat": 54.247300598,
+    "lon": -0.783804889,
+    "sequence": 40
+  },
+  {
+    "name": "Pickering (L/Lumley)",
+    "lat": 54.251447217,
+    "lon": -0.784798622,
+    "sequence": 41
+  }
+]

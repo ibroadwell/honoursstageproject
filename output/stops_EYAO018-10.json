@@ -1,0 +1,284 @@
+[
+  {
+    "name": "Holme on Spalding Moor Runner End",
+    "lat": 53.835,
+    "lon": -0.778244,
+    "sequence": 1
+  },
+  {
+    "name": "Springfield",
+    "lat": 53.832234,
+    "lon": -0.777687,
+    "sequence": 2
+  },
+  {
+    "name": "Holme on Spalding Moor Back Lane",
+    "lat": 53.828864,
+    "lon": -0.76721,
+    "sequence": 3
+  },
+  {
+    "name": "Moor End",
+    "lat": 53.830093,
+    "lon": -0.766019,
+    "sequence": 4
+  },
+  {
+    "name": "Petrol Station",
+    "lat": 53.834974,
+    "lon": -0.765222,
+    "sequence": 5
+  },
+  {
+    "name": "Holme on Spalding Moor Village Hall",
+    "lat": 53.836392,
+    "lon": -0.768493,
+    "sequence": 6
+  },
+  {
+    "name": "Primary School",
+    "lat": 53.835604,
+    "lon": -0.776722,
+    "sequence": 7
+  },
+  {
+    "name": "Pear Tree Farm",
+    "lat": 53.836238,
+    "lon": -0.785077,
+    "sequence": 8
+  },
+  {
+    "name": "Pullet Farm",
+    "lat": 53.837162,
+    "lon": -0.788531,
+    "sequence": 9
+  },
+  {
+    "name": "Foggathorpe Crossroads",
+    "lat": 53.829374,
+    "lon": -0.854956,
+    "sequence": 10
+  },
+  {
+    "name": "Harlthorpe Hall",
+    "lat": 53.827357,
+    "lon": -0.880247,
+    "sequence": 11
+  },
+  {
+    "name": "Highfield Corner House",
+    "lat": 53.819187,
+    "lon": -0.900759,
+    "sequence": 12
+  },
+  {
+    "name": "Bubwith Vine Gardens",
+    "lat": 53.818158,
+    "lon": -0.908153,
+    "sequence": 13
+  },
+  {
+    "name": "Bubwith Highfield Rd",
+    "lat": 53.81816,
+    "lon": -0.913333,
+    "sequence": 14
+  },
+  {
+    "name": "Bubwith (Chip Shop)",
+    "lat": 53.818434,
+    "lon": -0.916744,
+    "sequence": 15
+  },
+  {
+    "name": "Bubwith White Swan",
+    "lat": 53.818727,
+    "lon": -0.920336,
+    "sequence": 16
+  },
+  {
+    "name": "Derwent Cottage Farm l e",
+    "lat": 53.820921,
+    "lon": -0.939587,
+    "sequence": 17
+  },
+  {
+    "name": "Menthorpe Lane",
+    "lat": 53.823461,
+    "lon": -0.958665,
+    "sequence": 18
+  },
+  {
+    "name": "North Duffield Post Office",
+    "lat": 53.825131,
+    "lon": -0.960538,
+    "sequence": 19
+  },
+  {
+    "name": "King's Arms",
+    "lat": 53.826371,
+    "lon": -0.962588,
+    "sequence": 20
+  },
+  {
+    "name": "Plantation House",
+    "lat": 53.834483,
+    "lon": -0.979833,
+    "sequence": 21
+  },
+  {
+    "name": "Skipwith Village Green",
+    "lat": 53.838872,
+    "lon": -0.991884,
+    "sequence": 22
+  },
+  {
+    "name": "Bonby Lane Cottage",
+    "lat": 53.846491,
+    "lon": -0.991533,
+    "sequence": 23
+  },
+  {
+    "name": "Old Station House",
+    "lat": 53.860185,
+    "lon": -0.97089,
+    "sequence": 24
+  },
+  {
+    "name": "Old Post Office",
+    "lat": 53.863479,
+    "lon": -0.952623,
+    "sequence": 25
+  },
+  {
+    "name": "Thorganby Jefferson Arms",
+    "lat": 53.869278,
+    "lon": -0.950775,
+    "sequence": 26
+  },
+  {
+    "name": "Wheldrake Ings",
+    "lat": 53.893947,
+    "lon": -0.95142,
+    "sequence": 27
+  },
+  {
+    "name": "Derwent Park",
+    "lat": 53.897251,
+    "lon": -0.956162,
+    "sequence": 28
+  },
+  {
+    "name": "Beck Lane",
+    "lat": 53.89692,
+    "lon": -0.958407,
+    "sequence": 29
+  },
+  {
+    "name": "Wheldrake Wenlock Arms",
+    "lat": 53.896267,
+    "lon": -0.963932,
+    "sequence": 30
+  },
+  {
+    "name": "Wheldrake Post Office",
+    "lat": 53.896097,
+    "lon": -0.965017,
+    "sequence": 31
+  },
+  {
+    "name": "Alice Hawthorne",
+    "lat": 53.894757,
+    "lon": -0.969159,
+    "sequence": 32
+  },
+  {
+    "name": "North Lane",
+    "lat": 53.894096,
+    "lon": -0.972827,
+    "sequence": 33
+  },
+  {
+    "name": "Crockey Hill",
+    "lat": 53.911216,
+    "lon": -1.04548,
+    "sequence": 34
+  },
+  {
+    "name": "Forest Farm",
+    "lat": 53.91793,
+    "lon": -1.059061,
+    "sequence": 35
+  },
+  {
+    "name": "Persimmon House",
+    "lat": 53.923175,
+    "lon": -1.06546,
+    "sequence": 36
+  },
+  {
+    "name": "Naburn Lane End",
+    "lat": 53.928057,
+    "lon": -1.069204,
+    "sequence": 37
+  },
+  {
+    "name": "Pasture Farm Close",
+    "lat": 53.932862,
+    "lon": -1.070986,
+    "sequence": 38
+  },
+  {
+    "name": "Main Street",
+    "lat": 53.935657,
+    "lon": -1.072082,
+    "sequence": 39
+  },
+  {
+    "name": "Fulford Church",
+    "lat": 53.93815,
+    "lon": -1.073671,
+    "sequence": 40
+  },
+  {
+    "name": "Broadway West",
+    "lat": 53.941247,
+    "lon": -1.074426,
+    "sequence": 41
+  },
+  {
+    "name": "Imphal Barracks",
+    "lat": 53.943537,
+    "lon": -1.074177,
+    "sequence": 42
+  },
+  {
+    "name": "Alma Terrace",
+    "lat": 53.946943,
+    "lon": -1.07401,
+    "sequence": 43
+  },
+  {
+    "name": "Howard Street",
+    "lat": 53.949544,
+    "lon": -1.074486,
+    "sequence": 44
+  },
+  {
+    "name": "Fewster Way",
+    "lat": 53.953037,
+    "lon": -1.07642,
+    "sequence": 45
+  },
+  {
+    "name": "Ryedale Building",
+    "lat": 53.955945,
+    "lon": -1.077087,
+    "sequence": 46
+  },
+  {
+    "name": "York Piccadilly",
+    "lat": 53.95677,
+    "lon": -1.077907,
+    "sequence": 47
+  }
+]

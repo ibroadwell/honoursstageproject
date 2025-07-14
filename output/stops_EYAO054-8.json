@@ -1,0 +1,248 @@
+[
+  {
+    "name": "Castle Hill Hospital Gate 3",
+    "lat": 53.776696936,
+    "lon": -0.438050598,
+    "sequence": 1
+  },
+  {
+    "name": "Cottingham Castle Road",
+    "lat": 53.776385031,
+    "lon": -0.441021435,
+    "sequence": 2
+  },
+  {
+    "name": "Cottingham Castle Road",
+    "lat": 53.775892,
+    "lon": -0.445274,
+    "sequence": 3
+  },
+  {
+    "name": "Willerby Business Park",
+    "lat": 53.771396061,
+    "lon": -0.447943494,
+    "sequence": 4
+  },
+  {
+    "name": "Willerby Shopping Park",
+    "lat": 53.762989159,
+    "lon": -0.455429331,
+    "sequence": 5
+  },
+  {
+    "name": "Willerby Great Gutter Lane",
+    "lat": 53.761931869,
+    "lon": -0.453602169,
+    "sequence": 6
+  },
+  {
+    "name": "Willerby Great Gutter Lane",
+    "lat": 53.762023591,
+    "lon": -0.450959138,
+    "sequence": 7
+  },
+  {
+    "name": "Willerby Main Street",
+    "lat": 53.761675593,
+    "lon": -0.448377817,
+    "sequence": 8
+  },
+  {
+    "name": "Willerby Main Street",
+    "lat": 53.759366232,
+    "lon": -0.447052182,
+    "sequence": 9
+  },
+  {
+    "name": "Willerby Kingston Road",
+    "lat": 53.757235763,
+    "lon": -0.445659409,
+    "sequence": 10
+  },
+  {
+    "name": "Willerby Kingston Road",
+    "lat": 53.755941543,
+    "lon": -0.441520747,
+    "sequence": 11
+  },
+  {
+    "name": "Willerby Kingston Road",
+    "lat": 53.755022468,
+    "lon": -0.43789929,
+    "sequence": 12
+  },
+  {
+    "name": "Willerby Gorton Road",
+    "lat": 53.753152,
+    "lon": -0.435785,
+    "sequence": 13
+  },
+  {
+    "name": "Willerby Gorton Road",
+    "lat": 53.750685,
+    "lon": -0.437529,
+    "sequence": 14
+  },
+  {
+    "name": "Anlaby Springfield Way",
+    "lat": 53.74851,
+    "lon": -0.436169,
+    "sequence": 15
+  },
+  {
+    "name": "Anlaby Springfield Way",
+    "lat": 53.748058,
+    "lon": -0.433957,
+    "sequence": 16
+  },
+  {
+    "name": "Springfield Way, Opp Morrisons",
+    "lat": 53.747147,
+    "lon": -0.427515,
+    "sequence": 17
+  },
+  {
+    "name": "Willerby Springfield Way",
+    "lat": 53.74706,
+    "lon": -0.424319,
+    "sequence": 18
+  },
+  {
+    "name": "Anlaby Hull Road",
+    "lat": 53.745024,
+    "lon": -0.416434,
+    "sequence": 19
+  },
+  {
+    "name": "Anlaby Hull Road",
+    "lat": 53.744468,
+    "lon": -0.413133,
+    "sequence": 20
+  },
+  {
+    "name": "Trenton Avenue",
+    "lat": 53.744324,
+    "lon": -0.40906,
+    "sequence": 21
+  },
+  {
+    "name": "Malham Avenue",
+    "lat": 53.74452,
+    "lon": -0.405549,
+    "sequence": 22
+  },
+  {
+    "name": "Trinity House",
+    "lat": 53.744758,
+    "lon": -0.400506,
+    "sequence": 23
+  },
+  {
+    "name": "Arcon Drive",
+    "lat": 53.744794,
+    "lon": -0.39782,
+    "sequence": 24
+  },
+  {
+    "name": "Calvert Lane",
+    "lat": 53.744914,
+    "lon": -0.39266,
+    "sequence": 25
+  },
+  {
+    "name": "Cardigan Road",
+    "lat": 53.743853,
+    "lon": -0.388591,
+    "sequence": 26
+  },
+  {
+    "name": "Silver Cod",
+    "lat": 53.743737,
+    "lon": -0.383364,
+    "sequence": 27
+  },
+  {
+    "name": "De La Pole Avenue",
+    "lat": 53.743739,
+    "lon": -0.380164,
+    "sequence": 28
+  },
+  {
+    "name": "Wenlock Barracks",
+    "lat": 53.743816438,
+    "lon": -0.375930256,
+    "sequence": 29
+  },
+  {
+    "name": "Anlaby Road Stadium",
+    "lat": 53.743995334,
+    "lon": -0.371889697,
+    "sequence": 30
+  },
+  {
+    "name": "Arnold Street",
+    "lat": 53.743433119,
+    "lon": -0.3642688,
+    "sequence": 31
+  },
+  {
+    "name": "Gladstone Street",
+    "lat": 53.743276407,
+    "lon": -0.360983258,
+    "sequence": 32
+  },
+  {
+    "name": "Hull Royal Infirmary",
+    "lat": 53.743258,
+    "lon": -0.358058,
+    "sequence": 33
+  },
+  {
+    "name": "Eye Clinic",
+    "lat": 53.74305,
+    "lon": -0.353351,
+    "sequence": 34
+  },
+  {
+    "name": "Park Street",
+    "lat": 53.743017,
+    "lon": -0.350319,
+    "sequence": 35
+  },
+  {
+    "name": "Midland Street",
+    "lat": 53.74319,
+    "lon": -0.346521,
+    "sequence": 36
+  },
+  {
+    "name": "Carr Lane (opp Primark)",
+    "lat": 53.743612,
+    "lon": -0.340045,
+    "sequence": 37
+  },
+  {
+    "name": "Queens Gardens",
+    "lat": 53.744246443,
+    "lon": -0.33844277,
+    "sequence": 38
+  },
+  {
+    "name": "Bond Street E",
+    "lat": 53.745981,
+    "lon": -0.339709,
+    "sequence": 39
+  },
+  {
+    "name": "Albion Street D",
+    "lat": 53.746537,
+    "lon": -0.341583,
+    "sequence": 40
+  },
+  {
+    "name": "Hull Interchange",
+    "lat": 53.744677,
+    "lon": -0.346812,
+    "sequence": 41
+  }
+]

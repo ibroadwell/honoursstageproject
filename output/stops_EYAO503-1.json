@@ -1,0 +1,158 @@
+[
+  {
+    "name": "Bridlington Bus Station",
+    "lat": 54.083897,
+    "lon": -0.189236,
+    "sequence": 1
+  },
+  {
+    "name": "Bridlington Promenade",
+    "lat": 54.085165905,
+    "lon": -0.186918394,
+    "sequence": 2
+  },
+  {
+    "name": "Trinity Rd/Flamborough Rd",
+    "lat": 54.086940167,
+    "lon": -0.185954248,
+    "sequence": 3
+  },
+  {
+    "name": "Bridlington Quay Road",
+    "lat": 54.085151,
+    "lon": -0.196062,
+    "sequence": 4
+  },
+  {
+    "name": "Quay Road",
+    "lat": 54.085625,
+    "lon": -0.199542,
+    "sequence": 5
+  },
+  {
+    "name": "Bridlington Quay Road",
+    "lat": 54.08743,
+    "lon": -0.202446,
+    "sequence": 6
+  },
+  {
+    "name": "Bridlington Quay Road",
+    "lat": 54.088676,
+    "lon": -0.203401,
+    "sequence": 7
+  },
+  {
+    "name": "Bridlington E R College",
+    "lat": 54.090994116,
+    "lon": -0.196114037,
+    "sequence": 8
+  },
+  {
+    "name": "Bridlington Hustler Road",
+    "lat": 54.09536,
+    "lon": -0.183369,
+    "sequence": 9
+  },
+  {
+    "name": "Bridlington Sewerby Road",
+    "lat": 54.097214,
+    "lon": -0.183518,
+    "sequence": 10
+  },
+  {
+    "name": "Bridlington Sewerby Road",
+    "lat": 54.098464,
+    "lon": -0.178845,
+    "sequence": 11
+  },
+  {
+    "name": "Bridlington Viking Road",
+    "lat": 54.099819,
+    "lon": -0.175711,
+    "sequence": 12
+  },
+  {
+    "name": "Bridlington Viking Road",
+    "lat": 54.101014,
+    "lon": -0.173854,
+    "sequence": 13
+  },
+  {
+    "name": "Bridlington Viking Road",
+    "lat": 54.103359,
+    "lon": -0.173781,
+    "sequence": 14
+  },
+  {
+    "name": "Bridlington Martongate",
+    "lat": 54.101927,
+    "lon": -0.18192,
+    "sequence": 15
+  },
+  {
+    "name": "The Crayke",
+    "lat": 54.105371,
+    "lon": -0.184416,
+    "sequence": 16
+  },
+  {
+    "name": "Viking Road (Marton Gate)",
+    "lat": 54.105019,
+    "lon": -0.174228,
+    "sequence": 17
+  },
+  {
+    "name": "Bridlington Sewerby Road",
+    "lat": 54.097008,
+    "lon": -0.183557,
+    "sequence": 18
+  },
+  {
+    "name": "Hustler Road",
+    "lat": 54.095591,
+    "lon": -0.183833,
+    "sequence": 19
+  },
+  {
+    "name": "Bridlington E R College",
+    "lat": 54.090902452,
+    "lon": -0.195995687,
+    "sequence": 20
+  },
+  {
+    "name": "Bridlington Queensgate",
+    "lat": 54.089532,
+    "lon": -0.202921,
+    "sequence": 21
+  },
+  {
+    "name": "Bridlington Quay Road",
+    "lat": 54.087089,
+    "lon": -0.201864,
+    "sequence": 22
+  },
+  {
+    "name": "Bridlington Quay Road",
+    "lat": 54.085609,
+    "lon": -0.199039,
+    "sequence": 23
+  },
+  {
+    "name": "Bridlington Quay Road",
+    "lat": 54.085104,
+    "lon": -0.195376,
+    "sequence": 24
+  },
+  {
+    "name": "Bridlington Prospect Street",
+    "lat": 54.084284244,
+    "lon": -0.192842886,
+    "sequence": 25
+  },
+  {
+    "name": "Bridlington Bus Station",
+    "lat": 54.083938,
+    "lon": -0.189525,
+    "sequence": 26
+  }
+]

@@ -1,0 +1,164 @@
+[
+  {
+    "name": "Hull Interchange",
+    "lat": 53.744677,
+    "lon": -0.346812,
+    "sequence": 1
+  },
+  {
+    "name": "Albion Steet A",
+    "lat": 53.746628565,
+    "lon": -0.342337217,
+    "sequence": 2
+  },
+  {
+    "name": "Monument Bridge",
+    "lat": 53.743704,
+    "lon": -0.338252,
+    "sequence": 3
+  },
+  {
+    "name": "Carr Lane D",
+    "lat": 53.743383,
+    "lon": -0.342298,
+    "sequence": 4
+  },
+  {
+    "name": "Pease Street",
+    "lat": 53.743005,
+    "lon": -0.347469,
+    "sequence": 5
+  },
+  {
+    "name": "Fountain Street",
+    "lat": 53.742885,
+    "lon": -0.35316,
+    "sequence": 6
+  },
+  {
+    "name": "Hull Royal Infirmary",
+    "lat": 53.743036,
+    "lon": -0.356899,
+    "sequence": 7
+  },
+  {
+    "name": "Coltman Street",
+    "lat": 53.743187894,
+    "lon": -0.362109891,
+    "sequence": 8
+  },
+  {
+    "name": "Saner Street",
+    "lat": 53.743272549,
+    "lon": -0.365018068,
+    "sequence": 9
+  },
+  {
+    "name": "Anlaby Road Stadium",
+    "lat": 53.743723817,
+    "lon": -0.372415771,
+    "sequence": 10
+  },
+  {
+    "name": "Sandringham Street",
+    "lat": 53.743719553,
+    "lon": -0.374751197,
+    "sequence": 11
+  },
+  {
+    "name": "Plane Street",
+    "lat": 53.743606,
+    "lon": -0.378941,
+    "sequence": 12
+  },
+  {
+    "name": "Stirling Street",
+    "lat": 53.743619,
+    "lon": -0.381913,
+    "sequence": 13
+  },
+  {
+    "name": "Wheeler Street",
+    "lat": 53.743398,
+    "lon": -0.385515,
+    "sequence": 14
+  },
+  {
+    "name": "Meadowbank Road",
+    "lat": 53.743546,
+    "lon": -0.388542,
+    "sequence": 15
+  },
+  {
+    "name": "St Martin`s Court",
+    "lat": 53.744662,
+    "lon": -0.393989,
+    "sequence": 16
+  },
+  {
+    "name": "Belgrave Drive",
+    "lat": 53.744476,
+    "lon": -0.397514,
+    "sequence": 17
+  },
+  {
+    "name": "East Ella Drive",
+    "lat": 53.744409,
+    "lon": -0.401262,
+    "sequence": 18
+  },
+  {
+    "name": "Plantation Drive",
+    "lat": 53.744215,
+    "lon": -0.405637,
+    "sequence": 19
+  },
+  {
+    "name": "Trenton Avenue",
+    "lat": 53.744015,
+    "lon": -0.410209,
+    "sequence": 20
+  },
+  {
+    "name": "Anlaby Hull Road",
+    "lat": 53.744516,
+    "lon": -0.414072,
+    "sequence": 21
+  },
+  {
+    "name": "Anlaby Hull Road",
+    "lat": 53.74457,
+    "lon": -0.418164,
+    "sequence": 22
+  },
+  {
+    "name": "Anlaby Hull Road",
+    "lat": 53.744373,
+    "lon": -0.422342,
+    "sequence": 23
+  },
+  {
+    "name": "Anlaby Hull Road",
+    "lat": 53.744939558,
+    "lon": -0.42642995,
+    "sequence": 24
+  },
+  {
+    "name": "Anlaby Lowfield Road",
+    "lat": 53.744899,
+    "lon": -0.43227,
+    "sequence": 25
+  },
+  {
+    "name": "Anlaby Lowfield Road",
+    "lat": 53.741908,
+    "lon": -0.432442,
+    "sequence": 26
+  },
+  {
+    "name": "Anlaby Spire Hospital",
+    "lat": 53.73945,
+    "lon": -0.434201,
+    "sequence": 27
+  }
+]

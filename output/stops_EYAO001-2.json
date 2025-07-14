@@ -1,0 +1,200 @@
+[
+  {
+    "name": "Selby Bus Station",
+    "lat": 53.782098,
+    "lon": -1.06582,
+    "sequence": 1
+  },
+  {
+    "name": "River Street",
+    "lat": 53.78675,
+    "lon": -1.0618,
+    "sequence": 2
+  },
+  {
+    "name": "Bocm Offices",
+    "lat": 53.788371,
+    "lon": -1.055313,
+    "sequence": 3
+  },
+  {
+    "name": "Ardol Clock Tower",
+    "lat": 53.788584,
+    "lon": -1.050512,
+    "sequence": 4
+  },
+  {
+    "name": "Rhodes Terrace",
+    "lat": 53.796958,
+    "lon": -1.034336,
+    "sequence": 5
+  },
+  {
+    "name": "Bennymoor Lane",
+    "lat": 53.795409,
+    "lon": -1.029422,
+    "sequence": 6
+  },
+  {
+    "name": "Osgodby Wadkin Arms",
+    "lat": 53.794707,
+    "lon": -1.027192,
+    "sequence": 7
+  },
+  {
+    "name": "Lund Lane End",
+    "lat": 53.785892,
+    "lon": -1.012111,
+    "sequence": 8
+  },
+  {
+    "name": "Cliffe Crossroads",
+    "lat": 53.780381,
+    "lon": -0.997793,
+    "sequence": 9
+  },
+  {
+    "name": "Post Office",
+    "lat": 53.777444,
+    "lon": -0.997028,
+    "sequence": 10
+  },
+  {
+    "name": "Cliffe Institute",
+    "lat": 53.77707,
+    "lon": -0.994185,
+    "sequence": 11
+  },
+  {
+    "name": "Priestfields",
+    "lat": 53.776316,
+    "lon": -0.992169,
+    "sequence": 12
+  },
+  {
+    "name": "Newhay",
+    "lat": 53.773454,
+    "lon": -0.984347,
+    "sequence": 13
+  },
+  {
+    "name": "Villa Close",
+    "lat": 53.771183,
+    "lon": -0.979441,
+    "sequence": 14
+  },
+  {
+    "name": "Fox And Pheasant",
+    "lat": 53.769595,
+    "lon": -0.97866,
+    "sequence": 15
+  },
+  {
+    "name": "Hemingbrough Chuch",
+    "lat": 53.767683,
+    "lon": -0.97901,
+    "sequence": 16
+  },
+  {
+    "name": "Ashfield House",
+    "lat": 53.76683,
+    "lon": -0.975875,
+    "sequence": 17
+  },
+  {
+    "name": "Playing Field",
+    "lat": 53.766276,
+    "lon": -0.973112,
+    "sequence": 18
+  },
+  {
+    "name": "Hemingbrough Chapelfields",
+    "lat": 53.765896,
+    "lon": -0.968722,
+    "sequence": 19
+  },
+  {
+    "name": "Seven Houses",
+    "lat": 53.823377,
+    "lon": -0.969696,
+    "sequence": 20
+  },
+  {
+    "name": "Village Green",
+    "lat": 53.825624,
+    "lon": -0.965554,
+    "sequence": 21
+  },
+  {
+    "name": "King's Arms",
+    "lat": 53.826501,
+    "lon": -0.962995,
+    "sequence": 22
+  },
+  {
+    "name": "North Duffield Post Office",
+    "lat": 53.825533,
+    "lon": -0.960269,
+    "sequence": 23
+  },
+  {
+    "name": "Back Lane",
+    "lat": 53.823556,
+    "lon": -0.958252,
+    "sequence": 24
+  },
+  {
+    "name": "Derwent Cottage Farm l e",
+    "lat": 53.821047,
+    "lon": -0.939554,
+    "sequence": 25
+  },
+  {
+    "name": "Bubwith White Swan",
+    "lat": 53.818834,
+    "lon": -0.920212,
+    "sequence": 26
+  },
+  {
+    "name": "Bubwith (Chip Shop)",
+    "lat": 53.818281,
+    "lon": -0.914773,
+    "sequence": 27
+  },
+  {
+    "name": "Bubwith Vine Gardens",
+    "lat": 53.81829,
+    "lon": -0.908833,
+    "sequence": 28
+  },
+  {
+    "name": "Harlthorpe Hall",
+    "lat": 53.827461,
+    "lon": -0.87988,
+    "sequence": 29
+  },
+  {
+    "name": "Foggathorpe Crossroads",
+    "lat": 53.829585,
+    "lon": -0.853492,
+    "sequence": 30
+  },
+  {
+    "name": "Water End",
+    "lat": 53.83507,
+    "lon": -0.803103,
+    "sequence": 31
+  },
+  {
+    "name": "Holme on Spalding Moor",
+    "lat": 53.836456,
+    "lon": -0.771242,
+    "sequence": 32
+  },
+  {
+    "name": "Holme on Spalding Moor Village Hall",
+    "lat": 53.836614,
+    "lon": -0.767362,
+    "sequence": 33
+  }
+]

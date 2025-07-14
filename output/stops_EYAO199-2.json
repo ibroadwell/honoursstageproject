@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Pocklington EY Depot",
+    "lat": 53.929514,
+    "lon": -0.780086,
+    "sequence": 1
+  },
+  {
+    "name": "Pocklington The Balk",
+    "lat": 53.926119,
+    "lon": -0.775098,
+    "sequence": 2
+  },
+  {
+    "name": "The Balk Pocklington",
+    "lat": 53.92296,
+    "lon": -0.772023,
+    "sequence": 3
+  },
+  {
+    "name": "Pocklington The Balk",
+    "lat": 53.91352,
+    "lon": -0.77093,
+    "sequence": 4
+  },
+  {
+    "name": "Hayton (Green)",
+    "lat": 53.902061,
+    "lon": -0.753565,
+    "sequence": 5
+  },
+  {
+    "name": "Burnby",
+    "lat": 53.906949,
+    "lon": -0.731133,
+    "sequence": 6
+  },
+  {
+    "name": "Nunburnholme",
+    "lat": 53.922267,
+    "lon": -0.707675,
+    "sequence": 7
+  },
+  {
+    "name": "Warter Pond",
+    "lat": 53.942390554,
+    "lon": -0.672758101,
+    "sequence": 8
+  },
+  {
+    "name": "Huggate",
+    "lat": 53.985544,
+    "lon": -0.65673,
+    "sequence": 9
+  }
+]

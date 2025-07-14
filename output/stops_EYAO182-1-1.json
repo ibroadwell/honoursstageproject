@@ -1,0 +1,284 @@
+[
+  {
+    "name": "Knaresborough, Bus Stn",
+    "lat": 54.007616,
+    "lon": -1.465414,
+    "sequence": 1
+  },
+  {
+    "name": "Knaresborough, Castle School, SW-bound",
+    "lat": 54.009982,
+    "lon": -1.463873,
+    "sequence": 2
+  },
+  {
+    "name": "Knaresborough, Stockwell Rd Surgery, NW-bound",
+    "lat": 54.012242,
+    "lon": -1.466911,
+    "sequence": 3
+  },
+  {
+    "name": "Knaresborough, High Bond End, NW-bound",
+    "lat": 54.013767,
+    "lon": -1.474308,
+    "sequence": 4
+  },
+  {
+    "name": "Scriven, Lands Lane, NW-bound",
+    "lat": 54.016547,
+    "lon": -1.481202,
+    "sequence": 5
+  },
+  {
+    "name": "Scriven, Beechwood, NW-bound",
+    "lat": 54.017668,
+    "lon": -1.484698,
+    "sequence": 6
+  },
+  {
+    "name": "Scriven, Netheredge Drive, NW-bound",
+    "lat": 54.018503,
+    "lon": -1.486718,
+    "sequence": 7
+  },
+  {
+    "name": "Scotton Banks",
+    "lat": 54.019614,
+    "lon": -1.490184,
+    "sequence": 8
+  },
+  {
+    "name": "Scotton Drive, NW-bound",
+    "lat": 54.021627,
+    "lon": -1.498722,
+    "sequence": 9
+  },
+  {
+    "name": "Scotton Park, N-bound",
+    "lat": 54.023008,
+    "lon": -1.50217,
+    "sequence": 10
+  },
+  {
+    "name": "Scotton, Mire Syke Lane, N-bound",
+    "lat": 54.026164,
+    "lon": -1.50253,
+    "sequence": 11
+  },
+  {
+    "name": "Scotton, Guy Fawkes",
+    "lat": 54.027816,
+    "lon": -1.50422,
+    "sequence": 12
+  },
+  {
+    "name": "Scotton, Poplar Green, N-bound",
+    "lat": 54.029189,
+    "lon": -1.503715,
+    "sequence": 13
+  },
+  {
+    "name": "Scotton, Pencob House, N-bound",
+    "lat": 54.03186,
+    "lon": -1.501988,
+    "sequence": 14
+  },
+  {
+    "name": "Scotton, Lingerfield School, N-bound",
+    "lat": 54.035022,
+    "lon": -1.493019,
+    "sequence": 15
+  },
+  {
+    "name": "Farnham, St Oswald's Church",
+    "lat": 54.03967,
+    "lon": -1.470363,
+    "sequence": 16
+  },
+  {
+    "name": "Farnham, Whingarth, adj",
+    "lat": 54.039152,
+    "lon": -1.465056,
+    "sequence": 17
+  },
+  {
+    "name": "Ferrensby, The Pond",
+    "lat": 54.040854,
+    "lon": -1.438112,
+    "sequence": 18
+  },
+  {
+    "name": "Ferrensby Crossroads, E-bound",
+    "lat": 54.040802,
+    "lon": -1.436693,
+    "sequence": 19
+  },
+  {
+    "name": "Arkendale, Bluebell",
+    "lat": 54.043684,
+    "lon": -1.409776,
+    "sequence": 20
+  },
+  {
+    "name": "Arkendale, Blue Bell, Adj",
+    "lat": 54.043826,
+    "lon": -1.409407,
+    "sequence": 21
+  },
+  {
+    "name": "Arkendale, Lane End White Cross, NW-bound",
+    "lat": 54.049573,
+    "lon": -1.423164,
+    "sequence": 22
+  },
+  {
+    "name": "Ferrensby, Green Lane, Adj",
+    "lat": 54.050259,
+    "lon": -1.425568,
+    "sequence": 23
+  },
+  {
+    "name": "Staveley, Townend Cottages, N-bound",
+    "lat": 54.058337,
+    "lon": -1.440366,
+    "sequence": 24
+  },
+  {
+    "name": "Staveley, The Green",
+    "lat": 54.059152,
+    "lon": -1.441853,
+    "sequence": 25
+  },
+  {
+    "name": "Staveley, Royal Oak, Opp",
+    "lat": 54.058976,
+    "lon": -1.446407,
+    "sequence": 26
+  },
+  {
+    "name": "Copgrove, Jubilee Business Park",
+    "lat": 54.062423,
+    "lon": -1.467476,
+    "sequence": 27
+  },
+  {
+    "name": "Copgrove, St Michael & All Angels Ch, opp",
+    "lat": 54.063778,
+    "lon": -1.472975,
+    "sequence": 28
+  },
+  {
+    "name": "Burton Leonard, The Green, adj",
+    "lat": 54.069147,
+    "lon": -1.501206,
+    "sequence": 29
+  },
+  {
+    "name": "Burton Leonard, Holber Hill, adj",
+    "lat": 54.06993,
+    "lon": -1.49727,
+    "sequence": 30
+  },
+  {
+    "name": "Bishop Monkton, St Johns Church, opp",
+    "lat": 54.089063,
+    "lon": -1.499057,
+    "sequence": 31
+  },
+  {
+    "name": "Bishop Monkton, C of E Primary School, adj",
+    "lat": 54.091485,
+    "lon": -1.49782,
+    "sequence": 32
+  },
+  {
+    "name": "Bishop Monkton, Lamb & Flag",
+    "lat": 54.092088,
+    "lon": -1.498042,
+    "sequence": 33
+  },
+  {
+    "name": "Bishop Monkton, The Village Hall, opp",
+    "lat": 54.092112,
+    "lon": -1.503913,
+    "sequence": 34
+  },
+  {
+    "name": "Bishop Monkton, Railway Bridge, N-bound",
+    "lat": 54.100307,
+    "lon": -1.514565,
+    "sequence": 35
+  },
+  {
+    "name": "Littlethorpe, The Potteries, N-bound",
+    "lat": 54.108133,
+    "lon": -1.505113,
+    "sequence": 36
+  },
+  {
+    "name": "Littlethorpe, Church, N-bound",
+    "lat": 54.118546,
+    "lon": -1.506458,
+    "sequence": 37
+  },
+  {
+    "name": "Littlethorpe, Railway View",
+    "lat": 54.12001,
+    "lon": -1.51051,
+    "sequence": 38
+  },
+  {
+    "name": "Littlethorpe, West View, W-bound",
+    "lat": 54.122276,
+    "lon": -1.513069,
+    "sequence": 39
+  },
+  {
+    "name": "Ripon, Knaresborough Rd, N-bound",
+    "lat": 54.125608,
+    "lon": -1.519212,
+    "sequence": 40
+  },
+  {
+    "name": "Ripon, Knaresborough Road, N-bound",
+    "lat": 54.128786,
+    "lon": -1.520629,
+    "sequence": 41
+  },
+  {
+    "name": "Ripon, Southgate, NE-bound",
+    "lat": 54.129148,
+    "lon": -1.521191,
+    "sequence": 42
+  },
+  {
+    "name": "Ripon, Wakeman Road, NW-bound",
+    "lat": 54.129401,
+    "lon": -1.521372,
+    "sequence": 43
+  },
+  {
+    "name": "Ripon, Southgate, NW-bound",
+    "lat": 54.13078,
+    "lon": -1.522595,
+    "sequence": 44
+  },
+  {
+    "name": "Ripon, Southgate, N-bound",
+    "lat": 54.131195,
+    "lon": -1.522973,
+    "sequence": 45
+  },
+  {
+    "name": "Ripon, Barefoot Street, W-bound",
+    "lat": 54.133688,
+    "lon": -1.52599,
+    "sequence": 46
+  },
+  {
+    "name": "Ripon, Bus Station",
+    "lat": 54.136881,
+    "lon": -1.522005,
+    "sequence": 47
+  }
+]

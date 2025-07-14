@@ -1,0 +1,200 @@
+[
+  {
+    "name": "Hunmanby (Church)",
+    "lat": 54.180584147,
+    "lon": -0.322238895,
+    "sequence": 1
+  },
+  {
+    "name": "Muston Road End",
+    "lat": 54.182438467,
+    "lon": -0.325014144,
+    "sequence": 2
+  },
+  {
+    "name": "Wold View",
+    "lat": 54.197803572,
+    "lon": -0.32269117,
+    "sequence": 3
+  },
+  {
+    "name": "Muston (Ship Inn)",
+    "lat": 54.200753615,
+    "lon": -0.321529172,
+    "sequence": 4
+  },
+  {
+    "name": "Greame Cottage",
+    "lat": 54.201313831,
+    "lon": -0.316585112,
+    "sequence": 5
+  },
+  {
+    "name": "Pond Farm",
+    "lat": 54.201624025,
+    "lon": -0.31177376,
+    "sequence": 6
+  },
+  {
+    "name": "Mill Farm",
+    "lat": 54.200455661,
+    "lon": -0.30538236,
+    "sequence": 7
+  },
+  {
+    "name": "Secondary School",
+    "lat": 54.205170477,
+    "lon": -0.301892849,
+    "sequence": 8
+  },
+  {
+    "name": "Grange Avenue",
+    "lat": 54.20699577,
+    "lon": -0.300023969,
+    "sequence": 9
+  },
+  {
+    "name": "Wharfedale",
+    "lat": 54.208913459,
+    "lon": -0.297062397,
+    "sequence": 10
+  },
+  {
+    "name": "Filey Bus Station",
+    "lat": 54.209839531,
+    "lon": -0.291365857,
+    "sequence": 11
+  },
+  {
+    "name": "The Croft",
+    "lat": 54.213008837,
+    "lon": -0.291741114,
+    "sequence": 12
+  },
+  {
+    "name": "Grove Road",
+    "lat": 54.213661515,
+    "lon": -0.295302791,
+    "sequence": 13
+  },
+  {
+    "name": "Rowan Avenue",
+    "lat": 54.214274261,
+    "lon": -0.298590169,
+    "sequence": 14
+  },
+  {
+    "name": "Copse Hill",
+    "lat": 54.21575604,
+    "lon": -0.303359248,
+    "sequence": 15
+  },
+  {
+    "name": "Filey Bird Centre",
+    "lat": 54.218414129,
+    "lon": -0.312377271,
+    "sequence": 16
+  },
+  {
+    "name": "Muston Crossing",
+    "lat": 54.219026855,
+    "lon": -0.316340137,
+    "sequence": 17
+  },
+  {
+    "name": "Carless Lane",
+    "lat": 54.222242809,
+    "lon": -0.324584419,
+    "sequence": 18
+  },
+  {
+    "name": "Gristhorpe (Filey Road)",
+    "lat": 54.223144347,
+    "lon": -0.330606974,
+    "sequence": 19
+  },
+  {
+    "name": "Lebberston Touring Park",
+    "lat": 54.225095403,
+    "lon": -0.343674709,
+    "sequence": 20
+  },
+  {
+    "name": "Lebberston (Ox Inn)",
+    "lat": 54.226650592,
+    "lon": -0.347616357,
+    "sequence": 21
+  },
+  {
+    "name": "Killerby Lane",
+    "lat": 54.229396245,
+    "lon": -0.36601131,
+    "sequence": 22
+  },
+  {
+    "name": "Cayton (Station Road)",
+    "lat": 54.232550617,
+    "lon": -0.376317183,
+    "sequence": 23
+  },
+  {
+    "name": "Cayton School",
+    "lat": 54.234084036,
+    "lon": -0.378052158,
+    "sequence": 24
+  },
+  {
+    "name": "Cayton Village Caravan Park",
+    "lat": 54.235496647,
+    "lon": -0.3761555,
+    "sequence": 25
+  },
+  {
+    "name": "Cayton Bay",
+    "lat": 54.239385926,
+    "lon": -0.369296885,
+    "sequence": 26
+  },
+  {
+    "name": "Cayton Bay (Holiday Village)",
+    "lat": 54.240614982,
+    "lon": -0.367130701,
+    "sequence": 27
+  },
+  {
+    "name": "Wheatcroft Avenue",
+    "lat": 54.263176,
+    "lon": -0.393201,
+    "sequence": 28
+  },
+  {
+    "name": "Holbeck Road",
+    "lat": 54.266786,
+    "lon": -0.398404,
+    "sequence": 29
+  },
+  {
+    "name": "Avenue Victoria",
+    "lat": 54.270363,
+    "lon": -0.401767,
+    "sequence": 30
+  },
+  {
+    "name": "St Andrews Church",
+    "lat": 54.274232,
+    "lon": -0.402754,
+    "sequence": 31
+  },
+  {
+    "name": "Valley Bridge",
+    "lat": 54.27847,
+    "lon": -0.403742,
+    "sequence": 32
+  },
+  {
+    "name": "Railway Station",
+    "lat": 54.279795773,
+    "lon": -0.406117519,
+    "sequence": 33
+  }
+]

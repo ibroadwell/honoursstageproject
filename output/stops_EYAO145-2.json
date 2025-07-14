@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Driffield (Middle Street South)",
+    "lat": 54.001932,
+    "lon": -0.435428,
+    "sequence": 1
+  },
+  {
+    "name": "Driffield Beverley Road",
+    "lat": 54.000201,
+    "lon": -0.437125,
+    "sequence": 2
+  },
+  {
+    "name": "Driffield Beverley Road",
+    "lat": 53.998726,
+    "lon": -0.440491,
+    "sequence": 3
+  },
+  {
+    "name": "Driffield Showground",
+    "lat": 53.99589,
+    "lon": -0.445723,
+    "sequence": 4
+  },
+  {
+    "name": "Driffield A614",
+    "lat": 53.993083,
+    "lon": -0.465765,
+    "sequence": 5
+  },
+  {
+    "name": "Eastburn",
+    "lat": 53.986658,
+    "lon": -0.497222,
+    "sequence": 6
+  },
+  {
+    "name": "Kirkburn (Main Street)",
+    "lat": 53.983546,
+    "lon": -0.503556,
+    "sequence": 7
+  },
+  {
+    "name": "Bainton Church",
+    "lat": 53.958377,
+    "lon": -0.531146,
+    "sequence": 8
+  },
+  {
+    "name": "Bainton Church Street",
+    "lat": 53.956114,
+    "lon": -0.532094,
+    "sequence": 9
+  },
+  {
+    "name": "Bainton Main Street",
+    "lat": 53.957728,
+    "lon": -0.533257,
+    "sequence": 10
+  },
+  {
+    "name": "Wolds Village",
+    "lat": 53.965732,
+    "lon": -0.533585,
+    "sequence": 11
+  },
+  {
+    "name": "North Dalton",
+    "lat": 53.957008,
+    "lon": -0.576521,
+    "sequence": 12
+  },
+  {
+    "name": "North Dalton Station Road",
+    "lat": 53.955465,
+    "lon": -0.576024,
+    "sequence": 13
+  },
+  {
+    "name": "Middleton on the Wolds Primary School",
+    "lat": 53.936067,
+    "lon": -0.563828,
+    "sequence": 14
+  },
+  {
+    "name": "Middleton (Pond)",
+    "lat": 53.933773,
+    "lon": -0.560693,
+    "sequence": 15
+  },
+  {
+    "name": "Middleton Front Street",
+    "lat": 53.932835,
+    "lon": -0.561928,
+    "sequence": 16
+  },
+  {
+    "name": "Goodmanham Road",
+    "lat": 53.869117,
+    "lon": -0.668128,
+    "sequence": 17
+  },
+  {
+    "name": "Market Weighton (Griffin)",
+    "lat": 53.865245,
+    "lon": -0.669088,
+    "sequence": 18
+  }
+]

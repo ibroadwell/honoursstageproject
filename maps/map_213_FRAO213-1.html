@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8419d70ce776a5348d107481af281450 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+        <div style="position: fixed; top: 20px; left: 50%; transform: translateX(-50%);
+                background-color: white; padding: 8px 16px; border: 1px solid #666;
+                border-radius: 6px; font-size: 14px; font-weight: bold; z-index:9999;
+                display: inline-block; white-space: nowrap;">
+        Route 213 - Batley Bus Station
+        </div>
+        
+    
+            <div class="folium-map" id="map_8419d70ce776a5348d107481af281450" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8419d70ce776a5348d107481af281450 = L.map(
+                "map_8419d70ce776a5348d107481af281450",
+                {
+                    center: [53.745926648, -1.601588124],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7b4b8f518f65b02a9b078e786b5383d8 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_7b4b8f518f65b02a9b078e786b5383d8.addTo(map_8419d70ce776a5348d107481af281450);
+        
+    
+            var poly_line_f37c3bce168bc25c48e1959057889c5e = L.polyline(
+                [[53.745926648, -1.601588124], [53.745819998, -1.601519987], [53.745779998, -1.601479987], [53.745749998, -1.601429987], [53.745739998, -1.601389987], [53.745749998, -1.601309987], [53.746099998, -1.600259987], [53.745909998, -1.600049987], [53.745739998, -1.599869987], [53.745669998, -1.599769987], [53.745599998, -1.599649987], [53.745469998, -1.599419987], [53.745310549, -1.599093309], [53.745310549, -1.599093309], [53.745059998, -1.598579987], [53.744979998, -1.598429987], [53.744959998, -1.598389987], [53.744899998, -1.598309987], [53.744559998, -1.598109987], [53.744329998, -1.597979987], [53.743645577, -1.597558804], [53.743645577, -1.597558804], [53.743549998, -1.597499987], [53.742999998, -1.597099987], [53.742979998, -1.597239987], [53.742959998, -1.597419987], [53.742939998, -1.597669987], [53.742929998, -1.597809987], [53.742919998, -1.598019987], [53.742919998, -1.598159987], [53.742929998, -1.598339987], [53.742939998, -1.598489987], [53.742944865, -1.598548399], [53.742944865, -1.598548399], [53.742959998, -1.598729987], [53.743019998, -1.599309987], [53.743029998, -1.599469987], [53.743039998, -1.599699987], [53.743049998, -1.600319987], [53.743069998, -1.600919987], [53.743069998, -1.601109987], [53.743059998, -1.601279987], [53.743039998, -1.601499987], [53.743019998, -1.601679987], [53.742999998, -1.601879987], [53.742969998, -1.602169987], [53.742949998, -1.602379987], [53.742929998, -1.602579987], [53.742909998, -1.602789987], [53.742889998, -1.602959987], [53.742859998, -1.603159987], [53.742849258, -1.603225403], [53.742849258, -1.603225403], [53.742749998, -1.603829987], [53.742719998, -1.603839987], [53.742689998, -1.603859987], [53.742659998, -1.603889987], [53.742629998, -1.603929987], [53.742609998, -1.603969987], [53.742181367, -1.603721103], [53.742181367, -1.603721103], [53.741989998, -1.603609987], [53.741909998, -1.603549987], [53.741829998, -1.603459987], [53.741759998, -1.603359987], [53.741699998, -1.603229987], [53.741649998, -1.603089987], [53.741609998, -1.602949987], [53.741569998, -1.602799987], [53.741509998, -1.602539987], [53.741159998, -1.602829987], [53.741059998, -1.602929987], [53.740969998, -1.603069987], [53.740889998, -1.603499987], [53.740849998, -1.603639987], [53.740709998, -1.604229987], [53.740179998, -1.603899987], [53.740039998, -1.603899987], [53.739839998, -1.603989987], [53.739609998, -1.604329987], [53.739568518, -1.604451065], [53.739568518, -1.604451065], [53.739239998, -1.605409987], [53.739059998, -1.605689987], [53.738909998, -1.605759987], [53.738489998, -1.605809987], [53.738489998, -1.605549987], [53.738465344, -1.605372479], [53.738465344, -1.605372479], [53.738439998, -1.605189987], [53.738359998, -1.604859987], [53.738339998, -1.604809987], [53.738119998, -1.604369987], [53.737949998, -1.604099987], [53.737689998, -1.603659987], [53.737459998, -1.604089987], [53.737174013, -1.604613282], [53.737174013, -1.604613282], [53.736989998, -1.604949987], [53.736909998, -1.605099987], [53.736849998, -1.605169987], [53.736799998, -1.605229987], [53.736679998, -1.605349987], [53.736769998, -1.606689987], [53.736799998, -1.607179987], [53.736779998, -1.607289987], [53.736789998, -1.607469987], [53.736809998, -1.607719987], [53.736829998, -1.607919987], [53.736839998, -1.607979987], [53.736889998, -1.608059987], [53.736989998, -1.608619987], [53.737270466, -1.610349535], [53.737270466, -1.610349535], [53.737289998, -1.610469987], [53.737399998, -1.611079987], [53.737419998, -1.611179987], [53.737439998, -1.611299987], [53.737439998, -1.611569987], [53.737459998, -1.611689987], [53.737479998, -1.611789987], [53.737549998, -1.612149987], [53.737669998, -1.612819987], [53.737769998, -1.613299987], [53.737879998, -1.613569987], [53.737898071, -1.613634748], [53.737898071, -1.613634748], [53.737999998, -1.613999987], [53.738029998, -1.614089987], [53.738079998, -1.614229987], [53.738179998, -1.614479987], [53.738279998, -1.614679987], [53.738399998, -1.614909987], [53.738559998, -1.615189987], [53.738799998, -1.615619987], [53.738929998, -1.615849987], [53.739029998, -1.616019987], [53.739239998, -1.616389987], [53.739379998, -1.616639987], [53.739419998, -1.616699987], [53.739514297, -1.616858409], [53.739514297, -1.616858409], [53.739669998, -1.617119987], [53.739839998, -1.617419987], [53.740819998, -1.619009987], [53.741010562, -1.619318831], [53.741010562, -1.619318831], [53.741109998, -1.619479987], [53.741169998, -1.619579987], [53.741359998, -1.619879987], [53.742189998, -1.621169987], [53.742369998, -1.621429987], [53.742439998, -1.621519987], [53.742569998, -1.621679987], [53.742749998, -1.621879987], [53.742899998, -1.622029987], [53.743049998, -1.622159987], [53.743349998, -1.622429987], [53.743469998, -1.622549987], [53.743606011, -1.622672837], [53.743606011, -1.622672837], [53.743779998, -1.622829987], [53.743969998, -1.622989987], [53.744339998, -1.623309987], [53.744549998, -1.623489987], [53.744399998, -1.623819987], [53.744240537, -1.624176432], [53.744240537, -1.624176432], [53.744059998, -1.624579987], [53.743839998, -1.625039987], [53.743649998, -1.625409987], [53.743509998, -1.625709987], [53.743229998, -1.626249987], [53.743139998, -1.626419987], [53.7426291, -1.627318789], [53.7426291, -1.627318789], [53.742599998, -1.627369987], [53.742349998, -1.627769987], [53.741869998, -1.628529987], [53.741598184, -1.628969687], [53.741598184, -1.628969687], [53.741529998, -1.629079987], [53.741379998, -1.629389987], [53.741239998, -1.629779987], [53.741099998, -1.630249987], [53.740979998, -1.630709987], [53.740719998, -1.631659987], [53.740559998, -1.632219987], [53.740389998, -1.632739987], [53.740299998, -1.632979987], [53.740199998, -1.633219987], [53.740079998, -1.633499987], [53.739669998, -1.634349987], [53.739509998, -1.634659987], [53.739069998, -1.635629987], [53.738839998, -1.636079987], [53.738719998, -1.636309987], [53.738629998, -1.636469987], [53.738379998, -1.636869987], [53.737969998, -1.637519987], [53.737559998, -1.638139987], [53.737429998, -1.638359987], [53.737319998, -1.638559987], [53.737229998, -1.638769987], [53.737169998, -1.638949987], [53.737109998, -1.639159987], [53.736999998, -1.639539987], [53.736959998, -1.639689987], [53.736909998, -1.639849987], [53.736879998, -1.639979987], [53.736829998, -1.640199987], [53.736779998, -1.640399987], [53.736779998, -1.640399987], [53.736739998, -1.640609987], [53.736679998, -1.640979987], [53.736659998, -1.641099987], [53.736459998, -1.642319987], [53.736379998, -1.642949987], [53.736009998, -1.642779987], [53.735938578, -1.642719554], [53.735938578, -1.642719554], [53.735619998, -1.642449987], [53.735519998, -1.642419987], [53.735449998, -1.642469987], [53.735359998, -1.642619987], [53.734749998, -1.644429987], [53.734612584, -1.6447881], [53.734612584, -1.6447881], [53.734419998, -1.645289987], [53.734149998, -1.645859987], [53.733819998, -1.646559987], [53.733759998, -1.646599987], [53.733669998, -1.646599987], [53.733509998, -1.646499987], [53.733301471, -1.646287862], [53.733301471, -1.646287862], [53.732929998, -1.645909987], [53.732719998, -1.646309987], [53.732519998, -1.646689987], [53.731739998, -1.648229987], [53.731519998, -1.648589987], [53.731309998, -1.648839987], [53.731048085, -1.649014596], [53.731048085, -1.649014596], [53.730859998, -1.649139987], [53.730629998, -1.649059987], [53.730729998, -1.647839987], [53.730649998, -1.646929987], [53.730449998, -1.646219987], [53.730349998, -1.645979987], [53.729859998, -1.645089987], [53.729767429, -1.644924336], [53.729767429, -1.644924336], [53.729479998, -1.644409987], [53.72828096, -1.642726036], [53.72828096, -1.642726036], [53.728119998, -1.642499987], [53.727749998, -1.641889987], [53.727719998, -1.641829987], [53.727609998, -1.641589987], [53.727479998, -1.641309987], [53.727219998, -1.640469987], [53.726929998, -1.638969987], [53.726839998, -1.638479987], [53.726689998, -1.637989987], [53.726564542, -1.637676343], [53.726564542, -1.637676343], [53.726249998, -1.636889987], [53.725749998, -1.635469987], [53.725659998, -1.635469987], [53.725189998, -1.635249987], [53.724989998, -1.635159987], [53.72485723, -1.63511806], [53.72485723, -1.63511806], [53.724609998, -1.635039987], [53.724429998, -1.635029987], [53.723959998, -1.634989987], [53.723209998, -1.634959987], [53.723229998, -1.635189987], [53.723197447, -1.635971286], [53.723197447, -1.635971286], [53.723149998, -1.637109987], [53.723119998, -1.637219987], [53.723019998, -1.637539987], [53.722349998, -1.638519987], [53.722209998, -1.638739987], [53.721949998, -1.639129987], [53.720909998, -1.641179987], [53.720859998, -1.641319987], [53.720818984, -1.641396888], [53.720818984, -1.641396888], [53.720619998, -1.641769987], [53.720369998, -1.641239987], [53.719999694, -1.640493095], [53.719999694, -1.640493095], [53.719779998, -1.640049987], [53.719589998, -1.639539987], [53.719399998, -1.639059987], [53.719329998, -1.638689987], [53.719325364, -1.638310004], [53.719325364, -1.638310004], [53.719319998, -1.637869987], [53.719319998, -1.637579987], [53.719329998, -1.637309987], [53.719329998, -1.636769987], [53.719299998, -1.636569987], [53.719099998, -1.635919987], [53.718706256, -1.634661548], [53.718706256, -1.634661548], [53.718589998, -1.634289987], [53.718539998, -1.634089987], [53.718529998, -1.633879987], [53.718599998, -1.633759987], [53.718439998, -1.633129987], [53.718329998, -1.633219987], [53.718069998, -1.633459987], [53.717949998, -1.633569987], [53.717789998, -1.633749987], [53.717669998, -1.633879987], [53.717509998, -1.634079987], [53.717379998, -1.634259987], [53.717279998, -1.634419987], [53.717189998, -1.634599987], [53.717109998, -1.634749987], [53.717019998, -1.634899987], [53.716909998, -1.634589987], [53.716789998, -1.634249987], [53.716639998, -1.633829987], [53.716589998, -1.633689987], [53.716439998, -1.633289987], [53.716339998, -1.633009987], [53.716309998, -1.632939987], [53.716159998, -1.633079987], [53.715979998, -1.633059987], [53.715949998, -1.633069987], [53.715919998, -1.633089987], [53.715710579, -1.633439018]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_8419d70ce776a5348d107481af281450);
+        
+    
+            var circle_marker_7e136d44bb5e14571d90e5bc269ab84b = L.circleMarker(
+                [53.745930951, -1.601568955],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_8419d70ce776a5348d107481af281450);
+        
+    
+        var popup_9a9cb85d00e3ddf8804dfc3f2599ebbd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_429ce2d41328cdc3d378dcdbcbb5f9ad = $(`<div id="html_429ce2d41328cdc3d378dcdbcbb5f9ad" style="width: 100.0%; height: 100.0%;">First Stop: Morley Town Hall</div>`)[0];
+                popup_9a9cb85d00e3ddf8804dfc3f2599ebbd.setContent(html_429ce2d41328cdc3d378dcdbcbb5f9ad);
+            
+        
+
+        circle_marker_7e136d44bb5e14571d90e5bc269ab84b.bindPopup(popup_9a9cb85d00e3ddf8804dfc3f2599ebbd)
+        ;
+
+        
+    
+    
+            circle_marker_7e136d44bb5e14571d90e5bc269ab84b.bindTooltip(
+                `<div>
+                     First Stop: Morley Town Hall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9114ce39dcd1efb855396fb2ef2c3b51 = L.circleMarker(
+                [53.745347293, -1.599042268],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8419d70ce776a5348d107481af281450);
+        
+    
+        var popup_3af8b5cfa643f442c9fd5adeda3429e2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9dca5694c3d2296450f57b32a98463a6 = $(`<div id="html_9dca5694c3d2296450f57b32a98463a6" style="width: 100.0%; height: 100.0%;">Commercial Street E</div>`)[0];
+                popup_3af8b5cfa643f442c9fd5adeda3429e2.setContent(html_9dca5694c3d2296450f57b32a98463a6);
+            
+        
+
+        circle_marker_9114ce39dcd1efb855396fb2ef2c3b51.bindPopup(popup_3af8b5cfa643f442c9fd5adeda3429e2)
+        ;
+
+        
+    
+    
+            circle_marker_9114ce39dcd1efb855396fb2ef2c3b51.bindTooltip(
+                `<div>
+                     Commercial Street E
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b760ff809ee8bf7b2a16b2671eb3c7f8 = L.circleMarker(
+                [53.743652455, -1.597527],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8419d70ce776a5348d107481af281450);
+        
+    
+        var popup_11bd06270b3b483804f205d4bedf6f8c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_75f36e870e4b4da59739f5217bbe43d4 = $(`<div id="html_75f36e870e4b4da59739f5217bbe43d4" style="width: 100.0%; height: 100.0%;">Abbey House</div>`)[0];
+                popup_11bd06270b3b483804f205d4bedf6f8c.setContent(html_75f36e870e4b4da59739f5217bbe43d4);
+            
+        
+
+        circle_marker_b760ff809ee8bf7b2a16b2671eb3c7f8.bindPopup(popup_11bd06270b3b483804f205d4bedf6f8c)
+        ;
+
+        
+    
+    
+            circle_marker_b760ff809ee8bf7b2a16b2671eb3c7f8.bindTooltip(
+                `<div>
+                     Abbey House
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3a718001384be5c01717e51c214c0851 = L.circleMarker(
+                [53.742806971, -1.598581099],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8419d70ce776a5348d107481af281450);
+        
+    
+        var popup_4f2b01fbc2cf562f16973847a0941a42 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7f2f7ccb053caf5ad2b1977f9694aca1 = $(`<div id="html_7f2f7ccb053caf5ad2b1977f9694aca1" style="width: 100.0%; height: 100.0%;">New Pavillion</div>`)[0];
+                popup_4f2b01fbc2cf562f16973847a0941a42.setContent(html_7f2f7ccb053caf5ad2b1977f9694aca1);
+            
+        
+
+        circle_marker_3a718001384be5c01717e51c214c0851.bindPopup(popup_4f2b01fbc2cf562f16973847a0941a42)
+        ;
+
+        
+    
+    
+            circle_marker_3a718001384be5c01717e51c214c0851.bindTooltip(
+                `<div>
+                     New Pavillion
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2dc3b77c138a1b618992d25c4bbc37ac = L.circleMarker(
+                [53.742722371, -1.603166123],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8419d70ce776a5348d107481af281450);
+        
+    
+        var popup_687bc18918e9a7f4cd502225a819d559 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1415b159013b0eec9325c6d181830e5a = $(`<div id="html_1415b159013b0eec9325c6d181830e5a" style="width: 100.0%; height: 100.0%;">Weavers Close</div>`)[0];
+                popup_687bc18918e9a7f4cd502225a819d559.setContent(html_1415b159013b0eec9325c6d181830e5a);
+            
+        
+
+        circle_marker_2dc3b77c138a1b618992d25c4bbc37ac.bindPopup(popup_687bc18918e9a7f4cd502225a819d559)
+        ;
+
+        
+    
+    
+            circle_marker_2dc3b77c138a1b618992d25c4bbc37ac.bindTooltip(
+                `<div>
+                     Weavers Close
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8b03334a02f7ccd84da71b5c3d382fb7 = L.circleMarker(
+                [53.74219875, -1.603635913],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8419d70ce776a5348d107481af281450);
+        
+    
+        var popup_91880483cc1d86bb9552b4ff1dc9d096 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_71d48d4f35b05f8b75b615cd3ecbb1d9 = $(`<div id="html_71d48d4f35b05f8b75b615cd3ecbb1d9" style="width: 100.0%; height: 100.0%;">Chartists Way</div>`)[0];
+                popup_91880483cc1d86bb9552b4ff1dc9d096.setContent(html_71d48d4f35b05f8b75b615cd3ecbb1d9);
+            
+        
+
+        circle_marker_8b03334a02f7ccd84da71b5c3d382fb7.bindPopup(popup_91880483cc1d86bb9552b4ff1dc9d096)
+        ;
+
+        
+    
+    
+            circle_marker_8b03334a02f7ccd84da71b5c3d382fb7.bindTooltip(
+                `<div>
+                     Chartists Way
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8d704f6a51c49e70e6f0f3fa2ff48f53 = L.circleMarker(
+                [53.739504805, -1.604388963],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8419d70ce776a5348d107481af281450);
+        
+    
+        var popup_e89de31c486b880aee2a3c0d3e07c05d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_66e936330a69c82865e43af3c09fd17d = $(`<div id="html_66e936330a69c82865e43af3c09fd17d" style="width: 100.0%; height: 100.0%;">Elvaston Road Flexbury Avenue</div>`)[0];
+                popup_e89de31c486b880aee2a3c0d3e07c05d.setContent(html_66e936330a69c82865e43af3c09fd17d);
+            
+        
+
+        circle_marker_8d704f6a51c49e70e6f0f3fa2ff48f53.bindPopup(popup_e89de31c486b880aee2a3c0d3e07c05d)
+        ;
+
+        
+    
+    
+            circle_marker_8d704f6a51c49e70e6f0f3fa2ff48f53.bindTooltip(
+                `<div>
+                     Elvaston Road Flexbury Avenue
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_612dd5eda0cbb949482eea016ba83205 = L.circleMarker(
+                [53.738474401, -1.6053689],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8419d70ce776a5348d107481af281450);
+        
+    
+        var popup_5df09d3085e37c774317f1e951fdbd03 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d0bd286795ebb526bafe9615a0ac7f10 = $(`<div id="html_d0bd286795ebb526bafe9615a0ac7f10" style="width: 100.0%; height: 100.0%;">Harlington Road Elvaston Road</div>`)[0];
+                popup_5df09d3085e37c774317f1e951fdbd03.setContent(html_d0bd286795ebb526bafe9615a0ac7f10);
+            
+        
+
+        circle_marker_612dd5eda0cbb949482eea016ba83205.bindPopup(popup_5df09d3085e37c774317f1e951fdbd03)
+        ;
+
+        
+    
+    
+            circle_marker_612dd5eda0cbb949482eea016ba83205.bindTooltip(
+                `<div>
+                     Harlington Road Elvaston Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_758df65a53727c5ae6143d0920b9a0e3 = L.circleMarker(
+                [53.737141505, -1.60456274],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8419d70ce776a5348d107481af281450);
+        
+    
+        var popup_9dec7a56e6c81a4e91452115a9401196 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6268e79f0cd22108e528f16de8241aa0 = $(`<div id="html_6268e79f0cd22108e528f16de8241aa0" style="width: 100.0%; height: 100.0%;">High Street</div>`)[0];
+                popup_9dec7a56e6c81a4e91452115a9401196.setContent(html_6268e79f0cd22108e528f16de8241aa0);
+            
+        
+
+        circle_marker_758df65a53727c5ae6143d0920b9a0e3.bindPopup(popup_9dec7a56e6c81a4e91452115a9401196)
+        ;
+
+        
+    
+    
+            circle_marker_758df65a53727c5ae6143d0920b9a0e3.bindTooltip(
+                `<div>
+                     High Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_24cbce0986144826384db37b32c1482b = L.circleMarker(
+                [53.737196509, -1.610383652],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8419d70ce776a5348d107481af281450);
+        
+    
+        var popup_79e2f7760e8e47b3bc739d0a5ebebda1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f32d3d2089bcaf959653de92abca4cb1 = $(`<div id="html_f32d3d2089bcaf959653de92abca4cb1" style="width: 100.0%; height: 100.0%;">Morley ASDA</div>`)[0];
+                popup_79e2f7760e8e47b3bc739d0a5ebebda1.setContent(html_f32d3d2089bcaf959653de92abca4cb1);
+            
+        
+
+        circle_marker_24cbce0986144826384db37b32c1482b.bindPopup(popup_79e2f7760e8e47b3bc739d0a5ebebda1)
+        ;
+
+        
+    
+    
+            circle_marker_24cbce0986144826384db37b32c1482b.bindTooltip(
+                `<div>
+                     Morley ASDA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9a8562ea1528e09151667d483890ac46 = L.circleMarker(
+                [53.737818421, -1.613697985],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8419d70ce776a5348d107481af281450);
+        
+    
+        var popup_5880112ab5e9ca533add20f191670053 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e3baa900274ad681623eaffd8b89fa8c = $(`<div id="html_e3baa900274ad681623eaffd8b89fa8c" style="width: 100.0%; height: 100.0%;">Bruntcliffe Road Scotchman Lane</div>`)[0];
+                popup_5880112ab5e9ca533add20f191670053.setContent(html_e3baa900274ad681623eaffd8b89fa8c);
+            
+        
+
+        circle_marker_9a8562ea1528e09151667d483890ac46.bindPopup(popup_5880112ab5e9ca533add20f191670053)
+        ;
+
+        
+    
+    
+            circle_marker_9a8562ea1528e09151667d483890ac46.bindTooltip(
+                `<div>
+                     Bruntcliffe Road Scotchman Lane
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c4e78ad8b0e4cc0f34473b76b0626e84 = L.circleMarker(
+                [53.739464663, -1.616942467],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8419d70ce776a5348d107481af281450);
+        
+    
+        var popup_7b3e0070e7e2d99fa323b92558f96b71 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_19d1db1a83d565cdd0d2d40b91a6f3fa = $(`<div id="html_19d1db1a83d565cdd0d2d40b91a6f3fa" style="width: 100.0%; height: 100.0%;">Bruntcliffe Road Lewisham Street</div>`)[0];
+                popup_7b3e0070e7e2d99fa323b92558f96b71.setContent(html_19d1db1a83d565cdd0d2d40b91a6f3fa);
+            
+        
+
+        circle_marker_c4e78ad8b0e4cc0f34473b76b0626e84.bindPopup(popup_7b3e0070e7e2d99fa323b92558f96b71)
+        ;
+
+        
+    
+    
+            circle_marker_c4e78ad8b0e4cc0f34473b76b0626e84.bindTooltip(
+                `<div>
+                     Bruntcliffe Road Lewisham Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a0482da20b74c9a6a96fb41cfe749142 = L.circleMarker(
+                [53.740955572, -1.619415374],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8419d70ce776a5348d107481af281450);
+        
+    
+        var popup_150c70e37d932fb61b805914edc73b5e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_df8ae09ff3a6fb1639baccefe62366a9 = $(`<div id="html_df8ae09ff3a6fb1639baccefe62366a9" style="width: 100.0%; height: 100.0%;">Bruntcliffe Road Scott Lane</div>`)[0];
+                popup_150c70e37d932fb61b805914edc73b5e.setContent(html_df8ae09ff3a6fb1639baccefe62366a9);
+            
+        
+
+        circle_marker_a0482da20b74c9a6a96fb41cfe749142.bindPopup(popup_150c70e37d932fb61b805914edc73b5e)
+        ;
+
+        
+    
+    
+            circle_marker_a0482da20b74c9a6a96fb41cfe749142.bindTooltip(
+                `<div>
+                     Bruntcliffe Road Scott Lane
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0d362cccf55cd00763f600e02f7c7c22 = L.circleMarker(
+                [53.743554942, -1.622833734],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8419d70ce776a5348d107481af281450);
+        
+    
+        var popup_e15a8fb852507b5122d7b434e36815fd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f44621f897aabd349445590f74a8011a = $(`<div id="html_f44621f897aabd349445590f74a8011a" style="width: 100.0%; height: 100.0%;">Bruntcliffe Road Bruntcliffe Crossroads</div>`)[0];
+                popup_e15a8fb852507b5122d7b434e36815fd.setContent(html_f44621f897aabd349445590f74a8011a);
+            
+        
+
+        circle_marker_0d362cccf55cd00763f600e02f7c7c22.bindPopup(popup_e15a8fb852507b5122d7b434e36815fd)
+        ;
+
+        
+    
+    
+            circle_marker_0d362cccf55cd00763f600e02f7c7c22.bindTooltip(
+                `<div>
+                     Bruntcliffe Road Bruntcliffe Crossroads
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6397721008b6cd0999429ed6f3ac7020 = L.circleMarker(
+                [53.744170066, -1.624086715],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8419d70ce776a5348d107481af281450);
+        
+    
+        var popup_4ce93e5f50616eb170f9dfed187f347d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8a0b5611305a77b1b22655793a1f79b7 = $(`<div id="html_8a0b5611305a77b1b22655793a1f79b7" style="width: 100.0%; height: 100.0%;">Bruntcliffe Xroads</div>`)[0];
+                popup_4ce93e5f50616eb170f9dfed187f347d.setContent(html_8a0b5611305a77b1b22655793a1f79b7);
+            
+        
+
+        circle_marker_6397721008b6cd0999429ed6f3ac7020.bindPopup(popup_4ce93e5f50616eb170f9dfed187f347d)
+        ;
+
+        
+    
+    
+            circle_marker_6397721008b6cd0999429ed6f3ac7020.bindTooltip(
+                `<div>
+                     Bruntcliffe Xroads
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dfca5556c792c9c6ad80f516286a1348 = L.circleMarker(
+                [53.742580025, -1.627239408],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8419d70ce776a5348d107481af281450);
+        
+    
+        var popup_1465e5d6dd9483b1c8398904cac1a770 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_827c03dab72a56438891f08a1c36f54d = $(`<div id="html_827c03dab72a56438891f08a1c36f54d" style="width: 100.0%; height: 100.0%;">M62 Motorway Bridge</div>`)[0];
+                popup_1465e5d6dd9483b1c8398904cac1a770.setContent(html_827c03dab72a56438891f08a1c36f54d);
+            
+        
+
+        circle_marker_dfca5556c792c9c6ad80f516286a1348.bindPopup(popup_1465e5d6dd9483b1c8398904cac1a770)
+        ;
+
+        
+    
+    
+            circle_marker_dfca5556c792c9c6ad80f516286a1348.bindTooltip(
+                `<div>
+                     M62 Motorway Bridge
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e14ff7186a15cbde1844ba646d9412da = L.circleMarker(
+                [53.74153343, -1.628855784],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8419d70ce776a5348d107481af281450);
+        
+    
+        var popup_3263a9e8f123f69ece0c563027cc4e45 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f1406cdd4d87d9d0b749d5777c5f20f = $(`<div id="html_6f1406cdd4d87d9d0b749d5777c5f20f" style="width: 100.0%; height: 100.0%;">Hill Top Farm</div>`)[0];
+                popup_3263a9e8f123f69ece0c563027cc4e45.setContent(html_6f1406cdd4d87d9d0b749d5777c5f20f);
+            
+        
+
+        circle_marker_e14ff7186a15cbde1844ba646d9412da.bindPopup(popup_3263a9e8f123f69ece0c563027cc4e45)
+        ;
+
+        
+    
+    
+            circle_marker_e14ff7186a15cbde1844ba646d9412da.bindTooltip(
+                `<div>
+                     Hill Top Farm
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_04def196294470b5861d3358a2238a35 = L.circleMarker(
+                [53.736687891, -1.640344068],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8419d70ce776a5348d107481af281450);
+        
+    
+        var popup_153bcbbceb40cff17ddbda5b85407749 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0fd73a31832553bc91a20f31320adc6d = $(`<div id="html_0fd73a31832553bc91a20f31320adc6d" style="width: 100.0%; height: 100.0%;">Leeds Rd Nab Lane</div>`)[0];
+                popup_153bcbbceb40cff17ddbda5b85407749.setContent(html_0fd73a31832553bc91a20f31320adc6d);
+            
+        
+
+        circle_marker_04def196294470b5861d3358a2238a35.bindPopup(popup_153bcbbceb40cff17ddbda5b85407749)
+        ;
+
+        
+    
+    
+            circle_marker_04def196294470b5861d3358a2238a35.bindTooltip(
+                `<div>
+                     Leeds Rd Nab Lane
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_35dc8b971396ba3a4ddc5aba94cd1fe3 = L.circleMarker(
+                [53.735948876, -1.642684935],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8419d70ce776a5348d107481af281450);
+        
+    
+        var popup_1612f7c976c2cb56c6e389e89508b9fb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c3e4794174d7c2a060eba5842c9b88d = $(`<div id="html_9c3e4794174d7c2a060eba5842c9b88d" style="width: 100.0%; height: 100.0%;">Windsor Road Leeds Road</div>`)[0];
+                popup_1612f7c976c2cb56c6e389e89508b9fb.setContent(html_9c3e4794174d7c2a060eba5842c9b88d);
+            
+        
+
+        circle_marker_35dc8b971396ba3a4ddc5aba94cd1fe3.bindPopup(popup_1612f7c976c2cb56c6e389e89508b9fb)
+        ;
+
+        
+    
+    
+            circle_marker_35dc8b971396ba3a4ddc5aba94cd1fe3.bindTooltip(
+                `<div>
+                     Windsor Road Leeds Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bb18dec748c4bb74d7a46ba89f3ae654 = L.circleMarker(
+                [53.734543769, -1.644712989],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8419d70ce776a5348d107481af281450);
+        
+    
+        var popup_3ca27d6b993918f18ea72193101a2f1d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fba1f64ca4a141335d3afc0dd4217f55 = $(`<div id="html_fba1f64ca4a141335d3afc0dd4217f55" style="width: 100.0%; height: 100.0%;">Windsor Road Arundel Close</div>`)[0];
+                popup_3ca27d6b993918f18ea72193101a2f1d.setContent(html_fba1f64ca4a141335d3afc0dd4217f55);
+            
+        
+
+        circle_marker_bb18dec748c4bb74d7a46ba89f3ae654.bindPopup(popup_3ca27d6b993918f18ea72193101a2f1d)
+        ;
+
+        
+    
+    
+            circle_marker_bb18dec748c4bb74d7a46ba89f3ae654.bindTooltip(
+                `<div>
+                     Windsor Road Arundel Close
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_47048d0e013b09bc6768ccf192074698 = L.circleMarker(
+                [53.733308011, -1.646269573],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8419d70ce776a5348d107481af281450);
+        
+    
+        var popup_8a18bccbca81d588d0174493a74982d1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_45c6e2372504aa516de6aee22c94b3fe = $(`<div id="html_45c6e2372504aa516de6aee22c94b3fe" style="width: 100.0%; height: 100.0%;">High School Windsor Road</div>`)[0];
+                popup_8a18bccbca81d588d0174493a74982d1.setContent(html_45c6e2372504aa516de6aee22c94b3fe);
+            
+        
+
+        circle_marker_47048d0e013b09bc6768ccf192074698.bindPopup(popup_8a18bccbca81d588d0174493a74982d1)
+        ;
+
+        
+    
+    
+            circle_marker_47048d0e013b09bc6768ccf192074698.bindTooltip(
+                `<div>
+                     High School Windsor Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_832075d91d1d09f04ef745f5641c9ef3 = L.circleMarker(
+                [53.731023806, -1.648911021],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8419d70ce776a5348d107481af281450);
+        
+    
+        var popup_a31ad2921919ccd8fcf3655b06394c28 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6cfdca7b502de88b77a6fe2173526feb = $(`<div id="html_6cfdca7b502de88b77a6fe2173526feb" style="width: 100.0%; height: 100.0%;">Windmill Lane Upper Batley Lane</div>`)[0];
+                popup_a31ad2921919ccd8fcf3655b06394c28.setContent(html_6cfdca7b502de88b77a6fe2173526feb);
+            
+        
+
+        circle_marker_832075d91d1d09f04ef745f5641c9ef3.bindPopup(popup_a31ad2921919ccd8fcf3655b06394c28)
+        ;
+
+        
+    
+    
+            circle_marker_832075d91d1d09f04ef745f5641c9ef3.bindTooltip(
+                `<div>
+                     Windmill Lane Upper Batley Lane
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f384822dea83b3cf3b5d5ce5bbaf7ba7 = L.circleMarker(
+                [53.729832523, -1.644820889],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8419d70ce776a5348d107481af281450);
+        
+    
+        var popup_941834e50ccdf6be555234637a006965 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_557108f74f079d6b95fd29f9ab6e7085 = $(`<div id="html_557108f74f079d6b95fd29f9ab6e7085" style="width: 100.0%; height: 100.0%;">Upper Batley Lane Lark Hill</div>`)[0];
+                popup_941834e50ccdf6be555234637a006965.setContent(html_557108f74f079d6b95fd29f9ab6e7085);
+            
+        
+
+        circle_marker_f384822dea83b3cf3b5d5ce5bbaf7ba7.bindPopup(popup_941834e50ccdf6be555234637a006965)
+        ;
+
+        
+    
+    
+            circle_marker_f384822dea83b3cf3b5d5ce5bbaf7ba7.bindTooltip(
+                `<div>
+                     Upper Batley Lane Lark Hill
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7edb5c9e0ff841c283f496c1749b7b25 = L.circleMarker(
+                [53.728350304, -1.642585624],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8419d70ce776a5348d107481af281450);
+        
+    
+        var popup_6e6d331cb033d482c026e2f6bcf4b883 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_276296b95071ce94209f203dcf646798 = $(`<div id="html_276296b95071ce94209f203dcf646798" style="width: 100.0%; height: 100.0%;">Upper Batley Lane Woodlands Road</div>`)[0];
+                popup_6e6d331cb033d482c026e2f6bcf4b883.setContent(html_276296b95071ce94209f203dcf646798);
+            
+        
+
+        circle_marker_7edb5c9e0ff841c283f496c1749b7b25.bindPopup(popup_6e6d331cb033d482c026e2f6bcf4b883)
+        ;
+
+        
+    
+    
+            circle_marker_7edb5c9e0ff841c283f496c1749b7b25.bindTooltip(
+                `<div>
+                     Upper Batley Lane Woodlands Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8b8427e78002eb92579542c3ea60fb62 = L.circleMarker(
+                [53.726633795, -1.637597579],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8419d70ce776a5348d107481af281450);
+        
+    
+        var popup_60679d8b36dc7d343a12d6f146589291 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b1a696f8eb8a31c1cb69c3989636f5c = $(`<div id="html_9b1a696f8eb8a31c1cb69c3989636f5c" style="width: 100.0%; height: 100.0%;">Upper Batley Lane Upper Batley Low Road</div>`)[0];
+                popup_60679d8b36dc7d343a12d6f146589291.setContent(html_9b1a696f8eb8a31c1cb69c3989636f5c);
+            
+        
+
+        circle_marker_8b8427e78002eb92579542c3ea60fb62.bindPopup(popup_60679d8b36dc7d343a12d6f146589291)
+        ;
+
+        
+    
+    
+            circle_marker_8b8427e78002eb92579542c3ea60fb62.bindTooltip(
+                `<div>
+                     Upper Batley Lane Upper Batley Low Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_26848d6b64b7a2c3de4223cc94fd22d9 = L.circleMarker(
+                [53.724884792, -1.634869911],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8419d70ce776a5348d107481af281450);
+        
+    
+        var popup_f81cc8e77a42834e977ba123088455bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_74f2ec39ef2e38e39d4bcc2ee74606c9 = $(`<div id="html_74f2ec39ef2e38e39d4bcc2ee74606c9" style="width: 100.0%; height: 100.0%;">Low Lane Old Hall Road</div>`)[0];
+                popup_f81cc8e77a42834e977ba123088455bc.setContent(html_74f2ec39ef2e38e39d4bcc2ee74606c9);
+            
+        
+
+        circle_marker_26848d6b64b7a2c3de4223cc94fd22d9.bindPopup(popup_f81cc8e77a42834e977ba123088455bc)
+        ;
+
+        
+    
+    
+            circle_marker_26848d6b64b7a2c3de4223cc94fd22d9.bindTooltip(
+                `<div>
+                     Low Lane Old Hall Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_845174bf8a1fb11b9a141397b61f062e = L.circleMarker(
+                [53.723093625, -1.635958988],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8419d70ce776a5348d107481af281450);
+        
+    
+        var popup_ea8ba39ffe75c4b52991a6dcf1a7d30a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d6c9cc0fb65de62d8766751c818eea18 = $(`<div id="html_d6c9cc0fb65de62d8766751c818eea18" style="width: 100.0%; height: 100.0%;">Carlinghow Hill Holly Bank Avenue</div>`)[0];
+                popup_ea8ba39ffe75c4b52991a6dcf1a7d30a.setContent(html_d6c9cc0fb65de62d8766751c818eea18);
+            
+        
+
+        circle_marker_845174bf8a1fb11b9a141397b61f062e.bindPopup(popup_ea8ba39ffe75c4b52991a6dcf1a7d30a)
+        ;
+
+        
+    
+    
+            circle_marker_845174bf8a1fb11b9a141397b61f062e.bindTooltip(
+                `<div>
+                     Carlinghow Hill Holly Bank Avenue
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dd3d902ffe5681e001d8e4577bf99e29 = L.circleMarker(
+                [53.720763859, -1.641313316],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8419d70ce776a5348d107481af281450);
+        
+    
+        var popup_017dc1ea70e4bb421753ca8e99b0ae40 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7b2a32f90aa8d193926eed23e65972bf = $(`<div id="html_7b2a32f90aa8d193926eed23e65972bf" style="width: 100.0%; height: 100.0%;">Carlinghow Hill Transvaal Terrace</div>`)[0];
+                popup_017dc1ea70e4bb421753ca8e99b0ae40.setContent(html_7b2a32f90aa8d193926eed23e65972bf);
+            
+        
+
+        circle_marker_dd3d902ffe5681e001d8e4577bf99e29.bindPopup(popup_017dc1ea70e4bb421753ca8e99b0ae40)
+        ;
+
+        
+    
+    
+            circle_marker_dd3d902ffe5681e001d8e4577bf99e29.bindTooltip(
+                `<div>
+                     Carlinghow Hill Transvaal Terrace
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2c83c5b2dcb4b613a0afbc20f488571b = L.circleMarker(
+                [53.720015323, -1.640471069],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8419d70ce776a5348d107481af281450);
+        
+    
+        var popup_1b51240bf732422aab576fd56c43624c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_63dfbe88ed6fc3ebb1fe719ef947232a = $(`<div id="html_63dfbe88ed6fc3ebb1fe719ef947232a" style="width: 100.0%; height: 100.0%;">Chinewood Avenue Carlinghow Hill</div>`)[0];
+                popup_1b51240bf732422aab576fd56c43624c.setContent(html_63dfbe88ed6fc3ebb1fe719ef947232a);
+            
+        
+
+        circle_marker_2c83c5b2dcb4b613a0afbc20f488571b.bindPopup(popup_1b51240bf732422aab576fd56c43624c)
+        ;
+
+        
+    
+    
+            circle_marker_2c83c5b2dcb4b613a0afbc20f488571b.bindTooltip(
+                `<div>
+                     Chinewood Avenue Carlinghow Hill
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4e5b47c7cf05a964100f041a1c77369d = L.circleMarker(
+                [53.719325726, -1.638309992],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8419d70ce776a5348d107481af281450);
+        
+    
+        var popup_b84836ea7a2013c6ea28b29da97edc29 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ee8ab959900e8e1da974ec19392c72f0 = $(`<div id="html_ee8ab959900e8e1da974ec19392c72f0" style="width: 100.0%; height: 100.0%;">Chinewood Ave Wyvern Close</div>`)[0];
+                popup_b84836ea7a2013c6ea28b29da97edc29.setContent(html_ee8ab959900e8e1da974ec19392c72f0);
+            
+        
+
+        circle_marker_4e5b47c7cf05a964100f041a1c77369d.bindPopup(popup_b84836ea7a2013c6ea28b29da97edc29)
+        ;
+
+        
+    
+    
+            circle_marker_4e5b47c7cf05a964100f041a1c77369d.bindTooltip(
+                `<div>
+                     Chinewood Ave Wyvern Close
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ce0e89d0576818e07c050a7c91c9ff8a = L.circleMarker(
+                [53.718721409, -1.634648072],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8419d70ce776a5348d107481af281450);
+        
+    
+        var popup_dd49e21212475aa432623e2674c1c488 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8cc079c9a703e2efcce79c5ce2fb9de0 = $(`<div id="html_8cc079c9a703e2efcce79c5ce2fb9de0" style="width: 100.0%; height: 100.0%;">Chinewood Avenue County Close</div>`)[0];
+                popup_dd49e21212475aa432623e2674c1c488.setContent(html_8cc079c9a703e2efcce79c5ce2fb9de0);
+            
+        
+
+        circle_marker_ce0e89d0576818e07c050a7c91c9ff8a.bindPopup(popup_dd49e21212475aa432623e2674c1c488)
+        ;
+
+        
+    
+    
+            circle_marker_ce0e89d0576818e07c050a7c91c9ff8a.bindTooltip(
+                `<div>
+                     Chinewood Avenue County Close
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6c62fe0e9be2d52ab4e54d4f83e6c282 = L.circleMarker(
+                [53.715688604, -1.633401548],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8419d70ce776a5348d107481af281450);
+        
+    
+        var popup_f753893d19a32201164f2909432d5923 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6b81c1aef81ac623e94ae792ec450117 = $(`<div id="html_6b81c1aef81ac623e94ae792ec450117" style="width: 100.0%; height: 100.0%;">Batley Bus Station</div>`)[0];
+                popup_f753893d19a32201164f2909432d5923.setContent(html_6b81c1aef81ac623e94ae792ec450117);
+            
+        
+
+        circle_marker_6c62fe0e9be2d52ab4e54d4f83e6c282.bindPopup(popup_f753893d19a32201164f2909432d5923)
+        ;
+
+        
+    
+    
+            circle_marker_6c62fe0e9be2d52ab4e54d4f83e6c282.bindTooltip(
+                `<div>
+                     Batley Bus Station
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

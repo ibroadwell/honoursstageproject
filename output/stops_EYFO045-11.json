@@ -1,0 +1,248 @@
+[
+  {
+    "name": "Castle Hill Hospital Gate 3",
+    "lat": 53.776592772,
+    "lon": -0.440406706,
+    "sequence": 1
+  },
+  {
+    "name": "Cottingham Castle Road",
+    "lat": 53.777121729,
+    "lon": -0.43547009,
+    "sequence": 2
+  },
+  {
+    "name": "Cottingham St Margarets Ave",
+    "lat": 53.777933969,
+    "lon": -0.430902182,
+    "sequence": 3
+  },
+  {
+    "name": "Cottingham St Margarets Ave",
+    "lat": 53.779804158,
+    "lon": -0.430938653,
+    "sequence": 4
+  },
+  {
+    "name": "Cottingham Eppleworth Road",
+    "lat": 53.782907464,
+    "lon": -0.426982827,
+    "sequence": 5
+  },
+  {
+    "name": "Cottingham West End Road",
+    "lat": 53.783253958,
+    "lon": -0.42393423,
+    "sequence": 6
+  },
+  {
+    "name": "Cottingham The Lawns",
+    "lat": 53.784364263,
+    "lon": -0.422921189,
+    "sequence": 7
+  },
+  {
+    "name": "Cottingham Northgate",
+    "lat": 53.784803046,
+    "lon": -0.418017175,
+    "sequence": 8
+  },
+  {
+    "name": "Cottingham King Street",
+    "lat": 53.783011908,
+    "lon": -0.41375879,
+    "sequence": 9
+  },
+  {
+    "name": "Cottingham Green Sainsburys",
+    "lat": 53.780748408,
+    "lon": -0.41388969,
+    "sequence": 10
+  },
+  {
+    "name": "Cottingham Newgate Street",
+    "lat": 53.779614595,
+    "lon": -0.411762151,
+    "sequence": 11
+  },
+  {
+    "name": "Cottingham Thwaite Street",
+    "lat": 53.779306691,
+    "lon": -0.407524275,
+    "sequence": 12
+  },
+  {
+    "name": "Cottingham Thwaite Street",
+    "lat": 53.77878069,
+    "lon": -0.403795567,
+    "sequence": 13
+  },
+  {
+    "name": "Cottingham Thwaite Street",
+    "lat": 53.778850055,
+    "lon": -0.399558651,
+    "sequence": 14
+  },
+  {
+    "name": "Cottingham Hull Road",
+    "lat": 53.7772361,
+    "lon": -0.397844459,
+    "sequence": 15
+  },
+  {
+    "name": "Cottingham Hull Road",
+    "lat": 53.77509198,
+    "lon": -0.396818323,
+    "sequence": 16
+  },
+  {
+    "name": "Cottingham Hull Road",
+    "lat": 53.773083483,
+    "lon": -0.395180135,
+    "sequence": 17
+  },
+  {
+    "name": "Cottingham Hull Road",
+    "lat": 53.771103755,
+    "lon": -0.388988841,
+    "sequence": 18
+  },
+  {
+    "name": "Oakfield Court",
+    "lat": 53.770078291,
+    "lon": -0.382260717,
+    "sequence": 19
+  },
+  {
+    "name": "Cottingham Grove",
+    "lat": 53.769847382,
+    "lon": -0.378476234,
+    "sequence": 20
+  },
+  {
+    "name": "Townend Court",
+    "lat": 53.769683058,
+    "lon": -0.376297599,
+    "sequence": 21
+  },
+  {
+    "name": "Newland Park",
+    "lat": 53.769464856,
+    "lon": -0.372800982,
+    "sequence": 22
+  },
+  {
+    "name": "University Business School",
+    "lat": 53.769327589,
+    "lon": -0.370636512,
+    "sequence": 23
+  },
+  {
+    "name": "Hull University",
+    "lat": 53.769230966,
+    "lon": -0.368819465,
+    "sequence": 24
+  },
+  {
+    "name": "Ferens Avenue",
+    "lat": 53.76899517,
+    "lon": -0.364049058,
+    "sequence": 25
+  },
+  {
+    "name": "Falmouth Street",
+    "lat": 53.76887164,
+    "lon": -0.360928195,
+    "sequence": 26
+  },
+  {
+    "name": "The Trees",
+    "lat": 53.768651744,
+    "lon": -0.357340746,
+    "sequence": 27
+  },
+  {
+    "name": "Beverley Road (Haworth Arms)",
+    "lat": 53.767892,
+    "lon": -0.353699,
+    "sequence": 28
+  },
+  {
+    "name": "Washington Street",
+    "lat": 53.765647,
+    "lon": -0.352573,
+    "sequence": 29
+  },
+  {
+    "name": "Ryde Street",
+    "lat": 53.763788,
+    "lon": -0.351401,
+    "sequence": 30
+  },
+  {
+    "name": "Melwood Grove",
+    "lat": 53.761042,
+    "lon": -0.349749,
+    "sequence": 31
+  },
+  {
+    "name": "Epworth Street",
+    "lat": 53.759649,
+    "lon": -0.349182,
+    "sequence": 32
+  },
+  {
+    "name": "Temple Street",
+    "lat": 53.757389,
+    "lon": -0.348861,
+    "sequence": 33
+  },
+  {
+    "name": "St Hilda Street",
+    "lat": 53.755766,
+    "lon": -0.348515,
+    "sequence": 34
+  },
+  {
+    "name": "Somerscales Street",
+    "lat": 53.753684,
+    "lon": -0.348096,
+    "sequence": 35
+  },
+  {
+    "name": "Harley Street",
+    "lat": 53.751827,
+    "lon": -0.347714,
+    "sequence": 36
+  },
+  {
+    "name": "College Street",
+    "lat": 53.750556,
+    "lon": -0.347476,
+    "sequence": 37
+  },
+  {
+    "name": "Prospect Street A",
+    "lat": 53.747308113,
+    "lon": -0.344676269,
+    "sequence": 38
+  },
+  {
+    "name": "Bond Street A",
+    "lat": 53.746706,
+    "lon": -0.339453,
+    "sequence": 39
+  },
+  {
+    "name": "Carr Lane (Primark)",
+    "lat": 53.743470155,
+    "lon": -0.340156604,
+    "sequence": 40
+  },
+  {
+    "name": "Hull Interchange",
+    "lat": 53.744569616,
+    "lon": -0.347513504,
+    "sequence": 41
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "name": "South Hunsley School (inside grounds)",
+    "lat": 53.728354,
+    "lon": -0.538493,
+    "sequence": 1
+  },
+  {
+    "name": "Melton South Hunsley School",
+    "lat": 53.728678,
+    "lon": -0.535571,
+    "sequence": 2
+  },
+  {
+    "name": "North Ferriby Corby Park",
+    "lat": 53.72174,
+    "lon": -0.514579,
+    "sequence": 3
+  },
+  {
+    "name": "North Ferriby Corby Park",
+    "lat": 53.720349,
+    "lon": -0.511824,
+    "sequence": 4
+  },
+  {
+    "name": "Ferriby (Church Road)",
+    "lat": 53.718031,
+    "lon": -0.506905,
+    "sequence": 5
+  },
+  {
+    "name": "North Ferriby Library",
+    "lat": 53.721076,
+    "lon": -0.502402,
+    "sequence": 6
+  },
+  {
+    "name": "North Ferriby High Road",
+    "lat": 53.722166,
+    "lon": -0.486844,
+    "sequence": 7
+  },
+  {
+    "name": "North Ferriby High Road",
+    "lat": 53.721632,
+    "lon": -0.483695,
+    "sequence": 8
+  },
+  {
+    "name": "North Ferriby High Rd",
+    "lat": 53.721217,
+    "lon": -0.476481,
+    "sequence": 9
+  },
+  {
+    "name": "North Ferriby High Rd",
+    "lat": 53.72128,
+    "lon": -0.47363,
+    "sequence": 10
+  },
+  {
+    "name": "Hessle Ferriby Road",
+    "lat": 53.721819,
+    "lon": -0.46097,
+    "sequence": 11
+  },
+  {
+    "name": "Hessle Ferriby Road",
+    "lat": 53.721746,
+    "lon": -0.452531,
+    "sequence": 12
+  },
+  {
+    "name": "Hessle Ferriby Road",
+    "lat": 53.721866,
+    "lon": -0.447904,
+    "sequence": 13
+  },
+  {
+    "name": "Hessle Ferriby Road",
+    "lat": 53.722468,
+    "lon": -0.443032,
+    "sequence": 14
+  },
+  {
+    "name": "Hessle Barrow Lane",
+    "lat": 53.723194,
+    "lon": -0.440792,
+    "sequence": 15
+  },
+  {
+    "name": "Hessle Barrow Lane",
+    "lat": 53.725696,
+    "lon": -0.441715,
+    "sequence": 16
+  },
+  {
+    "name": "Hessle Swanland Road",
+    "lat": 53.727979,
+    "lon": -0.440994,
+    "sequence": 17
+  },
+  {
+    "name": "Hessle Swanland Road",
+    "lat": 53.727425,
+    "lon": -0.436467,
+    "sequence": 18
+  },
+  {
+    "name": "Hessle Beverley Road",
+    "lat": 53.72959,
+    "lon": -0.435613,
+    "sequence": 19
+  },
+  {
+    "name": "Hessle Beverley Road",
+    "lat": 53.733494,
+    "lon": -0.435848,
+    "sequence": 20
+  },
+  {
+    "name": "Anlaby Beverley Rd",
+    "lat": 53.739547,
+    "lon": -0.436775,
+    "sequence": 21
+  },
+  {
+    "name": "Anlaby Beverley Road",
+    "lat": 53.745135,
+    "lon": -0.43866,
+    "sequence": 22
+  },
+  {
+    "name": "Anlaby Beverley Road",
+    "lat": 53.74463,
+    "lon": -0.438497,
+    "sequence": 23
+  },
+  {
+    "name": "Anlaby Beverley Road",
+    "lat": 53.745135,
+    "lon": -0.43866,
+    "sequence": 24
+  },
+  {
+    "name": "Anlaby Wilson Street",
+    "lat": 53.745885677,
+    "lon": -0.434841332,
+    "sequence": 25
+  },
+  {
+    "name": "Anlaby Red Lion",
+    "lat": 53.745476725,
+    "lon": -0.43236894,
+    "sequence": 26
+  },
+  {
+    "name": "Anlaby Hull Road",
+    "lat": 53.745018438,
+    "lon": -0.425988448,
+    "sequence": 27
+  },
+  {
+    "name": "Anlaby Hull Road",
+    "lat": 53.744467,
+    "lon": -0.421959,
+    "sequence": 28
+  },
+  {
+    "name": "Anlaby Hull Road",
+    "lat": 53.745024,
+    "lon": -0.416434,
+    "sequence": 29
+  },
+  {
+    "name": "Anlaby Hull Road",
+    "lat": 53.744468,
+    "lon": -0.413133,
+    "sequence": 30
+  },
+  {
+    "name": "Trenton Avenue",
+    "lat": 53.744324,
+    "lon": -0.40906,
+    "sequence": 31
+  },
+  {
+    "name": "Malham Avenue",
+    "lat": 53.74452,
+    "lon": -0.405549,
+    "sequence": 32
+  },
+  {
+    "name": "Trinity House",
+    "lat": 53.744758,
+    "lon": -0.400506,
+    "sequence": 33
+  },
+  {
+    "name": "Arcon Drive",
+    "lat": 53.744794,
+    "lon": -0.39782,
+    "sequence": 34
+  },
+  {
+    "name": "Anlaby Park Fire Station",
+    "lat": 53.745522,
+    "lon": -0.393774,
+    "sequence": 35
+  }
+]

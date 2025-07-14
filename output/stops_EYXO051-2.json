@@ -1,0 +1,176 @@
+[
+  {
+    "name": "Hull Interchange",
+    "lat": 53.744651726,
+    "lon": -0.346949198,
+    "sequence": 1
+  },
+  {
+    "name": "Albion Steet A",
+    "lat": 53.746628565,
+    "lon": -0.342337217,
+    "sequence": 2
+  },
+  {
+    "name": "Monument Bridge",
+    "lat": 53.743704,
+    "lon": -0.338252,
+    "sequence": 3
+  },
+  {
+    "name": "Carr Lane (Primark)",
+    "lat": 53.743470155,
+    "lon": -0.340156604,
+    "sequence": 4
+  },
+  {
+    "name": "Carr Lane E",
+    "lat": 53.743343465,
+    "lon": -0.342693981,
+    "sequence": 5
+  },
+  {
+    "name": "Pease Street",
+    "lat": 53.743005,
+    "lon": -0.347469,
+    "sequence": 6
+  },
+  {
+    "name": "Fountain Street",
+    "lat": 53.742885,
+    "lon": -0.35316,
+    "sequence": 7
+  },
+  {
+    "name": "Hull Royal Infirmary",
+    "lat": 53.743036,
+    "lon": -0.356899,
+    "sequence": 8
+  },
+  {
+    "name": "Coltman Street",
+    "lat": 53.743187894,
+    "lon": -0.362109891,
+    "sequence": 9
+  },
+  {
+    "name": "Saner Street",
+    "lat": 53.743272549,
+    "lon": -0.365018068,
+    "sequence": 10
+  },
+  {
+    "name": "Anlaby Road Stadium",
+    "lat": 53.743723817,
+    "lon": -0.372415771,
+    "sequence": 11
+  },
+  {
+    "name": "Sandringham Street",
+    "lat": 53.743719553,
+    "lon": -0.374751197,
+    "sequence": 12
+  },
+  {
+    "name": "Acland Street",
+    "lat": 53.744927366,
+    "lon": -0.377646493,
+    "sequence": 13
+  },
+  {
+    "name": "Rosebery Street",
+    "lat": 53.747159442,
+    "lon": -0.378515912,
+    "sequence": 14
+  },
+  {
+    "name": "Astley Street",
+    "lat": 53.749798886,
+    "lon": -0.379597235,
+    "sequence": 15
+  },
+  {
+    "name": "Alliance Avenue",
+    "lat": 53.750340917,
+    "lon": -0.382457993,
+    "sequence": 16
+  },
+  {
+    "name": "Rutland Road",
+    "lat": 53.750153297,
+    "lon": -0.386544944,
+    "sequence": 17
+  },
+  {
+    "name": "Southburn Avenue",
+    "lat": 53.750046017,
+    "lon": -0.389931137,
+    "sequence": 18
+  },
+  {
+    "name": "The Hastings",
+    "lat": 53.74992697,
+    "lon": -0.393787913,
+    "sequence": 19
+  },
+  {
+    "name": "Derringham Church",
+    "lat": 53.750513181,
+    "lon": -0.396616841,
+    "sequence": 20
+  },
+  {
+    "name": "Ampleforth Grove",
+    "lat": 53.751516942,
+    "lon": -0.399081138,
+    "sequence": 21
+  },
+  {
+    "name": "County Road South",
+    "lat": 53.75225709,
+    "lon": -0.404027788,
+    "sequence": 22
+  },
+  {
+    "name": "Bloomfield Avenue",
+    "lat": 53.753904691,
+    "lon": -0.40422318,
+    "sequence": 23
+  },
+  {
+    "name": "Hotham Road South",
+    "lat": 53.756758614,
+    "lon": -0.409287509,
+    "sequence": 24
+  },
+  {
+    "name": "Moorhouse Road",
+    "lat": 53.758369507,
+    "lon": -0.412139127,
+    "sequence": 25
+  },
+  {
+    "name": "Wymersley Road",
+    "lat": 53.760128095,
+    "lon": -0.415288797,
+    "sequence": 26
+  },
+  {
+    "name": "Daville Close",
+    "lat": 53.758135355,
+    "lon": -0.416182952,
+    "sequence": 27
+  },
+  {
+    "name": "Springhead Park Golf Course",
+    "lat": 53.756180923,
+    "lon": -0.416575022,
+    "sequence": 28
+  },
+  {
+    "name": "Wymersley Road (Highway Pub)",
+    "lat": 53.753571814,
+    "lon": -0.417082676,
+    "sequence": 29
+  }
+]

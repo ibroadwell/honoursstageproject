@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Hornsea Cliff Road",
+    "lat": 53.920439,
+    "lon": -0.167749,
+    "sequence": 1
+  },
+  {
+    "name": "Hornsea Cliff Road",
+    "lat": 53.917511,
+    "lon": -0.165563,
+    "sequence": 2
+  },
+  {
+    "name": "Hornsea Esplanade",
+    "lat": 53.917022,
+    "lon": -0.163605,
+    "sequence": 3
+  },
+  {
+    "name": "Hornsea Marine Drive",
+    "lat": 53.915508,
+    "lon": -0.161585,
+    "sequence": 4
+  },
+  {
+    "name": "Hornsea Marine Drive",
+    "lat": 53.913257,
+    "lon": -0.161913,
+    "sequence": 5
+  },
+  {
+    "name": "Hornsea New Road",
+    "lat": 53.912374,
+    "lon": -0.165895,
+    "sequence": 6
+  },
+  {
+    "name": "Hornsea Newbegin",
+    "lat": 53.910998,
+    "lon": -0.171177,
+    "sequence": 7
+  },
+  {
+    "name": "Hornsea (Market Place)",
+    "lat": 53.910879,
+    "lon": -0.174593,
+    "sequence": 8
+  },
+  {
+    "name": "Hornsea Atwick Road",
+    "lat": 53.914594,
+    "lon": -0.177705,
+    "sequence": 9
+  },
+  {
+    "name": "Atwick Post Office",
+    "lat": 53.940135,
+    "lon": -0.187988,
+    "sequence": 10
+  },
+  {
+    "name": "Skirlington Camp",
+    "lat": 53.960454,
+    "lon": -0.202563,
+    "sequence": 11
+  },
+  {
+    "name": "Skipsea Village",
+    "lat": 53.97886,
+    "lon": -0.219262,
+    "sequence": 12
+  },
+  {
+    "name": "Skipsea Sands Holiday Park",
+    "lat": 53.98886,
+    "lon": -0.206816,
+    "sequence": 13
+  },
+  {
+    "name": "Skipsea Village",
+    "lat": 53.97886,
+    "lon": -0.219262,
+    "sequence": 14
+  },
+  {
+    "name": "Ulrome Church",
+    "lat": 53.992978,
+    "lon": -0.228103,
+    "sequence": 15
+  },
+  {
+    "name": "Ulrome Main Street",
+    "lat": 53.994501,
+    "lon": -0.221676,
+    "sequence": 16
+  },
+  {
+    "name": "Ulrome (Coastguard Cottages)",
+    "lat": 53.995911,
+    "lon": -0.210068,
+    "sequence": 17
+  },
+  {
+    "name": "Ulrome Main Street",
+    "lat": 53.994402,
+    "lon": -0.221696,
+    "sequence": 18
+  },
+  {
+    "name": "Ulrome Church",
+    "lat": 53.992814,
+    "lon": -0.228552,
+    "sequence": 19
+  },
+  {
+    "name": "Lissett Village",
+    "lat": 54.006532,
+    "lon": -0.255056,
+    "sequence": 20
+  },
+  {
+    "name": "Lissett A165",
+    "lat": 54.007601,
+    "lon": -0.248815,
+    "sequence": 21
+  },
+  {
+    "name": "Barmston Lane End",
+    "lat": 54.01345,
+    "lon": -0.238802,
+    "sequence": 22
+  },
+  {
+    "name": "Barmston Village (Caravan Park)",
+    "lat": 54.016601,
+    "lon": -0.216582,
+    "sequence": 23
+  },
+  {
+    "name": "Barmston Sands Lane",
+    "lat": 54.014828,
+    "lon": -0.226732,
+    "sequence": 24
+  },
+  {
+    "name": "Barmston Lane End",
+    "lat": 54.013421,
+    "lon": -0.238024,
+    "sequence": 25
+  },
+  {
+    "name": "Fraisthorpe Lane End",
+    "lat": 54.041721,
+    "lon": -0.241944,
+    "sequence": 26
+  },
+  {
+    "name": "South Shore Holiday Village",
+    "lat": 54.064884,
+    "lon": -0.217387,
+    "sequence": 27
+  },
+  {
+    "name": "Bridlington Bessingby Rd",
+    "lat": 54.082875,
+    "lon": -0.202581,
+    "sequence": 28
+  },
+  {
+    "name": "Bridlington Hilderthorpe Rd",
+    "lat": 54.083205,
+    "lon": -0.198822,
+    "sequence": 29
+  },
+  {
+    "name": "Bridlington (Bus Station)",
+    "lat": 54.0838,
+    "lon": -0.189317,
+    "sequence": 30
+  }
+]

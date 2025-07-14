@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Beverley Bus Station",
+    "lat": 53.84405,
+    "lon": -0.431745,
+    "sequence": 1
+  },
+  {
+    "name": "Beverley Manor Road",
+    "lat": 53.847506,
+    "lon": -0.434853,
+    "sequence": 2
+  },
+  {
+    "name": "Copandale Road",
+    "lat": 53.849719,
+    "lon": -0.432247,
+    "sequence": 3
+  },
+  {
+    "name": "Beverley Woodhall Way",
+    "lat": 53.849034,
+    "lon": -0.435541,
+    "sequence": 4
+  },
+  {
+    "name": "Beverley Manor Road",
+    "lat": 53.847357,
+    "lon": -0.434479,
+    "sequence": 5
+  },
+  {
+    "name": "Beverley Manor Road",
+    "lat": 53.845555,
+    "lon": -0.432053,
+    "sequence": 6
+  },
+  {
+    "name": "Beverley Norwood",
+    "lat": 53.84767,
+    "lon": -0.427459,
+    "sequence": 7
+  },
+  {
+    "name": "Norwood Grange",
+    "lat": 53.853973,
+    "lon": -0.42143,
+    "sequence": 8
+  },
+  {
+    "name": "Beverley Hull Bridge Road",
+    "lat": 53.853209,
+    "lon": -0.418692,
+    "sequence": 9
+  },
+  {
+    "name": "Beverley Lilac Avenue",
+    "lat": 53.855966,
+    "lon": -0.423286,
+    "sequence": 10
+  },
+  {
+    "name": "Humber Keel",
+    "lat": 53.846368,
+    "lon": -0.417293,
+    "sequence": 11
+  },
+  {
+    "name": "Beverley Sample Avenue",
+    "lat": 53.847254,
+    "lon": -0.423158,
+    "sequence": 12
+  },
+  {
+    "name": "Beverley Bus Station",
+    "lat": 53.844123,
+    "lon": -0.431818,
+    "sequence": 13
+  }
+]

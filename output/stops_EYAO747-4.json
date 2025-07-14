@@ -1,0 +1,194 @@
+[
+  {
+    "name": "Pocklington EY Depot",
+    "lat": 53.929036,
+    "lon": -0.779947,
+    "sequence": 1
+  },
+  {
+    "name": "Pocklington George Street",
+    "lat": 53.93183,
+    "lon": -0.781587,
+    "sequence": 2
+  },
+  {
+    "name": "Pocklington Yapham Road",
+    "lat": 53.933357662,
+    "lon": -0.783309269,
+    "sequence": 3
+  },
+  {
+    "name": "Meltonby",
+    "lat": 53.962688726,
+    "lon": -0.78881794,
+    "sequence": 4
+  },
+  {
+    "name": "Bishop Wilton",
+    "lat": 53.985256754,
+    "lon": -0.78530929,
+    "sequence": 5
+  },
+  {
+    "name": "Yapham",
+    "lat": 53.958449058,
+    "lon": -0.799650851,
+    "sequence": 6
+  },
+  {
+    "name": "Bolton",
+    "lat": 53.961048653,
+    "lon": -0.826476262,
+    "sequence": 7
+  },
+  {
+    "name": "Fangfoss",
+    "lat": 53.968750054,
+    "lon": -0.834629301,
+    "sequence": 8
+  },
+  {
+    "name": "Full Sutton",
+    "lat": 53.988822795,
+    "lon": -0.864398174,
+    "sequence": 9
+  },
+  {
+    "name": "Stamford Bridge Square",
+    "lat": 53.991162072,
+    "lon": -0.91478283,
+    "sequence": 10
+  },
+  {
+    "name": "The Manor House",
+    "lat": 53.989115123,
+    "lon": -0.944318205,
+    "sequence": 11
+  },
+  {
+    "name": "Duke of York",
+    "lat": 53.987557215,
+    "lon": -0.950137891,
+    "sequence": 12
+  },
+  {
+    "name": "Panman Lane",
+    "lat": 53.976933733,
+    "lon": -0.968884953,
+    "sequence": 13
+  },
+  {
+    "name": "Bingley House",
+    "lat": 53.95603,
+    "lon": -1.01416,
+    "sequence": 14
+  },
+  {
+    "name": "Canham Grove",
+    "lat": 53.953591,
+    "lon": -1.032642,
+    "sequence": 15
+  },
+  {
+    "name": "Osbaldwick Pinelands Way",
+    "lat": 53.953844,
+    "lon": -1.037223,
+    "sequence": 16
+  },
+  {
+    "name": "Archbishop Holgate's School",
+    "lat": 53.953621,
+    "lon": -1.04087,
+    "sequence": 17
+  },
+  {
+    "name": "Windmill Lane",
+    "lat": 53.953723,
+    "lon": -1.046872,
+    "sequence": 18
+  },
+  {
+    "name": "Milson Grove",
+    "lat": 53.953776,
+    "lon": -1.051305,
+    "sequence": 19
+  },
+  {
+    "name": "Garrow Hill Avenue",
+    "lat": 53.953752,
+    "lon": -1.056273,
+    "sequence": 20
+  },
+  {
+    "name": "Abbotsford Road",
+    "lat": 53.954252,
+    "lon": -1.060377,
+    "sequence": 21
+  },
+  {
+    "name": "St Joseph's Convent",
+    "lat": 53.954427,
+    "lon": -1.0656,
+    "sequence": 22
+  },
+  {
+    "name": "St Lawrence Church",
+    "lat": 53.954641,
+    "lon": -1.068841,
+    "sequence": 23
+  },
+  {
+    "name": "Huby Court",
+    "lat": 53.955272,
+    "lon": -1.071296,
+    "sequence": 24
+  },
+  {
+    "name": "Student Castle",
+    "lat": 53.956659495,
+    "lon": -1.075288205,
+    "sequence": 25
+  },
+  {
+    "name": "St Denys' Road",
+    "lat": 53.956249,
+    "lon": -1.076791,
+    "sequence": 26
+  },
+  {
+    "name": "York, Piccadilly",
+    "lat": 53.957706,
+    "lon": -1.079304,
+    "sequence": 27
+  },
+  {
+    "name": "York, Low Ousegate, TF",
+    "lat": 53.957483015,
+    "lon": -1.08305776,
+    "sequence": 28
+  },
+  {
+    "name": "Victoria Bar",
+    "lat": 53.95335559,
+    "lon": -1.08634843,
+    "sequence": 29
+  },
+  {
+    "name": "Nunnery Lane Car Park",
+    "lat": 53.954974424,
+    "lon": -1.090031447,
+    "sequence": 30
+  },
+  {
+    "name": "Queen Street",
+    "lat": 53.955815827,
+    "lon": -1.091948565,
+    "sequence": 31
+  },
+  {
+    "name": "York Railway Station",
+    "lat": 53.958127107,
+    "lon": -1.09212696,
+    "sequence": 32
+  }
+]

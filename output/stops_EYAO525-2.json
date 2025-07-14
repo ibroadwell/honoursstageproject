@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Beverley Bus Station",
+    "lat": 53.844123,
+    "lon": -0.431818,
+    "sequence": 1
+  },
+  {
+    "name": "Beverley New Walkergate",
+    "lat": 53.84214,
+    "lon": -0.426618,
+    "sequence": 2
+  },
+  {
+    "name": "Beverley Railway Stn",
+    "lat": 53.841955,
+    "lon": -0.423524,
+    "sequence": 3
+  },
+  {
+    "name": "Grovehill Road (Coltman Avenue)",
+    "lat": 53.843248,
+    "lon": -0.41586,
+    "sequence": 4
+  },
+  {
+    "name": "Holme Church Lane",
+    "lat": 53.841521,
+    "lon": -0.411715,
+    "sequence": 5
+  },
+  {
+    "name": "Beverley Flemingate",
+    "lat": 53.838474,
+    "lon": -0.419247,
+    "sequence": 6
+  },
+  {
+    "name": "Beverley Armstrong Way",
+    "lat": 53.839954,
+    "lon": -0.422414,
+    "sequence": 7
+  },
+  {
+    "name": "Beverley Rail Station",
+    "lat": 53.841878,
+    "lon": -0.423755,
+    "sequence": 8
+  },
+  {
+    "name": "Beverley Bus Station",
+    "lat": 53.844123,
+    "lon": -0.431818,
+    "sequence": 9
+  }
+]

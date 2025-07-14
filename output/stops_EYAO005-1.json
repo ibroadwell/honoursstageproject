@@ -1,0 +1,224 @@
+[
+  {
+    "name": "Ravenscar (Station Square)",
+    "lat": 54.397601406,
+    "lon": -0.484751681,
+    "sequence": 1
+  },
+  {
+    "name": "Raven Hall",
+    "lat": 54.400340979,
+    "lon": -0.490350587,
+    "sequence": 2
+  },
+  {
+    "name": "Post Office",
+    "lat": 54.397563957,
+    "lon": -0.492532099,
+    "sequence": 3
+  },
+  {
+    "name": "Staintondale (Trekking Centre)",
+    "lat": 54.369783653,
+    "lon": -0.474076831,
+    "sequence": 4
+  },
+  {
+    "name": "Downdale Road",
+    "lat": 54.365918957,
+    "lon": -0.468074293,
+    "sequence": 5
+  },
+  {
+    "name": "Wyke Lodge",
+    "lat": 54.364092905,
+    "lon": -0.469716496,
+    "sequence": 6
+  },
+  {
+    "name": "Hayburn Beck Farm",
+    "lat": 54.360996792,
+    "lon": -0.465845468,
+    "sequence": 7
+  },
+  {
+    "name": "Bryherstones Inn",
+    "lat": 54.348982471,
+    "lon": -0.447091365,
+    "sequence": 8
+  },
+  {
+    "name": "Hood Lane",
+    "lat": 54.343813682,
+    "lon": -0.446347787,
+    "sequence": 9
+  },
+  {
+    "name": "Newlands Lane",
+    "lat": 54.338319169,
+    "lon": -0.448231606,
+    "sequence": 10
+  },
+  {
+    "name": "Lockwood Chase",
+    "lat": 54.337214354,
+    "lon": -0.448288593,
+    "sequence": 11
+  },
+  {
+    "name": "Cloughton (Playing Fields)",
+    "lat": 54.334983212,
+    "lon": -0.449526161,
+    "sequence": 12
+  },
+  {
+    "name": "Station Lane",
+    "lat": 54.332501297,
+    "lon": -0.449434976,
+    "sequence": 13
+  },
+  {
+    "name": "Burniston (Tidds Corner)",
+    "lat": 54.326074673,
+    "lon": -0.450830022,
+    "sequence": 14
+  },
+  {
+    "name": "Methodist Chapel",
+    "lat": 54.323556891,
+    "lon": -0.447249662,
+    "sequence": 15
+  },
+  {
+    "name": "Three Jolly Sailors PH",
+    "lat": 54.322103195,
+    "lon": -0.444644378,
+    "sequence": 16
+  },
+  {
+    "name": "Field Lane",
+    "lat": 54.305548168,
+    "lon": -0.424657739,
+    "sequence": 17
+  },
+  {
+    "name": "The Ivanhoe",
+    "lat": 54.300314374,
+    "lon": -0.419647867,
+    "sequence": 18
+  },
+  {
+    "name": "Scholes Park Avenue",
+    "lat": 54.301121098,
+    "lon": -0.414683789,
+    "sequence": 19
+  },
+  {
+    "name": "Scalby Mills, Sealife",
+    "lat": 54.302496084,
+    "lon": -0.410050474,
+    "sequence": 20
+  },
+  {
+    "name": "Scalby Mills Road",
+    "lat": 54.300224134,
+    "lon": -0.419620588,
+    "sequence": 21
+  },
+  {
+    "name": "Cross Lane",
+    "lat": 54.297685521,
+    "lon": -0.417950622,
+    "sequence": 22
+  },
+  {
+    "name": "Alpamare",
+    "lat": 54.295461601,
+    "lon": -0.416660154,
+    "sequence": 23
+  },
+  {
+    "name": "Weydale Avenue",
+    "lat": 54.294423046,
+    "lon": -0.415233038,
+    "sequence": 24
+  },
+  {
+    "name": "Peasholm Gap",
+    "lat": 54.291993971,
+    "lon": -0.408919197,
+    "sequence": 25
+  },
+  {
+    "name": "Peasholm Park",
+    "lat": 54.290152841,
+    "lon": -0.407668854,
+    "sequence": 26
+  },
+  {
+    "name": "Woodall Avenue",
+    "lat": 54.289604648,
+    "lon": -0.404955228,
+    "sequence": 27
+  },
+  {
+    "name": "Trafalgar Square",
+    "lat": 54.288347053,
+    "lon": -0.402975849,
+    "sequence": 28
+  },
+  {
+    "name": "Cricket Ground",
+    "lat": 54.288329086,
+    "lon": -0.402976544,
+    "sequence": 29
+  },
+  {
+    "name": "Trafalgar Sq",
+    "lat": 54.287944855,
+    "lon": -0.402469057,
+    "sequence": 30
+  },
+  {
+    "name": "North Marine Road",
+    "lat": 54.285661015,
+    "lon": -0.401051916,
+    "sequence": 31
+  },
+  {
+    "name": "Scarborough, Castle Street Stop X",
+    "lat": 54.285704328,
+    "lon": -0.40025139,
+    "sequence": 32
+  },
+  {
+    "name": "Queen Street",
+    "lat": 54.283602801,
+    "lon": -0.398351163,
+    "sequence": 33
+  },
+  {
+    "name": "St Thomas Street Stop C",
+    "lat": 54.283471478,
+    "lon": -0.399969229,
+    "sequence": 34
+  },
+  {
+    "name": "Castle Road Stop F",
+    "lat": 54.285212729,
+    "lon": -0.401666102,
+    "sequence": 35
+  },
+  {
+    "name": "Aberdeen Walk Stop K",
+    "lat": 54.282684458,
+    "lon": -0.402979827,
+    "sequence": 36
+  },
+  {
+    "name": "Scarborough Railway Station",
+    "lat": 54.279962405,
+    "lon": -0.405803881,
+    "sequence": 37
+  }
+]

@@ -1,0 +1,314 @@
+[
+  {
+    "name": "Cayton West Garth",
+    "lat": 54.233729732,
+    "lon": -0.391184467,
+    "sequence": 1
+  },
+  {
+    "name": "Beverley Road",
+    "lat": 54.234155086,
+    "lon": -0.388037885,
+    "sequence": 2
+  },
+  {
+    "name": "Green Park Road",
+    "lat": 54.233447938,
+    "lon": -0.384229676,
+    "sequence": 3
+  },
+  {
+    "name": "Nesfield Close",
+    "lat": 54.233035307,
+    "lon": -0.382281901,
+    "sequence": 4
+  },
+  {
+    "name": "Nesfield Close",
+    "lat": 54.232598659,
+    "lon": -0.381224984,
+    "sequence": 5
+  },
+  {
+    "name": "Penton Road",
+    "lat": 54.232904596,
+    "lon": -0.377239205,
+    "sequence": 6
+  },
+  {
+    "name": "Beck Hole",
+    "lat": 54.233836596,
+    "lon": -0.379703586,
+    "sequence": 7
+  },
+  {
+    "name": "Cayton Main Street",
+    "lat": 54.235334375,
+    "lon": -0.384815764,
+    "sequence": 8
+  },
+  {
+    "name": "Carr House Lane",
+    "lat": 54.235587435,
+    "lon": -0.388948724,
+    "sequence": 9
+  },
+  {
+    "name": "Havers Hill",
+    "lat": 54.236170898,
+    "lon": -0.392255659,
+    "sequence": 10
+  },
+  {
+    "name": "Pindar School",
+    "lat": 54.238387479,
+    "lon": -0.395361224,
+    "sequence": 11
+  },
+  {
+    "name": "Eastfield (Eastway/Overdale)",
+    "lat": 54.240447415,
+    "lon": -0.395480785,
+    "sequence": 12
+  },
+  {
+    "name": "Harvest Way",
+    "lat": 54.243130974,
+    "lon": -0.389790473,
+    "sequence": 13
+  },
+  {
+    "name": "Eastway Overdale",
+    "lat": 54.244686798,
+    "lon": -0.386491615,
+    "sequence": 14
+  },
+  {
+    "name": "Middle Deepdale",
+    "lat": 54.247962051,
+    "lon": -0.38742283,
+    "sequence": 15
+  },
+  {
+    "name": "Wheatcroft Avenue",
+    "lat": 54.263452903,
+    "lon": -0.392422581,
+    "sequence": 16
+  },
+  {
+    "name": "Sea Cliffe Road",
+    "lat": 54.266163769,
+    "lon": -0.393499449,
+    "sequence": 17
+  },
+  {
+    "name": "Esplanade Crescent",
+    "lat": 54.267577911,
+    "lon": -0.395072164,
+    "sequence": 18
+  },
+  {
+    "name": "Holbeck Road",
+    "lat": 54.268644935,
+    "lon": -0.396228486,
+    "sequence": 19
+  },
+  {
+    "name": "Belvedere Road",
+    "lat": 54.270113761,
+    "lon": -0.397860692,
+    "sequence": 20
+  },
+  {
+    "name": "Avenue Victoria",
+    "lat": 54.271719358,
+    "lon": -0.399641285,
+    "sequence": 21
+  },
+  {
+    "name": "Prince Of Wales Terrace",
+    "lat": 54.272971145,
+    "lon": -0.401794773,
+    "sequence": 22
+  },
+  {
+    "name": "St Andrews Church",
+    "lat": 54.274232,
+    "lon": -0.402754,
+    "sequence": 23
+  },
+  {
+    "name": "Valley Bridge",
+    "lat": 54.27847,
+    "lon": -0.403742,
+    "sequence": 24
+  },
+  {
+    "name": "Harcourt Place Stop X",
+    "lat": 54.281101388,
+    "lon": -0.399051564,
+    "sequence": 25
+  },
+  {
+    "name": "St Thomas Street",
+    "lat": 54.283553757,
+    "lon": -0.400073572,
+    "sequence": 26
+  },
+  {
+    "name": "Scarborough, Castle Road Stop G",
+    "lat": 54.285078182,
+    "lon": -0.402060129,
+    "sequence": 27
+  },
+  {
+    "name": "Aberdeen Walk Stop J",
+    "lat": 54.282813076,
+    "lon": -0.403189911,
+    "sequence": 28
+  },
+  {
+    "name": "Westborough",
+    "lat": 54.280601772,
+    "lon": -0.404534992,
+    "sequence": 29
+  },
+  {
+    "name": "Railway Station",
+    "lat": 54.280059197,
+    "lon": -0.405646541,
+    "sequence": 30
+  },
+  {
+    "name": "Falsgrave Road",
+    "lat": 54.276791321,
+    "lon": -0.413436906,
+    "sequence": 31
+  },
+  {
+    "name": "Harley Close",
+    "lat": 54.278796773,
+    "lon": -0.420363946,
+    "sequence": 32
+  },
+  {
+    "name": "Swanzdale Vets",
+    "lat": 54.28017423,
+    "lon": -0.42465823,
+    "sequence": 33
+  },
+  {
+    "name": "Peasholme Beck",
+    "lat": 54.280568876,
+    "lon": -0.428037841,
+    "sequence": 34
+  },
+  {
+    "name": "Scarborough Hospital",
+    "lat": 54.281299506,
+    "lon": -0.437226471,
+    "sequence": 35
+  },
+  {
+    "name": "Scarborough Hospital",
+    "lat": 54.282335955,
+    "lon": -0.433285518,
+    "sequence": 36
+  },
+  {
+    "name": "Yorkshire Coast College",
+    "lat": 54.284927695,
+    "lon": -0.433525133,
+    "sequence": 37
+  },
+  {
+    "name": "Wreyfield Drive",
+    "lat": 54.288415616,
+    "lon": -0.434253128,
+    "sequence": 38
+  },
+  {
+    "name": "Chestnut Park",
+    "lat": 54.289450738,
+    "lon": -0.435058872,
+    "sequence": 39
+  },
+  {
+    "name": "Fieldstead Crescent",
+    "lat": 54.293362365,
+    "lon": -0.438659672,
+    "sequence": 40
+  },
+  {
+    "name": "Green Lane",
+    "lat": 54.294338942,
+    "lon": -0.439805877,
+    "sequence": 41
+  },
+  {
+    "name": "Keld Close",
+    "lat": 54.2953235,
+    "lon": -0.440875004,
+    "sequence": 42
+  },
+  {
+    "name": "Newby (Rosette Inn)",
+    "lat": 54.29711416,
+    "lon": -0.442420845,
+    "sequence": 43
+  },
+  {
+    "name": "Newby Bridge",
+    "lat": 54.298818528,
+    "lon": -0.444246683,
+    "sequence": 44
+  },
+  {
+    "name": "Scalby (Post Office)",
+    "lat": 54.300106693,
+    "lon": -0.448654751,
+    "sequence": 45
+  },
+  {
+    "name": "Hamilton Close",
+    "lat": 54.301539282,
+    "lon": -0.448923621,
+    "sequence": 46
+  },
+  {
+    "name": "North Street",
+    "lat": 54.302263326,
+    "lon": -0.449311351,
+    "sequence": 47
+  },
+  {
+    "name": "Barmoor Lane Junction",
+    "lat": 54.306296973,
+    "lon": -0.44705404,
+    "sequence": 48
+  },
+  {
+    "name": "Scalby Road",
+    "lat": 54.303981107,
+    "lon": -0.447294904,
+    "sequence": 49
+  },
+  {
+    "name": "Tennis Courts",
+    "lat": 54.300779123,
+    "lon": -0.445033366,
+    "sequence": 50
+  },
+  {
+    "name": "Ridge Green",
+    "lat": 54.302093686,
+    "lon": -0.438252436,
+    "sequence": 51
+  },
+  {
+    "name": "Field Lane (High Mill)",
+    "lat": 54.304353563,
+    "lon": -0.431619557,
+    "sequence": 52
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Beverley Bus Station",
+    "lat": 53.84405,
+    "lon": -0.431745,
+    "sequence": 1
+  },
+  {
+    "name": "Beverley New Walkergate",
+    "lat": 53.84214,
+    "lon": -0.426618,
+    "sequence": 2
+  },
+  {
+    "name": "Beverley Lord Roberts Rd",
+    "lat": 53.840698571,
+    "lon": -0.427066917,
+    "sequence": 3
+  },
+  {
+    "name": "Beverley Lairgate",
+    "lat": 53.839714485,
+    "lon": -0.430857853,
+    "sequence": 4
+  },
+  {
+    "name": "Beverley Admiral Walker Rd",
+    "lat": 53.837408485,
+    "lon": -0.433238927,
+    "sequence": 5
+  },
+  {
+    "name": "Beverley Victoria Road",
+    "lat": 53.830255765,
+    "lon": -0.437562979,
+    "sequence": 6
+  },
+  {
+    "name": "Beverley Victoria Road",
+    "lat": 53.82703359,
+    "lon": -0.440007564,
+    "sequence": 7
+  },
+  {
+    "name": "Beverley (Victoria Road opp Morrisons)",
+    "lat": 53.822251021,
+    "lon": -0.44135503,
+    "sequence": 8
+  },
+  {
+    "name": "Evergreen Drive",
+    "lat": 53.790538,
+    "lon": -0.363773,
+    "sequence": 9
+  },
+  {
+    "name": "Beverley Road (Tesco)",
+    "lat": 53.787379,
+    "lon": -0.362165,
+    "sequence": 10
+  },
+  {
+    "name": "Emmott Road",
+    "lat": 53.784413,
+    "lon": -0.360231,
+    "sequence": 11
+  },
+  {
+    "name": "Sutton Road",
+    "lat": 53.781172,
+    "lon": -0.357869,
+    "sequence": 12
+  },
+  {
+    "name": "Riversdale Road",
+    "lat": 53.778517,
+    "lon": -0.356971,
+    "sequence": 13
+  },
+  {
+    "name": "Etherington Road",
+    "lat": 53.776653,
+    "lon": -0.356725,
+    "sequence": 14
+  },
+  {
+    "name": "Endsleigh College",
+    "lat": 53.774454,
+    "lon": -0.355673,
+    "sequence": 15
+  },
+  {
+    "name": "Wellesley Avenue",
+    "lat": 53.771701,
+    "lon": -0.354824,
+    "sequence": 16
+  },
+  {
+    "name": "Beresford Avenue",
+    "lat": 53.770101,
+    "lon": -0.354189,
+    "sequence": 17
+  },
+  {
+    "name": "Beverley Road (Haworth Arms)",
+    "lat": 53.767892,
+    "lon": -0.353699,
+    "sequence": 18
+  },
+  {
+    "name": "Washington Street",
+    "lat": 53.765647,
+    "lon": -0.352573,
+    "sequence": 19
+  },
+  {
+    "name": "Ryde Street",
+    "lat": 53.763788,
+    "lon": -0.351401,
+    "sequence": 20
+  },
+  {
+    "name": "Melwood Grove",
+    "lat": 53.761042,
+    "lon": -0.349749,
+    "sequence": 21
+  },
+  {
+    "name": "Epworth Street",
+    "lat": 53.759649,
+    "lon": -0.349182,
+    "sequence": 22
+  },
+  {
+    "name": "Temple Street",
+    "lat": 53.757389,
+    "lon": -0.348861,
+    "sequence": 23
+  },
+  {
+    "name": "St Hilda Street",
+    "lat": 53.755766,
+    "lon": -0.348515,
+    "sequence": 24
+  },
+  {
+    "name": "Somerscales Street",
+    "lat": 53.753684,
+    "lon": -0.348096,
+    "sequence": 25
+  },
+  {
+    "name": "Harley Street",
+    "lat": 53.751827,
+    "lon": -0.347714,
+    "sequence": 26
+  },
+  {
+    "name": "College Street",
+    "lat": 53.750556,
+    "lon": -0.347476,
+    "sequence": 27
+  },
+  {
+    "name": "Prospect Street A",
+    "lat": 53.747308113,
+    "lon": -0.344676269,
+    "sequence": 28
+  },
+  {
+    "name": "Bond Street A",
+    "lat": 53.746706,
+    "lon": -0.339453,
+    "sequence": 29
+  },
+  {
+    "name": "Carr Lane (Primark)",
+    "lat": 53.743470155,
+    "lon": -0.340156604,
+    "sequence": 30
+  }
+]

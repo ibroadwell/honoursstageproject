@@ -1,0 +1,230 @@
+[
+  {
+    "name": "Hull Interchange",
+    "lat": 53.744677,
+    "lon": -0.346812,
+    "sequence": 1
+  },
+  {
+    "name": "Albion Steet A",
+    "lat": 53.746628565,
+    "lon": -0.342337217,
+    "sequence": 2
+  },
+  {
+    "name": "Monument Bridge",
+    "lat": 53.743704,
+    "lon": -0.338252,
+    "sequence": 3
+  },
+  {
+    "name": "Carr Lane D",
+    "lat": 53.743383,
+    "lon": -0.342298,
+    "sequence": 4
+  },
+  {
+    "name": "Pease Street",
+    "lat": 53.743005,
+    "lon": -0.347469,
+    "sequence": 5
+  },
+  {
+    "name": "Fountain Street",
+    "lat": 53.742885,
+    "lon": -0.35316,
+    "sequence": 6
+  },
+  {
+    "name": "Hull Royal Infirmary",
+    "lat": 53.743036,
+    "lon": -0.356899,
+    "sequence": 7
+  },
+  {
+    "name": "Coltman Street",
+    "lat": 53.743187894,
+    "lon": -0.362109891,
+    "sequence": 8
+  },
+  {
+    "name": "Saner Street",
+    "lat": 53.743272549,
+    "lon": -0.365018068,
+    "sequence": 9
+  },
+  {
+    "name": "Anlaby Road Stadium",
+    "lat": 53.743723817,
+    "lon": -0.372415771,
+    "sequence": 10
+  },
+  {
+    "name": "Sandringham Street",
+    "lat": 53.743719553,
+    "lon": -0.374751197,
+    "sequence": 11
+  },
+  {
+    "name": "Plane Street",
+    "lat": 53.743606,
+    "lon": -0.378941,
+    "sequence": 12
+  },
+  {
+    "name": "Stirling Street",
+    "lat": 53.743619,
+    "lon": -0.381913,
+    "sequence": 13
+  },
+  {
+    "name": "Wheeler Street",
+    "lat": 53.743398,
+    "lon": -0.385515,
+    "sequence": 14
+  },
+  {
+    "name": "Meadowbank Road",
+    "lat": 53.743546,
+    "lon": -0.388542,
+    "sequence": 15
+  },
+  {
+    "name": "St Martin`s Court",
+    "lat": 53.744662,
+    "lon": -0.393989,
+    "sequence": 16
+  },
+  {
+    "name": "Belgrave Drive",
+    "lat": 53.744476,
+    "lon": -0.397514,
+    "sequence": 17
+  },
+  {
+    "name": "East Ella Drive",
+    "lat": 53.744409,
+    "lon": -0.401262,
+    "sequence": 18
+  },
+  {
+    "name": "Plantation Drive",
+    "lat": 53.744215,
+    "lon": -0.405637,
+    "sequence": 19
+  },
+  {
+    "name": "Trenton Avenue",
+    "lat": 53.744015,
+    "lon": -0.410209,
+    "sequence": 20
+  },
+  {
+    "name": "Anlaby Hull Road",
+    "lat": 53.744516,
+    "lon": -0.414072,
+    "sequence": 21
+  },
+  {
+    "name": "Willerby Springfield Way",
+    "lat": 53.746962,
+    "lon": -0.424383,
+    "sequence": 22
+  },
+  {
+    "name": "Springfield Way, Opp Morrisons",
+    "lat": 53.746977,
+    "lon": -0.427597,
+    "sequence": 23
+  },
+  {
+    "name": "Haltemprice Playground",
+    "lat": 53.748217,
+    "lon": -0.435073,
+    "sequence": 24
+  },
+  {
+    "name": "Anlaby Springfield Way",
+    "lat": 53.748653,
+    "lon": -0.437514,
+    "sequence": 25
+  },
+  {
+    "name": "Willerby Gorton Road",
+    "lat": 53.750743,
+    "lon": -0.437831,
+    "sequence": 26
+  },
+  {
+    "name": "Willerby Gorton Road",
+    "lat": 53.752941,
+    "lon": -0.436156,
+    "sequence": 27
+  },
+  {
+    "name": "Willerby Kingston Road",
+    "lat": 53.754608079,
+    "lon": -0.437141107,
+    "sequence": 28
+  },
+  {
+    "name": "Willerby Kingston Road",
+    "lat": 53.755566862,
+    "lon": -0.441049236,
+    "sequence": 29
+  },
+  {
+    "name": "Willerby Kingston Road",
+    "lat": 53.756983798,
+    "lon": -0.445638375,
+    "sequence": 30
+  },
+  {
+    "name": "Willerby Main Street",
+    "lat": 53.759385969,
+    "lon": -0.447187979,
+    "sequence": 31
+  },
+  {
+    "name": "Willerby Main Street",
+    "lat": 53.7620823,
+    "lon": -0.449242712,
+    "sequence": 32
+  },
+  {
+    "name": "Willerby Great Gutter Lane",
+    "lat": 53.761897413,
+    "lon": -0.450933441,
+    "sequence": 33
+  },
+  {
+    "name": "Willerby Great Gutter Lane",
+    "lat": 53.761851006,
+    "lon": -0.45360514,
+    "sequence": 34
+  },
+  {
+    "name": "Willerby Shopping Park",
+    "lat": 53.762989159,
+    "lon": -0.455429331,
+    "sequence": 35
+  },
+  {
+    "name": "Willerby Business Park",
+    "lat": 53.771396061,
+    "lon": -0.447943494,
+    "sequence": 36
+  },
+  {
+    "name": "Cottingham Castle Road",
+    "lat": 53.776080728,
+    "lon": -0.444583793,
+    "sequence": 37
+  },
+  {
+    "name": "Castle Hill Hospital Gate 3",
+    "lat": 53.776592772,
+    "lon": -0.440406706,
+    "sequence": 38
+  }
+]

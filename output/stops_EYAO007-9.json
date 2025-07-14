@@ -1,0 +1,248 @@
+[
+  {
+    "name": "Aberdeen Walk Stop K",
+    "lat": 54.282684458,
+    "lon": -0.402979827,
+    "sequence": 1
+  },
+  {
+    "name": "Westborough",
+    "lat": 54.280906,
+    "lon": -0.403786,
+    "sequence": 2
+  },
+  {
+    "name": "Valley Bridge Stop W",
+    "lat": 54.278467,
+    "lon": -0.403481,
+    "sequence": 3
+  },
+  {
+    "name": "St Andrews Church",
+    "lat": 54.274355,
+    "lon": -0.402473,
+    "sequence": 4
+  },
+  {
+    "name": "Avenue Victoria",
+    "lat": 54.270542,
+    "lon": -0.401653,
+    "sequence": 5
+  },
+  {
+    "name": "Holbeck Road",
+    "lat": 54.267136,
+    "lon": -0.398375,
+    "sequence": 6
+  },
+  {
+    "name": "Sea Cliff Road",
+    "lat": 54.265377,
+    "lon": -0.396524,
+    "sequence": 7
+  },
+  {
+    "name": "Wheatcroft Avenue",
+    "lat": 54.263885,
+    "lon": -0.393818,
+    "sequence": 8
+  },
+  {
+    "name": "Wheatcroft Post Office",
+    "lat": 54.259571,
+    "lon": -0.387768,
+    "sequence": 9
+  },
+  {
+    "name": "Cornelian Drive",
+    "lat": 54.257723,
+    "lon": -0.386044,
+    "sequence": 10
+  },
+  {
+    "name": "Sea View",
+    "lat": 54.255873,
+    "lon": -0.38211,
+    "sequence": 11
+  },
+  {
+    "name": "Sea View Drive",
+    "lat": 54.253813,
+    "lon": -0.37866,
+    "sequence": 12
+  },
+  {
+    "name": "Cayton Cliff",
+    "lat": 54.251544,
+    "lon": -0.376385,
+    "sequence": 13
+  },
+  {
+    "name": "Osgodby Hill Top",
+    "lat": 54.249748,
+    "lon": -0.375857,
+    "sequence": 14
+  },
+  {
+    "name": "Bradworth Drive",
+    "lat": 54.246851,
+    "lon": -0.379608,
+    "sequence": 15
+  },
+  {
+    "name": "Priory Stores",
+    "lat": 54.246597,
+    "lon": -0.381475,
+    "sequence": 16
+  },
+  {
+    "name": "Priory Close",
+    "lat": 54.245265,
+    "lon": -0.381988,
+    "sequence": 17
+  },
+  {
+    "name": "Priory Place",
+    "lat": 54.244691,
+    "lon": -0.384128,
+    "sequence": 18
+  },
+  {
+    "name": "Overdale",
+    "lat": 54.24565,
+    "lon": -0.389969,
+    "sequence": 19
+  },
+  {
+    "name": "Northwold Road",
+    "lat": 54.245178,
+    "lon": -0.394315,
+    "sequence": 20
+  },
+  {
+    "name": "Goldings Close",
+    "lat": 54.244164,
+    "lon": -0.397807,
+    "sequence": 21
+  },
+  {
+    "name": "Overdale",
+    "lat": 54.241164,
+    "lon": -0.397325,
+    "sequence": 22
+  },
+  {
+    "name": "Westway Top Shops",
+    "lat": 54.240087,
+    "lon": -0.398119,
+    "sequence": 23
+  },
+  {
+    "name": "Holmehill",
+    "lat": 54.241129,
+    "lon": -0.402145,
+    "sequence": 24
+  },
+  {
+    "name": "Ridgeway",
+    "lat": 54.242848,
+    "lon": -0.407726,
+    "sequence": 25
+  },
+  {
+    "name": "Westway",
+    "lat": 54.243145,
+    "lon": -0.410477,
+    "sequence": 26
+  },
+  {
+    "name": "Manham Hill",
+    "lat": 54.241405,
+    "lon": -0.41079,
+    "sequence": 27
+  },
+  {
+    "name": "Seamer Station",
+    "lat": 54.240841,
+    "lon": -0.414341,
+    "sequence": 28
+  },
+  {
+    "name": "Byward Drive",
+    "lat": 54.241332,
+    "lon": -0.420982,
+    "sequence": 29
+  },
+  {
+    "name": "Mere Valley",
+    "lat": 54.243752,
+    "lon": -0.419769,
+    "sequence": 30
+  },
+  {
+    "name": "Stoney Haggs Road",
+    "lat": 54.254819,
+    "lon": -0.419254,
+    "sequence": 31
+  },
+  {
+    "name": "Edgehill (B&Q)",
+    "lat": 54.260296,
+    "lon": -0.416711,
+    "sequence": 32
+  },
+  {
+    "name": "Edgehill Road",
+    "lat": 54.26428,
+    "lon": -0.416236,
+    "sequence": 33
+  },
+  {
+    "name": "Seamer Road LiDL",
+    "lat": 54.266209,
+    "lon": -0.416653,
+    "sequence": 34
+  },
+  {
+    "name": "Rosebery Avenue",
+    "lat": 54.270378,
+    "lon": -0.415803,
+    "sequence": 35
+  },
+  {
+    "name": "Seamer Street",
+    "lat": 54.272139,
+    "lon": -0.415735,
+    "sequence": 36
+  },
+  {
+    "name": "Westbourne Park",
+    "lat": 54.274718,
+    "lon": -0.416404,
+    "sequence": 37
+  },
+  {
+    "name": "Falsgrave Road",
+    "lat": 54.276964234,
+    "lon": -0.413599213,
+    "sequence": 38
+  },
+  {
+    "name": "West Square",
+    "lat": 54.279863,
+    "lon": -0.406438,
+    "sequence": 39
+  },
+  {
+    "name": "Scarborough, Victoria Street",
+    "lat": 54.283305019,
+    "lon": -0.405044995,
+    "sequence": 40
+  },
+  {
+    "name": "Westborough",
+    "lat": 54.280906,
+    "lon": -0.403786,
+    "sequence": 41
+  }
+]

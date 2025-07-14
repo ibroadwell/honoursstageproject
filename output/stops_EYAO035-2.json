@@ -1,0 +1,164 @@
+[
+  {
+    "name": "Hull Interchange",
+    "lat": 53.744643578,
+    "lon": -0.347010176,
+    "sequence": 1
+  },
+  {
+    "name": "Deaf Insitute",
+    "lat": 53.749106668,
+    "lon": -0.34994401,
+    "sequence": 2
+  },
+  {
+    "name": "Collingwood Street",
+    "lat": 53.749921,
+    "lon": -0.353567,
+    "sequence": 3
+  },
+  {
+    "name": "West Parade",
+    "lat": 53.750398,
+    "lon": -0.355626,
+    "sequence": 4
+  },
+  {
+    "name": "The Polar Bear PH",
+    "lat": 53.751221,
+    "lon": -0.359249,
+    "sequence": 5
+  },
+  {
+    "name": "Hymers Avenue",
+    "lat": 53.75130363,
+    "lon": -0.363978211,
+    "sequence": 6
+  },
+  {
+    "name": "Sunnybank",
+    "lat": 53.751006146,
+    "lon": -0.367872441,
+    "sequence": 7
+  },
+  {
+    "name": "Chanterlands Avenue South",
+    "lat": 53.750632617,
+    "lon": -0.374120367,
+    "sequence": 8
+  },
+  {
+    "name": "Pulman Street",
+    "lat": 53.750466122,
+    "lon": -0.378418906,
+    "sequence": 9
+  },
+  {
+    "name": "Alliance Avenue",
+    "lat": 53.750340917,
+    "lon": -0.382457993,
+    "sequence": 10
+  },
+  {
+    "name": "Rutland Road",
+    "lat": 53.750153297,
+    "lon": -0.386544944,
+    "sequence": 11
+  },
+  {
+    "name": "Southburn Avenue",
+    "lat": 53.750046017,
+    "lon": -0.389931137,
+    "sequence": 12
+  },
+  {
+    "name": "The Hastings",
+    "lat": 53.74992697,
+    "lon": -0.393787913,
+    "sequence": 13
+  },
+  {
+    "name": "Derringham Church",
+    "lat": 53.750513181,
+    "lon": -0.396616841,
+    "sequence": 14
+  },
+  {
+    "name": "Ampleforth Grove",
+    "lat": 53.751516942,
+    "lon": -0.399081138,
+    "sequence": 15
+  },
+  {
+    "name": "County Road South",
+    "lat": 53.75225709,
+    "lon": -0.404027788,
+    "sequence": 16
+  },
+  {
+    "name": "Woodlands Road",
+    "lat": 53.752446287,
+    "lon": -0.408115736,
+    "sequence": 17
+  },
+  {
+    "name": "Nelson Road",
+    "lat": 53.752598348,
+    "lon": -0.411446762,
+    "sequence": 18
+  },
+  {
+    "name": "Springhead Avenue",
+    "lat": 53.752806064,
+    "lon": -0.415594744,
+    "sequence": 19
+  },
+  {
+    "name": "Willerby Kingston Road",
+    "lat": 53.753101097,
+    "lon": -0.421605067,
+    "sequence": 20
+  },
+  {
+    "name": "Willerby Kingston Road",
+    "lat": 53.753376667,
+    "lon": -0.427525192,
+    "sequence": 21
+  },
+  {
+    "name": "Willerby Kingston Road",
+    "lat": 53.753583142,
+    "lon": -0.430247625,
+    "sequence": 22
+  },
+  {
+    "name": "Willerby Kingston Road",
+    "lat": 53.753946457,
+    "lon": -0.433282765,
+    "sequence": 23
+  },
+  {
+    "name": "Willerby Kingston Road",
+    "lat": 53.754608079,
+    "lon": -0.437141107,
+    "sequence": 24
+  },
+  {
+    "name": "Willerby Kingston Road",
+    "lat": 53.755566862,
+    "lon": -0.441049236,
+    "sequence": 25
+  },
+  {
+    "name": "Willerby Kingston Road",
+    "lat": 53.756983798,
+    "lon": -0.445638375,
+    "sequence": 26
+  },
+  {
+    "name": "Willerby Kingston Road",
+    "lat": 53.757235763,
+    "lon": -0.445659409,
+    "sequence": 27
+  }
+]

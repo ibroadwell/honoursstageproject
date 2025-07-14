@@ -1,0 +1,260 @@
+[
+  {
+    "name": "Hull Interchange",
+    "lat": 53.744619,
+    "lon": -0.347163,
+    "sequence": 1
+  },
+  {
+    "name": "Hall Street",
+    "lat": 53.749069,
+    "lon": -0.349824,
+    "sequence": 2
+  },
+  {
+    "name": "Collingwood Street",
+    "lat": 53.749921,
+    "lon": -0.353567,
+    "sequence": 3
+  },
+  {
+    "name": "Sutton Street",
+    "lat": 53.750293,
+    "lon": -0.355175,
+    "sequence": 4
+  },
+  {
+    "name": "Stanley Street",
+    "lat": 53.751145,
+    "lon": -0.358934,
+    "sequence": 5
+  },
+  {
+    "name": "The Polar Bear PH",
+    "lat": 53.751221,
+    "lon": -0.359249,
+    "sequence": 6
+  },
+  {
+    "name": "Old Zoological",
+    "lat": 53.7521,
+    "lon": -0.361066,
+    "sequence": 7
+  },
+  {
+    "name": "Clumber Street",
+    "lat": 53.75393,
+    "lon": -0.36013,
+    "sequence": 8
+  },
+  {
+    "name": "Blenheim Street",
+    "lat": 53.755339,
+    "lon": -0.359316,
+    "sequence": 9
+  },
+  {
+    "name": "Princes Avenue (Pearson Park)",
+    "lat": 53.757417,
+    "lon": -0.358113,
+    "sequence": 10
+  },
+  {
+    "name": "Victoria Avenue",
+    "lat": 53.759075,
+    "lon": -0.357123,
+    "sequence": 11
+  },
+  {
+    "name": "Ella Street",
+    "lat": 53.761062,
+    "lon": -0.359093,
+    "sequence": 12
+  },
+  {
+    "name": "Goddard Avenue",
+    "lat": 53.762741,
+    "lon": -0.358922,
+    "sequence": 13
+  },
+  {
+    "name": "Lambton Street",
+    "lat": 53.765094,
+    "lon": -0.358815,
+    "sequence": 14
+  },
+  {
+    "name": "Torrington Street",
+    "lat": 53.76671,
+    "lon": -0.358676,
+    "sequence": 15
+  },
+  {
+    "name": "Newland Avenue",
+    "lat": 53.768615643,
+    "lon": -0.359299479,
+    "sequence": 16
+  },
+  {
+    "name": "Newland Park Avenue",
+    "lat": 53.769483,
+    "lon": -0.36227,
+    "sequence": 17
+  },
+  {
+    "name": "Taylor Court",
+    "lat": 53.771119,
+    "lon": -0.362874,
+    "sequence": 18
+  },
+  {
+    "name": "Cranbrook Court",
+    "lat": 53.774173,
+    "lon": -0.36406,
+    "sequence": 19
+  },
+  {
+    "name": "Lord Nelson",
+    "lat": 53.778047,
+    "lon": -0.365351,
+    "sequence": 20
+  },
+  {
+    "name": "Elmfield",
+    "lat": 53.778461,
+    "lon": -0.368659,
+    "sequence": 21
+  },
+  {
+    "name": "Willowfield",
+    "lat": 53.778398,
+    "lon": -0.371985,
+    "sequence": 22
+  },
+  {
+    "name": "Beautiman Court",
+    "lat": 53.778315,
+    "lon": -0.37645,
+    "sequence": 23
+  },
+  {
+    "name": "Endike Lane Shops",
+    "lat": 53.778336,
+    "lon": -0.380699,
+    "sequence": 24
+  },
+  {
+    "name": "Endike Lane/Hall Road",
+    "lat": 53.778685,
+    "lon": -0.384586,
+    "sequence": 25
+  },
+  {
+    "name": "Ruswarp Grove",
+    "lat": 53.779121,
+    "lon": -0.388211,
+    "sequence": 26
+  },
+  {
+    "name": "Cottingham Endyke Lane",
+    "lat": 53.779918,
+    "lon": -0.392673,
+    "sequence": 27
+  },
+  {
+    "name": "Cottingham New Village Rd",
+    "lat": 53.779501,
+    "lon": -0.398517,
+    "sequence": 28
+  },
+  {
+    "name": "Cottingham Thwaite Street",
+    "lat": 53.778604483,
+    "lon": -0.40069106,
+    "sequence": 29
+  },
+  {
+    "name": "Cottingham Thwaite Street",
+    "lat": 53.778568593,
+    "lon": -0.403393849,
+    "sequence": 30
+  },
+  {
+    "name": "Cottingham Thwaite Street",
+    "lat": 53.779161931,
+    "lon": -0.407453872,
+    "sequence": 31
+  },
+  {
+    "name": "Cottingham Newgate Street",
+    "lat": 53.779488812,
+    "lon": -0.4117669,
+    "sequence": 32
+  },
+  {
+    "name": "Cottingham Green Bus Shelter",
+    "lat": 53.781271116,
+    "lon": -0.413991398,
+    "sequence": 33
+  },
+  {
+    "name": "Cottingham Northgate",
+    "lat": 53.784581079,
+    "lon": -0.414822824,
+    "sequence": 34
+  },
+  {
+    "name": "Cottingham Northgate",
+    "lat": 53.784694252,
+    "lon": -0.418628417,
+    "sequence": 35
+  },
+  {
+    "name": "Cottingham Northgate",
+    "lat": 53.784352487,
+    "lon": -0.422026094,
+    "sequence": 36
+  },
+  {
+    "name": "Cottingham West End Rd",
+    "lat": 53.783269933,
+    "lon": -0.42378185,
+    "sequence": 37
+  },
+  {
+    "name": "Cottingham Baynard Ave",
+    "lat": 53.780174,
+    "lon": -0.422137,
+    "sequence": 38
+  },
+  {
+    "name": "Cottingham The Parkway",
+    "lat": 53.776228434,
+    "lon": -0.422862007,
+    "sequence": 39
+  },
+  {
+    "name": "Cottingham Burton Road",
+    "lat": 53.775233853,
+    "lon": -0.426526189,
+    "sequence": 40
+  },
+  {
+    "name": "Cottingham Burton Road",
+    "lat": 53.777432118,
+    "lon": -0.429646112,
+    "sequence": 41
+  },
+  {
+    "name": "Cottingham Castle Road",
+    "lat": 53.777394186,
+    "lon": -0.432242634,
+    "sequence": 42
+  },
+  {
+    "name": "Castle Hill Hospital Gate 3",
+    "lat": 53.776696936,
+    "lon": -0.438050598,
+    "sequence": 43
+  }
+]

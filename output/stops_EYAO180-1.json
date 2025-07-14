@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Skidby Main Street",
+    "lat": 53.789579,
+    "lon": -0.454104,
+    "sequence": 1
+  },
+  {
+    "name": "Skidby Main Street",
+    "lat": 53.78769,
+    "lon": -0.465133,
+    "sequence": 2
+  },
+  {
+    "name": "Little Weighton Pond",
+    "lat": 53.791436,
+    "lon": -0.502675,
+    "sequence": 3
+  },
+  {
+    "name": "Little Weighton",
+    "lat": 53.787262,
+    "lon": -0.510338,
+    "sequence": 4
+  },
+  {
+    "name": "Little Weighton Old Village Road",
+    "lat": 53.790211,
+    "lon": -0.506787,
+    "sequence": 5
+  },
+  {
+    "name": "Walkington (L.Weighton X Rds)",
+    "lat": 53.819684,
+    "lon": -0.49228,
+    "sequence": 6
+  },
+  {
+    "name": "Walkington East End",
+    "lat": 53.82045,
+    "lon": -0.486769,
+    "sequence": 7
+  },
+  {
+    "name": "Walkington East End",
+    "lat": 53.821434,
+    "lon": -0.48137,
+    "sequence": 8
+  },
+  {
+    "name": "Walkington East End",
+    "lat": 53.823085,
+    "lon": -0.47692,
+    "sequence": 9
+  },
+  {
+    "name": "Walkington Beverley Road",
+    "lat": 53.823599,
+    "lon": -0.474881,
+    "sequence": 10
+  },
+  {
+    "name": "Walkington Road Broadgate Est",
+    "lat": 53.828213,
+    "lon": -0.458926,
+    "sequence": 11
+  },
+  {
+    "name": "Beverley Cartwright Lane",
+    "lat": 53.83604,
+    "lon": -0.43788,
+    "sequence": 12
+  },
+  {
+    "name": "Beverley Cartwright Lane",
+    "lat": 53.836767,
+    "lon": -0.434342,
+    "sequence": 13
+  },
+  {
+    "name": "Beverley Admiral Walker Road",
+    "lat": 53.838912,
+    "lon": -0.432073,
+    "sequence": 14
+  },
+  {
+    "name": "Beverley Bus Station",
+    "lat": 53.844236,
+    "lon": -0.43157,
+    "sequence": 15
+  }
+]

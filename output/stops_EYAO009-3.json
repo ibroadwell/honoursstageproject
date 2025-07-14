@@ -1,0 +1,128 @@
+[
+  {
+    "name": "Field Lane (High Mill)",
+    "lat": 54.304353563,
+    "lon": -0.431619557,
+    "sequence": 1
+  },
+  {
+    "name": "Ridge Green",
+    "lat": 54.302553938,
+    "lon": -0.436313933,
+    "sequence": 2
+  },
+  {
+    "name": "Eastpark Road",
+    "lat": 54.300920745,
+    "lon": -0.442077368,
+    "sequence": 3
+  },
+  {
+    "name": "Council Offices",
+    "lat": 54.299879942,
+    "lon": -0.445005781,
+    "sequence": 4
+  },
+  {
+    "name": "Newby (Rosette Inn)",
+    "lat": 54.296993204,
+    "lon": -0.442102712,
+    "sequence": 5
+  },
+  {
+    "name": "Proudfoot Foodstore",
+    "lat": 54.294272,
+    "lon": -0.439516,
+    "sequence": 6
+  },
+  {
+    "name": "Greenstead Road",
+    "lat": 54.292665,
+    "lon": -0.437564,
+    "sequence": 7
+  },
+  {
+    "name": "Fieldstead Crescent",
+    "lat": 54.291319,
+    "lon": -0.436371,
+    "sequence": 8
+  },
+  {
+    "name": "Wreyfield Drive",
+    "lat": 54.288213385,
+    "lon": -0.433907442,
+    "sequence": 9
+  },
+  {
+    "name": "Yorkshire Coast College",
+    "lat": 54.284886973,
+    "lon": -0.433157988,
+    "sequence": 10
+  },
+  {
+    "name": "Hospital/Scalby Road",
+    "lat": 54.282522222,
+    "lon": -0.433094115,
+    "sequence": 11
+  },
+  {
+    "name": "Scarborough Hospital",
+    "lat": 54.281299506,
+    "lon": -0.437226471,
+    "sequence": 12
+  },
+  {
+    "name": "Woodland Ravine",
+    "lat": 54.280870145,
+    "lon": -0.428395026,
+    "sequence": 13
+  },
+  {
+    "name": "Malvern Crescent",
+    "lat": 54.280396374,
+    "lon": -0.423774211,
+    "sequence": 14
+  },
+  {
+    "name": "Harley Close",
+    "lat": 54.278775587,
+    "lon": -0.420118999,
+    "sequence": 15
+  },
+  {
+    "name": "Falsgrave Road",
+    "lat": 54.276964234,
+    "lon": -0.413599213,
+    "sequence": 16
+  },
+  {
+    "name": "West Square",
+    "lat": 54.279863,
+    "lon": -0.406438,
+    "sequence": 17
+  },
+  {
+    "name": "Scarborough, Victoria Street",
+    "lat": 54.283305019,
+    "lon": -0.405044995,
+    "sequence": 18
+  },
+  {
+    "name": "Scarborough, Castle Road",
+    "lat": 54.285048027,
+    "lon": -0.402273909,
+    "sequence": 19
+  },
+  {
+    "name": "Scarborough, Castle Street Stop X",
+    "lat": 54.285704328,
+    "lon": -0.40025139,
+    "sequence": 20
+  },
+  {
+    "name": "Queen Street",
+    "lat": 54.283602801,
+    "lon": -0.398351163,
+    "sequence": 21
+  }
+]

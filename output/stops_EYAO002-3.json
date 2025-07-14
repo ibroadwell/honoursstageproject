@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Queen Street",
+    "lat": 54.283602801,
+    "lon": -0.398351163,
+    "sequence": 1
+  },
+  {
+    "name": "Newcastle Packet",
+    "lat": 54.284105606,
+    "lon": -0.391557071,
+    "sequence": 2
+  },
+  {
+    "name": "West Pier",
+    "lat": 54.283928168,
+    "lon": -0.387692804,
+    "sequence": 3
+  },
+  {
+    "name": "Newcastle Packet",
+    "lat": 54.283876126,
+    "lon": -0.391873247,
+    "sequence": 4
+  },
+  {
+    "name": "Foreshore Road",
+    "lat": 54.283519889,
+    "lon": -0.393469374,
+    "sequence": 5
+  },
+  {
+    "name": "St Nicholas Gardens",
+    "lat": 54.281643553,
+    "lon": -0.396412422,
+    "sequence": 6
+  },
+  {
+    "name": "Aquarium Top Stop Y",
+    "lat": 54.278893077,
+    "lon": -0.39904072,
+    "sequence": 7
+  },
+  {
+    "name": "Harcourt Place Stop X",
+    "lat": 54.281101388,
+    "lon": -0.399051564,
+    "sequence": 8
+  },
+  {
+    "name": "St Thomas Street",
+    "lat": 54.283553757,
+    "lon": -0.400073572,
+    "sequence": 9
+  }
+]

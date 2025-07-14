@@ -1,0 +1,356 @@
+[
+  {
+    "name": "ASDA (Bus Terminal)",
+    "lat": 53.778939,
+    "lon": -0.253949,
+    "sequence": 1
+  },
+  {
+    "name": "ASDA Bilton",
+    "lat": 53.778456,
+    "lon": -0.254712,
+    "sequence": 2
+  },
+  {
+    "name": "Moseley Hill",
+    "lat": 53.776742,
+    "lon": -0.254313,
+    "sequence": 3
+  },
+  {
+    "name": "Fleet Estate Ark Royal",
+    "lat": 53.77576,
+    "lon": -0.25663,
+    "sequence": 4
+  },
+  {
+    "name": "Daisyfield Drive",
+    "lat": 53.778234,
+    "lon": -0.259244,
+    "sequence": 5
+  },
+  {
+    "name": "Kennet Road",
+    "lat": 53.779739,
+    "lon": -0.263826,
+    "sequence": 6
+  },
+  {
+    "name": "Kyle Close",
+    "lat": 53.779914,
+    "lon": -0.26907,
+    "sequence": 7
+  },
+  {
+    "name": "Shannon Road Shops",
+    "lat": 53.777668,
+    "lon": -0.269148,
+    "sequence": 8
+  },
+  {
+    "name": "Athlone Green",
+    "lat": 53.775705,
+    "lon": -0.268348,
+    "sequence": 9
+  },
+  {
+    "name": "Saltshouse Road",
+    "lat": 53.772261,
+    "lon": -0.270144,
+    "sequence": 10
+  },
+  {
+    "name": "Ardmore Close",
+    "lat": 53.770945,
+    "lon": -0.27425,
+    "sequence": 11
+  },
+  {
+    "name": "Bellfield Avenue",
+    "lat": 53.769749,
+    "lon": -0.277986,
+    "sequence": 12
+  },
+  {
+    "name": "Charnock Avenue",
+    "lat": 53.768416,
+    "lon": -0.282167,
+    "sequence": 13
+  },
+  {
+    "name": "Ellesmere Avenue",
+    "lat": 53.767594,
+    "lon": -0.284371,
+    "sequence": 14
+  },
+  {
+    "name": "Maybury Road",
+    "lat": 53.766057,
+    "lon": -0.288788,
+    "sequence": 15
+  },
+  {
+    "name": "Holderness Road",
+    "lat": 53.764016,
+    "lon": -0.293832,
+    "sequence": 16
+  },
+  {
+    "name": "Stanhope Street",
+    "lat": 53.762878,
+    "lon": -0.296609,
+    "sequence": 17
+  },
+  {
+    "name": "Kelvin Street",
+    "lat": 53.761707,
+    "lon": -0.299584,
+    "sequence": 18
+  },
+  {
+    "name": "The Crown Inn PH",
+    "lat": 53.760674,
+    "lon": -0.30219,
+    "sequence": 19
+  },
+  {
+    "name": "Beechwood Court",
+    "lat": 53.758896,
+    "lon": -0.305493,
+    "sequence": 20
+  },
+  {
+    "name": "Southcoates Lane",
+    "lat": 53.757647,
+    "lon": -0.307409,
+    "sequence": 21
+  },
+  {
+    "name": "Jesmond Gardens",
+    "lat": 53.756211,
+    "lon": -0.309514,
+    "sequence": 22
+  },
+  {
+    "name": "Victor Street",
+    "lat": 53.75411,
+    "lon": -0.31286,
+    "sequence": 23
+  },
+  {
+    "name": "ASDA Holderness Road",
+    "lat": 53.75257,
+    "lon": -0.315242,
+    "sequence": 24
+  },
+  {
+    "name": "Brazil Street",
+    "lat": 53.750653,
+    "lon": -0.318291,
+    "sequence": 25
+  },
+  {
+    "name": "The Green Man PH",
+    "lat": 53.749501,
+    "lon": -0.320097,
+    "sequence": 26
+  },
+  {
+    "name": "Naylors Row",
+    "lat": 53.747846,
+    "lon": -0.322604,
+    "sequence": 27
+  },
+  {
+    "name": "Great Union Street",
+    "lat": 53.746033,
+    "lon": -0.32533,
+    "sequence": 28
+  },
+  {
+    "name": "Drypool Bridge",
+    "lat": 53.745187,
+    "lon": -0.329155,
+    "sequence": 29
+  },
+  {
+    "name": "Alfred Gelder Street F",
+    "lat": 53.744082,
+    "lon": -0.33434,
+    "sequence": 30
+  },
+  {
+    "name": "Alfred Gelder Street G",
+    "lat": 53.743791,
+    "lon": -0.337369,
+    "sequence": 31
+  },
+  {
+    "name": "Hull Carr Lane",
+    "lat": 53.74348,
+    "lon": -0.340899,
+    "sequence": 32
+  },
+  {
+    "name": "Carr Lane E",
+    "lat": 53.743343465,
+    "lon": -0.342693981,
+    "sequence": 33
+  },
+  {
+    "name": "Hull Interchange",
+    "lat": 53.744719342,
+    "lon": -0.346521977,
+    "sequence": 34
+  },
+  {
+    "name": "Fountain Street",
+    "lat": 53.742885,
+    "lon": -0.35316,
+    "sequence": 35
+  },
+  {
+    "name": "Hull Royal Infirmary",
+    "lat": 53.743036,
+    "lon": -0.356899,
+    "sequence": 36
+  },
+  {
+    "name": "Harthill Drive",
+    "lat": 53.740931,
+    "lon": -0.359423,
+    "sequence": 37
+  },
+  {
+    "name": "Winship Close",
+    "lat": 53.739096,
+    "lon": -0.358721,
+    "sequence": 38
+  },
+  {
+    "name": "Strickland Street",
+    "lat": 53.736109,
+    "lon": -0.359808,
+    "sequence": 39
+  },
+  {
+    "name": "Boulevard",
+    "lat": 53.735456,
+    "lon": -0.362699,
+    "sequence": 40
+  },
+  {
+    "name": "Eton Street",
+    "lat": 53.734922,
+    "lon": -0.365069,
+    "sequence": 41
+  },
+  {
+    "name": "Flinton Street",
+    "lat": 53.7343,
+    "lon": -0.369551,
+    "sequence": 42
+  },
+  {
+    "name": "ASDA Hessle Road",
+    "lat": 53.73392,
+    "lon": -0.373325,
+    "sequence": 43
+  },
+  {
+    "name": "Brighton Street",
+    "lat": 53.73338,
+    "lon": -0.377227,
+    "sequence": 44
+  },
+  {
+    "name": "Devon Street",
+    "lat": 53.732439,
+    "lon": -0.386799,
+    "sequence": 45
+  },
+  {
+    "name": "Gloucester Street",
+    "lat": 53.731989,
+    "lon": -0.388772,
+    "sequence": 46
+  },
+  {
+    "name": "Monmouth Street",
+    "lat": 53.731192,
+    "lon": -0.392304,
+    "sequence": 47
+  },
+  {
+    "name": "Dairycoates Road",
+    "lat": 53.730358,
+    "lon": -0.395823,
+    "sequence": 48
+  },
+  {
+    "name": "Pickering Park",
+    "lat": 53.729839,
+    "lon": -0.39804,
+    "sequence": 49
+  },
+  {
+    "name": "Fleming Walk",
+    "lat": 53.72808,
+    "lon": -0.398244,
+    "sequence": 50
+  },
+  {
+    "name": "Impala Way",
+    "lat": 53.726495,
+    "lon": -0.400729,
+    "sequence": 51
+  },
+  {
+    "name": "Summergroves Way/Impala Way",
+    "lat": 53.726202,
+    "lon": -0.403696,
+    "sequence": 52
+  },
+  {
+    "name": "The Groves",
+    "lat": 53.725653,
+    "lon": -0.409052,
+    "sequence": 53
+  },
+  {
+    "name": "Swallowfield Drive",
+    "lat": 53.724713,
+    "lon": -0.413377,
+    "sequence": 54
+  },
+  {
+    "name": "Hessle Road Fire Station",
+    "lat": 53.725595,
+    "lon": -0.416194,
+    "sequence": 55
+  },
+  {
+    "name": "Hessle Hull Road",
+    "lat": 53.724554,
+    "lon": -0.421795,
+    "sequence": 56
+  },
+  {
+    "name": "Hessle Hull Road",
+    "lat": 53.72342,
+    "lon": -0.428537,
+    "sequence": 57
+  },
+  {
+    "name": "Hessle Hull Road",
+    "lat": 53.722847,
+    "lon": -0.432105,
+    "sequence": 58
+  },
+  {
+    "name": "Hessle Square",
+    "lat": 53.723213,
+    "lon": -0.435365,
+    "sequence": 59
+  }
+]

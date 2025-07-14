@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Bridlington Bus Station",
+    "lat": 54.083986,
+    "lon": -0.189156,
+    "sequence": 1
+  },
+  {
+    "name": "Bridlington Promenade",
+    "lat": 54.082512,
+    "lon": -0.189129,
+    "sequence": 2
+  },
+  {
+    "name": "Bridlington Queen Street",
+    "lat": 54.081742,
+    "lon": -0.19118,
+    "sequence": 3
+  },
+  {
+    "name": "Bridlington Hilderthorpe Road",
+    "lat": 54.081874,
+    "lon": -0.193376,
+    "sequence": 4
+  },
+  {
+    "name": "Bridlington Prospect Street",
+    "lat": 54.083281,
+    "lon": -0.192458,
+    "sequence": 5
+  },
+  {
+    "name": "Bridlington Quay Road",
+    "lat": 54.085151,
+    "lon": -0.196062,
+    "sequence": 6
+  },
+  {
+    "name": "Health Centre Bridlington",
+    "lat": 54.084929,
+    "lon": -0.201667,
+    "sequence": 7
+  },
+  {
+    "name": "Bridlington Quay Road",
+    "lat": 54.08743,
+    "lon": -0.202446,
+    "sequence": 8
+  },
+  {
+    "name": "Bridlington Quay Road",
+    "lat": 54.088676,
+    "lon": -0.203401,
+    "sequence": 9
+  },
+  {
+    "name": "Bridlington E R College",
+    "lat": 54.090994116,
+    "lon": -0.196114037,
+    "sequence": 10
+  },
+  {
+    "name": "St Aidan Road",
+    "lat": 54.096415,
+    "lon": -0.188951,
+    "sequence": 11
+  },
+  {
+    "name": "Bridlington Marton Road",
+    "lat": 54.098295284,
+    "lon": -0.191469109,
+    "sequence": 12
+  },
+  {
+    "name": "Bridlington Bempton Lane",
+    "lat": 54.098416223,
+    "lon": -0.195333139,
+    "sequence": 13
+  },
+  {
+    "name": "Bempton Lane",
+    "lat": 54.101141707,
+    "lon": -0.196056002,
+    "sequence": 14
+  },
+  {
+    "name": "Bridlington Darwin Road",
+    "lat": 54.102617,
+    "lon": -0.193162,
+    "sequence": 15
+  },
+  {
+    "name": "Bridlington Bempton Lane",
+    "lat": 54.106513239,
+    "lon": -0.197000659,
+    "sequence": 16
+  },
+  {
+    "name": "Bridlington The Hawthorns",
+    "lat": 54.119701,
+    "lon": -0.198892,
+    "sequence": 17
+  },
+  {
+    "name": "Bempton Lane/Bowlm Lane",
+    "lat": 54.127103,
+    "lon": -0.19675,
+    "sequence": 18
+  },
+  {
+    "name": "Buckton Main Street",
+    "lat": 54.135340241,
+    "lon": -0.188003299,
+    "sequence": 19
+  },
+  {
+    "name": "Bempton Garage",
+    "lat": 54.132633801,
+    "lon": -0.184371396,
+    "sequence": 20
+  }
+]

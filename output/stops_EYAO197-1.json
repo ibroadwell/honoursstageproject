@@ -1,0 +1,116 @@
+[
+  {
+    "name": "Pocklington EY Depot",
+    "lat": 53.929036,
+    "lon": -0.779947,
+    "sequence": 1
+  },
+  {
+    "name": "Broadmanor",
+    "lat": 53.923662,
+    "lon": -0.778261,
+    "sequence": 2
+  },
+  {
+    "name": "Pocklington The Balk",
+    "lat": 53.926167,
+    "lon": -0.775386,
+    "sequence": 3
+  },
+  {
+    "name": "The Oval",
+    "lat": 53.931661,
+    "lon": -0.769392,
+    "sequence": 4
+  },
+  {
+    "name": "Pocklington Kilnwick Road",
+    "lat": 53.932769,
+    "lon": -0.769633,
+    "sequence": 5
+  },
+  {
+    "name": "Pocklington London Street",
+    "lat": 53.933232,
+    "lon": -0.773641,
+    "sequence": 6
+  },
+  {
+    "name": "Pocklington Chapmangate",
+    "lat": 53.932094,
+    "lon": -0.77835,
+    "sequence": 7
+  },
+  {
+    "name": "Pocklington George Street",
+    "lat": 53.93183,
+    "lon": -0.781587,
+    "sequence": 8
+  },
+  {
+    "name": "Pocklington Barmby Road",
+    "lat": 53.931711,
+    "lon": -0.784865,
+    "sequence": 9
+  },
+  {
+    "name": "Sherbuttgate North",
+    "lat": 53.93415,
+    "lon": -0.78877,
+    "sequence": 10
+  },
+  {
+    "name": "Garths End/Algarth",
+    "lat": 53.934315,
+    "lon": -0.782032,
+    "sequence": 11
+  },
+  {
+    "name": "Pocklington Chapmangate",
+    "lat": 53.932094,
+    "lon": -0.77835,
+    "sequence": 12
+  },
+  {
+    "name": "Pocklington EY Depot",
+    "lat": 53.929514,
+    "lon": -0.780086,
+    "sequence": 13
+  },
+  {
+    "name": "Pocklington EY Depot",
+    "lat": 53.929036,
+    "lon": -0.779947,
+    "sequence": 14
+  },
+  {
+    "name": "Pocklington West Green",
+    "lat": 53.925781,
+    "lon": -0.784245,
+    "sequence": 15
+  },
+  {
+    "name": "Allerthorpe Hodsow Ln",
+    "lat": 53.921124,
+    "lon": -0.795786,
+    "sequence": 16
+  },
+  {
+    "name": "Pocklington West Green",
+    "lat": 53.926175,
+    "lon": -0.784066,
+    "sequence": 17
+  },
+  {
+    "name": "Pocklington West Green",
+    "lat": 53.92843,
+    "lon": -0.782204,
+    "sequence": 18
+  },
+  {
+    "name": "Pocklington EY Depot",
+    "lat": 53.929514,
+    "lon": -0.780086,
+    "sequence": 19
+  }
+]
