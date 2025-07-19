@@ -4,19 +4,17 @@ import time
 import requests
 import os
 
-ROUTE_ID = None  # Set to None or '' to process all route_ids, or specify a route like 'EY:EYAO055:55'
-LAPTOP = True
 STOPS_TABLE = "hsp_eyms.stops"
-STOPS_ENRICHED_TABLE = "hsp_eyms_enriched.stops_enriched"
 POSTCODES_API_URL = "https://api.postcodes.io/postcodes"
 
 def reverse_geocode_postcode(latitude, longitude):
     params = {
         'lat': latitude,
-        'lon': longitude
+        'lon': longitude,
+        'radius': "200"
     }
     try:
-        response = requests.get(POSTCODES_API_URL, params=params, timeout=10)
+        response = requests.get(POSTCODES_API_URL, params=params, timeout=30)
         response.raise_for_status()
         response_data = response.json()
 
@@ -37,8 +35,6 @@ def reverse_geocode_postcode(latitude, longitude):
 
 enriched_stops_data = {}
 config = "config.json"
-if LAPTOP:
-    config = "config_laptop.json"
 
 with open(config) as json_file:
     data = json.load(json_file)
