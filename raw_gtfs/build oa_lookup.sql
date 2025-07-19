@@ -12,7 +12,7 @@ CREATE TABLE oa_lookup (
     lsoa21cd varchar(9),
     msoa21cd varchar(9),
     ladcd varchar(9),
-    lsoa21nm varchar(55),
+    lsoa21nm varchar(65),
     msoa21nm varchar(65),
     ladnm varchar(45),
     ladnmw varchar(45));
