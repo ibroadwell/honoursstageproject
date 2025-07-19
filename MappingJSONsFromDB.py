@@ -3,11 +3,8 @@ import json
 import os
 
 ROUTE_ID = None  # Set to None or '' to process all route_ids, or specify a route like 'EY:EYAO055:55'
-LAPTOP = True
 
 config = "config.json"
-if LAPTOP:
-    config = "config_laptop.json"
 
 with open(config) as json_file:
     data = json.load(json_file)
