@@ -67,10 +67,10 @@ def return_secure_priv(config_path="config.json"):
 
 def move_csv_files(source_folder, destination_folder):
     """
-    Finds all CSV files in source_folder and moves them to destination_folder.
+    Finds all CSV files in source_folder and copies them to destination_folder.
     The destination_folder should be the MySQL secure_file_priv path.
     """
-    print(f"\n--- Moving CSV Files from '{source_folder}' to '{destination_folder}' ---")
+    print(f"\n--- Copying CSV Files from '{source_folder}' to '{destination_folder}' ---")
     moved_files = []
     try:
         if not os.path.exists(source_folder):
@@ -90,7 +90,7 @@ def move_csv_files(source_folder, destination_folder):
                 destination_path = os.path.join(destination_folder, filename)
                 try:
                     shutil.copy2(source_path, destination_path)
-                    print(f"Moved: '{filename}' to '{destination_path}'")
+                    print(f"Copied: '{filename}' to '{destination_path}'")
                     moved_files.append(filename)
                 except shutil.Error as se:
                     print(f"Shutil error moving '{filename}': {se}")
