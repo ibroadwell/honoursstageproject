@@ -4,10 +4,61 @@ import time
 import requests
 import os
 
-STOPS_TABLE = "hsp_eyms.stops"
-POSTCODES_API_URL = "https://api.postcodes.io/postcodes"
+def GenerateStopsPostcode(STOPS_TABLE = "stops", POSTCODES_API_URL = "https://api.postcodes.io/postcodes", config = "config.json"):
+    enriched_stops_data = {}
 
-def reverse_geocode_postcode(latitude, longitude):
+    with open(config) as json_file:
+        data = json.load(json_file)
+
+    try:
+        conn = mysql.connector.connect(
+            host=data["host"],
+            user=data["user"],
+            password=data["password"],
+            database=data["database"]
+        )
+        cursor = conn.cursor(dictionary=True)
+        print("Connected to DB")
+
+        query = f"SELECT stop_id, stop_lat, stop_lon FROM {STOPS_TABLE};"
+        cursor.execute(query)
+        stops = cursor.fetchall()
+        if not stops:
+            print("No stops found, exiting...")
+            exit()
+        
+        for i, stop_row in enumerate(stops):
+                stop_id = stop_row['stop_id']
+                stop_lat = stop_row['stop_lat']
+                stop_lon = stop_row['stop_lon']
+
+                print(f"\nProcessing stop {i+1}/{len(stops)}: ID={stop_id}, Lat={stop_lat}, Lon={stop_lon}")
+
+                postcode = reverse_geocode_postcode(stop_lat, stop_lon, POSTCODES_API_URL)
+
+                enriched_stops_data[stop_id] = {
+                    'stop_id': stop_id,
+                    'postcode': postcode 
+                }
+
+                time.sleep(0.1) 
+
+        output_dir = "enrich"
+        os.makedirs(output_dir, exist_ok=True)
+        output_file_path = os.path.join(output_dir, "enriched_stops_data_postcode.json")
+        with open(output_file_path, 'w') as f:
+            json.dump(enriched_stops_data, f, indent=2)
+        print(f"Enriched stop data saved to '{output_file_path}'.")
+
+        
+    except mysql.connector.Error as err:
+        print("Database error:", err)
+
+    finally:
+        if 'conn' in locals() and conn.is_connected():
+            conn.close()
+
+def reverse_geocode_postcode(latitude, longitude, POSTCODES_API_URL):
     params = {
         'lat': latitude,
         'lon': longitude,
@@ -30,62 +81,4 @@ def reverse_geocode_postcode(latitude, longitude):
     except (KeyError, IndexError) as e:
         print(f"  Unexpected API response structure for lat: {latitude}, lon: {longitude}: {e}")
         return None
-
-
-
-enriched_stops_data = {}
-config = "config.json"
-
-with open(config) as json_file:
-    data = json.load(json_file)
-
-try:
-    conn = mysql.connector.connect(
-        host=data["host"],
-        user=data["user"],
-        password=data["password"],
-        database=data["database"]
-    )
-    cursor = conn.cursor(dictionary=True)
-    print("Connected to DB")
-
-    query = f"SELECT stop_id, stop_lat, stop_lon FROM {STOPS_TABLE};"
-    cursor.execute(query)
-    stops = cursor.fetchall()
-    if not stops:
-        print("No stops found, exiting...")
-        exit()
-    
-    for i, stop_row in enumerate(stops):
-            stop_id = stop_row['stop_id']
-            stop_lat = stop_row['stop_lat']
-            stop_lon = stop_row['stop_lon']
-
-            print(f"\nProcessing stop {i+1}/{len(stops)}: ID={stop_id}, Lat={stop_lat}, Lon={stop_lon}")
-
-            postcode = reverse_geocode_postcode(stop_lat, stop_lon)
-
-            enriched_stops_data[stop_id] = {
-                'stop_id': stop_id,
-                'postcode': postcode 
-            }
-
-            time.sleep(0.1) 
-
-    output_dir = "enrich"
-    os.makedirs(output_dir, exist_ok=True)
-    output_file_path = os.path.join(output_dir, "enriched_stops_data_postcode.json")
-    with open(output_file_path, 'w') as f:
-        json.dump(enriched_stops_data, f, indent=2)
-    print(f"Enriched stop data saved to '{output_file_path}'.")
-
-    
-except mysql.connector.Error as err:
-    print("Database error:", err)
-
-finally:
-    if 'conn' in locals() and conn.is_connected():
-        conn.close()
-
-
 
