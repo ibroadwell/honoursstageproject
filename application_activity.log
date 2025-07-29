@@ -1,0 +1,1381 @@
+Starting application tasks...
+Generating mapping JSONs from DB...
+Starting GenerateMappingJSONs function...
+Successfully connected to the database.
+Querying for all distinct route_ids...
+Found 114 distinct route_ids.
+Processing route: EY:EYAO001:1
+  Found 2 distinct shape_ids for route EY:EYAO001:1.
+  Exported 38 stops and 750 shape points for shape_id EYAO001-1 to 'output'.
+  Exported 33 stops and 750 shape points for shape_id EYAO001-2 to 'output'.
+Processing route: EY:EYAO002:2
+  Found 3 distinct shape_ids for route EY:EYAO002:2.
+  Exported 38 stops and 634 shape points for shape_id EYAO002-2 to 'output'.
+  Exported 38 stops and 634 shape points for shape_id EYAO002-1 to 'output'.
+  Exported 9 stops and 163 shape points for shape_id EYAO002-3 to 'output'.
+Processing route: EY:EYAO003:3
+  Found 2 distinct shape_ids for route EY:EYAO003:3.
+  Exported 19 stops and 397 shape points for shape_id EYAO003-1 to 'output'.
+  Exported 18 stops and 391 shape points for shape_id EYAO003-2 to 'output'.
+Processing route: EY:EYAO004:4
+  Found 8 distinct shape_ids for route EY:EYAO004:4.
+  Exported 20 stops and 277 shape points for shape_id EYAO004-2 to 'output'.
+  Exported 20 stops and 277 shape points for shape_id EYAO004-3 to 'output'.
+  Exported 20 stops and 277 shape points for shape_id EYAO004-4 to 'output'.
+  Exported 15 stops and 203 shape points for shape_id EYAO004-6 to 'output'.
+  Exported 15 stops and 203 shape points for shape_id EYAO004-7 to 'output'.
+  Exported 15 stops and 203 shape points for shape_id EYAO004-8 to 'output'.
+  Exported 20 stops and 277 shape points for shape_id EYAO004-5 to 'output'.
+  Exported 15 stops and 203 shape points for shape_id EYAO004-1 to 'output'.
+Processing route: EY:EYAO005:5
+  Found 4 distinct shape_ids for route EY:EYAO005:5.
+  Exported 27 stops and 893 shape points for shape_id EYAO005-2 to 'output'.
+  Exported 12 stops and 231 shape points for shape_id EYAO005-2-1 to 'output'.
+  Exported 37 stops and 936 shape points for shape_id EYAO005-1 to 'output'.
+  Exported 18 stops and 273 shape points for shape_id EYAO005-1-1 to 'output'.
+Processing route: EY:EYAO007:7
+  Found 13 distinct shape_ids for route EY:EYAO007:7.
+  Exported 46 stops and 769 shape points for shape_id EYAO007-1 to 'output'.
+  Exported 46 stops and 769 shape points for shape_id EYAO007-2 to 'output'.
+  Exported 43 stops and 748 shape points for shape_id EYAO007-3 to 'output'.
+  Exported 43 stops and 740 shape points for shape_id EYAO007-4 to 'output'.
+  Exported 41 stops and 699 shape points for shape_id EYAO007-7 to 'output'.
+  Exported 40 stops and 697 shape points for shape_id EYAO007-10 to 'output'.
+  Exported 43 stops and 748 shape points for shape_id EYAO007-5 to 'output'.
+  Exported 43 stops and 740 shape points for shape_id EYAO007-6 to 'output'.
+  Exported 41 stops and 699 shape points for shape_id EYAO007-8 to 'output'.
+  Exported 43 stops and 748 shape points for shape_id EYAO007-5-1 to 'output'.
+  Exported 43 stops and 740 shape points for shape_id EYAO007-6-1 to 'output'.
+  Exported 41 stops and 704 shape points for shape_id EYAO007-9 to 'output'.
+  Exported 41 stops and 699 shape points for shape_id EYAO007-8-1 to 'output'.
+Processing route: EY:EYAO007A:7A
+  Found 17 distinct shape_ids for route EY:EYAO007A:7A.
+  Exported 43 stops and 761 shape points for shape_id EYAO007A-1 to 'output'.
+  Exported 43 stops and 761 shape points for shape_id EYAO007A-2 to 'output'.
+  Exported 41 stops and 740 shape points for shape_id EYAO007A-3 to 'output'.
+  Exported 41 stops and 746 shape points for shape_id EYAO007A-4 to 'output'.
+  Exported 39 stops and 705 shape points for shape_id EYAO007A-8 to 'output'.
+  Exported 39 stops and 710 shape points for shape_id EYAO007A-9 to 'output'.
+  Exported 38 stops and 0 shape points for shape_id  to 'output'.
+  Exported 39 stops and 704 shape points for shape_id EYAO007A-11 to 'output'.
+  Exported 41 stops and 740 shape points for shape_id EYAO007A-5-1 to 'output'.
+  Exported 41 stops and 746 shape points for shape_id EYAO007A-6-1 to 'output'.
+  Exported 39 stops and 705 shape points for shape_id EYAO007A-10-1 to 'output'.
+  Exported 39 stops and 710 shape points for shape_id EYAO007A-12-1 to 'output'.
+  Exported 41 stops and 740 shape points for shape_id EYAO007A-5 to 'output'.
+  Exported 41 stops and 746 shape points for shape_id EYAO007A-6 to 'output'.
+  Exported 41 stops and 741 shape points for shape_id EYAO007A-7 to 'output'.
+  Exported 39 stops and 705 shape points for shape_id EYAO007A-10 to 'output'.
+  Exported 39 stops and 710 shape points for shape_id EYAO007A-12 to 'output'.
+Processing route: EY:EYAO008:8
+  Found 12 distinct shape_ids for route EY:EYAO008:8.
+  Exported 13 stops and 225 shape points for shape_id EYAO008-9 to 'output'.
+  Exported 13 stops and 225 shape points for shape_id EYAO008-10 to 'output'.
+  Exported 11 stops and 188 shape points for shape_id EYAO008-12 to 'output'.
+  Exported 14 stops and 241 shape points for shape_id EYAO008-5 to 'output'.
+  Exported 14 stops and 241 shape points for shape_id EYAO008-6 to 'output'.
+  Exported 10 stops and 188 shape points for shape_id EYAO008-7 to 'output'.
+  Exported 10 stops and 188 shape points for shape_id EYAO008-8 to 'output'.
+  Exported 13 stops and 225 shape points for shape_id EYAO008-1 to 'output'.
+  Exported 11 stops and 188 shape points for shape_id EYAO008-3 to 'output'.
+  Exported 13 stops and 232 shape points for shape_id EYAO008-2 to 'output'.
+  Exported 10 stops and 188 shape points for shape_id EYAO008-4 to 'output'.
+  Exported 13 stops and 225 shape points for shape_id EYAO008-11 to 'output'.
+Processing route: EY:EYAO009A:9A
+  Found 10 distinct shape_ids for route EY:EYAO009A:9A.
+  Exported 10 stops and 215 shape points for shape_id EYAO009A-5 to 'output'.
+  Exported 10 stops and 215 shape points for shape_id EYAO009A-6 to 'output'.
+  Exported 7 stops and 171 shape points for shape_id EYAO009A-7 to 'output'.
+  Exported 10 stops and 204 shape points for shape_id EYAO009A-8 to 'output'.
+  Exported 10 stops and 204 shape points for shape_id EYAO009A-9 to 'output'.
+  Exported 8 stops and 167 shape points for shape_id EYAO009A-10 to 'output'.
+  Exported 10 stops and 215 shape points for shape_id EYAO009A-1 to 'output'.
+  Exported 7 stops and 171 shape points for shape_id EYAO009A-4 to 'output'.
+  Exported 10 stops and 204 shape points for shape_id EYAO009A-2 to 'output'.
+  Exported 8 stops and 167 shape points for shape_id EYAO009A-3 to 'output'.
+Processing route: EY:EYAO010:10
+  Found 10 distinct shape_ids for route EY:EYAO010:10.
+  Exported 19 stops and 334 shape points for shape_id EYAO010-4 to 'output'.
+  Exported 40 stops and 733 shape points for shape_id EYAO010-4-1 to 'output'.
+  Exported 52 stops and 838 shape points for shape_id EYAO010-6 to 'output'.
+  Exported 49 stops and 762 shape points for shape_id EYAO010-6-1 to 'output'.
+  Exported 40 stops and 733 shape points for shape_id EYAO010-2 to 'output'.
+  Exported 52 stops and 838 shape points for shape_id EYAO010-1 to 'output'.
+  Exported 49 stops and 762 shape points for shape_id EYAO010-1-1 to 'output'.
+  Exported 40 stops and 733 shape points for shape_id EYAO010-5 to 'output'.
+  Exported 52 stops and 838 shape points for shape_id EYAO010-3 to 'output'.
+  Exported 26 stops and 388 shape points for shape_id EYAO010-3-1 to 'output'.
+Processing route: EY:EYAO009:9
+  Found 18 distinct shape_ids for route EY:EYAO009:9.
+  Exported 21 stops and 389 shape points for shape_id EYAO009-6 to 'output'.
+  Exported 19 stops and 361 shape points for shape_id EYAO009-9 to 'output'.
+  Exported 21 stops and 389 shape points for shape_id EYAO009-7 to 'output'.
+  Exported 21 stops and 389 shape points for shape_id EYAO009-8 to 'output'.
+  Exported 16 stops and 317 shape points for shape_id EYAO009-10 to 'output'.
+  Exported 10 stops and 204 shape points for shape_id EYAO009-11 to 'output'.
+  Exported 27 stops and 450 shape points for shape_id EYAO009-11-1 to 'output'.
+  Exported 27 stops and 450 shape points for shape_id EYAO009-12 to 'output'.
+  Exported 24 stops and 374 shape points for shape_id EYAO009-11-2 to 'output'.
+  Exported 27 stops and 450 shape points for shape_id EYAO009-13 to 'output'.
+  Exported 22 stops and 337 shape points for shape_id EYAO009-14 to 'output'.
+  Exported 21 stops and 389 shape points for shape_id EYAO009-3 to 'output'.
+  Exported 16 stops and 317 shape points for shape_id EYAO009-4 to 'output'.
+  Exported 10 stops and 204 shape points for shape_id EYAO009-1 to 'output'.
+  Exported 27 stops and 450 shape points for shape_id EYAO009-1-1 to 'output'.
+  Exported 22 stops and 337 shape points for shape_id EYAO009-2 to 'output'.
+  Exported 22 stops and 389 shape points for shape_id EYAO009-3-1 to 'output'.
+  Exported 27 stops and 450 shape points for shape_id EYAO009-5 to 'output'.
+Processing route: EY:EYAO012A:12A
+  Found 1 distinct shape_ids for route EY:EYAO012A:12A.
+  Exported 62 stops and 1560 shape points for shape_id EYAO012A-1 to 'output'.
+Processing route: EY:EYAO012C:12C
+  Found 3 distinct shape_ids for route EY:EYAO012C:12C.
+  Exported 74 stops and 1628 shape points for shape_id EYAO012C-2 to 'output'.
+  Exported 70 stops and 1474 shape points for shape_id EYAO012C-2-1 to 'output'.
+  Exported 71 stops and 1617 shape points for shape_id EYAO012C-1 to 'output'.
+Processing route: EY:EYAO012:12
+  Found 10 distinct shape_ids for route EY:EYAO012:12.
+  Exported 53 stops and 1348 shape points for shape_id EYAO012-3 to 'output'.
+  Exported 56 stops and 1380 shape points for shape_id EYAO012-5 to 'output'.
+  Exported 52 stops and 1329 shape points for shape_id EYAO012-8 to 'output'.
+  Exported 66 stops and 1473 shape points for shape_id EYAO012-1 to 'output'.
+  Exported 66 stops and 1500 shape points for shape_id EYAO012-2 to 'output'.
+  Exported 68 stops and 1512 shape points for shape_id EYAO012-7 to 'output'.
+  Exported 53 stops and 1409 shape points for shape_id EYAO012-4 to 'output'.
+  Exported 46 stops and 947 shape points for shape_id EYAO012-1-1 to 'output'.
+  Exported 33 stops and 822 shape points for shape_id EYAO012-3-1 to 'output'.
+  Exported 58 stops and 1445 shape points for shape_id EYAO012-6 to 'output'.
+Processing route: EY:EYAO013:13
+  Found 12 distinct shape_ids for route EY:EYAO013:13.
+  Exported 33 stops and 1347 shape points for shape_id EYAO013-3-2 to 'output'.
+  Exported 25 stops and 623 shape points for shape_id EYAO013-3 to 'output'.
+  Exported 52 stops and 1286 shape points for shape_id EYAO013-5 to 'output'.
+  Exported 55 stops and 919 shape points for shape_id EYAO013-1 to 'output'.
+  Exported 33 stops and 1347 shape points for shape_id EYAO013-3-3 to 'output'.
+  Exported 25 stops and 623 shape points for shape_id EYAO013-3-1 to 'output'.
+  Exported 52 stops and 1286 shape points for shape_id EYAO013-5-1 to 'output'.
+  Exported 55 stops and 919 shape points for shape_id EYAO013-1-1 to 'output'.
+  Exported 52 stops and 1347 shape points for shape_id EYAO013-3-4 to 'output'.
+  Exported 52 stops and 1286 shape points for shape_id EYAO013-4 to 'output'.
+  Exported 53 stops and 1377 shape points for shape_id EYAO013-2 to 'output'.
+  Exported 55 stops and 840 shape points for shape_id EYAO013-2-1 to 'output'.
+Processing route: EY:EYAO014:14
+  Found 6 distinct shape_ids for route EY:EYAO014:14.
+  Exported 18 stops and 367 shape points for shape_id EYAO014-1 to 'output'.
+  Exported 21 stops and 394 shape points for shape_id EYAO014-2 to 'output'.
+  Exported 18 stops and 367 shape points for shape_id EYAO014-1-1 to 'output'.
+  Exported 21 stops and 394 shape points for shape_id EYAO014-2-1 to 'output'.
+  Exported 18 stops and 367 shape points for shape_id EYAO014-1-2 to 'output'.
+  Exported 21 stops and 321 shape points for shape_id EYAO014-2-2 to 'output'.
+Processing route: EY:EYAO018:18
+  Found 15 distinct shape_ids for route EY:EYAO018:18.
+  Exported 48 stops and 1007 shape points for shape_id EYAO018-9 to 'output'.
+  Exported 44 stops and 1057 shape points for shape_id EYAO018-11 to 'output'.
+  Exported 47 stops and 936 shape points for shape_id EYAO018-10 to 'output'.
+  Exported 38 stops and 996 shape points for shape_id EYAO018-12 to 'output'.
+  Exported 32 stops and 798 shape points for shape_id EYAO018-14 to 'output'.
+  Exported 39 stops and 1016 shape points for shape_id EYAO018-13 to 'output'.
+  Exported 43 stops and 902 shape points for shape_id EYAO018-2 to 'output'.
+  Exported 47 stops and 1005 shape points for shape_id EYAO018-7 to 'output'.
+  Exported 39 stops and 1141 shape points for shape_id EYAO018-3 to 'output'.
+  Exported 38 stops and 1070 shape points for shape_id EYAO018-4 to 'output'.
+  Exported 41 stops and 880 shape points for shape_id EYAO018-8 to 'output'.
+  Exported 38 stops and 942 shape points for shape_id EYAO018-1 to 'output'.
+  Exported 21 stops and 885 shape points for shape_id EYAO018-6 to 'output'.
+  Exported 28 stops and 1085 shape points for shape_id EYAO018-5 to 'output'.
+  Exported 43 stops and 902 shape points for shape_id EYAO018-2-1 to 'output'.
+Processing route: EY:EYAO020:20
+  Found 2 distinct shape_ids for route EY:EYAO020:20.
+  Exported 7 stops and 235 shape points for shape_id EYAO020-2 to 'output'.
+  Exported 15 stops and 460 shape points for shape_id EYAO020-1 to 'output'.
+Processing route: EY:EYBO024:24
+  Found 7 distinct shape_ids for route EY:EYBO024:24.
+  Exported 70 stops and 1346 shape points for shape_id EYBO024-1 to 'output'.
+  Exported 74 stops and 1420 shape points for shape_id EYBO024-1-2 to 'output'.
+  Exported 69 stops and 1369 shape points for shape_id EYBO024-3-1 to 'output'.
+  Exported 70 stops and 1346 shape points for shape_id EYBO024-1-1 to 'output'.
+  Exported 65 stops and 1301 shape points for shape_id EYBO024-3 to 'output'.
+  Exported 70 stops and 1346 shape points for shape_id EYBO024-2 to 'output'.
+  Exported 65 stops and 1301 shape points for shape_id EYBO024-4 to 'output'.
+Processing route: EY:EYSO025:25
+  Found 8 distinct shape_ids for route EY:EYSO025:25.
+  Exported 38 stops and 1053 shape points for shape_id EYSO025-3 to 'output'.
+  Exported 41 stops and 976 shape points for shape_id EYSO025-1 to 'output'.
+  Exported 45 stops and 1066 shape points for shape_id EYSO025-4 to 'output'.
+  Exported 38 stops and 1053 shape points for shape_id EYSO025-3-1 to 'output'.
+  Exported 41 stops and 976 shape points for shape_id EYSO025-1-1 to 'output'.
+  Exported 45 stops and 1066 shape points for shape_id EYSO025-4-1 to 'output'.
+  Exported 38 stops and 985 shape points for shape_id EYSO025-2 to 'output'.
+  Exported 41 stops and 976 shape points for shape_id EYSO025-1-2 to 'output'.
+Processing route: EY:EYSO026:26
+  Found 5 distinct shape_ids for route EY:EYSO026:26.
+  Exported 59 stops and 1138 shape points for shape_id EYSO026-3 to 'output'.
+  Exported 69 stops and 1219 shape points for shape_id EYSO026-1 to 'output'.
+  Exported 56 stops and 1145 shape points for shape_id EYSO026-4 to 'output'.
+  Exported 25 stops and 515 shape points for shape_id EYSO026-4-1 to 'output'.
+  Exported 63 stops and 1265 shape points for shape_id EYSO026-2 to 'output'.
+Processing route: EY:EYAO031X:31X
+  Found 4 distinct shape_ids for route EY:EYAO031X:31X.
+  Exported 47 stops and 1606 shape points for shape_id EYAO031X-1 to 'output'.
+  Exported 47 stops and 1598 shape points for shape_id EYAO031X-2 to 'output'.
+  Exported 47 stops and 1606 shape points for shape_id EYAO031X-1-1 to 'output'.
+  Exported 47 stops and 1598 shape points for shape_id EYAO031X-2-1 to 'output'.
+Processing route: EY:EYAO035:35
+  Found 3 distinct shape_ids for route EY:EYAO035:35.
+  Exported 27 stops and 330 shape points for shape_id EYAO035-2 to 'output'.
+  Exported 30 stops and 339 shape points for shape_id EYAO035-1 to 'output'.
+  Exported 28 stops and 299 shape points for shape_id EYAO035-3 to 'output'.
+Processing route: EY:EYDO041:41
+  Found 1 distinct shape_ids for route EY:EYDO041:41.
+  Exported 42 stops and 0 shape points for shape_id  to 'output'.
+Processing route: EY:EYBO043:43
+  Found 7 distinct shape_ids for route EY:EYBO043:43.
+  Exported 40 stops and 671 shape points for shape_id EYBO043-3 to 'output'.
+  Exported 44 stops and 593 shape points for shape_id EYBO043-1 to 'output'.
+  Exported 54 stops and 739 shape points for shape_id EYBO043-1-2 to 'output'.
+  Exported 52 stops and 699 shape points for shape_id EYBO043-2 to 'output'.
+  Exported 46 stops and 671 shape points for shape_id EYBO043-3-1 to 'output'.
+  Exported 54 stops and 739 shape points for shape_id EYBO043-1-3 to 'output'.
+  Exported 44 stops and 593 shape points for shape_id EYBO043-1-1 to 'output'.
+Processing route: EY:EYFO044:44
+  Found 2 distinct shape_ids for route EY:EYFO044:44.
+  Exported 19 stops and 228 shape points for shape_id EYFO044-2 to 'output'.
+  Exported 22 stops and 256 shape points for shape_id EYFO044-1 to 'output'.
+Processing route: EY:EYFO045:45
+  Found 13 distinct shape_ids for route EY:EYFO045:45.
+  Exported 47 stops and 525 shape points for shape_id EYFO045-1 to 'output'.
+  Exported 14 stops and 190 shape points for shape_id EYFO045-8 to 'output'.
+  Exported 41 stops and 591 shape points for shape_id EYFO045-9 to 'output'.
+  Exported 40 stops and 471 shape points for shape_id EYFO045-4 to 'output'.
+  Exported 41 stops and 519 shape points for shape_id EYFO045-2 to 'output'.
+  Exported 32 stops and 424 shape points for shape_id EYFO045-2-1 to 'output'.
+  Exported 39 stops and 479 shape points for shape_id EYFO045-5 to 'output'.
+  Exported 15 stops and 220 shape points for shape_id EYFO045-7 to 'output'.
+  Exported 36 stops and 479 shape points for shape_id EYFO045-6 to 'output'.
+  Exported 41 stops and 509 shape points for shape_id EYFO045-3 to 'output'.
+  Exported 47 stops and 525 shape points for shape_id EYFO045-10 to 'output'.
+  Exported 40 stops and 471 shape points for shape_id EYFO045-12 to 'output'.
+  Exported 41 stops and 519 shape points for shape_id EYFO045-11 to 'output'.
+Processing route: EY:EYMO046:46
+  Found 7 distinct shape_ids for route EY:EYMO046:46.
+  Exported 10 stops and 312 shape points for shape_id EYMO046-1 to 'output'.
+  Exported 11 stops and 228 shape points for shape_id EYMO046-3 to 'output'.
+  Exported 4 stops and 0 shape points for shape_id  to 'output'.
+  Exported 4 stops and 300 shape points for shape_id EYMO046-2 to 'output'.
+  Exported 10 stops and 312 shape points for shape_id EYMO046-1-1 to 'output'.
+  Exported 11 stops and 228 shape points for shape_id EYMO046-3-1 to 'output'.
+  Exported 4 stops and 300 shape points for shape_id EYMO046-2-1 to 'output'.
+Processing route: EY:EYXO051:51
+  Found 4 distinct shape_ids for route EY:EYXO051:51.
+  Exported 28 stops and 326 shape points for shape_id EYXO051-4 to 'output'.
+  Exported 32 stops and 315 shape points for shape_id EYXO051-1 to 'output'.
+  Exported 28 stops and 277 shape points for shape_id EYXO051-3 to 'output'.
+  Exported 29 stops and 328 shape points for shape_id EYXO051-2 to 'output'.
+Processing route: EY:EYRO052:52
+  Found 7 distinct shape_ids for route EY:EYRO052:52.
+  Exported 27 stops and 330 shape points for shape_id EYRO052-2 to 'output'.
+  Exported 30 stops and 356 shape points for shape_id EYRO052-1 to 'output'.
+  Exported 26 stops and 320 shape points for shape_id EYRO052-3 to 'output'.
+  Exported 27 stops and 330 shape points for shape_id EYRO052-2-1 to 'output'.
+  Exported 30 stops and 356 shape points for shape_id EYRO052-1-1 to 'output'.
+  Exported 27 stops and 329 shape points for shape_id EYRO052-4 to 'output'.
+  Exported 30 stops and 0 shape points for shape_id  to 'output'.
+Processing route: EY:EYRO053:53
+  Found 8 distinct shape_ids for route EY:EYRO053:53.
+  Exported 45 stops and 580 shape points for shape_id EYRO053-1 to 'output'.
+  Exported 45 stops and 519 shape points for shape_id EYRO053-2 to 'output'.
+  Exported 41 stops and 483 shape points for shape_id EYRO053-3 to 'output'.
+  Exported 45 stops and 580 shape points for shape_id EYRO053-1-1 to 'output'.
+  Exported 45 stops and 519 shape points for shape_id EYRO053-2-1 to 'output'.
+  Exported 45 stops and 580 shape points for shape_id EYRO053-4 to 'output'.
+  Exported 45 stops and 580 shape points for shape_id EYRO053-1-2 to 'output'.
+  Exported 45 stops and 0 shape points for shape_id  to 'output'.
+Processing route: EY:EYAO054:54
+  Found 16 distinct shape_ids for route EY:EYAO054:54.
+  Exported 39 stops and 701 shape points for shape_id EYAO054-5 to 'output'.
+  Exported 38 stops and 694 shape points for shape_id EYAO054-6 to 'output'.
+  Exported 42 stops and 582 shape points for shape_id EYAO054-1 to 'output'.
+  Exported 38 stops and 546 shape points for shape_id EYAO054-4 to 'output'.
+  Exported 41 stops and 557 shape points for shape_id EYAO054-2 to 'output'.
+  Exported 41 stops and 553 shape points for shape_id EYAO054-3 to 'output'.
+  Exported 39 stops and 700 shape points for shape_id EYAO054-10 to 'output'.
+  Exported 38 stops and 693 shape points for shape_id EYAO054-11 to 'output'.
+  Exported 42 stops and 582 shape points for shape_id EYAO054-7 to 'output'.
+  Exported 41 stops and 557 shape points for shape_id EYAO054-8 to 'output'.
+  Exported 41 stops and 553 shape points for shape_id EYAO054-9 to 'output'.
+  Exported 39 stops and 700 shape points for shape_id EYAO054-10-1 to 'output'.
+  Exported 38 stops and 693 shape points for shape_id EYAO054-11-1 to 'output'.
+  Exported 42 stops and 582 shape points for shape_id EYAO054-7-1 to 'output'.
+  Exported 41 stops and 557 shape points for shape_id EYAO054-8-1 to 'output'.
+  Exported 41 stops and 553 shape points for shape_id EYAO054-9-1 to 'output'.
+Processing route: EY:EYAO055A:55A
+  Found 1 distinct shape_ids for route EY:EYAO055A:55A.
+  Exported 59 stops and 1054 shape points for shape_id EYAO055A-1 to 'output'.
+Processing route: EY:EYAO055:55
+  Found 17 distinct shape_ids for route EY:EYAO055:55.
+  Exported 59 stops and 1246 shape points for shape_id EYAO055-2-1 to 'output'.
+  Exported 51 stops and 2127 shape points for shape_id EYAO055-2-3 to 'output'.
+  Exported 81 stops and 1424 shape points for shape_id EYAO055-4 to 'output'.
+  Exported 51 stops and 881 shape points for shape_id EYAO055-8 to 'output'.
+  Exported 51 stops and 871 shape points for shape_id EYAO055-1 to 'output'.
+  Exported 52 stops and 887 shape points for shape_id EYAO055-5 to 'output'.
+  Exported 81 stops and 2143 shape points for shape_id EYAO055-1-2 to 'output'.
+  Exported 107 stops and 2107 shape points for shape_id EYAO055-3 to 'output'.
+  Exported 59 stops and 1246 shape points for shape_id EYAO055-2 to 'output'.
+  Exported 51 stops and 1424 shape points for shape_id EYAO055-4-1 to 'output'.
+  Exported 109 stops and 2127 shape points for shape_id EYAO055-2-2 to 'output'.
+  Exported 51 stops and 871 shape points for shape_id EYAO055-1-1 to 'output'.
+  Exported 81 stops and 2143 shape points for shape_id EYAO055-1-3 to 'output'.
+  Exported 29 stops and 715 shape points for shape_id EYAO055-7 to 'output'.
+  Exported 81 stops and 1412 shape points for shape_id EYAO055-7-1 to 'output'.
+  Exported 81 stops and 1395 shape points for shape_id EYAO055-6-1 to 'output'.
+  Exported 31 stops and 748 shape points for shape_id EYAO055-6 to 'output'.
+Processing route: EY:EYXO056:56
+  Found 13 distinct shape_ids for route EY:EYXO056:56.
+  Exported 35 stops and 396 shape points for shape_id EYXO056-1-2 to 'output'.
+  Exported 35 stops and 396 shape points for shape_id EYXO056-4 to 'output'.
+  Exported 67 stops and 814 shape points for shape_id EYXO056-1-3 to 'output'.
+  Exported 77 stops and 828 shape points for shape_id EYXO056-2 to 'output'.
+  Exported 69 stops and 772 shape points for shape_id EYXO056-3 to 'output'.
+  Exported 67 stops and 814 shape points for shape_id EYXO056-1-5 to 'output'.
+  Exported 35 stops and 396 shape points for shape_id EYXO056-1-1 to 'output'.
+  Exported 77 stops and 828 shape points for shape_id EYXO056-2-1 to 'output'.
+  Exported 69 stops and 772 shape points for shape_id EYXO056-3-1 to 'output'.
+  Exported 35 stops and 396 shape points for shape_id EYXO056-1 to 'output'.
+  Exported 67 stops and 814 shape points for shape_id EYXO056-1-4 to 'output'.
+  Exported 77 stops and 828 shape points for shape_id EYXO056-2-2 to 'output'.
+  Exported 69 stops and 772 shape points for shape_id EYXO056-3-2 to 'output'.
+Processing route: EY:EYXO057:57
+  Found 15 distinct shape_ids for route EY:EYXO057:57.
+  Exported 61 stops and 751 shape points for shape_id EYXO057-2-3 to 'output'.
+  Exported 35 stops and 396 shape points for shape_id EYXO057-2-2 to 'output'.
+  Exported 27 stops and 355 shape points for shape_id EYXO057-3-2 to 'output'.
+  Exported 59 stops and 707 shape points for shape_id EYXO057-1 to 'output'.
+  Exported 35 stops and 396 shape points for shape_id EYXO057-4 to 'output'.
+  Exported 27 stops and 751 shape points for shape_id EYXO057-2-5 to 'output'.
+  Exported 35 stops and 396 shape points for shape_id EYXO057-2-1 to 'output'.
+  Exported 27 stops and 355 shape points for shape_id EYXO057-3-1 to 'output'.
+  Exported 59 stops and 707 shape points for shape_id EYXO057-1-1 to 'output'.
+  Exported 34 stops and 358 shape points for shape_id EYXO057-6 to 'output'.
+  Exported 35 stops and 396 shape points for shape_id EYXO057-2 to 'output'.
+  Exported 61 stops and 751 shape points for shape_id EYXO057-2-4 to 'output'.
+  Exported 61 stops and 751 shape points for shape_id EYXO057-4-1 to 'output'.
+  Exported 27 stops and 355 shape points for shape_id EYXO057-3 to 'output'.
+  Exported 59 stops and 707 shape points for shape_id EYXO057-1-2 to 'output'.
+Processing route: EY:EYAO058:58
+  Found 7 distinct shape_ids for route EY:EYAO058:58.
+  Exported 29 stops and 345 shape points for shape_id EYAO058-2 to 'output'.
+  Exported 32 stops and 311 shape points for shape_id EYAO058-1 to 'output'.
+  Exported 28 stops and 273 shape points for shape_id EYAO058-5 to 'output'.
+  Exported 29 stops and 345 shape points for shape_id EYAO058-4 to 'output'.
+  Exported 32 stops and 311 shape points for shape_id EYAO058-3 to 'output'.
+  Exported 29 stops and 345 shape points for shape_id EYAO058-4-1 to 'output'.
+  Exported 32 stops and 0 shape points for shape_id  to 'output'.
+Processing route: EY:EYAO059:59
+  Found 2 distinct shape_ids for route EY:EYAO059:59.
+  Exported 35 stops and 499 shape points for shape_id EYAO059-2 to 'output'.
+  Exported 38 stops and 406 shape points for shape_id EYAO059-1 to 'output'.
+Processing route: EY:EYAO064S:64
+  Found 3 distinct shape_ids for route EY:EYAO064S:64.
+  Exported 18 stops and 499 shape points for shape_id EYAO064S-1 to 'output'.
+  Exported 18 stops and 499 shape points for shape_id EYAO064S-1-1 to 'output'.
+  Exported 18 stops and 499 shape points for shape_id EYAO064S-1-2 to 'output'.
+Processing route: EY:EYAO071:71
+  Found 11 distinct shape_ids for route EY:EYAO071:71.
+  Exported 13 stops and 531 shape points for shape_id EYAO071-5-1 to 'output'.
+  Exported 14 stops and 520 shape points for shape_id EYAO071-5 to 'output'.
+  Exported 18 stops and 627 shape points for shape_id EYAO071-1 to 'output'.
+  Exported 6 stops and 616 shape points for shape_id EYAO071-2 to 'output'.
+  Exported 12 stops and 515 shape points for shape_id EYAO071-4 to 'output'.
+  Exported 13 stops and 520 shape points for shape_id EYAO071-3 to 'output'.
+  Exported 18 stops and 627 shape points for shape_id EYAO071-1-1 to 'output'.
+  Exported 17 stops and 616 shape points for shape_id EYAO071-2-1 to 'output'.
+  Exported 12 stops and 515 shape points for shape_id EYAO071-4-1 to 'output'.
+  Exported 15 stops and 560 shape points for shape_id EYAO071-7 to 'output'.
+  Exported 13 stops and 563 shape points for shape_id EYAO071-8 to 'output'.
+Processing route: EY:EYEO072:72
+  Found 4 distinct shape_ids for route EY:EYEO072:72.
+  Exported 76 stops and 1453 shape points for shape_id EYEO072-1 to 'output'.
+  Exported 22 stops and 684 shape points for shape_id EYEO072-3 to 'output'.
+  Exported 8 stops and 1438 shape points for shape_id EYEO072-2 to 'output'.
+  Exported 22 stops and 689 shape points for shape_id EYEO072-4 to 'output'.
+Processing route: EY:EYRX007:X7
+  Found 4 distinct shape_ids for route EY:EYRX007:X7.
+  Exported 26 stops and 897 shape points for shape_id EYRX007-2 to 'output'.
+  Exported 77 stops and 914 shape points for shape_id EYRX007-1 to 'output'.
+  Exported 75 stops and 0 shape points for shape_id  to 'output'.
+  Exported 77 stops and 914 shape points for shape_id EYRX007-1-1 to 'output'.
+Processing route: EY:EYRO075:75
+  Found 5 distinct shape_ids for route EY:EYRO075:75.
+  Exported 87 stops and 1061 shape points for shape_id EYRO075-3 to 'output'.
+  Exported 82 stops and 0 shape points for shape_id  to 'output'.
+  Exported 88 stops and 1075 shape points for shape_id EYRO075-1 to 'output'.
+  Exported 87 stops and 1021 shape points for shape_id EYRO075-4 to 'output'.
+  Exported 88 stops and 1075 shape points for shape_id EYRO075-1-1 to 'output'.
+Processing route: EY:EYRO075H:75H
+  Found 1 distinct shape_ids for route EY:EYRO075H:75H.
+  Exported 92 stops and 1143 shape points for shape_id EYRO075H-1 to 'output'.
+Processing route: EY:EYRO079:79
+  Found 8 distinct shape_ids for route EY:EYRO079:79.
+  Exported 36 stops and 684 shape points for shape_id EYRO079-4 to 'output'.
+  Exported 35 stops and 668 shape points for shape_id EYRO079-5 to 'output'.
+  Exported 44 stops and 656 shape points for shape_id EYRO079-1 to 'output'.
+  Exported 36 stops and 684 shape points for shape_id EYRO079-2 to 'output'.
+  Exported 35 stops and 668 shape points for shape_id EYRO079-3 to 'output'.
+  Exported 44 stops and 656 shape points for shape_id EYRO079-1-1 to 'output'.
+  Exported 33 stops and 612 shape points for shape_id EYAO079-2 to 'output'.
+  Exported 41 stops and 604 shape points for shape_id EYAO079-1 to 'output'.
+Processing route: EY:EYRO078:78
+  Found 4 distinct shape_ids for route EY:EYRO078:78.
+  Exported 39 stops and 675 shape points for shape_id EYRO078-2 to 'output'.
+  Exported 46 stops and 669 shape points for shape_id EYRO078-1 to 'output'.
+  Exported 39 stops and 675 shape points for shape_id EYRO078-2-1 to 'output'.
+  Exported 46 stops and 669 shape points for shape_id EYRO078-1-1 to 'output'.
+Processing route: EY:EYAO080:80
+  Found 8 distinct shape_ids for route EY:EYAO080:80.
+  Exported 25 stops and 547 shape points for shape_id EYAO080-2 to 'output'.
+  Exported 44 stops and 1519 shape points for shape_id EYAO080-2-1 to 'output'.
+  Exported 33 stops and 1207 shape points for shape_id EYAO080-2-2 to 'output'.
+  Exported 46 stops and 1501 shape points for shape_id EYAO080-1 to 'output'.
+  Exported 32 stops and 1178 shape points for shape_id EYAO080-1-1 to 'output'.
+  Exported 25 stops and 535 shape points for shape_id EYAO080-1-2 to 'output'.
+  Exported 25 stops and 547 shape points for shape_id EYAO080-3 to 'output'.
+  Exported 25 stops and 535 shape points for shape_id EYAO080-4 to 'output'.
+Processing route: EY:EYAO081:81
+  Found 11 distinct shape_ids for route EY:EYAO081:81.
+  Exported 41 stops and 1516 shape points for shape_id EYAO081-5 to 'output'.
+  Exported 46 stops and 1625 shape points for shape_id EYAO081-1 to 'output'.
+  Exported 40 stops and 1410 shape points for shape_id EYAO081-6 to 'output'.
+  Exported 45 stops and 1569 shape points for shape_id EYAO081-2 to 'output'.
+  Exported 30 stops and 1026 shape points for shape_id EYAO081-8 to 'output'.
+  Exported 9 stops and 352 shape points for shape_id EYAO081-10 to 'output'.
+  Exported 8 stops and 361 shape points for shape_id EYAO081-11 to 'output'.
+  Exported 25 stops and 759 shape points for shape_id EYAO081-9 to 'output'.
+  Exported 42 stops and 1443 shape points for shape_id EYAO081-4 to 'output'.
+  Exported 45 stops and 1567 shape points for shape_id EYAO081-3 to 'output'.
+  Exported 37 stops and 1300 shape points for shape_id EYAO081-7 to 'output'.
+Processing route: EY:EYAO084:84
+  Found 6 distinct shape_ids for route EY:EYAO084:84.
+  Exported 25 stops and 1178 shape points for shape_id EYAO084-2 to 'output'.
+  Exported 29 stops and 887 shape points for shape_id EYAO084-3 to 'output'.
+  Exported 42 stops and 1264 shape points for shape_id EYAO084-1 to 'output'.
+  Exported 25 stops and 1178 shape points for shape_id EYAO084-2-1 to 'output'.
+  Exported 42 stops and 1264 shape points for shape_id EYAO084-1-1 to 'output'.
+  Exported 25 stops and 731 shape points for shape_id EYAO084-4 to 'output'.
+Processing route: EY:EYAO083:83
+  Found 5 distinct shape_ids for route EY:EYAO083:83.
+  Exported 56 stops and 1499 shape points for shape_id EYAO083-3-1 to 'output'.
+  Exported 66 stops and 1699 shape points for shape_id EYAO083-2 to 'output'.
+  Exported 67 stops and 1761 shape points for shape_id EYAO083-1 to 'output'.
+  Exported 53 stops and 1407 shape points for shape_id EYAO083-3 to 'output'.
+  Exported 66 stops and 1699 shape points for shape_id EYAO083-2-1 to 'output'.
+Processing route: EY:EYAO082:82
+  Found 12 distinct shape_ids for route EY:EYAO082:82.
+  Exported 54 stops and 1400 shape points for shape_id EYAO082-5 to 'output'.
+  Exported 56 stops and 1422 shape points for shape_id EYAO082-2 to 'output'.
+  Exported 52 stops and 1418 shape points for shape_id EYAO082-6 to 'output'.
+  Exported 42 stops and 1108 shape points for shape_id EYAO082-7 to 'output'.
+  Exported 56 stops and 1505 shape points for shape_id EYAO082-3 to 'output'.
+  Exported 58 stops and 1696 shape points for shape_id EYAO082-1 to 'output'.
+  Exported 55 stops and 1485 shape points for shape_id EYAO082-4 to 'output'.
+  Exported 54 stops and 1400 shape points for shape_id EYAO082-5-1 to 'output'.
+  Exported 56 stops and 1422 shape points for shape_id EYAO082-2-1 to 'output'.
+  Exported 42 stops and 1108 shape points for shape_id EYAO082-7-1 to 'output'.
+  Exported 56 stops and 1505 shape points for shape_id EYAO082-3-1 to 'output'.
+  Exported 55 stops and 1485 shape points for shape_id EYAO082-4-1 to 'output'.
+Processing route: EY:EYAO088:88
+  Found 4 distinct shape_ids for route EY:EYAO088:88.
+  Exported 22 stops and 604 shape points for shape_id EYAO088-1 to 'output'.
+  Exported 20 stops and 404 shape points for shape_id EYAO088-2 to 'output'.
+  Exported 22 stops and 604 shape points for shape_id EYAO088-1-1 to 'output'.
+  Exported 20 stops and 404 shape points for shape_id EYAO088-2-1 to 'output'.
+Processing route: EY:EYAO099:99
+  Found 1 distinct shape_ids for route EY:EYAO099:99.
+  Exported 13 stops and 478 shape points for shape_id EYAO099-1 to 'output'.
+Processing route: EY:EYAO104:104
+  Found 16 distinct shape_ids for route EY:EYAO104:104.
+  Exported 47 stops and 504 shape points for shape_id EYAO104-8 to 'output'.
+  Exported 43 stops and 488 shape points for shape_id EYAO104-9 to 'output'.
+  Exported 52 stops and 573 shape points for shape_id EYAO104-1 to 'output'.
+  Exported 50 stops and 533 shape points for shape_id EYAO104-7 to 'output'.
+  Exported 47 stops and 533 shape points for shape_id EYAO104-2 to 'output'.
+  Exported 46 stops and 504 shape points for shape_id EYAO104-4 to 'output'.
+  Exported 46 stops and 502 shape points for shape_id EYAO104-3 to 'output'.
+  Exported 43 stops and 488 shape points for shape_id EYAO104-5 to 'output'.
+  Exported 52 stops and 573 shape points for shape_id EYAO104-1-1 to 'output'.
+  Exported 47 stops and 533 shape points for shape_id EYAO104-2-1 to 'output'.
+  Exported 46 stops and 504 shape points for shape_id EYAO104-4-1 to 'output'.
+  Exported 46 stops and 502 shape points for shape_id EYAO104-3-1 to 'output'.
+  Exported 43 stops and 488 shape points for shape_id EYAO104-5-1 to 'output'.
+  Exported 52 stops and 573 shape points for shape_id EYAO104-1-2 to 'output'.
+  Exported 47 stops and 533 shape points for shape_id EYAO104-2-2 to 'output'.
+  Exported 46 stops and 504 shape points for shape_id EYAO104-4-2 to 'output'.
+Processing route: CROP:FWAO112:112
+  Found 2 distinct shape_ids for route CROP:FWAO112:112.
+  Exported 34 stops and 507 shape points for shape_id FWAO112-1 to 'output'.
+  Exported 32 stops and 494 shape points for shape_id FWAO112-2 to 'output'.
+Processing route: CROP:FWAO112A:112A
+  Found 2 distinct shape_ids for route CROP:FWAO112A:112A.
+  Exported 30 stops and 447 shape points for shape_id FWAO112A-1 to 'output'.
+  Exported 30 stops and 424 shape points for shape_id FWAO112A-2 to 'output'.
+Processing route: EY:EYAO128:128
+  Found 12 distinct shape_ids for route EY:EYAO128:128.
+  Exported 48 stops and 1097 shape points for shape_id EYAO128-5 to 'output'.
+  Exported 64 stops and 0 shape points for shape_id  to 'output'.
+  Exported 65 stops and 1126 shape points for shape_id EYAO128-6 to 'output'.
+  Exported 41 stops and 488 shape points for shape_id EYAO128-13 to 'output'.
+  Exported 73 stops and 1126 shape points for shape_id EYAO128-5-1 to 'output'.
+  Exported 74 stops and 1126 shape points for shape_id EYAO128-4 to 'output'.
+  Exported 64 stops and 1097 shape points for shape_id EYAO128-8 to 'output'.
+  Exported 49 stops and 1081 shape points for shape_id EYAO128-2 to 'output'.
+  Exported 65 stops and 1431 shape points for shape_id EYAO128-2-1 to 'output'.
+  Exported 75 stops and 1725 shape points for shape_id EYAO128-2-2 to 'output'.
+  Exported 42 stops and 469 shape points for shape_id EYAO128-10 to 'output'.
+  Exported 76 stops and 1761 shape points for shape_id EYAO128-1 to 'output'.
+Processing route: EY:EYAO129:129
+  Found 8 distinct shape_ids for route EY:EYAO129:129.
+  Exported 23 stops and 496 shape points for shape_id EYAO129-3 to 'output'.
+  Exported 36 stops and 641 shape points for shape_id EYAO129-1 to 'output'.
+  Exported 35 stops and 643 shape points for shape_id EYAO129-2 to 'output'.
+  Exported 23 stops and 496 shape points for shape_id EYAO129-3-1 to 'output'.
+  Exported 36 stops and 641 shape points for shape_id EYAO129-1-1 to 'output'.
+  Exported 35 stops and 643 shape points for shape_id EYAO129-2-1 to 'output'.
+  Exported 36 stops and 641 shape points for shape_id EYAO129-1-2 to 'output'.
+  Exported 35 stops and 643 shape points for shape_id EYAO129-2-2 to 'output'.
+Processing route: EY:EYAO130:130
+  Found 6 distinct shape_ids for route EY:EYAO130:130.
+  Exported 30 stops and 828 shape points for shape_id EYAO130-2 to 'output'.
+  Exported 34 stops and 8 shape points for shape_id EYAO130-1 to 'output'.
+  Exported 30 stops and 828 shape points for shape_id EYAO130-2-1 to 'output'.
+  Exported 34 stops and 8 shape points for shape_id EYAO130-1-1 to 'output'.
+  Exported 30 stops and 828 shape points for shape_id EYAO130-2-2 to 'output'.
+  Exported 34 stops and 8 shape points for shape_id EYAO130-1-2 to 'output'.
+Processing route: EY:EYAO131:131
+  Found 3 distinct shape_ids for route EY:EYAO131:131.
+  Exported 23 stops and 450 shape points for shape_id EYAO131-1 to 'output'.
+  Exported 29 stops and 568 shape points for shape_id EYAO131-1-1 to 'output'.
+  Exported 19 stops and 381 shape points for shape_id EYAO131-1-2 to 'output'.
+Processing route: EY:EYAO136:136
+  Found 11 distinct shape_ids for route EY:EYAO136:136.
+  Exported 30 stops and 1702 shape points for shape_id EYAO136-3 to 'output'.
+  Exported 30 stops and 1483 shape points for shape_id EYAO136-2 to 'output'.
+  Exported 15 stops and 0 shape points for shape_id  to 'output'.
+  Exported 35 stops and 1500 shape points for shape_id EYAO136-1 to 'output'.
+  Exported 29 stops and 1066 shape points for shape_id EYAO136-4 to 'output'.
+  Exported 30 stops and 1702 shape points for shape_id EYAO136-3-1 to 'output'.
+  Exported 30 stops and 1483 shape points for shape_id EYAO136-2-1 to 'output'.
+  Exported 35 stops and 1500 shape points for shape_id EYAO136-1-1 to 'output'.
+  Exported 29 stops and 1066 shape points for shape_id EYAO136-4-1 to 'output'.
+  Exported 30 stops and 1483 shape points for shape_id EYAO136-2-2 to 'output'.
+  Exported 35 stops and 1500 shape points for shape_id EYAO136-1-2 to 'output'.
+Processing route: EY:EYAO142:142
+  Found 9 distinct shape_ids for route EY:EYAO142:142.
+  Exported 22 stops and 399 shape points for shape_id EYAO142-3 to 'output'.
+  Exported 27 stops and 532 shape points for shape_id EYAO142-1 to 'output'.
+  Exported 12 stops and 226 shape points for shape_id EYAO142-3-1 to 'output'.
+  Exported 27 stops and 538 shape points for shape_id EYAO142-2 to 'output'.
+  Exported 12 stops and 224 shape points for shape_id EYAO142-2-1 to 'output'.
+  Exported 10 stops and 260 shape points for shape_id EYAO142-5 to 'output'.
+  Exported 10 stops and 0 shape points for shape_id  to 'output'.
+  Exported 20 stops and 382 shape points for shape_id EYAO142-4 to 'output'.
+  Exported 12 stops and 224 shape points for shape_id EYAO142-4-1 to 'output'.
+Processing route: EY:EYAO143:143
+  Found 1 distinct shape_ids for route EY:EYAO143:143.
+  Exported 51 stops and 0 shape points for shape_id  to 'output'.
+Processing route: EY:EYAO144:144
+  Found 2 distinct shape_ids for route EY:EYAO144:144.
+  Exported 41 stops and 1102 shape points for shape_id EYAO144-1 to 'output'.
+  Exported 44 stops and 1188 shape points for shape_id EYAO144-2 to 'output'.
+Processing route: EY:EYAO145:145
+  Found 5 distinct shape_ids for route EY:EYAO145:145.
+  Exported 18 stops and 615 shape points for shape_id EYAO145-2 to 'output'.
+  Exported 17 stops and 630 shape points for shape_id EYAO145-4 to 'output'.
+  Exported 38 stops and 1187 shape points for shape_id EYAO145-3 to 'output'.
+  Exported 18 stops and 615 shape points for shape_id EYAO145-2-1 to 'output'.
+  Exported 17 stops and 630 shape points for shape_id EYAO145-1 to 'output'.
+Processing route: EY:EYAO150:150
+  Found 4 distinct shape_ids for route EY:EYAO150:150.
+  Exported 54 stops and 1005 shape points for shape_id EYAO150-1 to 'output'.
+  Exported 35 stops and 644 shape points for shape_id EYAO150-1-1 to 'output'.
+  Exported 20 stops and 361 shape points for shape_id EYAO150-1-2 to 'output'.
+  Exported 16 stops and 272 shape points for shape_id EYAO150-1-3 to 'output'.
+Processing route: EY:EYAO156:156
+  Found 2 distinct shape_ids for route EY:EYAO156:156.
+  Exported 38 stops and 587 shape points for shape_id EYAO156-1 to 'output'.
+  Exported 35 stops and 592 shape points for shape_id EYAO156-2 to 'output'.
+Processing route: EY:EYAO165:165
+  Found 3 distinct shape_ids for route EY:EYAO165:165.
+  Exported 8 stops and 434 shape points for shape_id EYAO165-1 to 'output'.
+  Exported 8 stops and 434 shape points for shape_id EYAO165-1-1 to 'output'.
+  Exported 8 stops and 434 shape points for shape_id EYAO165-1-2 to 'output'.
+Processing route: EY:EYAO180:180
+  Found 2 distinct shape_ids for route EY:EYAO180:180.
+  Exported 15 stops and 591 shape points for shape_id EYAO180-1 to 'output'.
+  Exported 21 stops and 619 shape points for shape_id EYAO180-2 to 'output'.
+Processing route: EY:EYAO182:182
+  Found 7 distinct shape_ids for route EY:EYAO182:182.
+  Exported 42 stops and 1311 shape points for shape_id EYAO182-3 to 'output'.
+  Exported 44 stops and 1363 shape points for shape_id EYAO182-2 to 'output'.
+  Exported 47 stops and 1335 shape points for shape_id EYAO182-1 to 'output'.
+  Exported 38 stops and 1169 shape points for shape_id EYAO182-4 to 'output'.
+  Exported 42 stops and 1311 shape points for shape_id EYAO182-3-1 to 'output'.
+  Exported 47 stops and 1335 shape points for shape_id EYAO182-1-1 to 'output'.
+  Exported 38 stops and 1169 shape points for shape_id EYAO182-4-1 to 'output'.
+Processing route: EY:EYAO183:183
+  Found 1 distinct shape_ids for route EY:EYAO183:183.
+  Exported 37 stops and 0 shape points for shape_id  to 'output'.
+Processing route: EY:EYAO194:194
+  Found 6 distinct shape_ids for route EY:EYAO194:194.
+  Exported 20 stops and 565 shape points for shape_id EYAO194-2 to 'output'.
+  Exported 19 stops and 563 shape points for shape_id EYAO194-3 to 'output'.
+  Exported 21 stops and 605 shape points for shape_id EYAO194-1 to 'output'.
+  Exported 19 stops and 563 shape points for shape_id EYAO194-3-1 to 'output'.
+  Exported 20 stops and 565 shape points for shape_id EYAO194-2-1 to 'output'.
+  Exported 21 stops and 605 shape points for shape_id EYAO194-1-1 to 'output'.
+Processing route: EY:EYAO195:195
+  Found 2 distinct shape_ids for route EY:EYAO195:195.
+  Exported 26 stops and 787 shape points for shape_id EYAO195-1 to 'output'.
+  Exported 26 stops and 789 shape points for shape_id EYAO195-2 to 'output'.
+Processing route: EY:EYAO196:196
+  Found 3 distinct shape_ids for route EY:EYAO196:196.
+  Exported 34 stops and 0 shape points for shape_id  to 'output'.
+  Exported 35 stops and 977 shape points for shape_id EYAO196-1 to 'output'.
+  Exported 35 stops and 977 shape points for shape_id EYAO196-1-1 to 'output'.
+Processing route: EY:EYAO197:197
+  Found 1 distinct shape_ids for route EY:EYAO197:197.
+  Exported 19 stops and 456 shape points for shape_id EYAO197-1 to 'output'.
+Processing route: EY:EYAO199:199
+  Found 2 distinct shape_ids for route EY:EYAO199:199.
+  Exported 9 stops and 452 shape points for shape_id EYAO199-1 to 'output'.
+  Exported 9 stops and 450 shape points for shape_id EYAO199-2 to 'output'.
+Processing route: EY:EYAO200:200
+  Found 4 distinct shape_ids for route EY:EYAO200:200.
+  Exported 9 stops and 540 shape points for shape_id EYAO200-1 to 'output'.
+  Exported 8 stops and 516 shape points for shape_id EYAO200-2 to 'output'.
+  Exported 9 stops and 540 shape points for shape_id EYAO200-1-1 to 'output'.
+  Exported 8 stops and 516 shape points for shape_id EYAO200-2-1 to 'output'.
+Processing route: CROP:FRAO213:213
+  Found 9 distinct shape_ids for route CROP:FRAO213:213.
+  Exported 29 stops and 327 shape points for shape_id FRAO213-2 to 'output'.
+  Exported 56 stops and 712 shape points for shape_id FRAO213-2-1 to 'output'.
+  Exported 40 stops and 476 shape points for shape_id FRAO213-2-2 to 'output'.
+  Exported 28 stops and 385 shape points for shape_id FRAO213-2-3 to 'output'.
+  Exported 32 stops and 337 shape points for shape_id FRAO213-1 to 'output'.
+  Exported 58 stops and 703 shape points for shape_id FRAO213-1-1 to 'output'.
+  Exported 45 stops and 488 shape points for shape_id FRAO213-1-2 to 'output'.
+  Exported 31 stops and 346 shape points for shape_id FRAO213-3 to 'output'.
+  Exported 27 stops and 366 shape points for shape_id FRAO213-1-3 to 'output'.
+Processing route: EY:EYAO242:242
+  Found 4 distinct shape_ids for route EY:EYAO242:242.
+  Exported 41 stops and 1071 shape points for shape_id EYAO242-1 to 'output'.
+  Exported 44 stops and 1116 shape points for shape_id EYAO242-2 to 'output'.
+  Exported 41 stops and 1071 shape points for shape_id EYAO242-1-1 to 'output'.
+  Exported 44 stops and 1116 shape points for shape_id EYAO242-2-1 to 'output'.
+Processing route: EY:EYAO277:277
+  Found 5 distinct shape_ids for route EY:EYAO277:277.
+  Exported 49 stops and 774 shape points for shape_id EYAO277-3 to 'output'.
+  Exported 49 stops and 0 shape points for shape_id  to 'output'.
+  Exported 19 stops and 839 shape points for shape_id EYAO277-1 to 'output'.
+  Exported 49 stops and 774 shape points for shape_id EYAO277-3-1 to 'output'.
+  Exported 19 stops and 839 shape points for shape_id EYAO277-1-1 to 'output'.
+Processing route: EY:EYAO500:500
+  Found 2 distinct shape_ids for route EY:EYAO500:500.
+  Exported 36 stops and 481 shape points for shape_id EYAO500-1 to 'output'.
+  Exported 36 stops and 481 shape points for shape_id EYAO500-1-1 to 'output'.
+Processing route: EY:EYAO501:501
+  Found 2 distinct shape_ids for route EY:EYAO501:501.
+  Exported 35 stops and 459 shape points for shape_id EYAO501-1 to 'output'.
+  Exported 35 stops and 459 shape points for shape_id EYAO501-1-1 to 'output'.
+Processing route: EY:EYAO502:502
+  Found 2 distinct shape_ids for route EY:EYAO502:502.
+  Exported 20 stops and 312 shape points for shape_id EYAO502-1 to 'output'.
+  Exported 21 stops and 0 shape points for shape_id  to 'output'.
+Processing route: EY:EYAO503:503
+  Found 2 distinct shape_ids for route EY:EYAO503:503.
+  Exported 26 stops and 449 shape points for shape_id EYAO503-1 to 'output'.
+  Exported 25 stops and 0 shape points for shape_id  to 'output'.
+Processing route: EY:EYAO504:504
+  Found 6 distinct shape_ids for route EY:EYAO504:504.
+  Exported 28 stops and 419 shape points for shape_id EYAO504-1 to 'output'.
+  Exported 20 stops and 309 shape points for shape_id EYAO504-5 to 'output'.
+  Exported 25 stops and 567 shape points for shape_id EYAO504-5-1 to 'output'.
+  Exported 26 stops and 374 shape points for shape_id EYAO504-2 to 'output'.
+  Exported 18 stops and 282 shape points for shape_id EYAO504-4 to 'output'.
+  Exported 20 stops and 309 shape points for shape_id EYAO504-3 to 'output'.
+Processing route: EY:EYAO512:512
+  Found 1 distinct shape_ids for route EY:EYAO512:512.
+  Exported 23 stops and 0 shape points for shape_id  to 'output'.
+Processing route: EY:EYAO513:513
+  Found 2 distinct shape_ids for route EY:EYAO513:513.
+  Exported 27 stops and 0 shape points for shape_id  to 'output'.
+  Exported 26 stops and 402 shape points for shape_id EYAO513-1-1 to 'output'.
+Processing route: EY:EYAO520:520
+  Found 3 distinct shape_ids for route EY:EYAO520:520.
+  Exported 4 stops and 139 shape points for shape_id EYAO520-2 to 'output'.
+  Exported 5 stops and 200 shape points for shape_id EYAO520-1 to 'output'.
+  Exported 5 stops and 200 shape points for shape_id EYAO520-1-1 to 'output'.
+Processing route: EY:EYAO525:525
+  Found 4 distinct shape_ids for route EY:EYAO525:525.
+  Exported 16 stops and 302 shape points for shape_id EYAO525-1 to 'output'.
+  Exported 9 stops and 206 shape points for shape_id EYAO525-2 to 'output'.
+  Exported 16 stops and 302 shape points for shape_id EYAO525-1-1 to 'output'.
+  Exported 9 stops and 206 shape points for shape_id EYAO525-2-1 to 'output'.
+Processing route: EY:EYAO526:526
+  Found 2 distinct shape_ids for route EY:EYAO526:526.
+  Exported 13 stops and 323 shape points for shape_id EYAO526-1 to 'output'.
+  Exported 13 stops and 323 shape points for shape_id EYAO526-1-1 to 'output'.
+Processing route: EY:EYAO527:527
+  Found 2 distinct shape_ids for route EY:EYAO527:527.
+  Exported 14 stops and 417 shape points for shape_id EYAO527-1 to 'output'.
+  Exported 14 stops and 417 shape points for shape_id EYAO527-1-1 to 'output'.
+Processing route: EY:EYAO535:535
+  Found 2 distinct shape_ids for route EY:EYAO535:535.
+  Exported 19 stops and 863 shape points for shape_id EYAO535-1 to 'output'.
+  Exported 20 stops and 865 shape points for shape_id EYAO535-2 to 'output'.
+Processing route: EY:EYAO544:544
+  Found 2 distinct shape_ids for route EY:EYAO544:544.
+  Exported 16 stops and 938 shape points for shape_id EYAO544-1 to 'output'.
+  Exported 17 stops and 940 shape points for shape_id EYAO544-2 to 'output'.
+Processing route: EY:EYAO550:550
+  Found 4 distinct shape_ids for route EY:EYAO550:550.
+  Exported 12 stops and 154 shape points for shape_id EYAO550-3 to 'output'.
+  Exported 13 stops and 167 shape points for shape_id EYAO550-1 to 'output'.
+  Exported 12 stops and 165 shape points for shape_id EYAO550-4 to 'output'.
+  Exported 13 stops and 192 shape points for shape_id EYAO550-2 to 'output'.
+Processing route: EY:EYAO558:558
+  Found 4 distinct shape_ids for route EY:EYAO558:558.
+  Exported 25 stops and 693 shape points for shape_id EYAO558-2 to 'output'.
+  Exported 24 stops and 663 shape points for shape_id EYAO558-1 to 'output'.
+  Exported 25 stops and 693 shape points for shape_id EYAO558-2-1 to 'output'.
+  Exported 24 stops and 663 shape points for shape_id EYAO558-1-1 to 'output'.
+Processing route: FRW:PB000058:571
+  Found 4 distinct shape_ids for route FRW:PB000058:571.
+  Exported 27 stops and 557 shape points for shape_id PB000058-1 to 'output'.
+  Exported 74 stops and 1095 shape points for shape_id PB000058-1-1 to 'output'.
+  Exported 27 stops and 553 shape points for shape_id PB000058-2 to 'output'.
+  Exported 72 stops and 1065 shape points for shape_id PB000058-2-1 to 'output'.
+Processing route: EY:EYAO720:720
+  Found 3 distinct shape_ids for route EY:EYAO720:720.
+  Exported 6 stops and 244 shape points for shape_id EYAO720-1 to 'output'.
+  Exported 3 stops and 50 shape points for shape_id EYAO720-1-1 to 'output'.
+  Exported 4 stops and 194 shape points for shape_id EYAO720-1-2 to 'output'.
+Processing route: EY:EYAO747:747
+  Found 11 distinct shape_ids for route EY:EYAO747:747.
+  Exported 29 stops and 989 shape points for shape_id EYAO747-9 to 'output'.
+  Exported 34 stops and 1122 shape points for shape_id EYAO747-1 to 'output'.
+  Exported 10 stops and 497 shape points for shape_id EYAO747-1-1 to 'output'.
+  Exported 32 stops and 1060 shape points for shape_id EYAO747-4 to 'output'.
+  Exported 33 stops and 1132 shape points for shape_id EYAO747-3 to 'output'.
+  Exported 34 stops and 1146 shape points for shape_id EYAO747-2 to 'output'.
+  Exported 30 stops and 1026 shape points for shape_id EYAO747-7 to 'output'.
+  Exported 29 stops and 1024 shape points for shape_id EYAO747-10 to 'output'.
+  Exported 32 stops and 1130 shape points for shape_id EYAO747-5 to 'output'.
+  Exported 31 stops and 1058 shape points for shape_id EYAO747-6 to 'output'.
+  Exported 30 stops and 1078 shape points for shape_id EYAO747-8 to 'output'.
+Processing route: EY:EYAO822:822
+  Found 3 distinct shape_ids for route EY:EYAO822:822.
+  Exported 79 stops and 3412 shape points for shape_id EYAO822-1-1 to 'output'.
+  Exported 3 stops and 1522 shape points for shape_id EYAO822-1 to 'output'.
+  Exported 19 stops and 3309 shape points for shape_id EYAO822-2 to 'output'.
+Processing route: EY:EYAG001:G1
+  Found 5 distinct shape_ids for route EY:EYAG001:G1.
+  Exported 7 stops and 220 shape points for shape_id EYAG001-1-1 to 'output'.
+  Exported 6 stops and 159 shape points for shape_id EYAG001-2-2 to 'output'.
+  Exported 7 stops and 220 shape points for shape_id EYAG001-1 to 'output'.
+  Exported 6 stops and 159 shape points for shape_id EYAG001-2-1 to 'output'.
+  Exported 6 stops and 159 shape points for shape_id EYAG001-2 to 'output'.
+Processing route: EY:EYAG002:G2
+  Found 2 distinct shape_ids for route EY:EYAG002:G2.
+  Exported 8 stops and 181 shape points for shape_id EYAG002-1 to 'output'.
+  Exported 8 stops and 181 shape points for shape_id EYAG002-1-1 to 'output'.
+Processing route: EY:EYAG003:G3
+  Found 4 distinct shape_ids for route EY:EYAG003:G3.
+  Exported 22 stops and 277 shape points for shape_id EYAG003-1 to 'output'.
+  Exported 22 stops and 285 shape points for shape_id EYAG003-2 to 'output'.
+  Exported 22 stops and 277 shape points for shape_id EYAG003-1-1 to 'output'.
+  Exported 22 stops and 285 shape points for shape_id EYAG003-2-1 to 'output'.
+Processing route: EY:EYAG004:G4
+  Found 1 distinct shape_ids for route EY:EYAG004:G4.
+  Exported 26 stops and 655 shape points for shape_id EYAG004-1 to 'output'.
+Processing route: EY:EYAG005:G5
+  Found 1 distinct shape_ids for route EY:EYAG005:G5.
+  Exported 30 stops and 721 shape points for shape_id EYAG005-1 to 'output'.
+Processing route: EY:EYAM001:M1
+  Found 2 distinct shape_ids for route EY:EYAM001:M1.
+  Exported 96 stops and 2450 shape points for shape_id EYAM001-1 to 'output'.
+  Exported 93 stops and 2485 shape points for shape_id EYAM001-2 to 'output'.
+Processing route: EY:EYAM003:M3
+  Found 2 distinct shape_ids for route EY:EYAM003:M3.
+  Exported 24 stops and 1560 shape points for shape_id EYAM003-1 to 'output'.
+  Exported 23 stops and 1557 shape points for shape_id EYAM003-2 to 'output'.
+Processing route: EY:EYAM005:M5
+  Found 2 distinct shape_ids for route EY:EYAM005:M5.
+  Exported 45 stops and 1420 shape points for shape_id EYAM005-1 to 'output'.
+  Exported 45 stops and 1406 shape points for shape_id EYAM005-2 to 'output'.
+Processing route: EY:EYAM008:M8
+  Found 2 distinct shape_ids for route EY:EYAM008:M8.
+  Exported 13 stops and 701 shape points for shape_id EYAM008-1 to 'output'.
+  Exported 9 stops and 807 shape points for shape_id EYAM008-2 to 'output'.
+Processing route: EY:EYAOAT0:OAT
+  Found 2 distinct shape_ids for route EY:EYAOAT0:OAT.
+  Exported 2 stops and 122 shape points for shape_id EYAOAT0-1 to 'output'.
+  Exported 2 stops and 112 shape points for shape_id EYAOAT0-2 to 'output'.
+Processing route: EY:EYCX045:X45
+  Found 4 distinct shape_ids for route EY:EYCX045:X45.
+  Exported 37 stops and 797 shape points for shape_id EYCX045-2 to 'output'.
+  Exported 46 stops and 1070 shape points for shape_id EYCX045-2-1 to 'output'.
+  Exported 49 stops and 1168 shape points for shape_id EYCX045-1 to 'output'.
+  Exported 40 stops and 855 shape points for shape_id EYCX045-1-1 to 'output'.
+Processing route: EY:EYCX047:X47
+  Found 9 distinct shape_ids for route EY:EYCX047:X47.
+  Exported 48 stops and 1530 shape points for shape_id EYCX047-4 to 'output'.
+  Exported 81 stops and 2112 shape points for shape_id EYCX047-6 to 'output'.
+  Exported 45 stops and 1280 shape points for shape_id EYCX047-6-1 to 'output'.
+  Exported 89 stops and 2273 shape points for shape_id EYCX047-1 to 'output'.
+  Exported 88 stops and 2247 shape points for shape_id EYCX047-5 to 'output'.
+  Exported 87 stops and 2233 shape points for shape_id EYCX047-3 to 'output'.
+  Exported 88 stops and 2244 shape points for shape_id EYCX047-2 to 'output'.
+  Exported 40 stops and 885 shape points for shape_id EYCX047-1-1 to 'output'.
+  Exported 37 stops and 832 shape points for shape_id EYCX047-6-2 to 'output'.
+Processing route: EY:EYCX046:X46
+  Found 8 distinct shape_ids for route EY:EYCX046:X46.
+  Exported 76 stops and 2042 shape points for shape_id EYCX046-5 to 'output'.
+  Exported 45 stops and 1280 shape points for shape_id EYCX046-5-1 to 'output'.
+  Exported 31 stops and 638 shape points for shape_id EYCX046-1 to 'output'.
+  Exported 50 stops and 1388 shape points for shape_id EYCX046-1-1 to 'output'.
+  Exported 84 stops and 2207 shape points for shape_id EYCX046-1-2 to 'output'.
+  Exported 82 stops and 2167 shape points for shape_id EYCX046-2 to 'output'.
+  Exported 83 stops and 2181 shape points for shape_id EYCX046-4 to 'output'.
+  Exported 30 stops and 609 shape points for shape_id EYCX046-3 to 'output'.
+Processing route: EY:EYBY012:Y12
+  Found 6 distinct shape_ids for route EY:EYBY012:Y12.
+  Exported 18 stops and 918 shape points for shape_id EYBY012-1 to 'output'.
+  Exported 45 stops and 867 shape points for shape_id EYBY012-2 to 'output'.
+  Exported 46 stops and 869 shape points for shape_id EYBY012-3 to 'output'.
+  Exported 18 stops and 918 shape points for shape_id EYBY012-1-1 to 'output'.
+  Exported 45 stops and 867 shape points for shape_id EYBY012-2-1 to 'output'.
+  Exported 46 stops and 869 shape points for shape_id EYBY012-3-1 to 'output'.
+Processing route: EY:EYBY014:Y14
+  Found 4 distinct shape_ids for route EY:EYBY014:Y14.
+  Exported 63 stops and 1221 shape points for shape_id EYBY014-1 to 'output'.
+  Exported 53 stops and 1067 shape points for shape_id EYBY014-2 to 'output'.
+  Exported 63 stops and 1221 shape points for shape_id EYBY014-1-1 to 'output'.
+  Exported 53 stops and 1067 shape points for shape_id EYBY014-2-1 to 'output'.
+Saved shape metadata for 611 shapes to 'output\shape_metadata.json'.
+Database cursor closed.
+Database connection closed.
+Finished GenerateMappingJSONs function.
+Mapping JSONs generation complete.
+Generating HTML maps...
+HTML maps generation complete.
+Enriching stops with postcode information...
+Starting GenerateStopsPostcode function...
+Connected to DB for stop postcode enrichment.
+Executing query: SELECT stop_id, stop_name, stop_lat, stop_lon FROM stops;
+Found 3734 stops to process for postcode enrichment.
+API Warning: No postcode found for lat: 53.821047, lon: -0.939554. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.820921, lon: -0.939587. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.827357, lon: -0.880247. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.83507, lon: -0.803103. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.348993037, lon: -0.447214054. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.348982471, lon: -0.447091365. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.305548168, lon: -0.424657739. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.30529602, lon: -0.424621258. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.369783653, lon: -0.474076831. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.369661185, lon: -0.474343063. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.235371289, lon: -0.376191109. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.13114349, lon: -0.227971252. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.130848144, lon: -0.227295416. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.229458058, lon: -0.365638061. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.229396245, lon: -0.36601131. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.219125245, lon: -0.316305458. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.219026855, lon: -0.316340137. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.185971625, lon: -0.296856017. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.185930499, lon: -0.297761922. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.183284938, lon: -0.292476305. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.183924846, lon: -0.293231509. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.152415325, lon: -0.242324876. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.152299661, lon: -0.242406344. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.230564, lon: -0.326349. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.230649, lon: -0.326024. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.227887, lon: -0.339482. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.227741, lon: -0.33866. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.22908, lon: -0.342595. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.229132, lon: -0.342424. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.111608, lon: -0.157677. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.111471, lon: -0.15756. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.1128, lon: -0.144619. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.11268, lon: -0.144411. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.122147, lon: -0.116168. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.923175, lon: -1.06546. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.922919, lon: -1.064918. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.834563, lon: -0.979739. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.834483, lon: -0.979833. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.893947, lon: -0.95142. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.893423, lon: -0.951068. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.922649, lon: -1.074121. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.721832, lon: -0.417138. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.855285, lon: -0.282002. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.897346, lon: -0.25836. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.897544, lon: -0.258413. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.896602, lon: -0.271617. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.89675, lon: -0.269983. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.893839, lon: -0.278245. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.904998, lon: -0.20184. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.903762, lon: -0.209352. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.864782, lon: -0.371324. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.737358644, lon: -0.421406566. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.737308329, lon: -0.421681361. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.811345017, lon: -0.446711054. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.810583879, lon: -0.446936638. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.779039047, lon: -0.444656518. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.778394493, lon: -0.442783303. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.790087907, lon: -0.450320065. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.993815, lon: -1.130613. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.988659, lon: -1.125993. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.226225, lon: -1.060348. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.100697, lon: -1.194811. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.100662, lon: -1.195057. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.045707, lon: -0.350038. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.037745, lon: -0.368663. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.080865, lon: -0.227632. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.04567, lon: -0.350635. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.967896, lon: -0.448914. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.954117, lon: -0.445494. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.968109, lon: -0.448693. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.907407, lon: -0.457048. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.907275, lon: -0.457235. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.037761, lon: -0.367135. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.82255, lon: -0.389842. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.822665, lon: -0.388971. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.745301, lon: -0.483071. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.750093, lon: -0.836943. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.751822, lon: -0.825323. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.751802, lon: -0.825991. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.741488, lon: -0.57975. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.765953, lon: -0.690845. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.765785, lon: -0.691108. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.755163, lon: -0.590695. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.755945, lon: -0.591382. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.728354, lon: -0.538493. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.7704, lon: -0.635006. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.770461, lon: -0.634883. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.255773, lon: -0.417237. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.610195, lon: 0.144986. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.648286, lon: 0.123299. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.697688, lon: 0.023517. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.697728, lon: 0.023292. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.696605, lon: 0.018451. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.719444, lon: -0.152355. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.719303, lon: -0.152573. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.719904, lon: -0.150137. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.71999, lon: -0.150482. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.727624, lon: -0.188271. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.727631, lon: -0.188134. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.706103, lon: -0.09835. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.708285, lon: -0.126722. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.706016, lon: -0.098521. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.704032, lon: -0.087975. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.704154, lon: -0.087727. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.693977, lon: 0.010055. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.693802, lon: 0.010289. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.687735, lon: -0.022167. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.687805, lon: -0.022028. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.724598, lon: -0.185506. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.724473, lon: -0.185557. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.696777, lon: -0.035725. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.696601, lon: -0.048609. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.696448, lon: -0.048571. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.696651, lon: -0.035731. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.718639, lon: -0.148526. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.718263, lon: -0.148072. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.742811, lon: -0.235476. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.750167, lon: -0.197645. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.072572431, lon: -0.916508845. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.072258705, lon: -0.916444115. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.05587507, lon: -0.935752179. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.031132917, lon: -0.959751478. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.039527619, lon: -0.95234115. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.038788683, lon: -0.943900049. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.038707942, lon: -0.943917365. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.095214654, lon: -0.880172188. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.095590654, lon: -0.879045808. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.016933958, lon: -0.980853791. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.017160484, lon: -0.980008834. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.108011821, lon: -0.855140111. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.055712376, lon: -0.935649402. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.12783, lon: -1.499783. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.127937, lon: -1.499705. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.13749, lon: -1.408306. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.045574, lon: -1.308907. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.045609, lon: -1.308754. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.12445, lon: -1.419432. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.124112, lon: -1.418366. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.14387, lon: -1.514439. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.722987, lon: -0.893266. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.72313, lon: -0.893202. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.687213, lon: -0.958606. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.697922324, lon: -1.597978234. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.258066378, lon: -0.858080154. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.25802334, lon: -0.858280909. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.228538882, lon: -0.598842658. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.22837288, lon: -0.598480103. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.22658296, lon: -0.609232737. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.226685684, lon: -0.609566766. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.256005866, lon: -0.959111999. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.2560755, lon: -0.958849289. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.836487, lon: -0.122889. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.836202, lon: -0.122476. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.890744, lon: -0.151731. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.890884, lon: -0.15206. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.891952, lon: -0.155452. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.89211, lon: -0.155795. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.76071, lon: -0.014886. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.013421, lon: -0.238024. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.01345, lon: -0.238802. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.041721, lon: -0.241944. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.06215, lon: -0.249745. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.063365, lon: -0.245507. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.06162, lon: -0.252854. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.061532, lon: -0.252399. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.062298, lon: -0.249999. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.063141, lon: -0.245578. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.064263, lon: -0.242382. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.064151, lon: -0.242097. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.067034, lon: -0.222353. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.974159, lon: -0.350259. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.973314, lon: -0.349591. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.939952, lon: -0.54459. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.868416, lon: -0.503319. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.868287, lon: -0.50381. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.865087, lon: -0.485858. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.745783, lon: -0.571311. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.745688, lon: -0.571587. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.756347, lon: -0.589715. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.789984, lon: -0.451326. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.730483, lon: -0.498445. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.992711, lon: -0.46764. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.986658, lon: -0.497222. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.986829, lon: -0.497262. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.049573, lon: -1.423164. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.049689, lon: -1.422857. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.100758, lon: -1.514743. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.050259, lon: -1.425568. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.050446, lon: -1.425305. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.035022, lon: -1.493019. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.035031, lon: -1.492912. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.147557, lon: -0.827838. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.163989, lon: -0.949843. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.164111, lon: -0.949381. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.942941, lon: -0.86716. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.942615, lon: -0.866834. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.90763, lon: -0.807256. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.905988, lon: -0.927631. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.955505, lon: -1.020345. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.939129, lon: -0.984655. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.939022, lon: -0.984703. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.942308, lon: -0.67273. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.942390554, lon: -0.672758101. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.979144, lon: -0.729459. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.979015, lon: -0.729982. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.785548, lon: -0.205358. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.78653, lon: -0.204906. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.77719, lon: -0.191707. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.778213, lon: -0.190448. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.781582, lon: -0.217882. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.781693, lon: -0.218075. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.707391048, lon: -1.811355538. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.707471893, lon: -1.811324879. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.735680472, lon: -1.813866799. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.735554969, lon: -1.814079583. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.952651, lon: -0.91717. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.075593, lon: -1.804405. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.075485, lon: -1.80439. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.113672, lon: -1.584286. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.063106, lon: -1.918837. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.062828, lon: -1.918776. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.071219, lon: -1.843377. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.700824, lon: -0.907329. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.190843, lon: -0.764006. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.191583, lon: -0.764244. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.181305, lon: -0.762007. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.180365, lon: -0.761499. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.209033, lon: -1.301184. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.208569, lon: -1.300241. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.182202, lon: -1.261476. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.182141, lon: -1.261738. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.204535, lon: -1.294239. Status: 200, Result: None
+API Warning: No postcode found for lat: 54.204426, lon: -1.294118. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.85592941, lon: -0.541212653. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.860154718, lon: -0.593981568. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.860298853, lon: -0.593440886. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.85577722, lon: -0.541263558. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.858098046, lon: -0.558516545. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.857789305, lon: -0.557508429. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.953080572, lon: -0.958623367. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.953039205, lon: -0.959035845. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.886266902, lon: -0.727337626. Status: 200, Result: None
+API Warning: No postcode found for lat: 53.886079529, lon: -0.72619688. Status: 200, Result: None
+Enriched stop data (with postcodes) saved to 'enrich\enriched_stops_data_postcode.json'.
+Database cursor closed for postcode enrichment.
+Database connection closed for postcode enrichment.
+Finished GenerateStopsPostcode function.
+Postcode enrichment complete.
+Enriching stops with OA/LSOA information...
+Starting GenerateOAs function...
+Successfully loaded input data from 'enrich/enriched_stops_data_postcode.json'. Found 3734 stops.
+Connected to DB for OA/LSOA lookup.
+Executing query to load OA lookup data: SELECT pcds, oa21cd, lsoa21cd, lsoa21nm FROM oa_lookup
+Loaded 2712506 postcode lookup entries from 'oa_lookup'.
+Enriching stops data with OA/LSOA information...
+Warning: Stop '3200YNA00777': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA00776': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA01158': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA11808': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA01011': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA01012': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA00960': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA00959': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA01003': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA01002': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA00930': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA11684': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA11683': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA00858': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA00859': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA00865': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA00866': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA00899': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA00900': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA00901': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA00902': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA00910': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA00911': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA00920': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA00921': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA00922': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA00923': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA00924': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA00925': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA11852': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA11853': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA00593': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA00594': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA00588': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3290YYA01042': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3290YYA00612': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA00789': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA00788': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3290YYA03622': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3290YYA03621': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3290YYA00617': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2290YHA01497': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA11661': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA11745': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA11744': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA00876': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA12123': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA12124': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA12120': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA12121': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA00866': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA12134': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA12135': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA00830': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA00831': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA01236': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA00389': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA12166': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3290YYA00695': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3290YYA00697': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNB01296': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA01470': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA01471': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA01100': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA01095': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA00585': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA01099': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA00997': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA00995': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA11916': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA01535': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA00989': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA01097': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA00243': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA00242': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA00836': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA00774': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA11912': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA12108': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEZ01397': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA11690': Postcode 'HU14 3GQ' not found in OA lookup data. Fields set to None.
+Warning: Stop '2200YEA12102': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA12101': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA00852': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA00853': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA11757': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA01525': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA11851': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA06565': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA12171': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEZ01305': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA00922': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA00921': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA00923': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA01673': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA01674': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA12054': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA12053': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA11893': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA11892': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA00363': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA01675': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA01644': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA00925': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA12043': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA12039': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA12040': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA00355': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA00356': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA00323': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA12055': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA00359': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA12041': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA01439': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA00360': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA00374': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA00373': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA00316': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA00887': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNF10382': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNF10330': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNF10381': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNF10378': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNF10379': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA96930': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA96929': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNF10385': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNF10324': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3290YYA01644': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3290YYA01645': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNF10322': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNF10332': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA01348': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA01349': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA01321': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA01376': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA01377': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA01315': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA01314': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA01302': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA01584': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA12115': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA00718': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '450020475': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA91092': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA91091': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA96999': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA96998': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA97040': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA97041': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA97003': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA97002': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEZ01391': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEZ01390': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA01231': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA01232': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA01230': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA01229': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA11811': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEZ01346': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEZ01345': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA01137': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA01142': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA01141': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA01145': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA01144': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA01143': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA01140': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA00604': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA00603': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA11804': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEZ01341': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEZ01342': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA11996': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA01685': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA01015': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA01017': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA11943': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA11942': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA01635': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEZ09328': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA01514': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA00999': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA11979': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA01000': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YND57360': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YND56530': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YND56440': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA96447': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YND56520': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YND57310': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YND56580': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNE04649': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNE04628': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNE04627': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA01649': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA01650': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA11949': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA01445': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3290YYA00704': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3290YYA03595': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3290YYA03596': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA11726': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA11725': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA12024': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA12027': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA12083': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA12082': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA12080': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA12081': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA00957': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA12084': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '450022639': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '450051220': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '450014985': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '450014984': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA01499': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA96783': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA96784': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA90870': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA05140': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA05144': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNE04826': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA11735': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNF10050': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNF10019': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNF10017': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNF10052': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA91007': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA91004': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNE04370': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNE04371': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA97115': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3200YNA97107': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA00803': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA11975': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA11974': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA01505': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA00804': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA01504': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3290YYA03688': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '3290YYA03689': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA11967': No postcode available. OA/LSOA fields set to None.
+Warning: Stop '2200YEA11966': No postcode available. OA/LSOA fields set to None.
+Finished enriching all 3734 stops.
+Enriched stop data (with OA/LSOA) saved to 'enrich\enriched_stops_data_oas.json'.
+Database cursor closed for OA/LSOA enrichment.
+Database connection closed for OA/LSOA enrichment.
+Finished GenerateOAs function.
+OA/LSOA enrichment complete.
+All application tasks completed successfully.

@@ -2,6 +2,8 @@ import json
 import folium
 import os
 import glob
+import logger
+import tqdm
 
 def GenerateHTMLMaps(output_dir = "output", map_dir = "maps"):
     output_dir = "output"
@@ -10,17 +12,17 @@ def GenerateHTMLMaps(output_dir = "output", map_dir = "maps"):
 
     metadata_path = os.path.join(output_dir, "shape_metadata.json")
     if not os.path.exists(metadata_path):
-        print("Missing shape_metadata.json — maps will be missing titles.")
+        logger.log("Missing shape_metadata.json — maps will be missing titles.")
         metadata = {}
     else:
         with open(metadata_path) as f:
             metadata = json.load(f)
 
-    for stops_file in glob.glob(os.path.join(output_dir, "stops_*.json")):
+    for stops_file in tqdm(glob.glob(os.path.join(output_dir, "stops_*.json")), desc="Saving route map HTML"):
         shape_file = stops_file.replace("stops_", "shape_")
 
         if not os.path.exists(shape_file):
-            print(f"Missing shape file for {stops_file}")
+            logger.log(f"Missing shape file for {stops_file}")
             continue
 
         with open(stops_file) as f:
@@ -71,6 +73,6 @@ def GenerateHTMLMaps(output_dir = "output", map_dir = "maps"):
         html_file = f"map_{route_short}_{shape_id}.html"
         html_path = os.path.join(map_dir, html_file)
         m.save(html_path)
-        print(f"Saved map: {html_path}")
+        logger.log(f"Saved map: {html_path}")
 
 
