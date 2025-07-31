@@ -3,6 +3,8 @@ import shutil
 import mysql.connector
 import json
 from mysql.connector import Error
+from tqdm import tqdm
+import logger
 
 def _connect_to_mysql(config_data):
     """
@@ -19,10 +21,10 @@ def _connect_to_mysql(config_data):
             database=config_data["database"]
         )
         cursor = conn.cursor(dictionary=True)
-        print(f"Successfully connected to MySQL database: {config_data['database']}")
+        logger.log(f"Successfully connected to MySQL database: {config_data['database']}")
         return conn, cursor
     except Error as err:
-        print(f"Error connecting to MySQL database: {err}")
+        logger.log(f"Error connecting to MySQL database: {err}")
         if conn and conn.is_connected():
             conn.close()
         return None, None
@@ -36,10 +38,10 @@ def return_secure_priv(config_path="config.json"):
         with open(config_path) as json_file:
             config_data = json.load(json_file)
     except FileNotFoundError:
-        print(f"Error: Config file '{config_path}' not found.")
+        logger.log(f"Error: Config file '{config_path}' not found.")
         return None
     except json.JSONDecodeError:
-        print(f"Error: Could not decode JSON from '{config_path}'. Check file format.")
+        logger.log(f"Error: Could not decode JSON from '{config_path}'. Check file format.")
         return None
 
     conn, cursor = _connect_to_mysql(config_data)
@@ -54,51 +56,70 @@ def return_secure_priv(config_path="config.json"):
         if result and 'Value' in result:
             return result['Value']
         else:
-            print("Variable 'secure_file_priv' not found or is NULL.")
+            logger.log("Variable 'secure_file_priv' not found or is NULL.")
             return None
 
     except Error as err:
-        print("Database error:", err)
+        logger.log("Database error:", err)
         return None
     finally:
         if conn and conn.is_connected():
             cursor.close()
             conn.close()
 
+import os
+import shutil
+from tqdm import tqdm
+import logging # Assuming logger is a logging.Logger object
+
 def move_csv_files(source_folder, destination_folder):
     """
     Finds all CSV files in source_folder and copies them to destination_folder.
     The destination_folder should be the MySQL secure_file_priv path.
     """
-    print(f"\n--- Copying CSV Files from '{source_folder}' to '{destination_folder}' ---")
+    logger.log(f"\n--- Copying CSV Files from '{source_folder}' to '{destination_folder}' ---")
     moved_files = []
+    
     try:
         if not os.path.exists(source_folder):
-            print(f"Error: Source folder '{source_folder}' does not exist. Please check the path.")
-            return []
+            logger.log(f"Error: Source folder '{source_folder}' does not exist. Please check the path.")
+            return False, [] # Return False on critical error
 
         if not os.path.exists(destination_folder):
-            print(f"Warning: Destination folder '{destination_folder}' does not exist. Please create it or verify your secure_file_priv setting.")
-            return []
+            logger.log(f"Warning: Destination folder '{destination_folder}' does not exist. Please create it or verify your secure_file_priv setting.")
+            return False, [] # Return False on critical error
 
         source_folder = os.path.abspath(source_folder)
         destination_folder = os.path.abspath(destination_folder)
 
-        for filename in os.listdir(source_folder):
+        all_files_exist = True
+        
+        for filename in tqdm(os.listdir(source_folder), desc="Checking files"):
             if filename.endswith(".csv"):
                 source_path = os.path.join(source_folder, filename)
                 destination_path = os.path.join(destination_folder, filename)
+                
+                if os.path.exists(destination_path):
+                    logger.log(f"Skipped: '{filename}' already exists in '{destination_folder}'")
+                    continue
+                else:
+                    all_files_exist = False # At least one file doesn't exist
+                
                 try:
                     shutil.copy2(source_path, destination_path)
-                    print(f"Copied: '{filename}' to '{destination_path}'")
+                    logger.log(f"Copied: '{filename}' to '{destination_path}'")
                     moved_files.append(filename)
                 except shutil.Error as se:
-                    print(f"Shutil error moving '{filename}': {se}")
+                    logger.log(f"Shutil error moving '{filename}': {se}")
+                    return False, [] # Return False on critical error
                 except OSError as e:
-                    print(f"OS error moving '{filename}': {e}")
+                    logger.log(f"OS error moving '{filename}': {e}")
+                    return False, [] # Return False on critical error
     except OSError as e:
-        print(f"Error accessing source folder '{source_folder}': {e}")
-    return moved_files
+        logger.log(f"Error accessing source folder '{source_folder}': {e}")
+        return False, [] # Return False on critical error
+    
+    return True, moved_files # Return True on success, even if no files were moved
 
 def run_sql_script(sql_script_path, config_data, secure_priv_path_for_sql=None):
     """
@@ -106,10 +127,10 @@ def run_sql_script(sql_script_path, config_data, secure_priv_path_for_sql=None):
     Assumes SQL statements are separated by semicolons.
     If secure_priv_path_for_sql is provided, it replaces '{SECURE_PRIV_PATH}' placeholder.
     """
-    print(f"\n--- Running SQL Script: '{os.path.basename(sql_script_path)}' ---")
+    logger.log(f"\n--- Running SQL Script: '{os.path.basename(sql_script_path)}' ---")
     conn, cursor = _connect_to_mysql(config_data)
     if not conn or not cursor:
-        print(f"Skipping script '{os.path.basename(sql_script_path)}' due to database connection error.")
+        logger.log(f"Skipping script '{os.path.basename(sql_script_path)}' due to database connection error.")
         return False
 
     try:
@@ -119,30 +140,30 @@ def run_sql_script(sql_script_path, config_data, secure_priv_path_for_sql=None):
         if secure_priv_path_for_sql:
             sql_safe_secure_priv_path = secure_priv_path_for_sql.replace('\\', '/')
             sql_script_content = sql_script_content.replace('{SECURE_PRIV_PATH}', sql_safe_secure_priv_path)
-            print(f"  Placeholder '{{SECURE_PRIV_PATH}}' replaced with '{sql_safe_secure_priv_path}'")
+            logger.log(f"  Placeholder '{{SECURE_PRIV_PATH}}' replaced with '{sql_safe_secure_priv_path}'")
 
         statements = [s.strip() for s in sql_script_content.split(';') if s.strip()]
 
         if not statements:
-            print(f"No SQL statements found in '{os.path.basename(sql_script_path)}'.")
+            logger.log(f"No SQL statements found in '{os.path.basename(sql_script_path)}'.")
             return True
 
-        for statement in statements:
+        for statement in tqdm(statements, desc="Running sql"):
             try:
                 cursor.execute(statement)
             except Error as err:
-                print(f"  Error executing statement: {statement[:100]}{'...' if len(statement) > 100 else ''}")
-                print(f"  MySQL Error: {err}")
+                logger.log(f"  Error executing statement: {statement[:100]}{'...' if len(statement) > 100 else ''}")
+                logger.log(f"  MySQL Error: {err}")
                 conn.rollback()
                 return False
         conn.commit()
-        print(f"Finished SQL script: '{os.path.basename(sql_script_path)}' (Committed)")
+        logger.log(f"Finished SQL script: '{os.path.basename(sql_script_path)}' (Committed)")
         return True
     except FileNotFoundError:
-        print(f"Error: SQL script not found: '{sql_script_path}'")
+        logger.log(f"Error: SQL script not found: '{sql_script_path}'")
         return False
     except Exception as e:
-        print(f"An unexpected error occurred while reading or executing SQL script '{sql_script_path}': {e}")
+        logger.log(f"An unexpected error occurred while reading or executing SQL script '{sql_script_path}': {e}")
         return False
     finally:
         if conn and conn.is_connected():
@@ -157,60 +178,64 @@ def load_data_pipeline(source_csv_folder, sql_scripts_folder, sql_script_files, 
     3. Runs specified SQL scripts (table creation, data loading),
        replacing '{SECURE_PRIV_PATH}' placeholder in SQL if present.
     """
-    print("\n--- Starting Data Loading Pipeline ---")
+    logger.log("\n--- Starting Data Loading Pipeline ---")
 
     try:
         with open(config_path) as json_file:
             config_data = json.load(json_file)
     except FileNotFoundError:
-        print(f"Error: Config file '{config_path}' not found. Exiting pipeline.")
+        logger.log(f"Error: Config file '{config_path}' not found. Exiting pipeline.")
         return False
     except json.JSONDecodeError:
-        print(f"Error: Could not decode JSON from '{config_path}'. Check file format. Exiting pipeline.")
+        logger.log(f"Error: Could not decode JSON from '{config_path}'. Check file format. Exiting pipeline.")
         return False
 
     secure_priv_path = return_secure_priv(config_path)
     if not secure_priv_path:
-        print("Failed to retrieve secure_file_priv path. Exiting pipeline.")
+        logger.log("Failed to retrieve secure_file_priv path. Exiting pipeline.")
         return False
-    print(f"\nMySQL secure_file_priv path: '{secure_priv_path}'")
+    logger.log(f"\nMySQL secure_file_priv path: '{secure_priv_path}'")
 
-    moved_csv_filenames = move_csv_files(source_csv_folder, secure_priv_path)
-    if not moved_csv_filenames:
-        print("No CSV files were moved. Please check source folder and file names. Exiting pipeline.")
+    success_copy, moved_csv_filenames = move_csv_files(source_csv_folder, secure_priv_path)
+    if not success_copy:
+        logger.log("Failed to access folders or copy files. Exiting pipeline.")
         return False
+    if not moved_csv_filenames:
+        logger.log("Note: No new CSV files were moved as all were already present in the secure directory. Proceeding with pipeline.")
 
     all_scripts_succeeded = True
-    for script_name in sql_script_files:
+    for script_name in tqdm(sql_script_files, desc="SQL Files run"):
         script_path = os.path.join(sql_scripts_folder, script_name)
         success = run_sql_script(script_path, config_data, secure_priv_path)
         if not success:
             all_scripts_succeeded = False
-            print(f"Pipeline stopped due to failure in script: '{script_name}'")
+            logger.log(f"Pipeline stopped due to failure in script: '{script_name}'")
             break
 
     if all_scripts_succeeded:
-        print("\n--- Data Loading Pipeline Completed Successfully! ---")
+        logger.log("\n--- Data Loading Pipeline Completed Successfully! ---")
         return True
     else:
-        print("\n--- Data Loading Pipeline Failed. ---")
+        logger.log("\n--- Data Loading Pipeline Failed. ---")
         return False
 
 
-SOURCE_CSV_FOLDER = 'data'
 
-SQL_SCRIPTS_FOLDER = 'sql_scripts'
+def RunInitialBuild():
+    SOURCE_CSV_FOLDER = 'data'
 
-SQL_SCRIPT_FILES = ['build_census_tables.sql',
-                    'build_oa_lookup.sql',
-                    'build_load_postcode_estimates.sql',
-                    'build_tables.sql',
-                    'load_census_data.sql',
-                    'load_data.sql',
-                    'load_oa_lookup.sql']
+    SQL_SCRIPTS_FOLDER = 'sql_scripts'
 
-success = load_data_pipeline(SOURCE_CSV_FOLDER, SQL_SCRIPTS_FOLDER, SQL_SCRIPT_FILES)
-if success:
-    print("Full data load process finished successfully.")
-else:
-    print("Full data load process encountered errors.")
+    SQL_SCRIPT_FILES = ['build_census_tables.sql',
+                        'build_oa_lookup.sql',
+                        'build_load_postcode_estimates.sql',
+                        'build_tables.sql',
+                        'load_census_data.sql',
+                        'load_data.sql',
+                        'load_oa_lookup.sql']
+
+    success = load_data_pipeline(SOURCE_CSV_FOLDER, SQL_SCRIPTS_FOLDER, SQL_SCRIPT_FILES)
+    if success:
+        logger.log("Full data load process finished successfully.")
+    else:
+        logger.log("Full data load process encountered errors.")

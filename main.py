@@ -5,6 +5,8 @@ import FoliumMapGenFromJSON as HTMLMap
 import StopsEnrichmentPostCode as PCEnrich
 import StopsEnrichmentOAs as OAEnrich
 import StopsEnrichmentNearbyShops as ShopEnrich
+import StopsEnrichedToCSVandMySQL as BuildEnrich
+import DataPipeline
 import logger
 import atexit
 
@@ -20,6 +22,10 @@ print("Logger setup complete. Proceeding with application tasks.")
 
 try:
     # logger.log("Starting application tasks...")
+
+    # logger.log("Building inital database...")
+    # DataPipeline.RunInitialBuild()
+    # logger.log("Database build complete.")
 
     # logger.log("Generating mapping JSONs from DB...")
     # Map.GenerateMappingJSONs()
@@ -40,6 +46,10 @@ try:
     # logger.log("Enriching stops with nearby shop information...")
     # ShopEnrich.NearbyShopsEnrichment()
     # logger.log("Nearby shop enrichment complete.")
+
+    logger.log("Building stops_intermediate and stops_enriched...")
+    BuildEnrich.WriteEnrichedJsonToCSVandMySQL()
+    logger.log("stops_enriched build complete.")
 
     logger.log("All application tasks completed successfully.")
 
