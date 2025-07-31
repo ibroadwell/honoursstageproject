@@ -6,8 +6,7 @@ import time
 import requests
 import os
 from tqdm import tqdm
-import logger # Import your custom logger module
-
+import logger
 def reverse_geocode_postcode(latitude, longitude, POSTCODES_API_URL):
     """
     Reverse geocodes coordinates to a postcode using the Postcodes.io API.
@@ -20,22 +19,19 @@ def reverse_geocode_postcode(latitude, longitude, POSTCODES_API_URL):
     }
     try:
         response = requests.get(POSTCODES_API_URL, params=params, timeout=30)
-        response.raise_for_status() # Raises an HTTPError for bad responses (4xx or 5xx)
+        response.raise_for_status()
         response_data = response.json()
 
         if response_data and response_data.get('status') == 200 and response_data.get('result'):
             return response_data['result'][0]['postcode']
         else:
-            # Use logger.log for cases where a postcode isn't found but no HTTP error occurred
             logger.log(f"API Warning: No postcode found for lat: {latitude}, lon: {longitude}. "
                        f"Status: {response_data.get('status')}, Result: {response_data.get('result')}")
             return None
     except requests.exceptions.RequestException as e:
-        # Use logger.log for network or HTTP errors during the request
         logger.log(f"API Error: Request failed for lat: {latitude}, lon: {longitude}: {e}")
         return None
     except (KeyError, IndexError) as e:
-        # Use logger.log for unexpected data structure issues
         logger.log(f"API Error: Unexpected response structure for lat: {latitude}, lon: {longitude}: {e}")
         return None
 
@@ -78,30 +74,26 @@ def GenerateStopsPostcode(STOPS_TABLE="stops", POSTCODES_API_URL="https://api.po
 
         if not stops:
             logger.log("No stops found in the database. Exiting postcode enrichment.")
-            # Do not call exit(), return instead to allow main script to continue
             return
 
         logger.log(f"Found {len(stops)} stops to process for postcode enrichment.")
 
-        # Wrap the loop with tqdm for progress bar
         for stop_row in tqdm(stops, desc="Enriching Stops with Postcodes", leave=True):
             stop_id = stop_row['stop_id']
             stop_name = stop_row['stop_name']
             stop_lat = stop_row['stop_lat']
             stop_lon = stop_row['stop_lon']
 
-            # reverse_geocode_postcode now uses the logger internally, so no print needed here
             postcode = reverse_geocode_postcode(stop_lat, stop_lon, POSTCODES_API_URL)
 
             enriched_stops_data[stop_id] = {
-                'stop_id': str(stop_id), # Ensure stop_id is string if it comes as int/float from DB for JSON key
+                'stop_id': str(stop_id),
                 'stop_name': stop_name,
                 'stop_lon': stop_lon,
                 'stop_lat': stop_lat,
                 'postcode': postcode
             }
 
-            # Your time.sleep for rate limiting remains here
             time.sleep(0.1)
 
         output_dir = "enrich"

@@ -4,10 +4,9 @@ import mysql.connector
 import json
 import os
 from tqdm import tqdm
-import logger # Import your custom logger module
+import logger
 
 def GenerateMappingJSONs(config="config.json", ROUTE_ID=None):
-    # Log the start of the function
     logger.log("Starting GenerateMappingJSONs function...")
 
     # Set to None or '' to process all route_ids, or specify a route like 'EY:EYAO055:55'
@@ -16,13 +15,13 @@ def GenerateMappingJSONs(config="config.json", ROUTE_ID=None):
             data = json.load(json_file)
     except FileNotFoundError:
         logger.log(f"Error: Config file '{config}' not found.")
-        return # Exit the function if config is missing
+        return
     except json.JSONDecodeError:
         logger.log(f"Error: Could not decode JSON from config file '{config}'.")
-        return # Exit if config is invalid JSON
+        return
 
-    conn = None # Initialize conn to None for finally block
-    cursor = None # Initialize cursor to None
+    conn = None
+    cursor = None
 
     try:
         conn = mysql.connector.connect(
@@ -49,7 +48,6 @@ def GenerateMappingJSONs(config="config.json", ROUTE_ID=None):
 
         metadata = {}
 
-        # Wrap the outer loop with tqdm for route_id progress
         for route_id in tqdm(route_ids, desc="Processing route_id"):
             logger.log(f"Processing route: {route_id}")
 
@@ -59,10 +57,8 @@ def GenerateMappingJSONs(config="config.json", ROUTE_ID=None):
                 WHERE route_id = %s AND shape_id IS NOT NULL;
             """, (route_id,))
             shape_ids = [row['shape_id'] for row in cursor.fetchall()]
-            # Log for the current route_id, not for each tqdm iteration which is handled by tqdm's bar
             logger.log(f"  Found {len(shape_ids)} distinct shape_ids for route {route_id}.")
 
-            # Wrap the inner loop with tqdm for shape_id progress, using nested=True for clear display
             for shape_id in tqdm(shape_ids, desc=f"  Processing shapes for {route_id}", leave=False):
                 cursor.execute("""
                     SELECT trip_id, trip_headsign, route_id
@@ -79,7 +75,7 @@ def GenerateMappingJSONs(config="config.json", ROUTE_ID=None):
                 route_short_name = trip_row['route_id'].split(":")[-1]
                 trip_headsign = trip_row['trip_headsign']
 
-                safe_shape = shape_id.replace(':', '_').replace('.', '_') # Also replace dots, if they can occur
+                safe_shape = shape_id.replace(':', '_').replace('.', '_')
                 metadata[safe_shape] = {
                     'trip_headsign': trip_headsign,
                     'route_short_name': route_short_name

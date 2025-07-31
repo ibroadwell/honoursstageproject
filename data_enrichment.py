@@ -1,9 +1,10 @@
-# main_script.py
+# stops_enrichment.py
 
 import MappingJSONsFromDB as Map
 import FoliumMapGenFromJSON as HTMLMap
 import StopsEnrichmentPostCode as PCEnrich
 import StopsEnrichmentOAs as OAEnrich
+import StopsEnrichmentNearbyShops as ShopEnrich
 import logger
 import atexit
 
@@ -18,23 +19,27 @@ atexit.register(logger.close_logger)
 print("Logger setup complete. Proceeding with application tasks.")
 
 try:
-    logger.log("Starting application tasks...")
+    # logger.log("Starting application tasks...")
 
-    logger.log("Generating mapping JSONs from DB...")
-    Map.GenerateMappingJSONs()
-    logger.log("Mapping JSONs generation complete.")
+    # logger.log("Generating mapping JSONs from DB...")
+    # Map.GenerateMappingJSONs()
+    # logger.log("Mapping JSONs generation complete.")
 
-    logger.log("Generating HTML maps...")
-    HTMLMap.GenerateHTMLMaps()
-    logger.log("HTML maps generation complete.")
+    # logger.log("Generating HTML maps...")
+    # HTMLMap.GenerateHTMLMaps()
+    # logger.log("HTML maps generation complete.")
 
-    logger.log("Enriching stops with postcode information...")
-    PCEnrich.GenerateStopsPostcode()
-    logger.log("Postcode enrichment complete.")
+    # logger.log("Enriching stops with postcode information...")
+    # PCEnrich.GenerateStopsPostcode()
+    # logger.log("Postcode enrichment complete.")
 
-    logger.log("Enriching stops with OA/LSOA information...")
-    OAEnrich.GenerateOAs()
-    logger.log("OA/LSOA enrichment complete.")
+    # logger.log("Enriching stops with OA/LSOA information...")
+    # OAEnrich.GenerateOAs()
+    # logger.log("OA/LSOA enrichment complete.")
+
+    # logger.log("Enriching stops with nearby shop information...")
+    # ShopEnrich.NearbyShopsEnrichment()
+    # logger.log("Nearby shop enrichment complete.")
 
     logger.log("All application tasks completed successfully.")
 

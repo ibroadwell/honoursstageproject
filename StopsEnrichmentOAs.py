@@ -4,7 +4,7 @@ import mysql.connector
 import json
 import os
 from tqdm import tqdm
-import logger # Import your custom logger module
+import logger
 
 def GenerateOAs(OA_LOOKUP="oa_lookup", INPUT_JSON_FILE="enrich/enriched_stops_data_postcode.json", OUTPUT_JSON_FILE="enriched_stops_data_oas.json", config="config.json"):
     """
@@ -13,27 +13,25 @@ def GenerateOAs(OA_LOOKUP="oa_lookup", INPUT_JSON_FILE="enrich/enriched_stops_da
     """
     logger.log("Starting GenerateOAs function...")
 
-    loaded_data = {} # Initialize in case of file errors
+    loaded_data = {}
     conn = None
     cursor = None
 
     try:
-        # Load input JSON file
         try:
             with open(INPUT_JSON_FILE, 'r') as f:
                 loaded_data = json.load(f)
             logger.log(f"Successfully loaded input data from '{INPUT_JSON_FILE}'. Found {len(loaded_data)} stops.")
         except FileNotFoundError:
             logger.log(f"Error: Input JSON file '{INPUT_JSON_FILE}' not found. Cannot enrich OA/LSOA data.")
-            return # Exit if input file is missing
+            return
         except json.JSONDecodeError:
             logger.log(f"Error: Could not decode JSON from input file '{INPUT_JSON_FILE}'.")
-            return # Exit if input file is invalid JSON
+            return
 
-        # Load config file
         try:
             with open(config) as json_file:
-                db_config = json.load(json_file) # Renamed to avoid clash with 'data'
+                db_config = json.load(json_file)
         except FileNotFoundError:
             logger.log(f"Error: Config file '{config}' not found for OA/LSOA enrichment.")
             return
@@ -60,7 +58,7 @@ def GenerateOAs(OA_LOOKUP="oa_lookup", INPUT_JSON_FILE="enrich/enriched_stops_da
 
         for row in oa_lookup_results:
             if row['pcds']:
-                postcode_key = str(row['pcds']).replace(' ', '').upper() # Ensure pcds is string
+                postcode_key = str(row['pcds']).replace(' ', '').upper()
                 oa_lookup_map[postcode_key] = {
                     'oa21cd': row['oa21cd'],
                     'lsoa21cd': row['lsoa21cd'],
@@ -69,12 +67,11 @@ def GenerateOAs(OA_LOOKUP="oa_lookup", INPUT_JSON_FILE="enrich/enriched_stops_da
         logger.log(f"Loaded {len(oa_lookup_map)} postcode lookup entries from '{OA_LOOKUP}'.")
 
         logger.log("Enriching stops data with OA/LSOA information...")
-        # Wrap the loop with tqdm for progress bar
         for stop_id, stop_details in tqdm(loaded_data.items(), desc="Enriching stops with OA/LSOA", leave=True):
             postcode = stop_details.get('postcode')
 
             if postcode:
-                normalized_postcode = str(postcode).replace(' ', '').upper() # Ensure postcode is string
+                normalized_postcode = str(postcode).replace(' ', '').upper()
                 lookup_info = oa_lookup_map.get(normalized_postcode)
 
                 if lookup_info:
@@ -85,26 +82,21 @@ def GenerateOAs(OA_LOOKUP="oa_lookup", INPUT_JSON_FILE="enrich/enriched_stops_da
                     stop_details['oa21cd'] = None
                     stop_details['lsoa21cd'] = None
                     stop_details['lsoa21nm'] = None
-                    # Use logger.log for specific error cases, tqdm will manage
                     logger.log(f"Warning: Stop '{stop_id}': Postcode '{postcode}' not found in OA lookup data. Fields set to None.")
             else:
                 stop_details['oa21cd'] = None
                 stop_details['lsoa21cd'] = None
                 stop_details['lsoa21nm'] = None
-                # Use logger.log for specific error cases
                 logger.log(f"Warning: Stop '{stop_id}': No postcode available. OA/LSOA fields set to None.")
 
         logger.log(f"Finished enriching all {len(loaded_data)} stops.")
 
-        # Determine output directory and file path
-        # os.path.dirname might return empty string if INPUT_JSON_FILE is just a filename
         output_dir = os.path.dirname(INPUT_JSON_FILE)
         if not output_dir:
-            output_dir = "." # Default to current directory if no path in input file
+            output_dir = "."
         os.makedirs(output_dir, exist_ok=True)
         output_file_path = os.path.join(output_dir, OUTPUT_JSON_FILE)
 
-        # Save enriched data
         with open(output_file_path, 'w') as f:
             json.dump(loaded_data, f, indent=2)
         logger.log(f"Enriched stop data (with OA/LSOA) saved to '{output_file_path}'.")

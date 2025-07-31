@@ -121,8 +121,6 @@ def run_sql_script(sql_script_path, config_data, secure_priv_path_for_sql=None):
             sql_script_content = sql_script_content.replace('{SECURE_PRIV_PATH}', sql_safe_secure_priv_path)
             print(f"  Placeholder '{{SECURE_PRIV_PATH}}' replaced with '{sql_safe_secure_priv_path}'")
 
-        # Split the script into individual statements using ';' as a delimiter.
-        # Filter out empty strings that might result from splitting.
         statements = [s.strip() for s in sql_script_content.split(';') if s.strip()]
 
         if not statements:
@@ -135,9 +133,9 @@ def run_sql_script(sql_script_path, config_data, secure_priv_path_for_sql=None):
             except Error as err:
                 print(f"  Error executing statement: {statement[:100]}{'...' if len(statement) > 100 else ''}")
                 print(f"  MySQL Error: {err}")
-                conn.rollback() # Rollback changes for this script on error
+                conn.rollback()
                 return False
-        conn.commit() # Commit changes for this script if all statements succeed
+        conn.commit()
         print(f"Finished SQL script: '{os.path.basename(sql_script_path)}' (Committed)")
         return True
     except FileNotFoundError:
@@ -171,20 +169,17 @@ def load_data_pipeline(source_csv_folder, sql_scripts_folder, sql_script_files, 
         print(f"Error: Could not decode JSON from '{config_path}'. Check file format. Exiting pipeline.")
         return False
 
-    # 1. Get secure_file_priv path
     secure_priv_path = return_secure_priv(config_path)
     if not secure_priv_path:
         print("Failed to retrieve secure_file_priv path. Exiting pipeline.")
         return False
     print(f"\nMySQL secure_file_priv path: '{secure_priv_path}'")
 
-    # 2. Move CSV files
     moved_csv_filenames = move_csv_files(source_csv_folder, secure_priv_path)
     if not moved_csv_filenames:
         print("No CSV files were moved. Please check source folder and file names. Exiting pipeline.")
         return False
 
-    # 3. Run SQL scripts in order
     all_scripts_succeeded = True
     for script_name in sql_script_files:
         script_path = os.path.join(sql_scripts_folder, script_name)
