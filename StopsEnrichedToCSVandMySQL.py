@@ -1,8 +1,10 @@
 import json
 import pandas as pd
 import DataPipeline
+import logger
+from mysql.connector import Error
 
-def WriteEnrichedJsonToCSVandMySQL(input_json_file = "enrich/enriched_stops_data_shops.json", output_json_file = "data/stops_intermediate.csv"):
+def WriteEnrichedJsonToCSVandMySQL(input_json_file = "enrich/enriched_stops_data_shops.json", output_json_file = "data/stops_intermediate.csv", config = "config.json", output_filename = "data/stops_enriched.csv"):
     with open(input_json_file, 'r') as f:
                 stops_data = json.load(f)
 
@@ -24,3 +26,24 @@ def WriteEnrichedJsonToCSVandMySQL(input_json_file = "enrich/enriched_stops_data
         print("Full data load process finished successfully.")
     else:
         print("Full data load process encountered errors.")
+
+    
+    try:
+        with open(config) as json_file:
+            config_data = json.load(json_file)
+    except FileNotFoundError:
+        logger.log(f"Error: Config file '{config}' not found.")
+        return None
+    except json.JSONDecodeError:
+        logger.log(f"Error: Could not decode JSON from '{config}'. Check file format.")
+        return None
+
+    
+    conn, _ = DataPipeline._connect_to_mysql(config_data)
+    query = "SELECT * FROM stops_enriched"
+    logger.log("Querying table to turn to csv...")
+    df = pd.read_sql_query(query, conn)
+    logger.log("Query complete.")
+    logger.log("Writing to csv...")
+    df.to_csv(output_filename, index=False, lineterminator='\n')
+    logger.log("CSV writing complete.")

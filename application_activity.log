@@ -18,10 +18,10 @@ Skipped: 'oa_lookup_2025.csv' already exists in 'C:\ProgramData\MySQL\MySQL Serv
 Skipped: 'routes.csv' already exists in 'C:\ProgramData\MySQL\MySQL Server 8.0\Uploads'
 Skipped: 'shapes.csv' already exists in 'C:\ProgramData\MySQL\MySQL Server 8.0\Uploads'
 Skipped: 'stops.csv' already exists in 'C:\ProgramData\MySQL\MySQL Server 8.0\Uploads'
+Copied: 'stops_enriched.csv' to 'C:\ProgramData\MySQL\MySQL Server 8.0\Uploads\stops_enriched.csv'
 Skipped: 'stops_intermediate.csv' already exists in 'C:\ProgramData\MySQL\MySQL Server 8.0\Uploads'
 Skipped: 'stop_times.csv' already exists in 'C:\ProgramData\MySQL\MySQL Server 8.0\Uploads'
 Skipped: 'trips.csv' already exists in 'C:\ProgramData\MySQL\MySQL Server 8.0\Uploads'
-Note: No new CSV files were moved as all were already present in the secure directory. Proceeding with pipeline.
 
 --- Running SQL Script: 'build_load_stops_intermediate.sql' ---
 Successfully connected to MySQL database: hsp_data
@@ -34,5 +34,10 @@ Successfully connected to MySQL database: hsp_data
 Finished SQL script: 'build_load_stops_enriched.sql' (Committed)
 
 --- Data Loading Pipeline Completed Successfully! ---
+Successfully connected to MySQL database: hsp_data
+Querying table to turn to csv...
+Query complete.
+Writing to csv...
+CSV writing complete.
 stops_enriched build complete.
 All application tasks completed successfully.

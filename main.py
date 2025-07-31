@@ -47,9 +47,9 @@ try:
     # ShopEnrich.NearbyShopsEnrichment()
     # logger.log("Nearby shop enrichment complete.")
 
-    logger.log("Building stops_intermediate and stops_enriched...")
+    logger.log("Building stops_intermediate and stops_enriched and stops_enriched.csv...")
     BuildEnrich.WriteEnrichedJsonToCSVandMySQL()
-    logger.log("stops_enriched build complete.")
+    logger.log("stops_enriched and stops_enriched.csv build complete.")
 
     logger.log("All application tasks completed successfully.")
 

@@ -67,11 +67,6 @@ def return_secure_priv(config_path="config.json"):
             cursor.close()
             conn.close()
 
-import os
-import shutil
-from tqdm import tqdm
-import logging # Assuming logger is a logging.Logger object
-
 def move_csv_files(source_folder, destination_folder):
     """
     Finds all CSV files in source_folder and copies them to destination_folder.
@@ -83,11 +78,11 @@ def move_csv_files(source_folder, destination_folder):
     try:
         if not os.path.exists(source_folder):
             logger.log(f"Error: Source folder '{source_folder}' does not exist. Please check the path.")
-            return False, [] # Return False on critical error
+            return False, []
 
         if not os.path.exists(destination_folder):
             logger.log(f"Warning: Destination folder '{destination_folder}' does not exist. Please create it or verify your secure_file_priv setting.")
-            return False, [] # Return False on critical error
+            return False, []
 
         source_folder = os.path.abspath(source_folder)
         destination_folder = os.path.abspath(destination_folder)
@@ -103,7 +98,7 @@ def move_csv_files(source_folder, destination_folder):
                     logger.log(f"Skipped: '{filename}' already exists in '{destination_folder}'")
                     continue
                 else:
-                    all_files_exist = False # At least one file doesn't exist
+                    all_files_exist = False
                 
                 try:
                     shutil.copy2(source_path, destination_path)
@@ -111,15 +106,15 @@ def move_csv_files(source_folder, destination_folder):
                     moved_files.append(filename)
                 except shutil.Error as se:
                     logger.log(f"Shutil error moving '{filename}': {se}")
-                    return False, [] # Return False on critical error
+                    return False, []
                 except OSError as e:
                     logger.log(f"OS error moving '{filename}': {e}")
-                    return False, [] # Return False on critical error
+                    return False, []
     except OSError as e:
         logger.log(f"Error accessing source folder '{source_folder}': {e}")
-        return False, [] # Return False on critical error
+        return False, []
     
-    return True, moved_files # Return True on success, even if no files were moved
+    return True, moved_files
 
 def run_sql_script(sql_script_path, config_data, secure_priv_path_for_sql=None):
     """
