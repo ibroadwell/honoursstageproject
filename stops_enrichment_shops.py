@@ -1,3 +1,5 @@
+# stops_enrichment_shops.py
+
 import json
 import requests
 import time
@@ -37,7 +39,9 @@ out count;"""
     return 0
 
 def nearby_shops_enrichment(input_json_file = "enrich/enriched_stops_data_oas.json", output_json_file = "enriched_stops_data_shops.json"):
-
+    """
+    Uses the enriched_stops_data_oas.json file to enrich the data using nearby shop counts using the overpass api.
+    """
     try:
         with open(input_json_file, 'r') as f:
             stops_data = json.load(f)

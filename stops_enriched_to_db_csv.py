@@ -1,3 +1,5 @@
+# stops_enriched_to_db_csv.py
+
 import json
 import pandas as pd
 import data_pipeline
@@ -5,6 +7,10 @@ import logger
 from mysql.connector import Error
 
 def write_enriched_to_db_csv(input_json_file = "enrich/enriched_stops_data_shops.json", output_json_file = "data/stops_intermediate.csv", config = "config.json", output_filename = "data/stops_enriched.csv"):
+    """
+    Uses enriched_stops_data_shops.json to create stops_intermediate.csv, load this into mysql, and then create stops_enriched table.
+    This is then exported as a csv for future use.
+    """
     with open(input_json_file, 'r') as f:
                 stops_data = json.load(f)
 

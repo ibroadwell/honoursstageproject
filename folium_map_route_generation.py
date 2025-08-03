@@ -6,6 +6,9 @@ import logger
 import tqdm
 
 def generate_html_maps(output_dir = "output", map_dir = "maps"):
+    """
+    Looks through all the jsons in a given directory and outputs folium route maps to a given directory.
+    """
     output_dir = "output"
     map_dir = "maps"
     os.makedirs(map_dir, exist_ok=True)

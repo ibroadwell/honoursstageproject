@@ -217,6 +217,9 @@ def load_data_pipeline(source_csv_folder, sql_scripts_folder, sql_script_files, 
 
 
 def run_initial_build():
+    """
+    Runs the data pipeline for the inital build of all the database tables.
+    """
     SOURCE_CSV_FOLDER = 'data'
 
     SQL_SCRIPTS_FOLDER = 'sql_scripts'

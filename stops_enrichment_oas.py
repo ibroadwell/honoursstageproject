@@ -1,4 +1,4 @@
-# StopsEnrichmentOAs.py
+# stops_enrichment_oas.py
 
 import mysql.connector
 import json
@@ -40,7 +40,6 @@ def generate_oas(OA_LOOKUP="oa_lookup", INPUT_JSON_FILE="enrich/enriched_stops_d
             logger.log(f"Error: Could not decode JSON from config file '{config}' for OA/LSOA enrichment.")
             return
 
-        # Connect to database
         conn = mysql.connector.connect(
             host=db_config["host"],
             user=db_config["user"],
@@ -50,7 +49,6 @@ def generate_oas(OA_LOOKUP="oa_lookup", INPUT_JSON_FILE="enrich/enriched_stops_d
         cursor = conn.cursor(dictionary=True)
         logger.log("Connected to DB for OA/LSOA lookup.")
 
-        # Load OA lookup data from DB
         query = f"SELECT pcds, oa21cd, lsoa21cd, lsoa21nm FROM {OA_LOOKUP}"
         logger.log(f"Executing query to load OA lookup data: {query}")
         cursor.execute(query)
@@ -119,15 +117,6 @@ def get_oa_lsoa_details(postcode, config_path = "config.json"):
     """
     Looks up OA and LSOA details for a single postcode using a centralized
     connection method.
-
-    Args:
-        postcode (str): The postcode to look up (e.g., 'HU13 9AT').
-        config_path (str): Path to the database configuration JSON file.
-
-    Returns:
-        tuple: A tuple containing (oa21cd, lsoa21cd, lsoa21nm) as strings.
-               Returns (None, None, None) if the postcode is not found
-               or if there's a database/config error.
     """
     conn = None
     cursor = None

@@ -42,6 +42,7 @@ def update_trip_dropdown(event):
 route_dropdown.bind('<<ComboboxSelected>>', update_trip_dropdown)
 
 def open_map():
+    
     route = route_var.get()
     trip_label = trip_var.get()
     if not route or not trip_label:

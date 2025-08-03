@@ -1,4 +1,4 @@
-# MappingJSONsFromDB.py
+# mapping_jsons.py
 
 import mysql.connector
 import json
@@ -7,6 +7,11 @@ from tqdm import tqdm
 import logger
 
 def generate_mapping_jsons(config="config.json", ROUTE_ID=None):
+    """
+    Runs the pipeline for turning the GTFS stops data into a simplified JSON for use in folium.
+
+    Set ROUTE_ID to None or '' to process all route_ids, or specify a route like 'EY:EYAO055:55'
+    """
     logger.log("Starting GenerateMappingJSONs function...")
 
     # Set to None or '' to process all route_ids, or specify a route like 'EY:EYAO055:55'

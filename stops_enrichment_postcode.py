@@ -1,4 +1,4 @@
-# StopsEnrichmentPostCode.py
+# stops_enrichment_postcode.py
 
 import mysql.connector
 import json
@@ -11,7 +11,6 @@ import logger
 def reverse_geocode_postcode(latitude, longitude, POSTCODES_API_URL="https://api.postcodes.io/postcodes"):
     """
     Reverse geocodes coordinates to a postcode using the Postcodes.io API.
-    Logs errors using the custom logger.
     """
     params = {
         'lat': latitude,
