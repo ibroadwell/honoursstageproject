@@ -75,25 +75,3 @@ def kmeans_model(stops_enriched_csv_path = "data/stops_enriched.csv"):
     cluster_summary = df.groupby('cluster')[features].mean()
     logger.log("\nCluster Summary (Mean values for each feature):")
     logger.log(cluster_summary)
-
-
-    # fig = plt.figure(figsize=(10, 8))
-    # ax = fig.add_subplot(111, projection='3d')
-
-    # colors = ['red', 'green', 'blue', 'purple', 'orange', 'cyan']
-
-    # for i in range(num_clusters):
-    #     cluster_data = df[df['cluster'] == i]
-    #     ax.scatter(cluster_data['oa21pop'],
-    #                cluster_data['shops_nearby_count'],
-    #                cluster_data['employed_total'],
-    #                color=colors[i],
-    #                label=f'Cluster {i}',
-    #                s=50)
-
-    # ax.set_xlabel('OA21 Population')
-    # ax.set_ylabel('Shops Nearby Count')
-    # ax.set_zlabel('Employed Total')
-    # ax.set_title(f'K-Means Clustering of Bus Stops ({num_clusters} Clusters)')
-    # ax.legend()
-    # plt.show()

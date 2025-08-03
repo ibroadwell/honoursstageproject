@@ -1,40 +1,40 @@
 Starting application tasks...
 Building kmeans categorisation...
 DataFrame before imputation:
-           stop_id                 stop_name   stop_lat  stop_lon  postcode     oa21cd   lsoa21cd                       lsoa21nm  shops_nearby_count  oa21pop  postcode_pop  employed_total  bus_commute_total
-0     2200YEA00378    Hessle Boothferry Road  53.732380 -0.434509  HU13 9AT  E00065616  E01013013  East Riding of Yorkshire 034C                   1    255.0          36.0           132.0                0.0
-1     2200YEA00936            Hessle Darleys  53.732969 -0.435579  HU13 9AT  E00065616  E01013013  East Riding of Yorkshire 034C                   1    255.0          36.0           132.0                0.0
-2     2290YHA00591  Hessle Road Fire Station  53.725595 -0.416194   HU4 7BG  E00064998  E01012884        Kingston upon Hull 033C                   0    228.0          21.0            97.0                8.0
-3     2290YHA00976             Winship Close  53.739096 -0.358721   HU3 2QN  E00064825  E01012855        Kingston upon Hull 029D                   0    374.0          24.0           129.0                8.0
-4     2200YEA00977        Coniston Hull Road  53.797082 -0.248579  HU11 4LD  E00065744  E01013032  East Riding of Yorkshire 021D                   0    322.0          47.0           176.0                0.0
-...            ...                       ...        ...       ...       ...        ...        ...                            ...                 ...      ...           ...             ...                ...
-3729  3200YNA01085   Allerston (Cayley Arms)  54.235131 -0.656816  YO18 7PJ  E00141614  E01027802                   Ryedale 002F                  -1    309.0           4.0           140.0                1.0
-3730  3200YNA01086   Allerston (Cayley Arms)  54.235375 -0.656900  YO18 7PJ  E00141614  E01027802                   Ryedale 002F                   0    309.0           4.0           140.0                1.0
-3731  3200YNA00867                Copse Hill  54.215756 -0.303359  YO14 9NG  E00141774  E01027830               Scarborough 014D                   0    452.0           8.0           230.0                9.0
-3732  3200YNA01077              Barkers Lane  54.226781 -0.582243  YO13 9AG  E00141698  E01027815               Scarborough 013B                   0    253.0          23.0           104.0                2.0
-3733  3200YNA01078            Primary School  54.226797 -0.581353  YO13 9AG  E00141698  E01027815               Scarborough 013B                   0    253.0          23.0           104.0                2.0
+           stop_id                 stop_name   stop_lat  stop_lon  postcode     oa21cd  ... shops_nearby_count oa21pop  postcode_pop  employed_total  bus_commute_total  avg_weekly_frequency_per_hour
+0     2200YEA00378    Hessle Boothferry Road  53.732380 -0.434509  HU13 9AT  E00065616  ...                  1   255.0          36.0           132.0                0.0                       1.035443
+1     2200YEA00936            Hessle Darleys  53.732969 -0.435579  HU13 9AT  E00065616  ...                  1   255.0          36.0           132.0                0.0                       1.000000
+2     2290YHA00591  Hessle Road Fire Station  53.725595 -0.416194   HU4 7BG  E00064998  ...                  0   228.0          21.0            97.0                8.0                       1.959743
+3     2290YHA00976             Winship Close  53.739096 -0.358721   HU3 2QN  E00064825  ...                  0   374.0          24.0           129.0                8.0                       2.561829
+4     2200YEA00977        Coniston Hull Road  53.797082 -0.248579  HU11 4LD  E00065744  ...                  0   322.0          47.0           176.0                0.0                       0.990257
+...            ...                       ...        ...       ...       ...        ...  ...                ...     ...           ...             ...                ...                            ...
+3729  3200YNA01085   Allerston (Cayley Arms)  54.235131 -0.656816  YO18 7PJ  E00141614  ...                 -1   309.0           4.0           140.0                1.0                       0.655043
+3730  3200YNA01086   Allerston (Cayley Arms)  54.235375 -0.656900  YO18 7PJ  E00141614  ...                  0   309.0           4.0           140.0                1.0                       0.622729
+3731  3200YNA00867                Copse Hill  54.215756 -0.303359  YO14 9NG  E00141774  ...                  0   452.0           8.0           230.0                9.0                       2.234014
+3732  3200YNA01077              Barkers Lane  54.226781 -0.582243  YO13 9AG  E00141698  ...                  0   253.0          23.0           104.0                2.0                       0.655043
+3733  3200YNA01078            Primary School  54.226797 -0.581353  YO13 9AG  E00141698  ...                  0   253.0          23.0           104.0                2.0                       0.622729
 
-[3734 rows x 13 columns]
+[3734 rows x 14 columns]
 
 Calculated median for 'shops_nearby_count': 0.0
 Calculated median for 'oa21pop': 299.0
 Calculated median for 'employed_total': 139.0
 
 DataFrame after imputation:
-           stop_id                 stop_name   stop_lat  stop_lon  postcode     oa21cd   lsoa21cd                       lsoa21nm  shops_nearby_count  oa21pop  postcode_pop  employed_total  bus_commute_total
-0     2200YEA00378    Hessle Boothferry Road  53.732380 -0.434509  HU13 9AT  E00065616  E01013013  East Riding of Yorkshire 034C                   1    255.0          36.0           132.0                0.0
-1     2200YEA00936            Hessle Darleys  53.732969 -0.435579  HU13 9AT  E00065616  E01013013  East Riding of Yorkshire 034C                   1    255.0          36.0           132.0                0.0
-2     2290YHA00591  Hessle Road Fire Station  53.725595 -0.416194   HU4 7BG  E00064998  E01012884        Kingston upon Hull 033C                   0    228.0          21.0            97.0                8.0
-3     2290YHA00976             Winship Close  53.739096 -0.358721   HU3 2QN  E00064825  E01012855        Kingston upon Hull 029D                   0    374.0          24.0           129.0                8.0
-4     2200YEA00977        Coniston Hull Road  53.797082 -0.248579  HU11 4LD  E00065744  E01013032  East Riding of Yorkshire 021D                   0    322.0          47.0           176.0                0.0
-...            ...                       ...        ...       ...       ...        ...        ...                            ...                 ...      ...           ...             ...                ...
-3729  3200YNA01085   Allerston (Cayley Arms)  54.235131 -0.656816  YO18 7PJ  E00141614  E01027802                   Ryedale 002F                   0    309.0           4.0           140.0                1.0
-3730  3200YNA01086   Allerston (Cayley Arms)  54.235375 -0.656900  YO18 7PJ  E00141614  E01027802                   Ryedale 002F                   0    309.0           4.0           140.0                1.0
-3731  3200YNA00867                Copse Hill  54.215756 -0.303359  YO14 9NG  E00141774  E01027830               Scarborough 014D                   0    452.0           8.0           230.0                9.0
-3732  3200YNA01077              Barkers Lane  54.226781 -0.582243  YO13 9AG  E00141698  E01027815               Scarborough 013B                   0    253.0          23.0           104.0                2.0
-3733  3200YNA01078            Primary School  54.226797 -0.581353  YO13 9AG  E00141698  E01027815               Scarborough 013B                   0    253.0          23.0           104.0                2.0
+           stop_id                 stop_name   stop_lat  stop_lon  postcode     oa21cd  ... shops_nearby_count oa21pop  postcode_pop  employed_total  bus_commute_total  avg_weekly_frequency_per_hour
+0     2200YEA00378    Hessle Boothferry Road  53.732380 -0.434509  HU13 9AT  E00065616  ...                  1   255.0          36.0           132.0                0.0                       1.035443
+1     2200YEA00936            Hessle Darleys  53.732969 -0.435579  HU13 9AT  E00065616  ...                  1   255.0          36.0           132.0                0.0                       1.000000
+2     2290YHA00591  Hessle Road Fire Station  53.725595 -0.416194   HU4 7BG  E00064998  ...                  0   228.0          21.0            97.0                8.0                       1.959743
+3     2290YHA00976             Winship Close  53.739096 -0.358721   HU3 2QN  E00064825  ...                  0   374.0          24.0           129.0                8.0                       2.561829
+4     2200YEA00977        Coniston Hull Road  53.797082 -0.248579  HU11 4LD  E00065744  ...                  0   322.0          47.0           176.0                0.0                       0.990257
+...            ...                       ...        ...       ...       ...        ...  ...                ...     ...           ...             ...                ...                            ...
+3729  3200YNA01085   Allerston (Cayley Arms)  54.235131 -0.656816  YO18 7PJ  E00141614  ...                  0   309.0           4.0           140.0                1.0                       0.655043
+3730  3200YNA01086   Allerston (Cayley Arms)  54.235375 -0.656900  YO18 7PJ  E00141614  ...                  0   309.0           4.0           140.0                1.0                       0.622729
+3731  3200YNA00867                Copse Hill  54.215756 -0.303359  YO14 9NG  E00141774  ...                  0   452.0           8.0           230.0                9.0                       2.234014
+3732  3200YNA01077              Barkers Lane  54.226781 -0.582243  YO13 9AG  E00141698  ...                  0   253.0          23.0           104.0                2.0                       0.655043
+3733  3200YNA01078            Primary School  54.226797 -0.581353  YO13 9AG  E00141698  ...                  0   253.0          23.0           104.0                2.0                       0.622729
 
-[3734 rows x 13 columns]
+[3734 rows x 14 columns]
 
 Loaded cluster mapping from JSON.
 Added 'cluster_category' column to the DataFrame.
