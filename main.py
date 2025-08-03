@@ -1,4 +1,4 @@
-# stops_enrichment.py
+# main.py
 
 import mapping_jsons as Map
 import folium_map_route_generation as HTMLMap
@@ -7,6 +7,7 @@ import stops_enrichment_oas as OAEnrich
 import stops_enrichment_shops as ShopEnrich
 import stops_enriched_to_db_csv as BuildEnrich
 import data_pipeline
+import kmeans_enrichment as KMeans
 import logger
 import atexit
 
@@ -50,6 +51,10 @@ try:
     # logger.log("Building stops_intermediate and stops_enriched and stops_enriched.csv...")
     # BuildEnrich.write_enriched_to_db_csv()
     # logger.log("stops_enriched and stops_enriched.csv build complete.")
+
+    logger.log("Building kmeans categorisation...")
+    KMeans.kmeans_model()
+    logger.log("Completed kmeans categorisation.")
 
     logger.log("All application tasks completed successfully.")
 

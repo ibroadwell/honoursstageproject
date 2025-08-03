@@ -1,43 +1,60 @@
-Building stops_intermediate and stops_enriched...
+Starting application tasks...
+Building kmeans categorisation...
+DataFrame before imputation:
+           stop_id                 stop_name   stop_lat  stop_lon  postcode     oa21cd   lsoa21cd                       lsoa21nm  shops_nearby_count  oa21pop  postcode_pop  employed_total  bus_commute_total
+0     2200YEA00378    Hessle Boothferry Road  53.732380 -0.434509  HU13 9AT  E00065616  E01013013  East Riding of Yorkshire 034C                   1    255.0          36.0           132.0                0.0
+1     2200YEA00936            Hessle Darleys  53.732969 -0.435579  HU13 9AT  E00065616  E01013013  East Riding of Yorkshire 034C                   1    255.0          36.0           132.0                0.0
+2     2290YHA00591  Hessle Road Fire Station  53.725595 -0.416194   HU4 7BG  E00064998  E01012884        Kingston upon Hull 033C                   0    228.0          21.0            97.0                8.0
+3     2290YHA00976             Winship Close  53.739096 -0.358721   HU3 2QN  E00064825  E01012855        Kingston upon Hull 029D                   0    374.0          24.0           129.0                8.0
+4     2200YEA00977        Coniston Hull Road  53.797082 -0.248579  HU11 4LD  E00065744  E01013032  East Riding of Yorkshire 021D                   0    322.0          47.0           176.0                0.0
+...            ...                       ...        ...       ...       ...        ...        ...                            ...                 ...      ...           ...             ...                ...
+3729  3200YNA01085   Allerston (Cayley Arms)  54.235131 -0.656816  YO18 7PJ  E00141614  E01027802                   Ryedale 002F                  -1    309.0           4.0           140.0                1.0
+3730  3200YNA01086   Allerston (Cayley Arms)  54.235375 -0.656900  YO18 7PJ  E00141614  E01027802                   Ryedale 002F                   0    309.0           4.0           140.0                1.0
+3731  3200YNA00867                Copse Hill  54.215756 -0.303359  YO14 9NG  E00141774  E01027830               Scarborough 014D                   0    452.0           8.0           230.0                9.0
+3732  3200YNA01077              Barkers Lane  54.226781 -0.582243  YO13 9AG  E00141698  E01027815               Scarborough 013B                   0    253.0          23.0           104.0                2.0
+3733  3200YNA01078            Primary School  54.226797 -0.581353  YO13 9AG  E00141698  E01027815               Scarborough 013B                   0    253.0          23.0           104.0                2.0
 
---- Starting Data Loading Pipeline ---
-Successfully connected to MySQL database: hsp_data
+[3734 rows x 13 columns]
 
-MySQL secure_file_priv path: 'C:\ProgramData\MySQL\MySQL Server 8.0\Uploads\'
+Calculated median for 'shops_nearby_count': 0.0
+Calculated median for 'oa21pop': 299.0
+Calculated median for 'employed_total': 139.0
 
---- Copying CSV Files from 'data' to 'C:\ProgramData\MySQL\MySQL Server 8.0\Uploads\' ---
-Skipped: 'agency.csv' already exists in 'C:\ProgramData\MySQL\MySQL Server 8.0\Uploads'
-Skipped: 'calendar.csv' already exists in 'C:\ProgramData\MySQL\MySQL Server 8.0\Uploads'
-Skipped: 'calendar_dates.csv' already exists in 'C:\ProgramData\MySQL\MySQL Server 8.0\Uploads'
-Skipped: 'census2021-ts001-oa.csv' already exists in 'C:\ProgramData\MySQL\MySQL Server 8.0\Uploads'
-Skipped: 'census2021-ts007a-oa.csv' already exists in 'C:\ProgramData\MySQL\MySQL Server 8.0\Uploads'
-Skipped: 'census2021-ts061-oa.csv' already exists in 'C:\ProgramData\MySQL\MySQL Server 8.0\Uploads'
-Skipped: 'census2021-ts062-oa.csv' already exists in 'C:\ProgramData\MySQL\MySQL Server 8.0\Uploads'
-Skipped: 'census_Postcode_Estimates_Table_1.csv' already exists in 'C:\ProgramData\MySQL\MySQL Server 8.0\Uploads'
-Skipped: 'oa_lookup_2025.csv' already exists in 'C:\ProgramData\MySQL\MySQL Server 8.0\Uploads'
-Skipped: 'routes.csv' already exists in 'C:\ProgramData\MySQL\MySQL Server 8.0\Uploads'
-Skipped: 'shapes.csv' already exists in 'C:\ProgramData\MySQL\MySQL Server 8.0\Uploads'
-Skipped: 'stops.csv' already exists in 'C:\ProgramData\MySQL\MySQL Server 8.0\Uploads'
-Copied: 'stops_enriched.csv' to 'C:\ProgramData\MySQL\MySQL Server 8.0\Uploads\stops_enriched.csv'
-Skipped: 'stops_intermediate.csv' already exists in 'C:\ProgramData\MySQL\MySQL Server 8.0\Uploads'
-Skipped: 'stop_times.csv' already exists in 'C:\ProgramData\MySQL\MySQL Server 8.0\Uploads'
-Skipped: 'trips.csv' already exists in 'C:\ProgramData\MySQL\MySQL Server 8.0\Uploads'
+DataFrame after imputation:
+           stop_id                 stop_name   stop_lat  stop_lon  postcode     oa21cd   lsoa21cd                       lsoa21nm  shops_nearby_count  oa21pop  postcode_pop  employed_total  bus_commute_total
+0     2200YEA00378    Hessle Boothferry Road  53.732380 -0.434509  HU13 9AT  E00065616  E01013013  East Riding of Yorkshire 034C                   1    255.0          36.0           132.0                0.0
+1     2200YEA00936            Hessle Darleys  53.732969 -0.435579  HU13 9AT  E00065616  E01013013  East Riding of Yorkshire 034C                   1    255.0          36.0           132.0                0.0
+2     2290YHA00591  Hessle Road Fire Station  53.725595 -0.416194   HU4 7BG  E00064998  E01012884        Kingston upon Hull 033C                   0    228.0          21.0            97.0                8.0
+3     2290YHA00976             Winship Close  53.739096 -0.358721   HU3 2QN  E00064825  E01012855        Kingston upon Hull 029D                   0    374.0          24.0           129.0                8.0
+4     2200YEA00977        Coniston Hull Road  53.797082 -0.248579  HU11 4LD  E00065744  E01013032  East Riding of Yorkshire 021D                   0    322.0          47.0           176.0                0.0
+...            ...                       ...        ...       ...       ...        ...        ...                            ...                 ...      ...           ...             ...                ...
+3729  3200YNA01085   Allerston (Cayley Arms)  54.235131 -0.656816  YO18 7PJ  E00141614  E01027802                   Ryedale 002F                   0    309.0           4.0           140.0                1.0
+3730  3200YNA01086   Allerston (Cayley Arms)  54.235375 -0.656900  YO18 7PJ  E00141614  E01027802                   Ryedale 002F                   0    309.0           4.0           140.0                1.0
+3731  3200YNA00867                Copse Hill  54.215756 -0.303359  YO14 9NG  E00141774  E01027830               Scarborough 014D                   0    452.0           8.0           230.0                9.0
+3732  3200YNA01077              Barkers Lane  54.226781 -0.582243  YO13 9AG  E00141698  E01027815               Scarborough 013B                   0    253.0          23.0           104.0                2.0
+3733  3200YNA01078            Primary School  54.226797 -0.581353  YO13 9AG  E00141698  E01027815               Scarborough 013B                   0    253.0          23.0           104.0                2.0
 
---- Running SQL Script: 'build_load_stops_intermediate.sql' ---
-Successfully connected to MySQL database: hsp_data
-  Placeholder '{SECURE_PRIV_PATH}' replaced with 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/'
-Finished SQL script: 'build_load_stops_intermediate.sql' (Committed)
+[3734 rows x 13 columns]
 
---- Running SQL Script: 'build_load_stops_enriched.sql' ---
-Successfully connected to MySQL database: hsp_data
-  Placeholder '{SECURE_PRIV_PATH}' replaced with 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/'
-Finished SQL script: 'build_load_stops_enriched.sql' (Committed)
+Loaded cluster mapping from JSON.
+Added 'cluster_category' column to the DataFrame.
+K-Means model saved to 'kmeans_model.joblib'
+StandardScaler saved to 'scaler.joblib'
+Clustering complete. Found 3 clusters.
 
---- Data Loading Pipeline Completed Successfully! ---
-Successfully connected to MySQL database: hsp_data
-Querying table to turn to csv...
-Query complete.
-Writing to csv...
-CSV writing complete.
-stops_enriched build complete.
+First 5 rows with new cluster labels:
+                  stop_name  oa21pop  shops_nearby_count  employed_total  cluster
+0    Hessle Boothferry Road    255.0                   1           132.0        2
+1            Hessle Darleys    255.0                   1           132.0        2
+2  Hessle Road Fire Station    228.0                   0            97.0        2
+3             Winship Close    374.0                   0           129.0        2
+4        Coniston Hull Road    322.0                   0           176.0        0
+
+Cluster Summary (Mean values for each feature):
+            oa21pop  shops_nearby_count  employed_total
+cluster                                                
+0        403.250926            0.535185      190.216667
+1        251.275229           19.064220      131.376147
+2        272.720629            0.543418      121.324558
+Completed kmeans categorisation.
 All application tasks completed successfully.
