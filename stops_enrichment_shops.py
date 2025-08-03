@@ -36,7 +36,7 @@ out count;"""
     
     return 0
 
-def NearbyShopsEnrichment(input_json_file = "enrich/enriched_stops_data_oas.json", output_json_file = "enriched_stops_data_shops.json"):
+def nearby_shops_enrichment(input_json_file = "enrich/enriched_stops_data_oas.json", output_json_file = "enriched_stops_data_shops.json"):
 
     try:
         with open(input_json_file, 'r') as f:

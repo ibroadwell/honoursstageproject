@@ -1,10 +1,10 @@
 import json
 import pandas as pd
-import DataPipeline
+import data_pipeline
 import logger
 from mysql.connector import Error
 
-def WriteEnrichedJsonToCSVandMySQL(input_json_file = "enrich/enriched_stops_data_shops.json", output_json_file = "data/stops_intermediate.csv", config = "config.json", output_filename = "data/stops_enriched.csv"):
+def write_enriched_to_db_csv(input_json_file = "enrich/enriched_stops_data_shops.json", output_json_file = "data/stops_intermediate.csv", config = "config.json", output_filename = "data/stops_enriched.csv"):
     with open(input_json_file, 'r') as f:
                 stops_data = json.load(f)
 
@@ -21,7 +21,7 @@ def WriteEnrichedJsonToCSVandMySQL(input_json_file = "enrich/enriched_stops_data
     SQL_SCRIPT_FILES = ['build_load_stops_intermediate.sql',
                         'build_load_stops_enriched.sql']
 
-    success = DataPipeline.load_data_pipeline(SOURCE_CSV_FOLDER, SQL_SCRIPTS_FOLDER, SQL_SCRIPT_FILES)
+    success = data_pipeline.load_data_pipeline(SOURCE_CSV_FOLDER, SQL_SCRIPTS_FOLDER, SQL_SCRIPT_FILES)
     if success:
         print("Full data load process finished successfully.")
     else:
@@ -39,7 +39,7 @@ def WriteEnrichedJsonToCSVandMySQL(input_json_file = "enrich/enriched_stops_data
         return None
 
     
-    conn, _ = DataPipeline._connect_to_mysql(config_data)
+    conn, _ = data_pipeline.connect_to_mysql(config_data)
     query = "SELECT * FROM stops_enriched"
     logger.log("Querying table to turn to csv...")
     df = pd.read_sql_query(query, conn)

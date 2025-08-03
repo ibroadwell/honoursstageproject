@@ -7,7 +7,8 @@ import requests
 import os
 from tqdm import tqdm
 import logger
-def reverse_geocode_postcode(latitude, longitude, POSTCODES_API_URL):
+
+def reverse_geocode_postcode(latitude, longitude, POSTCODES_API_URL="https://api.postcodes.io/postcodes"):
     """
     Reverse geocodes coordinates to a postcode using the Postcodes.io API.
     Logs errors using the custom logger.
@@ -36,7 +37,7 @@ def reverse_geocode_postcode(latitude, longitude, POSTCODES_API_URL):
         return None
 
 
-def GenerateStopsPostcode(STOPS_TABLE="stops", POSTCODES_API_URL="https://api.postcodes.io/postcodes", config="config.json"):
+def generate_stops_postcode(STOPS_TABLE="stops", POSTCODES_API_URL="https://api.postcodes.io/postcodes", config="config.json"):
     """
     Connects to the database, fetches stop data, reverse geocodes postcodes,
     and saves the enriched data to a JSON file.

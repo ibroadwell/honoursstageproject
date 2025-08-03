@@ -1,12 +1,12 @@
 # stops_enrichment.py
 
-import MappingJSONsFromDB as Map
-import FoliumMapGenFromJSON as HTMLMap
-import StopsEnrichmentPostCode as PCEnrich
-import StopsEnrichmentOAs as OAEnrich
-import StopsEnrichmentNearbyShops as ShopEnrich
-import StopsEnrichedToCSVandMySQL as BuildEnrich
-import DataPipeline
+import mapping_jsons as Map
+import folium_map_route_generation as HTMLMap
+import stops_enrichment_postcode as PCEnrich
+import stops_enrichment_oas as OAEnrich
+import stops_enrichment_shops as ShopEnrich
+import stops_enriched_to_db_csv as BuildEnrich
+import data_pipeline
 import logger
 import atexit
 
@@ -21,34 +21,34 @@ atexit.register(logger.close_logger)
 print("Logger setup complete. Proceeding with application tasks.")
 
 try:
-    # logger.log("Starting application tasks...")
+    logger.log("Starting application tasks...")
 
-    # logger.log("Building inital database...")
-    # DataPipeline.RunInitialBuild()
-    # logger.log("Database build complete.")
+    logger.log("Building inital database...")
+    data_pipeline.run_initial_build()
+    logger.log("Database build complete.")
 
-    # logger.log("Generating mapping JSONs from DB...")
-    # Map.GenerateMappingJSONs()
-    # logger.log("Mapping JSONs generation complete.")
+    logger.log("Generating mapping JSONs from DB...")
+    Map.generate_mapping_jsons()
+    logger.log("Mapping JSONs generation complete.")
 
-    # logger.log("Generating HTML maps...")
-    # HTMLMap.GenerateHTMLMaps()
-    # logger.log("HTML maps generation complete.")
+    logger.log("Generating HTML maps...")
+    HTMLMap.generate_html_maps()
+    logger.log("HTML maps generation complete.")
 
-    # logger.log("Enriching stops with postcode information...")
-    # PCEnrich.GenerateStopsPostcode()
-    # logger.log("Postcode enrichment complete.")
+    logger.log("Enriching stops with postcode information...")
+    PCEnrich.generate_stops_postcode()
+    logger.log("Postcode enrichment complete.")
 
-    # logger.log("Enriching stops with OA/LSOA information...")
-    # OAEnrich.GenerateOAs()
-    # logger.log("OA/LSOA enrichment complete.")
+    logger.log("Enriching stops with OA/LSOA information...")
+    OAEnrich.generate_oas()
+    logger.log("OA/LSOA enrichment complete.")
 
-    # logger.log("Enriching stops with nearby shop information...")
-    # ShopEnrich.NearbyShopsEnrichment()
-    # logger.log("Nearby shop enrichment complete.")
+    logger.log("Enriching stops with nearby shop information...")
+    ShopEnrich.nearby_shops_enrichment()
+    logger.log("Nearby shop enrichment complete.")
 
     logger.log("Building stops_intermediate and stops_enriched and stops_enriched.csv...")
-    BuildEnrich.WriteEnrichedJsonToCSVandMySQL()
+    BuildEnrich.write_enriched_to_db_csv()
     logger.log("stops_enriched and stops_enriched.csv build complete.")
 
     logger.log("All application tasks completed successfully.")

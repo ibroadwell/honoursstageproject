@@ -5,7 +5,7 @@ import glob
 import logger
 import tqdm
 
-def GenerateHTMLMaps(output_dir = "output", map_dir = "maps"):
+def generate_html_maps(output_dir = "output", map_dir = "maps"):
     output_dir = "output"
     map_dir = "maps"
     os.makedirs(map_dir, exist_ok=True)

@@ -6,7 +6,7 @@ from mysql.connector import Error
 from tqdm import tqdm
 import logger
 
-def _connect_to_mysql(config_data):
+def connect_to_mysql(config_data):
     """
     Establishes a connection to the MySQL database using provided configuration data.
     Returns the connection object and a dictionary cursor.
@@ -44,7 +44,7 @@ def return_secure_priv(config_path="config.json"):
         logger.log(f"Error: Could not decode JSON from '{config_path}'. Check file format.")
         return None
 
-    conn, cursor = _connect_to_mysql(config_data)
+    conn, cursor = connect_to_mysql(config_data)
     if not conn or not cursor:
         return None
 
@@ -123,7 +123,7 @@ def run_sql_script(sql_script_path, config_data, secure_priv_path_for_sql=None):
     If secure_priv_path_for_sql is provided, it replaces '{SECURE_PRIV_PATH}' placeholder.
     """
     logger.log(f"\n--- Running SQL Script: '{os.path.basename(sql_script_path)}' ---")
-    conn, cursor = _connect_to_mysql(config_data)
+    conn, cursor = connect_to_mysql(config_data)
     if not conn or not cursor:
         logger.log(f"Skipping script '{os.path.basename(sql_script_path)}' due to database connection error.")
         return False
@@ -216,7 +216,7 @@ def load_data_pipeline(source_csv_folder, sql_scripts_folder, sql_script_files, 
 
 
 
-def RunInitialBuild():
+def run_initial_build():
     SOURCE_CSV_FOLDER = 'data'
 
     SQL_SCRIPTS_FOLDER = 'sql_scripts'

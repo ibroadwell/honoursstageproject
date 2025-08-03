@@ -6,7 +6,7 @@ import os
 from tqdm import tqdm
 import logger
 
-def GenerateMappingJSONs(config="config.json", ROUTE_ID=None):
+def generate_mapping_jsons(config="config.json", ROUTE_ID=None):
     logger.log("Starting GenerateMappingJSONs function...")
 
     # Set to None or '' to process all route_ids, or specify a route like 'EY:EYAO055:55'

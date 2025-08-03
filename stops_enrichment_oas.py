@@ -4,9 +4,10 @@ import mysql.connector
 import json
 import os
 from tqdm import tqdm
+import data_pipeline as dp
 import logger
 
-def GenerateOAs(OA_LOOKUP="oa_lookup", INPUT_JSON_FILE="enrich/enriched_stops_data_postcode.json", OUTPUT_JSON_FILE="enriched_stops_data_oas.json", config="config.json"):
+def generate_oas(OA_LOOKUP="oa_lookup", INPUT_JSON_FILE="enrich/enriched_stops_data_postcode.json", OUTPUT_JSON_FILE="enriched_stops_data_oas.json", config="config.json"):
     """
     Enriches stop data (from a JSON file) with Output Area (OA) and Lower Super Output Area (LSOA)
     information by looking up postcodes in a database table.
@@ -113,3 +114,61 @@ def GenerateOAs(OA_LOOKUP="oa_lookup", INPUT_JSON_FILE="enrich/enriched_stops_da
             conn.close()
             logger.log("Database connection closed for OA/LSOA enrichment.")
     logger.log("Finished GenerateOAs function.")
+
+def get_oa_lsoa_details(postcode, config_path = "config.json"):
+    """
+    Looks up OA and LSOA details for a single postcode using a centralized
+    connection method.
+
+    Args:
+        postcode (str): The postcode to look up (e.g., 'HU13 9AT').
+        config_path (str): Path to the database configuration JSON file.
+
+    Returns:
+        tuple: A tuple containing (oa21cd, lsoa21cd, lsoa21nm) as strings.
+               Returns (None, None, None) if the postcode is not found
+               or if there's a database/config error.
+    """
+    conn = None
+    cursor = None
+    
+    try:
+        try:
+            with open(config_path, 'r') as f:
+                db_config = json.load(f)
+        except FileNotFoundError:
+            logger.log(f"Error: Config file '{config_path}' not found.")
+            return None, None, None
+        except json.JSONDecodeError:
+            logger.log(f"Error: Could not decode JSON from '{config_path}'. Check file format.")
+            return None, None, None
+
+        conn, cursor = dp.connect_to_mysql(db_config)
+        if not conn:
+            return None, None, None
+
+        temp_postcode = postcode.replace(' ', '').upper()
+        if len(temp_postcode) >= 3:
+            normalized_postcode = temp_postcode[:-3] + ' ' + temp_postcode[-3:]
+        else:
+            normalized_postcode = temp_postcode
+
+        query = "SELECT oa21cd, lsoa21cd, lsoa21nm FROM oa_lookup WHERE pcds = %s"
+        cursor.execute(query, (normalized_postcode,))
+        
+        result = cursor.fetchone()
+
+        if result:
+            return result['oa21cd'], result['lsoa21cd'], result['lsoa21nm']
+        else:
+            logger.log(f"Postcode '{postcode}' not found in the database.")
+            return None, None, None
+
+    except Exception as e:
+        logger.log(f"An unexpected error occurred during OA/LSOA lookup for '{postcode}': {e}")
+        return None, None, None
+    finally:
+        if cursor:
+            cursor.close()
+        if conn and conn.is_connected():
+            conn.close()
