@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <style>
+        #map {
+            height: 100%;
+            width: 100%;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="flex flex-col h-screen font-sans bg-gray-100 text-gray-800">
+
+    <header class="bg-blue-600 text-white p-4 shadow-md text-center">
+        <h1 class="text-3xl font-bold">Trip Generator</h1>
+        <p class="text-sm">Draw a route, add stops, and generate simplified data.</p>
+    </header>
+
+    <div class="flex flex-1 overflow-hidden">
+        <div class="w-1/3 p-6 bg-white shadow-lg overflow-y-auto">
+            <h2 class="text-2xl font-semibold mb-4 text-blue-700">Trip Configuration</h2>
+
+            <div class="mb-4">
+                <label for="tripName" class="block text-sm font-medium text-gray-700 mb-1">Trip Name</label>
+                <input type="text" id="tripName"
+                    class="w-full p-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"
+                    value="My New Bus Trip">
+            </div>
+
+            <div class="mb-4">
+                <label for="customShapeId" class="block text-sm font-medium text-gray-700 mb-1">Custom Shape ID</label>
+                <input type="text" id="customShapeId"
+                    class="w-full p-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"
+                    value="SHAPE_1">
+            </div>
+
+            <div class="flex flex-col space-y-3 mt-6">
+                <button id="drawRouteBtn"
+                    class="py-2 px-4 rounded-md font-semibold transition-all duration-200 bg-blue-500 hover:bg-blue-600 text-white">
+                    Draw Route
+                </button>
+                <button id="addStopBtn"
+                    class="py-2 px-4 rounded-md font-semibold transition-all duration-200 bg-green-500 hover:bg-green-600 text-white">
+                    Add Stop
+                </button>
+                <button id="clearMapBtn"
+                    class="py-2 px-4 bg-gray-400 hover:bg-gray-500 text-white rounded-md font-semibold transition-all duration-200">
+                    Clear Map
+                </button>
+                <button id="generateBtn"
+                    class="py-3 px-4 bg-purple-600 hover:bg-purple-700 text-white rounded-md font-bold text-lg shadow-lg transition-all duration-200 mt-4">
+                    Download Files
+                </button>
+            </div>
+
+            <div class="mt-6 text-sm text-gray-600">
+                <p class="font-semibold">Current State:</p>
+                <p>Route Points: <span id="routePointsCount">0</span></p>
+                <p>Stops: <span id="stopsCount">0</span></p>
+                <p id="modeMessage" class="text-red-500"></p>
+                <div id="messageBox" class="mt-4 p-3 bg-blue-100 text-blue-800 rounded-md hidden"></div>
+            </div>
+        </div>
+
+        <div class="flex-1 relative">
+            <div id="map"></div>
+        </div>
+    </div>
+
+    <footer class="bg-gray-800 text-white p-3 text-center text-xs shadow-inner">
+        &copy; 2025 Trip Generator. Built with Leaflet.
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"></script>
+
+    <script>
+        delete L.Icon.Default.prototype._getIconUrl;
+        L.Icon.Default.mergeOptions({
+            iconRetinaUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon-2x.png',
+            iconUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon.png',
+            shadowUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-shadow.png',
+        });
+
+        const map = L.map('map').setView([53.7159, -0.3541], 13); 
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        let polylinePoints = [];
+        let stops = [];
+        let drawingMode = false;
+        let addingStopMode = false;
+        let nextStopId = 1;
+
+        let currentPolylineLayer = L.polyline([], { color: 'blue', weight: 5 }).addTo(map);
+        let stopMarkersLayerGroup = L.layerGroup().addTo(map);
+
+        const drawRouteBtn = document.getElementById('drawRouteBtn');
+        const addStopBtn = document.getElementById('addStopBtn');
+        const clearMapBtn = document.getElementById('clearMapBtn');
+        const generateBtn = document.getElementById('generateBtn');
+        const routePointsCountSpan = document.getElementById('routePointsCount');
+        const stopsCountSpan = document.getElementById('stopsCount');
+        const modeMessageSpan = document.getElementById('modeMessage');
+        const messageBox = document.getElementById('messageBox');
+
+        function haversine(lat1, lon1, lat2, lon2) {
+            const R = 6371;
+            const φ1 = lat1 * Math.PI / 180;
+            const φ2 = lat2 * Math.PI / 180;
+            const Δφ = (lat2 - lat1) * Math.PI / 180;
+            const Δλ = (lon2 - lon1) * Math.PI / 180;
+
+            const a = Math.sin(Δφ / 2) * Math.sin(Δφ / 2) +
+                      Math.cos(φ1) * Math.cos(φ2) *
+                      Math.sin(Δλ / 2) * Math.sin(Δλ / 2);
+            const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+
+            return R * c;
+        }
+
+        function showMessage(message, type = 'info') {
+            messageBox.textContent = message;
+            messageBox.className = `mt-4 p-3 rounded-md transition-all duration-300 ${
+                type === 'error' ? 'bg-red-100 text-red-800' : 'bg-blue-100 text-blue-800'
+            }`;
+            messageBox.classList.remove('hidden');
+            setTimeout(() => {
+                messageBox.classList.add('hidden');
+            }, 5000);
+        }
+
+        function updateUIState() {
+            routePointsCountSpan.textContent = polylinePoints.length;
+            stopsCountSpan.textContent = stops.length;
+
+            if (drawingMode) {
+                modeMessageSpan.textContent = 'Drawing Mode Active: Click map to add route points.';
+                drawRouteBtn.classList.remove('bg-blue-500', 'hover:bg-blue-600');
+                drawRouteBtn.classList.add('bg-red-500', 'hover:bg-red-600');
+                drawRouteBtn.textContent = 'Stop Drawing Route';
+            } else if (addingStopMode) {
+                modeMessageSpan.textContent = 'Adding Stop Mode Active: Click map to add stops.';
+                addStopBtn.classList.remove('bg-green-500', 'hover:bg-green-600');
+                addStopBtn.classList.add('bg-red-500', 'hover:bg-red-600');
+                addStopBtn.textContent = 'Stop Adding Stops';
+            } else {
+                modeMessageSpan.textContent = '';
+                drawRouteBtn.classList.remove('bg-red-500', 'hover:bg-red-600');
+                drawRouteBtn.classList.add('bg-blue-500', 'hover:bg-blue-600');
+                drawRouteBtn.textContent = 'Draw Route';
+                addStopBtn.classList.remove('bg-red-500', 'hover:bg-red-600');
+                addStopBtn.classList.add('bg-green-500', 'hover:bg-green-600');
+                addStopBtn.textContent = 'Add Stop';
+            }
+        }
+
+        map.on('click', function(e) {
+            if (drawingMode) {
+                polylinePoints.push([e.latlng.lat, e.latlng.lng]);
+                currentPolylineLayer.setLatLngs(polylinePoints);
+                updateUIState();
+            } else if (addingStopMode) {
+                const newStop = {
+                    id: `STOP_${nextStopId++}`,
+                    name: `Stop ${nextStopId - 1}`,
+                    lat: e.latlng.lat,
+                    lon: e.latlng.lng,
+                };
+                stops.push(newStop);
+                L.marker([newStop.lat, newStop.lon], { title: newStop.name }).addTo(stopMarkersLayerGroup);
+                updateUIState();
+            }
+        });
+
+        drawRouteBtn.addEventListener('click', () => {
+            drawingMode = !drawingMode;
+            addingStopMode = false;
+            updateUIState();
+        });
+
+        addStopBtn.addEventListener('click', () => {
+            addingStopMode = !addingStopMode; 
+            drawingMode = false;
+            updateUIState();
+        });
+
+        clearMapBtn.addEventListener('click', () => {
+            polylinePoints = [];
+            stops = [];
+            drawingMode = false;
+            addingStopMode = false;
+            nextStopId = 1;
+            currentPolylineLayer.setLatLngs([]);
+            stopMarkersLayerGroup.clearLayers();
+            updateUIState();
+            showMessage('Map cleared!', 'info');
+        });
+
+        generateBtn.addEventListener('click', async () => { 
+            if (polylinePoints.length < 2) {
+                showMessage('Please draw a route with at least two points.', 'error');
+                return;
+            }
+            if (stops.length === 0) {
+                showMessage('Please add at least one stop.', 'error');
+                return;
+            }
+
+            const customShapeId = document.getElementById('customShapeId').value; // Get the custom shape ID
+
+            let shapesCsv = 'shape_id,shape_pt_sequence,shape_pt_lat,shape_pt_lon\n';
+            for (let i = 0; i < polylinePoints.length; i++) {
+                shapesCsv += `${customShapeId},${i},${polylinePoints[i][0]},${polylinePoints[i][1]}\n`;
+            }
+
+            let stopsSequenceCsv = 'stop_id,stop_sequence,stop_lat,stop_lon\n';
+            
+            const sortedStops = [...stops].map(stop => {
+                let minPolylineDist = Infinity;
+                let closestPolylinePointIndex = -1;
+                for (let i = 0; i < polylinePoints.length; i++) {
+                    const dist = haversine(stop.lat, stop.lon, polylinePoints[i][0], polylinePoints[i][1]);
+                    if (dist < minPolylineDist) { 
+                        minPolylineDist = dist;
+                        closestPolylinePointIndex = i;
+                    }
+                }
+                return { ...stop, polyline_index: closestPolylinePointIndex };
+            }).sort((a, b) => a.polyline_index - b.polyline_index);
+
+            sortedStops.forEach((stop, index) => {
+                stopsSequenceCsv += `${stop.id},${index + 1},${stop.lat},${stop.lon}\n`;
+            });
+
+            const downloadFile = (content, filename, type) => {
+                const blob = new Blob([content], { type: type });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = filename;
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+            };
+
+            downloadFile(shapesCsv, `${customShapeId}_generated_shape.csv`, 'text/csv');
+            downloadFile(stopsSequenceCsv, `${customShapeId}_generated_stops.csv`, 'text/csv');
+
+            showMessage('Shape and Stop Sequence files generated and downloaded!', 'info');
+        });
+
+        updateUIState();
+    </script>
+</body>
+</html>
