@@ -6,6 +6,7 @@ import stops_enrichment_postcode as PCEnrich
 import stops_enrichment_oas as OAEnrich
 import stops_enrichment_shops as ShopEnrich
 import stops_enriched_to_db_csv as BuildEnrich
+import trips_enriched as TripEnrich
 import data_pipeline
 import kmeans_enrichment as KMeans
 import logger
@@ -52,9 +53,13 @@ try:
     # BuildEnrich.write_enriched_to_db_csv()
     # logger.log("stops_enriched and stops_enriched.csv build complete.")
 
-    logger.log("Building kmeans categorisation...")
-    KMeans.kmeans_model()
-    logger.log("Completed kmeans categorisation.")
+    # logger.log("Building kmeans categorisation...")
+    # KMeans.kmeans_model()
+    # logger.log("Completed kmeans categorisation.")
+
+    logger.log("Building trips_enriched.csv...")
+    TripEnrich.generate_trips_enriched()
+    logger.log("Completed trips_enriched.csv")
 
     logger.log("All application tasks completed successfully.")
 
