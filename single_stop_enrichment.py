@@ -119,6 +119,3 @@ def census_return(oa21cd: str):
             cursor.close()
         if conn and conn.is_connected():
             conn.close()
-
-
-print(enriched_record_from_lat_lon("53.73238", "-0.434509"))

@@ -20,7 +20,9 @@ def calculate_shape_distance(points_df):
 def estimate_fuel(row, fuel_rate_moving, fuel_rate_idling):
     """Estimates fuel usage for a trip based on distance and idle time."""
     moving_fuel = float(row['total_distance_km']) * fuel_rate_moving
-    idling_fuel = (float(row['total_idle_seconds']) / 3600) * fuel_rate_idling
+    idling_fuel = 0
+    if fuel_rate_idling != 0:
+        idling_fuel = (float(row['total_idle_seconds']) / 3600) * fuel_rate_idling
     return moving_fuel + idling_fuel
 
 def get_df_from_query(cursor, query):
