@@ -43,6 +43,7 @@ def enrich_generated_trip_data(
         enriched_stop = sse.enriched_record_from_lat_lon(row['stop_lat'], row['stop_lon'])
         enriched_stop['stop_id'] = row['stop_id']
         enriched_stop['stop_sequence'] = row['stop_sequence']
+        enriched_stop['shape_id'] = row['shape_id']
         enriched_stops_list.append(enriched_stop)
     
 

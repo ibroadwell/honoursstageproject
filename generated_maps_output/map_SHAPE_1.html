@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_52a8702a050dedb2743994587fd62046 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; top: 20px; left: 50%; transform: translateX(-50%);
+                        background-color: white; padding: 8px 16px; border: 1px solid #666;
+                        border-radius: 6px; font-size: 14px; font-weight: bold; z-index:9999;
+                        display: inline-block; white-space: nowrap;">
+            Shape ID: SHAPE_1<br>
+            Distance: 1.89 km<br>
+            Fuel Est.: 0.66 liters
+            </div>
+            
+    
+            <div class="folium-map" id="map_52a8702a050dedb2743994587fd62046" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_52a8702a050dedb2743994587fd62046 = L.map(
+                "map_52a8702a050dedb2743994587fd62046",
+                {
+                    center: [53.74009440982542, -0.5695078177118119],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5f09b42f953d2dcb7427a97b85bb5082 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_5f09b42f953d2dcb7427a97b85bb5082.addTo(map_52a8702a050dedb2743994587fd62046);
+        
+    
+            var poly_line_4252717e007c5d43ecf73dfc052ac268 = L.polyline(
+                [[53.74009440982542, -0.5695078177118119], [53.74007220035947, -0.5690198563104466], [53.73998336237833, -0.5686979951576365], [53.73990086979912, -0.568419048825184], [53.73975492099305, -0.568129373787647], [53.73952647836606, -0.5678021275897273], [53.7393614912521, -0.567598282192925], [53.73917429354999, -0.5673998011487048], [53.7389331562981, -0.5671691339891716], [53.73833348002852, -0.5665039542733631], [53.73817800700634, -0.566241100998557], [53.73802253340905, -0.5660748060695898], [53.73735938446449, -0.5650394575429974], [53.73632815120507, -0.5631565697990171], [53.73549362699962, -0.5617778921012118], [53.73456071720972, -0.5602275942151259], [53.73361192037064, -0.5586611612969296], [53.73265992877469, -0.5569982120073781], [53.73242192750704, -0.5566280716816285], [53.7322156586518, -0.5562311095931484], [53.73178407746513, -0.5553889062432883], [53.7317618636077, -0.555286983544887], [53.73202842912232, -0.5549114788665954], [53.73232037988942, -0.5545037880730309], [53.732574248473576, -0.5540531824590889], [53.73265040874986, -0.5538439727097645], [53.73266627545672, -0.5536293986078779], [53.73266944879737, -0.5534201888585534], [53.73264088872288, -0.5532056147566667], [53.73257742182117, -0.5530178624175309], [53.73252982158202, -0.5528891179563988], [53.73244096765806, -0.5527335517325361], [53.73227277935919, -0.552535070688296], [53.732145844348494, -0.552508248925565], [53.732006215394, -0.5524975202204608], [53.73195861450807, -0.5523848688169753], [53.7318951465763, -0.552052278959061], [53.731818984931685, -0.5515748515823882], [53.73177455724194, -0.5512315330193895], [53.731796771092704, -0.5510437806802339], [53.73185389236926, -0.5508882144563709], [53.7319522677192, -0.5507809274054476], [53.73206333638598, -0.5507272838799661], [53.73217123138131, -0.550695097764693], [53.73228229946956, -0.5506575472968578], [53.732485394643525, -0.5505770820086454], [53.73267896881789, -0.5504644306051599], [53.73284080883691, -0.550239127798189], [53.732970915067085, -0.5499387240555677], [53.73307880773303, -0.5496383203129263]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_52a8702a050dedb2743994587fd62046);
+        
+    
+            var circle_marker_ee6002e926929bde6ee27905ad1762de = L.circleMarker(
+                [53.74012613761355, -0.569491910428921],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_52a8702a050dedb2743994587fd62046);
+        
+    
+        var popup_c6c9ab9537c50c025f118a3d464fc1bb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_27268769a9ac3b11be39e6194a0b4294 = $(`<div id="html_27268769a9ac3b11be39e6194a0b4294" style="width: 100.0%; height: 100.0%;">             <div style="font-family: sans-serif; font-size: 12px;">                 <strong>Stop ID:</strong> STOP_1<br>                 <strong>Sequence:</strong> 1<br>                 <strong>Lat/Lon:</strong> 53.7401, -0.5695<br>             <strong>Postcode:</strong> HU15 1JE<br><strong>Oa21Cd:</strong> E00065408<br><strong>Lsoa21Cd:</strong> E01012970<br><strong>Lsoa21Nm:</strong> East Riding of Yorkshire 032A<br><strong>Shops Nearby Count:</strong> 2<br><strong>Oa21Pop:</strong> 316<br><strong>Employed Total:</strong> 145<br><strong>Bus Commute Total:</strong> 0<br><strong>Cluster:</strong> 2<br><strong>Cluster Category:</strong> Low-Density Residiential/Rural<br></div></div>`)[0];
+                popup_c6c9ab9537c50c025f118a3d464fc1bb.setContent(html_27268769a9ac3b11be39e6194a0b4294);
+            
+        
+
+        circle_marker_ee6002e926929bde6ee27905ad1762de.bindPopup(popup_c6c9ab9537c50c025f118a3d464fc1bb)
+        ;
+
+        
+    
+    
+            circle_marker_ee6002e926929bde6ee27905ad1762de.bindTooltip(
+                `<div>
+                     Click to see more info
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bdad228fd101e69ecf90831065cbbae0 = L.circleMarker(
+                [53.735214390866375, -0.5612360856182731],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_52a8702a050dedb2743994587fd62046);
+        
+    
+        var popup_26f25cf4769acc7287a6c33b5e1f7d4a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a0dd15aa9b764ecd8eb734f1a970289f = $(`<div id="html_a0dd15aa9b764ecd8eb734f1a970289f" style="width: 100.0%; height: 100.0%;">             <div style="font-family: sans-serif; font-size: 12px;">                 <strong>Stop ID:</strong> STOP_2<br>                 <strong>Sequence:</strong> 2<br>                 <strong>Lat/Lon:</strong> 53.7352, -0.5612<br>             <strong>Postcode:</strong> HU15 1SF<br><strong>Oa21Cd:</strong> E00065409<br><strong>Lsoa21Cd:</strong> E01033496<br><strong>Lsoa21Nm:</strong> East Riding of Yorkshire 032H<br><strong>Shops Nearby Count:</strong> 0<br><strong>Oa21Pop:</strong> 539<br><strong>Employed Total:</strong> 256<br><strong>Bus Commute Total:</strong> 0<br><strong>Cluster:</strong> 0<br><strong>Cluster Category:</strong> High-Density Residential<br></div></div>`)[0];
+                popup_26f25cf4769acc7287a6c33b5e1f7d4a.setContent(html_a0dd15aa9b764ecd8eb734f1a970289f);
+            
+        
+
+        circle_marker_bdad228fd101e69ecf90831065cbbae0.bindPopup(popup_26f25cf4769acc7287a6c33b5e1f7d4a)
+        ;
+
+        
+    
+    
+            circle_marker_bdad228fd101e69ecf90831065cbbae0.bindTooltip(
+                `<div>
+                     Click to see more info
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8b13d1c39902c5941a102b84f35cb9be = L.circleMarker(
+                [53.73309467427819, -0.5496650444407969],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_52a8702a050dedb2743994587fd62046);
+        
+    
+        var popup_56f7ba92fb82638899b4bdc1494cfa38 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3ecebcbea441c68f9af38d480dfdfc88 = $(`<div id="html_3ecebcbea441c68f9af38d480dfdfc88" style="width: 100.0%; height: 100.0%;">             <div style="font-family: sans-serif; font-size: 12px;">                 <strong>Stop ID:</strong> STOP_3<br>                 <strong>Sequence:</strong> 3<br>                 <strong>Lat/Lon:</strong> 53.7331, -0.5497<br>             <strong>Postcode:</strong> HU15 1PL<br><strong>Oa21Cd:</strong> E00066068<br><strong>Lsoa21Cd:</strong> E01013092<br><strong>Lsoa21Nm:</strong> East Riding of Yorkshire 032F<br><strong>Shops Nearby Count:</strong> 0<br><strong>Oa21Pop:</strong> 247<br><strong>Employed Total:</strong> 100<br><strong>Bus Commute Total:</strong> 0<br><strong>Cluster:</strong> 2<br><strong>Cluster Category:</strong> Low-Density Residiential/Rural<br></div></div>`)[0];
+                popup_56f7ba92fb82638899b4bdc1494cfa38.setContent(html_3ecebcbea441c68f9af38d480dfdfc88);
+            
+        
+
+        circle_marker_8b13d1c39902c5941a102b84f35cb9be.bindPopup(popup_56f7ba92fb82638899b4bdc1494cfa38)
+        ;
+
+        
+    
+    
+            circle_marker_8b13d1c39902c5941a102b84f35cb9be.bindTooltip(
+                `<div>
+                     Click to see more info
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

@@ -224,7 +224,7 @@
                 shapesCsv += `${customShapeId},${i},${polylinePoints[i][0]},${polylinePoints[i][1]}\n`;
             }
 
-            let stopsSequenceCsv = 'stop_id,stop_sequence,stop_lat,stop_lon\n';
+            let stopsSequenceCsv = 'stop_id,shape_id,stop_sequence,stop_lat,stop_lon\n';
             
             const sortedStops = [...stops].map(stop => {
                 let minPolylineDist = Infinity;
@@ -240,7 +240,7 @@
             }).sort((a, b) => a.polyline_index - b.polyline_index);
 
             sortedStops.forEach((stop, index) => {
-                stopsSequenceCsv += `${stop.id},${index + 1},${stop.lat},${stop.lon}\n`;
+                stopsSequenceCsv += `${stop.id},${customShapeId},${index + 1},${stop.lat},${stop.lon}\n`;
             });
 
             const downloadFile = (content, filename, type) => {
