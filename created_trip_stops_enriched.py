@@ -67,7 +67,7 @@ def enrich_generated_trip_data(
     enriched_trip_df['total_idle_seconds'] = 0 
     
     enriched_trip_df['estimated_fuel_usage_liters'] = enriched_trip_df.progress_apply(
-        lambda row: te.estimate_fuel(row, fuel_rate_moving, fuel_rate_idling), axis=1
+        lambda row: te.estimate_fuel(row), axis=1
     )
 
     if output_enriched_trip_csv:

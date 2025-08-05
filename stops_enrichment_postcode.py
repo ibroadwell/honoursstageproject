@@ -8,32 +8,67 @@ import os
 from tqdm import tqdm
 import logger
 
-def reverse_geocode_postcode(latitude, longitude, POSTCODES_API_URL="https://api.postcodes.io/postcodes"):
+def reverse_geocode_postcode(latitude, longitude, 
+                             POSTCODES_API_URL="https://api.postcodes.io/postcodes",
+                             radius=2000,
+                             max_retries=3,
+                             initial_delay=1):
     """
     Reverse geocodes coordinates to a postcode using the Postcodes.io API.
+    Includes retry logic for API request failures.
     """
-    params = {
-        'lat': latitude,
-        'lon': longitude,
-        'radius': "200"
-    }
-    try:
-        response = requests.get(POSTCODES_API_URL, params=params, timeout=30)
-        response.raise_for_status()
-        response_data = response.json()
+    delay = initial_delay
+    for attempt in range(max_retries):
+        params = {
+            'lat': latitude,
+            'lon': longitude,
+            'radius': str(radius),
+            'limit': 1
+        }
+        
+        try:
+            response = requests.get(POSTCODES_API_URL, params=params, timeout=30)
+            response.raise_for_status()
+            response_data = response.json()
 
-        if response_data and response_data.get('status') == 200 and response_data.get('result'):
-            return response_data['result'][0]['postcode']
-        else:
-            logger.log(f"API Warning: No postcode found for lat: {latitude}, lon: {longitude}. "
-                       f"Status: {response_data.get('status')}, Result: {response_data.get('result')}")
-            return None
-    except requests.exceptions.RequestException as e:
-        logger.log(f"API Error: Request failed for lat: {latitude}, lon: {longitude}: {e}")
-        return None
-    except (KeyError, IndexError) as e:
-        logger.log(f"API Error: Unexpected response structure for lat: {latitude}, lon: {longitude}: {e}")
-        return None
+            if response_data and response_data.get('status') == 200 and response_data.get('result'):
+                return response_data['result'][0]['postcode']
+            elif response_data and response_data.get('status') == 200 and not response_data.get('result'):
+                logger.log(f"No postcode found within {radius}m for lat: {latitude}, lon: {longitude}. Returning None.")
+                return None
+            else:
+                logger.log(f"API Warning (Attempt {attempt + 1}/{max_retries}): Unexpected Postcodes.io response status {response_data.get('status')} for lat: {latitude}, lon: {longitude}.")
+                if attempt < max_retries - 1:
+                    logger.log(f"Retrying API request in {delay} seconds...")
+                    time.sleep(delay)
+                    delay *= 2
+                else:
+                    logger.log(f"Max retries reached. Failed to fetch postcode for lat: {latitude}, lon: {longitude}.")
+                    return None
+
+        except requests.exceptions.RequestException as e:
+            logger.log(f"API Request failed (Attempt {attempt + 1}/{max_retries}) for lat: {latitude}, lon: {longitude}: {e}")
+            if attempt < max_retries - 1:
+                logger.log(f"Retrying API request in {delay} seconds...")
+                time.sleep(delay)
+                delay *= 2
+            else:
+                logger.log(f"Max retries reached. Failed to fetch postcode for lat: {latitude}, lon: {longitude}.")
+                return None
+        except json.JSONDecodeError as e:
+            logger.log(f"Failed to decode JSON response (Attempt {attempt + 1}/{max_retries}) for lat: {latitude}, lon: {longitude}: {e}")
+            if attempt < max_retries - 1:
+                logger.log(f"Retrying in {delay} seconds...")
+                time.sleep(delay)
+                delay *= 2
+            else:
+                logger.log(f"Max retries reached. Invalid JSON response for lat: {latitude}, lon: {longitude}.")
+                return None
+        except (KeyError, IndexError) as e:
+            logger.log(f"API Error: Unexpected response structure for lat: {latitude}, lon: {longitude}: {e}. Returning None.")
+            return None 
+
+    return None
 
 
 def generate_stops_postcode(STOPS_TABLE="stops", POSTCODES_API_URL="https://api.postcodes.io/postcodes", config="config.json"):

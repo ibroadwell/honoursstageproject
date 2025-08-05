@@ -224,20 +224,20 @@
     "stop_name": "Derwent Cottage Farm l e",
     "stop_lon": -0.939554,
     "stop_lat": 53.821047,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO8 5DG",
+    "oa21cd": "E00142148",
+    "lsoa21cd": "E01027900",
+    "lsoa21nm": "Selby 003C"
   },
   "3200YNA00776": {
     "stop_id": "3200YNA00776",
     "stop_name": "Derwent Cottage Farm l e",
     "stop_lon": -0.939587,
     "stop_lat": 53.820921,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO8 5DG",
+    "oa21cd": "E00142148",
+    "lsoa21cd": "E01027900",
+    "lsoa21nm": "Selby 003C"
   },
   "2200YEA01160": {
     "stop_id": "2200YEA01160",
@@ -284,10 +284,10 @@
     "stop_name": "Harlthorpe Hall",
     "stop_lon": -0.880247,
     "stop_lat": 53.827357,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO8 6DW",
+    "oa21cd": "E00065685",
+    "lsoa21cd": "E01013023",
+    "lsoa21nm": "East Riding of Yorkshire 018B"
   },
   "2200YEA01157": {
     "stop_id": "2200YEA01157",
@@ -694,10 +694,10 @@
     "stop_name": "Water End",
     "stop_lon": -0.803103,
     "stop_lat": 53.83507,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO43 4HA",
+    "oa21cd": "E00065703",
+    "lsoa21cd": "E01013023",
+    "lsoa21nm": "East Riding of Yorkshire 018B"
   },
   "3200YNA01161": {
     "stop_id": "3200YNA01161",
@@ -1574,20 +1574,20 @@
     "stop_name": "Bryherstones Inn",
     "stop_lon": -0.447214054,
     "stop_lat": 54.348993037,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO13 0AR",
+    "oa21cd": "E00141811",
+    "lsoa21cd": "E01027836",
+    "lsoa21nm": "Scarborough 004E"
   },
   "3200YNA01012": {
     "stop_id": "3200YNA01012",
     "stop_name": "Bryherstones Inn",
     "stop_lon": -0.447091365,
     "stop_lat": 54.348982471,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO13 0AR",
+    "oa21cd": "E00141811",
+    "lsoa21cd": "E01027836",
+    "lsoa21nm": "Scarborough 004E"
   },
   "3200YNA90602": {
     "stop_id": "3200YNA90602",
@@ -1684,20 +1684,20 @@
     "stop_name": "Field Lane",
     "stop_lon": -0.424657739,
     "stop_lat": 54.305548168,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO13 0BU",
+    "oa21cd": "E00189863",
+    "lsoa21cd": "E01027855",
+    "lsoa21nm": "Scarborough 005E"
   },
   "3200YNA00959": {
     "stop_id": "3200YNA00959",
     "stop_name": "Field Lane",
     "stop_lon": -0.424621258,
     "stop_lat": 54.30529602,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO13 0BU",
+    "oa21cd": "E00189863",
+    "lsoa21cd": "E01027855",
+    "lsoa21nm": "Scarborough 005E"
   },
   "3200YNA00952": {
     "stop_id": "3200YNA00952",
@@ -1944,20 +1944,20 @@
     "stop_name": "Staintondale (Trekking Centre)",
     "stop_lon": -0.474076831,
     "stop_lat": 54.369783653,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO13 0EJ",
+    "oa21cd": "E00141924",
+    "lsoa21cd": "E01027857",
+    "lsoa21nm": "Scarborough 004F"
   },
   "3200YNA01002": {
     "stop_id": "3200YNA01002",
     "stop_name": "Staintondale (Trekking Centre)",
     "stop_lon": -0.474343063,
     "stop_lat": 54.369661185,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO13 0EJ",
+    "oa21cd": "E00141924",
+    "lsoa21cd": "E01027857",
+    "lsoa21nm": "Scarborough 004F"
   },
   "3200YNA90598": {
     "stop_id": "3200YNA90598",
@@ -4124,10 +4124,10 @@
     "stop_name": "Cayton Village Caravan Park",
     "stop_lon": -0.376191109,
     "stop_lat": 54.235371289,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO11 3NW",
+    "oa21cd": "E00141656",
+    "lsoa21cd": "E01027807",
+    "lsoa21nm": "Scarborough 011A"
   },
   "3200YNA00931": {
     "stop_id": "3200YNA00931",
@@ -4354,20 +4354,20 @@
     "stop_name": "Huntow Cottages",
     "stop_lon": -0.227971252,
     "stop_lat": 54.13114349,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO16 6XH",
+    "oa21cd": "E00065215",
+    "lsoa21cd": "E01012933",
+    "lsoa21nm": "East Riding of Yorkshire 001A"
   },
   "2200YEA11683": {
     "stop_id": "2200YEA11683",
     "stop_name": "Huntow Cottages",
     "stop_lon": -0.227295416,
     "stop_lat": 54.130848144,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO16 6XH",
+    "oa21cd": "E00065215",
+    "lsoa21cd": "E01012933",
+    "lsoa21nm": "East Riding of Yorkshire 001A"
   },
   "2200YEA11919": {
     "stop_id": "2200YEA11919",
@@ -4394,20 +4394,20 @@
     "stop_name": "Killerby Lane",
     "stop_lon": -0.365638061,
     "stop_lat": 54.229458058,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO11 3TP",
+    "oa21cd": "E00141656",
+    "lsoa21cd": "E01027807",
+    "lsoa21nm": "Scarborough 011A"
   },
   "3200YNA00859": {
     "stop_id": "3200YNA00859",
     "stop_name": "Killerby Lane",
     "stop_lon": -0.36601131,
     "stop_lat": 54.229396245,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO11 3TP",
+    "oa21cd": "E00141656",
+    "lsoa21cd": "E01027807",
+    "lsoa21nm": "Scarborough 011A"
   },
   "3200YNA00861": {
     "stop_id": "3200YNA00861",
@@ -4504,20 +4504,20 @@
     "stop_name": "Muston Crossing",
     "stop_lon": -0.316305458,
     "stop_lat": 54.219125245,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO14 9PG",
+    "oa21cd": "E00141659",
+    "lsoa21cd": "E01027807",
+    "lsoa21nm": "Scarborough 011A"
   },
   "3200YNA00866": {
     "stop_id": "3200YNA00866",
     "stop_name": "Muston Crossing",
     "stop_lon": -0.316340137,
     "stop_lat": 54.219026855,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO14 9PG",
+    "oa21cd": "E00141659",
+    "lsoa21cd": "E01027807",
+    "lsoa21nm": "Scarborough 011A"
   },
   "3200YNA00888": {
     "stop_id": "3200YNA00888",
@@ -4584,40 +4584,40 @@
     "stop_name": "Primrose Valley Garage",
     "stop_lon": -0.296856017,
     "stop_lat": 54.185971625,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO14 9RJ",
+    "oa21cd": "E00141789",
+    "lsoa21cd": "E01027833",
+    "lsoa21nm": "Scarborough 014E"
   },
   "3200YNA00900": {
     "stop_id": "3200YNA00900",
     "stop_name": "Primrose Valley Garage",
     "stop_lon": -0.297761922,
     "stop_lat": 54.185930499,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO14 9RJ",
+    "oa21cd": "E00141789",
+    "lsoa21cd": "E01027833",
+    "lsoa21nm": "Scarborough 014E"
   },
   "3200YNA00901": {
     "stop_id": "3200YNA00901",
     "stop_name": "Primrose Valley Holiday Village (outside)",
     "stop_lon": -0.292476305,
     "stop_lat": 54.183284938,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO14 9QQ",
+    "oa21cd": "E00141789",
+    "lsoa21cd": "E01027833",
+    "lsoa21nm": "Scarborough 014E"
   },
   "3200YNA00902": {
     "stop_id": "3200YNA00902",
     "stop_name": "Primrose Valley Holiday Village (outside)",
     "stop_lon": -0.293231509,
     "stop_lat": 54.183924846,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO14 9RJ",
+    "oa21cd": "E00141789",
+    "lsoa21cd": "E01027833",
+    "lsoa21nm": "Scarborough 014E"
   },
   "3200YNA00906": {
     "stop_id": "3200YNA00906",
@@ -4714,20 +4714,20 @@
     "stop_name": "Speeton (Shelter)",
     "stop_lon": -0.242324876,
     "stop_lat": 54.152415325,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO14 9TB",
+    "oa21cd": "E00141804",
+    "lsoa21cd": "E01027833",
+    "lsoa21nm": "Scarborough 014E"
   },
   "3200YNA00911": {
     "stop_id": "3200YNA00911",
     "stop_name": "Speeton (Shelter)",
     "stop_lon": -0.242406344,
     "stop_lat": 54.152299661,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO14 9TB",
+    "oa21cd": "E00141804",
+    "lsoa21cd": "E01027833",
+    "lsoa21nm": "Scarborough 014E"
   },
   "3200YNA96793": {
     "stop_id": "3200YNA96793",
@@ -4874,60 +4874,60 @@
     "stop_name": "Blue Dolphin Holiday Village",
     "stop_lon": -0.326349,
     "stop_lat": 54.230564,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO14 9PT",
+    "oa21cd": "E00141659",
+    "lsoa21cd": "E01027807",
+    "lsoa21nm": "Scarborough 011A"
   },
   "3200YNA00921": {
     "stop_id": "3200YNA00921",
     "stop_name": "Blue Dolphin Holiday Village",
     "stop_lon": -0.326024,
     "stop_lat": 54.230649,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO14 9PT",
+    "oa21cd": "E00141659",
+    "lsoa21cd": "E01027807",
+    "lsoa21nm": "Scarborough 011A"
   },
   "3200YNA00922": {
     "stop_id": "3200YNA00922",
     "stop_name": "Crow's Nest",
     "stop_lon": -0.339482,
     "stop_lat": 54.227887,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO11 3PE",
+    "oa21cd": "E00141660",
+    "lsoa21cd": "E01027807",
+    "lsoa21nm": "Scarborough 011A"
   },
   "3200YNA00923": {
     "stop_id": "3200YNA00923",
     "stop_name": "Crow's Nest",
     "stop_lon": -0.33866,
     "stop_lat": 54.227741,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO11 3PE",
+    "oa21cd": "E00141660",
+    "lsoa21cd": "E01027807",
+    "lsoa21nm": "Scarborough 011A"
   },
   "3200YNA00924": {
     "stop_id": "3200YNA00924",
     "stop_name": "Crows Nest/Flower of May",
     "stop_lon": -0.342595,
     "stop_lat": 54.22908,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO11 3NX",
+    "oa21cd": "E00141660",
+    "lsoa21cd": "E01027807",
+    "lsoa21nm": "Scarborough 011A"
   },
   "3200YNA00925": {
     "stop_id": "3200YNA00925",
     "stop_name": "Crows Nest/Flower of May",
     "stop_lon": -0.342424,
     "stop_lat": 54.229132,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO11 3NX",
+    "oa21cd": "E00141660",
+    "lsoa21cd": "E01027807",
+    "lsoa21nm": "Scarborough 011A"
   },
   "3200YNA00915": {
     "stop_id": "3200YNA00915",
@@ -5094,20 +5094,20 @@
     "stop_name": "Bridlington Flamborough Rd",
     "stop_lon": -0.157677,
     "stop_lat": 54.111608,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO15 1DU",
+    "oa21cd": "E00065272",
+    "lsoa21cd": "E01012942",
+    "lsoa21nm": "East Riding of Yorkshire 002E"
   },
   "2200YEA11853": {
     "stop_id": "2200YEA11853",
     "stop_name": "Bridlington Flamborough Ro",
     "stop_lon": -0.15756,
     "stop_lat": 54.111471,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO15 1DU",
+    "oa21cd": "E00065272",
+    "lsoa21cd": "E01012942",
+    "lsoa21nm": "East Riding of Yorkshire 002E"
   },
   "2200YEA00480": {
     "stop_id": "2200YEA00480",
@@ -5164,20 +5164,20 @@
     "stop_name": "Flamborough B1255",
     "stop_lon": -0.144619,
     "stop_lat": 54.1128,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO15 1AA",
+    "oa21cd": "E00065215",
+    "lsoa21cd": "E01012933",
+    "lsoa21nm": "East Riding of Yorkshire 001A"
   },
   "2200YEA00594": {
     "stop_id": "2200YEA00594",
     "stop_name": "Flamborough B1255",
     "stop_lon": -0.144411,
     "stop_lat": 54.11268,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO15 1AA",
+    "oa21cd": "E00065215",
+    "lsoa21cd": "E01012933",
+    "lsoa21nm": "East Riding of Yorkshire 001A"
   },
   "2200YEA01625": {
     "stop_id": "2200YEA01625",
@@ -5234,10 +5234,10 @@
     "stop_name": "Flamborough North Marine Road",
     "stop_lon": -0.116168,
     "stop_lat": 54.122147,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO15 1LF",
+    "oa21cd": "E00065255",
+    "lsoa21cd": "E01012937",
+    "lsoa21nm": "East Riding of Yorkshire 002D"
   },
   "2200YEA00592": {
     "stop_id": "2200YEA00592",
@@ -5754,20 +5754,20 @@
     "stop_name": "Persimmon House",
     "stop_lon": -1.06546,
     "stop_lat": 53.923175,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO19 4FE",
+    "oa21cd": "E00067910",
+    "lsoa21cd": "E01013450",
+    "lsoa21nm": "York 023C"
   },
   "3290YYA00612": {
     "stop_id": "3290YYA00612",
     "stop_name": "Persimmon House",
     "stop_lon": -1.064918,
     "stop_lat": 53.922919,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO19 4FE",
+    "oa21cd": "E00067910",
+    "lsoa21cd": "E01013450",
+    "lsoa21nm": "York 023C"
   },
   "2200YEA00665": {
     "stop_id": "2200YEA00665",
@@ -5784,20 +5784,20 @@
     "stop_name": "Plantation House",
     "stop_lon": -0.979739,
     "stop_lat": 53.834563,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO8 5DF",
+    "oa21cd": "E00142148",
+    "lsoa21cd": "E01027900",
+    "lsoa21nm": "Selby 003C"
   },
   "3200YNA00788": {
     "stop_id": "3200YNA00788",
     "stop_name": "Plantation House",
     "stop_lon": -0.979833,
     "stop_lat": 53.834483,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO8 5DF",
+    "oa21cd": "E00142148",
+    "lsoa21cd": "E01027900",
+    "lsoa21nm": "Selby 003C"
   },
   "3290YYA00218": {
     "stop_id": "3290YYA00218",
@@ -5904,20 +5904,20 @@
     "stop_name": "Wheldrake Ings",
     "stop_lon": -0.95142,
     "stop_lat": 53.893947,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO19 6AX",
+    "oa21cd": "E00067913",
+    "lsoa21cd": "E01013452",
+    "lsoa21nm": "York 020D"
   },
   "3290YYA03621": {
     "stop_id": "3290YYA03621",
     "stop_name": "Wheldrake Ings",
     "stop_lon": -0.951068,
     "stop_lat": 53.893423,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO19 6AX",
+    "oa21cd": "E00067913",
+    "lsoa21cd": "E01013452",
+    "lsoa21nm": "York 020D"
   },
   "3290YYA01561": {
     "stop_id": "3290YYA01561",
@@ -5954,10 +5954,10 @@
     "stop_name": "York Designer Outlet",
     "stop_lon": -1.074121,
     "stop_lat": 53.922649,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO19 4TA",
+    "oa21cd": "E00067459",
+    "lsoa21cd": "E01034762",
+    "lsoa21nm": "York 023E"
   },
   "3290YYA00107": {
     "stop_id": "3290YYA00107",
@@ -6134,10 +6134,10 @@
     "stop_name": "Priory Park & Ride",
     "stop_lon": -0.417138,
     "stop_lat": 53.721832,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU13 9NT",
+    "oa21cd": "E00064998",
+    "lsoa21cd": "E01012884",
+    "lsoa21nm": "Kingston upon Hull 033C"
   },
   "2290YHA00774": {
     "stop_id": "2290YHA00774",
@@ -6214,10 +6214,10 @@
     "stop_name": "Arnold A165",
     "stop_lon": -0.282002,
     "stop_lat": 53.855285,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU11 5HZ",
+    "oa21cd": "E00065752",
+    "lsoa21cd": "E01013034",
+    "lsoa21nm": "East Riding of Yorkshire 014D"
   },
   "2290YHA00643": {
     "stop_id": "2290YHA00643",
@@ -6404,20 +6404,20 @@
     "stop_name": "Catfoss Lane End",
     "stop_lon": -0.25836,
     "stop_lat": 53.897346,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU11 5QL",
+    "oa21cd": "E00065856",
+    "lsoa21cd": "E01013048",
+    "lsoa21nm": "East Riding of Yorkshire 010D"
   },
   "2200YEA11744": {
     "stop_id": "2200YEA11744",
     "stop_name": "Catfoss Lane End",
     "stop_lon": -0.258413,
     "stop_lat": 53.897544,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU11 5QL",
+    "oa21cd": "E00065856",
+    "lsoa21cd": "E01013048",
+    "lsoa21nm": "East Riding of Yorkshire 010D"
   },
   "2200YEA11658": {
     "stop_id": "2200YEA11658",
@@ -6444,20 +6444,20 @@
     "stop_name": "Catwick Main Street",
     "stop_lon": -0.271617,
     "stop_lat": 53.896602,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU11 5QW",
+    "oa21cd": "E00065743",
+    "lsoa21cd": "E01013034",
+    "lsoa21nm": "East Riding of Yorkshire 014D"
   },
   "2200YEA12123": {
     "stop_id": "2200YEA12123",
     "stop_name": "Catwick Main Street",
     "stop_lon": -0.269983,
     "stop_lat": 53.89675,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU11 5QW",
+    "oa21cd": "E00065743",
+    "lsoa21cd": "E01013034",
+    "lsoa21nm": "East Riding of Yorkshire 014D"
   },
   "2200YEA00870": {
     "stop_id": "2200YEA00870",
@@ -6474,10 +6474,10 @@
     "stop_name": "Catwick Rise Lane",
     "stop_lon": -0.278245,
     "stop_lat": 53.893839,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU17 5PL",
+    "oa21cd": "E00065743",
+    "lsoa21cd": "E01013034",
+    "lsoa21nm": "East Riding of Yorkshire 014D"
   },
   "2200YEA00869": {
     "stop_id": "2200YEA00869",
@@ -6874,10 +6874,10 @@
     "stop_name": "Hornsea Seaton Road",
     "stop_lon": -0.20184,
     "stop_lat": 53.904998,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU18 1BZ",
+    "oa21cd": "E00174856",
+    "lsoa21cd": "E01013048",
+    "lsoa21nm": "East Riding of Yorkshire 010D"
   },
   "2200YEA00298": {
     "stop_id": "2200YEA00298",
@@ -7234,10 +7234,10 @@
     "stop_name": "Seaton Seaton Road",
     "stop_lon": -0.209352,
     "stop_lat": 53.903762,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU11 5RQ",
+    "oa21cd": "E00065855",
+    "lsoa21cd": "E01013048",
+    "lsoa21nm": "East Riding of Yorkshire 010D"
   },
   "2200YEA00881": {
     "stop_id": "2200YEA00881",
@@ -7794,10 +7794,10 @@
     "stop_name": "Tickton Hull Bridge Road",
     "stop_lon": -0.371324,
     "stop_lat": 53.864782,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU17 9SH",
+    "oa21cd": "E00065200",
+    "lsoa21cd": "E01012924",
+    "lsoa21nm": "East Riding of Yorkshire 014A"
   },
   "2200YEA00867": {
     "stop_id": "2200YEA00867",
@@ -7944,20 +7944,20 @@
     "stop_name": "Anlaby First Lane",
     "stop_lon": -0.421406566,
     "stop_lat": 53.737358644,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU10 6UX",
+    "oa21cd": "E00066123",
+    "lsoa21cd": "E01013106",
+    "lsoa21nm": "East Riding of Yorkshire 043E"
   },
   "2200YEA12135": {
     "stop_id": "2200YEA12135",
     "stop_name": "Anlaby First Lane",
     "stop_lon": -0.421681361,
     "stop_lat": 53.737308329,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU10 6UX",
+    "oa21cd": "E00066123",
+    "lsoa21cd": "E01013106",
+    "lsoa21nm": "East Riding of Yorkshire 043E"
   },
   "2200YEA00161": {
     "stop_id": "2200YEA00161",
@@ -8024,20 +8024,20 @@
     "stop_name": "Bentley Lane End",
     "stop_lon": -0.446711054,
     "stop_lat": 53.811345017,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU17 8PP",
+    "oa21cd": "E00065431",
+    "lsoa21cd": "E01034756",
+    "lsoa21nm": "East Riding of Yorkshire 024F"
   },
   "2200YEA00831": {
     "stop_id": "2200YEA00831",
     "stop_name": "Bentley Lane End",
     "stop_lon": -0.446936638,
     "stop_lat": 53.810583879,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU17 8PP",
+    "oa21cd": "E00065431",
+    "lsoa21cd": "E01034756",
+    "lsoa21nm": "East Riding of Yorkshire 024F"
   },
   "2200YEA00225": {
     "stop_id": "2200YEA00225",
@@ -8144,10 +8144,10 @@
     "stop_name": "Castle Hill Hospital",
     "stop_lon": -0.444656518,
     "stop_lat": 53.779039047,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU16 5JQ",
+    "oa21cd": "E00185473",
+    "lsoa21cd": "E01012954",
+    "lsoa21nm": "East Riding of Yorkshire 022A"
   },
   "2200YEA00390": {
     "stop_id": "2200YEA00390",
@@ -8164,10 +8164,10 @@
     "stop_name": "Castle Hill Hospital",
     "stop_lon": -0.442783303,
     "stop_lat": 53.778394493,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU16 5JQ",
+    "oa21cd": "E00185473",
+    "lsoa21cd": "E01012954",
+    "lsoa21nm": "East Riding of Yorkshire 022A"
   },
   "2200YEA00388": {
     "stop_id": "2200YEA00388",
@@ -8704,10 +8704,10 @@
     "stop_name": "New Skidy Stop",
     "stop_lon": -0.450320065,
     "stop_lat": 53.790087907,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU16 5TF",
+    "oa21cd": "E00065438",
+    "lsoa21cd": "E01012966",
+    "lsoa21nm": "East Riding of Yorkshire 022E"
   },
   "2200YEA00653": {
     "stop_id": "2200YEA00653",
@@ -9264,10 +9264,10 @@
     "stop_name": "Fairfield Manor",
     "stop_lon": -1.130613,
     "stop_lat": 53.993815,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO30 1YY",
+    "oa21cd": "E00067828",
+    "lsoa21cd": "E01013430",
+    "lsoa21nm": "York 006C"
   },
   "3290YYA00694": {
     "stop_id": "3290YYA00694",
@@ -9554,10 +9554,10 @@
     "stop_name": "Riverside Farm",
     "stop_lon": -1.125993,
     "stop_lat": 53.988659,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO30 1XJ",
+    "oa21cd": "E00067813",
+    "lsoa21cd": "E01013432",
+    "lsoa21nm": "York 007C"
   },
   "3290YYA00696": {
     "stop_id": "3290YYA00696",
@@ -9664,10 +9664,10 @@
     "stop_name": "Sproxton War Memorial",
     "stop_lon": -1.060348,
     "stop_lat": 54.226225,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO62 5EE",
+    "oa21cd": "E00141492",
+    "lsoa21cd": "E01027780",
+    "lsoa21nm": "Ryedale 003B"
   },
   "3290YYA00693": {
     "stop_id": "3290YYA00693",
@@ -9784,20 +9784,20 @@
     "stop_name": "The Lodge",
     "stop_lon": -1.194811,
     "stop_lat": 54.100697,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO61 3EQ",
+    "oa21cd": "E00140489",
+    "lsoa21cd": "E01027595",
+    "lsoa21nm": "Hambleton 010B"
   },
   "3200YNA01471": {
     "stop_id": "3200YNA01471",
     "stop_name": "The Lodge",
     "stop_lon": -1.195057,
     "stop_lat": 54.100662,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO61 3EQ",
+    "oa21cd": "E00140489",
+    "lsoa21cd": "E01027595",
+    "lsoa21nm": "Hambleton 010B"
   },
   "3200YNA01528": {
     "stop_id": "3200YNA01528",
@@ -10364,20 +10364,20 @@
     "stop_name": "A614 Bracey Bridge",
     "stop_lon": -0.350038,
     "stop_lat": 54.045707,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO25 4DE",
+    "oa21cd": "E00065514",
+    "lsoa21cd": "E01012992",
+    "lsoa21nm": "East Riding of Yorkshire 006D"
   },
   "2200YEA01095": {
     "stop_id": "2200YEA01095",
     "stop_name": "A614 Near Harpham",
     "stop_lon": -0.368663,
     "stop_lat": 54.037745,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO25 4DQ",
+    "oa21cd": "E00065514",
+    "lsoa21cd": "E01012992",
+    "lsoa21nm": "East Riding of Yorkshire 006D"
   },
   "2290YHA00122": {
     "stop_id": "2290YHA00122",
@@ -10404,10 +10404,10 @@
     "stop_name": "Bessingby Lodge",
     "stop_lon": -0.227632,
     "stop_lat": 54.080865,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO16 4RS",
+    "oa21cd": "E00065323",
+    "lsoa21cd": "E01012946",
+    "lsoa21nm": "East Riding of Yorkshire 003D"
   },
   "2200YEA01660": {
     "stop_id": "2200YEA01660",
@@ -11374,10 +11374,10 @@
     "stop_name": "Harpham Nr Bracey Bridge",
     "stop_lon": -0.350635,
     "stop_lat": 54.04567,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO25 4DE",
+    "oa21cd": "E00065514",
+    "lsoa21cd": "E01012992",
+    "lsoa21nm": "East Riding of Yorkshire 006D"
   },
   "2290YHA01566": {
     "stop_id": "2290YHA01566",
@@ -11414,20 +11414,20 @@
     "stop_name": "Hutton Cranswick Beverley Road",
     "stop_lon": -0.448914,
     "stop_lat": 53.967896,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO25 9PY",
+    "oa21cd": "E00065521",
+    "lsoa21cd": "E01012989",
+    "lsoa21nm": "East Riding of Yorkshire 008D"
   },
   "2200YEA00995": {
     "stop_id": "2200YEA00995",
     "stop_name": "Hutton Cranswick Beverley Road",
     "stop_lon": -0.445494,
     "stop_lat": 53.954117,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO25 9PE",
+    "oa21cd": "E00065519",
+    "lsoa21cd": "E01012989",
+    "lsoa21nm": "East Riding of Yorkshire 008D"
   },
   "2200YEA00996": {
     "stop_id": "2200YEA00996",
@@ -11444,10 +11444,10 @@
     "stop_name": "Hutton Cranswick Beverley Road",
     "stop_lon": -0.448693,
     "stop_lat": 53.968109,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO25 9PY",
+    "oa21cd": "E00065521",
+    "lsoa21cd": "E01012989",
+    "lsoa21nm": "East Riding of Yorkshire 008D"
   },
   "2200YEA11713": {
     "stop_id": "2200YEA11713",
@@ -11544,20 +11544,20 @@
     "stop_name": "Lockington Carr Cross",
     "stop_lon": -0.457048,
     "stop_lat": 53.907407,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO25 9AY",
+    "oa21cd": "E00065191",
+    "lsoa21cd": "E01012923",
+    "lsoa21nm": "East Riding of Yorkshire 013B"
   },
   "2200YEA00989": {
     "stop_id": "2200YEA00989",
     "stop_name": "Lockington Station Road",
     "stop_lon": -0.457235,
     "stop_lat": 53.907275,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO25 9AY",
+    "oa21cd": "E00065191",
+    "lsoa21cd": "E01012923",
+    "lsoa21nm": "East Riding of Yorkshire 013B"
   },
   "2290YHA00143": {
     "stop_id": "2290YHA00143",
@@ -11704,10 +11704,10 @@
     "stop_name": "Ruston Parva Jnt",
     "stop_lon": -0.367135,
     "stop_lat": 54.037761,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO25 4DD",
+    "oa21cd": "E00065514",
+    "lsoa21cd": "E01012992",
+    "lsoa21nm": "East Riding of Yorkshire 006D"
   },
   "2290YHA00142": {
     "stop_id": "2290YHA00142",
@@ -11914,10 +11914,10 @@
     "stop_name": "Woodmansey Hull Road",
     "stop_lon": -0.389842,
     "stop_lat": 53.82255,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU17 0TR",
+    "oa21cd": "E00065780",
+    "lsoa21cd": "E01013039",
+    "lsoa21nm": "East Riding of Yorkshire 020C"
   },
   "2200YEA00237": {
     "stop_id": "2200YEA00237",
@@ -11934,10 +11934,10 @@
     "stop_name": "Woodmansey Hull Road",
     "stop_lon": -0.388971,
     "stop_lat": 53.822665,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU17 0TR",
+    "oa21cd": "E00065780",
+    "lsoa21cd": "E01013039",
+    "lsoa21nm": "East Riding of Yorkshire 020C"
   },
   "2200YEA01630": {
     "stop_id": "2200YEA01630",
@@ -13804,10 +13804,10 @@
     "stop_name": "Westella Road",
     "stop_lon": -0.483071,
     "stop_lat": 53.745301,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU14 3QY",
+    "oa21cd": "E00066060",
+    "lsoa21cd": "E01013093",
+    "lsoa21nm": "East Riding of Yorkshire 035E"
   },
   "2290YHA00041": {
     "stop_id": "2290YHA00041",
@@ -14024,10 +14024,10 @@
     "stop_name": "B1230 Howden",
     "stop_lon": -0.836943,
     "stop_lat": 53.750093,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "DN14 7UZ",
+    "oa21cd": "E00065706",
+    "lsoa21cd": "E01013020",
+    "lsoa21nm": "East Riding of Yorkshire 038C"
   },
   "2290YHA00178": {
     "stop_id": "2290YHA00178",
@@ -14214,20 +14214,20 @@
     "stop_name": "Eastrington Long Lane",
     "stop_lon": -0.825323,
     "stop_lat": 53.751822,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "DN14 7XA",
+    "oa21cd": "E00065706",
+    "lsoa21cd": "E01013020",
+    "lsoa21nm": "East Riding of Yorkshire 038C"
   },
   "2200YEA12108": {
     "stop_id": "2200YEA12108",
     "stop_name": "Eastrington Long Lane",
     "stop_lon": -0.825991,
     "stop_lat": 53.751802,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "DN14 7XA",
+    "oa21cd": "E00065706",
+    "lsoa21cd": "E01013020",
+    "lsoa21nm": "East Riding of Yorkshire 038C"
   },
   "2200YEA12104": {
     "stop_id": "2200YEA12104",
@@ -14334,10 +14334,10 @@
     "stop_name": "Elloughton Stockbridge Rd",
     "stop_lon": -0.57975,
     "stop_lat": 53.741488,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU15 1HN",
+    "oa21cd": "E00065407",
+    "lsoa21cd": "E01012970",
+    "lsoa21nm": "East Riding of Yorkshire 032A"
   },
   "2200YEA12092": {
     "stop_id": "2200YEA12092",
@@ -15334,10 +15334,10 @@
     "stop_name": "Newport Main Road",
     "stop_lon": -0.690845,
     "stop_lat": 53.765953,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU15 2RH",
+    "oa21cd": "E00065708",
+    "lsoa21cd": "E01013019",
+    "lsoa21nm": "East Riding of Yorkshire 026B"
   },
   "2200YEA12103": {
     "stop_id": "2200YEA12103",
@@ -15354,10 +15354,10 @@
     "stop_name": "Newport Main Road",
     "stop_lon": -0.691108,
     "stop_lat": 53.765785,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU15 2RH",
+    "oa21cd": "E00065708",
+    "lsoa21cd": "E01013019",
+    "lsoa21nm": "East Riding of Yorkshire 026B"
   },
   "2200YEA12100": {
     "stop_id": "2200YEA12100",
@@ -15634,20 +15634,20 @@
     "stop_name": "Nr Ellerker Brantingham Rd",
     "stop_lon": -0.590695,
     "stop_lat": 53.755163,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU15 2DD",
+    "oa21cd": "E00065406",
+    "lsoa21cd": "E01012969",
+    "lsoa21nm": "East Riding of Yorkshire 024E"
   },
   "2200YEA00853": {
     "stop_id": "2200YEA00853",
     "stop_name": "Nr Ellerker South Cave Rd",
     "stop_lon": -0.591382,
     "stop_lat": 53.755945,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU15 2DD",
+    "oa21cd": "E00065406",
+    "lsoa21cd": "E01012969",
+    "lsoa21nm": "East Riding of Yorkshire 024E"
   },
   "2290YHA00175": {
     "stop_id": "2290YHA00175",
@@ -15824,10 +15824,10 @@
     "stop_name": "South Hunsley School (inside grounds)",
     "stop_lon": -0.538493,
     "stop_lat": 53.728354,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU14 3HS",
+    "oa21cd": "E00175361",
+    "lsoa21cd": "E01013092",
+    "lsoa21nm": "East Riding of Yorkshire 032F"
   },
   "2290YHA00179": {
     "stop_id": "2290YHA00179",
@@ -15924,20 +15924,20 @@
     "stop_name": "Wolds HMP Entrance",
     "stop_lon": -0.635006,
     "stop_lat": 53.7704,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU15 1RB",
+    "oa21cd": "E00185508",
+    "lsoa21cd": "E01013019",
+    "lsoa21nm": "East Riding of Yorkshire 026B"
   },
   "2200YEA11851": {
     "stop_id": "2200YEA11851",
     "stop_name": "Wolds Prison",
     "stop_lon": -0.634883,
     "stop_lat": 53.770461,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU15 1RB",
+    "oa21cd": "E00185508",
+    "lsoa21cd": "E01013019",
+    "lsoa21nm": "East Riding of Yorkshire 026B"
   },
   "2290YHA01530": {
     "stop_id": "2290YHA01530",
@@ -17074,10 +17074,10 @@
     "stop_name": "Seamer Road Park and Ride Site",
     "stop_lon": -0.417237,
     "stop_lat": 54.255773,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO12 4LL",
+    "oa21cd": "E00171034",
+    "lsoa21cd": "E01027860",
+    "lsoa21nm": "Scarborough 012E"
   },
   "3200YNA96870": {
     "stop_id": "3200YNA96870",
@@ -17114,20 +17114,20 @@
     "stop_name": "Discovery Centre",
     "stop_lon": 0.144986,
     "stop_lat": 53.610195,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU12 0UH",
+    "oa21cd": "E00065993",
+    "lsoa21cd": "E01013087",
+    "lsoa21nm": "East Riding of Yorkshire 039F"
   },
   "2200YEZ01305": {
     "stop_id": "2200YEZ01305",
     "stop_name": "Easington Caravan Park",
     "stop_lon": 0.123299,
     "stop_lat": 53.648286,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU12 0TY",
+    "oa21cd": "E00065992",
+    "lsoa21cd": "E01013087",
+    "lsoa21nm": "East Riding of Yorkshire 039F"
   },
   "2200YEA00912": {
     "stop_id": "2200YEA00912",
@@ -17204,10 +17204,10 @@
     "stop_name": "Hollym Long Farm",
     "stop_lon": 0.023517,
     "stop_lat": 53.697688,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU19 2QL",
+    "oa21cd": "E00066009",
+    "lsoa21cd": "E01013079",
+    "lsoa21nm": "East Riding of Yorkshire 039A"
   },
   "2200YEA11848": {
     "stop_id": "2200YEA11848",
@@ -17224,20 +17224,20 @@
     "stop_name": "Hollym Toffling Farm",
     "stop_lon": 0.023292,
     "stop_lat": 53.697728,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU19 2QL",
+    "oa21cd": "E00066009",
+    "lsoa21cd": "E01013079",
+    "lsoa21nm": "East Riding of Yorkshire 039A"
   },
   "2200YEA00923": {
     "stop_id": "2200YEA00923",
     "stop_name": "Hollym Toffling Farm",
     "stop_lon": 0.018451,
     "stop_lat": 53.696605,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU19 2QL",
+    "oa21cd": "E00066009",
+    "lsoa21cd": "E01013079",
+    "lsoa21nm": "East Riding of Yorkshire 039A"
   },
   "2200YEA00910": {
     "stop_id": "2200YEA00910",
@@ -17614,20 +17614,20 @@
     "stop_name": "Camerton Main Road",
     "stop_lon": -0.152355,
     "stop_lat": 53.719444,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU12 9NQ",
+    "oa21cd": "E00066108",
+    "lsoa21cd": "E01013100",
+    "lsoa21nm": "East Riding of Yorkshire 033D"
   },
   "2200YEA01674": {
     "stop_id": "2200YEA01674",
     "stop_name": "Camerton Main Road",
     "stop_lon": -0.152573,
     "stop_lat": 53.719303,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU12 9NQ",
+    "oa21cd": "E00066108",
+    "lsoa21cd": "E01013100",
+    "lsoa21nm": "East Riding of Yorkshire 033D"
   },
   "2200YEA00901": {
     "stop_id": "2200YEA00901",
@@ -17644,20 +17644,20 @@
     "stop_name": "Camerton Red Stacks",
     "stop_lon": -0.150137,
     "stop_lat": 53.719904,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU12 9JN",
+    "oa21cd": "E00066108",
+    "lsoa21cd": "E01013100",
+    "lsoa21nm": "East Riding of Yorkshire 033D"
   },
   "2200YEA12053": {
     "stop_id": "2200YEA12053",
     "stop_name": "Camerton Red Stacks",
     "stop_lon": -0.150482,
     "stop_lat": 53.71999,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU12 9JN",
+    "oa21cd": "E00066108",
+    "lsoa21cd": "E01013100",
+    "lsoa21nm": "East Riding of Yorkshire 033D"
   },
   "2200YEA12052": {
     "stop_id": "2200YEA12052",
@@ -17854,10 +17854,10 @@
     "stop_name": "Hedon Thorn Road",
     "stop_lon": -0.188271,
     "stop_lat": 53.727624,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU12 8BB",
+    "oa21cd": "E00066107",
+    "lsoa21cd": "E01013100",
+    "lsoa21nm": "East Riding of Yorkshire 033D"
   },
   "2200YEA00322": {
     "stop_id": "2200YEA00322",
@@ -17874,10 +17874,10 @@
     "stop_name": "Hedon Thorn Road",
     "stop_lon": -0.188134,
     "stop_lat": 53.727631,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU12 8BB",
+    "oa21cd": "E00066107",
+    "lsoa21cd": "E01013100",
+    "lsoa21nm": "East Riding of Yorkshire 033D"
   },
   "2200YEA00308": {
     "stop_id": "2200YEA00308",
@@ -17974,10 +17974,10 @@
     "stop_name": "Keyingham A1033",
     "stop_lon": -0.09835,
     "stop_lat": 53.706103,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU12 9DP",
+    "oa21cd": "E00065998",
+    "lsoa21cd": "E01013081",
+    "lsoa21nm": "East Riding of Yorkshire 031C"
   },
   "2200YEA01643": {
     "stop_id": "2200YEA01643",
@@ -17994,10 +17994,10 @@
     "stop_name": "Keyingham Hull Road",
     "stop_lon": -0.126722,
     "stop_lat": 53.708285,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU12 9SU",
+    "oa21cd": "E00066000",
+    "lsoa21cd": "E01013081",
+    "lsoa21nm": "East Riding of Yorkshire 031C"
   },
   "2200YEA01642": {
     "stop_id": "2200YEA01642",
@@ -18064,10 +18064,10 @@
     "stop_name": "Keyingham Ottringham Rd",
     "stop_lon": -0.098521,
     "stop_lat": 53.706016,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU12 9DP",
+    "oa21cd": "E00065998",
+    "lsoa21cd": "E01013081",
+    "lsoa21nm": "East Riding of Yorkshire 031C"
   },
   "2200YEA00364": {
     "stop_id": "2200YEA00364",
@@ -18174,20 +18174,20 @@
     "stop_name": "Ottringham A1033",
     "stop_lon": -0.087975,
     "stop_lat": 53.704032,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU12 0AL",
+    "oa21cd": "E00066006",
+    "lsoa21cd": "E01013081",
+    "lsoa21nm": "East Riding of Yorkshire 031C"
   },
   "2200YEA12043": {
     "stop_id": "2200YEA12043",
     "stop_name": "Ottringham Keyingham Road",
     "stop_lon": -0.087727,
     "stop_lat": 53.704154,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU12 0AL",
+    "oa21cd": "E00066006",
+    "lsoa21cd": "E01013081",
+    "lsoa21nm": "East Riding of Yorkshire 031C"
   },
   "2200YEA00350": {
     "stop_id": "2200YEA00350",
@@ -18204,20 +18204,20 @@
     "stop_name": "Patrington Fairview Lodges",
     "stop_lon": 0.010055,
     "stop_lat": 53.693977,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU19 2QL",
+    "oa21cd": "E00066009",
+    "lsoa21cd": "E01013079",
+    "lsoa21nm": "East Riding of Yorkshire 039A"
   },
   "2200YEA12040": {
     "stop_id": "2200YEA12040",
     "stop_name": "Patrington Fairview Lodges",
     "stop_lon": 0.010289,
     "stop_lat": 53.693802,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU19 2QL",
+    "oa21cd": "E00066009",
+    "lsoa21cd": "E01013079",
+    "lsoa21nm": "East Riding of Yorkshire 039A"
   },
   "2200YEA00349": {
     "stop_id": "2200YEA00349",
@@ -18244,20 +18244,20 @@
     "stop_name": "Patrington Station Road",
     "stop_lon": -0.022167,
     "stop_lat": 53.687735,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU12 0NE",
+    "oa21cd": "E00066007",
+    "lsoa21cd": "E01013079",
+    "lsoa21nm": "East Riding of Yorkshire 039A"
   },
   "2200YEA00356": {
     "stop_id": "2200YEA00356",
     "stop_name": "Patrington Station Road",
     "stop_lon": -0.022028,
     "stop_lat": 53.687805,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU12 0NE",
+    "oa21cd": "E00066007",
+    "lsoa21cd": "E01013079",
+    "lsoa21nm": "East Riding of Yorkshire 039A"
   },
   "2200YEA00354": {
     "stop_id": "2200YEA00354",
@@ -18524,10 +18524,10 @@
     "stop_name": "Thorngumbald Main Road",
     "stop_lon": -0.185506,
     "stop_lat": 53.724598,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU12 8BA",
+    "oa21cd": "E00066107",
+    "lsoa21cd": "E01013100",
+    "lsoa21nm": "East Riding of Yorkshire 033D"
   },
   "2200YEA00331": {
     "stop_id": "2200YEA00331",
@@ -18544,10 +18544,10 @@
     "stop_name": "Thorngumbald Villa Lane",
     "stop_lon": -0.185557,
     "stop_lat": 53.724473,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU12 8BA",
+    "oa21cd": "E00066107",
+    "lsoa21cd": "E01013100",
+    "lsoa21nm": "East Riding of Yorkshire 033D"
   },
   "2290YHA00557": {
     "stop_id": "2290YHA00557",
@@ -18584,10 +18584,10 @@
     "stop_name": "Winestead A1033",
     "stop_lon": -0.035725,
     "stop_lat": 53.696777,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU12 0NN",
+    "oa21cd": "E00066009",
+    "lsoa21cd": "E01013079",
+    "lsoa21nm": "East Riding of Yorkshire 039A"
   },
   "2200YEA12042": {
     "stop_id": "2200YEA12042",
@@ -18604,10 +18604,10 @@
     "stop_name": "Winestead Ings Lane",
     "stop_lon": -0.048609,
     "stop_lat": 53.696601,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU12 0NL",
+    "oa21cd": "E00066009",
+    "lsoa21cd": "E01013079",
+    "lsoa21nm": "East Riding of Yorkshire 039A"
   },
   "2200YEA00361": {
     "stop_id": "2200YEA00361",
@@ -18624,20 +18624,20 @@
     "stop_name": "Winstead Park Lane",
     "stop_lon": -0.048571,
     "stop_lat": 53.696448,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU12 0NL",
+    "oa21cd": "E00066009",
+    "lsoa21cd": "E01013079",
+    "lsoa21nm": "East Riding of Yorkshire 039A"
   },
   "2200YEA00360": {
     "stop_id": "2200YEA00360",
     "stop_name": "Winstead Winstead Road",
     "stop_lon": -0.035731,
     "stop_lat": 53.696651,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU12 0NN",
+    "oa21cd": "E00066009",
+    "lsoa21cd": "E01013079",
+    "lsoa21nm": "East Riding of Yorkshire 039A"
   },
   "2200YEA00023": {
     "stop_id": "2200YEA00023",
@@ -18754,20 +18754,20 @@
     "stop_name": "Ryehill",
     "stop_lon": -0.148526,
     "stop_lat": 53.718639,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU12 9NH",
+    "oa21cd": "E00066110",
+    "lsoa21cd": "E01013100",
+    "lsoa21nm": "East Riding of Yorkshire 033D"
   },
   "2200YEA00373": {
     "stop_id": "2200YEA00373",
     "stop_name": "Ryehill",
     "stop_lon": -0.148072,
     "stop_lat": 53.718263,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU12 9NH",
+    "oa21cd": "E00066110",
+    "lsoa21cd": "E01013100",
+    "lsoa21nm": "East Riding of Yorkshire 033D"
   },
   "2200YEA00371": {
     "stop_id": "2200YEA00371",
@@ -18794,10 +18794,10 @@
     "stop_name": "Salt End Hull Road",
     "stop_lon": -0.235476,
     "stop_lat": 53.742811,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU12 8PP",
+    "oa21cd": "E00066098",
+    "lsoa21cd": "E01013096",
+    "lsoa21nm": "East Riding of Yorkshire 029C"
   },
   "2290YHA00544": {
     "stop_id": "2290YHA00544",
@@ -19364,10 +19364,10 @@
     "stop_name": "Preston Station Road",
     "stop_lon": -0.197645,
     "stop_lat": 53.750167,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU12 8UZ",
+    "oa21cd": "E00066105",
+    "lsoa21cd": "E01013094",
+    "lsoa21nm": "East Riding of Yorkshire 029A"
   },
   "2200YEA00886": {
     "stop_id": "2200YEA00886",
@@ -20054,30 +20054,30 @@
     "stop_name": "Barton Hill",
     "stop_lon": -0.916508845,
     "stop_lat": 54.072572431,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO60 7JX",
+    "oa21cd": "E00189804",
+    "lsoa21cd": "E01027797",
+    "lsoa21nm": "Ryedale 007D"
   },
   "3200YNF10330": {
     "stop_id": "3200YNF10330",
     "stop_name": "Barton Hill",
     "stop_lon": -0.916444115,
     "stop_lat": 54.072258705,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO60 7JX",
+    "oa21cd": "E00189804",
+    "lsoa21cd": "E01027797",
+    "lsoa21nm": "Ryedale 007D"
   },
   "3200YNF10381": {
     "stop_id": "3200YNF10381",
     "stop_name": "Barton Moor, Jinnah Restaurant, adj",
     "stop_lon": -0.935752179,
     "stop_lat": 54.05587507,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO60 7SJ",
+    "oa21cd": "E00141600",
+    "lsoa21cd": "E01027799",
+    "lsoa21nm": "Ryedale 007E"
   },
   "3200YNE04393": {
     "stop_id": "3200YNE04393",
@@ -20134,40 +20134,40 @@
     "stop_name": "Claxton Lane End, opp",
     "stop_lon": -0.959751478,
     "stop_lat": 54.031132917,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO60 7RE",
+    "oa21cd": "E00141588",
+    "lsoa21cd": "E01027797",
+    "lsoa21nm": "Ryedale 007D"
   },
   "3200YNF10379": {
     "stop_id": "3200YNF10379",
     "stop_name": "Claxton, Flaxton Lane End, adj",
     "stop_lon": -0.95234115,
     "stop_lat": 54.039527619,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO60 7RD",
+    "oa21cd": "E00141588",
+    "lsoa21cd": "E01027797",
+    "lsoa21nm": "Ryedale 007D"
   },
   "3200YNA96930": {
     "stop_id": "3200YNA96930",
     "stop_name": "Claxton, Foxhill Park, adj",
     "stop_lon": -0.943900049,
     "stop_lat": 54.038788683,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO60 7RY",
+    "oa21cd": "E00141588",
+    "lsoa21cd": "E01027797",
+    "lsoa21nm": "Ryedale 007D"
   },
   "3200YNA96929": {
     "stop_id": "3200YNA96929",
     "stop_name": "Claxton, Foxhill Park, opp",
     "stop_lon": -0.943917365,
     "stop_lat": 54.038707942,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO60 7RX",
+    "oa21cd": "E00141588",
+    "lsoa21cd": "E01027797",
+    "lsoa21nm": "Ryedale 007D"
   },
   "3200YNE04437": {
     "stop_id": "3200YNE04437",
@@ -20204,20 +20204,20 @@
     "stop_name": "Firby, Crambeck, NE-bound",
     "stop_lon": -0.880172188,
     "stop_lat": 54.095214654,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO60 7EJ",
+    "oa21cd": "E00141478",
+    "lsoa21cd": "E01027778",
+    "lsoa21nm": "Ryedale 007B"
   },
   "3200YNF10324": {
     "stop_id": "3200YNF10324",
     "stop_name": "Firby, Crambeck, SW-bound",
     "stop_lon": -0.879045808,
     "stop_lat": 54.095590654,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO60 7EW",
+    "oa21cd": "E00141477",
+    "lsoa21cd": "E01027778",
+    "lsoa21nm": "Ryedale 007B"
   },
   "3200YNE04381": {
     "stop_id": "3200YNE04381",
@@ -20304,20 +20304,20 @@
     "stop_name": "Hazelbush, The Four Alls, o/s",
     "stop_lon": -0.980853791,
     "stop_lat": 54.016933958,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO32 9TW",
+    "oa21cd": "E00067836",
+    "lsoa21cd": "E01013437",
+    "lsoa21nm": "York 008G"
   },
   "3290YYA01645": {
     "stop_id": "3290YYA01645",
     "stop_name": "Hazelbush, The Four Alls, opp",
     "stop_lon": -0.980008834,
     "stop_lat": 54.017160484,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO32 9TW",
+    "oa21cd": "E00067836",
+    "lsoa21cd": "E01013437",
+    "lsoa21nm": "York 008G"
   },
   "3290YYA00452": {
     "stop_id": "3290YYA00452",
@@ -20544,10 +20544,10 @@
     "stop_name": "High Hutton, Huttons Ambo Lane End, SW-bound",
     "stop_lon": -0.855140111,
     "stop_lat": 54.108011821,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO60 7HU",
+    "oa21cd": "E00141471",
+    "lsoa21cd": "E01027778",
+    "lsoa21nm": "Ryedale 007B"
   },
   "3290YYA00998": {
     "stop_id": "3290YYA00998",
@@ -20584,10 +20584,10 @@
     "stop_name": "Jinnah Restaurant",
     "stop_lon": -0.935649402,
     "stop_lat": 54.055712376,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO60 7SJ",
+    "oa21cd": "E00141600",
+    "lsoa21cd": "E01027799",
+    "lsoa21nm": "Ryedale 007E"
   },
   "3200YNE04383": {
     "stop_id": "3200YNE04383",
@@ -21184,20 +21184,20 @@
     "stop_name": "Bridge Hewick, Racecourse, adj",
     "stop_lon": -1.499783,
     "stop_lat": 54.12783,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HG4 1AB",
+    "oa21cd": "E00141102",
+    "lsoa21cd": "E01027707",
+    "lsoa21nm": "Harrogate 004C"
   },
   "3200YNA01349": {
     "stop_id": "3200YNA01349",
     "stop_name": "Bridge Hewick, Racecourse, opp",
     "stop_lon": -1.499705,
     "stop_lat": 54.127937,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HG4 1AB",
+    "oa21cd": "E00141102",
+    "lsoa21cd": "E01027707",
+    "lsoa21nm": "Harrogate 004C"
   },
   "3200YNA01310": {
     "stop_id": "3200YNA01310",
@@ -21274,10 +21274,10 @@
     "stop_name": "Dishforth Airfield, Main Gates, adj",
     "stop_lon": -1.408306,
     "stop_lat": 54.13749,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO7 3YA",
+    "oa21cd": "E00141253",
+    "lsoa21cd": "E01027737",
+    "lsoa21nm": "Harrogate 003D"
   },
   "3200YNA01319": {
     "stop_id": "3200YNA01319",
@@ -21304,20 +21304,20 @@
     "stop_name": "Great Ouseburn, Boat Lane, adj",
     "stop_lon": -1.308907,
     "stop_lat": 54.045574,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO26 9SH",
+    "oa21cd": "E00141050",
+    "lsoa21cd": "E01027695",
+    "lsoa21nm": "Harrogate 016C"
   },
   "3200YNA01377": {
     "stop_id": "3200YNA01377",
     "stop_name": "Great Ouseburn, Boat Lane, E-bound",
     "stop_lon": -1.308754,
     "stop_lat": 54.045609,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO26 9SH",
+    "oa21cd": "E00141050",
+    "lsoa21cd": "E01027695",
+    "lsoa21nm": "Harrogate 016C"
   },
   "3200YNA01370": {
     "stop_id": "3200YNA01370",
@@ -21894,20 +21894,20 @@
     "stop_name": "Marton-le-Moor, Moor Lane Junction, NE-bound",
     "stop_lon": -1.419432,
     "stop_lat": 54.12445,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO51 9DP",
+    "oa21cd": "E00141017",
+    "lsoa21cd": "E01027688",
+    "lsoa21nm": "Harrogate 003B"
   },
   "3200YNA01314": {
     "stop_id": "3200YNA01314",
     "stop_name": "Marton-le-Moor, Moor Lane Junction, NW-bound",
     "stop_lon": -1.418366,
     "stop_lat": 54.124112,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO51 9DP",
+    "oa21cd": "E00141017",
+    "lsoa21cd": "E01027688",
+    "lsoa21nm": "Harrogate 003B"
   },
   "3200YND57580": {
     "stop_id": "3200YND57580",
@@ -22254,10 +22254,10 @@
     "stop_name": "Ure Bank, North Bridge, SE-bound",
     "stop_lon": -1.514439,
     "stop_lat": 54.14387,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HG4 1HX",
+    "oa21cd": "E00141110",
+    "lsoa21cd": "E01027705",
+    "lsoa21nm": "Harrogate 004A"
   },
   "3200YNA91060": {
     "stop_id": "3200YNA91060",
@@ -22514,20 +22514,20 @@
     "stop_name": "Airmyn Ferry Lane",
     "stop_lon": -0.893266,
     "stop_lat": 53.722987,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "DN14 8LS",
+    "oa21cd": "E00065963",
+    "lsoa21cd": "E01013074",
+    "lsoa21nm": "East Riding of Yorkshire 040E"
   },
   "2200YEA12115": {
     "stop_id": "2200YEA12115",
     "stop_name": "Airmyn Ferry Lane",
     "stop_lon": -0.893202,
     "stop_lat": 53.72313,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "DN14 8LS",
+    "oa21cd": "E00065963",
+    "lsoa21cd": "E01013074",
+    "lsoa21nm": "East Riding of Yorkshire 040E"
   },
   "2200YEA00712": {
     "stop_id": "2200YEA00712",
@@ -22674,10 +22674,10 @@
     "stop_name": "Rawcliffe Bridge Lane",
     "stop_lon": -0.958606,
     "stop_lat": 53.687213,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "DN14 8NJ",
+    "oa21cd": "E00065974",
+    "lsoa21cd": "E01013072",
+    "lsoa21nm": "East Riding of Yorkshire 042A"
   },
   "2200YEA00202": {
     "stop_id": "2200YEA00202",
@@ -23904,10 +23904,10 @@
     "stop_name": "Owl Lane Hall Close",
     "stop_lon": -1.597978234,
     "stop_lat": 53.697922324,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "WF12 7SY",
+    "oa21cd": "E00178683",
+    "lsoa21cd": "E01011126",
+    "lsoa21nm": "Kirklees 014C"
   },
   "450020485": {
     "stop_id": "450020485",
@@ -24734,20 +24734,20 @@
     "stop_name": "Sinnington Lane End",
     "stop_lon": -0.858080154,
     "stop_lat": 54.258066378,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO62 6RA",
+    "oa21cd": "E00141613",
+    "lsoa21cd": "E01027800",
+    "lsoa21nm": "Ryedale 003D"
   },
   "3200YNA91091": {
     "stop_id": "3200YNA91091",
     "stop_name": "Sinnington Road End",
     "stop_lon": -0.858280909,
     "stop_lat": 54.25802334,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO62 6RA",
+    "oa21cd": "E00141613",
+    "lsoa21cd": "E01027800",
+    "lsoa21nm": "Ryedale 003D"
   },
   "3200YNA01080": {
     "stop_id": "3200YNA01080",
@@ -24774,40 +24774,40 @@
     "stop_name": "Snainton Coachman Inn",
     "stop_lon": -0.598842658,
     "stop_lat": 54.228538882,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO13 9PL",
+    "oa21cd": "E00141699",
+    "lsoa21cd": "E01027815",
+    "lsoa21nm": "Scarborough 013B"
   },
   "3200YNA96998": {
     "stop_id": "3200YNA96998",
     "stop_name": "Snainton Coachman Inn",
     "stop_lon": -0.598480103,
     "stop_lat": 54.22837288,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO13 9PL",
+    "oa21cd": "E00141699",
+    "lsoa21cd": "E01027815",
+    "lsoa21nm": "Scarborough 013B"
   },
   "3200YNA97040": {
     "stop_id": "3200YNA97040",
     "stop_name": "Snainton Golf Centre",
     "stop_lon": -0.609232737,
     "stop_lat": 54.22658296,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO13 9PG",
+    "oa21cd": "E00141615",
+    "lsoa21cd": "E01027802",
+    "lsoa21nm": "Ryedale 002F"
   },
   "3200YNA97041": {
     "stop_id": "3200YNA97041",
     "stop_name": "Snainton Golf Centre",
     "stop_lon": -0.609566766,
     "stop_lat": 54.226685684,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO13 9PG",
+    "oa21cd": "E00141615",
+    "lsoa21cd": "E01027802",
+    "lsoa21nm": "Ryedale 002F"
   },
   "3200YNA96997": {
     "stop_id": "3200YNA96997",
@@ -25004,20 +25004,20 @@
     "stop_name": "Welburn Hall School",
     "stop_lon": -0.959111999,
     "stop_lat": 54.256005866,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO62 7HG",
+    "oa21cd": "E00141510",
+    "lsoa21cd": "E01027783",
+    "lsoa21nm": "Ryedale 001C"
   },
   "3200YNA97002": {
     "stop_id": "3200YNA97002",
     "stop_name": "Welburn Hall School",
     "stop_lon": -0.958849289,
     "stop_lat": 54.2560755,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO62 7HG",
+    "oa21cd": "E00141510",
+    "lsoa21cd": "E01027783",
+    "lsoa21nm": "Ryedale 001C"
   },
   "3200YNA01073": {
     "stop_id": "3200YNA01073",
@@ -25234,20 +25234,20 @@
     "stop_name": "Bewick Corner",
     "stop_lon": -0.122889,
     "stop_lat": 53.836487,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU11 4FE",
+    "oa21cd": "E00065723",
+    "lsoa21cd": "E01013029",
+    "lsoa21nm": "East Riding of Yorkshire 021A"
   },
   "2200YEZ01390": {
     "stop_id": "2200YEZ01390",
     "stop_name": "Bewick Corner",
     "stop_lon": -0.122476,
     "stop_lat": 53.836202,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU11 4FE",
+    "oa21cd": "E00065723",
+    "lsoa21cd": "E01013029",
+    "lsoa21nm": "East Riding of Yorkshire 021A"
   },
   "2200YEZ01389": {
     "stop_id": "2200YEZ01389",
@@ -25434,20 +25434,20 @@
     "stop_name": "Rolston",
     "stop_lon": -0.151731,
     "stop_lat": 53.890744,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU18 1XH",
+    "oa21cd": "E00065854",
+    "lsoa21cd": "E01013050",
+    "lsoa21nm": "East Riding of Yorkshire 012D"
   },
   "2200YEA01232": {
     "stop_id": "2200YEA01232",
     "stop_name": "Rolston",
     "stop_lon": -0.15206,
     "stop_lat": 53.890884,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU18 1XH",
+    "oa21cd": "E00065854",
+    "lsoa21cd": "E01013050",
+    "lsoa21nm": "East Riding of Yorkshire 012D"
   },
   "2200YEA01233": {
     "stop_id": "2200YEA01233",
@@ -25474,20 +25474,20 @@
     "stop_name": "Rolston Main Road",
     "stop_lon": -0.155452,
     "stop_lat": 53.891952,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU18 1XH",
+    "oa21cd": "E00065854",
+    "lsoa21cd": "E01013050",
+    "lsoa21nm": "East Riding of Yorkshire 012D"
   },
   "2200YEA01229": {
     "stop_id": "2200YEA01229",
     "stop_name": "Rolston Main Road",
     "stop_lon": -0.155795,
     "stop_lat": 53.89211,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU18 1XH",
+    "oa21cd": "E00065854",
+    "lsoa21cd": "E01013050",
+    "lsoa21nm": "East Riding of Yorkshire 012D"
   },
   "2200YEA00709": {
     "stop_id": "2200YEA00709",
@@ -25554,10 +25554,10 @@
     "stop_name": "Sand Le Mere Caravan Park",
     "stop_lon": -0.014886,
     "stop_lat": 53.76071,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU12 0JH",
+    "oa21cd": "E00066017",
+    "lsoa21cd": "E01013078",
+    "lsoa21nm": "East Riding of Yorkshire 031B"
   },
   "2200YEA00904": {
     "stop_id": "2200YEA00904",
@@ -25584,20 +25584,20 @@
     "stop_name": "Barmston Lane End",
     "stop_lon": -0.238024,
     "stop_lat": 54.013421,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO25 8PQ",
+    "oa21cd": "E00065500",
+    "lsoa21cd": "E01012992",
+    "lsoa21nm": "East Riding of Yorkshire 006D"
   },
   "2200YEZ01345": {
     "stop_id": "2200YEZ01345",
     "stop_name": "Barmston Lane End",
     "stop_lon": -0.238802,
     "stop_lat": 54.01345,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO25 8PQ",
+    "oa21cd": "E00065500",
+    "lsoa21cd": "E01012992",
+    "lsoa21nm": "East Riding of Yorkshire 006D"
   },
   "2200YEA01135": {
     "stop_id": "2200YEA01135",
@@ -25624,10 +25624,10 @@
     "stop_name": "Fraisthorpe Lane End",
     "stop_lon": -0.241944,
     "stop_lat": 54.041721,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO15 3QT",
+    "oa21cd": "E00065500",
+    "lsoa21cd": "E01012992",
+    "lsoa21nm": "East Riding of Yorkshire 006D"
   },
   "2200YEA01123": {
     "stop_id": "2200YEA01123",
@@ -25794,20 +25794,20 @@
     "stop_name": "Bridlington Carnaby Ind Est",
     "stop_lon": -0.249745,
     "stop_lat": 54.06215,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO15 3QA",
+    "oa21cd": "E00065512",
+    "lsoa21cd": "E01012992",
+    "lsoa21nm": "East Riding of Yorkshire 006D"
   },
   "2200YEA01141": {
     "stop_id": "2200YEA01141",
     "stop_name": "Bridlington Carnaby Ind Est",
     "stop_lon": -0.245507,
     "stop_lat": 54.063365,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO15 3QQ",
+    "oa21cd": "E00065512",
+    "lsoa21cd": "E01012992",
+    "lsoa21nm": "East Riding of Yorkshire 006D"
   },
   "2200YEA00491": {
     "stop_id": "2200YEA00491",
@@ -25844,30 +25844,30 @@
     "stop_name": "Carnaby Industrial Estate",
     "stop_lon": -0.252854,
     "stop_lat": 54.06162,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO15 3QY",
+    "oa21cd": "E00065512",
+    "lsoa21cd": "E01012992",
+    "lsoa21nm": "East Riding of Yorkshire 006D"
   },
   "2200YEA01144": {
     "stop_id": "2200YEA01144",
     "stop_name": "Carnaby Industrial Estate",
     "stop_lon": -0.252399,
     "stop_lat": 54.061532,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO15 3QY",
+    "oa21cd": "E00065512",
+    "lsoa21cd": "E01012992",
+    "lsoa21nm": "East Riding of Yorkshire 006D"
   },
   "2200YEA01143": {
     "stop_id": "2200YEA01143",
     "stop_name": "Carnaby Industrial Estate",
     "stop_lon": -0.249999,
     "stop_lat": 54.062298,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO15 3QA",
+    "oa21cd": "E00065512",
+    "lsoa21cd": "E01012992",
+    "lsoa21nm": "East Riding of Yorkshire 006D"
   },
   "2200YEZ01347": {
     "stop_id": "2200YEZ01347",
@@ -25884,40 +25884,40 @@
     "stop_name": "Carnaby Industrial Estate",
     "stop_lon": -0.245578,
     "stop_lat": 54.063141,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO15 3QQ",
+    "oa21cd": "E00065512",
+    "lsoa21cd": "E01012992",
+    "lsoa21nm": "East Riding of Yorkshire 006D"
   },
   "2200YEA00604": {
     "stop_id": "2200YEA00604",
     "stop_name": "Carnaby Industrial Estate",
     "stop_lon": -0.242382,
     "stop_lat": 54.064263,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO16 4UZ",
+    "oa21cd": "E00065512",
+    "lsoa21cd": "E01012992",
+    "lsoa21nm": "East Riding of Yorkshire 006D"
   },
   "2200YEA00603": {
     "stop_id": "2200YEA00603",
     "stop_name": "Carnaby Industrial Estate",
     "stop_lon": -0.242097,
     "stop_lat": 54.064151,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO15 3QG",
+    "oa21cd": "E00065512",
+    "lsoa21cd": "E01012992",
+    "lsoa21nm": "East Riding of Yorkshire 006D"
   },
   "2200YEA11804": {
     "stop_id": "2200YEA11804",
     "stop_name": "South Shore Holiday Village",
     "stop_lon": -0.222353,
     "stop_lat": 54.067034,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO15 3QN",
+    "oa21cd": "E00065324",
+    "lsoa21cd": "E01012950",
+    "lsoa21nm": "East Riding of Yorkshire 006A"
   },
   "2200YEZ01359": {
     "stop_id": "2200YEZ01359",
@@ -26014,20 +26014,20 @@
     "stop_name": "Brigham Cross Roads",
     "stop_lon": -0.350259,
     "stop_lat": 53.974159,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO25 8JP",
+    "oa21cd": "E00065513",
+    "lsoa21cd": "E01012987",
+    "lsoa21nm": "East Riding of Yorkshire 010B"
   },
   "2200YEZ01342": {
     "stop_id": "2200YEZ01342",
     "stop_name": "Brigham Cross Roads",
     "stop_lon": -0.349591,
     "stop_lat": 53.973314,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO25 8JP",
+    "oa21cd": "E00065513",
+    "lsoa21cd": "E01012987",
+    "lsoa21nm": "East Riding of Yorkshire 010B"
   },
   "2200YEA11883": {
     "stop_id": "2200YEA11883",
@@ -26184,10 +26184,10 @@
     "stop_name": "Bainton Middleton Road",
     "stop_lon": -0.54459,
     "stop_lat": 53.939952,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO25 9BS",
+    "oa21cd": "E00065452",
+    "lsoa21cd": "E01012981",
+    "lsoa21nm": "East Riding of Yorkshire 008B"
   },
   "2200YEA00605": {
     "stop_id": "2200YEA00605",
@@ -26224,30 +26224,30 @@
     "stop_name": "Cherry Burton Etton Road",
     "stop_lon": -0.503319,
     "stop_lat": 53.868416,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU17 7RP",
+    "oa21cd": "E00065173",
+    "lsoa21cd": "E01012925",
+    "lsoa21nm": "East Riding of Yorkshire 013C"
   },
   "2200YEA01015": {
     "stop_id": "2200YEA01015",
     "stop_name": "Cherry Burton Etton Road",
     "stop_lon": -0.50381,
     "stop_lat": 53.868287,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU17 7RP",
+    "oa21cd": "E00065173",
+    "lsoa21cd": "E01012925",
+    "lsoa21nm": "East Riding of Yorkshire 013C"
   },
   "2200YEA01017": {
     "stop_id": "2200YEA01017",
     "stop_name": "Cherry Burton Main Street",
     "stop_lon": -0.485858,
     "stop_lat": 53.865087,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU17 7LJ",
+    "oa21cd": "E00065171",
+    "lsoa21cd": "E01012927",
+    "lsoa21nm": "East Riding of Yorkshire 013D"
   },
   "2200YEA00508": {
     "stop_id": "2200YEA00508",
@@ -26504,20 +26504,20 @@
     "stop_name": "Brantingham Park",
     "stop_lon": -0.571311,
     "stop_lat": 53.745783,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU15 1LL",
+    "oa21cd": "E00065407",
+    "lsoa21cd": "E01012970",
+    "lsoa21nm": "East Riding of Yorkshire 032A"
   },
   "2200YEA11942": {
     "stop_id": "2200YEA11942",
     "stop_name": "Brantingham Park",
     "stop_lon": -0.571587,
     "stop_lat": 53.745688,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU15 1LL",
+    "oa21cd": "E00065407",
+    "lsoa21cd": "E01012970",
+    "lsoa21nm": "East Riding of Yorkshire 032A"
   },
   "2200YEA00857": {
     "stop_id": "2200YEA00857",
@@ -26694,10 +26694,10 @@
     "stop_name": "Nr Ellerker Ring Beck Ln",
     "stop_lon": -0.589715,
     "stop_lat": 53.756347,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU15 2DD",
+    "oa21cd": "E00065406",
+    "lsoa21cd": "E01012969",
+    "lsoa21nm": "East Riding of Yorkshire 024E"
   },
   "2200YEA11803": {
     "stop_id": "2200YEA11803",
@@ -26894,10 +26894,10 @@
     "stop_name": "Skidby (Roundabout)",
     "stop_lon": -0.451326,
     "stop_lat": 53.789984,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU16 5UG",
+    "oa21cd": "E00065438",
+    "lsoa21cd": "E01012966",
+    "lsoa21nm": "East Riding of Yorkshire 022E"
   },
   "2200YEA00251": {
     "stop_id": "2200YEA00251",
@@ -26944,10 +26944,10 @@
     "stop_name": "Swanland West Leys Road",
     "stop_lon": -0.498445,
     "stop_lat": 53.730483,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU14 3JN",
+    "oa21cd": "E00066053",
+    "lsoa21cd": "E01013088",
+    "lsoa21nm": "East Riding of Yorkshire 035A"
   },
   "2200YEA01517": {
     "stop_id": "2200YEA01517",
@@ -26974,10 +26974,10 @@
     "stop_name": "Driffield A614",
     "stop_lon": -0.46764,
     "stop_lat": 53.992711,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO25 9HH",
+    "oa21cd": "E00175353",
+    "lsoa21cd": "E01012983",
+    "lsoa21nm": "East Riding of Yorkshire 008C"
   },
   "2200YEZ01290": {
     "stop_id": "2200YEZ01290",
@@ -26994,20 +26994,20 @@
     "stop_name": "Eastburn",
     "stop_lon": -0.497222,
     "stop_lat": 53.986658,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO25 9DT",
+    "oa21cd": "E00065497",
+    "lsoa21cd": "E01012981",
+    "lsoa21nm": "East Riding of Yorkshire 008B"
   },
   "2200YEA01000": {
     "stop_id": "2200YEA01000",
     "stop_name": "Eastburn A614",
     "stop_lon": -0.497262,
     "stop_lat": 53.986829,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO25 9DT",
+    "oa21cd": "E00065497",
+    "lsoa21cd": "E01012981",
+    "lsoa21nm": "East Riding of Yorkshire 008B"
   },
   "2200YEA11985": {
     "stop_id": "2200YEA11985",
@@ -27394,20 +27394,20 @@
     "stop_name": "Arkendale, Lane End White Cross, NW-bound",
     "stop_lon": -1.423164,
     "stop_lat": 54.049573,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HG5 0QR",
+    "oa21cd": "E00171021",
+    "lsoa21cd": "E01027647",
+    "lsoa21nm": "Harrogate 005C"
   },
   "3200YND56530": {
     "stop_id": "3200YND56530",
     "stop_name": "Arkendale, White Cross, SE-bound",
     "stop_lon": -1.422857,
     "stop_lat": 54.049689,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HG5 0QR",
+    "oa21cd": "E00171021",
+    "lsoa21cd": "E01027647",
+    "lsoa21nm": "Harrogate 005C"
   },
   "3200YNA96448": {
     "stop_id": "3200YNA96448",
@@ -27444,10 +27444,10 @@
     "stop_name": "Bishop Monkton, Low Demains, S-bound",
     "stop_lon": -1.514743,
     "stop_lat": 54.100758,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HG4 3LX",
+    "oa21cd": "E00140771",
+    "lsoa21cd": "E01027643",
+    "lsoa21nm": "Harrogate 003A"
   },
   "3200YND56250": {
     "stop_id": "3200YND56250",
@@ -27644,20 +27644,20 @@
     "stop_name": "Ferrensby, Green Lane, Adj",
     "stop_lon": -1.425568,
     "stop_lat": 54.050259,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HG5 9JT",
+    "oa21cd": "E00140801",
+    "lsoa21cd": "E01027646",
+    "lsoa21nm": "Harrogate 007B"
   },
   "3200YND56520": {
     "stop_id": "3200YND56520",
     "stop_name": "Ferrensby, Green Lane, Opp",
     "stop_lon": -1.425305,
     "stop_lat": 54.050446,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HG5 9JT",
+    "oa21cd": "E00140801",
+    "lsoa21cd": "E01027646",
+    "lsoa21nm": "Harrogate 007B"
   },
   "3200YND57340": {
     "stop_id": "3200YND57340",
@@ -28004,20 +28004,20 @@
     "stop_name": "Scotton, Lingerfield School, N-bound",
     "stop_lon": -1.493019,
     "stop_lat": 54.035022,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HG5 9JB",
+    "oa21cd": "E00140800",
+    "lsoa21cd": "E01027646",
+    "lsoa21nm": "Harrogate 007B"
   },
   "3200YND56580": {
     "stop_id": "3200YND56580",
     "stop_name": "Scotton, Lingerfield School, S-bound",
     "stop_lon": -1.492912,
     "stop_lat": 54.035031,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HG5 9JB",
+    "oa21cd": "E00140800",
+    "lsoa21cd": "E01027646",
+    "lsoa21nm": "Harrogate 007B"
   },
   "3200YND57270": {
     "stop_id": "3200YND57270",
@@ -28424,10 +28424,10 @@
     "stop_name": "Broughton, Lane End",
     "stop_lon": -0.827838,
     "stop_lat": 54.147557,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO17 6QE",
+    "oa21cd": "E00141441",
+    "lsoa21cd": "E01027774",
+    "lsoa21nm": "Ryedale 007A"
   },
   "3200YNE04648": {
     "stop_id": "3200YNE04648",
@@ -28444,20 +28444,20 @@
     "stop_name": "Fryton, Lane End",
     "stop_lon": -0.949843,
     "stop_lat": 54.163989,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO62 4AT",
+    "oa21cd": "E00141495",
+    "lsoa21cd": "E01027782",
+    "lsoa21nm": "Ryedale 007C"
   },
   "3200YNE04627": {
     "stop_id": "3200YNE04627",
     "stop_name": "Fryton, Lane End",
     "stop_lon": -0.949381,
     "stop_lat": 54.164111,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO62 4AT",
+    "oa21cd": "E00141495",
+    "lsoa21cd": "E01027782",
+    "lsoa21nm": "Ryedale 007C"
   },
   "3200YNA91219": {
     "stop_id": "3200YNA91219",
@@ -28694,20 +28694,20 @@
     "stop_name": "A1079 Wilberfoss",
     "stop_lon": -0.86716,
     "stop_lat": 53.942941,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO41 5PD",
+    "oa21cd": "E00065862",
+    "lsoa21cd": "E01013057",
+    "lsoa21nm": "East Riding of Yorkshire 009A"
   },
   "2200YEA01650": {
     "stop_id": "2200YEA01650",
     "stop_name": "A1079 Wilberfoss",
     "stop_lon": -0.866834,
     "stop_lat": 53.942615,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO41 5PD",
+    "oa21cd": "E00065862",
+    "lsoa21cd": "E01013057",
+    "lsoa21nm": "East Riding of Yorkshire 009A"
   },
   "2200YEZ01313": {
     "stop_id": "2200YEZ01313",
@@ -28864,10 +28864,10 @@
     "stop_name": "Low Farm",
     "stop_lon": -0.807256,
     "stop_lat": 53.90763,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO42 4RL",
+    "oa21cd": "E00066196",
+    "lsoa21cd": "E01013127",
+    "lsoa21nm": "East Riding of Yorkshire 018E"
   },
   "2200YEA01025": {
     "stop_id": "2200YEA01025",
@@ -29044,10 +29044,10 @@
     "stop_name": "Sutton On Derwent Main Street",
     "stop_lon": -0.927631,
     "stop_lat": 53.905988,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO41 4BT",
+    "oa21cd": "E00065900",
+    "lsoa21cd": "E01013057",
+    "lsoa21nm": "East Riding of Yorkshire 009A"
   },
   "2200YEA01032": {
     "stop_id": "2200YEA01032",
@@ -29284,10 +29284,10 @@
     "stop_name": "Grimston Lodge",
     "stop_lon": -1.020345,
     "stop_lat": 53.955505,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO19 5LA",
+    "oa21cd": "E00067749",
+    "lsoa21cd": "E01013419",
+    "lsoa21nm": "York 014C"
   },
   "3290YYA00229": {
     "stop_id": "3290YYA00229",
@@ -29504,20 +29504,20 @@
     "stop_name": "York Maze",
     "stop_lon": -0.984655,
     "stop_lat": 53.939129,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO19 5LT",
+    "oa21cd": "E00067393",
+    "lsoa21cd": "E01013351",
+    "lsoa21nm": "York 020A"
   },
   "3290YYA03596": {
     "stop_id": "3290YYA03596",
     "stop_name": "York Maze",
     "stop_lon": -0.984703,
     "stop_lat": 53.939022,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO19 5LT",
+    "oa21cd": "E00067393",
+    "lsoa21cd": "E01013351",
+    "lsoa21nm": "York 020A"
   },
   "2200YEA90001": {
     "stop_id": "2200YEA90001",
@@ -29714,20 +29714,20 @@
     "stop_name": "Warter",
     "stop_lon": -0.67273,
     "stop_lat": 53.942308,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO42 1XY",
+    "oa21cd": "E00066243",
+    "lsoa21cd": "E01013119",
+    "lsoa21nm": "East Riding of Yorkshire 011G"
   },
   "2200YEA11725": {
     "stop_id": "2200YEA11725",
     "stop_name": "Warter Pond",
     "stop_lon": -0.672758101,
     "stop_lat": 53.942390554,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO42 1XY",
+    "oa21cd": "E00066243",
+    "lsoa21cd": "E01013119",
+    "lsoa21nm": "East Riding of Yorkshire 011G"
   },
   "2200YEA01051": {
     "stop_id": "2200YEA01051",
@@ -29754,20 +29754,20 @@
     "stop_name": "Millington Heights Farm",
     "stop_lon": -0.729459,
     "stop_lat": 53.979144,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO42 1UB",
+    "oa21cd": "E00066233",
+    "lsoa21cd": "E01013119",
+    "lsoa21nm": "East Riding of Yorkshire 011G"
   },
   "2200YEA12027": {
     "stop_id": "2200YEA12027",
     "stop_name": "Millington Heights Farm",
     "stop_lon": -0.729982,
     "stop_lat": 53.979015,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO42 1UB",
+    "oa21cd": "E00066233",
+    "lsoa21cd": "E01013119",
+    "lsoa21nm": "East Riding of Yorkshire 011G"
   },
   "2200YEA11798": {
     "stop_id": "2200YEA11798",
@@ -31064,20 +31064,20 @@
     "stop_name": "Parklands",
     "stop_lon": -0.205358,
     "stop_lat": 53.785548,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU11 4DJ",
+    "oa21cd": "E00065728",
+    "lsoa21cd": "E01013031",
+    "lsoa21nm": "East Riding of Yorkshire 021C"
   },
   "2200YEA12082": {
     "stop_id": "2200YEA12082",
     "stop_name": "Parklands",
     "stop_lon": -0.204906,
     "stop_lat": 53.78653,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU11 4DJ",
+    "oa21cd": "E00065728",
+    "lsoa21cd": "E01013031",
+    "lsoa21nm": "East Riding of Yorkshire 021C"
   },
   "2200YEA00943": {
     "stop_id": "2200YEA00943",
@@ -31124,20 +31124,20 @@
     "stop_name": "Spring Valley Campsite",
     "stop_lon": -0.191707,
     "stop_lat": 53.77719,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU12 8TU",
+    "oa21cd": "E00066101",
+    "lsoa21cd": "E01013102",
+    "lsoa21nm": "East Riding of Yorkshire 029E"
   },
   "2200YEA12081": {
     "stop_id": "2200YEA12081",
     "stop_name": "Spring Valley Campsite",
     "stop_lon": -0.190448,
     "stop_lat": 53.778213,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU11 4QF",
+    "oa21cd": "E00065760",
+    "lsoa21cd": "E01013031",
+    "lsoa21nm": "East Riding of Yorkshire 021C"
   },
   "2200YEA00961": {
     "stop_id": "2200YEA00961",
@@ -31164,10 +31164,10 @@
     "stop_name": "Wyton B1238",
     "stop_lon": -0.217882,
     "stop_lat": 53.781582,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU11 4DJ",
+    "oa21cd": "E00065728",
+    "lsoa21cd": "E01013031",
+    "lsoa21nm": "East Riding of Yorkshire 021C"
   },
   "2200YEA11698": {
     "stop_id": "2200YEA11698",
@@ -31184,10 +31184,10 @@
     "stop_name": "Wyton Hastings",
     "stop_lon": -0.218075,
     "stop_lat": 53.781693,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU11 4EQ",
+    "oa21cd": "E00065728",
+    "lsoa21cd": "E01013031",
+    "lsoa21nm": "East Riding of Yorkshire 021C"
   },
   "2200YEA00956": {
     "stop_id": "2200YEA00956",
@@ -32594,20 +32594,20 @@
     "stop_name": "Church Lane Birks Royd",
     "stop_lon": -1.811355538,
     "stop_lat": 53.707391048,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HX3 9TB",
+    "oa21cd": "E00054824",
+    "lsoa21cd": "E01010877",
+    "lsoa21nm": "Calderdale 019C"
   },
   "450051220": {
     "stop_id": "450051220",
     "stop_name": "Church Lane Birks Royd",
     "stop_lon": -1.811324879,
     "stop_lat": 53.707471893,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HX3 9TB",
+    "oa21cd": "E00054824",
+    "lsoa21cd": "E01010877",
+    "lsoa21nm": "Calderdale 019C"
   },
   "450022645": {
     "stop_id": "450022645",
@@ -32674,20 +32674,20 @@
     "stop_name": "Coley Road Denholme Gate Rd",
     "stop_lon": -1.813866799,
     "stop_lat": 53.735680472,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HX3 7DS",
+    "oa21cd": "E00054998",
+    "lsoa21cd": "E01010907",
+    "lsoa21nm": "Calderdale 011C"
   },
   "450014984": {
     "stop_id": "450014984",
     "stop_name": "Coley Road Denholme Gate Rd",
     "stop_lon": -1.814079583,
     "stop_lat": 53.735554969,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HX3 7RX",
+    "oa21cd": "E00054998",
+    "lsoa21cd": "E01010907",
+    "lsoa21nm": "Calderdale 011C"
   },
   "450050247": {
     "stop_id": "450050247",
@@ -34024,10 +34024,10 @@
     "stop_name": "Catton Lane End",
     "stop_lon": -0.91717,
     "stop_lat": 53.952651,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO41 5LE",
+    "oa21cd": "E00065861",
+    "lsoa21cd": "E01013059",
+    "lsoa21nm": "East Riding of Yorkshire 009B"
   },
   "2200YEA01498": {
     "stop_id": "2200YEA01498",
@@ -34044,20 +34044,20 @@
     "stop_name": "Coldstones Cut",
     "stop_lon": -1.804405,
     "stop_lat": 54.075593,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HG3 5BJ",
+    "oa21cd": "E00141038",
+    "lsoa21cd": "E01027693",
+    "lsoa21nm": "Harrogate 006B"
   },
   "3200YNA96784": {
     "stop_id": "3200YNA96784",
     "stop_name": "Coldstones Cut",
     "stop_lon": -1.80439,
     "stop_lat": 54.075485,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HG3 5BJ",
+    "oa21cd": "E00141038",
+    "lsoa21cd": "E01027693",
+    "lsoa21nm": "Harrogate 006B"
   },
   "3200YNA01758": {
     "stop_id": "3200YNA01758",
@@ -34094,10 +34094,10 @@
     "stop_name": "Fountains Abbey Visitors Centre",
     "stop_lon": -1.584286,
     "stop_lat": 54.113672,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HG4 3DZ",
+    "oa21cd": "E00140902",
+    "lsoa21cd": "E01027667",
+    "lsoa21nm": "Harrogate 001B"
   },
   "3290YYA01640": {
     "stop_id": "3290YYA01640",
@@ -34184,20 +34184,20 @@
     "stop_name": "Grimwith Reservoir",
     "stop_lon": -1.918837,
     "stop_lat": 54.063106,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "BD23 5EE",
+    "oa21cd": "E00140326",
+    "lsoa21cd": "E01027567",
+    "lsoa21nm": "Craven 009B"
   },
   "3200YNA05144": {
     "stop_id": "3200YNA05144",
     "stop_name": "Grimwith Reservoir",
     "stop_lon": -1.918776,
     "stop_lat": 54.062828,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "BD23 5EE",
+    "oa21cd": "E00140326",
+    "lsoa21cd": "E01027567",
+    "lsoa21nm": "Craven 009B"
   },
   "3200YNA96586": {
     "stop_id": "3200YNA96586",
@@ -34234,10 +34234,10 @@
     "stop_name": "Lily Green",
     "stop_lon": -1.843377,
     "stop_lat": 54.071219,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HG3 5JH",
+    "oa21cd": "E00141038",
+    "lsoa21cd": "E01027693",
+    "lsoa21nm": "Harrogate 006B"
   },
   "3200YND24390": {
     "stop_id": "3200YND24390",
@@ -34594,10 +34594,10 @@
     "stop_name": "Junction 36",
     "stop_lon": -0.907329,
     "stop_lat": 53.700824,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "DN14 6BS",
+    "oa21cd": "E00065600",
+    "lsoa21cd": "E01013001",
+    "lsoa21nm": "East Riding of Yorkshire 040D"
   },
   "2200YEZ01304": {
     "stop_id": "2200YEZ01304",
@@ -34864,20 +34864,20 @@
     "stop_name": "High Marishes Lane End",
     "stop_lon": -0.764006,
     "stop_lat": 54.190843,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO17 6UQ",
+    "oa21cd": "E00141618",
+    "lsoa21cd": "E01027801",
+    "lsoa21nm": "Ryedale 002E"
   },
   "3200YNF10019": {
     "stop_id": "3200YNF10019",
     "stop_name": "High Marishes Lane End",
     "stop_lon": -0.764244,
     "stop_lat": 54.191583,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO17 6UQ",
+    "oa21cd": "E00141618",
+    "lsoa21cd": "E01027801",
+    "lsoa21nm": "Ryedale 002E"
   },
   "3200YNF10009": {
     "stop_id": "3200YNF10009",
@@ -34924,20 +34924,20 @@
     "stop_name": "Low Marishes Lane End",
     "stop_lon": -0.762007,
     "stop_lat": 54.181305,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO17 6RQ",
+    "oa21cd": "E00141618",
+    "lsoa21cd": "E01027801",
+    "lsoa21nm": "Ryedale 002E"
   },
   "3200YNF10052": {
     "stop_id": "3200YNF10052",
     "stop_name": "Low Marishes Lane End",
     "stop_lon": -0.761499,
     "stop_lat": 54.180365,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO17 6RQ",
+    "oa21cd": "E00141618",
+    "lsoa21cd": "E01027801",
+    "lsoa21nm": "Ryedale 002E"
   },
   "3200YNF10029": {
     "stop_id": "3200YNF10029",
@@ -35224,20 +35224,20 @@
     "stop_name": "Bagby Lane",
     "stop_lon": -1.301184,
     "stop_lat": 54.209033,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO7 3AF",
+    "oa21cd": "E00140734",
+    "lsoa21cd": "E01027636",
+    "lsoa21nm": "Hambleton 009D"
   },
   "3200YNA91004": {
     "stop_id": "3200YNA91004",
     "stop_name": "Bagby Lane",
     "stop_lon": -1.300241,
     "stop_lat": 54.208569,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO7 3AP",
+    "oa21cd": "E00140734",
+    "lsoa21cd": "E01027636",
+    "lsoa21nm": "Hambleton 009D"
   },
   "3200YNA96749": {
     "stop_id": "3200YNA96749",
@@ -35304,10 +35304,10 @@
     "stop_name": "Carlton Husthwaite l e",
     "stop_lon": -1.261476,
     "stop_lat": 54.182202,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO7 3AY",
+    "oa21cd": "E00140528",
+    "lsoa21cd": "E01027600",
+    "lsoa21nm": "Hambleton 011A"
   },
   "3200YNA90168": {
     "stop_id": "3200YNA90168",
@@ -35414,10 +35414,10 @@
     "stop_name": "Hutton Sessay lane end",
     "stop_lon": -1.261738,
     "stop_lat": 54.182141,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO7 3AY",
+    "oa21cd": "E00140528",
+    "lsoa21cd": "E01027600",
+    "lsoa21nm": "Hambleton 011A"
   },
   "3200YNA01508": {
     "stop_id": "3200YNA01508",
@@ -35624,20 +35624,20 @@
     "stop_name": "Thirkleby Park",
     "stop_lon": -1.294239,
     "stop_lat": 54.204535,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO7 3AP",
+    "oa21cd": "E00140734",
+    "lsoa21cd": "E01027636",
+    "lsoa21nm": "Hambleton 009D"
   },
   "3200YNA97107": {
     "stop_id": "3200YNA97107",
     "stop_name": "Thirkleby Park",
     "stop_lon": -1.294118,
     "stop_lat": 54.204426,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO7 3AP",
+    "oa21cd": "E00140734",
+    "lsoa21cd": "E01027636",
+    "lsoa21nm": "Hambleton 009D"
   },
   "3200YNA90161": {
     "stop_id": "3200YNA90161",
@@ -35694,30 +35694,30 @@
     "stop_name": "A1079 York Road",
     "stop_lon": -0.541212653,
     "stop_lat": 53.85592941,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU17 7RT",
+    "oa21cd": "E00065172",
+    "lsoa21cd": "E01012925",
+    "lsoa21nm": "East Riding of Yorkshire 013C"
   },
   "2200YEA11975": {
     "stop_id": "2200YEA11975",
     "stop_name": "Arras Cottages",
     "stop_lon": -0.593981568,
     "stop_lat": 53.860154718,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO43 4RN",
+    "oa21cd": "E00066213",
+    "lsoa21cd": "E01013121",
+    "lsoa21nm": "East Riding of Yorkshire 015B"
   },
   "2200YEA11974": {
     "stop_id": "2200YEA11974",
     "stop_name": "Arras Cottages",
     "stop_lon": -0.593440886,
     "stop_lat": 53.860298853,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO43 4RN",
+    "oa21cd": "E00066213",
+    "lsoa21cd": "E01013121",
+    "lsoa21nm": "East Riding of Yorkshire 015B"
   },
   "2200YEA00543": {
     "stop_id": "2200YEA00543",
@@ -35794,20 +35794,20 @@
     "stop_name": "Bishop Burton A1079",
     "stop_lon": -0.541263558,
     "stop_lat": 53.85577722,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU17 7RT",
+    "oa21cd": "E00065172",
+    "lsoa21cd": "E01012925",
+    "lsoa21nm": "East Riding of Yorkshire 013C"
   },
   "2200YEA00804": {
     "stop_id": "2200YEA00804",
     "stop_name": "Bishop Burton A1079",
     "stop_lon": -0.558516545,
     "stop_lat": 53.858098046,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU17 7RX",
+    "oa21cd": "E00065172",
+    "lsoa21cd": "E01012925",
+    "lsoa21nm": "East Riding of Yorkshire 013C"
   },
   "2200YEA01435": {
     "stop_id": "2200YEA01435",
@@ -35874,10 +35874,10 @@
     "stop_name": "Gardham Cross Roads",
     "stop_lon": -0.557508429,
     "stop_lat": 53.857789305,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "HU17 7RX",
+    "oa21cd": "E00065172",
+    "lsoa21cd": "E01012925",
+    "lsoa21nm": "East Riding of Yorkshire 013C"
   },
   "3290YYA00628": {
     "stop_id": "3290YYA00628",
@@ -36064,20 +36064,20 @@
     "stop_name": "Scoreby Lodge",
     "stop_lon": -0.958623367,
     "stop_lat": 53.953080572,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO19 5LR",
+    "oa21cd": "E00067384",
+    "lsoa21cd": "E01013351",
+    "lsoa21nm": "York 020A"
   },
   "3290YYA03689": {
     "stop_id": "3290YYA03689",
     "stop_name": "Scoreby Lodge",
     "stop_lon": -0.959035845,
     "stop_lat": 53.953039205,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO19 5LR",
+    "oa21cd": "E00067384",
+    "lsoa21cd": "E01013351",
+    "lsoa21nm": "York 020A"
   },
   "2200YEA00519": {
     "stop_id": "2200YEA00519",
@@ -36124,20 +36124,20 @@
     "stop_name": "Thorpe le Street Lane End",
     "stop_lon": -0.727337626,
     "stop_lat": 53.886266902,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO42 4LJ",
+    "oa21cd": "E00066208",
+    "lsoa21cd": "E01013122",
+    "lsoa21nm": "East Riding of Yorkshire 018D"
   },
   "2200YEA11966": {
     "stop_id": "2200YEA11966",
     "stop_name": "Thorpe le Street Lane End",
     "stop_lon": -0.72619688,
     "stop_lat": 53.886079529,
-    "postcode": null,
-    "oa21cd": null,
-    "lsoa21cd": null,
-    "lsoa21nm": null
+    "postcode": "YO42 4LL",
+    "oa21cd": "E00066208",
+    "lsoa21cd": "E01013122",
+    "lsoa21nm": "East Riding of Yorkshire 018D"
   },
   "2200YEA01684": {
     "stop_id": "2200YEA01684",

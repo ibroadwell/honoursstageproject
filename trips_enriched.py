@@ -17,8 +17,8 @@ def calculate_shape_distance(points_df):
         total_distance += geodesic(point1, point2).km
     return total_distance
 
-def estimate_fuel(row, fuel_rate_moving, fuel_rate_idling):
-    """Estimates fuel usage for a trip based on distance and idle time."""
+def estimate_fuel(row, fuel_rate_moving = 0.47, fuel_rate_idling = 2.0):
+    """Estimates fuel usage for a trip based on distance and idle time. fuel_rate_moving in L/km, fuel_rate_idling in L/h"""
     moving_fuel = float(row['total_distance_km']) * fuel_rate_moving
     idling_fuel = 0
     if fuel_rate_idling != 0:
@@ -88,7 +88,7 @@ def enrich_trips_from_database(db_config, fuel_rate_moving, fuel_rate_idling):
     trips_enriched['total_idle_seconds'] = trips_enriched['total_idle_seconds'].fillna(0)
     
     trips_enriched['estimated_fuel_usage_liters'] = trips_enriched.apply(
-        lambda row: estimate_fuel(row, fuel_rate_moving, fuel_rate_idling), axis=1)
+        lambda row: estimate_fuel(row), axis=1)
     
     output_filename = 'data/trips_enriched.csv'
     trips_enriched.to_csv(output_filename, index=False)
@@ -96,7 +96,7 @@ def enrich_trips_from_database(db_config, fuel_rate_moving, fuel_rate_idling):
     
     return trips_enriched
 
-def generate_trips_enriched(fuel_rate_moving = 0.35,fuel_rate_idling = 3.0, config_file = "config.json"):
+def generate_trips_enriched(fuel_rate_moving = 0.47, fuel_rate_idling = 2.0, config_file = "config.json"):
     """
     Main function to generate the enriched trips data.
     Loads config, and runs the enrichment.

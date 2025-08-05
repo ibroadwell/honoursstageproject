@@ -158,14 +158,14 @@
     "stop_name": "Derwent Cottage Farm l e",
     "stop_lon": -0.939554,
     "stop_lat": 53.821047,
-    "postcode": null
+    "postcode": "YO8 5DG"
   },
   "3200YNA00776": {
     "stop_id": "3200YNA00776",
     "stop_name": "Derwent Cottage Farm l e",
     "stop_lon": -0.939587,
     "stop_lat": 53.820921,
-    "postcode": null
+    "postcode": "YO8 5DG"
   },
   "2200YEA01160": {
     "stop_id": "2200YEA01160",
@@ -200,7 +200,7 @@
     "stop_name": "Harlthorpe Hall",
     "stop_lon": -0.880247,
     "stop_lat": 53.827357,
-    "postcode": null
+    "postcode": "YO8 6DW"
   },
   "2200YEA01157": {
     "stop_id": "2200YEA01157",
@@ -487,7 +487,7 @@
     "stop_name": "Water End",
     "stop_lon": -0.803103,
     "stop_lat": 53.83507,
-    "postcode": null
+    "postcode": "YO43 4HA"
   },
   "3200YNA01161": {
     "stop_id": "3200YNA01161",
@@ -1103,14 +1103,14 @@
     "stop_name": "Bryherstones Inn",
     "stop_lon": -0.447214054,
     "stop_lat": 54.348993037,
-    "postcode": null
+    "postcode": "YO13 0AR"
   },
   "3200YNA01012": {
     "stop_id": "3200YNA01012",
     "stop_name": "Bryherstones Inn",
     "stop_lon": -0.447091365,
     "stop_lat": 54.348982471,
-    "postcode": null
+    "postcode": "YO13 0AR"
   },
   "3200YNA90602": {
     "stop_id": "3200YNA90602",
@@ -1180,14 +1180,14 @@
     "stop_name": "Field Lane",
     "stop_lon": -0.424657739,
     "stop_lat": 54.305548168,
-    "postcode": null
+    "postcode": "YO13 0BU"
   },
   "3200YNA00959": {
     "stop_id": "3200YNA00959",
     "stop_name": "Field Lane",
     "stop_lon": -0.424621258,
     "stop_lat": 54.30529602,
-    "postcode": null
+    "postcode": "YO13 0BU"
   },
   "3200YNA00952": {
     "stop_id": "3200YNA00952",
@@ -1362,14 +1362,14 @@
     "stop_name": "Staintondale (Trekking Centre)",
     "stop_lon": -0.474076831,
     "stop_lat": 54.369783653,
-    "postcode": null
+    "postcode": "YO13 0EJ"
   },
   "3200YNA01002": {
     "stop_id": "3200YNA01002",
     "stop_name": "Staintondale (Trekking Centre)",
     "stop_lon": -0.474343063,
     "stop_lat": 54.369661185,
-    "postcode": null
+    "postcode": "YO13 0EJ"
   },
   "3200YNA90598": {
     "stop_id": "3200YNA90598",
@@ -2888,7 +2888,7 @@
     "stop_name": "Cayton Village Caravan Park",
     "stop_lon": -0.376191109,
     "stop_lat": 54.235371289,
-    "postcode": null
+    "postcode": "YO11 3NW"
   },
   "3200YNA00931": {
     "stop_id": "3200YNA00931",
@@ -3049,14 +3049,14 @@
     "stop_name": "Huntow Cottages",
     "stop_lon": -0.227971252,
     "stop_lat": 54.13114349,
-    "postcode": null
+    "postcode": "YO16 6XH"
   },
   "2200YEA11683": {
     "stop_id": "2200YEA11683",
     "stop_name": "Huntow Cottages",
     "stop_lon": -0.227295416,
     "stop_lat": 54.130848144,
-    "postcode": null
+    "postcode": "YO16 6XH"
   },
   "2200YEA11919": {
     "stop_id": "2200YEA11919",
@@ -3077,14 +3077,14 @@
     "stop_name": "Killerby Lane",
     "stop_lon": -0.365638061,
     "stop_lat": 54.229458058,
-    "postcode": null
+    "postcode": "YO11 3TP"
   },
   "3200YNA00859": {
     "stop_id": "3200YNA00859",
     "stop_name": "Killerby Lane",
     "stop_lon": -0.36601131,
     "stop_lat": 54.229396245,
-    "postcode": null
+    "postcode": "YO11 3TP"
   },
   "3200YNA00861": {
     "stop_id": "3200YNA00861",
@@ -3154,14 +3154,14 @@
     "stop_name": "Muston Crossing",
     "stop_lon": -0.316305458,
     "stop_lat": 54.219125245,
-    "postcode": null
+    "postcode": "YO14 9PG"
   },
   "3200YNA00866": {
     "stop_id": "3200YNA00866",
     "stop_name": "Muston Crossing",
     "stop_lon": -0.316340137,
     "stop_lat": 54.219026855,
-    "postcode": null
+    "postcode": "YO14 9PG"
   },
   "3200YNA00888": {
     "stop_id": "3200YNA00888",
@@ -3210,28 +3210,28 @@
     "stop_name": "Primrose Valley Garage",
     "stop_lon": -0.296856017,
     "stop_lat": 54.185971625,
-    "postcode": null
+    "postcode": "YO14 9RJ"
   },
   "3200YNA00900": {
     "stop_id": "3200YNA00900",
     "stop_name": "Primrose Valley Garage",
     "stop_lon": -0.297761922,
     "stop_lat": 54.185930499,
-    "postcode": null
+    "postcode": "YO14 9RJ"
   },
   "3200YNA00901": {
     "stop_id": "3200YNA00901",
     "stop_name": "Primrose Valley Holiday Village (outside)",
     "stop_lon": -0.292476305,
     "stop_lat": 54.183284938,
-    "postcode": null
+    "postcode": "YO14 9QQ"
   },
   "3200YNA00902": {
     "stop_id": "3200YNA00902",
     "stop_name": "Primrose Valley Holiday Village (outside)",
     "stop_lon": -0.293231509,
     "stop_lat": 54.183924846,
-    "postcode": null
+    "postcode": "YO14 9RJ"
   },
   "3200YNA00906": {
     "stop_id": "3200YNA00906",
@@ -3301,14 +3301,14 @@
     "stop_name": "Speeton (Shelter)",
     "stop_lon": -0.242324876,
     "stop_lat": 54.152415325,
-    "postcode": null
+    "postcode": "YO14 9TB"
   },
   "3200YNA00911": {
     "stop_id": "3200YNA00911",
     "stop_name": "Speeton (Shelter)",
     "stop_lon": -0.242406344,
     "stop_lat": 54.152299661,
-    "postcode": null
+    "postcode": "YO14 9TB"
   },
   "3200YNA96793": {
     "stop_id": "3200YNA96793",
@@ -3413,42 +3413,42 @@
     "stop_name": "Blue Dolphin Holiday Village",
     "stop_lon": -0.326349,
     "stop_lat": 54.230564,
-    "postcode": null
+    "postcode": "YO14 9PT"
   },
   "3200YNA00921": {
     "stop_id": "3200YNA00921",
     "stop_name": "Blue Dolphin Holiday Village",
     "stop_lon": -0.326024,
     "stop_lat": 54.230649,
-    "postcode": null
+    "postcode": "YO14 9PT"
   },
   "3200YNA00922": {
     "stop_id": "3200YNA00922",
     "stop_name": "Crow's Nest",
     "stop_lon": -0.339482,
     "stop_lat": 54.227887,
-    "postcode": null
+    "postcode": "YO11 3PE"
   },
   "3200YNA00923": {
     "stop_id": "3200YNA00923",
     "stop_name": "Crow's Nest",
     "stop_lon": -0.33866,
     "stop_lat": 54.227741,
-    "postcode": null
+    "postcode": "YO11 3PE"
   },
   "3200YNA00924": {
     "stop_id": "3200YNA00924",
     "stop_name": "Crows Nest/Flower of May",
     "stop_lon": -0.342595,
     "stop_lat": 54.22908,
-    "postcode": null
+    "postcode": "YO11 3NX"
   },
   "3200YNA00925": {
     "stop_id": "3200YNA00925",
     "stop_name": "Crows Nest/Flower of May",
     "stop_lon": -0.342424,
     "stop_lat": 54.229132,
-    "postcode": null
+    "postcode": "YO11 3NX"
   },
   "3200YNA00915": {
     "stop_id": "3200YNA00915",
@@ -3567,14 +3567,14 @@
     "stop_name": "Bridlington Flamborough Rd",
     "stop_lon": -0.157677,
     "stop_lat": 54.111608,
-    "postcode": null
+    "postcode": "YO15 1DU"
   },
   "2200YEA11853": {
     "stop_id": "2200YEA11853",
     "stop_name": "Bridlington Flamborough Ro",
     "stop_lon": -0.15756,
     "stop_lat": 54.111471,
-    "postcode": null
+    "postcode": "YO15 1DU"
   },
   "2200YEA00480": {
     "stop_id": "2200YEA00480",
@@ -3616,14 +3616,14 @@
     "stop_name": "Flamborough B1255",
     "stop_lon": -0.144619,
     "stop_lat": 54.1128,
-    "postcode": null
+    "postcode": "YO15 1AA"
   },
   "2200YEA00594": {
     "stop_id": "2200YEA00594",
     "stop_name": "Flamborough B1255",
     "stop_lon": -0.144411,
     "stop_lat": 54.11268,
-    "postcode": null
+    "postcode": "YO15 1AA"
   },
   "2200YEA01625": {
     "stop_id": "2200YEA01625",
@@ -3665,7 +3665,7 @@
     "stop_name": "Flamborough North Marine Road",
     "stop_lon": -0.116168,
     "stop_lat": 54.122147,
-    "postcode": null
+    "postcode": "YO15 1LF"
   },
   "2200YEA00592": {
     "stop_id": "2200YEA00592",
@@ -4029,14 +4029,14 @@
     "stop_name": "Persimmon House",
     "stop_lon": -1.06546,
     "stop_lat": 53.923175,
-    "postcode": null
+    "postcode": "YO19 4FE"
   },
   "3290YYA00612": {
     "stop_id": "3290YYA00612",
     "stop_name": "Persimmon House",
     "stop_lon": -1.064918,
     "stop_lat": 53.922919,
-    "postcode": null
+    "postcode": "YO19 4FE"
   },
   "2200YEA00665": {
     "stop_id": "2200YEA00665",
@@ -4050,14 +4050,14 @@
     "stop_name": "Plantation House",
     "stop_lon": -0.979739,
     "stop_lat": 53.834563,
-    "postcode": null
+    "postcode": "YO8 5DF"
   },
   "3200YNA00788": {
     "stop_id": "3200YNA00788",
     "stop_name": "Plantation House",
     "stop_lon": -0.979833,
     "stop_lat": 53.834483,
-    "postcode": null
+    "postcode": "YO8 5DF"
   },
   "3290YYA00218": {
     "stop_id": "3290YYA00218",
@@ -4134,14 +4134,14 @@
     "stop_name": "Wheldrake Ings",
     "stop_lon": -0.95142,
     "stop_lat": 53.893947,
-    "postcode": null
+    "postcode": "YO19 6AX"
   },
   "3290YYA03621": {
     "stop_id": "3290YYA03621",
     "stop_name": "Wheldrake Ings",
     "stop_lon": -0.951068,
     "stop_lat": 53.893423,
-    "postcode": null
+    "postcode": "YO19 6AX"
   },
   "3290YYA01561": {
     "stop_id": "3290YYA01561",
@@ -4169,7 +4169,7 @@
     "stop_name": "York Designer Outlet",
     "stop_lon": -1.074121,
     "stop_lat": 53.922649,
-    "postcode": null
+    "postcode": "YO19 4TA"
   },
   "3290YYA00107": {
     "stop_id": "3290YYA00107",
@@ -4295,7 +4295,7 @@
     "stop_name": "Priory Park & Ride",
     "stop_lon": -0.417138,
     "stop_lat": 53.721832,
-    "postcode": null
+    "postcode": "HU13 9NT"
   },
   "2290YHA00774": {
     "stop_id": "2290YHA00774",
@@ -4351,7 +4351,7 @@
     "stop_name": "Arnold A165",
     "stop_lon": -0.282002,
     "stop_lat": 53.855285,
-    "postcode": null
+    "postcode": "HU11 5HZ"
   },
   "2290YHA00643": {
     "stop_id": "2290YHA00643",
@@ -4484,14 +4484,14 @@
     "stop_name": "Catfoss Lane End",
     "stop_lon": -0.25836,
     "stop_lat": 53.897346,
-    "postcode": null
+    "postcode": "HU11 5QL"
   },
   "2200YEA11744": {
     "stop_id": "2200YEA11744",
     "stop_name": "Catfoss Lane End",
     "stop_lon": -0.258413,
     "stop_lat": 53.897544,
-    "postcode": null
+    "postcode": "HU11 5QL"
   },
   "2200YEA11658": {
     "stop_id": "2200YEA11658",
@@ -4512,14 +4512,14 @@
     "stop_name": "Catwick Main Street",
     "stop_lon": -0.271617,
     "stop_lat": 53.896602,
-    "postcode": null
+    "postcode": "HU11 5QW"
   },
   "2200YEA12123": {
     "stop_id": "2200YEA12123",
     "stop_name": "Catwick Main Street",
     "stop_lon": -0.269983,
     "stop_lat": 53.89675,
-    "postcode": null
+    "postcode": "HU11 5QW"
   },
   "2200YEA00870": {
     "stop_id": "2200YEA00870",
@@ -4533,7 +4533,7 @@
     "stop_name": "Catwick Rise Lane",
     "stop_lon": -0.278245,
     "stop_lat": 53.893839,
-    "postcode": null
+    "postcode": "HU17 5PL"
   },
   "2200YEA00869": {
     "stop_id": "2200YEA00869",
@@ -4813,7 +4813,7 @@
     "stop_name": "Hornsea Seaton Road",
     "stop_lon": -0.20184,
     "stop_lat": 53.904998,
-    "postcode": null
+    "postcode": "HU18 1BZ"
   },
   "2200YEA00298": {
     "stop_id": "2200YEA00298",
@@ -5065,7 +5065,7 @@
     "stop_name": "Seaton Seaton Road",
     "stop_lon": -0.209352,
     "stop_lat": 53.903762,
-    "postcode": null
+    "postcode": "HU11 5RQ"
   },
   "2200YEA00881": {
     "stop_id": "2200YEA00881",
@@ -5457,7 +5457,7 @@
     "stop_name": "Tickton Hull Bridge Road",
     "stop_lon": -0.371324,
     "stop_lat": 53.864782,
-    "postcode": null
+    "postcode": "HU17 9SH"
   },
   "2200YEA00867": {
     "stop_id": "2200YEA00867",
@@ -5562,14 +5562,14 @@
     "stop_name": "Anlaby First Lane",
     "stop_lon": -0.421406566,
     "stop_lat": 53.737358644,
-    "postcode": null
+    "postcode": "HU10 6UX"
   },
   "2200YEA12135": {
     "stop_id": "2200YEA12135",
     "stop_name": "Anlaby First Lane",
     "stop_lon": -0.421681361,
     "stop_lat": 53.737308329,
-    "postcode": null
+    "postcode": "HU10 6UX"
   },
   "2200YEA00161": {
     "stop_id": "2200YEA00161",
@@ -5618,14 +5618,14 @@
     "stop_name": "Bentley Lane End",
     "stop_lon": -0.446711054,
     "stop_lat": 53.811345017,
-    "postcode": null
+    "postcode": "HU17 8PP"
   },
   "2200YEA00831": {
     "stop_id": "2200YEA00831",
     "stop_name": "Bentley Lane End",
     "stop_lon": -0.446936638,
     "stop_lat": 53.810583879,
-    "postcode": null
+    "postcode": "HU17 8PP"
   },
   "2200YEA00225": {
     "stop_id": "2200YEA00225",
@@ -5702,7 +5702,7 @@
     "stop_name": "Castle Hill Hospital",
     "stop_lon": -0.444656518,
     "stop_lat": 53.779039047,
-    "postcode": null
+    "postcode": "HU16 5JQ"
   },
   "2200YEA00390": {
     "stop_id": "2200YEA00390",
@@ -5716,7 +5716,7 @@
     "stop_name": "Castle Hill Hospital",
     "stop_lon": -0.442783303,
     "stop_lat": 53.778394493,
-    "postcode": null
+    "postcode": "HU16 5JQ"
   },
   "2200YEA00388": {
     "stop_id": "2200YEA00388",
@@ -6094,7 +6094,7 @@
     "stop_name": "New Skidy Stop",
     "stop_lon": -0.450320065,
     "stop_lat": 53.790087907,
-    "postcode": null
+    "postcode": "HU16 5TF"
   },
   "2200YEA00653": {
     "stop_id": "2200YEA00653",
@@ -6486,7 +6486,7 @@
     "stop_name": "Fairfield Manor",
     "stop_lon": -1.130613,
     "stop_lat": 53.993815,
-    "postcode": null
+    "postcode": "YO30 1YY"
   },
   "3290YYA00694": {
     "stop_id": "3290YYA00694",
@@ -6689,7 +6689,7 @@
     "stop_name": "Riverside Farm",
     "stop_lon": -1.125993,
     "stop_lat": 53.988659,
-    "postcode": null
+    "postcode": "YO30 1XJ"
   },
   "3290YYA00696": {
     "stop_id": "3290YYA00696",
@@ -6766,7 +6766,7 @@
     "stop_name": "Sproxton War Memorial",
     "stop_lon": -1.060348,
     "stop_lat": 54.226225,
-    "postcode": null
+    "postcode": "YO62 5EE"
   },
   "3290YYA00693": {
     "stop_id": "3290YYA00693",
@@ -6850,14 +6850,14 @@
     "stop_name": "The Lodge",
     "stop_lon": -1.194811,
     "stop_lat": 54.100697,
-    "postcode": null
+    "postcode": "YO61 3EQ"
   },
   "3200YNA01471": {
     "stop_id": "3200YNA01471",
     "stop_name": "The Lodge",
     "stop_lon": -1.195057,
     "stop_lat": 54.100662,
-    "postcode": null
+    "postcode": "YO61 3EQ"
   },
   "3200YNA01528": {
     "stop_id": "3200YNA01528",
@@ -7256,14 +7256,14 @@
     "stop_name": "A614 Bracey Bridge",
     "stop_lon": -0.350038,
     "stop_lat": 54.045707,
-    "postcode": null
+    "postcode": "YO25 4DE"
   },
   "2200YEA01095": {
     "stop_id": "2200YEA01095",
     "stop_name": "A614 Near Harpham",
     "stop_lon": -0.368663,
     "stop_lat": 54.037745,
-    "postcode": null
+    "postcode": "YO25 4DQ"
   },
   "2290YHA00122": {
     "stop_id": "2290YHA00122",
@@ -7284,7 +7284,7 @@
     "stop_name": "Bessingby Lodge",
     "stop_lon": -0.227632,
     "stop_lat": 54.080865,
-    "postcode": null
+    "postcode": "YO16 4RS"
   },
   "2200YEA01660": {
     "stop_id": "2200YEA01660",
@@ -7963,7 +7963,7 @@
     "stop_name": "Harpham Nr Bracey Bridge",
     "stop_lon": -0.350635,
     "stop_lat": 54.04567,
-    "postcode": null
+    "postcode": "YO25 4DE"
   },
   "2290YHA01566": {
     "stop_id": "2290YHA01566",
@@ -7991,14 +7991,14 @@
     "stop_name": "Hutton Cranswick Beverley Road",
     "stop_lon": -0.448914,
     "stop_lat": 53.967896,
-    "postcode": null
+    "postcode": "YO25 9PY"
   },
   "2200YEA00995": {
     "stop_id": "2200YEA00995",
     "stop_name": "Hutton Cranswick Beverley Road",
     "stop_lon": -0.445494,
     "stop_lat": 53.954117,
-    "postcode": null
+    "postcode": "YO25 9PE"
   },
   "2200YEA00996": {
     "stop_id": "2200YEA00996",
@@ -8012,7 +8012,7 @@
     "stop_name": "Hutton Cranswick Beverley Road",
     "stop_lon": -0.448693,
     "stop_lat": 53.968109,
-    "postcode": null
+    "postcode": "YO25 9PY"
   },
   "2200YEA11713": {
     "stop_id": "2200YEA11713",
@@ -8082,14 +8082,14 @@
     "stop_name": "Lockington Carr Cross",
     "stop_lon": -0.457048,
     "stop_lat": 53.907407,
-    "postcode": null
+    "postcode": "YO25 9AY"
   },
   "2200YEA00989": {
     "stop_id": "2200YEA00989",
     "stop_name": "Lockington Station Road",
     "stop_lon": -0.457235,
     "stop_lat": 53.907275,
-    "postcode": null
+    "postcode": "YO25 9AY"
   },
   "2290YHA00143": {
     "stop_id": "2290YHA00143",
@@ -8194,7 +8194,7 @@
     "stop_name": "Ruston Parva Jnt",
     "stop_lon": -0.367135,
     "stop_lat": 54.037761,
-    "postcode": null
+    "postcode": "YO25 4DD"
   },
   "2290YHA00142": {
     "stop_id": "2290YHA00142",
@@ -8341,7 +8341,7 @@
     "stop_name": "Woodmansey Hull Road",
     "stop_lon": -0.389842,
     "stop_lat": 53.82255,
-    "postcode": null
+    "postcode": "HU17 0TR"
   },
   "2200YEA00237": {
     "stop_id": "2200YEA00237",
@@ -8355,7 +8355,7 @@
     "stop_name": "Woodmansey Hull Road",
     "stop_lon": -0.388971,
     "stop_lat": 53.822665,
-    "postcode": null
+    "postcode": "HU17 0TR"
   },
   "2200YEA01630": {
     "stop_id": "2200YEA01630",
@@ -9664,7 +9664,7 @@
     "stop_name": "Westella Road",
     "stop_lon": -0.483071,
     "stop_lat": 53.745301,
-    "postcode": null
+    "postcode": "HU14 3QY"
   },
   "2290YHA00041": {
     "stop_id": "2290YHA00041",
@@ -9818,7 +9818,7 @@
     "stop_name": "B1230 Howden",
     "stop_lon": -0.836943,
     "stop_lat": 53.750093,
-    "postcode": null
+    "postcode": "DN14 7UZ"
   },
   "2290YHA00178": {
     "stop_id": "2290YHA00178",
@@ -9951,14 +9951,14 @@
     "stop_name": "Eastrington Long Lane",
     "stop_lon": -0.825323,
     "stop_lat": 53.751822,
-    "postcode": null
+    "postcode": "DN14 7XA"
   },
   "2200YEA12108": {
     "stop_id": "2200YEA12108",
     "stop_name": "Eastrington Long Lane",
     "stop_lon": -0.825991,
     "stop_lat": 53.751802,
-    "postcode": null
+    "postcode": "DN14 7XA"
   },
   "2200YEA12104": {
     "stop_id": "2200YEA12104",
@@ -10035,7 +10035,7 @@
     "stop_name": "Elloughton Stockbridge Rd",
     "stop_lon": -0.57975,
     "stop_lat": 53.741488,
-    "postcode": null
+    "postcode": "HU15 1HN"
   },
   "2200YEA12092": {
     "stop_id": "2200YEA12092",
@@ -10735,7 +10735,7 @@
     "stop_name": "Newport Main Road",
     "stop_lon": -0.690845,
     "stop_lat": 53.765953,
-    "postcode": null
+    "postcode": "HU15 2RH"
   },
   "2200YEA12103": {
     "stop_id": "2200YEA12103",
@@ -10749,7 +10749,7 @@
     "stop_name": "Newport Main Road",
     "stop_lon": -0.691108,
     "stop_lat": 53.765785,
-    "postcode": null
+    "postcode": "HU15 2RH"
   },
   "2200YEA12100": {
     "stop_id": "2200YEA12100",
@@ -10945,14 +10945,14 @@
     "stop_name": "Nr Ellerker Brantingham Rd",
     "stop_lon": -0.590695,
     "stop_lat": 53.755163,
-    "postcode": null
+    "postcode": "HU15 2DD"
   },
   "2200YEA00853": {
     "stop_id": "2200YEA00853",
     "stop_name": "Nr Ellerker South Cave Rd",
     "stop_lon": -0.591382,
     "stop_lat": 53.755945,
-    "postcode": null
+    "postcode": "HU15 2DD"
   },
   "2290YHA00175": {
     "stop_id": "2290YHA00175",
@@ -11078,7 +11078,7 @@
     "stop_name": "South Hunsley School (inside grounds)",
     "stop_lon": -0.538493,
     "stop_lat": 53.728354,
-    "postcode": null
+    "postcode": "HU14 3HS"
   },
   "2290YHA00179": {
     "stop_id": "2290YHA00179",
@@ -11148,14 +11148,14 @@
     "stop_name": "Wolds HMP Entrance",
     "stop_lon": -0.635006,
     "stop_lat": 53.7704,
-    "postcode": null
+    "postcode": "HU15 1RB"
   },
   "2200YEA11851": {
     "stop_id": "2200YEA11851",
     "stop_name": "Wolds Prison",
     "stop_lon": -0.634883,
     "stop_lat": 53.770461,
-    "postcode": null
+    "postcode": "HU15 1RB"
   },
   "2290YHA01530": {
     "stop_id": "2290YHA01530",
@@ -11953,7 +11953,7 @@
     "stop_name": "Seamer Road Park and Ride Site",
     "stop_lon": -0.417237,
     "stop_lat": 54.255773,
-    "postcode": null
+    "postcode": "YO12 4LL"
   },
   "3200YNA96870": {
     "stop_id": "3200YNA96870",
@@ -11981,14 +11981,14 @@
     "stop_name": "Discovery Centre",
     "stop_lon": 0.144986,
     "stop_lat": 53.610195,
-    "postcode": null
+    "postcode": "HU12 0UH"
   },
   "2200YEZ01305": {
     "stop_id": "2200YEZ01305",
     "stop_name": "Easington Caravan Park",
     "stop_lon": 0.123299,
     "stop_lat": 53.648286,
-    "postcode": null
+    "postcode": "HU12 0TY"
   },
   "2200YEA00912": {
     "stop_id": "2200YEA00912",
@@ -12044,7 +12044,7 @@
     "stop_name": "Hollym Long Farm",
     "stop_lon": 0.023517,
     "stop_lat": 53.697688,
-    "postcode": null
+    "postcode": "HU19 2QL"
   },
   "2200YEA11848": {
     "stop_id": "2200YEA11848",
@@ -12058,14 +12058,14 @@
     "stop_name": "Hollym Toffling Farm",
     "stop_lon": 0.023292,
     "stop_lat": 53.697728,
-    "postcode": null
+    "postcode": "HU19 2QL"
   },
   "2200YEA00923": {
     "stop_id": "2200YEA00923",
     "stop_name": "Hollym Toffling Farm",
     "stop_lon": 0.018451,
     "stop_lat": 53.696605,
-    "postcode": null
+    "postcode": "HU19 2QL"
   },
   "2200YEA00910": {
     "stop_id": "2200YEA00910",
@@ -12331,14 +12331,14 @@
     "stop_name": "Camerton Main Road",
     "stop_lon": -0.152355,
     "stop_lat": 53.719444,
-    "postcode": null
+    "postcode": "HU12 9NQ"
   },
   "2200YEA01674": {
     "stop_id": "2200YEA01674",
     "stop_name": "Camerton Main Road",
     "stop_lon": -0.152573,
     "stop_lat": 53.719303,
-    "postcode": null
+    "postcode": "HU12 9NQ"
   },
   "2200YEA00901": {
     "stop_id": "2200YEA00901",
@@ -12352,14 +12352,14 @@
     "stop_name": "Camerton Red Stacks",
     "stop_lon": -0.150137,
     "stop_lat": 53.719904,
-    "postcode": null
+    "postcode": "HU12 9JN"
   },
   "2200YEA12053": {
     "stop_id": "2200YEA12053",
     "stop_name": "Camerton Red Stacks",
     "stop_lon": -0.150482,
     "stop_lat": 53.71999,
-    "postcode": null
+    "postcode": "HU12 9JN"
   },
   "2200YEA12052": {
     "stop_id": "2200YEA12052",
@@ -12499,7 +12499,7 @@
     "stop_name": "Hedon Thorn Road",
     "stop_lon": -0.188271,
     "stop_lat": 53.727624,
-    "postcode": null
+    "postcode": "HU12 8BB"
   },
   "2200YEA00322": {
     "stop_id": "2200YEA00322",
@@ -12513,7 +12513,7 @@
     "stop_name": "Hedon Thorn Road",
     "stop_lon": -0.188134,
     "stop_lat": 53.727631,
-    "postcode": null
+    "postcode": "HU12 8BB"
   },
   "2200YEA00308": {
     "stop_id": "2200YEA00308",
@@ -12583,7 +12583,7 @@
     "stop_name": "Keyingham A1033",
     "stop_lon": -0.09835,
     "stop_lat": 53.706103,
-    "postcode": null
+    "postcode": "HU12 9DP"
   },
   "2200YEA01643": {
     "stop_id": "2200YEA01643",
@@ -12597,7 +12597,7 @@
     "stop_name": "Keyingham Hull Road",
     "stop_lon": -0.126722,
     "stop_lat": 53.708285,
-    "postcode": null
+    "postcode": "HU12 9SU"
   },
   "2200YEA01642": {
     "stop_id": "2200YEA01642",
@@ -12646,7 +12646,7 @@
     "stop_name": "Keyingham Ottringham Rd",
     "stop_lon": -0.098521,
     "stop_lat": 53.706016,
-    "postcode": null
+    "postcode": "HU12 9DP"
   },
   "2200YEA00364": {
     "stop_id": "2200YEA00364",
@@ -12723,14 +12723,14 @@
     "stop_name": "Ottringham A1033",
     "stop_lon": -0.087975,
     "stop_lat": 53.704032,
-    "postcode": null
+    "postcode": "HU12 0AL"
   },
   "2200YEA12043": {
     "stop_id": "2200YEA12043",
     "stop_name": "Ottringham Keyingham Road",
     "stop_lon": -0.087727,
     "stop_lat": 53.704154,
-    "postcode": null
+    "postcode": "HU12 0AL"
   },
   "2200YEA00350": {
     "stop_id": "2200YEA00350",
@@ -12744,14 +12744,14 @@
     "stop_name": "Patrington Fairview Lodges",
     "stop_lon": 0.010055,
     "stop_lat": 53.693977,
-    "postcode": null
+    "postcode": "HU19 2QL"
   },
   "2200YEA12040": {
     "stop_id": "2200YEA12040",
     "stop_name": "Patrington Fairview Lodges",
     "stop_lon": 0.010289,
     "stop_lat": 53.693802,
-    "postcode": null
+    "postcode": "HU19 2QL"
   },
   "2200YEA00349": {
     "stop_id": "2200YEA00349",
@@ -12772,14 +12772,14 @@
     "stop_name": "Patrington Station Road",
     "stop_lon": -0.022167,
     "stop_lat": 53.687735,
-    "postcode": null
+    "postcode": "HU12 0NE"
   },
   "2200YEA00356": {
     "stop_id": "2200YEA00356",
     "stop_name": "Patrington Station Road",
     "stop_lon": -0.022028,
     "stop_lat": 53.687805,
-    "postcode": null
+    "postcode": "HU12 0NE"
   },
   "2200YEA00354": {
     "stop_id": "2200YEA00354",
@@ -12968,7 +12968,7 @@
     "stop_name": "Thorngumbald Main Road",
     "stop_lon": -0.185506,
     "stop_lat": 53.724598,
-    "postcode": null
+    "postcode": "HU12 8BA"
   },
   "2200YEA00331": {
     "stop_id": "2200YEA00331",
@@ -12982,7 +12982,7 @@
     "stop_name": "Thorngumbald Villa Lane",
     "stop_lon": -0.185557,
     "stop_lat": 53.724473,
-    "postcode": null
+    "postcode": "HU12 8BA"
   },
   "2290YHA00557": {
     "stop_id": "2290YHA00557",
@@ -13010,7 +13010,7 @@
     "stop_name": "Winestead A1033",
     "stop_lon": -0.035725,
     "stop_lat": 53.696777,
-    "postcode": null
+    "postcode": "HU12 0NN"
   },
   "2200YEA12042": {
     "stop_id": "2200YEA12042",
@@ -13024,7 +13024,7 @@
     "stop_name": "Winestead Ings Lane",
     "stop_lon": -0.048609,
     "stop_lat": 53.696601,
-    "postcode": null
+    "postcode": "HU12 0NL"
   },
   "2200YEA00361": {
     "stop_id": "2200YEA00361",
@@ -13038,14 +13038,14 @@
     "stop_name": "Winstead Park Lane",
     "stop_lon": -0.048571,
     "stop_lat": 53.696448,
-    "postcode": null
+    "postcode": "HU12 0NL"
   },
   "2200YEA00360": {
     "stop_id": "2200YEA00360",
     "stop_name": "Winstead Winstead Road",
     "stop_lon": -0.035731,
     "stop_lat": 53.696651,
-    "postcode": null
+    "postcode": "HU12 0NN"
   },
   "2200YEA00023": {
     "stop_id": "2200YEA00023",
@@ -13129,14 +13129,14 @@
     "stop_name": "Ryehill",
     "stop_lon": -0.148526,
     "stop_lat": 53.718639,
-    "postcode": null
+    "postcode": "HU12 9NH"
   },
   "2200YEA00373": {
     "stop_id": "2200YEA00373",
     "stop_name": "Ryehill",
     "stop_lon": -0.148072,
     "stop_lat": 53.718263,
-    "postcode": null
+    "postcode": "HU12 9NH"
   },
   "2200YEA00371": {
     "stop_id": "2200YEA00371",
@@ -13157,7 +13157,7 @@
     "stop_name": "Salt End Hull Road",
     "stop_lon": -0.235476,
     "stop_lat": 53.742811,
-    "postcode": null
+    "postcode": "HU12 8PP"
   },
   "2290YHA00544": {
     "stop_id": "2290YHA00544",
@@ -13556,7 +13556,7 @@
     "stop_name": "Preston Station Road",
     "stop_lon": -0.197645,
     "stop_lat": 53.750167,
-    "postcode": null
+    "postcode": "HU12 8UZ"
   },
   "2200YEA00886": {
     "stop_id": "2200YEA00886",
@@ -14039,21 +14039,21 @@
     "stop_name": "Barton Hill",
     "stop_lon": -0.916508845,
     "stop_lat": 54.072572431,
-    "postcode": null
+    "postcode": "YO60 7JX"
   },
   "3200YNF10330": {
     "stop_id": "3200YNF10330",
     "stop_name": "Barton Hill",
     "stop_lon": -0.916444115,
     "stop_lat": 54.072258705,
-    "postcode": null
+    "postcode": "YO60 7JX"
   },
   "3200YNF10381": {
     "stop_id": "3200YNF10381",
     "stop_name": "Barton Moor, Jinnah Restaurant, adj",
     "stop_lon": -0.935752179,
     "stop_lat": 54.05587507,
-    "postcode": null
+    "postcode": "YO60 7SJ"
   },
   "3200YNE04393": {
     "stop_id": "3200YNE04393",
@@ -14095,28 +14095,28 @@
     "stop_name": "Claxton Lane End, opp",
     "stop_lon": -0.959751478,
     "stop_lat": 54.031132917,
-    "postcode": null
+    "postcode": "YO60 7RE"
   },
   "3200YNF10379": {
     "stop_id": "3200YNF10379",
     "stop_name": "Claxton, Flaxton Lane End, adj",
     "stop_lon": -0.95234115,
     "stop_lat": 54.039527619,
-    "postcode": null
+    "postcode": "YO60 7RD"
   },
   "3200YNA96930": {
     "stop_id": "3200YNA96930",
     "stop_name": "Claxton, Foxhill Park, adj",
     "stop_lon": -0.943900049,
     "stop_lat": 54.038788683,
-    "postcode": null
+    "postcode": "YO60 7RY"
   },
   "3200YNA96929": {
     "stop_id": "3200YNA96929",
     "stop_name": "Claxton, Foxhill Park, opp",
     "stop_lon": -0.943917365,
     "stop_lat": 54.038707942,
-    "postcode": null
+    "postcode": "YO60 7RX"
   },
   "3200YNE04437": {
     "stop_id": "3200YNE04437",
@@ -14144,14 +14144,14 @@
     "stop_name": "Firby, Crambeck, NE-bound",
     "stop_lon": -0.880172188,
     "stop_lat": 54.095214654,
-    "postcode": null
+    "postcode": "YO60 7EJ"
   },
   "3200YNF10324": {
     "stop_id": "3200YNF10324",
     "stop_name": "Firby, Crambeck, SW-bound",
     "stop_lon": -0.879045808,
     "stop_lat": 54.095590654,
-    "postcode": null
+    "postcode": "YO60 7EW"
   },
   "3200YNE04381": {
     "stop_id": "3200YNE04381",
@@ -14214,14 +14214,14 @@
     "stop_name": "Hazelbush, The Four Alls, o/s",
     "stop_lon": -0.980853791,
     "stop_lat": 54.016933958,
-    "postcode": null
+    "postcode": "YO32 9TW"
   },
   "3290YYA01645": {
     "stop_id": "3290YYA01645",
     "stop_name": "Hazelbush, The Four Alls, opp",
     "stop_lon": -0.980008834,
     "stop_lat": 54.017160484,
-    "postcode": null
+    "postcode": "YO32 9TW"
   },
   "3290YYA00452": {
     "stop_id": "3290YYA00452",
@@ -14382,7 +14382,7 @@
     "stop_name": "High Hutton, Huttons Ambo Lane End, SW-bound",
     "stop_lon": -0.855140111,
     "stop_lat": 54.108011821,
-    "postcode": null
+    "postcode": "YO60 7HU"
   },
   "3290YYA00998": {
     "stop_id": "3290YYA00998",
@@ -14410,7 +14410,7 @@
     "stop_name": "Jinnah Restaurant",
     "stop_lon": -0.935649402,
     "stop_lat": 54.055712376,
-    "postcode": null
+    "postcode": "YO60 7SJ"
   },
   "3200YNE04383": {
     "stop_id": "3200YNE04383",
@@ -14830,14 +14830,14 @@
     "stop_name": "Bridge Hewick, Racecourse, adj",
     "stop_lon": -1.499783,
     "stop_lat": 54.12783,
-    "postcode": null
+    "postcode": "HG4 1AB"
   },
   "3200YNA01349": {
     "stop_id": "3200YNA01349",
     "stop_name": "Bridge Hewick, Racecourse, opp",
     "stop_lon": -1.499705,
     "stop_lat": 54.127937,
-    "postcode": null
+    "postcode": "HG4 1AB"
   },
   "3200YNA01310": {
     "stop_id": "3200YNA01310",
@@ -14893,7 +14893,7 @@
     "stop_name": "Dishforth Airfield, Main Gates, adj",
     "stop_lon": -1.408306,
     "stop_lat": 54.13749,
-    "postcode": null
+    "postcode": "YO7 3YA"
   },
   "3200YNA01319": {
     "stop_id": "3200YNA01319",
@@ -14914,14 +14914,14 @@
     "stop_name": "Great Ouseburn, Boat Lane, adj",
     "stop_lon": -1.308907,
     "stop_lat": 54.045574,
-    "postcode": null
+    "postcode": "YO26 9SH"
   },
   "3200YNA01377": {
     "stop_id": "3200YNA01377",
     "stop_name": "Great Ouseburn, Boat Lane, E-bound",
     "stop_lon": -1.308754,
     "stop_lat": 54.045609,
-    "postcode": null
+    "postcode": "YO26 9SH"
   },
   "3200YNA01370": {
     "stop_id": "3200YNA01370",
@@ -15327,14 +15327,14 @@
     "stop_name": "Marton-le-Moor, Moor Lane Junction, NE-bound",
     "stop_lon": -1.419432,
     "stop_lat": 54.12445,
-    "postcode": null
+    "postcode": "YO51 9DP"
   },
   "3200YNA01314": {
     "stop_id": "3200YNA01314",
     "stop_name": "Marton-le-Moor, Moor Lane Junction, NW-bound",
     "stop_lon": -1.418366,
     "stop_lat": 54.124112,
-    "postcode": null
+    "postcode": "YO51 9DP"
   },
   "3200YND57580": {
     "stop_id": "3200YND57580",
@@ -15579,7 +15579,7 @@
     "stop_name": "Ure Bank, North Bridge, SE-bound",
     "stop_lon": -1.514439,
     "stop_lat": 54.14387,
-    "postcode": null
+    "postcode": "HG4 1HX"
   },
   "3200YNA91060": {
     "stop_id": "3200YNA91060",
@@ -15761,14 +15761,14 @@
     "stop_name": "Airmyn Ferry Lane",
     "stop_lon": -0.893266,
     "stop_lat": 53.722987,
-    "postcode": null
+    "postcode": "DN14 8LS"
   },
   "2200YEA12115": {
     "stop_id": "2200YEA12115",
     "stop_name": "Airmyn Ferry Lane",
     "stop_lon": -0.893202,
     "stop_lat": 53.72313,
-    "postcode": null
+    "postcode": "DN14 8LS"
   },
   "2200YEA00712": {
     "stop_id": "2200YEA00712",
@@ -15873,7 +15873,7 @@
     "stop_name": "Rawcliffe Bridge Lane",
     "stop_lon": -0.958606,
     "stop_lat": 53.687213,
-    "postcode": null
+    "postcode": "DN14 8NJ"
   },
   "2200YEA00202": {
     "stop_id": "2200YEA00202",
@@ -16734,7 +16734,7 @@
     "stop_name": "Owl Lane Hall Close",
     "stop_lon": -1.597978234,
     "stop_lat": 53.697922324,
-    "postcode": null
+    "postcode": "WF12 7SY"
   },
   "450020485": {
     "stop_id": "450020485",
@@ -17315,14 +17315,14 @@
     "stop_name": "Sinnington Lane End",
     "stop_lon": -0.858080154,
     "stop_lat": 54.258066378,
-    "postcode": null
+    "postcode": "YO62 6RA"
   },
   "3200YNA91091": {
     "stop_id": "3200YNA91091",
     "stop_name": "Sinnington Road End",
     "stop_lon": -0.858280909,
     "stop_lat": 54.25802334,
-    "postcode": null
+    "postcode": "YO62 6RA"
   },
   "3200YNA01080": {
     "stop_id": "3200YNA01080",
@@ -17343,28 +17343,28 @@
     "stop_name": "Snainton Coachman Inn",
     "stop_lon": -0.598842658,
     "stop_lat": 54.228538882,
-    "postcode": null
+    "postcode": "YO13 9PL"
   },
   "3200YNA96998": {
     "stop_id": "3200YNA96998",
     "stop_name": "Snainton Coachman Inn",
     "stop_lon": -0.598480103,
     "stop_lat": 54.22837288,
-    "postcode": null
+    "postcode": "YO13 9PL"
   },
   "3200YNA97040": {
     "stop_id": "3200YNA97040",
     "stop_name": "Snainton Golf Centre",
     "stop_lon": -0.609232737,
     "stop_lat": 54.22658296,
-    "postcode": null
+    "postcode": "YO13 9PG"
   },
   "3200YNA97041": {
     "stop_id": "3200YNA97041",
     "stop_name": "Snainton Golf Centre",
     "stop_lon": -0.609566766,
     "stop_lat": 54.226685684,
-    "postcode": null
+    "postcode": "YO13 9PG"
   },
   "3200YNA96997": {
     "stop_id": "3200YNA96997",
@@ -17504,14 +17504,14 @@
     "stop_name": "Welburn Hall School",
     "stop_lon": -0.959111999,
     "stop_lat": 54.256005866,
-    "postcode": null
+    "postcode": "YO62 7HG"
   },
   "3200YNA97002": {
     "stop_id": "3200YNA97002",
     "stop_name": "Welburn Hall School",
     "stop_lon": -0.958849289,
     "stop_lat": 54.2560755,
-    "postcode": null
+    "postcode": "YO62 7HG"
   },
   "3200YNA01073": {
     "stop_id": "3200YNA01073",
@@ -17665,14 +17665,14 @@
     "stop_name": "Bewick Corner",
     "stop_lon": -0.122889,
     "stop_lat": 53.836487,
-    "postcode": null
+    "postcode": "HU11 4FE"
   },
   "2200YEZ01390": {
     "stop_id": "2200YEZ01390",
     "stop_name": "Bewick Corner",
     "stop_lon": -0.122476,
     "stop_lat": 53.836202,
-    "postcode": null
+    "postcode": "HU11 4FE"
   },
   "2200YEZ01389": {
     "stop_id": "2200YEZ01389",
@@ -17805,14 +17805,14 @@
     "stop_name": "Rolston",
     "stop_lon": -0.151731,
     "stop_lat": 53.890744,
-    "postcode": null
+    "postcode": "HU18 1XH"
   },
   "2200YEA01232": {
     "stop_id": "2200YEA01232",
     "stop_name": "Rolston",
     "stop_lon": -0.15206,
     "stop_lat": 53.890884,
-    "postcode": null
+    "postcode": "HU18 1XH"
   },
   "2200YEA01233": {
     "stop_id": "2200YEA01233",
@@ -17833,14 +17833,14 @@
     "stop_name": "Rolston Main Road",
     "stop_lon": -0.155452,
     "stop_lat": 53.891952,
-    "postcode": null
+    "postcode": "HU18 1XH"
   },
   "2200YEA01229": {
     "stop_id": "2200YEA01229",
     "stop_name": "Rolston Main Road",
     "stop_lon": -0.155795,
     "stop_lat": 53.89211,
-    "postcode": null
+    "postcode": "HU18 1XH"
   },
   "2200YEA00709": {
     "stop_id": "2200YEA00709",
@@ -17889,7 +17889,7 @@
     "stop_name": "Sand Le Mere Caravan Park",
     "stop_lon": -0.014886,
     "stop_lat": 53.76071,
-    "postcode": null
+    "postcode": "HU12 0JH"
   },
   "2200YEA00904": {
     "stop_id": "2200YEA00904",
@@ -17910,14 +17910,14 @@
     "stop_name": "Barmston Lane End",
     "stop_lon": -0.238024,
     "stop_lat": 54.013421,
-    "postcode": null
+    "postcode": "YO25 8PQ"
   },
   "2200YEZ01345": {
     "stop_id": "2200YEZ01345",
     "stop_name": "Barmston Lane End",
     "stop_lon": -0.238802,
     "stop_lat": 54.01345,
-    "postcode": null
+    "postcode": "YO25 8PQ"
   },
   "2200YEA01135": {
     "stop_id": "2200YEA01135",
@@ -17938,7 +17938,7 @@
     "stop_name": "Fraisthorpe Lane End",
     "stop_lon": -0.241944,
     "stop_lat": 54.041721,
-    "postcode": null
+    "postcode": "YO15 3QT"
   },
   "2200YEA01123": {
     "stop_id": "2200YEA01123",
@@ -18057,14 +18057,14 @@
     "stop_name": "Bridlington Carnaby Ind Est",
     "stop_lon": -0.249745,
     "stop_lat": 54.06215,
-    "postcode": null
+    "postcode": "YO15 3QA"
   },
   "2200YEA01141": {
     "stop_id": "2200YEA01141",
     "stop_name": "Bridlington Carnaby Ind Est",
     "stop_lon": -0.245507,
     "stop_lat": 54.063365,
-    "postcode": null
+    "postcode": "YO15 3QQ"
   },
   "2200YEA00491": {
     "stop_id": "2200YEA00491",
@@ -18092,21 +18092,21 @@
     "stop_name": "Carnaby Industrial Estate",
     "stop_lon": -0.252854,
     "stop_lat": 54.06162,
-    "postcode": null
+    "postcode": "YO15 3QY"
   },
   "2200YEA01144": {
     "stop_id": "2200YEA01144",
     "stop_name": "Carnaby Industrial Estate",
     "stop_lon": -0.252399,
     "stop_lat": 54.061532,
-    "postcode": null
+    "postcode": "YO15 3QY"
   },
   "2200YEA01143": {
     "stop_id": "2200YEA01143",
     "stop_name": "Carnaby Industrial Estate",
     "stop_lon": -0.249999,
     "stop_lat": 54.062298,
-    "postcode": null
+    "postcode": "YO15 3QA"
   },
   "2200YEZ01347": {
     "stop_id": "2200YEZ01347",
@@ -18120,28 +18120,28 @@
     "stop_name": "Carnaby Industrial Estate",
     "stop_lon": -0.245578,
     "stop_lat": 54.063141,
-    "postcode": null
+    "postcode": "YO15 3QQ"
   },
   "2200YEA00604": {
     "stop_id": "2200YEA00604",
     "stop_name": "Carnaby Industrial Estate",
     "stop_lon": -0.242382,
     "stop_lat": 54.064263,
-    "postcode": null
+    "postcode": "YO16 4UZ"
   },
   "2200YEA00603": {
     "stop_id": "2200YEA00603",
     "stop_name": "Carnaby Industrial Estate",
     "stop_lon": -0.242097,
     "stop_lat": 54.064151,
-    "postcode": null
+    "postcode": "YO15 3QG"
   },
   "2200YEA11804": {
     "stop_id": "2200YEA11804",
     "stop_name": "South Shore Holiday Village",
     "stop_lon": -0.222353,
     "stop_lat": 54.067034,
-    "postcode": null
+    "postcode": "YO15 3QN"
   },
   "2200YEZ01359": {
     "stop_id": "2200YEZ01359",
@@ -18211,14 +18211,14 @@
     "stop_name": "Brigham Cross Roads",
     "stop_lon": -0.350259,
     "stop_lat": 53.974159,
-    "postcode": null
+    "postcode": "YO25 8JP"
   },
   "2200YEZ01342": {
     "stop_id": "2200YEZ01342",
     "stop_name": "Brigham Cross Roads",
     "stop_lon": -0.349591,
     "stop_lat": 53.973314,
-    "postcode": null
+    "postcode": "YO25 8JP"
   },
   "2200YEA11883": {
     "stop_id": "2200YEA11883",
@@ -18330,7 +18330,7 @@
     "stop_name": "Bainton Middleton Road",
     "stop_lon": -0.54459,
     "stop_lat": 53.939952,
-    "postcode": null
+    "postcode": "YO25 9BS"
   },
   "2200YEA00605": {
     "stop_id": "2200YEA00605",
@@ -18358,21 +18358,21 @@
     "stop_name": "Cherry Burton Etton Road",
     "stop_lon": -0.503319,
     "stop_lat": 53.868416,
-    "postcode": null
+    "postcode": "HU17 7RP"
   },
   "2200YEA01015": {
     "stop_id": "2200YEA01015",
     "stop_name": "Cherry Burton Etton Road",
     "stop_lon": -0.50381,
     "stop_lat": 53.868287,
-    "postcode": null
+    "postcode": "HU17 7RP"
   },
   "2200YEA01017": {
     "stop_id": "2200YEA01017",
     "stop_name": "Cherry Burton Main Street",
     "stop_lon": -0.485858,
     "stop_lat": 53.865087,
-    "postcode": null
+    "postcode": "HU17 7LJ"
   },
   "2200YEA00508": {
     "stop_id": "2200YEA00508",
@@ -18554,14 +18554,14 @@
     "stop_name": "Brantingham Park",
     "stop_lon": -0.571311,
     "stop_lat": 53.745783,
-    "postcode": null
+    "postcode": "HU15 1LL"
   },
   "2200YEA11942": {
     "stop_id": "2200YEA11942",
     "stop_name": "Brantingham Park",
     "stop_lon": -0.571587,
     "stop_lat": 53.745688,
-    "postcode": null
+    "postcode": "HU15 1LL"
   },
   "2200YEA00857": {
     "stop_id": "2200YEA00857",
@@ -18687,7 +18687,7 @@
     "stop_name": "Nr Ellerker Ring Beck Ln",
     "stop_lon": -0.589715,
     "stop_lat": 53.756347,
-    "postcode": null
+    "postcode": "HU15 2DD"
   },
   "2200YEA11803": {
     "stop_id": "2200YEA11803",
@@ -18827,7 +18827,7 @@
     "stop_name": "Skidby (Roundabout)",
     "stop_lon": -0.451326,
     "stop_lat": 53.789984,
-    "postcode": null
+    "postcode": "HU16 5UG"
   },
   "2200YEA00251": {
     "stop_id": "2200YEA00251",
@@ -18862,7 +18862,7 @@
     "stop_name": "Swanland West Leys Road",
     "stop_lon": -0.498445,
     "stop_lat": 53.730483,
-    "postcode": null
+    "postcode": "HU14 3JN"
   },
   "2200YEA01517": {
     "stop_id": "2200YEA01517",
@@ -18883,7 +18883,7 @@
     "stop_name": "Driffield A614",
     "stop_lon": -0.46764,
     "stop_lat": 53.992711,
-    "postcode": null
+    "postcode": "YO25 9HH"
   },
   "2200YEZ01290": {
     "stop_id": "2200YEZ01290",
@@ -18897,14 +18897,14 @@
     "stop_name": "Eastburn",
     "stop_lon": -0.497222,
     "stop_lat": 53.986658,
-    "postcode": null
+    "postcode": "YO25 9DT"
   },
   "2200YEA01000": {
     "stop_id": "2200YEA01000",
     "stop_name": "Eastburn A614",
     "stop_lon": -0.497262,
     "stop_lat": 53.986829,
-    "postcode": null
+    "postcode": "YO25 9DT"
   },
   "2200YEA11985": {
     "stop_id": "2200YEA11985",
@@ -19177,14 +19177,14 @@
     "stop_name": "Arkendale, Lane End White Cross, NW-bound",
     "stop_lon": -1.423164,
     "stop_lat": 54.049573,
-    "postcode": null
+    "postcode": "HG5 0QR"
   },
   "3200YND56530": {
     "stop_id": "3200YND56530",
     "stop_name": "Arkendale, White Cross, SE-bound",
     "stop_lon": -1.422857,
     "stop_lat": 54.049689,
-    "postcode": null
+    "postcode": "HG5 0QR"
   },
   "3200YNA96448": {
     "stop_id": "3200YNA96448",
@@ -19212,7 +19212,7 @@
     "stop_name": "Bishop Monkton, Low Demains, S-bound",
     "stop_lon": -1.514743,
     "stop_lat": 54.100758,
-    "postcode": null
+    "postcode": "HG4 3LX"
   },
   "3200YND56250": {
     "stop_id": "3200YND56250",
@@ -19352,14 +19352,14 @@
     "stop_name": "Ferrensby, Green Lane, Adj",
     "stop_lon": -1.425568,
     "stop_lat": 54.050259,
-    "postcode": null
+    "postcode": "HG5 9JT"
   },
   "3200YND56520": {
     "stop_id": "3200YND56520",
     "stop_name": "Ferrensby, Green Lane, Opp",
     "stop_lon": -1.425305,
     "stop_lat": 54.050446,
-    "postcode": null
+    "postcode": "HG5 9JT"
   },
   "3200YND57340": {
     "stop_id": "3200YND57340",
@@ -19604,14 +19604,14 @@
     "stop_name": "Scotton, Lingerfield School, N-bound",
     "stop_lon": -1.493019,
     "stop_lat": 54.035022,
-    "postcode": null
+    "postcode": "HG5 9JB"
   },
   "3200YND56580": {
     "stop_id": "3200YND56580",
     "stop_name": "Scotton, Lingerfield School, S-bound",
     "stop_lon": -1.492912,
     "stop_lat": 54.035031,
-    "postcode": null
+    "postcode": "HG5 9JB"
   },
   "3200YND57270": {
     "stop_id": "3200YND57270",
@@ -19898,7 +19898,7 @@
     "stop_name": "Broughton, Lane End",
     "stop_lon": -0.827838,
     "stop_lat": 54.147557,
-    "postcode": null
+    "postcode": "YO17 6QE"
   },
   "3200YNE04648": {
     "stop_id": "3200YNE04648",
@@ -19912,14 +19912,14 @@
     "stop_name": "Fryton, Lane End",
     "stop_lon": -0.949843,
     "stop_lat": 54.163989,
-    "postcode": null
+    "postcode": "YO62 4AT"
   },
   "3200YNE04627": {
     "stop_id": "3200YNE04627",
     "stop_name": "Fryton, Lane End",
     "stop_lon": -0.949381,
     "stop_lat": 54.164111,
-    "postcode": null
+    "postcode": "YO62 4AT"
   },
   "3200YNA91219": {
     "stop_id": "3200YNA91219",
@@ -20087,14 +20087,14 @@
     "stop_name": "A1079 Wilberfoss",
     "stop_lon": -0.86716,
     "stop_lat": 53.942941,
-    "postcode": null
+    "postcode": "YO41 5PD"
   },
   "2200YEA01650": {
     "stop_id": "2200YEA01650",
     "stop_name": "A1079 Wilberfoss",
     "stop_lon": -0.866834,
     "stop_lat": 53.942615,
-    "postcode": null
+    "postcode": "YO41 5PD"
   },
   "2200YEZ01313": {
     "stop_id": "2200YEZ01313",
@@ -20206,7 +20206,7 @@
     "stop_name": "Low Farm",
     "stop_lon": -0.807256,
     "stop_lat": 53.90763,
-    "postcode": null
+    "postcode": "YO42 4RL"
   },
   "2200YEA01025": {
     "stop_id": "2200YEA01025",
@@ -20332,7 +20332,7 @@
     "stop_name": "Sutton On Derwent Main Street",
     "stop_lon": -0.927631,
     "stop_lat": 53.905988,
-    "postcode": null
+    "postcode": "YO41 4BT"
   },
   "2200YEA01032": {
     "stop_id": "2200YEA01032",
@@ -20500,7 +20500,7 @@
     "stop_name": "Grimston Lodge",
     "stop_lon": -1.020345,
     "stop_lat": 53.955505,
-    "postcode": null
+    "postcode": "YO19 5LA"
   },
   "3290YYA00229": {
     "stop_id": "3290YYA00229",
@@ -20654,14 +20654,14 @@
     "stop_name": "York Maze",
     "stop_lon": -0.984655,
     "stop_lat": 53.939129,
-    "postcode": null
+    "postcode": "YO19 5LT"
   },
   "3290YYA03596": {
     "stop_id": "3290YYA03596",
     "stop_name": "York Maze",
     "stop_lon": -0.984703,
     "stop_lat": 53.939022,
-    "postcode": null
+    "postcode": "YO19 5LT"
   },
   "2200YEA90001": {
     "stop_id": "2200YEA90001",
@@ -20801,14 +20801,14 @@
     "stop_name": "Warter",
     "stop_lon": -0.67273,
     "stop_lat": 53.942308,
-    "postcode": null
+    "postcode": "YO42 1XY"
   },
   "2200YEA11725": {
     "stop_id": "2200YEA11725",
     "stop_name": "Warter Pond",
     "stop_lon": -0.672758101,
     "stop_lat": 53.942390554,
-    "postcode": null
+    "postcode": "YO42 1XY"
   },
   "2200YEA01051": {
     "stop_id": "2200YEA01051",
@@ -20829,14 +20829,14 @@
     "stop_name": "Millington Heights Farm",
     "stop_lon": -0.729459,
     "stop_lat": 53.979144,
-    "postcode": null
+    "postcode": "YO42 1UB"
   },
   "2200YEA12027": {
     "stop_id": "2200YEA12027",
     "stop_name": "Millington Heights Farm",
     "stop_lon": -0.729982,
     "stop_lat": 53.979015,
-    "postcode": null
+    "postcode": "YO42 1UB"
   },
   "2200YEA11798": {
     "stop_id": "2200YEA11798",
@@ -21746,14 +21746,14 @@
     "stop_name": "Parklands",
     "stop_lon": -0.205358,
     "stop_lat": 53.785548,
-    "postcode": null
+    "postcode": "HU11 4DJ"
   },
   "2200YEA12082": {
     "stop_id": "2200YEA12082",
     "stop_name": "Parklands",
     "stop_lon": -0.204906,
     "stop_lat": 53.78653,
-    "postcode": null
+    "postcode": "HU11 4DJ"
   },
   "2200YEA00943": {
     "stop_id": "2200YEA00943",
@@ -21788,14 +21788,14 @@
     "stop_name": "Spring Valley Campsite",
     "stop_lon": -0.191707,
     "stop_lat": 53.77719,
-    "postcode": null
+    "postcode": "HU12 8TU"
   },
   "2200YEA12081": {
     "stop_id": "2200YEA12081",
     "stop_name": "Spring Valley Campsite",
     "stop_lon": -0.190448,
     "stop_lat": 53.778213,
-    "postcode": null
+    "postcode": "HU11 4QF"
   },
   "2200YEA00961": {
     "stop_id": "2200YEA00961",
@@ -21816,7 +21816,7 @@
     "stop_name": "Wyton B1238",
     "stop_lon": -0.217882,
     "stop_lat": 53.781582,
-    "postcode": null
+    "postcode": "HU11 4DJ"
   },
   "2200YEA11698": {
     "stop_id": "2200YEA11698",
@@ -21830,7 +21830,7 @@
     "stop_name": "Wyton Hastings",
     "stop_lon": -0.218075,
     "stop_lat": 53.781693,
-    "postcode": null
+    "postcode": "HU11 4EQ"
   },
   "2200YEA00956": {
     "stop_id": "2200YEA00956",
@@ -22817,14 +22817,14 @@
     "stop_name": "Church Lane Birks Royd",
     "stop_lon": -1.811355538,
     "stop_lat": 53.707391048,
-    "postcode": null
+    "postcode": "HX3 9TB"
   },
   "450051220": {
     "stop_id": "450051220",
     "stop_name": "Church Lane Birks Royd",
     "stop_lon": -1.811324879,
     "stop_lat": 53.707471893,
-    "postcode": null
+    "postcode": "HX3 9TB"
   },
   "450022645": {
     "stop_id": "450022645",
@@ -22873,14 +22873,14 @@
     "stop_name": "Coley Road Denholme Gate Rd",
     "stop_lon": -1.813866799,
     "stop_lat": 53.735680472,
-    "postcode": null
+    "postcode": "HX3 7DS"
   },
   "450014984": {
     "stop_id": "450014984",
     "stop_name": "Coley Road Denholme Gate Rd",
     "stop_lon": -1.814079583,
     "stop_lat": 53.735554969,
-    "postcode": null
+    "postcode": "HX3 7RX"
   },
   "450050247": {
     "stop_id": "450050247",
@@ -23818,7 +23818,7 @@
     "stop_name": "Catton Lane End",
     "stop_lon": -0.91717,
     "stop_lat": 53.952651,
-    "postcode": null
+    "postcode": "YO41 5LE"
   },
   "2200YEA01498": {
     "stop_id": "2200YEA01498",
@@ -23832,14 +23832,14 @@
     "stop_name": "Coldstones Cut",
     "stop_lon": -1.804405,
     "stop_lat": 54.075593,
-    "postcode": null
+    "postcode": "HG3 5BJ"
   },
   "3200YNA96784": {
     "stop_id": "3200YNA96784",
     "stop_name": "Coldstones Cut",
     "stop_lon": -1.80439,
     "stop_lat": 54.075485,
-    "postcode": null
+    "postcode": "HG3 5BJ"
   },
   "3200YNA01758": {
     "stop_id": "3200YNA01758",
@@ -23867,7 +23867,7 @@
     "stop_name": "Fountains Abbey Visitors Centre",
     "stop_lon": -1.584286,
     "stop_lat": 54.113672,
-    "postcode": null
+    "postcode": "HG4 3DZ"
   },
   "3290YYA01640": {
     "stop_id": "3290YYA01640",
@@ -23930,14 +23930,14 @@
     "stop_name": "Grimwith Reservoir",
     "stop_lon": -1.918837,
     "stop_lat": 54.063106,
-    "postcode": null
+    "postcode": "BD23 5EE"
   },
   "3200YNA05144": {
     "stop_id": "3200YNA05144",
     "stop_name": "Grimwith Reservoir",
     "stop_lon": -1.918776,
     "stop_lat": 54.062828,
-    "postcode": null
+    "postcode": "BD23 5EE"
   },
   "3200YNA96586": {
     "stop_id": "3200YNA96586",
@@ -23965,7 +23965,7 @@
     "stop_name": "Lily Green",
     "stop_lon": -1.843377,
     "stop_lat": 54.071219,
-    "postcode": null
+    "postcode": "HG3 5JH"
   },
   "3200YND24390": {
     "stop_id": "3200YND24390",
@@ -24217,7 +24217,7 @@
     "stop_name": "Junction 36",
     "stop_lon": -0.907329,
     "stop_lat": 53.700824,
-    "postcode": null
+    "postcode": "DN14 6BS"
   },
   "2200YEZ01304": {
     "stop_id": "2200YEZ01304",
@@ -24406,14 +24406,14 @@
     "stop_name": "High Marishes Lane End",
     "stop_lon": -0.764006,
     "stop_lat": 54.190843,
-    "postcode": null
+    "postcode": "YO17 6UQ"
   },
   "3200YNF10019": {
     "stop_id": "3200YNF10019",
     "stop_name": "High Marishes Lane End",
     "stop_lon": -0.764244,
     "stop_lat": 54.191583,
-    "postcode": null
+    "postcode": "YO17 6UQ"
   },
   "3200YNF10009": {
     "stop_id": "3200YNF10009",
@@ -24448,14 +24448,14 @@
     "stop_name": "Low Marishes Lane End",
     "stop_lon": -0.762007,
     "stop_lat": 54.181305,
-    "postcode": null
+    "postcode": "YO17 6RQ"
   },
   "3200YNF10052": {
     "stop_id": "3200YNF10052",
     "stop_name": "Low Marishes Lane End",
     "stop_lon": -0.761499,
     "stop_lat": 54.180365,
-    "postcode": null
+    "postcode": "YO17 6RQ"
   },
   "3200YNF10029": {
     "stop_id": "3200YNF10029",
@@ -24658,14 +24658,14 @@
     "stop_name": "Bagby Lane",
     "stop_lon": -1.301184,
     "stop_lat": 54.209033,
-    "postcode": null
+    "postcode": "YO7 3AF"
   },
   "3200YNA91004": {
     "stop_id": "3200YNA91004",
     "stop_name": "Bagby Lane",
     "stop_lon": -1.300241,
     "stop_lat": 54.208569,
-    "postcode": null
+    "postcode": "YO7 3AP"
   },
   "3200YNA96749": {
     "stop_id": "3200YNA96749",
@@ -24714,7 +24714,7 @@
     "stop_name": "Carlton Husthwaite l e",
     "stop_lon": -1.261476,
     "stop_lat": 54.182202,
-    "postcode": null
+    "postcode": "YO7 3AY"
   },
   "3200YNA90168": {
     "stop_id": "3200YNA90168",
@@ -24791,7 +24791,7 @@
     "stop_name": "Hutton Sessay lane end",
     "stop_lon": -1.261738,
     "stop_lat": 54.182141,
-    "postcode": null
+    "postcode": "YO7 3AY"
   },
   "3200YNA01508": {
     "stop_id": "3200YNA01508",
@@ -24938,14 +24938,14 @@
     "stop_name": "Thirkleby Park",
     "stop_lon": -1.294239,
     "stop_lat": 54.204535,
-    "postcode": null
+    "postcode": "YO7 3AP"
   },
   "3200YNA97107": {
     "stop_id": "3200YNA97107",
     "stop_name": "Thirkleby Park",
     "stop_lon": -1.294118,
     "stop_lat": 54.204426,
-    "postcode": null
+    "postcode": "YO7 3AP"
   },
   "3200YNA90161": {
     "stop_id": "3200YNA90161",
@@ -24987,21 +24987,21 @@
     "stop_name": "A1079 York Road",
     "stop_lon": -0.541212653,
     "stop_lat": 53.85592941,
-    "postcode": null
+    "postcode": "HU17 7RT"
   },
   "2200YEA11975": {
     "stop_id": "2200YEA11975",
     "stop_name": "Arras Cottages",
     "stop_lon": -0.593981568,
     "stop_lat": 53.860154718,
-    "postcode": null
+    "postcode": "YO43 4RN"
   },
   "2200YEA11974": {
     "stop_id": "2200YEA11974",
     "stop_name": "Arras Cottages",
     "stop_lon": -0.593440886,
     "stop_lat": 53.860298853,
-    "postcode": null
+    "postcode": "YO43 4RN"
   },
   "2200YEA00543": {
     "stop_id": "2200YEA00543",
@@ -25057,14 +25057,14 @@
     "stop_name": "Bishop Burton A1079",
     "stop_lon": -0.541263558,
     "stop_lat": 53.85577722,
-    "postcode": null
+    "postcode": "HU17 7RT"
   },
   "2200YEA00804": {
     "stop_id": "2200YEA00804",
     "stop_name": "Bishop Burton A1079",
     "stop_lon": -0.558516545,
     "stop_lat": 53.858098046,
-    "postcode": null
+    "postcode": "HU17 7RX"
   },
   "2200YEA01435": {
     "stop_id": "2200YEA01435",
@@ -25113,7 +25113,7 @@
     "stop_name": "Gardham Cross Roads",
     "stop_lon": -0.557508429,
     "stop_lat": 53.857789305,
-    "postcode": null
+    "postcode": "HU17 7RX"
   },
   "3290YYA00628": {
     "stop_id": "3290YYA00628",
@@ -25246,14 +25246,14 @@
     "stop_name": "Scoreby Lodge",
     "stop_lon": -0.958623367,
     "stop_lat": 53.953080572,
-    "postcode": null
+    "postcode": "YO19 5LR"
   },
   "3290YYA03689": {
     "stop_id": "3290YYA03689",
     "stop_name": "Scoreby Lodge",
     "stop_lon": -0.959035845,
     "stop_lat": 53.953039205,
-    "postcode": null
+    "postcode": "YO19 5LR"
   },
   "2200YEA00519": {
     "stop_id": "2200YEA00519",
@@ -25288,14 +25288,14 @@
     "stop_name": "Thorpe le Street Lane End",
     "stop_lon": -0.727337626,
     "stop_lat": 53.886266902,
-    "postcode": null
+    "postcode": "YO42 4LJ"
   },
   "2200YEA11966": {
     "stop_id": "2200YEA11966",
     "stop_name": "Thorpe le Street Lane End",
     "stop_lon": -0.72619688,
     "stop_lat": 53.886079529,
-    "postcode": null
+    "postcode": "YO42 4LL"
   },
   "2200YEA01684": {
     "stop_id": "2200YEA01684",
