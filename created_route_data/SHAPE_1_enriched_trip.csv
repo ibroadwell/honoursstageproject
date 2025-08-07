@@ -1,2 +1,2 @@
 shape_id,total_distance_km,trip_id,scheduled_total_idle_seconds,estimated_total_idle_seconds,total_idle_seconds,estimated_fuel_usage_liters
-SHAPE_1,1.8875088085464293,SHAPE_1,0,27.709467905808054,27.709467905808054,0.9025232888533817
+SHAPE_1,1.8875088085464293,SHAPE_1,0,25.9861228866811,25.9861228866811,0.9015658749538668

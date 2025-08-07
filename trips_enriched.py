@@ -27,8 +27,8 @@ def calculate_estimated_idle_time(
     log_dwell_time_factor=5
 ):
     """
-    Calculates the estimated dwell time for a trip based on the number of stops and the
-    total shops from enriched data, using a logarithmic scale.
+    Calculates the estimated dwell time for a trip by summing the individual dwell times
+    of each stop, based on the number of shops nearby.
     """
     trip_stop_times = all_stop_times_df[all_stop_times_df['trip_id'] == trip_row['trip_id']]
     trip_stop_ids = trip_stop_times['stop_id'].tolist()
@@ -36,20 +36,17 @@ def calculate_estimated_idle_time(
     if not trip_stop_ids:
         return 0.0
 
-    total_stops_on_trip = len(trip_stop_ids)
+    total_estimated_dwell_time_seconds = 0.0
 
-    total_shops_on_route = sum(
-        enriched_stops_df.loc[stop_id, 'shops_nearby_count']
-        if stop_id in enriched_stops_df.index else 0
-        for stop_id in trip_stop_ids
-    )
+    for stop_id in trip_stop_ids:
+        shops_nearby_count = enriched_stops_df.loc[stop_id, 'shops_nearby_count'] \
+                             if stop_id in enriched_stops_df.index else 0
+        
+        dwell_time_at_stop = base_dwell_time_seconds + (log_dwell_time_factor * math.log(1 + shops_nearby_count))
+        
+        total_estimated_dwell_time_seconds += dwell_time_at_stop
 
-    average_shops_per_stop = total_shops_on_route / total_stops_on_trip
-    estimated_dwell_time_per_stop = base_dwell_time_seconds + (log_dwell_time_factor * math.log(1 + average_shops_per_stop))
-    
-    estimated_dwell_time_seconds = estimated_dwell_time_per_stop * total_stops_on_trip
-
-    return estimated_dwell_time_seconds
+    return total_estimated_dwell_time_seconds
 
 def estimate_fuel(row, fuel_rate_moving=0.47, fuel_rate_idling=2.0):
     """Estimates fuel usage for a trip based on distance and idle time. fuel_rate_moving in L/km, fuel_rate_idling in L/h"""

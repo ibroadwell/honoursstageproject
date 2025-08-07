@@ -13,10 +13,10 @@ Trip enrichment complete. Results saved to 'data/trips_enriched.csv'
 
 First 5 rows of the new 'trips_enriched' table:
                      trip_id      route_id   shape_id  total_distance_km  scheduled_total_idle_seconds  estimated_total_idle_seconds  estimated_fuel_usage_liters
-0  EY:EYAO001:1:001FMP31:O:1  EY:EYAO001:1  EYAO001-1          32.054637                           0.0                    437.770690                    15.308885
-1  EY:EYAO001:1:001FMP31:I:1  EY:EYAO001:1  EYAO001-2          32.148806                           0.0                    392.483811                    15.327985
-2  EY:EYAO002:2:002MFS31:O:1  EY:EYAO002:2  EYAO002-2          10.901145                         120.0                   1063.325129                     5.780941
-3  EY:EYAO002:2:002MFS31:O:2  EY:EYAO002:2  EYAO002-2          10.901145                         120.0                   1063.325129                     5.780941
-4  EY:EYAO002:2:002MFS31:O:3  EY:EYAO002:2  EYAO002-2          10.901145                         120.0                   1063.325129                     5.780941
+0  EY:EYAO001:1:001FMP31:O:1  EY:EYAO001:1  EYAO001-1          32.054637                           0.0                    326.201025                    15.246902
+1  EY:EYAO001:1:001FMP31:I:1  EY:EYAO001:1  EYAO001-2          32.148806                           0.0                    286.663694                    15.269197
+2  EY:EYAO002:2:002MFS31:O:1  EY:EYAO002:2  EYAO002-2          10.901145                         120.0                    738.655103                     5.600569
+3  EY:EYAO002:2:002MFS31:O:2  EY:EYAO002:2  EYAO002-2          10.901145                         120.0                    738.655103                     5.600569
+4  EY:EYAO002:2:002MFS31:O:3  EY:EYAO002:2  EYAO002-2          10.901145                         120.0                    738.655103                     5.600569
 Completed trips_enriched.csv
 All application tasks completed successfully.
