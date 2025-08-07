@@ -86,7 +86,7 @@ def enrich_trips_from_database(db_config, fuel_rate_moving, fuel_rate_idling):
         stop_times_query = "SELECT trip_id, stop_id FROM stop_times ORDER BY trip_id, stop_sequence"
         stop_times = get_df_from_query(cursor, stop_times_query)
 
-        enriched_stops_query = "SELECT stop_id, shops_nearby_count FROM stops_enriched"
+        enriched_stops_query = "SELECT stop_id, shops_nearby_count, customer_convenience_score FROM stops_enriched"
         enriched_stops = get_df_from_query(cursor, enriched_stops_query)
         enriched_stops = enriched_stops.set_index('stop_id')
 
@@ -119,9 +119,31 @@ def enrich_trips_from_database(db_config, fuel_rate_moving, fuel_rate_idling):
     shape_distances = shapes_sorted.groupby('shape_id').apply(calculate_shape_distance).reset_index()
     shape_distances.rename(columns={0: 'total_distance_km'}, inplace=True)
 
+    # --- New section to calculate the average convenience score for each trip ---
+    logger.log("Calculating average convenience score for each trip...")
+    # Join stop_times with enriched_stops to link trips to stop scores
+    trip_stop_scores_df = pd.merge(
+        stop_times[['trip_id', 'stop_id']],
+        enriched_stops[['customer_convenience_score']],
+        left_on='stop_id',
+        right_index=True,
+        how='left'
+    )
+    
+    # Group by trip_id and calculate the average score
+    trip_avg_scores_df = trip_stop_scores_df.groupby('trip_id')['customer_convenience_score'].mean().reset_index()
+    
+    # Rename the column for clarity before merging
+    trip_avg_scores_df.rename(
+        columns={'customer_convenience_score': 'trip_convenience_score'}, 
+        inplace=True
+    )
+    # -------------------------------------------------------------------------
+
     logger.log("Merging data and applying idle time calculations...")
     trips_enriched = trips.merge(shape_distances, on='shape_id', how='left')
     trips_enriched = trips_enriched.merge(idle_time_df, on='trip_id', how='left')
+    trips_enriched = trips_enriched.merge(trip_avg_scores_df, on='trip_id', how='left')
     
     trips_enriched['total_distance_km'] = trips_enriched['total_distance_km'].fillna(0)
     trips_enriched['total_idle_seconds'] = trips_enriched['total_idle_seconds'].fillna(0)
@@ -172,4 +194,4 @@ def generate_trips_enriched(fuel_rate_moving=0.47, fuel_rate_idling=2.0, config_
     
     if enriched_df is not None:
         logger.log("\nFirst 5 rows of the new 'trips_enriched' table:")
-        logger.log(enriched_df[['trip_id', 'route_id', 'shape_id', 'total_distance_km', 'scheduled_total_idle_seconds', 'estimated_total_idle_seconds', 'estimated_fuel_usage_liters']].head())
+        logger.log(enriched_df[['trip_id', 'route_id', 'shape_id', 'total_distance_km', 'scheduled_total_idle_seconds', 'estimated_total_idle_seconds', 'estimated_fuel_usage_liters', 'trip_convenience_score']].head())

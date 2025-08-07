@@ -87,3 +87,34 @@ LEFT JOIN ts061 AS t61 ON t61.geography = si.oa21cd
 LEFT JOIN postcode_estimates AS pe ON pe.postcode = CASE WHEN LENGTH(si.postcode) > 7 THEN REPLACE(si.postcode, ' ', '') ELSE si.postcode END;
 DROP TABLE IF EXISTS stops_intermediate;
 DROP TABLE IF EXISTS stops_frequency;
+ALTER TABLE stops_enriched ADD COLUMN customer_convenience_score DECIMAL(5, 4);
+WITH MinMaxValues AS (
+    SELECT
+        MIN(LOG(1 + COALESCE(shops_nearby_count, 0))) AS min_log_shops,
+        MAX(LOG(1 + COALESCE(shops_nearby_count, 0))) AS max_log_shops,
+        MIN(LOG(1 + COALESCE(employed_total, 0))) AS min_log_employed,
+        MAX(LOG(1 + COALESCE(employed_total, 0))) AS max_log_employed,
+        MIN(LOG(1 + COALESCE(bus_commute_total, 0))) AS min_log_bus_commute,
+        MAX(LOG(1 + COALESCE(bus_commute_total, 0))) AS max_log_bus_commute,
+        MIN(LOG(1 + COALESCE(avg_weekly_frequency_per_hour, 0))) AS min_log_frequency,
+        MAX(LOG(1 + COALESCE(avg_weekly_frequency_per_hour, 0))) AS max_log_frequency
+    FROM
+        stops_enriched
+)
+UPDATE stops_enriched se, MinMaxValues mmv
+SET
+    se.customer_convenience_score =
+    (
+        (LOG(1 + COALESCE(se.shops_nearby_count, 0)) - mmv.min_log_shops) / (mmv.max_log_shops - mmv.min_log_shops) +
+        (LOG(1 + COALESCE(se.employed_total, 0)) - mmv.min_log_employed) / (mmv.max_log_employed - mmv.min_log_employed) +
+        (LOG(1 + COALESCE(se.bus_commute_total, 0)) - mmv.min_log_bus_commute) / (mmv.max_log_bus_commute - mmv.min_log_bus_commute) +
+        (LOG(1 + COALESCE(se.avg_weekly_frequency_per_hour, 0)) - mmv.min_log_frequency) / (mmv.max_log_frequency - mmv.min_log_frequency)
+    ) /
+    -- Dynamically adjust the divisor based on the number of non-null features.
+    (
+        (CASE WHEN se.shops_nearby_count IS NOT NULL THEN 1 ELSE 0 END) +
+        (CASE WHEN se.oa21pop IS NOT NULL THEN 1 ELSE 0 END) +
+        (CASE WHEN se.employed_total IS NOT NULL THEN 1 ELSE 0 END) +
+        (CASE WHEN se.bus_commute_total IS NOT NULL THEN 1 ELSE 0 END) +
+        (CASE WHEN se.avg_weekly_frequency_per_hour IS NOT NULL THEN 1 ELSE 0 END)
+    );
