@@ -119,9 +119,7 @@ def enrich_trips_from_database(db_config, fuel_rate_moving, fuel_rate_idling):
     shape_distances = shapes_sorted.groupby('shape_id').apply(calculate_shape_distance).reset_index()
     shape_distances.rename(columns={0: 'total_distance_km'}, inplace=True)
 
-    # --- New section to calculate the average convenience score for each trip ---
     logger.log("Calculating average convenience score for each trip...")
-    # Join stop_times with enriched_stops to link trips to stop scores
     trip_stop_scores_df = pd.merge(
         stop_times[['trip_id', 'stop_id']],
         enriched_stops[['customer_convenience_score']],
@@ -130,15 +128,12 @@ def enrich_trips_from_database(db_config, fuel_rate_moving, fuel_rate_idling):
         how='left'
     )
     
-    # Group by trip_id and calculate the average score
     trip_avg_scores_df = trip_stop_scores_df.groupby('trip_id')['customer_convenience_score'].mean().reset_index()
     
-    # Rename the column for clarity before merging
     trip_avg_scores_df.rename(
         columns={'customer_convenience_score': 'trip_convenience_score'}, 
         inplace=True
     )
-    # -------------------------------------------------------------------------
 
     logger.log("Merging data and applying idle time calculations...")
     trips_enriched = trips.merge(shape_distances, on='shape_id', how='left')

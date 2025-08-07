@@ -53,13 +53,13 @@ try:
     # BuildEnrich.write_enriched_to_db_csv()
     # logger.log("stops_enriched and stops_enriched.csv build complete.")
 
-    # logger.log("Building kmeans categorisation...")
-    # KMeans.kmeans_model()
-    # logger.log("Completed kmeans categorisation.")
+    logger.log("Building kmeans categorisation...")
+    KMeans.kmeans_model()
+    logger.log("Completed kmeans categorisation.")
 
-    logger.log("Building trips_enriched.csv...")
-    TripEnrich.generate_trips_enriched()
-    logger.log("Completed trips_enriched.csv")
+    # logger.log("Building trips_enriched.csv...")
+    # TripEnrich.generate_trips_enriched()
+    # logger.log("Completed trips_enriched.csv")
 
     logger.log("All application tasks completed successfully.")
 
