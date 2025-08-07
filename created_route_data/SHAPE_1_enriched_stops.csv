@@ -1,4 +1,4 @@
-stop_lat,stop_lon,postcode,oa21cd,lsoa21cd,lsoa21nm,shops_nearby_count,oa21pop,employed_total,bus_commute_total,cluster,cluster_category,stop_id,stop_sequence,shape_id
-53.74012613761355,-0.569491910428921,HU15 1JE,E00065408,E01012970,East Riding of Yorkshire 032A,2,316,145,0,2,Low-Density Residiential/Rural,STOP_1,1,SHAPE_1
-53.735214390866375,-0.5612360856182731,HU15 1SF,E00065409,E01033496,East Riding of Yorkshire 032H,0,539,256,0,0,High-Density Residential,STOP_2,2,SHAPE_1
-53.73309467427819,-0.5496650444407969,HU15 1PL,E00066068,E01013092,East Riding of Yorkshire 032F,0,247,100,0,2,Low-Density Residiential/Rural,STOP_3,3,SHAPE_1
+stop_id,stop_lat,stop_lon,postcode,oa21cd,lsoa21cd,lsoa21nm,shops_nearby_count,oa21pop,employed_total,bus_commute_total,cluster,cluster_category
+STOP_1,53.74012613761355,-0.569491910428921,HU15 1JE,E00065408,E01012970,East Riding of Yorkshire 032A,2,316,145,0,0,Low-Density Residential/Rural
+STOP_2,53.735214390866375,-0.5612360856182731,HU15 1SF,E00065409,E01033496,East Riding of Yorkshire 032H,0,539,256,0,2,High-Density Residential
+STOP_3,53.73309467427819,-0.5496650444407969,HU15 1PL,E00066068,E01013092,East Riding of Yorkshire 032F,2,247,100,0,0,Low-Density Residential/Rural

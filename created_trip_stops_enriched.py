@@ -15,8 +15,6 @@ def enrich_generated_trip_data(
     stops_csv_path,
     output_enriched_stops_csv = None,
     output_enriched_trip_csv = None,
-    fuel_rate_moving = 0.35,
-    fuel_rate_idling= 3.0
 ):
     """
     Enriches generated shape and stop data with geographic, census, and cluster info,
@@ -42,15 +40,15 @@ def enrich_generated_trip_data(
     for index, row in tqdm(stops_df.iterrows(), total=stops_df.shape[0], desc="Enriching Stops"):
         enriched_stop = sse.enriched_record_from_lat_lon(row['stop_lat'], row['stop_lon'])
         enriched_stop['stop_id'] = row['stop_id']
-        enriched_stop['stop_sequence'] = row['stop_sequence']
-        enriched_stop['shape_id'] = row['shape_id']
         enriched_stops_list.append(enriched_stop)
     
-
+    stops_df['trip_id'] = stops_df['shape_id']
+    
     enriched_stops_df = pd.DataFrame(enriched_stops_list)
+    enriched_stops_df = enriched_stops_df.set_index('stop_id')
     
     if output_enriched_stops_csv:
-        enriched_stops_df.to_csv(output_enriched_stops_csv, index=False)
+        enriched_stops_df.to_csv(output_enriched_stops_csv)
         logger.log(f"Enriched stops saved to: {output_enriched_stops_csv}")
 
     logger.log("Calculating total distance for the shape...")
@@ -63,8 +61,22 @@ def enrich_generated_trip_data(
     
     logger.log("Estimating fuel usage for the trip...")
     enriched_trip_df = shape_distances.copy()
+
+    enriched_trip_df['trip_id'] = enriched_trip_df['shape_id']
     
-    enriched_trip_df['total_idle_seconds'] = 0 
+    enriched_trip_df['scheduled_total_idle_seconds'] = 0 
+    
+    stop_times_df = stops_df[['trip_id', 'stop_id']]
+    
+    enriched_trip_df['estimated_total_idle_seconds'] = enriched_trip_df.progress_apply(
+        lambda row: te.calculate_estimated_idle_time(
+            row,
+            all_stop_times_df=stop_times_df,
+            enriched_stops_df=enriched_stops_df
+        ), axis=1
+    )
+
+    enriched_trip_df['total_idle_seconds'] = enriched_trip_df['scheduled_total_idle_seconds'] + enriched_trip_df['estimated_total_idle_seconds']
     
     enriched_trip_df['estimated_fuel_usage_liters'] = enriched_trip_df.progress_apply(
         lambda row: te.estimate_fuel(row), axis=1
@@ -80,8 +92,6 @@ def enrich_generated_trip_data(
 
 def process_all_generated_routes(
     directory = "created_route_data/",
-    fuel_rate_moving = 0.35,
-    fuel_rate_idling = 3.0
 ):
     """
     Scans a specified directory for generated shape and stop CSV files,
@@ -114,8 +124,6 @@ def process_all_generated_routes(
                 stops_csv_path=stops_csv_path,
                 output_enriched_stops_csv=output_enriched_stops,
                 output_enriched_trip_csv=output_enriched_trip,
-                fuel_rate_moving=fuel_rate_moving,
-                fuel_rate_idling=fuel_rate_idling
             )
             
             if enriched_stops is not None and enriched_trip is not None:

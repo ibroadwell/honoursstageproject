@@ -7,17 +7,51 @@ import mysql.connector
 import json
 import data_pipeline as dp
 import logger
+import math
 
 def calculate_shape_distance(points_df):
     """Calculates the total geodesic distance for a single shape."""
     total_distance = 0
-    for i in range(len(points_df) - 1):
-        point1 = (points_df.iloc[i]['shape_pt_lat'], points_df.iloc[i]['shape_pt_lon'])
-        point2 = (points_df.iloc[i+1]['shape_pt_lat'], points_df.iloc[i+1]['shape_pt_lon'])
-        total_distance += geodesic(point1, point2).km
+    if len(points_df) > 1:
+        for i in range(len(points_df) - 1):
+            point1 = (points_df.iloc[i]['shape_pt_lat'], points_df.iloc[i]['shape_pt_lon'])
+            point2 = (points_df.iloc[i+1]['shape_pt_lat'], points_df.iloc[i+1]['shape_pt_lon'])
+            total_distance += geodesic(point1, point2).km
     return total_distance
 
-def estimate_fuel(row, fuel_rate_moving = 0.47, fuel_rate_idling = 2.0):
+def calculate_estimated_idle_time(
+    trip_row,
+    all_stop_times_df,
+    enriched_stops_df,
+    base_dwell_time_seconds=5,
+    log_dwell_time_factor=5
+):
+    """
+    Calculates the estimated dwell time for a trip based on the number of stops and the
+    total shops from enriched data, using a logarithmic scale.
+    """
+    trip_stop_times = all_stop_times_df[all_stop_times_df['trip_id'] == trip_row['trip_id']]
+    trip_stop_ids = trip_stop_times['stop_id'].tolist()
+    
+    if not trip_stop_ids:
+        return 0.0
+
+    total_stops_on_trip = len(trip_stop_ids)
+
+    total_shops_on_route = sum(
+        enriched_stops_df.loc[stop_id, 'shops_nearby_count']
+        if stop_id in enriched_stops_df.index else 0
+        for stop_id in trip_stop_ids
+    )
+
+    average_shops_per_stop = total_shops_on_route / total_stops_on_trip
+    estimated_dwell_time_per_stop = base_dwell_time_seconds + (log_dwell_time_factor * math.log(1 + average_shops_per_stop))
+    
+    estimated_dwell_time_seconds = estimated_dwell_time_per_stop * total_stops_on_trip
+
+    return estimated_dwell_time_seconds
+
+def estimate_fuel(row, fuel_rate_moving=0.47, fuel_rate_idling=2.0):
     """Estimates fuel usage for a trip based on distance and idle time. fuel_rate_moving in L/km, fuel_rate_idling in L/h"""
     moving_fuel = float(row['total_distance_km']) * fuel_rate_moving
     idling_fuel = 0
@@ -29,7 +63,8 @@ def get_df_from_query(cursor, query):
     """Executes a query and returns a pandas DataFrame."""
     cursor.execute(query)
     data = cursor.fetchall()
-    return pd.DataFrame(data)
+    column_names = [i[0] for i in cursor.description]
+    return pd.DataFrame(data, columns=column_names)
 
 def enrich_trips_from_database(db_config, fuel_rate_moving, fuel_rate_idling):
     """
@@ -43,14 +78,22 @@ def enrich_trips_from_database(db_config, fuel_rate_moving, fuel_rate_idling):
         return None
 
     try:
-        logger.log("Reading trips and shapes tables...")
+        logger.log("Reading trips, shapes, stop_times, and enriched_stops tables...")
+        
         trips_query = "SELECT * FROM trips"
         trips = get_df_from_query(cursor, trips_query)
 
         shapes_query = "SELECT * FROM shapes"
         shapes = get_df_from_query(cursor, shapes_query)
 
-        logger.log("Calculating total idle time for each trip with SQL...")
+        stop_times_query = "SELECT trip_id, stop_id FROM stop_times ORDER BY trip_id, stop_sequence"
+        stop_times = get_df_from_query(cursor, stop_times_query)
+
+        enriched_stops_query = "SELECT stop_id, shops_nearby_count FROM stops_enriched"
+        enriched_stops = get_df_from_query(cursor, enriched_stops_query)
+        enriched_stops = enriched_stops.set_index('stop_id')
+
+        logger.log("Calculating total scheduled idle time for each trip with SQL...")
         idle_time_query = """
         WITH TripIdleTime AS (
             SELECT
@@ -79,16 +122,32 @@ def enrich_trips_from_database(db_config, fuel_rate_moving, fuel_rate_idling):
     shape_distances = shapes_sorted.groupby('shape_id').apply(calculate_shape_distance).reset_index()
     shape_distances.rename(columns={0: 'total_distance_km'}, inplace=True)
 
-    logger.log("Estimating fuel usage and creating the new enriched table...")
-    
+    logger.log("Merging data and applying idle time calculations...")
     trips_enriched = trips.merge(shape_distances, on='shape_id', how='left')
     trips_enriched = trips_enriched.merge(idle_time_df, on='trip_id', how='left')
     
     trips_enriched['total_distance_km'] = trips_enriched['total_distance_km'].fillna(0)
     trips_enriched['total_idle_seconds'] = trips_enriched['total_idle_seconds'].fillna(0)
+
+    trips_enriched.rename(columns={'total_idle_seconds': 'scheduled_total_idle_seconds'}, inplace=True)
+
+    trips_enriched['estimated_total_idle_seconds'] = trips_enriched.apply(
+        lambda row: calculate_estimated_idle_time(
+            row,
+            all_stop_times_df=stop_times,
+            enriched_stops_df=enriched_stops
+        ), axis=1)
+
+    trips_enriched['scheduled_total_idle_seconds'] = trips_enriched['scheduled_total_idle_seconds'].astype(float)
+    trips_enriched['estimated_total_idle_seconds'] = trips_enriched['estimated_total_idle_seconds'].astype(float)
+
+    trips_enriched['total_idle_seconds'] = trips_enriched['scheduled_total_idle_seconds'] + trips_enriched['estimated_total_idle_seconds']
+
+    trips_enriched['total_distance_km'] = trips_enriched['total_distance_km'].astype(float)
     
+    logger.log("Estimating fuel usage for all trips...")
     trips_enriched['estimated_fuel_usage_liters'] = trips_enriched.apply(
-        lambda row: estimate_fuel(row), axis=1)
+        lambda row: estimate_fuel(row, fuel_rate_moving, fuel_rate_idling), axis=1)
     
     output_filename = 'data/trips_enriched.csv'
     trips_enriched.to_csv(output_filename, index=False)
@@ -96,7 +155,7 @@ def enrich_trips_from_database(db_config, fuel_rate_moving, fuel_rate_idling):
     
     return trips_enriched
 
-def generate_trips_enriched(fuel_rate_moving = 0.47, fuel_rate_idling = 2.0, config_file = "config.json"):
+def generate_trips_enriched(fuel_rate_moving=0.47, fuel_rate_idling=2.0, config_file="config.json"):
     """
     Main function to generate the enriched trips data.
     Loads config, and runs the enrichment.
@@ -116,4 +175,4 @@ def generate_trips_enriched(fuel_rate_moving = 0.47, fuel_rate_idling = 2.0, con
     
     if enriched_df is not None:
         logger.log("\nFirst 5 rows of the new 'trips_enriched' table:")
-        logger.log(enriched_df[['trip_id', 'route_id', 'shape_id', 'total_distance_km', 'total_idle_seconds', 'estimated_fuel_usage_liters']].head())
+        logger.log(enriched_df[['trip_id', 'route_id', 'shape_id', 'total_distance_km', 'scheduled_total_idle_seconds', 'estimated_total_idle_seconds', 'estimated_fuel_usage_liters']].head())
