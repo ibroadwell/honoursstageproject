@@ -9,6 +9,7 @@ import logger
 import stops_enrichment_postcode as SEP
 import stops_enrichment_oas as SEO
 import stops_enrichment_shops as SES
+import stops_enrichment_population_density as sepd
 import pandas as pd
 import numpy as np
 
@@ -32,6 +33,10 @@ def enriched_record_from_lat_lon(stop_lat, stop_lon):
     stop_enriched["oa21pop"] = census["oa21pop"]
     stop_enriched["employed_total"] = census["employed_total"]
     stop_enriched["bus_commute_total"] = census["bus_commute_total"]
+    stop_df = pd.DataFrame([stop_enriched])
+    stop_df = sepd.process_stops_data(stop_df)
+    stop_enriched["population_density"] = stop_df.iloc[0]['population_density']
+
 
     if oa21cd is None:
         stop_enriched["cluster"] = None

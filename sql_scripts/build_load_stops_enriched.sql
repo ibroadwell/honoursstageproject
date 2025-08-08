@@ -74,6 +74,7 @@ SELECT
     CASE WHEN si.lsoa21cd = "" THEN NULL ELSE si.lsoa21cd END AS lsoa21cd,
     CASE WHEN si.lsoa21nm = "" THEN NULL ELSE si.lsoa21nm END AS lsoa21nm,
     si.shops_nearby_count,
+    si.population_density,
     t1.total AS oa21pop,
     pe.total AS `postcode_pop`,
     t61.travel_total_16_plus_employed AS `employed_total`,
@@ -85,9 +86,13 @@ LEFT JOIN ts001 AS t1 ON t1.geography = si.oa21cd
 LEFT JOIN ts007a AS t7a ON t7a.geography = si.oa21cd
 LEFT JOIN ts061 AS t61 ON t61.geography = si.oa21cd
 LEFT JOIN postcode_estimates AS pe ON pe.postcode = CASE WHEN LENGTH(si.postcode) > 7 THEN REPLACE(si.postcode, ' ', '') ELSE si.postcode END;
+
 DROP TABLE IF EXISTS stops_intermediate;
 DROP TABLE IF EXISTS stops_frequency;
+
 ALTER TABLE stops_enriched ADD COLUMN customer_convenience_score DECIMAL(5, 4);
+ALTER TABLE stops_enriched ADD COLUMN commute_opportunity_score DECIMAL(5, 4);
+
 WITH MinMaxValues AS (
     SELECT
         MIN(LOG(1 + COALESCE(shops_nearby_count, 0))) AS min_log_shops,
@@ -97,24 +102,50 @@ WITH MinMaxValues AS (
         MIN(LOG(1 + COALESCE(bus_commute_total, 0))) AS min_log_bus_commute,
         MAX(LOG(1 + COALESCE(bus_commute_total, 0))) AS max_log_bus_commute,
         MIN(LOG(1 + COALESCE(avg_weekly_frequency_per_hour, 0))) AS min_log_frequency,
-        MAX(LOG(1 + COALESCE(avg_weekly_frequency_per_hour, 0))) AS max_log_frequency
+        MAX(LOG(1 + COALESCE(avg_weekly_frequency_per_hour, 0))) AS max_log_frequency,
+        MIN(LOG(1 + COALESCE(population_density, 0))) AS min_log_population_density,
+        MAX(LOG(1 + COALESCE(population_density, 0))) AS max_log_population_density
     FROM
         stops_enriched
 )
 UPDATE stops_enriched se, MinMaxValues mmv
 SET
     se.customer_convenience_score =
-    (
-        (LOG(1 + COALESCE(se.shops_nearby_count, 0)) - mmv.min_log_shops) / (mmv.max_log_shops - mmv.min_log_shops) +
-        (LOG(1 + COALESCE(se.employed_total, 0)) - mmv.min_log_employed) / (mmv.max_log_employed - mmv.min_log_employed) +
-        (LOG(1 + COALESCE(se.bus_commute_total, 0)) - mmv.min_log_bus_commute) / (mmv.max_log_bus_commute - mmv.min_log_bus_commute) +
-        (LOG(1 + COALESCE(se.avg_weekly_frequency_per_hour, 0)) - mmv.min_log_frequency) / (mmv.max_log_frequency - mmv.min_log_frequency)
-    ) /
-    -- Dynamically adjust the divisor based on the number of non-null features.
-    (
-        (CASE WHEN se.shops_nearby_count IS NOT NULL THEN 1 ELSE 0 END) +
-        (CASE WHEN se.oa21pop IS NOT NULL THEN 1 ELSE 0 END) +
-        (CASE WHEN se.employed_total IS NOT NULL THEN 1 ELSE 0 END) +
-        (CASE WHEN se.bus_commute_total IS NOT NULL THEN 1 ELSE 0 END) +
-        (CASE WHEN se.avg_weekly_frequency_per_hour IS NOT NULL THEN 1 ELSE 0 END)
-    );
+    CASE
+        WHEN (CASE WHEN se.shops_nearby_count IS NOT NULL THEN 1 ELSE 0 END) +
+             (CASE WHEN se.employed_total IS NOT NULL THEN 1 ELSE 0 END) +
+             (CASE WHEN se.bus_commute_total IS NOT NULL THEN 1 ELSE 0 END) +
+             (CASE WHEN se.avg_weekly_frequency_per_hour IS NOT NULL THEN 1 ELSE 0 END) +
+             (CASE WHEN se.population_density IS NOT NULL THEN 1 ELSE 0 END) = 0
+        THEN 0
+        ELSE
+            (
+                CASE WHEN (mmv.max_log_shops - mmv.min_log_shops) = 0 THEN 0 ELSE (LOG(1 + COALESCE(se.shops_nearby_count, 0)) - mmv.min_log_shops) / (mmv.max_log_shops - mmv.min_log_shops) END +
+                CASE WHEN (mmv.max_log_employed - mmv.min_log_employed) = 0 THEN 0 ELSE (LOG(1 + COALESCE(se.employed_total, 0)) - mmv.min_log_employed) / (mmv.max_log_employed - mmv.min_log_employed) END +
+                CASE WHEN (mmv.max_log_bus_commute - mmv.min_log_bus_commute) = 0 THEN 0 ELSE (LOG(1 + COALESCE(se.bus_commute_total, 0)) - mmv.min_log_bus_commute) / (mmv.max_log_bus_commute - mmv.min_log_bus_commute) END +
+                CASE WHEN (mmv.max_log_frequency - mmv.min_log_frequency) = 0 THEN 0 ELSE (LOG(1 + COALESCE(se.avg_weekly_frequency_per_hour, 0)) - mmv.min_log_frequency) / (mmv.max_log_frequency - mmv.min_log_frequency) END +
+                CASE WHEN (mmv.max_log_population_density - mmv.min_log_population_density) = 0 THEN 0 ELSE (LOG(1 + COALESCE(se.population_density, 0)) - mmv.min_log_population_density) / (mmv.max_log_population_density - mmv.min_log_population_density) END
+            ) /
+            (
+                (CASE WHEN (mmv.max_log_shops - mmv.min_log_shops) = 0 THEN 0 ELSE 1 END) +
+                (CASE WHEN (mmv.max_log_employed - mmv.min_log_employed) = 0 THEN 0 ELSE 1 END) +
+                (CASE WHEN (mmv.max_log_bus_commute - mmv.min_log_bus_commute) = 0 THEN 0 ELSE 1 END) +
+                (CASE WHEN (mmv.max_log_frequency - mmv.min_log_frequency) = 0 THEN 0 ELSE 1 END) +
+                (CASE WHEN (mmv.max_log_population_density - mmv.min_log_population_density) = 0 THEN 0 ELSE 1 END)
+            )
+    END,
+    se.commute_opportunity_score =
+    CASE
+        WHEN (CASE WHEN se.employed_total IS NOT NULL THEN 1 ELSE 0 END) +
+             (CASE WHEN se.bus_commute_total IS NOT NULL THEN 1 ELSE 0 END) = 0
+        THEN 0
+        ELSE
+            (
+                CASE WHEN (mmv.max_log_employed - mmv.min_log_employed) = 0 THEN 0 ELSE (LOG(1 + COALESCE(se.employed_total, 0)) - mmv.min_log_employed) / (mmv.max_log_employed - mmv.min_log_employed) END +
+                CASE WHEN (mmv.max_log_bus_commute - mmv.min_log_bus_commute) = 0 THEN 0 ELSE (LOG(1 + COALESCE(se.bus_commute_total, 0)) - mmv.min_log_bus_commute) / (mmv.max_log_bus_commute - mmv.min_log_bus_commute) END
+            ) /
+            (
+                (CASE WHEN (mmv.max_log_employed - mmv.min_log_employed) = 0 THEN 0 ELSE 1 END) +
+                (CASE WHEN (mmv.max_log_bus_commute - mmv.min_log_bus_commute) = 0 THEN 0 ELSE 1 END)
+            )
+    END;

@@ -5,6 +5,7 @@ import pandas as pd
 import data_pipeline
 import logger
 from mysql.connector import Error
+import stops_enrichment_population_density as sepd
 
 def write_enriched_to_db_csv(input_json_file = "enrich/enriched_stops_data_shops.json", output_json_file = "data/stops_intermediate.csv", config = "config.json", output_filename = "data/stops_enriched.csv"):
     """
@@ -17,6 +18,7 @@ def write_enriched_to_db_csv(input_json_file = "enrich/enriched_stops_data_shops
     records = [record for record in stops_data.values()]
 
     df = pd.DataFrame(records)
+    df = sepd.process_stops_data(df)
 
     df.to_csv(output_json_file, index=False, lineterminator='\n')
 

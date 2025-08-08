@@ -8,7 +8,8 @@ CREATE TABLE stops_intermediate (
     oa21cd text,
     lsoa21cd text, 
     lsoa21nm text, 
-    shops_nearby_count int);
+    shops_nearby_count int,
+    population_density double);
     
 LOAD DATA INFILE '{SECURE_PRIV_PATH}/stops_intermediate.csv' 
 INTO TABLE stops_intermediate
