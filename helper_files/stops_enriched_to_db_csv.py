@@ -2,10 +2,10 @@
 
 import json
 import pandas as pd
-import data_pipeline
-import logger
+import helper_files.data_pipeline as data_pipeline
+import helper_files.logger as logger
 from mysql.connector import Error
-import stops_enrichment_population_density as sepd
+import helper_files.stops_enrichment_population_density as sepd
 
 def write_enriched_to_db_csv(input_json_file = "enrich/enriched_stops_data_shops.json", output_json_file = "data/stops_intermediate.csv", config = "config.json", output_filename = "data/stops_enriched.csv"):
     """

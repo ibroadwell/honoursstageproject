@@ -2,11 +2,11 @@
 
 import pandas as pd
 import numpy as np
-import single_stop_enrichment as sse
-import trips_enriched as te
+import helper_files.single_stop_enrichment as sse
+import helper_files.trips_enriched as te
 import os
 from tqdm import tqdm
-import logger
+import helper_files.logger as logger
 
 tqdm.pandas()
 

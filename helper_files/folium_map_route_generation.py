@@ -2,7 +2,7 @@ import json
 import folium
 import os
 import glob
-import logger
+import helper_files.logger as logger
 import tqdm
 
 def generate_html_maps(output_dir = "output", map_dir = "maps"):

@@ -3,7 +3,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
-import logger
+import helper_files.logger as logger
 import joblib
 import json
 

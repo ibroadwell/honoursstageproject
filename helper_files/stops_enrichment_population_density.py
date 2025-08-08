@@ -2,7 +2,7 @@ import pandas as pd
 import rasterio
 import pyproj
 import os
-import logger
+import helper_files.logger as logger
 from tqdm import tqdm
 
 def process_stops_data(stops_df, density_tif_path='data/population_density.tif'):

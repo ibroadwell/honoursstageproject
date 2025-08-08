@@ -4,7 +4,7 @@ import mysql.connector
 import json
 import os
 from tqdm import tqdm
-import logger
+import helper_files.logger as logger
 
 def generate_mapping_jsons(config="config.json", ROUTE_ID=None):
     """

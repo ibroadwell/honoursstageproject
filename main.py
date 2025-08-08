@@ -1,15 +1,15 @@
 # main.py
 
-import mapping_jsons as Map
-import folium_map_route_generation as HTMLMap
-import stops_enrichment_postcode as PCEnrich
-import stops_enrichment_oas as OAEnrich
-import stops_enrichment_shops as ShopEnrich
-import stops_enriched_to_db_csv as BuildEnrich
-import trips_enriched as TripEnrich
-import data_pipeline
-import kmeans_enrichment as KMeans
-import logger
+import helper_files.mapping_jsons as Map
+import helper_files.folium_map_route_generation as HTMLMap
+import helper_files.stops_enrichment_postcode as PCEnrich
+import helper_files.stops_enrichment_oas as OAEnrich
+import helper_files.stops_enrichment_shops as ShopEnrich
+import helper_files.stops_enriched_to_db_csv as BuildEnrich
+import helper_files.trips_enriched as TripEnrich
+import helper_files.data_pipeline as data_pipeline
+import helper_files.kmeans_enrichment as KMeans
+import helper_files.logger as logger
 import atexit
 
 

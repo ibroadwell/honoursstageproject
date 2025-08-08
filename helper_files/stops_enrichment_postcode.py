@@ -6,7 +6,7 @@ import time
 import requests
 import os
 from tqdm import tqdm
-import logger
+import helper_files.logger as logger
 
 def reverse_geocode_postcode(latitude, longitude, 
                              POSTCODES_API_URL="https://api.postcodes.io/postcodes",

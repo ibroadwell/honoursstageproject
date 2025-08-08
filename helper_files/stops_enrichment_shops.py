@@ -4,7 +4,7 @@ import json
 import requests
 import time
 import os
-import logger
+import helper_files.logger as logger
 from tqdm import tqdm
 
 def get_shop_count(lat, lon, radius=500, max_retries=3, initial_delay=1):

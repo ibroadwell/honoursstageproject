@@ -1,15 +1,15 @@
 # single_record_enrichment.py
 
-import data_pipeline as dp
+import helper_files.data_pipeline as dp
 import mysql.connector
 from mysql.connector import Error
 import json
 import joblib
-import logger
-import stops_enrichment_postcode as SEP
-import stops_enrichment_oas as SEO
-import stops_enrichment_shops as SES
-import stops_enrichment_population_density as sepd
+import helper_files.logger as logger
+import helper_files.stops_enrichment_postcode as SEP
+import helper_files.stops_enrichment_oas as SEO
+import helper_files.stops_enrichment_shops as SES
+import helper_files.stops_enrichment_population_density as sepd
 import pandas as pd
 import numpy as np
 

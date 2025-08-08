@@ -4,7 +4,7 @@ import mysql.connector
 import json
 from mysql.connector import Error
 from tqdm import tqdm
-import logger
+import helper_files.logger as logger
 
 def connect_to_mysql(config_data):
     """

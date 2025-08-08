@@ -4,8 +4,8 @@ import mysql.connector
 import json
 import os
 from tqdm import tqdm
-import data_pipeline as dp
-import logger
+import helper_files.data_pipeline as dp
+import helper_files.logger as logger
 
 def generate_oas(OA_LOOKUP="oa_lookup", INPUT_JSON_FILE="enrich/enriched_stops_data_postcode.json", OUTPUT_JSON_FILE="enriched_stops_data_oas.json", config="config.json"):
     """

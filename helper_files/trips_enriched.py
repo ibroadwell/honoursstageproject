@@ -5,8 +5,8 @@ from geopy.distance import geodesic
 import numpy as np
 import mysql.connector
 import json
-import data_pipeline as dp
-import logger
+import helper_files.data_pipeline as dp
+import helper_files.logger as logger
 import math
 
 def calculate_shape_distance(points_df):
