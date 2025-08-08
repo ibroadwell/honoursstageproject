@@ -7,6 +7,7 @@ import requests
 import os
 from tqdm import tqdm
 import helper_files.logger as logger
+import helper_files.helper as helper
 
 def reverse_geocode_postcode(latitude, longitude, 
                              POSTCODES_API_URL="https://api.postcodes.io/postcodes",
@@ -71,7 +72,10 @@ def reverse_geocode_postcode(latitude, longitude,
     return None
 
 
-def generate_stops_postcode(STOPS_TABLE="stops", POSTCODES_API_URL="https://api.postcodes.io/postcodes", config="config.json"):
+def generate_stops_postcode(STOPS_TABLE="stops", 
+                            POSTCODES_API_URL="https://api.postcodes.io/postcodes",
+                            output_dir = helper.affix_root_path("enrich"), 
+                            config=helper.affix_root_path("config.json")):
     """
     Connects to the database, fetches stop data, reverse geocodes postcodes,
     and saves the enriched data to a JSON file.
@@ -131,7 +135,7 @@ def generate_stops_postcode(STOPS_TABLE="stops", POSTCODES_API_URL="https://api.
 
             time.sleep(0.1)
 
-        output_dir = "enrich"
+        
         os.makedirs(output_dir, exist_ok=True)
         output_file_path = os.path.join(output_dir, "enriched_stops_data_postcode.json")
 

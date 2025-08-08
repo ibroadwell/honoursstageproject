@@ -6,8 +6,13 @@ import helper_files.data_pipeline as data_pipeline
 import helper_files.logger as logger
 from mysql.connector import Error
 import helper_files.stops_enrichment_population_density as sepd
+import os
+import helper_files.helper as helper
 
-def write_enriched_to_db_csv(input_json_file = "enrich/enriched_stops_data_shops.json", output_json_file = "data/stops_intermediate.csv", config = "config.json", output_filename = "data/stops_enriched.csv"):
+def write_enriched_to_db_csv(input_json_file = helper.affix_root_path("enrich/enriched_stops_data_shops.json"),
+                              output_json_file = helper.affix_root_path("data/stops_intermediate.csv"),
+                                config = helper.affix_root_path("config.json"),
+                                  output_filename = helper.affix_root_path("data/stops_enriched.csv")):
     """
     Uses enriched_stops_data_shops.json to create stops_intermediate.csv, load this into mysql, and then create stops_enriched table.
     This is then exported as a csv for future use.
@@ -22,9 +27,9 @@ def write_enriched_to_db_csv(input_json_file = "enrich/enriched_stops_data_shops
 
     df.to_csv(output_json_file, index=False, lineterminator='\n')
 
-    SOURCE_CSV_FOLDER = 'data'
+    SOURCE_CSV_FOLDER = helper.affix_root_path('data')
 
-    SQL_SCRIPTS_FOLDER = 'sql_scripts'
+    SQL_SCRIPTS_FOLDER = helper.affix_root_path('sql_scripts')
     
     SQL_SCRIPT_FILES = ['build_load_stops_intermediate.sql',
                         'build_load_stops_enriched.sql']

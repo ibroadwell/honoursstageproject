@@ -6,6 +6,7 @@ import time
 import os
 import helper_files.logger as logger
 from tqdm import tqdm
+import helper_files.helper as helper
 
 def get_shop_count(lat, lon, radius=500, max_retries=3, initial_delay=1):
     """
@@ -58,7 +59,8 @@ out count;"""
         
     return 0
 
-def nearby_shops_enrichment(input_json_file = "enrich/enriched_stops_data_oas.json", output_json_file = "enriched_stops_data_shops.json"):
+def nearby_shops_enrichment(input_json_file = helper.affix_root_path("enrich/enriched_stops_data_oas.json"), 
+                            output_json_file = helper.affix_root_path("enriched_stops_data_shops.json")):
     """
     Uses the enriched_stops_data_oas.json file to enrich the data using nearby shop counts using the overpass api.
     """

@@ -6,8 +6,12 @@ import os
 from tqdm import tqdm
 import helper_files.data_pipeline as dp
 import helper_files.logger as logger
+import helper_files.helper as helper
 
-def generate_oas(OA_LOOKUP="oa_lookup", INPUT_JSON_FILE="enrich/enriched_stops_data_postcode.json", OUTPUT_JSON_FILE="enriched_stops_data_oas.json", config="config.json"):
+def generate_oas(OA_LOOKUP="oa_lookup", 
+                 INPUT_JSON_FILE=helper.affix_root_path("enrich/enriched_stops_data_postcode.json"), 
+                 OUTPUT_JSON_FILE=helper.affix_root_path("enriched_stops_data_oas.json"), 
+                 config=helper.affix_root_path("config.json")):
     """
     Enriches stop data (from a JSON file) with Output Area (OA) and Lower Super Output Area (LSOA)
     information by looking up postcodes in a database table.
@@ -113,7 +117,7 @@ def generate_oas(OA_LOOKUP="oa_lookup", INPUT_JSON_FILE="enrich/enriched_stops_d
             logger.log("Database connection closed for OA/LSOA enrichment.")
     logger.log("Finished GenerateOAs function.")
 
-def get_oa_lsoa_details(postcode, config_path = "config.json"):
+def get_oa_lsoa_details(postcode, config_path = helper.affix_root_path("config.json")):
     """
     Looks up OA and LSOA details for a single postcode using a centralized
     connection method.

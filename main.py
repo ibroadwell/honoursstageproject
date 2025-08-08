@@ -9,6 +9,7 @@ import helper_files.stops_enriched_to_db_csv as BuildEnrich
 import helper_files.trips_enriched as TripEnrich
 import helper_files.data_pipeline as data_pipeline
 import helper_files.kmeans_enrichment as KMeans
+import helper_files.avg_weekly_frequency_per_hour_prediction as pred
 import helper_files.logger as logger
 import atexit
 
@@ -49,17 +50,21 @@ try:
     # ShopEnrich.nearby_shops_enrichment()
     # logger.log("Nearby shop enrichment complete.")
 
-    logger.log("Building stops_intermediate and stops_enriched and stops_enriched.csv...")
-    BuildEnrich.write_enriched_to_db_csv()
-    logger.log("stops_enriched and stops_enriched.csv build complete.")
+    # logger.log("Building stops_intermediate and stops_enriched and stops_enriched.csv...")
+    # BuildEnrich.write_enriched_to_db_csv()
+    # logger.log("stops_enriched and stops_enriched.csv build complete.")
 
-    logger.log("Building kmeans categorisation...")
-    KMeans.kmeans_model()
-    logger.log("Completed kmeans categorisation.")
+    # logger.log("Building kmeans categorisation...")
+    # KMeans.kmeans_model()
+    # logger.log("Completed kmeans categorisation.")
 
-    logger.log("Building trips_enriched.csv...")
-    TripEnrich.generate_trips_enriched()
-    logger.log("Completed trips_enriched.csv")
+    logger.log("Building avg_weekly_frequency_per_hour prediction model...")
+    pred.run_prediction_model()
+    logger.log("Completed avg_weekly_frequency_per_hour prediction model.")
+
+    # logger.log("Building trips_enriched.csv...")
+    # TripEnrich.generate_trips_enriched()
+    # logger.log("Completed trips_enriched.csv")
 
     logger.log("All application tasks completed successfully.")
 

@@ -12,10 +12,60 @@ import helper_files.stops_enrichment_shops as SES
 import helper_files.stops_enrichment_population_density as sepd
 import pandas as pd
 import numpy as np
+import helper_files.helper as helper
+import os
+import math
+import helper_files.avg_weekly_frequency_per_hour_prediction as awfphp
 
-def enriched_record_from_lat_lon(stop_lat, stop_lon):
+def calculate_scores(enriched_record, min_max_values):
     """
-    Takes a latitude and longitude, and given its from the UK, will create the same enrichment that the stops data goes through for a single point.
+    Calculates the customer_convenience_score and commute_opportunity_score
+    for a single enriched record, replicating the logic from the SQL query.
+    """
+    log_transformed = {}
+    features = ['shops_nearby_count', 'employed_total', 'bus_commute_total', 'avg_weekly_frequency_per_hour', 'population_density']
+    
+    for f in features:
+        val = enriched_record.get(f)
+        log_transformed[f] = math.log(1 + val) if val is not None else 0
+
+    convenience_sum = 0
+    convenience_count = 0
+    convenience_features = ['shops_nearby_count', 'employed_total', 'bus_commute_total', 'avg_weekly_frequency_per_hour', 'population_density']
+    
+    for f in convenience_features:
+        min_val = min_max_values[f]['min']
+        max_val = min_max_values[f]['max']
+        
+        if (max_val - min_val) > 0:
+            normalized_score = (log_transformed[f] - min_val) / (max_val - min_val)
+            convenience_sum += normalized_score
+            convenience_count += 1
+            
+    enriched_record['customer_convenience_score'] = convenience_sum / convenience_count if convenience_count > 0 else 0
+
+    commute_sum = 0
+    commute_count = 0
+    commute_features = ['employed_total', 'bus_commute_total']
+
+    for f in commute_features:
+        min_val = min_max_values[f]['min']
+        max_val = min_max_values[f]['max']
+        
+        if (max_val - min_val) > 0:
+            normalized_score = (log_transformed[f] - min_val) / (max_val - min_val)
+            commute_sum += normalized_score
+            commute_count += 1
+    
+    enriched_record['commute_opportunity_score'] = commute_sum / commute_count if commute_count > 0 else 0
+    
+    return enriched_record
+
+
+def enriched_record_from_lat_lon(stop_lat, stop_lon, model_dir=helper.affix_root_path("models")):
+    """
+    Takes a latitude and longitude, enriches it with various data points,
+    and then uses a pre-trained model to predict the average weekly frequency.
     """
     stop_enriched = {}
     stop_enriched["stop_lat"] = stop_lat
@@ -33,17 +83,19 @@ def enriched_record_from_lat_lon(stop_lat, stop_lon):
     stop_enriched["oa21pop"] = census["oa21pop"]
     stop_enriched["employed_total"] = census["employed_total"]
     stop_enriched["bus_commute_total"] = census["bus_commute_total"]
+    
     stop_df = pd.DataFrame([stop_enriched])
     stop_df = sepd.process_stops_data(stop_df)
     stop_enriched["population_density"] = stop_df.iloc[0]['population_density']
 
+    stop_enriched['avg_weekly_frequency_per_hour'] = 0.0
 
     if oa21cd is None:
         stop_enriched["cluster"] = None
         stop_enriched["cluster_category"] = None
     else:
-        loaded_kmeans = joblib.load('models/kmeans_model.joblib')
-        loaded_scaler = joblib.load('models/kmeans_scaler.joblib')
+        loaded_kmeans = joblib.load(os.path.join(model_dir, 'kmeans_model.joblib'))
+        loaded_scaler = joblib.load(os.path.join(model_dir, 'kmeans_scaler.joblib'))
 
         df = pd.DataFrame([stop_enriched])
         features = ['oa21pop', 'shops_nearby_count', 'employed_total']
@@ -54,7 +106,7 @@ def enriched_record_from_lat_lon(stop_lat, stop_lon):
         stop_enriched["cluster"] = predicted_cluster[0]
 
         try:
-            with open("models/cluster_dict.json", 'r') as f:
+            with open(os.path.join(model_dir, "cluster_dict.json"), 'r') as f:
                 cluster_mapping = json.load(f)
             cluster_mapping = {int(k): v for k, v in cluster_mapping.items()}
             logger.log("\nLoaded cluster mapping from JSON.")
@@ -64,11 +116,38 @@ def enriched_record_from_lat_lon(stop_lat, stop_lon):
 
         stop_enriched["cluster_category"] = cluster_mapping.get(predicted_cluster[0])
 
-    return stop_enriched
+    try:
+        with open(os.path.join(model_dir, "min_max_values.json"), 'r') as f:
+            min_max_values = json.load(f)
+        stop_enriched = calculate_scores(stop_enriched, min_max_values)
+        logger.log("Calculated convenience and commute scores.")
+    except FileNotFoundError:
+        logger.log("\nError: 'min_max_values.json' not found. Cannot calculate scores.")
+        stop_enriched['customer_convenience_score'] = 0.0
+        stop_enriched['commute_opportunity_score'] = 0.0
+        
+    prediction_df = pd.DataFrame([stop_enriched])
+    
+    X_features = ['shops_nearby_count', 'population_density', 'oa21pop', 'employed_total', 'bus_commute_total', 'customer_convenience_score', 'commute_opportunity_score']
+    prediction_df = prediction_df[X_features]
+
+    predicted_frequency = awfphp.predict_on_new_data(prediction_df)
+    stop_enriched["predicted_avg_weekly_frequency_per_hour"] = predicted_frequency
+
+    ordered_keys = [
+        'stop_lat', 'stop_lon', 'postcode', 'oa21cd', 'lsoa21cd', 'lsoa21nm',
+        'shops_nearby_count', 'population_density', 'oa21pop', 'employed_total',
+        'bus_commute_total', 'predicted_avg_weekly_frequency_per_hour',
+        'customer_convenience_score', 'commute_opportunity_score',
+        'cluster', 'cluster_category'
+    ]
+
+    ordered_stop_enriched = {key: stop_enriched.get(key) for key in ordered_keys}
+    
+    return ordered_stop_enriched
 
 
-
-def census_return(oa21cd: str):
+def census_return(oa21cd, config_path = helper.affix_root_path("config.json")):
     """
     Takes an OA21 code and returns relevant census data in a dictionary.
     """
@@ -77,7 +156,7 @@ def census_return(oa21cd: str):
     if oa21cd is None:
         return {'oa21pop': None, 'employed_total': None, 'bus_commute_total': None}
     try:
-        with open("config.json", 'r') as f:
+        with open(config_path, 'r') as f:
             config_data = json.load(f)
         
         conn, cursor = dp.connect_to_mysql(config_data)

@@ -8,6 +8,8 @@ import json
 import helper_files.data_pipeline as dp
 import helper_files.logger as logger
 import math
+import os
+import helper_files.helper as helper
 
 def calculate_shape_distance(points_df):
     """Calculates the total geodesic distance for a single shape."""
@@ -63,7 +65,7 @@ def get_df_from_query(cursor, query):
     column_names = [i[0] for i in cursor.description]
     return pd.DataFrame(data, columns=column_names)
 
-def enrich_trips_from_database(db_config, fuel_rate_moving, fuel_rate_idling):
+def enrich_trips_from_database(db_config, fuel_rate_moving, fuel_rate_idling, output_filename = helper.affix_root_path('data/trips_enriched.csv')):
     """
     Connects to the database, reads GTFS tables, and enriches trips with fuel data.
     """
@@ -163,13 +165,13 @@ def enrich_trips_from_database(db_config, fuel_rate_moving, fuel_rate_idling):
     trips_enriched['estimated_fuel_usage_liters'] = trips_enriched.apply(
         lambda row: estimate_fuel(row, fuel_rate_moving, fuel_rate_idling), axis=1)
     
-    output_filename = 'data/trips_enriched.csv'
+    
     trips_enriched.to_csv(output_filename, index=False)
     logger.log(f"\nTrip enrichment complete. Results saved to '{output_filename}'")
     
     return trips_enriched
 
-def generate_trips_enriched(fuel_rate_moving=0.47, fuel_rate_idling=2.0, config_file="config.json"):
+def generate_trips_enriched(fuel_rate_moving=0.47, fuel_rate_idling=2.0, config_file=helper.affix_root_path("config.json")):
     """
     Main function to generate the enriched trips data.
     Loads config, and runs the enrichment.

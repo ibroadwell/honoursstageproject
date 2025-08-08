@@ -5,8 +5,9 @@ import json
 import os
 from tqdm import tqdm
 import helper_files.logger as logger
+import helper_files.helper as helper
 
-def generate_mapping_jsons(config="config.json", ROUTE_ID=None):
+def generate_mapping_jsons(config= helper.affix_root_path("config.json"), output_dir = helper.affix_root_path("output"), ROUTE_ID=None):
     """
     Runs the pipeline for turning the GTFS stops data into a simplified JSON for use in folium.
 
@@ -116,7 +117,7 @@ def generate_mapping_jsons(config="config.json", ROUTE_ID=None):
                     [pt['shape_pt_lat'], pt['shape_pt_lon']] for pt in shape_points
                 ]
 
-                output_dir = "output"
+                
                 os.makedirs(output_dir, exist_ok=True)
                 
                 stops_file_path = os.path.join(output_dir, f"stops_{safe_shape}.json")

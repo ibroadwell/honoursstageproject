@@ -6,9 +6,14 @@ from mpl_toolkits.mplot3d import Axes3D
 import helper_files.logger as logger
 import joblib
 import json
+import helper_files.helper as helper
+import os
 
 
-def kmeans_model(stops_enriched_csv_path = "data/stops_enriched.csv"):
+def kmeans_model(stops_enriched_csv_path = helper.affix_root_path("data/stops_enriched.csv"), 
+                 output_filename = helper.affix_root_path("data/stops_enriched_with_clusters.csv"),
+                 model_dir = helper.affix_root_path("models")
+                 ):
     """
     Creates and saves a kmeans model, and adds two new fields to the csv. (cluster and cluster_category)
     """
@@ -48,7 +53,7 @@ def kmeans_model(stops_enriched_csv_path = "data/stops_enriched.csv"):
     df['cluster'] = kmeans.fit_predict(X_scaled)
 
     try:
-        with open("models/cluster_dict.json", 'r') as f:
+        with open(os.path.join(model_dir, "cluster_dict.json"), 'r') as f:
             cluster_mapping = json.load(f)
         cluster_mapping = {int(k): v for k, v in cluster_mapping.items()}
         logger.log("\nLoaded cluster mapping from JSON.")
@@ -59,13 +64,12 @@ def kmeans_model(stops_enriched_csv_path = "data/stops_enriched.csv"):
     df['cluster_category'] = df['cluster'].map(cluster_mapping)
     logger.log("Added 'cluster_category' column to the DataFrame.")
 
-    output_filename = "data/stops_enriched_with_clusters.csv"
     df.to_csv(output_filename, index=False)
 
-    joblib.dump(kmeans, 'models/kmeans_model.joblib')
+    joblib.dump(kmeans, os.path.join(model_dir, "kmeans_model.joblib"))
     logger.log("K-Means model saved to 'kmeans_model.joblib'")
 
-    joblib.dump(scaler, 'models/kmeans_scaler.joblib')
+    joblib.dump(scaler, os.path.join(model_dir, 'kmeans_scaler.joblib'))
     logger.log("StandardScaler saved to 'scaler.joblib'")
 
     logger.log(f"Clustering complete. Found {num_clusters} clusters.")

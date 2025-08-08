@@ -1,0 +1,22 @@
+{
+    "shops_nearby_count": {
+        "min": 0.0,
+        "max": 6.169610732491456
+    },
+    "employed_total": {
+        "min": 2.4849066497880004,
+        "max": 5.820082930352362
+    },
+    "bus_commute_total": {
+        "min": 0.0,
+        "max": 3.58351893845611
+    },
+    "avg_weekly_frequency_per_hour": {
+        "min": 0.19638881400539018,
+        "max": 2.605402404913807
+    },
+    "population_density": {
+        "min": 0.0,
+        "max": 9.05386404069806
+    }
+}

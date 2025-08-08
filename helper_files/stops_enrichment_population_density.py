@@ -4,8 +4,10 @@ import pyproj
 import os
 import helper_files.logger as logger
 from tqdm import tqdm
+import os
+import helper_files.helper as helper
 
-def process_stops_data(stops_df, density_tif_path='data/population_density.tif'):
+def process_stops_data(stops_df, density_tif_path=helper.affix_root_path('data/population_density.tif')):
     """
     Reads a DataFrame with WGS84 coordinates, looks up population density from a TIF,
     adds a new column, and returns the result.

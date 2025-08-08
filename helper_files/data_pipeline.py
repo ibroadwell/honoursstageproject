@@ -5,6 +5,7 @@ import json
 from mysql.connector import Error
 from tqdm import tqdm
 import helper_files.logger as logger
+import helper_files.helper as helper
 
 def connect_to_mysql(config_data):
     """
@@ -74,7 +75,10 @@ def move_csv_files(source_folder, destination_folder):
     """
     logger.log(f"\n--- Copying CSV Files from '{source_folder}' to '{destination_folder}' ---")
     moved_files = []
-    
+
+    project_root = helper.get_project_root()
+    source_folder = os.path.join(project_root, source_folder)
+
     try:
         if not os.path.exists(source_folder):
             logger.log(f"Error: Source folder '{source_folder}' does not exist. Please check the path.")
@@ -165,7 +169,7 @@ def run_sql_script(sql_script_path, config_data, secure_priv_path_for_sql=None):
             cursor.close()
             conn.close()
 
-def load_data_pipeline(source_csv_folder, sql_scripts_folder, sql_script_files, config_path="config.json"):
+def load_data_pipeline(source_csv_folder, sql_scripts_folder, sql_script_files, config_path=helper.affix_root_path("config.json")):
     """
     Orchestrates the entire data loading pipeline:
     1. Gets secure_file_priv path from MySQL.
@@ -220,9 +224,9 @@ def run_initial_build():
     """
     Runs the data pipeline for the inital build of all the database tables.
     """
-    SOURCE_CSV_FOLDER = 'data'
+    SOURCE_CSV_FOLDER = helper.affix_root_path('data')
 
-    SQL_SCRIPTS_FOLDER = 'sql_scripts'
+    SQL_SCRIPTS_FOLDER = helper.affix_root_path('sql_scripts')
 
     SQL_SCRIPT_FILES = ['build_census_tables.sql',
                         'build_oa_lookup.sql',

@@ -4,13 +4,12 @@ import os
 import glob
 import helper_files.logger as logger
 import tqdm
+import helper_files.helper as helper
 
-def generate_html_maps(output_dir = "output", map_dir = "maps"):
+def generate_html_maps(output_dir = helper.affix_root_path("output"), map_dir = helper.affix_root_path("maps")):
     """
     Looks through all the jsons in a given directory and outputs folium route maps to a given directory.
     """
-    output_dir = "output"
-    map_dir = "maps"
     os.makedirs(map_dir, exist_ok=True)
 
     metadata_path = os.path.join(output_dir, "shape_metadata.json")
