@@ -7,6 +7,7 @@ import helper_files.trips_enriched as te
 import os
 from tqdm import tqdm
 import helper_files.logger as logger
+import atexit
 
 tqdm.pandas()
 
@@ -135,5 +136,16 @@ def process_all_generated_routes(
             logger.log(f"Warning: Found shape file '{shape_file}' but no matching stops file '{stops_file}'. Skipping.")
     
     logger.log(f"\nFinished processing. Total {processed_count} route pairs enriched.")
+
+
+
+LOG_FILE_NAME = "custom_application_activity.log"
+LOG_FILE_MODE = "w" # 'a' will append to the file if it exists, 'w' will overwrite it
+
+print(f"Initializing application logger to '{LOG_FILE_NAME}'...")
+logger.initialize_logger(LOG_FILE_NAME, mode=LOG_FILE_MODE)
+
+atexit.register(logger.close_logger)
+print("Logger setup complete. Proceeding with application tasks.")
 
 process_all_generated_routes()

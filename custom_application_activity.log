@@ -1,0 +1,49 @@
+Scanning directory: 'created_route_data/' for generated route data...
+
+Found matching pair for Shape ID: 'SHAPE_1'
+
+--- Processing Trip Data Pair ---
+Loading shape data from: created_route_data/SHAPE_1_generated_shape.csv
+Loading stop data from: created_route_data/SHAPE_1_generated_stops.csv
+Enriching individual stops with geographic and census data (this may take a while)...
+Successfully connected to MySQL database: hsp_data
+Successfully connected to MySQL database: hsp_data
+Starting data processing...
+Successfully received DataFrame with 1 rows.
+Successfully opened 'population_density.tif'.
+TIF file's Coordinate Reference System (CRS) is: EPSG:27700
+
+Processing complete! Returning the enhanced DataFrame.
+
+Loaded cluster mapping from JSON.
+Calculated convenience and commute scores.
+Successfully connected to MySQL database: hsp_data
+Successfully connected to MySQL database: hsp_data
+Starting data processing...
+Successfully received DataFrame with 1 rows.
+Successfully opened 'population_density.tif'.
+TIF file's Coordinate Reference System (CRS) is: EPSG:27700
+
+Processing complete! Returning the enhanced DataFrame.
+
+Loaded cluster mapping from JSON.
+Calculated convenience and commute scores.
+Successfully connected to MySQL database: hsp_data
+Successfully connected to MySQL database: hsp_data
+Starting data processing...
+Successfully received DataFrame with 1 rows.
+Successfully opened 'population_density.tif'.
+TIF file's Coordinate Reference System (CRS) is: EPSG:27700
+
+Processing complete! Returning the enhanced DataFrame.
+
+Loaded cluster mapping from JSON.
+Calculated convenience and commute scores.
+Enriched stops saved to: created_route_data/SHAPE_1_enriched_stops.csv
+Calculating total distance for the shape...
+Estimating fuel usage for the trip...
+Enriched trip (shape) data with fuel estimation saved to: created_route_data/SHAPE_1_enriched_trip.csv
+--- Trip Data Pair Processing Complete ---
+Successfully enriched data for Shape ID: 'SHAPE_1'
+
+Finished processing. Total 1 route pairs enriched.

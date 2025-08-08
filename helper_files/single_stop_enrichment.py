@@ -88,8 +88,6 @@ def enriched_record_from_lat_lon(stop_lat, stop_lon, model_dir=helper.affix_root
     stop_df = sepd.process_stops_data(stop_df)
     stop_enriched["population_density"] = stop_df.iloc[0]['population_density']
 
-    stop_enriched['avg_weekly_frequency_per_hour'] = 0.0
-
     if oa21cd is None:
         stop_enriched["cluster"] = None
         stop_enriched["cluster_category"] = None
