@@ -49,7 +49,6 @@ def process_stops_data(stops_df, density_tif_path=helper.affix_root_path('data/p
                     row_idx, col_idx = src.index(easting, northing)
                     population_value = src.read(1)[row_idx, col_idx]
 
-                    # CHANGE: Added explicit check for invalid values before assigning.
                     if pd.isna(population_value) or population_value == src.nodata:
                         logger.log(f"Warning: Invalid population value ({population_value}) found for coordinate ({lon}, {lat}).")
                         continue

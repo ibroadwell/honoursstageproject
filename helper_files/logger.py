@@ -1,3 +1,5 @@
+# logger.py
+
 _log_file = None
 
 def initialize_logger(filename="application.log", mode="a"):
