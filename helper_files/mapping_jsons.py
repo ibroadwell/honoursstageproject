@@ -6,6 +6,7 @@ import os
 from tqdm import tqdm
 import helper_files.logger as logger
 import helper_files.helper as helper
+import helper_files.data_pipeline as dp
 
 def generate_mapping_jsons(config= helper.affix_root_path("config.json"), output_dir = helper.affix_root_path("output"), ROUTE_ID=None):
     """
@@ -30,13 +31,7 @@ def generate_mapping_jsons(config= helper.affix_root_path("config.json"), output
     cursor = None
 
     try:
-        conn = mysql.connector.connect(
-            host=data["host"],
-            user=data["user"],
-            password=data["password"],
-            database=data["database"]
-        )
-        cursor = conn.cursor(dictionary=True)
+        conn, cursor = dp.connect_to_mysql(data)
         logger.log("Successfully connected to the database.")
 
         if not ROUTE_ID:

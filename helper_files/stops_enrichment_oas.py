@@ -44,13 +44,7 @@ def generate_oas(OA_LOOKUP="oa_lookup",
             logger.log(f"Error: Could not decode JSON from config file '{config}' for OA/LSOA enrichment.")
             return
 
-        conn = mysql.connector.connect(
-            host=db_config["host"],
-            user=db_config["user"],
-            password=db_config["password"],
-            database=db_config["database"]
-        )
-        cursor = conn.cursor(dictionary=True)
+        conn, cursor = dp.connect_to_mysql(db_config)
         logger.log("Connected to DB for OA/LSOA lookup.")
 
         query = f"SELECT pcds, oa21cd, lsoa21cd, lsoa21nm FROM {OA_LOOKUP}"

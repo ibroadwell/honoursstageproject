@@ -8,6 +8,7 @@ import os
 from tqdm import tqdm
 import helper_files.logger as logger
 import helper_files.helper as helper
+import helper_files.data_pipeline as dp
 
 def reverse_geocode_postcode(latitude, longitude, 
                              POSTCODES_API_URL="https://api.postcodes.io/postcodes",
@@ -97,13 +98,7 @@ def generate_stops_postcode(STOPS_TABLE="stops",
     cursor = None
 
     try:
-        conn = mysql.connector.connect(
-            host=data["host"],
-            user=data["user"],
-            password=data["password"],
-            database=data["database"]
-        )
-        cursor = conn.cursor(dictionary=True)
+        conn, cursor = dp.connect_to_mysql(data)
         logger.log("Connected to DB for stop postcode enrichment.")
 
         query = f"SELECT stop_id, stop_name, stop_lat, stop_lon FROM {STOPS_TABLE};"
