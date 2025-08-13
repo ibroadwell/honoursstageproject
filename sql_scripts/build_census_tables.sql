@@ -6,7 +6,7 @@ CREATE TABLE ts001 (
     total int,
     household int,
     communal int
-    ); -- optionally enclosed by '"'
+    );
     
 DROP TABLE IF EXISTS ts007a;
 CREATE TABLE ts007a (
