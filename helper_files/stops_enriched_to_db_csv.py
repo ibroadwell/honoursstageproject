@@ -10,7 +10,7 @@ import os
 import helper_files.helper as helper
 
 def write_enriched_to_db_csv(input_json_file = helper.affix_root_path("enrich/enriched_stops_data_shops.json"),
-                              output_json_file = helper.affix_root_path("data/stops_intermediate.csv"),
+                              output_csv_file = helper.affix_root_path("data/stops_intermediate.csv"),
                                 config = helper.affix_root_path("config.json"),
                                   output_filename = helper.affix_root_path("data/stops_enriched.csv")):
     """
@@ -25,7 +25,7 @@ def write_enriched_to_db_csv(input_json_file = helper.affix_root_path("enrich/en
     df = pd.DataFrame(records)
     df = sepd.process_stops_data(df)
 
-    df.to_csv(output_json_file, index=False, lineterminator='\n')
+    df.to_csv(output_csv_file, index=False, lineterminator='\n')
 
     SOURCE_CSV_FOLDER = helper.affix_root_path('data')
 
