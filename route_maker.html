@@ -91,7 +91,7 @@
             shadowUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-shadow.png',
         });
 
-        const map = L.map('map').setView([53.7159, -0.3541], 13); 
+        const map = L.map('map').setView([53.7159, -0.3541], 13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         }).addTo(map);
@@ -190,7 +190,7 @@
         });
 
         addStopBtn.addEventListener('click', () => {
-            addingStopMode = !addingStopMode; 
+            addingStopMode = !addingStopMode;
             drawingMode = false;
             updateUIState();
         });
@@ -207,7 +207,7 @@
             showMessage('Map cleared!', 'info');
         });
 
-        generateBtn.addEventListener('click', async () => { 
+        generateBtn.addEventListener('click', async () => {
             if (polylinePoints.length < 2) {
                 showMessage('Please draw a route with at least two points.', 'error');
                 return;
@@ -217,31 +217,59 @@
                 return;
             }
 
-            const customShapeId = document.getElementById('customShapeId').value; // Get the custom shape ID
+            const customShapeId = document.getElementById('customShapeId').value;
 
             let shapesCsv = 'shape_id,shape_pt_sequence,shape_pt_lat,shape_pt_lon\n';
             for (let i = 0; i < polylinePoints.length; i++) {
                 shapesCsv += `${customShapeId},${i},${polylinePoints[i][0]},${polylinePoints[i][1]}\n`;
             }
 
+            const polylineDistances = [0];
+            for (let i = 1; i < polylinePoints.length; i++) {
+                const prevPoint = polylinePoints[i - 1];
+                const currentPoint = polylinePoints[i];
+                const segmentDist = haversine(prevPoint[0], prevPoint[1], currentPoint[0], currentPoint[1]);
+                polylineDistances.push(polylineDistances[i - 1] + segmentDist);
+            }
+
             let stopsSequenceCsv = 'stop_id,shape_id,stop_sequence,stop_lat,stop_lon\n';
-            
-            const sortedStops = [...stops].map(stop => {
-                let minPolylineDist = Infinity;
-                let closestPolylinePointIndex = -1;
-                for (let i = 0; i < polylinePoints.length; i++) {
-                    const dist = haversine(stop.lat, stop.lon, polylinePoints[i][0], polylinePoints[i][1]);
-                    if (dist < minPolylineDist) { 
-                        minPolylineDist = dist;
-                        closestPolylinePointIndex = i;
+
+            const sortedStops = stops.map(stop => {
+                let minDistanceAlongRoute = Infinity;
+
+                for (let i = 0; i < polylinePoints.length - 1; i++) {
+                    const p1 = polylinePoints[i];
+                    const p2 = polylinePoints[i + 1];
+                    const stopPoint = [stop.lat, stop.lon];
+
+                    const segmentVector = [p2[0] - p1[0], p2[1] - p1[1]];
+                    const stopVector = [stopPoint[0] - p1[0], stopPoint[1] - p1[1]];
+
+                    const segmentLengthSq = segmentVector[0] * segmentVector[0] + segmentVector[1] * segmentVector[1];
+                    let t = 0;
+                    if (segmentLengthSq !== 0) {
+                        t = ((stopVector[0] * segmentVector[0] + stopVector[1] * segmentVector[1]) / segmentLengthSq);
+                    }
+                    t = Math.max(0, Math.min(1, t));
+
+                    const closestPointLat = p1[0] + t * segmentVector[0];
+                    const closestPointLon = p1[1] + t * segmentVector[1];
+
+                    const distanceToStartOfSegment = polylineDistances[i];
+                    const distanceAlongSegment = haversine(p1[0], p1[1], closestPointLat, closestPointLon);
+                    const totalDistance = distanceToStartOfSegment + distanceAlongSegment;
+
+                    if (totalDistance < minDistanceAlongRoute) {
+                        minDistanceAlongRoute = totalDistance;
                     }
                 }
-                return { ...stop, polyline_index: closestPolylinePointIndex };
-            }).sort((a, b) => a.polyline_index - b.polyline_index);
+                return { ...stop, distance_along_route: minDistanceAlongRoute };
+            }).sort((a, b) => a.distance_along_route - b.distance_along_route);
 
             sortedStops.forEach((stop, index) => {
                 stopsSequenceCsv += `${stop.id},${customShapeId},${index + 1},${stop.lat},${stop.lon}\n`;
             });
+
 
             const downloadFile = (content, filename, type) => {
                 const blob = new Blob([content], { type: type });
