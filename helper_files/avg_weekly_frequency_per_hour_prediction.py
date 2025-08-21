@@ -1,13 +1,16 @@
+# avg_weekly_frequency_per_hour_prediction.py
+
 import pandas as pd
 import numpy as np
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import os
 import joblib
 import json
 import math
-
 import helper_files.helper as helper
-
+import helper_files.logger as logger
 from sklearn.model_selection import train_test_split
 from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
@@ -41,7 +44,7 @@ def calculate_and_save_min_max_values(dataset, model_dir):
 
     with open(os.path.join(model_dir, 'min_max_values.json'), 'w') as f:
         json.dump(min_max_values, f, indent=4)
-    print(f"Min/Max values for log-transformed features saved to {os.path.join(model_dir, 'min_max_values.json')}")
+    logger.log(f"Min/Max values for log-transformed features saved to {os.path.join(model_dir, 'min_max_values.json')}")
 
 
 def run_prediction_model(model_dir=helper.affix_root_path("models")):
@@ -80,7 +83,7 @@ def run_prediction_model(model_dir=helper.affix_root_path("models")):
 
     model = GradientBoostingRegressor(random_state=0)
     model.fit(X_train, y_train)
-    print("Model training complete.")
+    logger.log("Model training complete.")
 
     y_pred = model.predict(X_test)
     
@@ -91,7 +94,7 @@ def run_prediction_model(model_dir=helper.affix_root_path("models")):
     joblib.dump(imputer_mean_X, os.path.join(model_dir, 'imputer_X.joblib'))
     joblib.dump(scaler_X, os.path.join(model_dir, 'scaler_X.joblib'))
     joblib.dump(scaler_y, os.path.join(model_dir, 'scaler_y.joblib'))
-    print(f"Model and preprocessors saved to {model_dir}")
+    logger.log(f"Model and preprocessors saved to {model_dir}")
 
     plt.figure(figsize=(10, 6))
     plt.scatter(y_test_original, y_pred_original, color='g', alpha=0.6)
@@ -104,7 +107,7 @@ def run_prediction_model(model_dir=helper.affix_root_path("models")):
     
     plt.savefig(os.path.join(model_dir, 'predicted_vs_actual.png'), dpi=300, bbox_inches='tight')
     plt.close()
-    print(f"Plot saved to {model_dir}")
+    logger.log(f"Plot saved to {model_dir}")
 
 
 def predict_on_new_data(new_data_row):

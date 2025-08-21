@@ -1,9 +1,11 @@
+# folium_map_route_generation.py
+
 import json
 import folium
 import os
 import glob
 import helper_files.logger as logger
-import tqdm
+from tqdm import tqdm
 import helper_files.helper as helper
 
 def generate_html_maps(output_dir = helper.affix_root_path("output"), map_dir = helper.affix_root_path("maps")):

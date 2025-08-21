@@ -1,4 +1,116 @@
-Starting application tasks...
-Building avg_weekly_frequency_per_hour prediction model...
-Completed avg_weekly_frequency_per_hour prediction model.
-All application tasks completed successfully.
+Min/Max values for log-transformed features saved to e:\Honours Stage Repo\honoursstageproject\models\min_max_values.json
+Model training complete.
+Model and preprocessors saved to e:\Honours Stage Repo\honoursstageproject\models
+Plot saved to e:\Honours Stage Repo\honoursstageproject\models
+DataFrame before imputation:
+           stop_id                      stop_name   stop_lat  stop_lon  postcode  ... employed_total bus_commute_total avg_weekly_frequency_per_hour  customer_convenience_score  commute_opportunity_score
+0     2200YEA00378         Hessle Boothferry Road  53.732380 -0.434509  HU13 9AT  ...          132.0               0.0                      1.035443                      0.4196                     0.4201
+1     2200YEA00936                 Hessle Darleys  53.732969 -0.435579  HU13 9AT  ...          132.0               0.0                      1.000000                      0.4182                     0.4201
+2     2290YHA00591       Hessle Road Fire Station  53.725595 -0.416194   HU4 7BG  ...           97.0               8.0                      1.959743                      0.6238                     0.7005
+3     2290YHA00976                  Winship Close  53.739096 -0.358721   HU3 2QN  ...          129.0               8.0                      2.561829                      0.6712                     0.7247
+4     2200YEA00977             Coniston Hull Road  53.797082 -0.248579  HU11 4LD  ...          176.0               0.0                      0.990257                      0.3515                     0.4447
+...            ...                            ...        ...       ...       ...  ...            ...               ...                           ...                         ...                        ...
+3729  3200YNA01086        Allerston (Cayley Arms)  54.235375 -0.656900  YO18 7PJ  ...          140.0               1.0                      0.622729                      0.3008                     0.5219
+3730  3200YNA00867                     Copse Hill  54.215756 -0.303359  YO14 9NG  ...          230.0               9.0                      2.234014                      0.5778                     0.7888
+3731  2200YEA01445  Sutton On Derwent Main Street  53.905988 -0.927631  YO41 4BT  ...          161.0               0.0                      1.000000                      0.3474                     0.4371
+3732  3200YNA01077                   Barkers Lane  54.226781 -0.582243  YO13 9AG  ...          104.0               2.0                      0.655043                      0.4123                     0.5531
+3733  3200YNA01078                 Primary School  54.226797 -0.581353  YO13 9AG  ...          104.0               2.0                      0.622729                      0.4108                     0.5531
+
+[3734 rows x 17 columns]
+
+Calculated median for 'shops_nearby_count': 2.0
+Calculated median for 'oa21pop': 301.0
+Calculated median for 'employed_total': 139.0
+
+DataFrame after imputation:
+           stop_id                      stop_name   stop_lat  stop_lon  postcode  ... employed_total bus_commute_total avg_weekly_frequency_per_hour  customer_convenience_score  commute_opportunity_score
+0     2200YEA00378         Hessle Boothferry Road  53.732380 -0.434509  HU13 9AT  ...          132.0               0.0                      1.035443                      0.4196                     0.4201
+1     2200YEA00936                 Hessle Darleys  53.732969 -0.435579  HU13 9AT  ...          132.0               0.0                      1.000000                      0.4182                     0.4201
+2     2290YHA00591       Hessle Road Fire Station  53.725595 -0.416194   HU4 7BG  ...           97.0               8.0                      1.959743                      0.6238                     0.7005
+3     2290YHA00976                  Winship Close  53.739096 -0.358721   HU3 2QN  ...          129.0               8.0                      2.561829                      0.6712                     0.7247
+4     2200YEA00977             Coniston Hull Road  53.797082 -0.248579  HU11 4LD  ...          176.0               0.0                      0.990257                      0.3515                     0.4447
+...            ...                            ...        ...       ...       ...  ...            ...               ...                           ...                         ...                        ...
+3729  3200YNA01086        Allerston (Cayley Arms)  54.235375 -0.656900  YO18 7PJ  ...          140.0               1.0                      0.622729                      0.3008                     0.5219
+3730  3200YNA00867                     Copse Hill  54.215756 -0.303359  YO14 9NG  ...          230.0               9.0                      2.234014                      0.5778                     0.7888
+3731  2200YEA01445  Sutton On Derwent Main Street  53.905988 -0.927631  YO41 4BT  ...          161.0               0.0                      1.000000                      0.3474                     0.4371
+3732  3200YNA01077                   Barkers Lane  54.226781 -0.582243  YO13 9AG  ...          104.0               2.0                      0.655043                      0.4123                     0.5531
+3733  3200YNA01078                 Primary School  54.226797 -0.581353  YO13 9AG  ...          104.0               2.0                      0.622729                      0.4108                     0.5531
+
+[3734 rows x 17 columns]
+
+Loaded cluster mapping from JSON.
+Added 'cluster_category' column to the DataFrame.
+K-Means model saved to 'kmeans_model.joblib'
+StandardScaler saved to 'scaler.joblib'
+Clustering complete. Found 3 clusters.
+
+First 5 rows with new cluster labels:
+                  stop_name  oa21pop  shops_nearby_count  employed_total  cluster
+0    Hessle Boothferry Road    255.0                   1           132.0        0
+1            Hessle Darleys    255.0                   1           132.0        0
+2  Hessle Road Fire Station    228.0                  13            97.0        0
+3             Winship Close    374.0                  15           129.0        0
+4        Coniston Hull Road    322.0                   1           176.0        2
+
+Cluster Summary (Mean values for each feature):
+            oa21pop  shops_nearby_count  employed_total
+cluster                                                
+0        267.932153            6.754741      118.145807
+1        249.864000          230.528000      136.632000
+2        399.850324            6.002427      188.368123
+DataFrame before imputation:
+           stop_id                      stop_name   stop_lat  stop_lon  postcode  ... employed_total bus_commute_total avg_weekly_frequency_per_hour  customer_convenience_score  commute_opportunity_score
+0     2200YEA00378         Hessle Boothferry Road  53.732380 -0.434509  HU13 9AT  ...          132.0               0.0                      1.035443                      0.4196                     0.4201
+1     2200YEA00936                 Hessle Darleys  53.732969 -0.435579  HU13 9AT  ...          132.0               0.0                      1.000000                      0.4182                     0.4201
+2     2290YHA00591       Hessle Road Fire Station  53.725595 -0.416194   HU4 7BG  ...           97.0               8.0                      1.959743                      0.6238                     0.7005
+3     2290YHA00976                  Winship Close  53.739096 -0.358721   HU3 2QN  ...          129.0               8.0                      2.561829                      0.6712                     0.7247
+4     2200YEA00977             Coniston Hull Road  53.797082 -0.248579  HU11 4LD  ...          176.0               0.0                      0.990257                      0.3515                     0.4447
+...            ...                            ...        ...       ...       ...  ...            ...               ...                           ...                         ...                        ...
+3729  3200YNA01086        Allerston (Cayley Arms)  54.235375 -0.656900  YO18 7PJ  ...          140.0               1.0                      0.622729                      0.3008                     0.5219
+3730  3200YNA00867                     Copse Hill  54.215756 -0.303359  YO14 9NG  ...          230.0               9.0                      2.234014                      0.5778                     0.7888
+3731  2200YEA01445  Sutton On Derwent Main Street  53.905988 -0.927631  YO41 4BT  ...          161.0               0.0                      1.000000                      0.3474                     0.4371
+3732  3200YNA01077                   Barkers Lane  54.226781 -0.582243  YO13 9AG  ...          104.0               2.0                      0.655043                      0.4123                     0.5531
+3733  3200YNA01078                 Primary School  54.226797 -0.581353  YO13 9AG  ...          104.0               2.0                      0.622729                      0.4108                     0.5531
+
+[3734 rows x 17 columns]
+
+Calculated median for 'shops_nearby_count': 2.0
+Calculated median for 'oa21pop': 301.0
+Calculated median for 'employed_total': 139.0
+
+DataFrame after imputation:
+           stop_id                      stop_name   stop_lat  stop_lon  postcode  ... employed_total bus_commute_total avg_weekly_frequency_per_hour  customer_convenience_score  commute_opportunity_score
+0     2200YEA00378         Hessle Boothferry Road  53.732380 -0.434509  HU13 9AT  ...          132.0               0.0                      1.035443                      0.4196                     0.4201
+1     2200YEA00936                 Hessle Darleys  53.732969 -0.435579  HU13 9AT  ...          132.0               0.0                      1.000000                      0.4182                     0.4201
+2     2290YHA00591       Hessle Road Fire Station  53.725595 -0.416194   HU4 7BG  ...           97.0               8.0                      1.959743                      0.6238                     0.7005
+3     2290YHA00976                  Winship Close  53.739096 -0.358721   HU3 2QN  ...          129.0               8.0                      2.561829                      0.6712                     0.7247
+4     2200YEA00977             Coniston Hull Road  53.797082 -0.248579  HU11 4LD  ...          176.0               0.0                      0.990257                      0.3515                     0.4447
+...            ...                            ...        ...       ...       ...  ...            ...               ...                           ...                         ...                        ...
+3729  3200YNA01086        Allerston (Cayley Arms)  54.235375 -0.656900  YO18 7PJ  ...          140.0               1.0                      0.622729                      0.3008                     0.5219
+3730  3200YNA00867                     Copse Hill  54.215756 -0.303359  YO14 9NG  ...          230.0               9.0                      2.234014                      0.5778                     0.7888
+3731  2200YEA01445  Sutton On Derwent Main Street  53.905988 -0.927631  YO41 4BT  ...          161.0               0.0                      1.000000                      0.3474                     0.4371
+3732  3200YNA01077                   Barkers Lane  54.226781 -0.582243  YO13 9AG  ...          104.0               2.0                      0.655043                      0.4123                     0.5531
+3733  3200YNA01078                 Primary School  54.226797 -0.581353  YO13 9AG  ...          104.0               2.0                      0.622729                      0.4108                     0.5531
+
+[3734 rows x 17 columns]
+
+Loaded cluster mapping from JSON.
+Added 'cluster_category' column to the DataFrame.
+K-Means model saved to 'kmeans_model.joblib'
+StandardScaler saved to 'scaler.joblib'
+Clustering complete. Found 3 clusters.
+
+First 5 rows with new cluster labels:
+                  stop_name  oa21pop  shops_nearby_count  employed_total  cluster
+0    Hessle Boothferry Road    255.0                   1           132.0        0
+1            Hessle Darleys    255.0                   1           132.0        0
+2  Hessle Road Fire Station    228.0                  13            97.0        0
+3             Winship Close    374.0                  15           129.0        0
+4        Coniston Hull Road    322.0                   1           176.0        2
+
+Cluster Summary (Mean values for each feature):
+            oa21pop  shops_nearby_count  employed_total
+cluster                                                
+0        267.932153            6.754741      118.145807
+1        249.864000          230.528000      136.632000
+2        399.850324            6.002427      188.368123
